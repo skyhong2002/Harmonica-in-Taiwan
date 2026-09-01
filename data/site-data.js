@@ -87,6 +87,94 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-67",
+      "publicId": "67",
+      "name": "Marcos Coll",
+      "nameEn": "Marcos Coll",
+      "category": "活動資訊",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "西班牙",
+      "region": "西班牙/德國/國際",
+      "cityOrFocus": "13歲開始演奏口琴/西班牙與歐洲藍調代表人物/Los Reyes del K.O.與Tonky Blues Band/曾與Mick Taylor、Buddy Miles等巡演錄音/融合藍調、拉丁、嘻哈與西班牙音樂/2009與2013世界口琴節演出、工作坊及評審/2025與2026首爾國際口琴節",
+      "structuredSummary": "13歲開始演奏口琴/西班牙與歐洲藍調代表人物/Los Reyes del K.O.與Tonky Blues Band/曾與Mick Taylor、Buddy Miles等巡演錄音/融合藍調、拉丁、嘻哈與西班牙音樂/2009與2013世界口琴節演出、工作坊及評審/2025與2026首爾國際口琴節 / 十孔口琴/藍調口琴/半音階口琴 / 國際演出人員/錄音藝術家/國際音樂節評審與講師/HOHNER藝術家",
+      "summary": "西班牙的國際演出人員、錄音藝術家與國際音樂節評審與講師，涵蓋13歲開始演奏口琴、西班牙與歐洲藍調代表人物、Los Reyes del K.O.與Tonky Blues Band、曾與Mick Taylor與Buddy Miles等巡演錄音。",
+      "keywords": "Marcos Coll harmonica Spain Galicia Berlin Los Reyes del KO Tonky Blues Band Mick Taylor Buddy Miles HOHNER WHF 2009 2013 SIHF 2025 2026 blues Latin hip hop",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://marcoscoll.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/marcoscollharp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/marcoscollgonzalez/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@MarcosCollharpandsoul"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "67-marcos-coll",
+      "latestUpdateAt": "2026-09-01T12:48:27+00:00",
+      "latestUpdateLocal": "2026-09-01 20:48",
+      "latestUpdateSource": "Marcos Coll",
+      "latestUpdateUrl": "https://www.instagram.com/stories/marcoscollgonzalez/3976593506029799549/",
+      "avatarUrl": "/assets/source-avatars/2af91b2fc2afb1c9c4a2.webp",
+      "sourceInitials": "MC",
+      "sourceTags": [
+        "活動資訊",
+        "演奏者",
+        "音樂節",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_marcoscollharp",
+          "name": "Marcos Coll",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/marcoscollharp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_marcoscollharpandsoul",
+          "name": "Marcos Coll",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-100",
       "publicId": "100",
       "name": "曹小歐",
@@ -2742,94 +2830,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "shggaitas",
           "profileUrl": "https://www.instagram.com/shggaitas/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-67",
-      "publicId": "67",
-      "name": "Marcos Coll",
-      "nameEn": "Marcos Coll",
-      "category": "活動資訊",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "西班牙",
-      "region": "西班牙/德國/國際",
-      "cityOrFocus": "13歲開始演奏口琴/西班牙與歐洲藍調代表人物/Los Reyes del K.O.與Tonky Blues Band/曾與Mick Taylor、Buddy Miles等巡演錄音/融合藍調、拉丁、嘻哈與西班牙音樂/2009與2013世界口琴節演出、工作坊及評審/2025與2026首爾國際口琴節",
-      "structuredSummary": "13歲開始演奏口琴/西班牙與歐洲藍調代表人物/Los Reyes del K.O.與Tonky Blues Band/曾與Mick Taylor、Buddy Miles等巡演錄音/融合藍調、拉丁、嘻哈與西班牙音樂/2009與2013世界口琴節演出、工作坊及評審/2025與2026首爾國際口琴節 / 十孔口琴/藍調口琴/半音階口琴 / 國際演出人員/錄音藝術家/國際音樂節評審與講師/HOHNER藝術家",
-      "summary": "西班牙的國際演出人員、錄音藝術家與國際音樂節評審與講師，涵蓋13歲開始演奏口琴、西班牙與歐洲藍調代表人物、Los Reyes del K.O.與Tonky Blues Band、曾與Mick Taylor與Buddy Miles等巡演錄音。",
-      "keywords": "Marcos Coll harmonica Spain Galicia Berlin Los Reyes del KO Tonky Blues Band Mick Taylor Buddy Miles HOHNER WHF 2009 2013 SIHF 2025 2026 blues Latin hip hop",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://marcoscoll.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/marcoscollharp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/marcoscollgonzalez/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@MarcosCollharpandsoul"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "67-marcos-coll",
-      "latestUpdateAt": "2026-08-31T17:18:24+00:00",
-      "latestUpdateLocal": "2026-09-01 01:18",
-      "latestUpdateSource": "Marcos Coll",
-      "latestUpdateUrl": "https://www.instagram.com/stories/marcoscollgonzalez/3976004600263633387/",
-      "avatarUrl": "/assets/source-avatars/2af91b2fc2afb1c9c4a2.webp",
-      "sourceInitials": "MC",
-      "sourceTags": [
-        "活動資訊",
-        "演奏者",
-        "音樂節",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_marcoscollharp",
-          "name": "Marcos Coll",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/marcoscollharp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_marcoscollgonzalez",
-          "name": "Marcos Coll",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "marcoscollgonzalez",
-          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_marcoscollgonzalez",
-          "name": "Marcos Coll",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "marcoscollgonzalez",
-          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_marcoscollharpandsoul",
-          "name": "Marcos Coll",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
           "feedUrl": ""
         }
       ]
@@ -11402,7 +11402,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-13 11:06",
       "latestUpdateSource": "Gordon Lee 李俊樂",
       "latestUpdateUrl": "https://www.instagram.com/stories/gordonleeharmonica/3962529875692792083/",
-      "avatarUrl": "/assets/source-avatars/3fb983236f3a88fae973.webp",
+      "avatarUrl": "/assets/source-avatars/8d5318b63cde6f7e1be6.webp",
       "sourceInitials": "GL",
       "sourceTags": [
         "演奏者",

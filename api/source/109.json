@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T13:54:40.283629Z",
+  "generatedAt": "2026-09-01T14:01:31.236879Z",
   "source": {
     "id": 109,
     "slug": "boris-plotnikov",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/109-boris-plotnikov/"
   },
   "items": [
+    {
+      "id": "post-043fdf88e3c9af5405f18d74",
+      "title": "Друзья! Поздравляю всех с началом учебного года!",
+      "excerpt": "Друзья! Поздравляю всех с началом учебного года! С сентября принято получать новые знания, и у меня как раз есть пара слотов для новых постоянных учеников. Беру учеников с нуля (с 14 лет), продолжающих и опытных — например, если хочется поставить технику овербендинга. Разовые ко…",
+      "url": "https://www.facebook.com/boris.plotnikov.9/posts/pfbid022zpuAM6812vD8oxxPehJThAhCUPXPWtmM5QQh4oJeBeyszFzXtFyA35N7bGL5tnMl",
+      "sourceName": "Boris Plotnikov",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-01T08:40:17Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9f5ceca9c5cb20449843.webp",
+        "width": 526,
+        "height": 526
+      }
+    },
     {
       "id": "post-57777b79644f986dad4c311d",
       "title": "Can 3rd position sound funky and major? Here's my take on the Konstantin Reinfeld 3rd Position Blues Challenge.",

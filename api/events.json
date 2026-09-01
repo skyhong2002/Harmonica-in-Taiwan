@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 676,
+  "count": 677,
   "items": [
     {
       "title": "香港學校音樂節｜Instagram story @hksmsa_official",
@@ -73,6 +73,83 @@
         "公開活動"
       ],
       "key": "ig_story_hksmsa_official:3976475402696163952"
+    },
+    {
+      "title": "Boris Plotnikov｜Друзья! Поздравляю всех с началом учебного года! С сентября принято получать новые знания, и у меня как…",
+      "headline": "Друзья! Поздравляю всех с началом учебного года!",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/boris.plotnikov.9/posts/pfbid022zpuAM6812vD8oxxPehJThAhCUPXPWtmM5QQh4oJeBeyszFzXtFyA35N7bGL5tnMl",
+      "source_id": "fb_boris_plotnikov_9",
+      "source": "Boris Plotnikov",
+      "source_system_name": "Boris Plotnikov",
+      "source_profile_url": "https://facebook.com/boris.plotnikov.9",
+      "country": "俄羅斯",
+      "region": "俄羅斯",
+      "directory_entry_id": "watchlist-109",
+      "directory_entry_name": "Boris Plotnikov",
+      "account": "boris.plotnikov.9",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-09-01T08:40:17.000Z",
+      "posted_at_local": "2026-09-01 16:40",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-01T14:00:39.484504+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "招生",
+        "課程",
+        "公開更新"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.93,
+      "llm_labels": [
+        "口琴",
+        "招生",
+        "課程",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "opportunities"
+      ],
+      "llm_reason": "口琴演奏者公開招生與教學，含新學員、諮詢與口琴客製化資訊，屬相關公開更新。",
+      "text": "Друзья! Поздравляю всех с началом учебного года!\nС сентября принято получать новые знания, и у меня как раз есть пара слотов для новых постоянных учеников.\nБеру учеников с нуля (с 14 лет), продолжающих и опытных — например, если хочется поставить технику овербендинга. Разовые консультации тоже возможны. Также обучаю кастомизации губных гармоник.\nЕсли у вас ещё нет гармоники или хочется новую, её тоже можно приобрести у меня: есть запас JDR разных моделей и тональностей. При желании могу сделать кастомизацию «как для себя»!\nПишите в личку.\nЗЫ. Меня до сих пор, кстати, передёргивает от 1 сентября. Учился я зачем-то хорошо, но школу, понятное дело, не любил.\nhttps://www.facebook.com/photo/?fbid=10242347884262600&set=a.10204857888796144",
+      "images": [
+        "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/789565108_10242347884342602_5571349473533141450_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x2048&ctp=p526x296&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=4uXgnloCmjIQ7kNvwEkc2q5&_nc_oc=AdpIGEfQKAtgkjRUGXycnJd_RgECwyBZmCh12C3vJMCaYtlXwNXRZv7XvbasSsLcWsRTl6XoVHWZhmdl7Aybfwfj&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=_M_iUxCT26xMdf_Ji0X0wQ&_nc_ss=73289&oh=00_AQLk1jzmza2lXUCf-zgbgrb5De5QKezbT2qWApVBN6dtRg&oe=6A9C9C07"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/789565108_10242347884342602_5571349473533141450_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x2048&ctp=p526x296&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=4uXgnloCmjIQ7kNvwEkc2q5&_nc_oc=AdpIGEfQKAtgkjRUGXycnJd_RgECwyBZmCh12C3vJMCaYtlXwNXRZv7XvbasSsLcWsRTl6XoVHWZhmdl7Aybfwfj&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=_M_iUxCT26xMdf_Ji0X0wQ&_nc_ss=73289&oh=00_AQLk1jzmza2lXUCf-zgbgrb5De5QKezbT2qWApVBN6dtRg&oe=6A9C9C07",
+      "image_url": "/assets/feed-images/9f5ceca9c5cb20449843.webp",
+      "image_width": 526,
+      "image_height": 526,
+      "source_avatar_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/503893448_10235626863441280_8856423482262828785_n.jpg?stp=c342.0.1364.1365a_cp0_dst-jpg_tt6&cstp=mx1364x1365&ctp=s50x50&_nc_cat=100&ccb=1-7&_nc_sid=1d2534&_nc_ohc=JMCwr9GcadUQ7kNvwEo67St&_nc_oc=AdpFOBBEQA9JLl70H6-tsdfbJzAITzqzgZQhdmGNogzwnWUANfDj3l7M-a1ZMxK4TnrAGRvBcbXkGXJoQmFgiCSn&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=_M_iUxCT26xMdf_Ji0X0wQ&_nc_ss=73289&oh=00_AQJBEwECmSUPa40rmSO8AQheTq2hRZQN4Y_SWEzhI7Ialw&oe=6A9C9DDB",
+      "avatar_url": "/assets/source-avatars/b9442d30103fd42aa5fb.webp",
+      "source_initials": "BP",
+      "categories": [
+        "posts-videos",
+        "opportunities",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽",
+        "公開活動"
+      ],
+      "key": "fb_boris_plotnikov_9:10242347886422654"
     },
     {
       "title": "太平國小口琴隊｜臺中市政府教育局-校園活動報導 --> 跳到主要內容區 臺中市政府教育局 回首頁 市府首頁 網站導覽 常見問答 快速連結 English 教育服務網 A- A A+ 搜尋 單位介紹 首長介紹 組織與職掌 各級學校 局徽介紹…",
