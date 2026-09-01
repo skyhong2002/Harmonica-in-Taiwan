@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/student-clubs.xml",
   "json": "https://harmonica.observe.tw/api/student-clubs.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/student-clubs.json",
-  "count": 264,
+  "count": 265,
   "items": [
     {
       "title": "太平國小口琴隊｜臺中市政府教育局-校園活動報導 --> 跳到主要內容區 臺中市政府教育局 回首頁 市府首頁 網站導覽 常見問答 快速連結 English 教育服務網 A- A A+ 搜尋 單位介紹 首長介紹 組織與職掌 各級學校 局徽介紹…",
@@ -337,6 +337,73 @@
         "學生社團"
       ],
       "key": "web_12:440b2b8bd2b3a6073e30ff739007a99d64c7ae747b1d0ac45d69133b1bddc7f7"
+    },
+    {
+      "title": "中山醫學大學藍韻口琴社｜Instagram story @csmu_bluemelody",
+      "headline": "Instagram story @csmu_bluemelody",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/stories/csmu_bluemelody/3976365515610044537/",
+      "source_id": "ig_story_csmu_bluemelody",
+      "source": "中山醫學大學藍韻口琴社",
+      "source_system_name": "中山醫藍韻口琴社",
+      "source_profile_url": "https://www.instagram.com/csmu_bluemelody/",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "directory_entry_id": "watchlist-187",
+      "directory_entry_name": "中山醫藍韻口琴社",
+      "account": "csmu_bluemelody",
+      "platform": "instagram",
+      "platform_label": "Instagram story",
+      "posted_at": "2026-09-01T05:15:27+00:00",
+      "posted_at_local": "2026-09-01 13:15",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-01T11:41:26.515956+00:00",
+      "media_type": "instagram_story",
+      "story": true,
+      "story_provider": "instaloader",
+      "story_fetched_at": "2026-09-01T11:39:47.095041+00:00",
+      "story_expires_at": "2026-09-02T05:15:27+00:00",
+      "source_feed_url": "https://www.instagram.com/csmu_bluemelody/",
+      "rsshub_guid": "3976365515610044537",
+      "rsshub_title": "Instagram story @csmu_bluemelody",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "限時動態"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": null,
+      "llm_confidence": null,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "",
+      "text": "Instagram story @csmu_bluemelody",
+      "images": [
+        "https://scontent-tpe5-1.cdninstagram.com/v/t51.71878-15/790425312_957726504035842_6840842315691114735_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi42NDAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuYzIifQ&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gHJTopTLEUjuUa_mWENs-DgII-WQYCgj1K39gKU0FI3_I7nd6db5SmemTbyG1kPWAE&_nc_ohc=e5_j2EXppK4Q7kNvwHs9R73&_nc_gid=dxbDtPMddYNRer1qx9MBHg&edm=AHlfZHwBAAAA&ccb=7-5&oh=00_AQLJGZWDba-d2bVd5dcjEsswyLNhxzfZ652WxFybaXMjjw&oe=6A9CA60B&_nc_sid=d8d02b"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m78/AQMpHbmVRf7moUc-OS5tQgPKgc8pV3tdJqE8DcAo1u-oQDf1cY2Gey3tNTHcY6AqT53Hr5ssocIPb9ws8yOgutGtEJkJGZ7tXc2qF20.mp4?_nc_cat=105&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=5domW3EsN_YQ7kNvwG-SnEm&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uU1RPUlkuQzMuNDgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTUxODA0NjYwMDA3ODc2OSwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMTAwLCJkdXJhdGlvbl9zIjoxNSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=94c499c6d1bb486f&_nc_vs=HBksFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzI4NDZFMDAxQjFBOTUzQkJDRDUwNjc3Mzk1Q0NDRkFFX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhRaWdfeHB2X3BsYWNlbWVudF9wZXJtYW5lbnRfdjIvNUY0QjJDOTVCRDYwNjhFNDI4NTA1QjNGRUY0MzI5QjZfYXVkaW9fZGFzaGluaXQubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJuKWzcX4qbIFFQIoAkMzLBdALgAAAAAAABgSZGFzaF9iYXNlbGluZV8xX3YxEQB16Adl6J0BAA&_nc_gid=dxbDtPMddYNRer1qx9MBHg&_nc_zt=28&_nc_ss=7a22e&oh=00_AQIZed9u1WGPtSXQJbRMK-vBVvXF-rLHqXOgdS66A_FlMg&oe=6A98A352"
+      ],
+      "source_image_url": "https://scontent-tpe5-1.cdninstagram.com/v/t51.71878-15/790425312_957726504035842_6840842315691114735_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi42NDAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuYzIifQ&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gHJTopTLEUjuUa_mWENs-DgII-WQYCgj1K39gKU0FI3_I7nd6db5SmemTbyG1kPWAE&_nc_ohc=e5_j2EXppK4Q7kNvwHs9R73&_nc_gid=dxbDtPMddYNRer1qx9MBHg&edm=AHlfZHwBAAAA&ccb=7-5&oh=00_AQLJGZWDba-d2bVd5dcjEsswyLNhxzfZ652WxFybaXMjjw&oe=6A9CA60B&_nc_sid=d8d02b",
+      "image_url": "/assets/feed-images/7a467f5d2dd6664100fa.webp",
+      "image_width": 640,
+      "image_height": 1138,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/527987559_17878900227369795_7321683611600346623_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=103&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=M2i46GZEExMQ7kNvwH-UVhF&_nc_oc=Adpg7ar9eX1V8vvfs5alwB1-j3_qNScCVNLSB5jTzHCa16cfKj_35P9gGiE3lMYMUgs&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Lsel-_chwZvQJM3p4zoawQ&_nc_ss=7f20f&oh=00_AQADrEKiOlXHWRpGX3BeMzCjvrffQ2QJGwjZXxE4luoCdQ&oe=6A4F2A38",
+      "avatar_url": "/assets/source-avatars/c80a7a9dba8d47f96adb.webp",
+      "source_initials": "中山",
+      "categories": [
+        "posts-videos",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "學生社團"
+      ],
+      "key": "ig_story_csmu_bluemelody:3976365515610044537"
     },
     {
       "title": "中山醫學大學藍韻口琴社｜【寶可夢30週年主題猜歌大賽⚡暨口琴社迎新】 今年迎新，我們把猜歌大賽變成一場寶可夢捕捉挑戰！ 🎮 活動玩法 1. 每題播放由口琴音檔演奏的曲目，參賽者使用手機進行節奏遊戲，取得第一階段分數 2. 節奏遊戲結束後進…",

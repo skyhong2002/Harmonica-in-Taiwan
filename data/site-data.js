@@ -2,6 +2,94 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-09-01",
   "entries": [
     {
+      "id": "watchlist-109",
+      "publicId": "109",
+      "name": "Boris Plotnikov",
+      "nameEn": "Boris Plotnikov",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "俄羅斯",
+      "region": "俄羅斯",
+      "cityOrFocus": "莫斯科職業口琴演奏/藍調爵士/國際比賽得獎/教學工作坊/SIHF 2026",
+      "structuredSummary": "莫斯科職業口琴演奏/藍調爵士/國際比賽得獎/教學工作坊/SIHF 2026 / 十孔/半音階 / 國際演出人員/教學者",
+      "summary": "俄羅斯的十孔與半音階國際演出人員與教學者，活動脈絡包含莫斯科職業口琴演奏、藍調爵士與國際比賽得獎。",
+      "keywords": "Boris Plotnikov etaborya boris_plotnikov harmonica SIHF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://borisplotnikov.ru/en"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/boris.plotnikov.9"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/boris_plotnikov/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@etaborya"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "109-boris-plotnikov",
+      "latestUpdateAt": "2026-09-01T08:54:59+00:00",
+      "latestUpdateLocal": "2026-09-01 16:54",
+      "latestUpdateSource": "Boris Plotnikov",
+      "latestUpdateUrl": "https://www.instagram.com/stories/boris_plotnikov/3976475991597649988/",
+      "avatarUrl": "/assets/source-avatars/boris-plotnikov.jpg",
+      "sourceInitials": "BP",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "比賽",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_boris_plotnikov_9",
+          "name": "Boris Plotnikov",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/boris.plotnikov.9",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_boris_plotnikov",
+          "name": "Boris Plotnikov",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "boris_plotnikov",
+          "profileUrl": "https://www.instagram.com/boris_plotnikov/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_boris_plotnikov",
+          "name": "Boris Plotnikov",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "boris_plotnikov",
+          "profileUrl": "https://www.instagram.com/boris_plotnikov/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_etaborya",
+          "name": "Boris Plotnikov",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@etaborya",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-161",
       "publicId": "161",
       "name": "香港學校音樂節",
@@ -989,10 +1077,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "187-csmu-blue-melody",
-      "latestUpdateAt": "2026-09-01T04:41:12+00:00",
-      "latestUpdateLocal": "2026-09-01 12:41",
+      "latestUpdateAt": "2026-09-01T05:15:27+00:00",
+      "latestUpdateLocal": "2026-09-01 13:15",
       "latestUpdateSource": "中山醫藍韻口琴社",
-      "latestUpdateUrl": "https://www.instagram.com/p/Dcu06wJGAuf/",
+      "latestUpdateUrl": "https://www.instagram.com/stories/csmu_bluemelody/3976365515610044537/",
       "avatarUrl": "/assets/source-avatars/39930b25baa734e906bc.webp",
       "sourceInitials": "中山",
       "sourceTags": [
@@ -3020,94 +3108,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-109",
-      "publicId": "109",
-      "name": "Boris Plotnikov",
-      "nameEn": "Boris Plotnikov",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "俄羅斯",
-      "region": "俄羅斯",
-      "cityOrFocus": "莫斯科職業口琴演奏/藍調爵士/國際比賽得獎/教學工作坊/SIHF 2026",
-      "structuredSummary": "莫斯科職業口琴演奏/藍調爵士/國際比賽得獎/教學工作坊/SIHF 2026 / 十孔/半音階 / 國際演出人員/教學者",
-      "summary": "俄羅斯的十孔與半音階國際演出人員與教學者，活動脈絡包含莫斯科職業口琴演奏、藍調爵士與國際比賽得獎。",
-      "keywords": "Boris Plotnikov etaborya boris_plotnikov harmonica SIHF 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://borisplotnikov.ru/en"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/boris.plotnikov.9"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/boris_plotnikov/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@etaborya"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "109-boris-plotnikov",
-      "latestUpdateAt": "2026-08-31T12:58:59+00:00",
-      "latestUpdateLocal": "2026-08-31 20:58",
-      "latestUpdateSource": "Boris Plotnikov",
-      "latestUpdateUrl": "https://www.instagram.com/stories/boris_plotnikov/3975874101239420821/",
-      "avatarUrl": "/assets/source-avatars/boris-plotnikov.jpg",
-      "sourceInitials": "BP",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "比賽",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_boris_plotnikov_9",
-          "name": "Boris Plotnikov",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/boris.plotnikov.9",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_boris_plotnikov",
-          "name": "Boris Plotnikov",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "boris_plotnikov",
-          "profileUrl": "https://www.instagram.com/boris_plotnikov/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_boris_plotnikov",
-          "name": "Boris Plotnikov",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "boris_plotnikov",
-          "profileUrl": "https://www.instagram.com/boris_plotnikov/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_etaborya",
-          "name": "Boris Plotnikov",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@etaborya",
           "feedUrl": ""
         }
       ]
@@ -8984,7 +8984,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-23 18:52",
       "latestUpdateSource": "莊筑迪",
       "latestUpdateUrl": "https://www.instagram.com/p/DcYSVsQlPVN/",
-      "avatarUrl": "/assets/source-avatars/0eb215eea1a44d62798e.webp",
+      "avatarUrl": "/assets/source-avatars/61201c1e6663b733a787.webp",
       "sourceInitials": "莊筑",
       "sourceTags": [
         "演奏者",
@@ -11402,7 +11402,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-13 11:06",
       "latestUpdateSource": "Gordon Lee 李俊樂",
       "latestUpdateUrl": "https://www.instagram.com/stories/gordonleeharmonica/3962529875692792083/",
-      "avatarUrl": "/assets/source-avatars/32c4000fbe080a70fa6d.webp",
+      "avatarUrl": "/assets/source-avatars/3fb983236f3a88fae973.webp",
       "sourceInitials": "GL",
       "sourceTags": [
         "演奏者",
