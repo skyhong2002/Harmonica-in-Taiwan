@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 686,
+  "count": 687,
   "items": [
     {
       "title": "太平國小口琴隊｜臺中市政府教育局-校園活動報導 --> 跳到主要內容區 臺中市政府教育局 回首頁 市府首頁 網站導覽 常見問答 快速連結 English 教育服務網 A- A A+ 搜尋 單位介紹 首長介紹 組織與職掌 各級學校 局徽介紹…",
@@ -1058,6 +1058,73 @@
         "公開活動"
       ],
       "key": "ig_marcoscollgonzalez:3976559389622073449"
+    },
+    {
+      "title": "香港學校音樂節｜Instagram story @hksmsa_official",
+      "headline": "Instagram story @hksmsa_official",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/stories/hksmsa_official/3976545506096771484/",
+      "source_id": "ig_story_hksmsa_official",
+      "source": "香港學校音樂節",
+      "source_system_name": "香港學校音樂節",
+      "source_profile_url": "https://www.instagram.com/hksmsa_official/",
+      "country": "香港",
+      "region": "香港",
+      "directory_entry_id": "watchlist-161",
+      "directory_entry_name": "香港學校音樂節",
+      "account": "hksmsa_official",
+      "platform": "instagram",
+      "platform_label": "Instagram story",
+      "posted_at": "2026-09-01T11:13:01+00:00",
+      "posted_at_local": "2026-09-01 19:13",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-01T22:37:48.671042+00:00",
+      "media_type": "instagram_story",
+      "story": true,
+      "story_provider": "instaloader",
+      "story_fetched_at": "2026-09-01T22:36:40.347901+00:00",
+      "story_expires_at": "2026-09-02T11:13:01+00:00",
+      "source_feed_url": "https://www.instagram.com/hksmsa_official/",
+      "rsshub_guid": "3976545506096771484",
+      "rsshub_title": "Instagram story @hksmsa_official",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "限時動態"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": false,
+      "llm_confidence": 0.96,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "僅見香港學校音樂節限時動態標記，無口琴內容或相關活動資訊。",
+      "text": "Instagram story @hksmsa_official",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/792807206_1394731966189531_8911880742393896031_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi42NDAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gFhS2yOBClRPopI4TL2s8S74YfEYJ4Gt8w-WO-FUSS8JyCchlT7SlYTgolq7ZBjyWM&_nc_ohc=BG_rqLnVECsQ7kNvwFoqShx&_nc_gid=kgQNVs4ps_rZbTeEnqOiXQ&edm=AHlfZHwBAAAA&ccb=7-5&oh=00_AQIbf4X4DrAfT1eiMHBFsdUnpBc4AjIvjhhjF9brjxNbZA&oe=6A9D2435&_nc_sid=d8d02b"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m78/AQN2xoWgWMb5GjOtD7Cy1IxQqi5AYf-cN15808EAKNEmoVVZ4hUOM-NFESO-EsbDluZPl4zC1X8ptTKSOH4NeuT4w_fu1DUZoUDrrjM.mp4?_nc_cat=104&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=r-MVoItXIMYQ7kNvwHRW4-i&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uU1RPUlkuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5MDU0MjE0Njk1MTY2MzcsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDEwMCwiZHVyYXRpb25fcyI6MywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=326233771185c625&_nc_vs=HBkcFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzY2NEMzRUY0RkMwRDkyRTgyMEM4NzI2MDVGQzg3N0I2X3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACa6jfTj2bjOPxUCKAJDMywXQAhDlYEGJN0YEmRhc2hfYmFzZWxpbmVfMV92MREAdegHZeidAQA&_nc_gid=kgQNVs4ps_rZbTeEnqOiXQ&_nc_zt=28&_nc_ss=7a22e&oh=00_AQIESsNolDt_8y78uboR4scU1oWai8TJMnGeV4sFqgZ1KA&oe=6A991861"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/792807206_1394731966189531_8911880742393896031_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi42NDAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gFhS2yOBClRPopI4TL2s8S74YfEYJ4Gt8w-WO-FUSS8JyCchlT7SlYTgolq7ZBjyWM&_nc_ohc=BG_rqLnVECsQ7kNvwFoqShx&_nc_gid=kgQNVs4ps_rZbTeEnqOiXQ&edm=AHlfZHwBAAAA&ccb=7-5&oh=00_AQIbf4X4DrAfT1eiMHBFsdUnpBc4AjIvjhhjF9brjxNbZA&oe=6A9D2435&_nc_sid=d8d02b",
+      "image_url": "/assets/feed-images/32a337522b0f5c1d5e31.webp",
+      "image_width": 640,
+      "image_height": 1136,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/520634650_17847730449516637_6501610777958270188_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42NDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gFNeEGt0XDeiBTHi-x_27HTaBjiqqHTVv6lzRNHYif9pFrHW5_byTq8aB1quJgkpzs&_nc_ohc=43vQM50o6gQQ7kNvwGnyIsq&_nc_gid=yIlex25LYzK5ATOqhXIVzw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQC-WmTtmrEkMhF_coe-04y3RY4gFcO6xnfEOV-6Vm2NdA&oe=6A5A6861&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/cdae648ad34b959a90a2.webp",
+      "source_initials": "香港",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "ig_story_hksmsa_official:3976545506096771484"
     },
     {
       "title": "臺中國家歌劇院 National Taichung Theater｜2026 NTT 遇見巨人 | 亞倫．路西恩．奧文《安蒂岡妮》關於愛 改編自3000年前希臘劇作家索福克里斯的經典悲劇，挪威編舞家亞倫．路西恩．奧文透過《安蒂岡妮》，將這…",

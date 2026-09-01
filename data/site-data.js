@@ -1836,6 +1836,80 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-161",
+      "publicId": "161",
+      "name": "香港學校音樂節",
+      "nameEn": "Hong Kong Schools Music Festival",
+      "category": "活動資訊",
+      "type": "學校社團",
+      "originalType": "學校比賽/資訊入口",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "學校音樂節/口琴獨奏/二重奏/合奏/口琴隊",
+      "structuredSummary": "學校音樂節/口琴獨奏/二重奏/合奏/口琴隊 / 口琴/學生合奏 / 學生比賽來源",
+      "summary": "香港的學生比賽來源，涵蓋學校音樂節、口琴獨奏、二重奏、合奏與口琴隊。",
+      "keywords": "香港學校音樂節 Hong Kong Schools Music Festival Harmonica Melodica Recorder",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hksmsa.org.hk/en/78th-hong-kong-schools-music-festival-2026/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hksmsa/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hksmsa_official/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "161-hong-kong-schools-music-festival",
+      "latestUpdateAt": "2026-09-01T11:13:01+00:00",
+      "latestUpdateLocal": "2026-09-01 19:13",
+      "latestUpdateSource": "香港學校音樂節",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hksmsa_official/3976545506096771484/",
+      "avatarUrl": "/assets/source-avatars/cdae648ad34b959a90a2.webp",
+      "sourceInitials": "香港",
+      "sourceTags": [
+        "學生社團",
+        "活動資訊",
+        "音樂節",
+        "比賽",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hksmsa",
+          "name": "香港學校音樂節",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hksmsa",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hksmsa_official",
+          "name": "香港學校音樂節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hksmsa_official",
+          "profileUrl": "https://www.instagram.com/hksmsa_official/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hksmsa_official",
+          "name": "香港學校音樂節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hksmsa_official",
+          "profileUrl": "https://www.instagram.com/hksmsa_official/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-115",
       "publicId": "115",
       "name": "Filip Jers",
@@ -2371,80 +2445,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@reyharpnaufal5101",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-161",
-      "publicId": "161",
-      "name": "香港學校音樂節",
-      "nameEn": "Hong Kong Schools Music Festival",
-      "category": "活動資訊",
-      "type": "學校社團",
-      "originalType": "學校比賽/資訊入口",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "學校音樂節/口琴獨奏/二重奏/合奏/口琴隊",
-      "structuredSummary": "學校音樂節/口琴獨奏/二重奏/合奏/口琴隊 / 口琴/學生合奏 / 學生比賽來源",
-      "summary": "香港的學生比賽來源，涵蓋學校音樂節、口琴獨奏、二重奏、合奏與口琴隊。",
-      "keywords": "香港學校音樂節 Hong Kong Schools Music Festival Harmonica Melodica Recorder",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hksmsa.org.hk/en/78th-hong-kong-schools-music-festival-2026/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hksmsa/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hksmsa_official/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "161-hong-kong-schools-music-festival",
-      "latestUpdateAt": "2026-09-01T08:53:48+00:00",
-      "latestUpdateLocal": "2026-09-01 16:53",
-      "latestUpdateSource": "香港學校音樂節",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hksmsa_official/3976475402696163952/",
-      "avatarUrl": "/assets/source-avatars/cdae648ad34b959a90a2.webp",
-      "sourceInitials": "香港",
-      "sourceTags": [
-        "學生社團",
-        "活動資訊",
-        "音樂節",
-        "比賽",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_hksmsa",
-          "name": "香港學校音樂節",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hksmsa",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hksmsa_official",
-          "name": "香港學校音樂節",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hksmsa_official",
-          "profileUrl": "https://www.instagram.com/hksmsa_official/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hksmsa_official",
-          "name": "香港學校音樂節",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hksmsa_official",
-          "profileUrl": "https://www.instagram.com/hksmsa_official/",
           "feedUrl": ""
         }
       ]
