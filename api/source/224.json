@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T02:07:38.854987Z",
+  "generatedAt": "2026-09-01T02:40:41.370024Z",
   "source": {
     "id": 224,
     "slug": "easttop-harmonicas",
@@ -340,34 +340,6 @@
       "publishedAt": "2026-08-02T07:01:29Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/46d829d11d255d364429.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-1eb61d3131a0d9a6a670d2ca",
-      "title": "EAST TOP adopt fully automatic reed planing machines for production",
-      "excerpt": "EAST TOP adopt fully automatic reed planing machines for production The reed is the soul of a harmonica. We adopt fully automatic reed planing machines for production. This advanced equipment delivers higher precision for every reed, enabling our harmonicas to achieve accurate a…",
-      "url": "https://www.youtube.com/watch?v=cQ-EUiO-5rQ",
-      "sourceName": "Easttop Harmonicas",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-02T02:12:47Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/039878e693cf575dd4a3.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-ff6297b7c33556496593cc1b",
-      "title": "EAST TOP is the only harmonica factory that applies visual management decoration in China",
-      "excerpt": "EAST TOP is the only harmonica factory that applies visual management decoration in China EAST TOP is the only harmonica factory in China that applies visual management decoration throughout the workshop. With systematic visual layout and standardized visual signage, every produ…",
-      "url": "https://www.youtube.com/watch?v=2mY6wNjTxXA",
-      "sourceName": "Easttop Harmonicas",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-02T02:08:20Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/0635ac73f071a185e734.webp",
         "width": 800,
         "height": 450
       }
