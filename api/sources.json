@@ -71,6 +71,89 @@
   },
   "entries": [
     {
+      "id": "watchlist-166",
+      "publicId": "166",
+      "name": "海明威口琴重奏團",
+      "nameEn": "The HummingWay Harmonica Ensemble",
+      "category": "活動資訊",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "馬來西亞口琴重奏/跨國音樂節/社群演出",
+      "structuredSummary": "馬來西亞口琴重奏/跨國音樂節/社群演出 / 口琴重奏/合奏 / 國際演出團體",
+      "summary": "馬來西亞的國際演出團體，涵蓋馬來西亞口琴重奏、跨國音樂節與社群演出。",
+      "keywords": "海明威口琴重奏團 HummingWay Harmonica Ensemble Malaysia harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/TheHummingWay/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hummingwayharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@hummingwaythe9424"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "166-the-hummingway-harmonica-ensemble",
+      "latestUpdateAt": "2026-09-01T10:58:48+00:00",
+      "latestUpdateLocal": "2026-09-01 18:58",
+      "latestUpdateSource": "海明威口琴重奏團",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hummingwayharmonica/3976538348231748710/",
+      "avatarUrl": "/assets/source-avatars/2ef4ae828cb5a7d1c96c.webp",
+      "sourceInitials": "海明",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "音樂節",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_thehummingway",
+          "name": "海明威口琴重奏團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/TheHummingWay",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hummingwayharmonica",
+          "name": "海明威口琴重奏團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hummingwayharmonica",
+          "profileUrl": "https://www.instagram.com/hummingwayharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hummingwayharmonica",
+          "name": "海明威口琴重奏團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hummingwayharmonica",
+          "profileUrl": "https://www.instagram.com/hummingwayharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_hummingwaythe9424",
+          "name": "海明威口琴重奏團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@hummingwaythe9424",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-109",
       "publicId": "109",
       "name": "Boris Plotnikov",
@@ -1966,6 +2049,92 @@
       ]
     },
     {
+      "id": "watchlist-118",
+      "publicId": "118",
+      "name": "Federico Linari",
+      "nameEn": "Federico Linari",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "阿根廷",
+      "region": "阿根廷",
+      "cityOrFocus": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源",
+      "structuredSummary": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源 / 十孔/爵士口琴 / 國際演出人員/教學者/製作人",
+      "summary": "阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。",
+      "keywords": "Federico Linari harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hohner.de/en/federico-linari"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Federico.Linari.Armonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/fede.linari/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@FedericoLinari"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "118-federico-linari",
+      "latestUpdateAt": "2026-09-01T00:26:47+00:00",
+      "latestUpdateLocal": "2026-09-01 08:26",
+      "latestUpdateSource": "Federico Linari",
+      "latestUpdateUrl": "https://www.instagram.com/stories/fede.linari/3976220222092804967/",
+      "avatarUrl": "/assets/source-avatars/federico-linari.jpg",
+      "sourceInitials": "FL",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_federico_linari_armonica",
+          "name": "Federico Linari",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Federico.Linari.Armonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_fede_linari",
+          "name": "Federico Linari",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "fede.linari",
+          "profileUrl": "https://www.instagram.com/fede.linari/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_fede_linari",
+          "name": "Federico Linari",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "fede.linari",
+          "profileUrl": "https://www.instagram.com/fede.linari/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_federicolinari",
+          "name": "Federico Linari",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@FedericoLinari",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-9",
       "publicId": "9",
       "name": "李讓 Jang Li",
@@ -3672,89 +3841,6 @@
       ]
     },
     {
-      "id": "watchlist-166",
-      "publicId": "166",
-      "name": "海明威口琴重奏團",
-      "nameEn": "The HummingWay Harmonica Ensemble",
-      "category": "活動資訊",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "馬來西亞口琴重奏/跨國音樂節/社群演出",
-      "structuredSummary": "馬來西亞口琴重奏/跨國音樂節/社群演出 / 口琴重奏/合奏 / 國際演出團體",
-      "summary": "馬來西亞的國際演出團體，涵蓋馬來西亞口琴重奏、跨國音樂節與社群演出。",
-      "keywords": "海明威口琴重奏團 HummingWay Harmonica Ensemble Malaysia harmonica",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/TheHummingWay/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hummingwayharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@hummingwaythe9424"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "166-the-hummingway-harmonica-ensemble",
-      "latestUpdateAt": "2026-08-31T06:55:27+00:00",
-      "latestUpdateLocal": "2026-08-31 14:55",
-      "latestUpdateSource": "海明威口琴重奏團",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hummingwayharmonica/3975691057060248402/",
-      "avatarUrl": "/assets/source-avatars/2ef4ae828cb5a7d1c96c.webp",
-      "sourceInitials": "海明",
-      "sourceTags": [
-        "活動資訊",
-        "團體樂團",
-        "音樂節",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_thehummingway",
-          "name": "海明威口琴重奏團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/TheHummingWay",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hummingwayharmonica",
-          "name": "海明威口琴重奏團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hummingwayharmonica",
-          "profileUrl": "https://www.instagram.com/hummingwayharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hummingwayharmonica",
-          "name": "海明威口琴重奏團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hummingwayharmonica",
-          "profileUrl": "https://www.instagram.com/hummingwayharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_hummingwaythe9424",
-          "name": "海明威口琴重奏團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@hummingwaythe9424",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-115",
       "publicId": "115",
       "name": "Filip Jers",
@@ -3871,7 +3957,7 @@
       "latestUpdateLocal": "2026-08-31 14:23",
       "latestUpdateSource": "Lee Hangyeol 이한결",
       "latestUpdateUrl": "https://www.instagram.com/stories/gyeoli_94/3975674956381902689/",
-      "avatarUrl": "/assets/source-avatars/36b9a5b3f7f8d862d50c.webp",
+      "avatarUrl": "/assets/source-avatars/15323ad86bb9858e4e81.webp",
       "sourceInitials": "LH",
       "sourceTags": [
         "演奏者",
@@ -7612,92 +7698,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-118",
-      "publicId": "118",
-      "name": "Federico Linari",
-      "nameEn": "Federico Linari",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "阿根廷",
-      "region": "阿根廷",
-      "cityOrFocus": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源",
-      "structuredSummary": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源 / 十孔/爵士口琴 / 國際演出人員/教學者/製作人",
-      "summary": "阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。",
-      "keywords": "Federico Linari harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hohner.de/en/federico-linari"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Federico.Linari.Armonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/fede.linari/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@FedericoLinari"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "118-federico-linari",
-      "latestUpdateAt": "2026-08-25T13:00:09+00:00",
-      "latestUpdateLocal": "2026-08-25 21:00",
-      "latestUpdateSource": "Federico Linari",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcdscxsRB-J/",
-      "avatarUrl": "/assets/source-avatars/federico-linari.jpg",
-      "sourceInitials": "FL",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_federico_linari_armonica",
-          "name": "Federico Linari",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Federico.Linari.Armonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_fede_linari",
-          "name": "Federico Linari",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "fede.linari",
-          "profileUrl": "https://www.instagram.com/fede.linari/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_fede_linari",
-          "name": "Federico Linari",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "fede.linari",
-          "profileUrl": "https://www.instagram.com/fede.linari/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_federicolinari",
-          "name": "Federico Linari",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@FedericoLinari",
           "feedUrl": ""
         }
       ]

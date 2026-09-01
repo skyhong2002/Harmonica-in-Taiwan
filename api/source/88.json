@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T11:42:17.043410Z",
+  "generatedAt": "2026-09-01T12:17:18.140097Z",
   "source": {
     "id": 88,
     "slug": "bluebo-harmonica",
@@ -146,20 +146,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/e8c815baa4684fae4c02.webp",
         "width": 480,
         "height": 360
-      }
-    },
-    {
-      "id": "post-f84fa924ecc7e309193e9a3a",
-      "title": "95歲爺爺 快樂學口琴",
-      "excerpt": "95歲爺爺 快樂學口琴 每次開學都會有新同學來問老師說: 「我年紀那麼大了，還能學好口琴嗎? 」影片中的何大哥今年95歲，還是孜孜不倦地來學口琴，所以年紀不是問題，就看你願不願意跨出這一步囉!",
-      "url": "https://www.youtube.com/watch?v=Eh_9btxwEM4",
-      "sourceName": "藍波口琴教室",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-02T11:50:31Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/087fc3b1c73519b94d2a.webp",
-        "width": 800,
-        "height": 450
       }
     }
   ]
