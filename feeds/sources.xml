@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 01 Sep 2026 16:50:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 17:24:24 +0000</lastBuildDate>
     <item>
       <title>彰女微光口琴社</title>
       <link>https://www.instagram.com/chgsh_harmonica/</link>
@@ -27,6 +27,17 @@ Tag：品牌、活動資訊、音樂節、半音階、十孔、國際交流
 國家：中國
 地區：中國/江蘇/江陰
 中國的器材品牌與活動贊助單位，涵蓋口琴製造、器材資訊與國際音樂節贊助。</description>
+    </item>
+    <item>
+      <title>臺中國家歌劇院</title>
+      <link>https://www.npac-ntt.org/index</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/3bda2c9a244d309c</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/臺中
+臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>Evelyn Choong 鍾雪兒</title>
@@ -544,17 +555,6 @@ Tag：活動資訊、團體樂團、演奏者、音樂節、半音階、重奏�
 國家：香港
 地區：香港
 香港的國際演出人員、教育者與國際賽事評審，涵蓋英皇書院口琴隊出身、2012亞太口琴節六重奏冠軍、2013世界口琴節半音階獨奏與大合奏冠軍及團體季軍、2014亞太口琴節半音階公開組冠軍與2010上海世博與國際音樂節演出。</description>
-    </item>
-    <item>
-      <title>臺中國家歌劇院</title>
-      <link>https://www.npac-ntt.org/index</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/3bda2c9a244d309c</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/臺中
-臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>Liam Ward &amp; Malcolm Thorne</title>
