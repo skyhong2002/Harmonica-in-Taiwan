@@ -71,6 +71,188 @@
   },
   "entries": [
     {
+      "id": "watchlist-58",
+      "publicId": "58",
+      "name": "南里沙",
+      "nameEn": "Minami Risa",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流/2026 琴韻東坡・簧鳴西南",
+      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流/2026 琴韻東坡・簧鳴西南 / 半音階 / 國際演出人員",
+      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
+      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ 琴韻東坡 簧鳴西南 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://minamirisa.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/minamirisa/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/minami_risa/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@minamirisa"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/minami_risa"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@minami_risa"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "58-minami-risa",
+      "latestUpdateAt": "2026-09-01T02:01:12+00:00",
+      "latestUpdateLocal": "2026-09-01 10:01",
+      "latestUpdateSource": "南里沙",
+      "latestUpdateUrl": "https://x.com/minami_risa/status/2094606466238103583",
+      "avatarUrl": "/assets/source-avatars/c381d87d290434bb6bbc.webp",
+      "sourceInitials": "南里",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_minamirisa",
+          "name": "南里沙",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/minamirisa",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": ""
+        },
+        {
+          "id": "x_minami_risa",
+          "name": "南里沙",
+          "platform": "x",
+          "type": "rss",
+          "username": "minami_risa",
+          "profileUrl": "https://x.com/minami_risa",
+          "feedUrl": "https://rss.observe.tw/twitter/user/minami_risa"
+        },
+        {
+          "id": "yt_minamirisa",
+          "name": "南里沙",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@minamirisa",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-189",
+      "publicId": "189",
+      "name": "逢甲口琴社",
+      "nameEn": "FCU Harmonica",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "逢甲大學/學校社團/臺中",
+      "structuredSummary": "逢甲大學/學校社團/臺中 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
+      "keywords": "逢甲口琴社 FCU Harmonica 口琴社",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/FCUharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/fcu_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@fengchiaharmonicaclub7692"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "189-fcu-harmonica",
+      "latestUpdateAt": "2026-09-01T01:23:00+00:00",
+      "latestUpdateLocal": "2026-09-01 09:23",
+      "latestUpdateSource": "逢甲口琴社",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcueOyLvTak/",
+      "avatarUrl": "/assets/source-avatars/dbd027a3a26a35c4cc0f.webp",
+      "sourceInitials": "逢甲",
+      "sourceTags": [
+        "學生社團",
+        "大專社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_fcu_harmonica",
+          "name": "FCU Harmonica",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_fcu_harmonica",
+          "name": "FCU Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "fcu_harmonica",
+          "profileUrl": "https://www.instagram.com/fcu_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_fcu_harmonica",
+          "name": "逢甲口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "fcu_harmonica",
+          "profileUrl": "https://www.instagram.com/fcu_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_fengchiaharmonicaclub7692",
+          "name": "逢甲口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@fengchiaharmonicaclub7692",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-54",
       "publicId": "54",
       "name": "CY Leo 何卓彥",
@@ -156,78 +338,6 @@
       ]
     },
     {
-      "id": "watchlist-125",
-      "publicId": "125",
-      "name": "Jens Bunge",
-      "nameEn": "Jens Bunge",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "德國",
-      "region": "德國",
-      "cityOrFocus": "德國爵士口琴/半音階演奏/國際演出與錄音",
-      "structuredSummary": "德國爵士口琴/半音階演奏/國際演出與錄音 / 半音階/爵士口琴 / 國際演出人員",
-      "summary": "德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。",
-      "keywords": "Jens Bunge jazz harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://hohner.de/en/jens-bunge"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/jensbunge.jazzharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@jensbunge"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "125-jens-bunge",
-      "latestUpdateAt": "2026-08-31T18:10:31+00:00",
-      "latestUpdateLocal": "2026-09-01 02:10",
-      "latestUpdateSource": "Jens Bunge",
-      "latestUpdateUrl": "https://www.instagram.com/stories/jensbunge.jazzharmonica/3976030948235764459/",
-      "avatarUrl": "/assets/source-avatars/jens-bunge.jpg",
-      "sourceInitials": "JB",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_jensbunge_jazzharmonica",
-          "name": "Jens Bunge",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "jensbunge.jazzharmonica",
-          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_jensbunge_jazzharmonica",
-          "name": "Jens Bunge",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "jensbunge.jazzharmonica",
-          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_jensbunge",
-          "name": "Jens Bunge",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@jensbunge",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-140",
       "publicId": "140",
       "name": "Gregoire Maret",
@@ -262,10 +372,10 @@
       "source": "watchlist",
       "aliases": [],
       "slug": "140-gregoire-maret",
-      "latestUpdateAt": "2026-08-31T18:06:11+00:00",
-      "latestUpdateLocal": "2026-09-01 02:06",
+      "latestUpdateAt": "2026-08-31T22:30:37+00:00",
+      "latestUpdateLocal": "2026-09-01 06:30",
       "latestUpdateSource": "Gregoire Maret",
-      "latestUpdateUrl": "https://www.instagram.com/p/DctsPv9DVvo/",
+      "latestUpdateUrl": "https://www.instagram.com/stories/gregoiremaret/3976161735730346329/",
       "avatarUrl": "/assets/source-avatars/e781a4f4250a052d9036.webp",
       "sourceInitials": "GM",
       "sourceTags": [
@@ -308,6 +418,78 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@GregoireMaret",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-125",
+      "publicId": "125",
+      "name": "Jens Bunge",
+      "nameEn": "Jens Bunge",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "德國",
+      "region": "德國",
+      "cityOrFocus": "德國爵士口琴/半音階演奏/國際演出與錄音",
+      "structuredSummary": "德國爵士口琴/半音階演奏/國際演出與錄音 / 半音階/爵士口琴 / 國際演出人員",
+      "summary": "德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。",
+      "keywords": "Jens Bunge jazz harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://hohner.de/en/jens-bunge"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jensbunge.jazzharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@jensbunge"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "125-jens-bunge",
+      "latestUpdateAt": "2026-08-31T21:24:18+00:00",
+      "latestUpdateLocal": "2026-09-01 05:24",
+      "latestUpdateSource": "Jens Bunge",
+      "latestUpdateUrl": "https://www.instagram.com/stories/jensbunge.jazzharmonica/3976128374158228114/",
+      "avatarUrl": "/assets/source-avatars/jens-bunge.jpg",
+      "sourceInitials": "JB",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_jensbunge_jazzharmonica",
+          "name": "Jens Bunge",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "jensbunge.jazzharmonica",
+          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_jensbunge_jazzharmonica",
+          "name": "Jens Bunge",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "jensbunge.jazzharmonica",
+          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_jensbunge",
+          "name": "Jens Bunge",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@jensbunge",
           "feedUrl": ""
         }
       ]
@@ -1436,108 +1618,6 @@
       ]
     },
     {
-      "id": "watchlist-58",
-      "publicId": "58",
-      "name": "南里沙",
-      "nameEn": "Minami Risa",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流/2026 琴韻東坡・簧鳴西南",
-      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流/2026 琴韻東坡・簧鳴西南 / 半音階 / 國際演出人員",
-      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
-      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ 琴韻東坡 簧鳴西南 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://minamirisa.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/minamirisa/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/minami_risa/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@minamirisa"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/minami_risa"
-        },
-        {
-          "label": "TikTok",
-          "url": "https://www.tiktok.com/@minami_risa"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "58-minami-risa",
-      "latestUpdateAt": "2026-08-31T13:39:05+00:00",
-      "latestUpdateLocal": "2026-08-31 21:39",
-      "latestUpdateSource": "南里沙",
-      "latestUpdateUrl": "https://x.com/minami_risa/status/2094419706895798506",
-      "avatarUrl": "/assets/source-avatars/c381d87d290434bb6bbc.webp",
-      "sourceInitials": "南里",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_minamirisa",
-          "name": "南里沙",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/minamirisa",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_minami_risa",
-          "name": "南里沙",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "minami_risa",
-          "profileUrl": "https://www.instagram.com/minami_risa/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_minami_risa",
-          "name": "南里沙",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "minami_risa",
-          "profileUrl": "https://www.instagram.com/minami_risa/",
-          "feedUrl": ""
-        },
-        {
-          "id": "x_minami_risa",
-          "name": "南里沙",
-          "platform": "x",
-          "type": "rss",
-          "username": "minami_risa",
-          "profileUrl": "https://x.com/minami_risa",
-          "feedUrl": "https://rss.observe.tw/twitter/user/minami_risa"
-        },
-        {
-          "id": "yt_minamirisa",
-          "name": "南里沙",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@minamirisa",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-55",
       "publicId": "55",
       "name": "梁承熹 Kelvin Leung",
@@ -1944,86 +2024,6 @@
           "type": "rsshub_instagram_story",
           "username": "chgsh_harmonica",
           "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-189",
-      "publicId": "189",
-      "name": "逢甲口琴社",
-      "nameEn": "FCU Harmonica",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "逢甲大學/學校社團/臺中",
-      "structuredSummary": "逢甲大學/學校社團/臺中 / 口琴 / 學校社團",
-      "summary": "臺灣的口琴學校社團。",
-      "keywords": "逢甲口琴社 FCU Harmonica 口琴社",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/FCUharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/fcu_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@fengchiaharmonicaclub7692"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "189-fcu-harmonica",
-      "latestUpdateAt": "2026-08-31T12:35:09+00:00",
-      "latestUpdateLocal": "2026-08-31 20:35",
-      "latestUpdateSource": "逢甲口琴社",
-      "latestUpdateUrl": "https://www.instagram.com/p/DctGQvVTDkm/",
-      "avatarUrl": "/assets/source-avatars/dbd027a3a26a35c4cc0f.webp",
-      "sourceInitials": "逢甲",
-      "sourceTags": [
-        "學生社團",
-        "大專社團"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_fcu_harmonica",
-          "name": "FCU Harmonica",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_fcu_harmonica",
-          "name": "FCU Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "fcu_harmonica",
-          "profileUrl": "https://www.instagram.com/fcu_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_fcu_harmonica",
-          "name": "逢甲口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "fcu_harmonica",
-          "profileUrl": "https://www.instagram.com/fcu_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_fengchiaharmonicaclub7692",
-          "name": "逢甲口琴社",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@fengchiaharmonicaclub7692",
           "feedUrl": ""
         }
       ]
