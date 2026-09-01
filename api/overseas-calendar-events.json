@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-02T06:38:48+08:00",
+  "generatedAt": "2026-09-02T07:09:35+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "overseas_physical",
-  "count": 10,
+  "count": 11,
   "source": "/api/events.json",
   "ics": "/feeds/overseas-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -14,7 +14,7 @@
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 0,
+      "requests": 4,
       "cached": 26,
       "errors": 0
     }
@@ -275,6 +275,42 @@
         "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/772265143_1690618266403579_878248659833092620_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1920&ctp=p526x296&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=OLUibseIXvYQ7kNvwGCRa5X&_nc_oc=AdrINbq4m5CIIRyQrlzBnlwBOePSBK8iZgzsC0Cpimwoc7jFFHy3NdxIlnu1FL2tuAhB9bnUj-0yAXRhf8ZCtUfN&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=aK1hOQ1ZEUWwILkG6aw3bw&_nc_ss=72289&oh=00_AQE_GXTle5aXwQ5ZSX4CATafJXj-g0wB2cp_CfX6JSq2tw&oe=6A8C6430"
       ],
       "image_url": "/assets/feed-images/a58c97187f3e8524246e.webp"
+    },
+    {
+      "id": "27c7beee2756d514",
+      "title": "上富田文化会館開館30周年記念事業 山下伶 クロマチックハーモニカ・コンサート",
+      "eventName": "上富田文化会館開館30周年記念事業 山下伶 クロマチックハーモニカ・コンサート",
+      "source": "山下伶 / Rei Yamashita",
+      "platform": "instagram",
+      "start": "2026-10-12",
+      "end": "2026-10-13",
+      "allDay": true,
+      "calendarType": "overseas_physical",
+      "timezone": "Asia/Tokyo",
+      "location": "和歌山県上富田町 上富田文化会館 文化ホール",
+      "venue": "上富田文化会館 文化ホール",
+      "city": "和歌山県上富田町",
+      "details": "主辦／演出者：山下伶 Rei Yamashita。山下伶的クロマチックハーモニカ演出，為上富田文化會館開館30周年記念事業。活動日期為10月12日（月・祝）。",
+      "evidenceUrl": "https://www.instagram.com/p/Dcvwqx3pfzi/",
+      "confidence": 0.98,
+      "calendarReview": {
+        "include": true,
+        "country": "日本",
+        "eventMode": "overseas_physical",
+        "timezone": "Asia/Tokyo",
+        "candidateDateMatches": true,
+        "eventName": "上富田文化会館開館30周年記念事業 山下伶 クロマチックハーモニカ・コンサート",
+        "venue": "上富田文化会館 文化ホール",
+        "city": "和歌山県上富田町",
+        "details": "主辦／演出者：山下伶 Rei Yamashita。山下伶的クロマチックハーモニカ演出，為上富田文化會館開館30周年記念事業。活動日期為10月12日（月・祝）。",
+        "reason": "候選日期10/12與貼文中的活動日期一致，且為日本和歌山的實體口琴演出，符合收錄範圍。",
+        "confidence": 0.98
+      },
+      "postedAt": "2026-09-01 21:28",
+      "images": [
+        "https://scontent-tpe5-1.cdninstagram.com/v/t51.71878-15/791044226_1623326322705321_654236133050072687_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=Mzk3NjYxMTA0MTk4ODk2NzY1MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=GjnIK7mk-LUQ7kNvwEuHxeV&_nc_oc=AdpywPxEhkmjHI83Vd4wwbpvBhbcd4lIeo6qJbi0jg3gsMI0frMuPr470nAQ5sa2TO4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_gid=Dbi-vB41JYWzl4zxsPgO5g&_nc_ss=7a22e&oh=00_AQKIeyJ3yFliPrlZFLZzlogtYwtzD4eZX-4aWKPMlYRLXg&oe=6A9D2014"
+      ],
+      "image_url": "/assets/feed-images/f928aebb9219c8652d45.webp"
     },
     {
       "id": "3c48ac6304fd35e6",
