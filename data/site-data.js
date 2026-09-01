@@ -691,6 +691,90 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-198",
+      "publicId": "198",
+      "name": "陽明交大竹韻口琴社",
+      "nameEn": "Bamboo Melody Harmonica Club",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
+      "cityOrFocus": "1968年創立/國立陽明交通大學學生社團/古典與流行口琴教學/獨奏重奏合奏/社內競賽與成果音樂會",
+      "structuredSummary": "1968年創立/國立陽明交通大學學生社團/古典與流行口琴教學/獨奏重奏合奏/社內競賽與成果音樂會 / 半音階口琴/複音口琴/重奏與大合奏 / 大學學生社團/演出與人才培育",
+      "summary": "臺灣的半音階口琴、複音口琴與重奏與大合奏大學學生社團與演出與人才培育。",
+      "keywords": "陽明交大竹韻口琴社 Bamboo Melody Harmonica Club NYCU 交通大學 1968 口琴社",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/nycubmhc/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nycu_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "198-bamboo-melody-harmonica-club",
+      "latestUpdateAt": "2026-09-01T17:15:36+00:00",
+      "latestUpdateLocal": "2026-09-02 01:15",
+      "latestUpdateSource": "陽明交大竹韻口琴社",
+      "latestUpdateUrl": "https://www.instagram.com/stories/nycu_harmonica/3976727963173168272/",
+      "avatarUrl": "/assets/source-avatars/3a5f6bac814d96ec8d05.webp",
+      "sourceInitials": "陽明",
+      "sourceTags": [
+        "學生社團",
+        "大專社團",
+        "教學",
+        "半音階",
+        "複音",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_nycubmhc",
+          "name": "陽明交大竹韻口琴社",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/nycubmhc",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nycu_harmonica",
+          "name": "陽明交大竹韻口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nycu_harmonica",
+          "profileUrl": "https://www.instagram.com/nycu_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nycu_harmonica",
+          "name": "陽明交大竹韻口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nycu_harmonica",
+          "profileUrl": "https://www.instagram.com/nycu_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ucliodayl9_jvnbpc4nfthgw",
+          "name": "陽明交大竹韻口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-195",
       "publicId": "195",
       "name": "彰女微光口琴社",
@@ -4230,90 +4314,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-198",
-      "publicId": "198",
-      "name": "陽明交大竹韻口琴社",
-      "nameEn": "Bamboo Melody Harmonica Club",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "臺灣",
-      "region": "臺灣/新竹",
-      "cityOrFocus": "1968年創立/國立陽明交通大學學生社團/古典與流行口琴教學/獨奏重奏合奏/社內競賽與成果音樂會",
-      "structuredSummary": "1968年創立/國立陽明交通大學學生社團/古典與流行口琴教學/獨奏重奏合奏/社內競賽與成果音樂會 / 半音階口琴/複音口琴/重奏與大合奏 / 大學學生社團/演出與人才培育",
-      "summary": "臺灣的半音階口琴、複音口琴與重奏與大合奏大學學生社團與演出與人才培育。",
-      "keywords": "陽明交大竹韻口琴社 Bamboo Melody Harmonica Club NYCU 交通大學 1968 口琴社",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/nycubmhc/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/nycu_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "198-bamboo-melody-harmonica-club",
-      "latestUpdateAt": "2026-08-31T04:05:10+00:00",
-      "latestUpdateLocal": "2026-08-31 12:05",
-      "latestUpdateSource": "陽明交大竹韻口琴社",
-      "latestUpdateUrl": "https://www.instagram.com/stories/nycu_harmonica/3975605355336963402/",
-      "avatarUrl": "/assets/source-avatars/3a5f6bac814d96ec8d05.webp",
-      "sourceInitials": "陽明",
-      "sourceTags": [
-        "學生社團",
-        "大專社團",
-        "教學",
-        "半音階",
-        "複音",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_nycubmhc",
-          "name": "陽明交大竹韻口琴社",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/nycubmhc",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_nycu_harmonica",
-          "name": "陽明交大竹韻口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "nycu_harmonica",
-          "profileUrl": "https://www.instagram.com/nycu_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_nycu_harmonica",
-          "name": "陽明交大竹韻口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "nycu_harmonica",
-          "profileUrl": "https://www.instagram.com/nycu_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_ucliodayl9_jvnbpc4nfthgw",
-          "name": "陽明交大竹韻口琴社",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw",
           "feedUrl": ""
         }
       ]

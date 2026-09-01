@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T18:35:02.829638Z",
+  "generatedAt": "2026-09-01T19:03:58.183193Z",
   "source": {
     "id": 161,
     "slug": "hong-kong-schools-music-festival",
     "name": "香港學校音樂節",
     "pageUrl": "https://harmonica.observe.tw/source/161-hong-kong-schools-music-festival/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-bcabbb8465d39739839d59fe",
+      "title": ".",
+      "excerpt": ". Two days, endless inspiration, and world-class choral music right here in Hong Kong 🎶 Set to take center stage on 27–28 December, the Hong Kong International Choral Gala (HKICG) brings together renowned international maestros, guest choirs, and Hong Kong’s brightest rising sin…",
+      "url": "https://www.instagram.com/p/DcvOBcZGfJT/",
+      "sourceName": "香港學校音樂節",
+      "platform": "Instagram",
+      "publishedAt": "2026-09-01T08:20:34Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/729e3241bf2b1529e902.webp",
+        "width": 800,
+        "height": 1000
+      }
+    }
+  ]
 }
