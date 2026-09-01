@@ -584,6 +584,80 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-43",
+      "publicId": "43",
+      "name": "林裕豐",
+      "nameEn": "Yu-Feng Lin",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "胖擊口琴樂團/半音階/THMF 2026/WHF與SIHF重奏/教學",
+      "structuredSummary": "胖擊口琴樂團/半音階/THMF 2026/WHF與SIHF重奏/教學 / 半音階口琴/重奏 / 演出人員/教育者/重奏團員",
+      "summary": "臺灣的半音階口琴與重奏演出人員、教育者與重奏團員，活動脈絡包含胖擊口琴樂團、半音階與THMF 2026。",
+      "keywords": "林裕豐 口琴 胖擊 Punch THMF 2026 WHF SIHF 半音階 教學",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/course/yufeng/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yf__life/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@YFHarmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "43-yu-feng-lin",
+      "latestUpdateAt": "2026-09-01T18:29:24+00:00",
+      "latestUpdateLocal": "2026-09-02 02:29",
+      "latestUpdateSource": "林裕豐",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcwTsolk_6v/",
+      "avatarUrl": "/assets/source-avatars/3e57ec6b2722c7d0b510.webp",
+      "sourceInitials": "林裕",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "教學",
+        "半音階",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_yf_life",
+          "name": "林裕豐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yf__life",
+          "profileUrl": "https://www.instagram.com/yf__life/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_yf_life",
+          "name": "林裕豐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yf__life",
+          "profileUrl": "https://www.instagram.com/yf__life/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_yfharmonica",
+          "name": "林裕豐",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@YFHarmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-21",
       "publicId": "21",
       "name": "Orion 口琴樂團",
@@ -920,6 +994,59 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-195",
+      "publicId": "195",
+      "name": "彰女微光口琴社",
+      "nameEn": "CHGSH Harmonica",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "臺灣",
+      "region": "臺灣/彰化",
+      "cityOrFocus": "彰化女中/學校社團/彰化",
+      "structuredSummary": "彰化女中/學校社團/彰化 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
+      "keywords": "彰女微光口琴社 CHGSH Harmonica 口琴社",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chgsh_harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "195-chgsh-harmonica",
+      "latestUpdateAt": "2026-09-01T15:51:42+00:00",
+      "latestUpdateLocal": "2026-09-01 23:51",
+      "latestUpdateSource": "彰女微光口琴社",
+      "latestUpdateUrl": "https://www.instagram.com/stories/chgsh_harmonica/3976685733418811167/",
+      "avatarUrl": "/assets/source-avatars/5f8970c22acc29a1e57c.webp",
+      "sourceInitials": "彰女",
+      "sourceTags": [
+        "學生社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_chgsh_harmonica",
+          "name": "CHGSH Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "chgsh_harmonica",
+          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_chgsh_harmonica",
+          "name": "彰女微光口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "chgsh_harmonica",
+          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-103",
       "publicId": "103",
       "name": "陳瑤容 Yora Chen",
@@ -1098,59 +1225,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/c/hoontobe",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-195",
-      "publicId": "195",
-      "name": "彰女微光口琴社",
-      "nameEn": "CHGSH Harmonica",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "臺灣",
-      "region": "臺灣/彰化",
-      "cityOrFocus": "彰化女中/學校社團/彰化",
-      "structuredSummary": "彰化女中/學校社團/彰化 / 口琴 / 學校社團",
-      "summary": "臺灣的口琴學校社團。",
-      "keywords": "彰女微光口琴社 CHGSH Harmonica 口琴社",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/chgsh_harmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "195-chgsh-harmonica",
-      "latestUpdateAt": "2026-09-01T13:47:53+00:00",
-      "latestUpdateLocal": "2026-09-01 21:47",
-      "latestUpdateSource": "彰女微光口琴社",
-      "latestUpdateUrl": "https://www.instagram.com/p/Dcvze1nEg0V/",
-      "avatarUrl": "/assets/source-avatars/5f8970c22acc29a1e57c.webp",
-      "sourceInitials": "彰女",
-      "sourceTags": [
-        "學生社團"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_chgsh_harmonica",
-          "name": "CHGSH Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "chgsh_harmonica",
-          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_chgsh_harmonica",
-          "name": "彰女微光口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "chgsh_harmonica",
-          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
           "feedUrl": ""
         }
       ]
@@ -6253,80 +6327,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "facebook_page_posts",
           "username": "",
           "profileUrl": "https://facebook.com/p/%E6%A1%83%E5%9C%92%E7%8E%A9%E5%8F%A3%E7%90%B4-100057424090624",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-43",
-      "publicId": "43",
-      "name": "林裕豐",
-      "nameEn": "Yu-Feng Lin",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "胖擊口琴樂團/半音階/THMF 2026/WHF與SIHF重奏/教學",
-      "structuredSummary": "胖擊口琴樂團/半音階/THMF 2026/WHF與SIHF重奏/教學 / 半音階口琴/重奏 / 演出人員/教育者/重奏團員",
-      "summary": "臺灣的半音階口琴與重奏演出人員、教育者與重奏團員，活動脈絡包含胖擊口琴樂團、半音階與THMF 2026。",
-      "keywords": "林裕豐 口琴 胖擊 Punch THMF 2026 WHF SIHF 半音階 教學",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/course/yufeng/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/yf__life/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@YFHarmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "43-yu-feng-lin",
-      "latestUpdateAt": "2026-08-29T10:30:19+00:00",
-      "latestUpdateLocal": "2026-08-29 18:30",
-      "latestUpdateSource": "林裕豐",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=IerQm2B3ouw",
-      "avatarUrl": "/assets/source-avatars/3e57ec6b2722c7d0b510.webp",
-      "sourceInitials": "林裕",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "教學",
-        "半音階",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_yf_life",
-          "name": "林裕豐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "yf__life",
-          "profileUrl": "https://www.instagram.com/yf__life/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_yf_life",
-          "name": "林裕豐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "yf__life",
-          "profileUrl": "https://www.instagram.com/yf__life/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_yfharmonica",
-          "name": "林裕豐",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@YFHarmonica",
           "feedUrl": ""
         }
       ]
