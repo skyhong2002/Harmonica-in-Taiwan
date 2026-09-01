@@ -1016,6 +1016,93 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-66",
+      "publicId": "66",
+      "name": "Younghoon Cho",
+      "nameEn": "Younghoon Cho",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
+      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
+      "summary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
+      "keywords": "Younghoon Cho Jong-seong Park",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/hoontobe"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hoontobe/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hoontobe_piano/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/hoontobe"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "66-younghoon-cho",
+      "latestUpdateAt": "2026-09-01T14:52:31+00:00",
+      "latestUpdateLocal": "2026-09-01 22:52",
+      "latestUpdateSource": "Younghoon Cho",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hoontobe_piano/3976655953147613221/",
+      "avatarUrl": "/assets/source-avatars/ce8582690611be231fa9.webp",
+      "sourceInitials": "YC",
+      "sourceTags": [
+        "演奏者",
+        "合奏",
+        "國際交流"
+      ],
+      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
+      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
+      "monitorSources": [
+        {
+          "id": "fb_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hoontobe",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/hoontobe",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-195",
       "publicId": "195",
       "name": "彰女微光口琴社",
@@ -4683,93 +4770,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@kif768",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-66",
-      "publicId": "66",
-      "name": "Younghoon Cho",
-      "nameEn": "Younghoon Cho",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
-      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
-      "summary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "keywords": "Younghoon Cho Jong-seong Park",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/hoontobe"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hoontobe/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hoontobe_piano/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/hoontobe"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "66-younghoon-cho",
-      "latestUpdateAt": "2026-08-31T01:45:08+00:00",
-      "latestUpdateLocal": "2026-08-31 09:45",
-      "latestUpdateSource": "Younghoon Cho",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hoontobe_piano/3975534891987344013/",
-      "avatarUrl": "/assets/source-avatars/ce8582690611be231fa9.webp",
-      "sourceInitials": "YC",
-      "sourceTags": [
-        "演奏者",
-        "合奏",
-        "國際交流"
-      ],
-      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
-      "monitorSources": [
-        {
-          "id": "fb_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hoontobe",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/hoontobe",
           "feedUrl": ""
         }
       ]
