@@ -902,6 +902,81 @@
       ]
     },
     {
+      "id": "watchlist-297",
+      "publicId": "297",
+      "name": "SHG Hering Harmonicas",
+      "nameEn": "SHG Hering Harmonicas",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "品牌",
+      "country": "巴西",
+      "region": "巴西/布盧梅瑙",
+      "cityOrFocus": "十孔/半音階/複音口琴/藝術家與產品資訊",
+      "structuredSummary": "十孔/半音階/複音口琴/藝術家與產品資訊 / 口琴 / 樂器品牌/器材資訊",
+      "summary": "巴西的口琴樂器品牌與器材資訊，關注十孔、半音階、複音口琴與藝術家與產品資訊。",
+      "keywords": "SHG Hering Harmonicas Brazil gaita diatonic chromatic tremolo artists",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://shg.art.br/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://facebook.com/shggaitas"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/shggaitas/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "297-shg-hering-harmonicas",
+      "latestUpdateAt": "2026-08-31T20:50:35+00:00",
+      "latestUpdateLocal": "2026-09-01 04:50",
+      "latestUpdateSource": "SHG Hering Harmonicas",
+      "latestUpdateUrl": "https://www.instagram.com/stories/shggaitas/3976111467405094355/",
+      "avatarUrl": "/assets/source-avatars/hering-harmonica.png",
+      "sourceInitials": "SHH",
+      "sourceTags": [
+        "品牌",
+        "教學器材",
+        "教學",
+        "半音階",
+        "複音",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_shggaitas",
+          "name": "SHG Hering Harmonicas",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/shggaitas",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_shggaitas",
+          "name": "SHG Hering Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "shggaitas",
+          "profileUrl": "https://www.instagram.com/shggaitas/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_shggaitas",
+          "name": "SHG Hering Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "shggaitas",
+          "profileUrl": "https://www.instagram.com/shggaitas/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-316",
       "publicId": "316",
       "name": "太平國小口琴隊",
@@ -4163,81 +4238,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCQRgyE_3lyMvt7eWHRzBtzg",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-297",
-      "publicId": "297",
-      "name": "SHG Hering Harmonicas",
-      "nameEn": "SHG Hering Harmonicas",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "品牌",
-      "country": "巴西",
-      "region": "巴西/布盧梅瑙",
-      "cityOrFocus": "十孔/半音階/複音口琴/藝術家與產品資訊",
-      "structuredSummary": "十孔/半音階/複音口琴/藝術家與產品資訊 / 口琴 / 樂器品牌/器材資訊",
-      "summary": "巴西的口琴樂器品牌與器材資訊，關注十孔、半音階、複音口琴與藝術家與產品資訊。",
-      "keywords": "SHG Hering Harmonicas Brazil gaita diatonic chromatic tremolo artists",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://shg.art.br/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://facebook.com/shggaitas"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/shggaitas/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "297-shg-hering-harmonicas",
-      "latestUpdateAt": "2026-08-30T23:14:46+00:00",
-      "latestUpdateLocal": "2026-08-31 07:14",
-      "latestUpdateSource": "SHG Hering Harmonicas",
-      "latestUpdateUrl": "https://www.instagram.com/stories/shggaitas/3975459326399397190/",
-      "avatarUrl": "/assets/source-avatars/hering-harmonica.png",
-      "sourceInitials": "SHH",
-      "sourceTags": [
-        "品牌",
-        "教學器材",
-        "教學",
-        "半音階",
-        "複音",
-        "十孔"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_shggaitas",
-          "name": "SHG Hering Harmonicas",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/shggaitas",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_shggaitas",
-          "name": "SHG Hering Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "shggaitas",
-          "profileUrl": "https://www.instagram.com/shggaitas/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_shggaitas",
-          "name": "SHG Hering Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "shggaitas",
-          "profileUrl": "https://www.instagram.com/shggaitas/",
           "feedUrl": ""
         }
       ]

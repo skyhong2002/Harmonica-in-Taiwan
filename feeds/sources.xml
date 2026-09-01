@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 01 Sep 2026 04:22:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 04:54:45 +0000</lastBuildDate>
     <item>
       <title>衛武營國家藝術文化中心</title>
       <link>https://www.npac-weiwuying.org/</link>
@@ -115,6 +115,17 @@ Tag：演奏者、半音階、國際交流
 國家：德國
 地區：德國
 德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。</description>
+    </item>
+    <item>
+      <title>SHG Hering Harmonicas</title>
+      <link>https://shg.art.br/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/300d796379b9f462</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：品牌、教學器材、教學、半音階、複音、十孔
+國家：巴西
+地區：巴西/布盧梅瑙
+巴西的口琴樂器品牌與器材資訊，關注十孔、半音階、複音口琴與藝術家與產品資訊。</description>
     </item>
     <item>
       <title>太平國小口琴隊</title>
@@ -621,17 +632,6 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/新竹
 臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
-    </item>
-    <item>
-      <title>SHG Hering Harmonicas</title>
-      <link>https://shg.art.br/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/300d796379b9f462</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：品牌、教學器材、教學、半音階、複音、十孔
-國家：巴西
-地區：巴西/布盧梅瑙
-巴西的口琴樂器品牌與器材資訊，關注十孔、半音階、複音口琴與藝術家與產品資訊。</description>
     </item>
     <item>
       <title>Howard Levy</title>
