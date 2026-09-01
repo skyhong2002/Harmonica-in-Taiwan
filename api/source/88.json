@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T19:39:56.925758Z",
+  "generatedAt": "2026-09-01T19:45:33.956601Z",
   "source": {
     "id": 88,
     "slug": "bluebo-harmonica",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/88-bluebo-harmonica/"
   },
   "items": [
+    {
+      "id": "post-bea3264dbd0b61cff3ec1efd",
+      "title": "Autumn Leaves秋葉丨爵士名曲",
+      "excerpt": "Autumn Leaves秋葉丨爵士名曲 想吹點不一樣的半音階嗎? 如果你古典曲吹不來，流行歌又覺得太簡單，那來一點\"微\"爵士吧! 把流行歌的第二次反覆吹的自由一點，間奏時加上一點即興，這樣你吹的歌就有自己的特色囉! 聽聽看同學Autumn Leaves第二遍的即興，只是簡單的修改一下，先行與後擊，結尾時再脫離主音，味道就完全不一樣了。 中正社大半音階口琴班(五)下午",
+      "url": "https://www.youtube.com/watch?v=Mjj2XPB2oms",
+      "sourceName": "藍波口琴教室",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-01T10:00:35Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/cfd02e8280a8f1bea2e7.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-8c4a905c7d1acd851e614540",
       "title": "黃昏丨十孔口琴即興",
