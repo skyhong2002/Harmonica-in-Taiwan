@@ -2,6 +2,75 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-09-01",
   "entries": [
     {
+      "id": "watchlist-218",
+      "publicId": "218",
+      "name": "Evelyn Choong 鍾雪兒",
+      "nameEn": "Evelyn Choong",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
+      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
+      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
+      "keywords": "Evelyn Choong 鍾雪兒 evelyn_harmonica World Harmonica Champion Aiden N Evelyn harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/evelyn.choong.3/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/evelyn_harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "218-evelyn-choong",
+      "latestUpdateAt": "2026-09-01T02:21:40+00:00",
+      "latestUpdateLocal": "2026-09-01 10:21",
+      "latestUpdateSource": "Evelyn Choong 鍾雪兒",
+      "latestUpdateUrl": "https://www.instagram.com/stories/evelyn_harmonica/3976278029995480549/",
+      "avatarUrl": "/assets/source-avatars/01b8d0ad4d833fa8ee7a.webp",
+      "sourceInitials": "EC",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_evelyn_choong_3",
+          "name": "Evelyn Choong 鍾雪兒",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/evelyn.choong.3",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_evelyn_harmonica",
+          "name": "Evelyn Choong 鍾雪兒",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "evelyn_harmonica",
+          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_evelyn_harmonica",
+          "name": "Evelyn Choong 鍾雪兒",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "evelyn_harmonica",
+          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-58",
       "publicId": "58",
       "name": "南里沙",
@@ -264,6 +333,61 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@cyleoharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-237",
+      "publicId": "237",
+      "name": "Wilson Liao",
+      "nameEn": "Wilson Liao",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "Dr. Blue/學生重奏/演出",
+      "structuredSummary": "Dr. Blue/學生重奏/演出 / 口琴 / 演出人員/樂團成員",
+      "summary": "臺灣的口琴演出人員與樂團成員，活動脈絡包含Dr. Blue、學生重奏與演出。",
+      "keywords": "Wilson Liao weiyuliao1 Dr. Blue Harmonica Ensemble NTU 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/weiyuliao1/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "237-wilson-liao",
+      "latestUpdateAt": "2026-09-01T00:43:49+00:00",
+      "latestUpdateLocal": "2026-09-01 08:43",
+      "latestUpdateSource": "Wilson Liao",
+      "latestUpdateUrl": "https://www.instagram.com/stories/weiyuliao1/3976228784295937490/",
+      "avatarUrl": "/assets/source-avatars/75f2b5d204d08200d410.webp",
+      "sourceInitials": "WL",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_weiyuliao1",
+          "name": "Wilson Liao",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "weiyuliao1",
+          "profileUrl": "https://www.instagram.com/weiyuliao1/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_weiyuliao1",
+          "name": "Wilson Liao",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "weiyuliao1",
+          "profileUrl": "https://www.instagram.com/weiyuliao1/",
           "feedUrl": ""
         }
       ]
@@ -2972,130 +3096,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-237",
-      "publicId": "237",
-      "name": "Wilson Liao",
-      "nameEn": "Wilson Liao",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "Dr. Blue/學生重奏/演出",
-      "structuredSummary": "Dr. Blue/學生重奏/演出 / 口琴 / 演出人員/樂團成員",
-      "summary": "臺灣的口琴演出人員與樂團成員，活動脈絡包含Dr. Blue、學生重奏與演出。",
-      "keywords": "Wilson Liao weiyuliao1 Dr. Blue Harmonica Ensemble NTU 口琴",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/weiyuliao1/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "237-wilson-liao",
-      "latestUpdateAt": "2026-08-31T05:52:29+00:00",
-      "latestUpdateLocal": "2026-08-31 13:52",
-      "latestUpdateSource": "Wilson Liao",
-      "latestUpdateUrl": "https://www.instagram.com/stories/weiyuliao1/3975659369177385487/",
-      "avatarUrl": "/assets/source-avatars/75f2b5d204d08200d410.webp",
-      "sourceInitials": "WL",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_weiyuliao1",
-          "name": "Wilson Liao",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "weiyuliao1",
-          "profileUrl": "https://www.instagram.com/weiyuliao1/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_weiyuliao1",
-          "name": "Wilson Liao",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "weiyuliao1",
-          "profileUrl": "https://www.instagram.com/weiyuliao1/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-218",
-      "publicId": "218",
-      "name": "Evelyn Choong 鍾雪兒",
-      "nameEn": "Evelyn Choong",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
-      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
-      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
-      "keywords": "Evelyn Choong 鍾雪兒 evelyn_harmonica World Harmonica Champion Aiden N Evelyn harmonica",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/evelyn.choong.3/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/evelyn_harmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "218-evelyn-choong",
-      "latestUpdateAt": "2026-08-31T05:45:16+00:00",
-      "latestUpdateLocal": "2026-08-31 13:45",
-      "latestUpdateSource": "Evelyn Choong 鍾雪兒",
-      "latestUpdateUrl": "https://www.instagram.com/stories/evelyn_harmonica/3975655730304972723/",
-      "avatarUrl": "/assets/source-avatars/01b8d0ad4d833fa8ee7a.webp",
-      "sourceInitials": "EC",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_evelyn_choong_3",
-          "name": "Evelyn Choong 鍾雪兒",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/evelyn.choong.3",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_evelyn_harmonica",
-          "name": "Evelyn Choong 鍾雪兒",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "evelyn_harmonica",
-          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_evelyn_harmonica",
-          "name": "Evelyn Choong 鍾雪兒",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "evelyn_harmonica",
-          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-232",
       "publicId": "232",
       "name": "高醫萌風口琴社",
@@ -5259,7 +5259,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-30 12:02",
       "latestUpdateSource": "Aiden Soon",
       "latestUpdateUrl": "https://www.instagram.com/p/Dcpmo2es0bU/",
-      "avatarUrl": "/assets/source-avatars/dc72a3ea5feaa7704bc0.webp",
+      "avatarUrl": "/assets/source-avatars/bac46c5388a15caa6522.webp",
       "sourceInitials": "AS",
       "sourceTags": [
         "演奏者",
