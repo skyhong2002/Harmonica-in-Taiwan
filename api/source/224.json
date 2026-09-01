@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T06:38:22.025155Z",
+  "generatedAt": "2026-09-01T07:11:52.698231Z",
   "source": {
     "id": 224,
     "slug": "easttop-harmonicas",
@@ -326,20 +326,6 @@
       "publishedAt": "2026-08-08T02:50:09Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/eef9c61bff82359d67e3.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-d6580ab66b726d2b31c71a53",
-      "title": "The Promotional Video of Jiangsu East Musical Instrument Co.,ltd",
-      "excerpt": "The Promotional Video of Jiangsu East Musical Instrument Co.,ltd Our company manufactures musical instruments including harmonicas, melodicas and recorders etc. We are equipped with the nation’s exclusive automated punch robot, reed planing machines, as well as unique fully auto…",
-      "url": "https://www.youtube.com/watch?v=A0w2pti-cqk",
-      "sourceName": "Easttop Harmonicas",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-02T07:01:29Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/46d829d11d255d364429.webp",
         "width": 800,
         "height": 450
       }
