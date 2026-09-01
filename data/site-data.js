@@ -9066,7 +9066,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-23 18:51",
       "latestUpdateSource": "千賀太郎",
       "latestUpdateUrl": "https://www.instagram.com/stories/taro_senga/3970011719233947416/",
-      "avatarUrl": "/assets/source-avatars/bb66885cc7c0ad691a2a.webp",
+      "avatarUrl": "/assets/source-avatars/a4d644c965bf1030da0e.webp",
       "sourceInitials": "千賀",
       "sourceTags": [
         "活動資訊",
