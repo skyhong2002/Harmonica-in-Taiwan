@@ -71,6 +71,80 @@
   },
   "entries": [
     {
+      "id": "watchlist-161",
+      "publicId": "161",
+      "name": "香港學校音樂節",
+      "nameEn": "Hong Kong Schools Music Festival",
+      "category": "活動資訊",
+      "type": "學校社團",
+      "originalType": "學校比賽/資訊入口",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "學校音樂節/口琴獨奏/二重奏/合奏/口琴隊",
+      "structuredSummary": "學校音樂節/口琴獨奏/二重奏/合奏/口琴隊 / 口琴/學生合奏 / 學生比賽來源",
+      "summary": "香港的學生比賽來源，涵蓋學校音樂節、口琴獨奏、二重奏、合奏與口琴隊。",
+      "keywords": "香港學校音樂節 Hong Kong Schools Music Festival Harmonica Melodica Recorder",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hksmsa.org.hk/en/78th-hong-kong-schools-music-festival-2026/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hksmsa/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hksmsa_official/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "161-hong-kong-schools-music-festival",
+      "latestUpdateAt": "2026-09-01T08:53:48+00:00",
+      "latestUpdateLocal": "2026-09-01 16:53",
+      "latestUpdateSource": "香港學校音樂節",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hksmsa_official/3976475402696163952/",
+      "avatarUrl": "/assets/source-avatars/cdae648ad34b959a90a2.webp",
+      "sourceInitials": "香港",
+      "sourceTags": [
+        "學生社團",
+        "活動資訊",
+        "音樂節",
+        "比賽",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hksmsa",
+          "name": "香港學校音樂節",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hksmsa",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hksmsa_official",
+          "name": "香港學校音樂節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hksmsa_official",
+          "profileUrl": "https://www.instagram.com/hksmsa_official/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hksmsa_official",
+          "name": "香港學校音樂節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hksmsa_official",
+          "profileUrl": "https://www.instagram.com/hksmsa_official/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-238",
       "publicId": "238",
       "name": "蔡培婷",
@@ -1315,6 +1389,93 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/user/Moridaira01",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-95",
+      "publicId": "95",
+      "name": "韋笙堡口琴 Weissenberg Harmonicas",
+      "nameEn": "Weissenberg Harmonicas",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "品牌/樂器商",
+      "country": "臺灣",
+      "region": "臺灣/臺中/后里",
+      "cityOrFocus": "源自1979年臺灣凱音樂器團隊/1989年創立WEISSENBERG品牌/臺灣研發與製造專業口琴/半音階、複音、十孔、低音與和弦口琴產品/碳纖維簧片及金屬吹嘴技術/演奏家合作與產品資訊",
+      "structuredSummary": "源自1979年臺灣凱音樂器團隊/1989年創立WEISSENBERG品牌/臺灣研發與製造專業口琴/半音階、複音、十孔、低音與和弦口琴產品/碳纖維簧片及金屬吹嘴技術/演奏家合作與產品資訊 / 半音階口琴/複音口琴/十孔口琴/低音口琴/和弦口琴 / 臺灣口琴與管樂器品牌/器材製造與產品資訊來源",
+      "summary": "臺灣的半音階口琴、複音口琴、十孔口琴與低音口琴臺灣口琴與管樂器品牌與器材製造與產品資訊來源，關注源自1979年臺灣凱音樂器團隊、1989年創立WEISSENBERG品牌、臺灣研發與製造專業口琴、半音階與複音。",
+      "keywords": "韋笙堡 Weissenberg Harmonicas 口琴 臺灣 Made in Taiwan 1979 1989 后里 半音階 複音 十孔 低音 和弦 碳纖維簧片 金屬吹嘴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.weissenbergwind.com/tw/product_list.php?type=4"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Weissenberg.Harmonicas/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/weissenbergtw/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/weissenberg1979"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "95-weissenberg-harmonicas",
+      "latestUpdateAt": "2026-09-01T03:07:37+00:00",
+      "latestUpdateLocal": "2026-09-01 11:07",
+      "latestUpdateSource": "韋笙堡口琴 Weissenberg Harmonicas",
+      "latestUpdateUrl": "https://www.instagram.com/stories/weissenbergtw/3976301214598154437/",
+      "avatarUrl": "/assets/source-avatars/1ffc9198c51ebb3b1ffa.webp",
+      "sourceInitials": "WH",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "半音階",
+        "複音",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_weissenberg_harmonicas",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Weissenberg.Harmonicas",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_weissenbergtw",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "weissenbergtw",
+          "profileUrl": "https://www.instagram.com/weissenbergtw/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_weissenbergtw",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "weissenbergtw",
+          "profileUrl": "https://www.instagram.com/weissenbergtw/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_weissenberg1979",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/weissenberg1979",
           "feedUrl": ""
         }
       ]
@@ -9718,93 +9879,6 @@
       ]
     },
     {
-      "id": "watchlist-95",
-      "publicId": "95",
-      "name": "韋笙堡口琴 Weissenberg Harmonicas",
-      "nameEn": "Weissenberg Harmonicas",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "品牌/樂器商",
-      "country": "臺灣",
-      "region": "臺灣/臺中/后里",
-      "cityOrFocus": "源自1979年臺灣凱音樂器團隊/1989年創立WEISSENBERG品牌/臺灣研發與製造專業口琴/半音階、複音、十孔、低音與和弦口琴產品/碳纖維簧片及金屬吹嘴技術/演奏家合作與產品資訊",
-      "structuredSummary": "源自1979年臺灣凱音樂器團隊/1989年創立WEISSENBERG品牌/臺灣研發與製造專業口琴/半音階、複音、十孔、低音與和弦口琴產品/碳纖維簧片及金屬吹嘴技術/演奏家合作與產品資訊 / 半音階口琴/複音口琴/十孔口琴/低音口琴/和弦口琴 / 臺灣口琴與管樂器品牌/器材製造與產品資訊來源",
-      "summary": "臺灣的半音階口琴、複音口琴、十孔口琴與低音口琴臺灣口琴與管樂器品牌與器材製造與產品資訊來源，關注源自1979年臺灣凱音樂器團隊、1989年創立WEISSENBERG品牌、臺灣研發與製造專業口琴、半音階與複音。",
-      "keywords": "韋笙堡 Weissenberg Harmonicas 口琴 臺灣 Made in Taiwan 1979 1989 后里 半音階 複音 十孔 低音 和弦 碳纖維簧片 金屬吹嘴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.weissenbergwind.com/tw/product_list.php?type=4"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Weissenberg.Harmonicas/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/weissenbergtw/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/weissenberg1979"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "95-weissenberg-harmonicas",
-      "latestUpdateAt": "2026-08-22T08:05:18+00:00",
-      "latestUpdateLocal": "2026-08-22 16:05",
-      "latestUpdateSource": "韋笙堡口琴 Weissenberg Harmonicas",
-      "latestUpdateUrl": "https://www.instagram.com/stories/weissenbergtw/3969206570101882072/",
-      "avatarUrl": "/assets/source-avatars/1ffc9198c51ebb3b1ffa.webp",
-      "sourceInitials": "WH",
-      "sourceTags": [
-        "教學器材",
-        "教學",
-        "半音階",
-        "複音",
-        "十孔"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_weissenberg_harmonicas",
-          "name": "韋笙堡口琴 Weissenberg Harmonicas",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Weissenberg.Harmonicas",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_weissenbergtw",
-          "name": "韋笙堡口琴 Weissenberg Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "weissenbergtw",
-          "profileUrl": "https://www.instagram.com/weissenbergtw/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_weissenbergtw",
-          "name": "韋笙堡口琴 Weissenberg Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "weissenbergtw",
-          "profileUrl": "https://www.instagram.com/weissenbergtw/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_weissenberg1979",
-          "name": "韋笙堡口琴 Weissenberg Harmonicas",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/weissenberg1979",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-209",
       "publicId": "209",
       "name": "英皇書院同學會小學口琴隊",
@@ -10278,7 +10352,7 @@
       "latestUpdateLocal": "2026-08-20 19:38",
       "latestUpdateSource": "國家兩廳院",
       "latestUpdateUrl": "https://www.instagram.com/stories/ntch.taipei/3967860998882772908/",
-      "avatarUrl": "/assets/source-avatars/4de542bd1a67f0af7883.webp",
+      "avatarUrl": "/assets/source-avatars/7b8c7ca7823c308a6ef5.webp",
       "sourceInitials": "國家",
       "sourceTags": [
         "場館平台"
@@ -11195,80 +11269,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCln6Hrzz1NHq8TX5ZSQzgJQ",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-161",
-      "publicId": "161",
-      "name": "香港學校音樂節",
-      "nameEn": "Hong Kong Schools Music Festival",
-      "category": "活動資訊",
-      "type": "學校社團",
-      "originalType": "學校比賽/資訊入口",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "學校音樂節/口琴獨奏/二重奏/合奏/口琴隊",
-      "structuredSummary": "學校音樂節/口琴獨奏/二重奏/合奏/口琴隊 / 口琴/學生合奏 / 學生比賽來源",
-      "summary": "香港的學生比賽來源，涵蓋學校音樂節、口琴獨奏、二重奏、合奏與口琴隊。",
-      "keywords": "香港學校音樂節 Hong Kong Schools Music Festival Harmonica Melodica Recorder",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hksmsa.org.hk/en/78th-hong-kong-schools-music-festival-2026/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hksmsa/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hksmsa_official/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "161-hong-kong-schools-music-festival",
-      "latestUpdateAt": "2026-08-14T04:07:19+00:00",
-      "latestUpdateLocal": "2026-08-14 12:07",
-      "latestUpdateSource": "香港學校音樂節",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hksmsa_official/3963285243683355451/",
-      "avatarUrl": "/assets/source-avatars/cdae648ad34b959a90a2.webp",
-      "sourceInitials": "香港",
-      "sourceTags": [
-        "學生社團",
-        "活動資訊",
-        "音樂節",
-        "比賽",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_hksmsa",
-          "name": "香港學校音樂節",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hksmsa",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hksmsa_official",
-          "name": "香港學校音樂節",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hksmsa_official",
-          "profileUrl": "https://www.instagram.com/hksmsa_official/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hksmsa_official",
-          "name": "香港學校音樂節",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hksmsa_official",
-          "profileUrl": "https://www.instagram.com/hksmsa_official/",
           "feedUrl": ""
         }
       ]
