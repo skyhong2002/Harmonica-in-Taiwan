@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T17:28:34.948747Z",
+  "generatedAt": "2026-09-02T18:00:40.475100Z",
   "source": {
     "id": 229,
     "slug": "hohner-harmonica",
@@ -60,20 +60,6 @@
       "publishedAt": "2026-08-14T16:58:00Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/8a3e8f5fc22748afd8d5.webp",
-        "width": 720,
-        "height": 1280
-      }
-    },
-    {
-      "id": "post-1d2f2028e2dbdf11029ae652",
-      "title": "@isaaccorbitt is a master of tone and digs the wash/hand effect on the Dyna-mic!",
-      "excerpt": "@isaaccorbitt is a master of tone and digs the wash/hand effect on the Dyna-mic! #harmonicamicrophone #harmonicaplayer #harmonicablues #harmonicagear",
-      "url": "https://www.instagram.com/p/DblhdXzNA7O/",
-      "sourceName": "Hohner Harmonica",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-03T17:30:32Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/dab5355d1ac8afbaa4b8.webp",
         "width": 720,
         "height": 1280
       }
