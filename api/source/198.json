@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T06:40:38.513837Z",
+  "generatedAt": "2026-09-02T07:14:40.445538Z",
   "source": {
     "id": 198,
     "slug": "bamboo-melody-harmonica-club",
@@ -90,20 +90,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/36e5cb12cc7eb8407cee.webp",
         "width": 800,
         "height": 450
-      }
-    },
-    {
-      "id": "post-b1aed94442e7bac30c938bca",
-      "title": "活動詳情請見【竹韻，再次響起】",
-      "excerpt": "活動詳情請見【竹韻，再次響起】",
-      "url": "https://www.instagram.com/p/DbkYItixTKM/",
-      "sourceName": "陽明交大竹韻口琴社",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-03T06:48:31Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/a07dd519a366511f1829.webp",
-        "width": 1440,
-        "height": 1920
       }
     }
   ]
