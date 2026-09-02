@@ -991,6 +991,91 @@
       ]
     },
     {
+      "id": "watchlist-68",
+      "publicId": "68",
+      "name": "Gordon Lee 李俊樂",
+      "nameEn": "Gordon Lee",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/THMC嘉賓/評審/2026 琴韻東坡・簧鳴西南工作坊",
+      "structuredSummary": "半音階/THMC嘉賓/評審/2026 琴韻東坡・簧鳴西南工作坊 / 半音階 / 國際演出人員/評審/講師",
+      "summary": "香港的半音階國際演出人員、評審與講師，活動脈絡包含THMC嘉賓、評審與2026 琴韻東坡・簧鳴西南工作坊。",
+      "keywords": "Gordon Lee 李俊樂 harmonica 琴韻東坡 簧鳴西南 2026 工作坊",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hkco.org/tc/Other-Members/Gordon-Lee.html"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/gordonleeharmonicist/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/gordonleeharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/Harmonicagor"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "68-gordon-lee",
+      "latestUpdateAt": "2026-09-01T16:42:05+00:00",
+      "latestUpdateLocal": "2026-09-02 00:42",
+      "latestUpdateSource": "Gordon Lee 李俊樂",
+      "latestUpdateUrl": "https://www.instagram.com/stories/gordonleeharmonica/3976711099963230316/",
+      "avatarUrl": "/assets/source-avatars/8d5318b63cde6f7e1be6.webp",
+      "sourceInitials": "GL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_gordonleeharmonicist",
+          "name": "Gordon Lee 李俊樂",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/gordonleeharmonicist",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_gordonleeharmonica",
+          "name": "Gordon Lee 李俊樂",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "gordonleeharmonica",
+          "profileUrl": "https://www.instagram.com/gordonleeharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_gordonleeharmonica",
+          "name": "Gordon Lee 李俊樂",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "gordonleeharmonica",
+          "profileUrl": "https://www.instagram.com/gordonleeharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_harmonicagor",
+          "name": "Gordon Lee 李俊樂",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/Harmonicagor",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-33",
       "publicId": "33",
       "name": "黃冠誌",
@@ -1397,10 +1482,10 @@
       "source": "watchlist",
       "aliases": [],
       "slug": "57-rei-yamashita",
-      "latestUpdateAt": "2026-09-01T13:28:43+00:00",
+      "latestUpdateAt": "2026-09-01T13:28:59+00:00",
       "latestUpdateLocal": "2026-09-01 21:28",
       "latestUpdateSource": "山下伶 Rei Yamashita",
-      "latestUpdateUrl": "https://www.instagram.com/p/Dcvwqx3pfzi/",
+      "latestUpdateUrl": "https://www.instagram.com/stories/rei_harmonica/3976613860618122907/",
       "avatarUrl": "/assets/source-avatars/81ebf91d8a9137a32fa7.webp",
       "sourceInitials": "RY",
       "sourceTags": [
@@ -11428,91 +11513,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCZVWAgM6XSEbPi_x5H1ZoHw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-68",
-      "publicId": "68",
-      "name": "Gordon Lee 李俊樂",
-      "nameEn": "Gordon Lee",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階/THMC嘉賓/評審/2026 琴韻東坡・簧鳴西南工作坊",
-      "structuredSummary": "半音階/THMC嘉賓/評審/2026 琴韻東坡・簧鳴西南工作坊 / 半音階 / 國際演出人員/評審/講師",
-      "summary": "香港的半音階國際演出人員、評審與講師，活動脈絡包含THMC嘉賓、評審與2026 琴韻東坡・簧鳴西南工作坊。",
-      "keywords": "Gordon Lee 李俊樂 harmonica 琴韻東坡 簧鳴西南 2026 工作坊",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hkco.org/tc/Other-Members/Gordon-Lee.html"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/gordonleeharmonicist/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/gordonleeharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/Harmonicagor"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "68-gordon-lee",
-      "latestUpdateAt": "2026-08-13T03:06:18+00:00",
-      "latestUpdateLocal": "2026-08-13 11:06",
-      "latestUpdateSource": "Gordon Lee 李俊樂",
-      "latestUpdateUrl": "https://www.instagram.com/stories/gordonleeharmonica/3962529875692792083/",
-      "avatarUrl": "/assets/source-avatars/8d5318b63cde6f7e1be6.webp",
-      "sourceInitials": "GL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_gordonleeharmonicist",
-          "name": "Gordon Lee 李俊樂",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/gordonleeharmonicist",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_gordonleeharmonica",
-          "name": "Gordon Lee 李俊樂",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "gordonleeharmonica",
-          "profileUrl": "https://www.instagram.com/gordonleeharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_gordonleeharmonica",
-          "name": "Gordon Lee 李俊樂",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "gordonleeharmonica",
-          "profileUrl": "https://www.instagram.com/gordonleeharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_harmonicagor",
-          "name": "Gordon Lee 李俊樂",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/Harmonicagor",
           "feedUrl": ""
         }
       ]
