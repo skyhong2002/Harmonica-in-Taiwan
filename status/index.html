@@ -60,9 +60,9 @@
           <div class="feed-page-summary status-summary-panel">
             <div class="status-summary-line">
               <span class="status-badge status-degraded">部分異常</span>
-              <strong>核心 pipeline 有產出；需要注意：Instagram 擷取、Threads / 其他 RSS。 Facebook Apify 目前依排程或預算節流。</strong>
+              <strong>核心 pipeline 有產出；需要注意：Instagram 擷取。 Facebook Apify 目前依排程或預算節流。</strong>
             </div>
-            <p>快照時間 2026-09-02T08:53:02+08:00</p>
+            <p>快照時間 2026-09-02T08:59:17+08:00</p>
             <div class="feed-links">
               <a href="/api/status.json">Status JSON</a>
               <a href="/api/latest.json">Latest API</a>
@@ -79,7 +79,7 @@
               <p class="section-kicker">Snapshot</p>
               <h2 id="status-overview-title">目前快照</h2>
             </div>
-            <p class="data-date">資料時間 2026-09-02T08:52:38+08:00</p>
+            <p class="data-date">資料時間 2026-09-02T08:58:53+08:00</p>
           </div>
           <div class="status-metric-grid">
 
@@ -121,7 +121,7 @@
               <p class="section-kicker">Collectors</p>
               <h2 id="status-components-title">元件狀態</h2>
             </div>
-            <p class="data-date">最新社群觀測 2026-09-02T08:51:42+08:00</p>
+            <p class="data-date">最新社群觀測 2026-09-02T08:57:59+08:00</p>
           </div>
           <div class="status-component-grid">
 
@@ -131,7 +131,7 @@
           <span class="status-badge status-ok">正常</span>
         </div>
         <p>定期 pipeline 已產生公開資料快照。</p>
-        <ul class="status-detail-list"><li>最新公開資料：2026-09-02 08:52:38</li><li>pipeline.log 更新：2026-07-12 02:58:29</li><li>pipeline.err.log 更新：2026-07-11 14:33:03</li><li>LaunchAgent：not running，last exit 0</li></ul>
+        <ul class="status-detail-list"><li>最新公開資料：2026-09-02 08:58:53</li><li>pipeline.log 更新：2026-07-12 02:58:29</li><li>pipeline.err.log 更新：2026-07-11 14:33:03</li><li>LaunchAgent：running，last exit 0</li></ul>
       </article>
 
 
@@ -151,7 +151,7 @@
           <span class="status-badge status-ok">正常</span>
         </div>
         <p>本機 RSSHub 入口回 200。</p>
-        <ul class="status-detail-list"><li>HTTP：200</li><li>耗時：44 ms</li></ul>
+        <ul class="status-detail-list"><li>HTTP：200</li><li>耗時：100 ms</li></ul>
       </article>
 
 
@@ -160,8 +160,8 @@
           <h2>Instagram 擷取</h2>
           <span class="status-badge status-degraded">部分異常</span>
         </div>
-        <p>358 個 Instagram 來源（profile 179、story 179）；目前錯誤 profile 1、story 0。</p>
-        <ul class="status-detail-list"><li>最新社群觀測：2026-09-02 08:51:42</li><li>錯誤拆分：profile 1、story 0。</li><li>story 無公開內容/空路由略過：0</li><li>IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。</li><li>本輪 IG：抓取 7、排程略過 351、延後 0、錯誤 0。</li><li>下一個 IG 來源：約 2026-09-02 08:54:57</li></ul>
+        <p>358 個 Instagram 來源（profile 179、story 179）；目前錯誤 profile 1、story 1。</p>
+        <ul class="status-detail-list"><li>最新社群觀測：2026-09-02 08:57:59</li><li>錯誤拆分：profile 1、story 1。</li><li>story 無公開內容/空路由略過：0</li><li>IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。</li><li>本輪 IG：抓取 6、排程略過 352、延後 0、錯誤 1。</li><li>下一個 IG 來源：約 2026-09-02 09:01:42</li></ul>
       </article>
 
 
@@ -191,16 +191,16 @@
           <span class="status-badge status-ok">正常</span>
         </div>
         <p>141 個 YouTube 來源；最近 run error_count=0。</p>
-        <ul class="status-detail-list"><li>最近完成：2026-09-02 08:18:47</li><li>最近新增 inbox：0</li></ul>
+        <ul class="status-detail-list"><li>最近完成：2026-09-02 08:55:11</li><li>最近新增 inbox：0</li></ul>
       </article>
 
 
-      <article class="status-component-card status-card-degraded">
+      <article class="status-component-card status-card-ok">
         <div class="status-component-head">
           <h2>Threads / 其他 RSS</h2>
-          <span class="status-badge status-degraded">部分異常</span>
+          <span class="status-badge status-ok">正常</span>
         </div>
-        <p>28 個 Threads 來源；其他 RSS 最新抓取批次目前 1 個錯誤。</p>
+        <p>28 個 Threads 來源；其他 RSS 最新抓取批次目前 0 個錯誤。</p>
         <ul class="status-detail-list"><li>RSS 類型來源：41</li></ul>
       </article>
 
@@ -237,7 +237,7 @@
             <tr>
               <th scope="row">instagram</th>
               <td>358</td>
-              <td>1</td>
+              <td>2</td>
               <td><span class="status-badge status-degraded">部分異常</span></td>
             </tr>
 
@@ -253,8 +253,8 @@
             <tr>
               <th scope="row">website</th>
               <td>89</td>
-              <td>1</td>
-              <td><span class="status-badge status-degraded">部分異常</span></td>
+              <td></td>
+              <td><span class="status-badge status-ok">正常</span></td>
             </tr>
 
 
@@ -292,19 +292,19 @@
 
             <article class="status-error-item">
               <div>
-                <span class="feed-latest-meta">2026-09-02T06:36:53+08:00 · instagram</span>
-                <strong>Spring Harp Fest</strong>
+                <span class="feed-latest-meta">2026-09-02T08:57:59+08:00 · instagram</span>
+                <strong>El Caminito 엘 까미니또</strong>
               </div>
-              <p>連續失敗 84 次：Instaloader profile fetch failed for @springharpfest: Traceback (most recent call last): File &quot;/Users/skyhong/Documents/Harmonica-in-Taiwan/scripts/instaloader_profile_fetcher.py&quot;, line 110, in &lt;module&gt; raise S</p>
+              <p>Instaloader story fetch failed for @elcaminito_official: 400 Bad Request - &quot;fail&quot; status, message &quot;invalid request&quot; when accessing https://www.instagram.com/graphql/query?query_hash=303a4ae99711322310f25250d988f3b7&amp;varia</p>
             </article>
 
 
             <article class="status-error-item">
               <div>
-                <span class="feed-latest-meta">2026-09-02T08:51:42+08:00 · website</span>
-                <strong>德國 Harmonica/Harmonika 協會 DHV</strong>
+                <span class="feed-latest-meta">2026-09-02T06:36:53+08:00 · instagram</span>
+                <strong>Spring Harp Fest</strong>
               </div>
-              <p>The read operation timed out</p>
+              <p>連續失敗 84 次：Instaloader profile fetch failed for @springharpfest: Traceback (most recent call last): File &quot;/Users/skyhong/Documents/Harmonica-in-Taiwan/scripts/instaloader_profile_fetcher.py&quot;, line 110, in &lt;module&gt; raise S</p>
             </article>
 
           </div>
