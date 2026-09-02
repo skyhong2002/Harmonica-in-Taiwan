@@ -71,6 +71,87 @@
   },
   "entries": [
     {
+      "id": "watchlist-99",
+      "publicId": "99",
+      "name": "范曉怡",
+      "nameEn": "Hsiao-Yi Fan",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "狂響口琴樂團/教學/地方推廣",
+      "structuredSummary": "狂響口琴樂團/教學/地方推廣 / 低音口琴/口琴 / 演出人員/教學者",
+      "summary": "臺灣的低音口琴與口琴演出人員與教學者，活動脈絡包含狂響口琴樂團、教學與地方推廣。",
+      "keywords": "范曉怡 fanhsiaoyi 口琴 狂響",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/fanhsiaoyi/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/fanhsiaoyi/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@fanhsiaoyi"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "99",
+      "latestUpdateAt": "2026-09-02T03:40:32+00:00",
+      "latestUpdateLocal": "2026-09-02 11:40",
+      "latestUpdateSource": "范曉怡",
+      "latestUpdateUrl": "https://www.facebook.com/fanhsiaoyi/posts/pfbid02SRWY4yPMgjRw5bmbgyUegp1oeMDi9Dke3azwm4QJbrRSH5VzAVaoGRb8FVJGMWPnl",
+      "avatarUrl": "/assets/source-avatars/38a18c7f7ae516612aa5.webp",
+      "sourceInitials": "范曉",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_fanhsiaoyi",
+          "name": "范曉怡",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/fanhsiaoyi",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_fanhsiaoyi",
+          "name": "范曉怡",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "fanhsiaoyi",
+          "profileUrl": "https://www.instagram.com/fanhsiaoyi/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_fanhsiaoyi",
+          "name": "范曉怡",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "fanhsiaoyi",
+          "profileUrl": "https://www.instagram.com/fanhsiaoyi/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_fanhsiaoyi",
+          "name": "范曉怡",
+          "platform": "threads",
+          "type": "rss",
+          "username": "fanhsiaoyi",
+          "profileUrl": "https://www.threads.net/@fanhsiaoyi",
+          "feedUrl": "https://rss.observe.tw/threads/fanhsiaoyi"
+        }
+      ]
+    },
+    {
       "id": "watchlist-316",
       "publicId": "316",
       "name": "太平國小口琴隊",
@@ -4918,7 +4999,7 @@
       "latestUpdateLocal": "2026-08-31 14:23",
       "latestUpdateSource": "Lee Hangyeol 이한결",
       "latestUpdateUrl": "https://www.instagram.com/stories/gyeoli_94/3975674956381902689/",
-      "avatarUrl": "/assets/source-avatars/15323ad86bb9858e4e81.webp",
+      "avatarUrl": "/assets/source-avatars/7a0f5a1e113563c85666.webp",
       "sourceInitials": "LH",
       "sourceTags": [
         "演奏者",
@@ -6151,87 +6232,6 @@
           "username": "adventure_harmonica",
           "profileUrl": "https://www.instagram.com/adventure_harmonica/",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-99",
-      "publicId": "99",
-      "name": "范曉怡",
-      "nameEn": "Hsiao-Yi Fan",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "狂響口琴樂團/教學/地方推廣",
-      "structuredSummary": "狂響口琴樂團/教學/地方推廣 / 低音口琴/口琴 / 演出人員/教學者",
-      "summary": "臺灣的低音口琴與口琴演出人員與教學者，活動脈絡包含狂響口琴樂團、教學與地方推廣。",
-      "keywords": "范曉怡 fanhsiaoyi 口琴 狂響",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/fanhsiaoyi/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/fanhsiaoyi/"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@fanhsiaoyi"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "99",
-      "latestUpdateAt": "2026-08-30T05:15:28+00:00",
-      "latestUpdateLocal": "2026-08-30 13:15",
-      "latestUpdateSource": "范曉怡",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcpvPvuEqWR/",
-      "avatarUrl": "/assets/source-avatars/38a18c7f7ae516612aa5.webp",
-      "sourceInitials": "范曉",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_fanhsiaoyi",
-          "name": "范曉怡",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/fanhsiaoyi",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_fanhsiaoyi",
-          "name": "范曉怡",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "fanhsiaoyi",
-          "profileUrl": "https://www.instagram.com/fanhsiaoyi/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_fanhsiaoyi",
-          "name": "范曉怡",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "fanhsiaoyi",
-          "profileUrl": "https://www.instagram.com/fanhsiaoyi/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_fanhsiaoyi",
-          "name": "范曉怡",
-          "platform": "threads",
-          "type": "rss",
-          "username": "fanhsiaoyi",
-          "profileUrl": "https://www.threads.net/@fanhsiaoyi",
-          "feedUrl": "https://rss.observe.tw/threads/fanhsiaoyi"
         }
       ]
     },

@@ -7,8 +7,84 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 686,
+  "count": 687,
   "items": [
+    {
+      "title": "范曉怡｜等了好久的第二集重磅出擊!! 有意想購買的琴友也能在逗嘴鼓買得到啦 前幾天收到實體書 實在是好興奮 雖然曲子的技巧程度很高 但買來收藏或慢慢練都是很棒的選擇喲 意者請洽我們或直接留言 一本2000元 實在是很划算啊 因為曲量很多之…",
+      "headline": "等了好久的第二集重磅出擊!!",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/fanhsiaoyi/posts/pfbid02SRWY4yPMgjRw5bmbgyUegp1oeMDi9Dke3azwm4QJbrRSH5VzAVaoGRb8FVJGMWPnl",
+      "source_id": "fb_fanhsiaoyi",
+      "source": "范曉怡",
+      "source_system_name": "范曉怡",
+      "source_profile_url": "https://facebook.com/fanhsiaoyi",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-99",
+      "directory_entry_name": "范曉怡",
+      "account": "fanhsiaoyi",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-09-02T03:40:32.000Z",
+      "posted_at_local": "2026-09-02 11:40",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-02T03:50:57.738281+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "影片"
+      ],
+      "keyword_matches": [
+        "影片",
+        "比賽"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.89,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴曲集販售與演奏影片分享，屬口琴公開更新，非一般音樂活動。",
+      "text": "等了好久的第二集重磅出擊!!\n有意想購買的琴友也能在逗嘴鼓買得到啦\n前幾天收到實體書\n實在是好興奮\n雖然曲子的技巧程度很高\n但買來收藏或慢慢練都是很棒的選擇喲\n意者請洽我們或直接留言\n一本2000元\n實在是很划算啊\n因為曲量很多之外\n更不用說每首曲子的練習/演奏價值都超高\n相信再過不久\n每年的比賽曲又會開始聽到曲譜裏的曲子出現了!\n家靖老師近期也有分享些表演影片\n都有收藏在這本曲集裏喲\n大家也快手刀買起來啊!!\n😍😍😍",
+      "images": [],
+      "videos": [],
+      "source_image_url": "",
+      "image_url": "",
+      "image_width": null,
+      "image_height": null,
+      "source_avatar_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/464553915_10234586586146015_279110672358072728_n.jpg?stp=c14.14.172.172a_cp0_dst-jpg_tt6&cstp=mx172x172&ctp=s50x50&_nc_cat=109&ccb=1-7&_nc_sid=e99d92&_nc_ohc=gb6qv64JGgoQ7kNvwHjgYhO&_nc_oc=AdpmG1JHJTeIF2lI5jHg3U5W25fUPl1IuKPnl4lAy-08CMiG-_jq0pFuWGz8rih3Qfk&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=oXXZId_jMaxt4WXjtbRkYg&_nc_ss=73289&oh=00_AQLiK3v5dhmpBIr2VrPGojPNaywYZxL0nOljVBH7biefhQ&oe=6A9D557E",
+      "avatar_url": "/assets/source-avatars/43c7c37116a7076edbb2.webp",
+      "source_initials": "范曉",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "補助比賽"
+      ],
+      "key": "fb_fanhsiaoyi:10244655166454230"
+    },
     {
       "title": "太平國小口琴隊｜臺中市政府教育局-校園活動報導 --> 跳到主要內容區 臺中市政府教育局 回首頁 市府首頁 網站導覽 常見問答 快速連結 English 教育服務網 A- A A+ 搜尋 單位介紹 首長介紹 組織與職掌 各級學校 局徽介紹…",
       "headline": "臺中市政府教育局-校園活動報導",
