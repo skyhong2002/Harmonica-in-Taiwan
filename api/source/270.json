@@ -1,11 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T06:09:17.508523Z",
+  "generatedAt": "2026-09-02T06:40:38.513837Z",
   "source": {
     "id": 270,
     "slug": "seoul-soloists-harmonica-orchestra",
     "name": "首爾獨奏家口琴樂團",
     "pageUrl": "https://harmonica.observe.tw/source/270-seoul-soloists-harmonica-orchestra/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-89ae74878758eab2cb100db9",
+      "title": "전체(상세) < 문화행사 | 서울문화포털......",
+      "excerpt": "전체(상세) < 문화행사 | 서울문화포털...... cultureIndex --> 전체(상세) 전체(상세) > [세종문화회관] Seoul Soloists Harmonica Orchestra 2024 정기연주회\"> --> 바로가기 메뉴 본문 바로가기 주메뉴 바로가기 서울문화포털 SEOUL CULTURE PORTAQL 문화행사 공연 전시 축제 교육/체험 기타 문화달력 전체 --> 전체 문화정보 영상 문화자료 문화공간 예술인/단체정보 비영리법인 문화정책 일상문화 문화나눔 문화진흥 서울문화축제 서울시문…",
+      "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=149308&menuNo=200110",
+      "sourceName": "首爾獨奏家口琴樂團",
+      "platform": "website",
+      "publishedAt": "2026-09-02T06:38:34.462267Z"
+    }
+  ]
 }
