@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T12:37:24.780058Z",
+  "generatedAt": "2026-09-02T13:09:45.347039Z",
   "source": {
     "id": 78,
     "slug": "78",
@@ -349,20 +349,6 @@
       "publishedAt": "2026-08-03T14:01:40Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/006e056234ea2b33e7a0.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-e68f95c79c70ce5011e5b8c9",
-      "title": "巴黎聖母院首席大師拉特利，屏東演藝廳獨家獻演《巴赫幻境》！",
-      "excerpt": "巴黎聖母院首席大師拉特利，屏東演藝廳獨家獻演《巴赫幻境》！ 睽違多年，管風琴權威奧利維耶．拉特利重磅回歸！ 這次，拉特利將化身轉動萬花筒的聲音魔術師，帶來管風琴獨奏會《巴赫幻境》。當理性巴赫遇見法式浪漫，嚴謹的對位結構將在音栓撥動間，化作如聖母院彩繪花窗般絢麗的光影。 —— 2026 衛武營管風琴音樂節 —— 拉特利管風琴獨奏會《巴赫幻境》 10/14（三）19:30 屏東演藝廳音樂廳 ​ 衛武營官方指定計時：勞力士 在地藝文支持夥伴：陳啟川先生文教基金會",
-      "url": "https://www.youtube.com/watch?v=x9vwnOeXlu8",
-      "sourceName": "衛武營國家藝術文化中心",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-03T13:00:12Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/992abc2cb6d3b122abaf.webp",
         "width": 800,
         "height": 450
       }
