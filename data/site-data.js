@@ -3319,7 +3319,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-01 11:23",
       "latestUpdateSource": "衛武營國家藝術文化中心",
       "latestUpdateUrl": "https://www.threads.com/t/Dcurn6fAWEG",
-      "avatarUrl": "/assets/source-avatars/d5588ae973b373733cdc.webp",
+      "avatarUrl": "/assets/source-avatars/8a8579df9bd383e92474.webp",
       "sourceInitials": "衛武",
       "sourceTags": [
         "場館平台"
