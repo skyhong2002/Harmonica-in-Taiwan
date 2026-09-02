@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T02:42:31.049521Z",
+  "generatedAt": "2026-09-02T03:10:29.805765Z",
   "source": {
     "id": 111,
     "slug": "lee-hangyeol",
@@ -32,20 +32,6 @@
       "publishedAt": "2026-08-11T00:55:58Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/8990f0ec5ade6dc572e2.webp",
-        "width": 800,
-        "height": 800
-      }
-    },
-    {
-      "id": "post-01d24109445a04807e46841c",
-      "title": "☁️",
-      "excerpt": "☁️ 밴드 ‘피크닉 온 비지데이’의 첫 번째 싱글 [Picnic on Busy Day] 가 발매되었습니다. 저희와 함께 피크닉 떠나실래요? :) 가장 바쁜 날에도 작은 피크닉은 가능하다. ’Picnic on Busy Day‘는 그 믿음에서 시작된 우리의 첫 번째 이야기다. “We bring a picnic to your busiest days.” [Credit] Picnic on Busy Day Guitar | KIM Suyu Harmonica | LEE Hangyeol Keyboards | Y…",
-      "url": "https://www.instagram.com/p/Dbj-Y-_zF9W/",
-      "sourceName": "Lee Hangyeol 이한결",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-03T03:08:05Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/f259331eccae7c99450e.webp",
         "width": 800,
         "height": 800
       }
