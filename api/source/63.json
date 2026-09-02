@@ -1,11 +1,40 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T16:24:27.752407Z",
+  "generatedAt": "2026-09-02T16:56:24.174056Z",
   "source": {
     "id": 63,
     "slug": "f-i-h-japan-harmonica-contest",
     "name": "F.I.H. JAPAN ハーモニカコンテスト",
     "pageUrl": "https://harmonica.observe.tw/source/63-f-i-h-japan-harmonica-contest/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-4ee7d71379b51ab62697658d",
+      "title": "【HERCULES】DG307B-TS2 スマホ＆タブレット用卓上三脚スタンド｜開封＆機能紹介",
+      "excerpt": "【HERCULES】DG307B-TS2 スマホ＆タブレット用卓上三脚スタンド｜開封＆機能紹介 HERCULES（ハーキュレス）の「DG307B-TS2」をご紹介！ タブレットやスマートフォンを快適に設置できる、卓上三脚スタンドです。 📱 スマートフォン＆タブレットに対応 ↕️ 高さをお好みに合わせて調整 🔄 角度も自在にセッティング ⚡ EZ Grip調整機構でワンタッチ調整 💻 自宅・オフィスなど幅広いシーンで活躍 オンライン会議や動画視聴はもちろん、楽器の演奏・練習時の譜面や動画の確認などにも便利です。 動画では、商品の開封から各部の調整方法まで…",
+      "url": "https://www.youtube.com/watch?v=V_qxVkMm30w",
+      "sourceName": "F.I.H. JAPAN ハーモニカコンテスト",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-02T10:02:18Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/78342c97750d9e37d96a.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-2c85e521b25d33cab21b408a",
+      "title": "【HERCULES】DG307B-FS1 スマホ＆タブレット用フロアスタンド｜開封＆機能紹介",
+      "excerpt": "【HERCULES】DG307B-FS1 スマホ＆タブレット用フロアスタンド｜開封＆機能紹介 HERCULES（ハーキュレス）のスマートフォン＆タブレット用フロアスタンド「DG307B-FS1」をご紹介！ 開封から組み立て、各部の調整方法まで、実際の製品を使ってわかりやすくご紹介します。 DG307B-FS1は、スマートフォンやタブレットをお好みの高さ・角度にセッティングできるフロアスタンド。 🎸 演奏・練習 📱 動画視聴 🎥 配信 💻 プレゼンテーション など、さまざまなシーンで活躍します。 音声による解説はありませんので、実際の製品の動きやセッティ…",
+      "url": "https://www.youtube.com/watch?v=Ryb1cAO8BX4",
+      "sourceName": "F.I.H. JAPAN ハーモニカコンテスト",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-02T09:54:43Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/2f988e22b15c256dcb57.webp",
+        "width": 800,
+        "height": 450
+      }
+    }
+  ]
 }

@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 02 Sep 2026 16:24:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 16:56:25 +0000</lastBuildDate>
+    <item>
+      <title>F.I.H. JAPAN ハーモニカコンテスト</title>
+      <link>https://moridaira.jp/event/20260530-01/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/0c339a088cc50dcd</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：活動資訊、比賽、半音階、複音、重奏、國際交流
+國家：日本
+地區：日本
+日本的國際比賽來源，涵蓋日本口琴比賽與duo trio。</description>
+    </item>
     <item>
       <title>衛武營國家藝術文化中心</title>
       <link>https://www.npac-weiwuying.org/</link>
@@ -566,17 +577,6 @@ Tag：學生社團、大專社團
 國家：臺灣
 地區：臺灣/臺中
 臺灣的口琴學校社團。</description>
-    </item>
-    <item>
-      <title>F.I.H. JAPAN ハーモニカコンテスト</title>
-      <link>https://moridaira.jp/event/20260530-01/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/0c339a088cc50dcd</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：活動資訊、比賽、半音階、複音、重奏、國際交流
-國家：日本
-地區：日本
-日本的國際比賽來源，涵蓋日本口琴比賽與duo trio。</description>
     </item>
     <item>
       <title>韋笙堡口琴 Weissenberg Harmonicas</title>
