@@ -5921,7 +5921,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-30 21:48",
       "latestUpdateSource": "蔡明憲",
       "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3975174060992244965/",
-      "avatarUrl": "/assets/source-avatars/a1745d09969a03c896ae.webp",
+      "avatarUrl": "/assets/source-avatars/603a64fc898c4dd27a8b.webp",
       "sourceInitials": "蔡明",
       "sourceTags": [
         "演奏者",
@@ -6205,7 +6205,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-30 12:02",
       "latestUpdateSource": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
       "latestUpdateUrl": "https://www.instagram.com/p/Dcpmo2es0bU/",
-      "avatarUrl": "/assets/source-avatars/acbcbb6ab1e632e5051b.webp",
+      "avatarUrl": "/assets/source-avatars/baea0ecec501359974a2.webp",
       "sourceInitials": "ANE",
       "sourceTags": [
         "團體樂團",
@@ -9069,7 +9069,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-23 19:32",
       "latestUpdateSource": "RedBricks Harmonica",
       "latestUpdateUrl": "https://www.instagram.com/stories/redbricksharmonica/3970032524021884734/",
-      "avatarUrl": "/assets/source-avatars/13e16f0a667e4533ef16.webp",
+      "avatarUrl": "/assets/source-avatars/84fd6bf455b30bbd0fd0.webp",
       "sourceInitials": "RH",
       "sourceTags": [
         "團體樂團",
@@ -9397,7 +9397,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-23 13:05",
       "latestUpdateSource": "胖擊口琴樂團",
       "latestUpdateUrl": "https://www.instagram.com/stories/punch.harp/3969837629738807001/",
-      "avatarUrl": "/assets/source-avatars/37ec9463161a69585eb6.webp",
+      "avatarUrl": "/assets/source-avatars/9edcb9050d9353bc8f13.webp",
       "sourceInitials": "胖擊",
       "sourceTags": [
         "團體樂團",
@@ -9747,7 +9747,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-22 19:15",
       "latestUpdateSource": "天狼星口琴樂團 Sirius Harmonica Ensemble",
       "latestUpdateUrl": "https://www.instagram.com/p/DcVxLxkTp72/",
-      "avatarUrl": "/assets/source-avatars/93835cb48c6cc1048bfa.webp",
+      "avatarUrl": "/assets/source-avatars/9f7d7d5c4b4e03f9bcc0.webp",
       "sourceInitials": "SHE",
       "sourceTags": [
         "活動資訊",
