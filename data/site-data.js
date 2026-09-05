@@ -639,7 +639,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-05 23:34",
       "latestUpdateSource": "南里沙",
       "latestUpdateUrl": "https://x.com/minami_risa/status/2096260592898392575",
-      "avatarUrl": "/assets/source-avatars/c381d87d290434bb6bbc.webp",
+      "avatarUrl": "/assets/source-avatars/7f093f3f3ea96e90dc59.webp",
       "sourceInitials": "南里",
       "sourceTags": [
         "演奏者",
