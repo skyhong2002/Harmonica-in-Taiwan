@@ -10886,7 +10886,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-17 22:04",
       "latestUpdateSource": "林士傑",
       "latestUpdateUrl": "https://www.threads.com/t/DcJNeCMj8X3",
-      "avatarUrl": "/assets/source-avatars/c2e23c5b2da5fd37bb4e.webp",
+      "avatarUrl": "/assets/source-avatars/b56fd76d9de1b454d998.webp",
       "sourceInitials": "林士",
       "sourceTags": [
         "演奏者",
