@@ -117,7 +117,20 @@ def remote_branch_exists(remote: str, branch: str) -> bool:
     return result.returncode == 0
 
 
+def remove_finder_metadata(path: Path) -> list[Path]:
+    """Remove Finder metadata that must never block an automated deployment."""
+    removed: list[Path] = []
+    for metadata_file in path.rglob(".DS_Store"):
+        if metadata_file.is_file() or metadata_file.is_symlink():
+            metadata_file.unlink()
+            removed.append(metadata_file)
+    return removed
+
+
 def ensure_clean_worktree(path: Path) -> None:
+    removed = remove_finder_metadata(path)
+    if removed:
+        print(f"Removed {len(removed)} Finder metadata file(s) from deployment worktree.")
     status = git_stdout(["status", "--porcelain"], cwd=path)
     if status:
         raise PublishError(f"Deployment worktree is dirty: {path}")

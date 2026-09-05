@@ -1,5 +1,6 @@
 import subprocess
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 from unittest import mock
@@ -11,6 +12,39 @@ if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
 import publish_github_pages  # noqa: E402
+
+
+class CleanWorktreeTests(unittest.TestCase):
+    def test_removes_nested_finder_metadata(self):
+        with tempfile.TemporaryDirectory() as directory:
+            worktree = Path(directory)
+            nested = worktree / "assets"
+            nested.mkdir()
+            (worktree / ".DS_Store").write_bytes(b"finder")
+            (nested / ".DS_Store").write_bytes(b"finder")
+
+            with mock.patch.object(
+                publish_github_pages, "git_stdout", return_value=""
+            ) as git_stdout_mock:
+                publish_github_pages.ensure_clean_worktree(worktree)
+
+            self.assertFalse((worktree / ".DS_Store").exists())
+            self.assertFalse((nested / ".DS_Store").exists())
+            git_stdout_mock.assert_called_once_with(
+                ["status", "--porcelain"], cwd=worktree
+            )
+
+    def test_still_rejects_other_dirty_files(self):
+        with tempfile.TemporaryDirectory() as directory:
+            worktree = Path(directory)
+            with mock.patch.object(
+                publish_github_pages, "git_stdout", return_value="?? unexpected.txt"
+            ):
+                with self.assertRaisesRegex(
+                    publish_github_pages.PublishError,
+                    "Deployment worktree is dirty",
+                ):
+                    publish_github_pages.ensure_clean_worktree(worktree)
 
 
 class PushWithRetryTests(unittest.TestCase):
