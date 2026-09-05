@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-05T15:56:31.818694Z",
+  "generatedAt": "2026-09-05T16:23:51.613212Z",
   "source": {
     "id": 39,
     "slug": "39",
@@ -34,48 +34,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/e3d1cca1ce1a4f240406.webp",
         "width": 800,
         "height": 1067
-      }
-    },
-    {
-      "id": "post-f559064a957df804662d612e",
-      "title": "@musette585: 這次會遇到多少（小白的）口琴朋友⋯⋯",
-      "excerpt": "@musette585: 這次會遇到多少（小白的）口琴朋友⋯⋯ @musette585 : 這次會遇到多少（小白的）口琴朋友⋯⋯",
-      "url": "https://www.threads.com/t/DbtHxF9E25N",
-      "sourceName": "林士傑",
-      "platform": "Threads",
-      "publishedAt": "2026-08-06T16:16:02Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/b80c78ef515484cd7461.webp",
-        "width": 800,
-        "height": 900
-      }
-    },
-    {
-      "id": "post-d6b826784954eb99db510ce6",
-      "title": "這次會遇到多少（小白的）口琴朋友⋯⋯",
-      "excerpt": "這次會遇到多少（小白的）口琴朋友⋯⋯",
-      "url": "https://www.instagram.com/p/DbtHiuzPKwm/",
-      "sourceName": "林士傑",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-06T16:15:56Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/1064f82a680935f320d6.webp",
-        "width": 800,
-        "height": 900
-      }
-    },
-    {
-      "id": "post-68ced066c7f308f2a4aa9044",
-      "title": "演出前一天斷簧^ _ ^",
-      "excerpt": "演出前一天斷簧^ _ ^ 演出前一天斷簧^ _ ^ 放了10幾20年的簧片終於拿出來用了。",
-      "url": "https://www.instagram.com/p/DbtDpI_Dzgn/",
-      "sourceName": "林士傑",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-06T16:12:52Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/75c041a35455128709c6.webp",
-        "width": 800,
-        "height": 747
       }
     }
   ]
