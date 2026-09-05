@@ -61,42 +61,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/21-orion/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/12/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/58-minami-risa/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/316-taiping-elementary-school-harmonica-ensemble/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/299-keelung-community-university-harmonica/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/293-michal-kielak/</loc>
-    <lastmod>2026-09-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/254-zhengzhou-popular-harmonica-ensemble/</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -146,6 +110,42 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/134-crossover-harmonica-ensemble/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/21-orion/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/12/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/58-minami-risa/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/316-taiping-elementary-school-harmonica-ensemble/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/299-keelung-community-university-harmonica/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/293-michal-kielak/</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
