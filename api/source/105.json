@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T18:33:37.788926Z",
+  "generatedAt": "2026-09-05T10:49:48.893383Z",
   "source": {
     "id": 105,
     "slug": "stay-drunk-harmonica-ensemble",
@@ -48,20 +48,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/9c9a6414616c72c5b062.webp",
         "width": 800,
         "height": 534
-      }
-    },
-    {
-      "id": "post-7f97a6baa9fc6eb195f6af38",
-      "title": "2026 🇰🇷 SIHF",
-      "excerpt": "2026 🇰🇷 SIHF",
-      "url": "https://www.instagram.com/p/DbnbT47iXAC/",
-      "sourceName": "Stay Drunk 口琴樂團",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-04T11:11:24Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/5c5130dc2c7d3def650c.webp",
-        "width": 800,
-        "height": 1067
       }
     }
   ]

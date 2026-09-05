@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T18:33:37.788926Z",
+  "generatedAt": "2026-09-05T10:49:48.893383Z",
   "source": {
     "id": 79,
     "slug": "79",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/79/"
   },
   "items": [
+    {
+      "id": "post-f0a02cd51e7f993c9f1f6543",
+      "title": "我們做的是狗屁工作嗎？ ft. 「One-Forty」品牌行銷總監 梁藝瀠、兩廳院公共溝通部經理 王統生",
+      "excerpt": "我們做的是狗屁工作嗎？ ft. 「One-Forty」品牌行銷總監 梁藝瀠、兩廳院公共溝通部經理 王統生 每天上班都覺得自己在做「狗屁工作」嗎？先別急著遞辭呈！本集《好哲凳》我們邀請到兩廳院公共溝通部統生與One-Forty品牌行銷總監YY，揭開藝文與NGO產業的生存血淚。原以為兩位要來大吐苦水，沒想到卻意外展開了一場溝通大師課！ 當倡議成為工作的一部分，什麼行動才算是有效呢？統生分享以「邏輯」迎戰危機並抵抗工作中的無力感，YY則以「真實」訴說移工故事並打破非營利的苦情標籤。兩人皆提出無論營利或非營利，都需要具備堅定理念與專業策略！想知道如何帥氣地與大…",
+      "url": "https://www.youtube.com/watch?v=vNbZtVlTYcw",
+      "sourceName": "國家兩廳院",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-03T00:13:05Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9936463a942ea320e179.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-531874e691855768229c8cac",
       "title": "為什麼千禧世代現正重新發現臺灣史？ feat. 電影史研究者 蘇致亨、「僻室House Peace」陳弘洋",
@@ -130,20 +144,6 @@
       "publishedAt": "2026-08-07T05:48:49Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/fac4fa6f4a6b0ae517cf.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-8d182a1aba0e72d8c4cfa3d5",
-      "title": "今天的古典音樂家，更需要美學素養還是管理思維？ ft. TMAF執行長 林士凱",
-      "excerpt": "今天的古典音樂家，更需要美學素養還是管理思維？ ft. TMAF執行長 林士凱 古典音樂總是讓人覺得遙不可及嗎？本集我們邀請到「臺北大師星秀音樂節（TMAF）」執行長林士凱，從音樂家與管理者的雙重角度，帶領聽眾走入古典音樂的迷人世界。林士凱分享今年音樂節與「海」相關的精彩選曲，並剖析音樂家從單純演奏到跨世代交流的職涯轉變。聆聽古典音樂不需要專業門檻，只要帶著耐心與好奇心，就能沉浸這個放鬆身心靈的饗宴～想知道頂尖音樂家們如何在競爭中保持正向，以及音樂節幕後的策展秘辛？趕快點擊收聽吧！ 重點菜單： 古典音樂的高牆？ TMAF：跨世代頂尖音樂家的黃金交會 演…",
-      "url": "https://www.youtube.com/watch?v=Dc8XP3e2eNk",
-      "sourceName": "國家兩廳院",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-06T00:12:01Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/78c977a224bf1f87ecab.webp",
         "width": 800,
         "height": 450
       }

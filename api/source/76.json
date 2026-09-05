@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T18:33:37.788926Z",
+  "generatedAt": "2026-09-05T10:49:48.893383Z",
   "source": {
     "id": 76,
     "slug": "76",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/76/"
   },
   "items": [
+    {
+      "id": "post-e4534c248b7dcd32f73a0d95",
+      "title": "文科客家諺語教室L413【風雨个祝福】",
+      "excerpt": "文科客家諺語教室L413【風雨个祝福】 #共下來講客家話 #新竹縣 #客家文化 ▍每週三，文科老師教您 #共下來講客家話 🎼客家金曲獎特輯part15 -得獎作品：風雨个祝福🎼 【風雨个祝福】風雨中的祝福 🎤主持人｜龍宣亘 🎤來賓｜徐忠耀",
+      "url": "https://www.youtube.com/watch?v=fZhYTzNiq6k",
+      "sourceName": "新竹縣文化局",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-02T04:00:03Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/137ae8ce2f715cd0d43b.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-4e9989c10c54906848c25f36",
       "title": "#2026義民祭系列活動 ╳ #八音大拼場",
@@ -258,34 +272,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/6b584262ab9f6ac24992.webp",
         "width": 800,
         "height": 1423
-      }
-    },
-    {
-      "id": "post-097408a25de72d408fdb92d5",
-      "title": "#東興圳光藝節OPENCALL",
-      "excerpt": "#東興圳光藝節OPENCALL 𓂃 𓈒𓏸‪‪2026 東興圳光藝節正式公開徵件！𓂃 𓈒𓏸‪‪ ꧁ 點亮夜光水色，照亮綠意家園꧂ 本屆以 《夜巡．探水光（Tam Shui Gong）》 為策展主題，邀請創作者從東興圳的水岸記憶、夜巡文化與城市綠廊出發，以光影、材料與裝置創作，重新詮釋地方故事。 獲選作品將設置於緊鄰汾陽堂的東興圳公園水岸， 一起點亮東興圳 12 月的夜晚 ✧˖°. ✧˖°. 徵選資訊 ▸ 徵選作品｜2 件（另備取 2 件） ▸ 製作經費(含獎金)｜每件 NT$200,000（未稅） ▸收件截止日期｜即日起至2026年9月10日 23:59…",
-      "url": "https://www.instagram.com/p/DbrYFWeDjjr/",
-      "sourceName": "新竹縣文化局",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-06T00:00:10Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/ce703ffdae71c86923cc.webp",
-        "width": 800,
-        "height": 1000
-      }
-    },
-    {
-      "id": "post-68dcf57db795fa07b3619653",
-      "title": "文科客家諺語教室L407【天轉笠嫲花】",
-      "excerpt": "文科客家諺語教室L407【天轉笠嫲花】 #文科客家諺語教室 開講囉👨‍🏫 ▍每週三，文科老師教您 #共下來講客家話 【天轉笠嫲花】形容一個人得意快樂的樣子! #新竹縣 #客家文化",
-      "url": "https://www.youtube.com/watch?v=fcH2iIViips",
-      "sourceName": "新竹縣文化局",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-05T04:00:01Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/ec630d59c1b9f11a3ab6.webp",
-        "width": 800,
-        "height": 450
       }
     }
   ]

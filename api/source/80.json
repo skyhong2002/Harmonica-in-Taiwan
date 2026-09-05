@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T18:33:37.788926Z",
+  "generatedAt": "2026-09-05T10:49:48.893383Z",
   "source": {
     "id": 80,
     "slug": "80",
@@ -8,6 +8,48 @@
     "pageUrl": "https://harmonica.observe.tw/source/80/"
   },
   "items": [
+    {
+      "id": "post-fa35eb82eb98c793a49265f2",
+      "title": "NTT+不藏私講堂｜蔡沛原《返鄉青年創生：找回島嶼原色》",
+      "excerpt": "NTT+不藏私講堂｜蔡沛原《返鄉青年創生：找回島嶼原色》 ✨講者：蔡沛原（鹹味島合作社 負責人） 12歲就赴臺求學的蔡沛原，因接下「北緯26度島嶼顏色計畫」專案經理一職，重新開啟了與家鄉馬祖的對話，他和團隊成員走遍島嶼，一同搜集馬祖的自然、聚落、軍事地景顏色，編撰成詳盡的環境色譜報告。正巧當時東引鄉公所欲更新門牌設計，他便順勢承接，讓顏色計畫的調查成果轉化為實體，成功打造出全臺最有質感的陶製門牌，也埋下了他返鄉創業、繁榮地方的想法。 2019年突如其來的疫情打亂了蔡沛原出國深造的計畫，卻意外促使他與兩位志同道合的國小同學重聚。三位原先各奔東西的馬祖東引…",
+      "url": "https://www.youtube.com/watch?v=D4vFqWXxGvs",
+      "sourceName": "臺中國家歌劇院",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-04T10:00:07Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/4c23f0d2fc3eb85037b4.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-eece22268f51d57acf08fe22",
+      "title": "2026 NTT劇院展開《我的爵視金曲夜》跟著爵士復刻影視經典回憶",
+      "excerpt": "2026 NTT劇院展開《我的爵視金曲夜》跟著爵士復刻影視經典回憶 今年全新製作《我的爵視金曲夜》，由歌劇院再度攜手擅長製作音樂劇的瘋戲樂工作室，邀請觀眾跟著爵士樂重返影視經典金曲的黃金年代。集結〈愛你一萬年〉、〈包青天〉、〈一代女皇〉、〈上海灘〉到〈楚留香〉等膾炙人口的主題曲與插曲。從俠義江湖、歷史傳奇到動人愛情，每一首歌曲都承載著不同年代的集體記憶，並在瓊瑤組曲中聽見浪漫愛情與情感糾葛，最終回到〈人生就是戲〉。《我的爵視金曲夜》以爵士樂重新翻玩影視記憶，打造一場跨越世代、華麗復古又充滿驚喜的金曲盛宴。",
+      "url": "https://www.youtube.com/watch?v=B4qq-fhLCec",
+      "sourceName": "臺中國家歌劇院",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-03T03:28:56Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/fdd0966b8e586550b0d0.webp",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "id": "post-42c66894701a044e16c832a4",
+      "title": "《WOW挖藝術》特別集｜巨人會客室－音樂篇（2026）",
+      "excerpt": "《WOW挖藝術》特別集｜巨人會客室－音樂篇（2026） 主持/企劃：劇場狂粉吉米布蘭卡 受訪來賓：樂評人 徐韻豐 《WOW挖藝術》特別集「巨人會客室音樂篇」上架了！ 今年歌劇院的「遇見巨人」推出3檔從形式到風格都完全不同的音樂類節目：有莫札特270歲誕辰鉅獻、探討人性與愛情的經典喜歌劇《女人皆如此》；由歌劇院駐館藝術家賴奇霞帶來的《共振計畫：感．響》，大膽結合傳統工藝樂器與當代電子聲響裝置共振；最後，指揮大師賽門拉圖爵士帶著天團巴伐利亞廣播交響樂團再度來臺，演出舒伯特與拉赫曼尼諾夫交響史詩。 巨人會客室音樂篇由「劇場狂粉」吉米布蘭卡主持，邀請樂評人徐韻…",
+      "url": "https://www.youtube.com/watch?v=XLIpym2TAzg",
+      "sourceName": "臺中國家歌劇院",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-02T04:00:07Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/5e45dc0d0b5bcfa62685.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-727c0d0165600d7263704e67",
       "title": "2026 NTT 遇見巨人 | 亞倫．路西恩．奧文《安蒂岡妮》關於愛",
@@ -356,76 +398,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/3ffb64b619aae69eed8b.webp",
         "width": 640,
         "height": 360
-      }
-    },
-    {
-      "id": "post-dfe7d68197324e25abcc7fe1",
-      "title": "2026 NTT遇見巨人｜亞洲首演！愛爾蘭鬼才編導丹．科利《迷失的李爾》",
-      "excerpt": "2026 NTT遇見巨人｜亞洲首演！愛爾蘭鬼才編導丹．科利《迷失的李爾》 #全臺獨家 #亞洲首演 備受矚目的愛爾蘭鬼才編導丹．科利（𝐃𝐚𝐧 𝐂𝐨𝐥𝐥𝐞𝐲），即將帶著國際獲獎無數的《迷失的李爾》（𝑳𝒐𝒔𝒕 𝑳𝒆𝒂𝒓）登上歌劇院舞台！ 🏆2022都柏林戲劇節震撼首演 🏆2022《愛爾蘭時報》劇藝獎4項大獎提名 🏆2025愛丁堡藝穗節《蘇格蘭人報》首獎 故事講述患有失智症的老演員喬伊，她的現實與莎翁經典《李爾王》的戲劇世界交織在一起；醫護人員配合演出這場永無止境的「戲劇排練」，以穩定她的情緒。然而，這種平衡被與她長期疏遠的兒子康納打破，母子兩人在有限的對白裡…",
-      "url": "https://www.youtube.com/watch?v=wuldRKmHSbc",
-      "sourceName": "臺中國家歌劇院",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-06T07:48:15Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/b8e0bae70f851f331f8e.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-43d9a6076e2b9aa8168a46fc",
-      "title": "2026 NTT 遇見巨人 | 比利時莫蘇邦特跨界劇場《女巫安息日》",
-      "excerpt": "2026 NTT 遇見巨人 | 比利時莫蘇邦特跨界劇場《女巫安息日》 創團40週年，歐洲暗黑美學代表 比利時莫蘇邦特跨界劇場首度來臺，一生必看一次的超現實劇場 一場美術館驚魂夜開啟 西班牙古典大師──哥雅經典畫作重現 10位美術館守衛，夜晚被困在展廳裡，被朝夕相處的哥雅畫作逐漸吞噬，現實感崩解，身體和靈魂都受畫中的陰鬱、殘酷和暴力侵蝕。Cie Mossoux-Bonté以哥雅畫作《女巫的安息日》為題，表演者彷彿成為哥雅筆下的魁儡，狂想囈語、荒誕歌唱，以人偶雙重身、棍舞與死亡之舞，構築迷人詭譎的黑色幻境。 ⊱ ────── 2026 NTT遇見巨人 ──…",
-      "url": "https://www.youtube.com/watch?v=lj0GxN5veho",
-      "sourceName": "臺中國家歌劇院",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-05T09:18:29Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/bde26ac73c70f54c610c.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-d1f378133c0158e39721868c",
-      "title": "2026 NTT 夏日放／FUN時光｜【CC字幕】韓劇之外的瘋狂，為什麼全世界都在看韓國音樂劇？",
-      "excerpt": "2026 NTT 夏日放／FUN時光｜【CC字幕】韓劇之外的瘋狂，為什麼全世界都在看韓國音樂劇？ 除了風靡全球的 K-POP 與韓劇，這幾年世界劇場界正吹起一股不可忽視的「韓國音樂劇」旋風。 極其流暢的布景銜接、媲美影視作品的視覺敘事，韓國音樂劇究竟是如何做到的？ 感動人心的《如蝶翩翩》音樂劇版首度來臺，這也是首爾藝術團第一次以完整音樂劇製作來臺演出！ 初試啼聲就創下佳績，掀起票券秒殺的現象級狂熱與百萬網友廣大的迴響！ 正是因為這部感動無數人的《如蝶翩翩》音樂劇，開啟了這場難得的交流契機！ 臺中國家歌劇院特別邀請資深藝評人白斐嵐老師主持， 與曾任首爾藝…",
-      "url": "https://www.youtube.com/watch?v=yVXQRdwrsLc",
-      "sourceName": "臺中國家歌劇院",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-05T05:48:37Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/168ed91f95a0579a47c4.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-b6024109fd168299161cac89",
-      "title": "WOW挖藝術–Master Class｜▍蜜雪兒．安．德梅 ▍打造跨領域的劇場形式",
-      "excerpt": "WOW挖藝術–Master Class｜▍蜜雪兒．安．德梅 ▍打造跨領域的劇場形式 比利時編舞家蜜雪兒．安．德梅（Michèle Anne De Mey）於1989年創立阿斯特嘉舞蹈劇場（Astragales），長期致力於拓展舞蹈創作的多元可能，作品強調音樂、肢體與敘事之間細膩而緊密的連結。他以代表作《Kiss & Cry》為例，分享跨領域合作如何成為創作的一部分，並回顧作品《Sinfonia Eroïca》，娓娓道來他如何看待音樂與舞蹈的關係。 - - - - - - - - - - - - - - - - - - - - - - - - - - -…",
-      "url": "https://www.youtube.com/watch?v=F3mfCxnougI",
-      "sourceName": "臺中國家歌劇院",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-05T04:00:00Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/a34078831c1f9e019d05.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-f41577c8bc6507eb3707e473",
-      "title": "2026 NTT 遇見巨人 | 10年的疊加，是一場關於劇場的解構與重構。",
-      "excerpt": "2026 NTT 遇見巨人 | 10年的疊加，是一場關於劇場的解構與重構。 𝟮𝟬𝟮𝟲 𝗡𝗧𝗧【遇見巨人】會員預購！𝟳𝟱折開跑！ 🥳歌劇院會員開放購票囉！🙌 𝟭𝟭部國內外經典大作，即將在歌劇院震撼登場！ ✨會員獨享專屬 𝟳𝟱折 預購優惠！✨ OPENTIX【遇見巨人】旗艦館 🔗 ☀️𝟮𝟬𝟮𝟲 𝗡𝗧𝗧【遇見巨人】☀️ 𝟭𝟬/𝟭𝟲—𝟭𝟬/𝟭𝟴 愛爾蘭鬼才編導丹．科利《迷失的李爾》 𝟭𝟬/𝟮𝟰—𝟭𝟬/𝟮𝟱 驫舞劇場《大群舞》 𝟭𝟬/𝟮𝟵—𝟭𝟭/𝟭 莫札特歌劇《女人皆如此》 𝟭𝟬/𝟯𝟭—𝟭𝟭/𝟭 亞倫．路西恩．奧文《安蒂岡妮》 𝟭𝟭/𝟲—𝟭𝟭/𝟴 𝟮𝟬𝟮𝟱-𝟮𝟬…",
-      "url": "https://www.youtube.com/watch?v=1fCpGTCDDX4",
-      "sourceName": "臺中國家歌劇院",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-04T04:02:59Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/9d1da719b1e6b1facbd3.webp",
-        "width": 800,
-        "height": 450
       }
     }
   ]

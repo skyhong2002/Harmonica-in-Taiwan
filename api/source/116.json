@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T18:33:37.788926Z",
+  "generatedAt": "2026-09-05T10:49:48.893383Z",
   "source": {
     "id": 116,
     "slug": "trio-animato",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/116-trio-animato/"
   },
   "items": [
+    {
+      "id": "post-702ce451c7ce910606459a7c",
+      "title": "Zbigniew Wodecki - Opowiadaj mi tak (Trio Animato - harmonijka ustna)",
+      "excerpt": "Zbigniew Wodecki - Opowiadaj mi tak (Trio Animato - harmonijka ustna)",
+      "url": "https://www.youtube.com/watch?v=_d9r77nFolE",
+      "sourceName": "Trio Animato",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-02T15:49:40Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a8aa642a5be3085231f4.webp",
+        "width": 480,
+        "height": 360
+      }
+    },
     {
       "id": "post-be7a1f527542adf4b604cd24",
       "title": "Zbigniew Wodecki - \"Opowiadaj mi tak\" w wykonaniu Trio Animato, utwór zarejestrowany na jeden z \"prywatek\".",

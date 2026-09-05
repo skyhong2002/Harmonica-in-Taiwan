@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T18:33:37.788926Z",
+  "generatedAt": "2026-09-05T10:49:48.893383Z",
   "source": {
     "id": 309,
     "slug": "korea-harmonica-leaders-incorporated-association",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/309-korea-harmonica-leaders-incorporated-association/"
   },
   "items": [
+    {
+      "id": "post-0c6685ba1201dfd3d46498f9",
+      "title": "[소래모하모니카합주단] 나는 행복한 사람(I am a happy person)",
+      "excerpt": "[소래모하모니카합주단] 나는 행복한 사람(I am a happy person) 소래모하모니카합주단 제21회 정기연주회 - 나는 행복한 사람(I am a happy person) * 작곡: 오동식, 편곡: 김진완 * 지휘: 추영경, 피아노: 임주선, 드럼: 김진환, 더블베이스: 장진호, 사회: 정경주 * 2024.10.09. 대구아양아트센터 #사단법인한국하모니카리더스 #소래모하모니카합주단 #대구하모니카 #하모니카 #하모니카연주 #하모니카앙상블 #복음하모니카 #트레몰로하모니카 #코드하모니카 #베이스…",
+      "url": "https://www.youtube.com/watch?v=dnjSYG7k8tY",
+      "sourceName": "韓國口琴領袖協會",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-04T10:00:39Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/4234724df094e8d5d6c1.webp",
+        "width": 1280,
+        "height": 720
+      }
+    },
     {
       "id": "post-6240e12c6c83bfc666ce8ddd",
       "title": "[소래모하모니카합주단] 고맙소(Thank You)",

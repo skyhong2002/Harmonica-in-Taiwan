@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T18:33:37.788926Z",
+  "generatedAt": "2026-09-05T10:49:48.893383Z",
   "source": {
     "id": 58,
     "slug": "minami-risa",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/58-minami-risa/"
   },
   "items": [
+    {
+      "id": "post-f010f2d9c9c52b942abfada9",
+      "title": "今週のココばなは9月5日(土)森昌子さんを特集します♬ | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powered by Ameba",
+      "excerpt": "今週のココばなは9月5日(土)森昌子さんを特集します♬ | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powered by Ameba #Amebaブログ #アメブロ #南里沙 #クロマチックハーモニカ",
+      "url": "https://x.com/minami_risa/status/2095559883110424753",
+      "sourceName": "南里沙",
+      "platform": "X",
+      "publishedAt": "2026-09-03T17:09:44Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/4d97532cb5255d2882f9.webp",
+        "width": 800,
+        "height": 451
+      }
+    },
     {
       "id": "post-d93768e71906cb6f6ed25184",
       "title": "答え合わせ | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powere... #Ame...",
@@ -546,34 +560,6 @@
       "sourceName": "南里沙",
       "platform": "X",
       "publishedAt": "2026-08-06T15:07:08Z"
-    },
-    {
-      "id": "post-96d7f1fddfddc072934c03ff",
-      "title": "行ってきます！ | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powe... #A...",
-      "excerpt": "行ってきます！ | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powe... #A... 行ってきます！ | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powe... #Amebaブログ #アメブロ #南里沙 #クロマチックハーモニカ",
-      "url": "https://x.com/minami_risa/status/2085207290022674481",
-      "sourceName": "南里沙",
-      "platform": "X",
-      "publishedAt": "2026-08-06T03:32:13Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/1e068149696a6914e9a8.webp",
-        "width": 800,
-        "height": 600
-      }
-    },
-    {
-      "id": "post-c56bd8ce63d88f597bba2c9c",
-      "title": "ロイヤルホースにて♬ | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」P...",
-      "excerpt": "ロイヤルホースにて♬ | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」P... #Amebaブログ #アメブロ #南里沙 #クロマチックハーモニカ",
-      "url": "https://x.com/minami_risa/status/2084677673834693121",
-      "sourceName": "南里沙",
-      "platform": "X",
-      "publishedAt": "2026-08-04T16:27:43Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/808669f31e9925a3c750.webp",
-        "width": 800,
-        "height": 391
-      }
     }
   ]
 }

@@ -1,54 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T18:33:37.788926Z",
+  "generatedAt": "2026-09-05T10:49:48.893383Z",
   "source": {
     "id": 178,
     "slug": "harmonica-fen-festival-academy",
     "name": "Harmonica FEN 口琴節與學院",
     "pageUrl": "https://harmonica.observe.tw/source/178-harmonica-fen-festival-academy/"
   },
-  "items": [
-    {
-      "id": "post-8016a27fe1df854fb3bb2ab4",
-      "title": "🔶 Thank you for a wonderful festival full of joy, stunning performances, encounters.🔶",
-      "excerpt": "🔶 Thank you for a wonderful festival full of joy, stunning performances, encounters.🔶 Thank you to all the performing musicians, the members of the session band and those musicians who passed by as guests. Thank you to our partner festivals in Calmont, Calella, Milan as well es…",
-      "url": "https://www.instagram.com/p/DbnPBgtiCy6/",
-      "sourceName": "Harmonica FEN 口琴節與學院",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-04T09:24:03Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/6f56110e1b8244e5ebdd.webp",
-        "width": 800,
-        "height": 800
-      }
-    },
-    {
-      "id": "post-0d58a5722332573ed1d62ebd",
-      "title": "🔶 Thank you for a wonderful festival full of joy, stunning performances and encounters.🔶",
-      "excerpt": "🔶 Thank you for a wonderful festival full of joy, stunning performances and encounters.🔶 Thank you to all our friends and helpers. You were wonderful! Thank you to the fantastic team of Kesselhaus und Maschinenhaus at Kulturbrauerei. Thank you to Sören - without him, there would…",
-      "url": "https://www.instagram.com/p/DbnOgiwCNff/",
-      "sourceName": "Harmonica FEN 口琴節與學院",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-04T09:19:34Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/d53f1f734ac8bc463d20.webp",
-        "width": 800,
-        "height": 800
-      }
-    },
-    {
-      "id": "post-e310a28a6e1b1e7330b56510",
-      "title": "🔶 Thank you for a wonderful festival full of joy, stunning performances and encounters.🔶",
-      "excerpt": "🔶 Thank you for a wonderful festival full of joy, stunning performances and encounters.🔶 Thank you to our audience and everyone who dropped by, driven by curiosity about this great little instrument! 👻 Will there be 4th HARMONICA FEN FESTIVAL? Yes! We will be back in 2028! Stay…",
-      "url": "https://www.instagram.com/p/DbnNpVIiOH3/",
-      "sourceName": "Harmonica FEN 口琴節與學院",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-04T09:12:01Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/0e65000d3d3c4fb2d6bd.webp",
-        "width": 800,
-        "height": 800
-      }
-    }
-  ]
+  "items": []
 }

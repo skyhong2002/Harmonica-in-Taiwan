@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-03T02:33:43+08:00",
+  "generatedAt": "2026-09-05T18:49:53+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "overseas_physical",
-  "count": 10,
+  "count": 11,
   "source": "/api/events.json",
   "ics": "/feeds/overseas-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -92,6 +92,42 @@
         "https://scontent-ord5-2.xx.fbcdn.net/v/t51.82787-10/782252597_18557870653076837_546680419998952269_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=r3Cfc2ysrAEQ7kNvwEqwqzy&_nc_oc=AdrbOVtK_6u_0vjybABCIlSj6ypLNdN1Dw6-HQ7NACyhckLlzhYwKfJaSHO1uDDqulk&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=ElPuH9gcDqP3jQe7efbLYw&_nc_ss=72289&oh=00_AQErcznxU6ubfsbZtKTBsWCeAmQw_V1ZzIqFR1cc99V53A&oe=6A90AF7D"
       ],
       "image_url": "/assets/feed-images/db618b1115850b3d1013.webp"
+    },
+    {
+      "id": "bc14fceae7ba1f9e",
+      "title": "山下伶 メジャーデビュー10周年記念コンサート～希望の種を音に乗せて～",
+      "eventName": "山下伶 メジャーデビュー10周年記念コンサート～希望の種を音に乗せて～",
+      "source": "山下伶 / Rei Yamashita",
+      "platform": "x",
+      "start": "2026-09-05T15:00:00+09:00",
+      "end": "2026-09-05T17:00:00+09:00",
+      "allDay": false,
+      "calendarType": "overseas_physical",
+      "timezone": "Asia/Tokyo",
+      "location": "川口市 川口リリア・山伸サステインホール",
+      "venue": "川口リリア・山伸サステインホール",
+      "city": "川口市",
+      "details": "主辦／演出者：山下伶 Rei Yamashita。9/5（土）15:00開演，全席指定4,000円；當日券於14:00起在4階ホール入口販售。貼文標示為山下伶的十週年紀念音樂會，屬實體演出活動。",
+      "evidenceUrl": "https://x.com/rei_harmonica/status/2096047117823590566",
+      "confidence": 0.97,
+      "calendarReview": {
+        "include": true,
+        "country": "其他國家/地區",
+        "eventMode": "overseas_physical",
+        "timezone": "Asia/Tokyo",
+        "candidateDateMatches": true,
+        "eventName": "山下伶 メジャーデビュー10周年記念コンサート～希望の種を音に乗せて～",
+        "venue": "川口リリア・山伸サステインホール",
+        "city": "川口市",
+        "details": "主辦／演出者：山下伶 Rei Yamashita。9/5（土）15:00開演，全席指定4,000円；當日券於14:00起在4階ホール入口販售。貼文標示為山下伶的十週年紀念音樂會，屬實體演出活動。",
+        "reason": "貼文明確寫出 9/5 15:00 開演的實體音樂會，且內容為口琴演出相關活動；日期與 candidateStart 相符。",
+        "confidence": 0.97
+      },
+      "postedAt": "2026-09-05 09:04",
+      "images": [
+        "https://pbs.twimg.com/media/HRai3eRa4AA1Inf?format=jpg&name=orig"
+      ],
+      "image_url": "/assets/feed-images/3aebca300f97ce168e2b.webp"
     },
     {
       "sourceName": "",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T18:33:37.788926Z",
+  "generatedAt": "2026-09-05T10:49:48.893383Z",
   "source": {
     "id": 40,
     "slug": "henry-chen",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/40-henry-chen/"
   },
   "items": [
+    {
+      "id": "post-e13c70c6533833798dcc50d0",
+      "title": "【就是吹口琴Just Play Harmonica 】｜施孝榮 – 歸人沙城｜複音口琴Tremolo Harmonica 演奏版本《C(Am)調》",
+      "excerpt": "【就是吹口琴Just Play Harmonica 】｜施孝榮 – 歸人沙城｜複音口琴Tremolo Harmonica 演奏版本《C(Am)調》 歸去我要 歸去我要 回到我的沙城 沙河將再裊繞 歸人沙城 陳輝雄 作曲 陳輝雄 作詞 施孝榮 原唱 複音口琴演奏版本《C(Am)調》",
+      "url": "https://www.youtube.com/watch?v=xOc5u3iiKtY",
+      "sourceName": "陳鴻儀",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-04T00:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/c85e7989b7a203a558a0.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-eb79afee0d88fc6dd7ea92ae",
       "title": "【就是吹口琴Just Play Harmonica 】｜ABBA – I have a dream《我有一個夢想》｜複音口琴Tremolo Harmonica 演奏版本《C調》",
@@ -200,20 +214,6 @@
       "publishedAt": "2026-08-08T00:00:06Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/7330c928bc8cf8f1d113.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-a5dbf22329e32d8357d85d81",
-      "title": "第15屆亞太口琴APH藝術週 – 臺灣專場演出｜雨的旋律組曲｜複音口琴Tremolo Harmonica 獨奏演出",
-      "excerpt": "第15屆亞太口琴APH藝術週 – 臺灣專場演出｜雨的旋律組曲｜複音口琴Tremolo Harmonica 獨奏演出 第15屆亞太口琴藝術週(地點：中國江陰市) 20260725臺灣專場演出｜雨的旋律組曲｜陳鴻儀複音口琴獨奏演出 曲目：1.雨的旋律 2.愛你在心口難開 3.多少柔情多少淚",
-      "url": "https://www.youtube.com/watch?v=tKugOnXF-3M",
-      "sourceName": "陳鴻儀",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-06T00:00:06Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/df70d5bce18b6f6b6997.webp",
         "width": 800,
         "height": 450
       }

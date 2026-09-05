@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T18:33:37.788926Z",
+  "generatedAt": "2026-09-05T10:49:48.893383Z",
   "source": {
     "id": 125,
     "slug": "jens-bunge",
@@ -48,34 +48,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/e8103b77f929c787a757.webp",
         "width": 640,
         "height": 360
-      }
-    },
-    {
-      "id": "post-3aa047fb5b2d6eb7970db765",
-      "title": "About to board SQ326 to Frankfurt, I want to say it’s been a wonderful 35 days here in Asia (Singapore - Bangkok - Seou…",
-      "excerpt": "About to board SQ326 to Frankfurt, I want to say it’s been a wonderful 35 days here in Asia (Singapore - Bangkok - Seoul), full of music (only one da... About to board SQ326 to Frankfurt, I want to say it’s been a wonderful 35 days here in Asia (Singapore - Bangkok - Seoul), ful…",
-      "url": "https://www.instagram.com/p/DbpHHpdOhV6/",
-      "sourceName": "Jens Bunge",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-05T03:28:02Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/343d9fa41e5f3d3d6f9b.webp",
-        "width": 800,
-        "height": 1067
-      }
-    },
-    {
-      "id": "post-c3cf8cb10124bff52df0634c",
-      "title": "Jam Session at Blu Jaz Singapore",
-      "excerpt": "Jam Session at Blu Jaz Singapore",
-      "url": "https://www.instagram.com/p/DbpFzu5FpWW/",
-      "sourceName": "Jens Bunge",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-05T02:41:58Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/7315a78d70980e47b1a8.webp",
-        "width": 800,
-        "height": 599
       }
     }
   ]

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T18:33:37.788926Z",
+  "generatedAt": "2026-09-05T10:49:48.893383Z",
   "source": {
     "id": 75,
     "slug": "75",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/75/"
   },
   "items": [
+    {
+      "id": "post-a338293efdea771a8cea6d10",
+      "title": "《跨閱界限 雙城共讀》新竹縣市圖書館通借通還服務",
+      "excerpt": "《跨閱界限 雙城共讀》新竹縣市圖書館通借通還服務 新竹縣市圖書館「通借通還」服務正式上路！ 115年9月4日起，新竹縣市的民眾透過線上預約取書，即可就近於住家或工作地點鄰近之圖書館取書、還書，不再受限於借閱館別的區域限制。 ✨ 22座圖書館、150萬冊館藏，全面串聯 ✨ 智慧物流加持，最高每小時處理 1 萬冊 ✨ 服務再升級，借閱更便利！ 「就近取、就近還」的資源無縫共享 📖💫 #新竹縣市通借通還 #跨閱界限雙城共讀 #大新竹生活圈 #閱讀無界限 #新竹縣市圖書館",
+      "url": "https://www.youtube.com/watch?v=1oH3bX5YNek",
+      "sourceName": "新竹市文化局",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-04T07:45:11Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/b7c39ad5caa1ae64b050.webp",
+        "width": 1280,
+        "height": 720
+      }
+    },
     {
       "id": "post-44926453d89429d972edfad1",
       "title": "《百合—直到觸及我們的情感象限》｜展覽影片",

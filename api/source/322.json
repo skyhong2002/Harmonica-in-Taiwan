@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T18:33:37.788926Z",
+  "generatedAt": "2026-09-05T10:49:48.893383Z",
   "source": {
     "id": 322,
     "slug": "tombo-festival-awards",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/322-tombo-festival-awards/"
   },
   "items": [
+    {
+      "id": "post-4aa87972cd3aa2785eb002cf",
+      "title": "風の音を訪ねて ～あなたの街のハーモニカ＆アコーディオン奏者をご紹介！～ （TOMBO STATION 2026 夏号より）",
+      "excerpt": "風の音を訪ねて ～あなたの街のハーモニカ＆アコーディオン奏者をご紹介！～ （TOMBO STATION 2026 夏号より） こちらはハーモニカ＆アコーディオン情報番組 『TOMBO STATION 2026 夏号』より『風の音を訪ねて』を抜粋した動画です。 第1回目は、「おふろdeアフロ」「玉川ちんどん屋」などで活躍するジャーバラ藤田さんです。 以下プロフィールです。 アコーディオン奏者 ジャーバラ藤田 大学卒業後、とあるコミックバンドでアコーディオン担当としてお笑い事務所ホリプロコムと業務提携し、様々なアーティストや芸人、タレントと共演し、営業ステ…",
+      "url": "https://www.youtube.com/watch?v=SpNRvnL4Qvg",
+      "sourceName": "TOMBO祭アワード",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-04T08:00:16Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/5b596b64d757dbdce5cf.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-116a19c560c6fa0c887be338",
       "title": "Part of Your World（From 『リトル・マーメイド』）",
