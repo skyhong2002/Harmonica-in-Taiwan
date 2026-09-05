@@ -44,10 +44,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "58-minami-risa",
-      "latestUpdateAt": "2026-09-05T10:48:56+00:00",
-      "latestUpdateLocal": "2026-09-05 18:48",
+      "latestUpdateAt": "2026-09-05T15:34:06+00:00",
+      "latestUpdateLocal": "2026-09-05 23:34",
       "latestUpdateSource": "南里沙",
-      "latestUpdateUrl": "https://x.com/minami_risa/status/2096188828394688914",
+      "latestUpdateUrl": "https://x.com/minami_risa/status/2096260592898392575",
       "avatarUrl": "/assets/source-avatars/c381d87d290434bb6bbc.webp",
       "sourceInitials": "南里",
       "sourceTags": [
@@ -2503,7 +2503,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-02 00:26",
       "latestUpdateSource": "黃冠誌",
       "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3976703112043327905/",
-      "avatarUrl": "/assets/source-avatars/6225b45912158a6114b6.webp",
+      "avatarUrl": "/assets/source-avatars/732f0bed1237e5b366b6.webp",
       "sourceInitials": "黃冠",
       "sourceTags": [
         "演奏者",
@@ -5551,7 +5551,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-31 14:23",
       "latestUpdateSource": "Lee Hangyeol 이한결",
       "latestUpdateUrl": "https://www.instagram.com/stories/gyeoli_94/3975674956381902689/",
-      "avatarUrl": "/assets/source-avatars/dbe20a7fabe463b77b46.webp",
+      "avatarUrl": "/assets/source-avatars/b77781742af5c04dfa92.webp",
       "sourceInitials": "LH",
       "sourceTags": [
         "演奏者",
