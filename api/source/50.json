@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-05T12:05:52.578609Z",
+  "generatedAt": "2026-09-05T12:30:16.583328Z",
   "source": {
     "id": 50,
     "slug": "aiden-soon",
@@ -34,20 +34,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/755f728ee6a9bc597769.webp",
         "width": 800,
         "height": 1067
-      }
-    },
-    {
-      "id": "post-975fab4ac5efac7cc544805c",
-      "title": "Highlights of Fresco’s moments @ Asia Pacific Harmonica Festival",
-      "excerpt": "Highlights of Fresco’s moments @ Asia Pacific Harmonica Festival #frescoharmonica #aphf20206 #harmonica",
-      "url": "https://www.instagram.com/p/DbstBffJBjz/",
-      "sourceName": "Aiden Soon",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-06T12:24:14Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/e7f927e52f540087bf50.webp",
-        "width": 720,
-        "height": 1280
       }
     }
   ]
