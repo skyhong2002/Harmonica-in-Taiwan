@@ -2,6 +2,51 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-09-06",
   "entries": [
     {
+      "id": "watchlist-316",
+      "publicId": "316",
+      "name": "太平國小口琴隊",
+      "nameEn": "Taiping Elementary School Harmonica Ensemble",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校/青年",
+      "country": "臺灣",
+      "region": "臺灣/臺中/太平",
+      "cityOrFocus": "臺中市太平國小口琴合奏團隊/長期扎根音樂教育與分部訓練/114學年度全國學生音樂比賽國小口琴合奏特優/2026達成連續四年全國賽特優",
+      "structuredSummary": "臺中市太平國小口琴合奏團隊/長期扎根音樂教育與分部訓練/114學年度全國學生音樂比賽國小口琴合奏特優/2026達成連續四年全國賽特優 / 口琴合奏/校園口琴教育 / 學校團隊/青少年口琴教育/全國學生音樂比賽團隊",
+      "summary": "臺灣的口琴合奏與校園口琴教育學校團隊、青少年口琴教育與全國學生音樂比賽團隊。",
+      "keywords": "臺中 太平國小口琴隊 Taiping Elementary School Harmonica Ensemble 2026 全國學生音樂比賽 口琴合奏 特優 四連霸 蔡政嘉 姜義良",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "316-taiping-elementary-school-harmonica-ensemble",
+      "latestUpdateAt": "2026-09-05T20:48:57.809182+00:00",
+      "latestUpdateLocal": "2026-09-06 04:48",
+      "latestUpdateSource": "太平國小口琴隊",
+      "latestUpdateUrl": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586",
+      "avatarUrl": "/assets/source-avatars/taiping-elementary-harmonica.jpg",
+      "sourceInitials": "太平",
+      "sourceTags": [
+        "學生社團",
+        "比賽"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_316",
+          "name": "太平國小口琴隊",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-254",
       "publicId": "254",
       "name": "鄭州大眾口琴樂團",
@@ -645,51 +690,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@minamirisa",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-316",
-      "publicId": "316",
-      "name": "太平國小口琴隊",
-      "nameEn": "Taiping Elementary School Harmonica Ensemble",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校/青年",
-      "country": "臺灣",
-      "region": "臺灣/臺中/太平",
-      "cityOrFocus": "臺中市太平國小口琴合奏團隊/長期扎根音樂教育與分部訓練/114學年度全國學生音樂比賽國小口琴合奏特優/2026達成連續四年全國賽特優",
-      "structuredSummary": "臺中市太平國小口琴合奏團隊/長期扎根音樂教育與分部訓練/114學年度全國學生音樂比賽國小口琴合奏特優/2026達成連續四年全國賽特優 / 口琴合奏/校園口琴教育 / 學校團隊/青少年口琴教育/全國學生音樂比賽團隊",
-      "summary": "臺灣的口琴合奏與校園口琴教育學校團隊、青少年口琴教育與全國學生音樂比賽團隊。",
-      "keywords": "臺中 太平國小口琴隊 Taiping Elementary School Harmonica Ensemble 2026 全國學生音樂比賽 口琴合奏 特優 四連霸 蔡政嘉 姜義良",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "316-taiping-elementary-school-harmonica-ensemble",
-      "latestUpdateAt": "2026-09-05T08:36:41.015185+00:00",
-      "latestUpdateLocal": "2026-09-05 16:36",
-      "latestUpdateSource": "太平國小口琴隊",
-      "latestUpdateUrl": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586",
-      "avatarUrl": "/assets/source-avatars/taiping-elementary-harmonica.jpg",
-      "sourceInitials": "太平",
-      "sourceTags": [
-        "學生社團",
-        "比賽"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_316",
-          "name": "太平國小口琴隊",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586",
           "feedUrl": ""
         }
       ]
