@@ -17,14 +17,14 @@
       "account": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586",
       "platform": "website",
       "platform_label": "website",
-      "posted_at": "2026-09-05T20:48:57.809182+00:00",
-      "posted_at_local": "2026-09-06 04:48",
+      "posted_at": "2026-09-06T14:06:42.234693+00:00",
+      "posted_at_local": "2026-09-06 22:06",
       "like_count": null,
       "comment_count": null,
       "share_count": null,
       "reaction_count": null,
       "view_count": null,
-      "seen_at": "2026-09-05T20:49:03.154485+00:00",
+      "seen_at": "2026-09-06T14:06:52.545430+00:00",
       "media_type": "webpage_update",
       "story": false,
       "story_provider": "",
@@ -36,20 +36,28 @@
       "instagram_user_id": "",
       "matched_keywords": [
         "口琴",
-        "演出",
-        "比賽"
+        "公開更新",
+        "比賽",
+        "演出"
       ],
       "keyword_matches": [
         "口琴",
         "演出",
         "比賽"
       ],
-      "llm_relevant": null,
-      "llm_confidence": null,
-      "llm_labels": [],
-      "llm_categories": [],
-      "llm_reason": "",
-      "text": "臺中市政府教育局-校園活動報導\n-->\n跳到主要內容區\n臺中市政府教育局\n回首頁\n市府首頁\n網站導覽\n常見問答\n快速連結\nEnglish\n教育服務網\nA-\nA\nA+\n搜尋\n單位介紹\n首長介紹\n組織與職掌\n各級學校\n局徽介紹\n科室業務\n局長室\n副局長室\n主任秘書\n專門委員\n高中職教育科\n國中教育科\n國小教育科\n幼兒教育科\n終身教育科\n特殊教育科\n課程教學科\n體育保健科\n工程營繕科\n秘書室\n學生事務室\n人事室\n會計室\n政風室\n家庭教育中心\n臺中市教育網路中心\n教師研習中心\n專業實踐分團辦公室\n便民服務\n重點業務\n教育局行事曆\n檔案應用服務專區\n法規下載\n意見信箱\n公告與活動\n公告訊息\n教育活動報導\n校園活動報導\n政府公開資訊\n遊說法專區\n報告書專區\n教育紀要\n重要資訊\n校園中聯油脂案資訊專區\n性別主流化專區\n性別平等專案小組\n性別意識培力\n性別統計與分析\n性別影響評估\n性別預算\nCEDAW與性別平等宣導\n性別主流化執行成果\n性別相關法規\n其他\n教育電子報\n防疫專區(含紓困專區)\n學校政策\n防疫措施\n幼兒園\n補習班、課照中心暨社區大學\n臺中市居家安心照護方案\n臺中市各級學校停課訊息\n學生疫苗\n:::\n臺中市政府教育局\n搜尋\n網站導覽 常見問答 English\n單位介紹\n首長介紹\n組織與職掌\n各級學校\n局徽介紹\n科室業務\n局長室\n副局長室\n主任秘書\n專門委員\n高中職教育科\n國中教育科\n國小教育科\n幼兒教育科\n終身教育科\n特殊教育科\n課程教學科\n體育保健科\n工程營繕科\n秘書室\n學生事務室\n人事室\n會計室\n政風室\n家庭教育中心\n臺中市教育網路中心\n教師研習中心\n專業實踐分團辦公室\n便民服務\n重點業務\n教育局行事曆\n檔案應用服務專區\n法規下載\n意見信箱\n公告與活動\n公告訊息\n教育活動報導\n校園活動報導\n政府公開資訊\n遊說法專區\n報告書專區\n教育紀要\n重要資訊\n校園中聯油脂案資訊專區\n性別主流化專區\n性別平等專案小組\n性別意識培力\n性別統計與分析\n性別影響評估\n性別預算\nCEDAW與性別平等宣導\n性別主流化執行成果\n性別相關法規\n其他\n教育電子報\n防疫專區(含紓困專區)\n學校政策\n防疫措施\n幼兒園\n補習班、課照中心暨社區大學\n臺中市居家安心照護方案\n臺中市各級學校停課訊息\n學生疫苗\n網站資訊\n網站導覽\n常見問答\n隱私權及資訊安全政策\n網站服務條款\n無障礙宣告\n交通指南\n教育局電話分機一覽表\n常用連結\n快速連結\n教育服務網\n:::\n公告與活動\n公告訊息\n教育活動報導\n校園活動報導\n政府公開資訊\n遊說法專區\n報告書專區\n教育紀要\n:::\n首頁\n公告與活動\n校園活動報導\n返回校園活動報導\n琴聲悠揚耀全國，口琴隊全國賽連續四年特優佳績創巔峰！\n報導日期： 2026-03-12\n報導單位： 太平區 太平國小 學務處\n點閱數： 1176\n列印\n恭喜太平區太平國小口琴隊參加114學年度…",
+      "llm_relevant": true,
+      "llm_confidence": 0.99,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "比賽",
+        "演出"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "太平國小口琴隊全國賽奪特優，屬口琴隊公開更新與比賽成果報導。",
+      "text": "臺中市政府教育局-校園活動報導\n-->\n跳到主要內容區\n臺中市政府教育局\n回首頁\n市府首頁\n網站導覽\n常見問答\n快速連結\nEnglish\n教育服務網\nA-\nA\nA+\n搜尋\n單位介紹\n首長介紹\n組織與職掌\n各級學校\n局徽介紹\n科室業務\n局長室\n副局長室\n主任秘書\n專門委員\n高中職教育科\n國中教育科\n國小教育科\n幼兒教育科\n終身教育科\n特殊教育科\n課程教學科\n體育保健科\n工程營繕科\n秘書室\n學生事務室\n人事室\n會計室\n政風室\n家庭教育中心\n臺中市教育網路中心\n教師研習中心\n專業實踐分團辦公室\n便民服務\n重點業務\n教育局行事曆\n檔案應用服務專區\n法規下載\n意見信箱\n公告與活動\n公告訊息\n教育活動報導\n校園活動報導\n政府公開資訊\n遊說法專區\n報告書專區\n教育紀要\n重要資訊\n校園中聯油脂案資訊專區\n性別主流化專區\n性別平等專案小組\n性別意識培力\n性別統計與分析\n性別影響評估\n性別預算\nCEDAW與性別平等宣導\n性別主流化執行成果\n性別相關法規\n其他\n教育電子報\n防疫專區(含紓困專區)\n學校政策\n防疫措施\n幼兒園\n補習班、課照中心暨社區大學\n臺中市居家安心照護方案\n臺中市各級學校停課訊息\n學生疫苗\n:::\n臺中市政府教育局\n搜尋\n網站導覽 常見問答 English\n單位介紹\n首長介紹\n組織與職掌\n各級學校\n局徽介紹\n科室業務\n局長室\n副局長室\n主任秘書\n專門委員\n高中職教育科\n國中教育科\n國小教育科\n幼兒教育科\n終身教育科\n特殊教育科\n課程教學科\n體育保健科\n工程營繕科\n秘書室\n學生事務室\n人事室\n會計室\n政風室\n家庭教育中心\n臺中市教育網路中心\n教師研習中心\n專業實踐分團辦公室\n便民服務\n重點業務\n教育局行事曆\n檔案應用服務專區\n法規下載\n意見信箱\n公告與活動\n公告訊息\n教育活動報導\n校園活動報導\n政府公開資訊\n遊說法專區\n報告書專區\n教育紀要\n重要資訊\n校園中聯油脂案資訊專區\n性別主流化專區\n性別平等專案小組\n性別意識培力\n性別統計與分析\n性別影響評估\n性別預算\nCEDAW與性別平等宣導\n性別主流化執行成果\n性別相關法規\n其他\n教育電子報\n防疫專區(含紓困專區)\n學校政策\n防疫措施\n幼兒園\n補習班、課照中心暨社區大學\n臺中市居家安心照護方案\n臺中市各級學校停課訊息\n學生疫苗\n網站資訊\n網站導覽\n常見問答\n隱私權及資訊安全政策\n網站服務條款\n無障礙宣告\n交通指南\n教育局電話分機一覽表\n常用連結\n快速連結\n教育服務網\n:::\n公告與活動\n公告訊息\n教育活動報導\n校園活動報導\n政府公開資訊\n遊說法專區\n報告書專區\n教育紀要\n:::\n首頁\n公告與活動\n校園活動報導\n返回校園活動報導\n琴聲悠揚耀全國，口琴隊全國賽連續四年特優佳績創巔峰！\n報導日期： 2026-03-12\n報導單位： 太平區 太平國小 學務處\n點閱數： 1181\n列印\n恭喜太平區太平國小口琴隊參加114學年度…",
       "images": [],
       "videos": [],
       "source_image_url": "",
@@ -71,7 +79,7 @@
         "補助比賽",
         "學生社團"
       ],
-      "key": "web_316:dfabff1884f5dad3e1268cb1d3f639c61d0dfd4017adbefad18a962362ebf6ed"
+      "key": "web_316:8ba9e78984e087801b8208e41c0d633b00d24088d3b23e3378dd25cfd8090633"
     },
     {
       "title": "Orion 口琴樂團｜TixFun 優先購買 輸入資訊無效 驗證碼 驗證碼錯誤 已售完！ 驗證 快速訂購 請填寫下述欄位即可完成加入購物車流程 代碼 代碼錯誤 座位將由系統自動配位。 驗證碼 驗證碼錯誤 加入購物車 首頁 所有活動 藝文好…",
@@ -90,14 +98,14 @@
       "account": "https://tixfun.com/UTK0201_?PRODUCT_ID=Q025T5HU",
       "platform": "website",
       "platform_label": "website",
-      "posted_at": "2026-09-05T19:39:01.080853+00:00",
-      "posted_at_local": "2026-09-06 03:39",
+      "posted_at": "2026-09-06T14:00:32.450166+00:00",
+      "posted_at_local": "2026-09-06 22:00",
       "like_count": null,
       "comment_count": null,
       "share_count": null,
       "reaction_count": null,
       "view_count": null,
-      "seen_at": "2026-09-05T19:40:53.938148+00:00",
+      "seen_at": "2026-09-06T14:06:52.545430+00:00",
       "media_type": "webpage_update",
       "story": false,
       "story_provider": "",
@@ -129,7 +137,7 @@
       "llm_categories": [
         "events"
       ],
-      "llm_reason": "貼文介紹Orion口琴樂團參與音樂會與演出，屬口琴公開活動更新。",
+      "llm_reason": "貼文為口琴樂團參與之音樂會活動頁，含演出與購票資訊，屬公開活動更新。",
       "text": "TixFun\n優先購買\n輸入資訊無效\n驗證碼\n驗證碼錯誤\n已售完！\n驗證\n快速訂購\n請填寫下述欄位即可完成加入購物車流程\n代碼\n代碼錯誤\n座位將由系統自動配位。\n驗證碼\n驗證碼錯誤\n加入購物車\n首頁\n所有活動\n藝文好夥伴\n藝起合作\n最新消息\n購取票方式\n常見問題\n快速訂購\n搜尋\n清除全部\n最近搜尋\n熱門關鍵字\n如果兒童劇團\n灣聲樂團\nAM創意\nFOCASA\n舞鈴劇場\n故事工廠\n日期\n所有活動\n藝文好夥伴\n藝起合作\n最新消息\n購取票方式\n常見問題\n快速訂購\n00:00 0\n音樂\n-\n府城仲夏音樂博覽會\n主辦單位 臺南市愛樂協會\n活動介紹\n折扣優惠\n注意事項\n購票須知\n主辦單位\n臺南市愛樂協會\n購票資訊\n活動場次\n套票場次\n選擇場地\n選擇場次\n活動介紹\n音樂的世界如大海之深不可測，亦如宇宙之浩瀚無際，自古至今音符的奧妙豐富了人類的生活，也美化了我們的生命，隨著時代的變化，音樂家嘗試更多的方式讓人們對音樂的喜好開啟了更多的可能性。\n臺南市愛樂協會與多位音樂家整合古今中外的東西方樂器，邀集不同類型的音樂家，以貼近人心的樂曲展現給大家，希望為音樂藝術開創更大的表演空間，讓音樂欣賞成為每一個人生活中不可或缺的一部份。\nOrion口琴樂團\n由臺灣知名口琴演奏家張晁滕與鋼琴家陳瑶容老師共同指導，「 Orion 」是一支聚焦於臺灣優秀青少年口琴演奏者的室內樂團隊。本團學生團員於2025年十月代表臺灣遠赴德國，在四年一度的WHF世界口琴大賽一鳴驚人，分別得到許多組別冠、亞、季軍等優秀成績，為臺灣爭取無上光榮。\n花影樂團\n2010年由團長吉吉影召集創立，成團後陸續獲選受邀於春天吶喊、臺北藝穗節、海河音樂祭等具指標性的獨立音樂盛會參與演出，2018中文命名為「花影」，2019夏天入圍海洋獨立音樂大賞並著手錄製首張迷你專輯，2020於臺中國家歌劇院中劇院舉辦創團10週年【日影花月——夏日音樂會】，獲得滿場完售佳績。同年受製作人丁曉雯老師邀請，參與台語小天王許富凱《拾歌》專輯製作，擔任〈祝福〉與〈純情青春夢〉之編曲師並參與錄音工程。\n現任團員為吉他＆主唱「吉吉影」、電貝斯「蔡牧恭」、口琴「李讓」、打擊「許毅」、鋼琴「金墨雨」，五人皆具豐富紮實的演出經歷、強悍的現場演奏實力、令人熱血沸騰的舞臺魅力！mr.Why對音樂擁有強烈的好奇心，享受著多樣化的音樂微風以歌聲與口琴雙主旋律綻放出花般嗓音——不同於搖滾、不同於爵士、不同於藍調，獨一無二、沒有界線的WHY式風格！\n吳詠隆探戈樂團\n✨ 2012、2014 國際手風琴大賽班多鈕組、皮亞佐拉組首獎\n✨ 首位受邀至阿根廷探戈藝術節演出之華人探戈音樂家\n✨ 臺灣演出阿根廷探戈的第一把交椅\n成員包含各領域的音樂家，以首位受邀至阿根廷國際探戈藝術節演出之華人班多鈕演奏家吳詠隆擔任音樂統籌，對比強烈的探戈樂曲特色加上樂手不同的特質，碰撞出有別於古典音樂…",
       "images": [],
       "videos": [],
@@ -150,7 +158,7 @@
         "公開活動",
         "學生社團"
       ],
-      "key": "web_21:0532c4c66b93b184a293854fadd94e4dd768888e4914c63a8435a7968e3254b9"
+      "key": "web_21:6eee1691aa1b5ecbe15a70197ee71dfecb8925d4b7c73e5203887a223e5e565f"
     },
     {
       "title": "臺灣口琴樂團｜臺大校友雙月刊 國立臺灣大學 National Taiwan University 臺大校友雙月刊 NTU Alumni Bimonthly 各期雙月刊 雙月刊 季刊 專欄 最新消息 關於我們 臺大百年 下載專區 雙月刊下載…",
@@ -169,14 +177,14 @@
       "account": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169",
       "platform": "website",
       "platform_label": "website",
-      "posted_at": "2026-09-05T19:38:49.090406+00:00",
-      "posted_at_local": "2026-09-06 03:38",
+      "posted_at": "2026-09-06T14:00:19.447546+00:00",
+      "posted_at_local": "2026-09-06 22:00",
       "like_count": null,
       "comment_count": null,
       "share_count": null,
       "reaction_count": null,
       "view_count": null,
-      "seen_at": "2026-09-05T19:40:53.938148+00:00",
+      "seen_at": "2026-09-06T14:06:52.545430+00:00",
       "media_type": "webpage_update",
       "story": false,
       "story_provider": "",
@@ -186,23 +194,13 @@
       "rsshub_guid": "",
       "rsshub_title": "",
       "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "公開更新",
-        "招生"
-      ],
+      "matched_keywords": [],
       "keyword_matches": [],
-      "llm_relevant": true,
-      "llm_confidence": 0.62,
-      "llm_labels": [
-        "口琴",
-        "公開更新",
-        "招生"
-      ],
-      "llm_categories": [
-        "posts-videos"
-      ],
-      "llm_reason": "內容提到新韻合唱團資格考與招收新團員，屬口琴相關公開更新。",
+      "llm_relevant": false,
+      "llm_confidence": 0.96,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "內容為臺大校友活動與旅遊，僅提到合唱團資格考，無口琴演出或口琴相關更新。",
       "text": "臺大校友雙月刊\n國立臺灣大學\nNational Taiwan University\n臺大校友雙月刊\nNTU Alumni Bimonthly\n各期雙月刊\n雙月刊\n季刊\n專欄\n最新消息\n關於我們\n臺大百年\n下載專區\n雙月刊下載\n季刊下載\n專欄下載\n本刊出版品\n搜尋\n首頁\n各期雙月刊-雙月刊\n臺大校友雙月刊第69期\n校友會訊\n臺大校友雙月刊第69期\n校長開講\n臺大學術資產～性別研究\n吳誠文專欄\n校友專訪／教育家系列\n陳柔縉專欄\n臺大人的流行音樂\n極端氣候專題\n椰林風情～道路篇\n椰林風情～建物篇\n校友情與事\n管理新知／資源配置管理\n保健天地\n展開選單\n校友會訊\n◆ 臺南縣校友會 4/10-11 綠島行記趣\n文•圖／蘇天寶（ 1987 化工博士；臺南縣校友會總幹事）\n臺南縣校友會於 4/10、11 舉辦綠島之旅，充分享受自然美景，也對臺灣政治的一段白色恐怖歷史有了更深刻的理解。\n臺南縣校友會於 4 月 10 及 11 日在王彩雲理事長領軍下，一行 40 人乘船參訪綠島，透過浮潛和玻璃船，觀賞了綠島沿海豐富的珊瑚與熱帶魚生態。晚間夜遊並泡溫泉，由民宿“田的家”為我們導覽，訪視當地各種珍貴保育類動植物，和野生的鹿、牛、竹節蟲做近距離接觸，泡溫泉時聆聽海濤聲聲，愜意至極。\n第二天一早來到人權紀念公園，由於有兩本活字典－前國策顧問黃崑虎與沈義方先生－隨行，讓我們對這段白色恐怖歷史有了更深入的瞭解。途中還參觀了綠島特殊地景如小長城、哈吧狗、睡美人與大白砂等，令人對造物者的鬼斧神工驚嘆不已。\n此行除享用地方特產外，離去前由黃國策顧問做東，讓我們品嚐獨一無二的綠島豆腐冰。此行吃得好、睡得飽、學得多、買不少，再加上車上舉行新韻合唱團資格考，邱碧玉學姊可以趁此招收新團員。同行校友對此次能在兩天內遊遍綠島精華，也對籌劃小組的努力與用心特別表達謝意。\n◆ 花蓮縣校友會米棧古道之行\n文•圖／張瑞雄（ 1980 電機系畢；花蓮縣臺大校友會理事長）\n米棧社區位於花蓮縣壽豐鄉靠海岸山脈西側，花 193 縣道 38 公里至 48 公里之間，隔著花蓮溪與鳳林大里相望。位於海岸山脈西側山腰的地理位置。日治時代至民國 50 幾年的時候，沒有臺 11 線公路和花蓮大橋，水璉地區的居民們，必須仰賴米棧古道翻山越嶺、將農產品挑至米棧屯積，貨物集中後再用渡船、牛車載運過花蓮溪到壽豐與花蓮來販售。其中，最大宗的貨物是稻米，因此有了「米棧」這個名稱。\n張瑞雄理事長（中間最高者）與眾人攝於米棧古道入口，厲害的，已經先上山了！\n2010 年 3 月 20 日早上，花蓮縣臺大校友會一行，包括汽車組的 6 輛和腳踏車組的 4 輛（是的，我們校友還有壯漢和美女可以從東華大學騎腳踏車到米棧，大約有 14 公里），在東華大學門口集合，出發前往米棧古道健行。\n米棧古道全程約 2.1 公里，來回需 2 到 2.5 小時，最高點海拔…",
       "images": [],
       "videos": [],
@@ -223,7 +221,7 @@
         "公開活動",
         "學生社團"
       ],
-      "key": "web_12:94ba2e21e123de3a56726245a094680ff11abd6f9ba5f695908b2ccabb07c7a9"
+      "key": "web_12:c7b47c37c17b742c6381e336a5c68c2487301dff0fc84360e2ea9f73aaefdf6d"
     },
     {
       "title": "基隆社區大學就是吹口琴｜基隆社區大學 - 周課表 ﻿ 基隆社區大學 - 周課表 Toggle main menu visibility 基隆市基隆社區大學 首頁 校務公告 週課表 講師群 --> 查詢活動 --> 聯絡我們 --> 回到官…",
@@ -18522,554 +18520,6 @@
         "學生社團"
       ],
       "key": "ig_hkharmonica:https://www.instagram.com/p/DbvgdtQk3mM/"
-    },
-    {
-      "title": "Federico Linari｜Hot summer days call for cool vibes. 🌊 Pausing the heat for a minute with the Hohner Chrometta 12 Color…",
-      "headline": "Hot summer days call for cool vibes. 🌊",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.instagram.com/p/DbvPWVvRcq-/",
-      "source_id": "ig_fede_linari",
-      "source": "Federico Linari",
-      "source_system_name": "Federico Linari",
-      "source_profile_url": "https://www.instagram.com/fede.linari/",
-      "country": "阿根廷",
-      "region": "阿根廷",
-      "directory_entry_id": "watchlist-118",
-      "directory_entry_name": "Federico Linari",
-      "account": "fede.linari",
-      "platform": "instagram",
-      "platform_label": "Instagram",
-      "posted_at": "Fri, 07 Aug 2026 12:00:07 GMT",
-      "posted_at_local": "2026-08-07 20:00",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-08-07T13:18:42.628126+00:00",
-      "media_type": "",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "https://rss.observe.tw/instagram/2/user/fede.linari",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "公開更新",
-        "影片"
-      ],
-      "keyword_matches": [
-        "harmonica"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 0.86,
-      "llm_labels": [
-        "口琴",
-        "公開更新",
-        "影片"
-      ],
-      "llm_categories": [
-        "posts-videos"
-      ],
-      "llm_reason": "IG公開口琴貼文，提到 Hohner Chrometta 12 與口琴社群，屬口琴演奏者公開更新。",
-      "text": "Hot summer days call for cool vibes. 🌊\nPausing the heat for a minute with the Hohner Chrometta 12 Color Edition.\nTake a breath and tell us: What’s your favorite song to relax to right now? 👇🧊\n#HohnerMusic #HarmonicaLove #Chrometta #SlowDown #HarmonicaCommunity",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/753196854_18607389517012370_6912488537318213325_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=Mzk1ODQ1MDEwMzM0OTc5MTQyMjE4NjA3Mzg5NTExMDEyMzcw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExOTguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=PIgiLwQfOFoQ7kNvwHqI599&_nc_oc=AdpkHjaT4G8aJG3NtH9yoyRz5l7uZY3UyfkTmj0p3lI-GyzWOtfnDkBBrom6zZMrNN0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=fNgpShyUDtiLx4DpNAzXuA&_nc_ss=7a22e&oh=00_AQG18Bl5VJUnAhz361rXqrJJCv8RHMPrx0mHSR6RrX0Flw&oe=6A7BB1A5"
-      ],
-      "videos": [
-        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m86/AQNmOSVuRD4bpF-N4oVMrNoASDUMQ-jEKQmZdgRACGLWUpFm2nLs-0RvEDL4hY9GtPMYuylIm1UEkUILfvEwpXvApWIeNPtkepCBx7U.mp4?_nc_cat=109&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=fPOzqE8ARzoQ7kNvwHUlHnG&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTMxMzMxMDMzNzIzNDQxNCwiYXNzZXRfYWdlX2RheXMiOjE4LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=248f4f1797e4638e&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC82MjRBNzE1RTIyMjAzNjUyOUQ5RDZGMjIyMEIzODBCMF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0QxNDM0NjcwREIzNjJFNzY3RDAwNDUwOUQ2Njc5OEJBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbc14vC3JzVBBUCKAJDMywXQBrMzMzMzM0YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=fNgpShyUDtiLx4DpNAzXuA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQFUdUaLVN8iizx6Lsk3MKONvHN0aUeffAqo-FfJ3fmpOw&oe=6A77B282"
-      ],
-      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/753196854_18607389517012370_6912488537318213325_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=Mzk1ODQ1MDEwMzM0OTc5MTQyMjE4NjA3Mzg5NTExMDEyMzcw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExOTguc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=PIgiLwQfOFoQ7kNvwHqI599&_nc_oc=AdpkHjaT4G8aJG3NtH9yoyRz5l7uZY3UyfkTmj0p3lI-GyzWOtfnDkBBrom6zZMrNN0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=fNgpShyUDtiLx4DpNAzXuA&_nc_ss=7a22e&oh=00_AQG18Bl5VJUnAhz361rXqrJJCv8RHMPrx0mHSR6RrX0Flw&oe=6A7BB1A5",
-      "image_url": "/assets/feed-images/a9ad0e71e2e076fe0724.webp",
-      "image_width": 800,
-      "image_height": 1420,
-      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/16110277_214666652273289_3558180431058698240_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby43ODAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gHDA24HXcNoS_Y2P5z-1TF-0JkK8gLx3dP2nwadSYomsC_rcLJ7JxXIiXcqVDIcR8Y&_nc_ohc=MdGpWm93788Q7kNvwH9Rcq0&_nc_gid=cXwFpq7tz0LNNLa09-l2ow&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQHZSZEBJgDgJAV3cxrp0-3yuz6D6l6SLX6YGhSdyLWheg&oe=6A7BBE8D&_nc_sid=ee9879",
-      "avatar_url": "/assets/source-avatars/5796a6de42093404bb77.webp",
-      "source_initials": "FL",
-      "categories": [
-        "posts-videos",
-        "student-clubs"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "學生社團"
-      ],
-      "key": "ig_fede_linari:https://www.instagram.com/p/DbvPWVvRcq-/"
-    },
-    {
-      "title": "音和樂器PeaceTones｜🎵 #JDR 口琴在 #臺灣口琴音樂藝術節 展示乘列，歡迎體驗！ ———————————— ✨指定琴款試吹填線上問卷送HOHNER原子筆乙支 ✨口琴節期間購琴享「現場」限定優惠 ———————————— 📅8…",
-      "headline": "🎵 #JDR 口琴在 #臺灣口琴音樂藝術節 展示乘列，歡迎體驗！",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.instagram.com/p/DbuyyOqwaF0/",
-      "source_id": "ig_peacetones_harmonica",
-      "source": "音和樂器PeaceTones",
-      "source_system_name": "音和樂器",
-      "source_profile_url": "https://www.instagram.com/peacetones.harmonica/",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "directory_entry_id": "watchlist-27",
-      "directory_entry_name": "音和樂器",
-      "account": "peacetones.harmonica",
-      "platform": "instagram",
-      "platform_label": "Instagram",
-      "posted_at": "Fri, 07 Aug 2026 07:52:37 GMT",
-      "posted_at_local": "2026-08-07 15:52",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-08-07T16:34:15.056979+00:00",
-      "media_type": "",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "https://rss.observe.tw/instagram/2/user/peacetones.harmonica",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴"
-      ],
-      "keyword_matches": [
-        "口琴"
-      ],
-      "llm_relevant": null,
-      "llm_confidence": null,
-      "llm_labels": [],
-      "llm_categories": [],
-      "llm_reason": "",
-      "text": "🎵 #JDR 口琴在 #臺灣口琴音樂藝術節 展示乘列，歡迎體驗！\n————————————\n✨指定琴款試吹填線上問卷送HOHNER原子筆乙支\n✨口琴節期間購琴享「現場」限定優惠\n————————————\n📅8/7-8/9臺灣口琴音樂節（國立陽明交通大學光復校區_學生活動中心B1)\n📌活動期間暫停門市以及線上購物服務喔～來現場找我們吧！",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/767743251_18337200190254571_1271652760962980147_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=Mzk1ODMyNDQ3NjU1NDM1NTA2MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNDAzMi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=AY2uNTzP_n8Q7kNvwG9ywBU&_nc_oc=AdrPDUDb8TvNhlLTsZTcFSwzvuSQjWkfBGIQxCaGpRHRWLp1rogKWAfVUH4sQnpdt-E&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=hJF-pit85ydCPf9bhvoHbA&_nc_ss=7a22e&oh=00_AQEJ_cYFpz_JgF9PZ64X7-CxpFDzUnbev0la7g-6k_dexQ&oe=6A7BC1DA"
-      ],
-      "videos": [],
-      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/767743251_18337200190254571_1271652760962980147_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=Mzk1ODMyNDQ3NjU1NDM1NTA2MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNDAzMi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=AY2uNTzP_n8Q7kNvwG9ywBU&_nc_oc=AdrPDUDb8TvNhlLTsZTcFSwzvuSQjWkfBGIQxCaGpRHRWLp1rogKWAfVUH4sQnpdt-E&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=hJF-pit85ydCPf9bhvoHbA&_nc_ss=7a22e&oh=00_AQEJ_cYFpz_JgF9PZ64X7-CxpFDzUnbev0la7g-6k_dexQ&oe=6A7BC1DA",
-      "image_url": "/assets/feed-images/9f4f767b4a08a0cf8b76.webp",
-      "image_width": 800,
-      "image_height": 600,
-      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/294575120_569424484892821_5199425225981243420_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmV4cGVyaW1lbnRhbCJ9&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gFJvyu3pDBkA9r1EcoWgco_xc147PIbnLT3yb8X7ka8_xU2c0fSylU3vh5SH4aJs_I&_nc_ohc=0UTJgOp0OUoQ7kNvwE7illl&_nc_gid=137uKTuBonmlGILQliUESQ&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQFX9WQ3XEsxMDsWRILP1wsKfeuw9Vw8bDUvtpDNMN2p_g&oe=6A7BEC11&_nc_sid=ee9879",
-      "avatar_url": "/assets/source-avatars/1bb35605124b42e5fd76.webp",
-      "source_initials": "P",
-      "categories": [
-        "posts-videos",
-        "events",
-        "student-clubs"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動",
-        "學生社團"
-      ],
-      "key": "ig_peacetones_harmonica:https://www.instagram.com/p/DbuyyOqwaF0/"
-    },
-    {
-      "title": "何家健HoKahKean｜【SUFU Project ft. 劉佳恩】 由臺灣的 Chia Fu 與來自韓國的 Sujong 組成之跨文化創作樂團： —> Taiwan × Korea Duo Project <— 兩位創作者皆具深厚古典…",
-      "headline": "【SUFU Project ft. 劉佳恩】",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.instagram.com/p/Dbuwn-wGCOL/",
-      "source_id": "ig_kahkeanho",
-      "source": "何家健HoKahKean",
-      "source_system_name": "何家健 HarmoniKahkean",
-      "source_profile_url": "https://www.instagram.com/kahkeanho/",
-      "country": "馬來西亞",
-      "region": "臺灣/花蓮；馬來西亞",
-      "directory_entry_id": "watchlist-101",
-      "directory_entry_name": "何家健 HarmoniKahkean",
-      "account": "kahkeanho",
-      "platform": "instagram",
-      "platform_label": "Instagram",
-      "posted_at": "Fri, 07 Aug 2026 07:51:06 GMT",
-      "posted_at_local": "2026-08-07 15:51",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-08-07T09:23:49.199792+00:00",
-      "media_type": "",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "https://rss.observe.tw/instagram/2/user/kahkeanho",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "演出",
-        "交流",
-        "比賽"
-      ],
-      "keyword_matches": [
-        "演出",
-        "交流",
-        "比賽"
-      ],
-      "llm_relevant": null,
-      "llm_confidence": null,
-      "llm_labels": [],
-      "llm_categories": [],
-      "llm_reason": "",
-      "text": "【SUFU Project ft. 劉佳恩】\n由臺灣的 Chia Fu 與來自韓國的 Sujong 組成之跨文化創作樂團：\n—>   Taiwan × Korea Duo Project  <—\n兩位創作者皆具深厚古典音樂訓練背景，並長期活躍於流行、爵士音樂、跨界演出與當代聲響創作領域。基於對聲音語言與跨文化創作的共同理念，兩人共同成立 SUFU Project，致力於發展兼具藝術性與流行音樂能量的原創作品，並透過音樂建立國際交流的可能性。\n以「讓音樂成為文化交流的共同語言」為核心概念，透過共同創作與即時共創機制，探索當代流行音樂的全新語法與可能性。藉著輕便器材設置可打破場地限制的特色，讓SUFU的音樂發生在各種地方,並帶到世界各地演出及交流！\n而每次演出都會 feature 一位音樂家好友，這回在 Jazzhead 的演出他們熱情邀請 Jazzhead 主理人 劉佳恩 擔任共演嘉賓，會擦出什麼樣的火花搞不好連音樂家本人都不知道，敬請期待！\n—\n費用｜預購 $500 ; 現場 $550\n日期｜8/29 (Sat.)\n時間｜20:00~22:00 ；19:45 開放入場・座位有限\n地點｜Jazzhead 臺中市西區五權一街 71-1 號\n購票連結｜Link in Bio\nhttps://forms.gle/9Fn1fqbxtdia1Ttk9\n.\nAbout Musicians__________________\nChia Fu 鄭嘉富 | Finger Drums, Synth, Effects\nSujong Park 朴秀鐘 | Bass, Synth, Effects\nFeaturing :\n劉佳恩｜Guitar, Synth, Effects\n.\nChia Fu 鄭嘉富 | Finger Drums, Synth, Effects\n@ccfu.fu\n職業樂手,專攻打擊樂、爵士鼓、電子合成器演奏,並擅長各類型音樂製作、跨界藝術聲音及音效設計。\n日本大阪相愛大學擊樂演奏組第一名畢業。\n曾獲日本松方国際音楽賞第二名、神戶国際音楽大賽第三名、\n日本文化部外國留學生年度全額獎學金。\n創立樂團Plutato，專輯榮獲第35屆金曲獎錄音類最佳演奏專輯獎、以及第15屆金音獎最佳樂手獎、最佳爵士專輯獎,第16屆金音獎最佳爵士歌曲獎。\n曾參與臺北爵士音樂節、亞太藝術節、台東藝穗節、高雄跨百年光雕等大型活動之聲響與音樂設計，更曾獲teenage engineering贊助，並與Digilog 合作多部電子樂器demo設計。並合作多部音樂劇、舞展及戲劇之音樂與音效設計，積極嘗試將聲響實驗與流行、戲劇、古典藝術結合。近期與羅大佑、曹格、宇宙人、動力火車、魏如萱、9m88、瘋戲樂、長榮管弦樂團、臺北市立美術館等合作。\nSujong Park 朴秀鐘 | Bass, Synth, …",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/766316236_18389714698167009_7915161051285805552_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=Mzk1ODMwOTAwNDIxOTYzODYwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjAwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=hyDdnV2G3t4Q7kNvwGe9KgW&_nc_oc=AdrGKbINYaMWzTUSCOG-N0xkPzWgj_G1A1QTJXd1NMaV7Wq2jfrStVQ8ACVCEvvodB4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=PxTVuHoA8AswbVLZjq_iPA&_nc_ss=7a22e&oh=00_AQHh_4lpO9wR_Cam8xFtpxqgr5MqnfWrriAA7nyHElXBYA&oe=6A7B6BFE",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/766223250_18389714680167009_8560259002451414089_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=Mzk1ODMwOTAzMzM1ODAwNTQ5Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjA0OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=3s0PvUMpKjAQ7kNvwH7Slkn&_nc_oc=AdpTtdKZMcOf0N0UelC0NiJxDZKygKSbenyGb0tavVMYmXlJWutLeUe7KeOY4MZUJAU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=PxTVuHoA8AswbVLZjq_iPA&_nc_ss=7a22e&oh=00_AQG2tYfcudn5mHM6wNpXisFTKj2YrjuUYnaVN9ZgesFRBg&oe=6A7B869D",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/767762528_18389714671167009_3043940586519008837_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzk1ODMwOTAyMjYzMzQzNjA4Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA3My5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=vqGt8EBosqAQ7kNvwHgovxX&_nc_oc=AdprrhXnSPXe9fOj3vJxo0JocdXK1TTt6X7PHx5q4TOff_bfiQBFi0Q-K51J_fHeSn0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=PxTVuHoA8AswbVLZjq_iPA&_nc_ss=7a22e&oh=00_AQHzVtANSlFHPnPlCQ5QVjV8SuqyR4JJGkVMUextZoIzIA&oe=6A7B8777",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/765637369_18389714689167009_1111688754549783106_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=105&ig_cache_key=Mzk1ODMwOTA1MjU3OTM2NjEzNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzAyNC5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=0XjUyaRtbPQQ7kNvwF1llqy&_nc_oc=AdrQ10K2l8YITMrQB_M4XyI9lgnKSaRI36p_i08obdt0FoBQwtGIDi3bMjbkCZi7lZM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=PxTVuHoA8AswbVLZjq_iPA&_nc_ss=7a22e&oh=00_AQG4cZjHmUPVMi--1RV80l1c7R4tzKYuWCNF5v1yqBLRgw&oe=6A7B71F8"
-      ],
-      "videos": [],
-      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/766316236_18389714698167009_7915161051285805552_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=Mzk1ODMwOTAwNDIxOTYzODYwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjAwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=hyDdnV2G3t4Q7kNvwGe9KgW&_nc_oc=AdrGKbINYaMWzTUSCOG-N0xkPzWgj_G1A1QTJXd1NMaV7Wq2jfrStVQ8ACVCEvvodB4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=PxTVuHoA8AswbVLZjq_iPA&_nc_ss=7a22e&oh=00_AQHh_4lpO9wR_Cam8xFtpxqgr5MqnfWrriAA7nyHElXBYA&oe=6A7B6BFE",
-      "image_url": "/assets/feed-images/1c54c5b5a8956878a159.webp",
-      "image_width": 800,
-      "image_height": 1001,
-      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/454277596_1239738657028806_4705572590646086968_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NjkuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFyGvQH8z3ATEmXcjuTtYf1n11z9PJ9AEBwtXcutDcjPLoTmt8-wKppQC-5P_uAVKw&_nc_ohc=mfAYjt38xkgQ7kNvwEyakxs&_nc_gid=n48y5MrXDQ94hiz9LCvp_Q&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQGCw2ToVrbrPGah3iDn6oNoIej9KqIdog2nEBMZIO1vDw&oe=6A7B7094&_nc_sid=ee9879",
-      "avatar_url": "/assets/source-avatars/0d0438c131da2df17004.webp",
-      "source_initials": "H",
-      "categories": [
-        "posts-videos",
-        "events",
-        "opportunities",
-        "student-clubs"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動",
-        "補助比賽",
-        "學生社團"
-      ],
-      "key": "ig_kahkeanho:https://www.instagram.com/p/Dbuwn-wGCOL/"
-    },
-    {
-      "title": "國家兩廳院NTCH｜名家深度解析🎷雷琪夏．班傑明到底憑什麼紅遍全球？ 跟著臺灣爵士薩克斯風演奏家謝明諺，一起認識當代爵士樂壇最耀眼的新星✨ ​ 為什麼她的演出，讓謝明諺直呼「非常過癮」？ 她如何打破大家對爵士樂的想像？ 最新專輯《We D…",
-      "headline": "名家深度解析🎷雷琪夏．班傑明到底憑什麼紅遍全球？",
-      "display_title": "名家深度解析🎷雷琪夏．班傑明到底憑什麼紅遍全球？",
-      "title_kind": "title",
-      "link": "https://www.youtube.com/watch?v=vnnrUMuuKTs",
-      "source_id": "yt_ntcharts",
-      "source": "國家兩廳院NTCH",
-      "source_system_name": "國家兩廳院",
-      "source_profile_url": "https://www.youtube.com/channel/UCVSNSvU31VPTG-99nwy7Bhw",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "directory_entry_id": "watchlist-79",
-      "directory_entry_name": "國家兩廳院",
-      "account": "https://www.youtube.com/channel/UCVSNSvU31VPTG-99nwy7Bhw",
-      "platform": "youtube",
-      "platform_label": "YouTube",
-      "posted_at": "2026-08-07T05:48:49+00:00",
-      "posted_at_local": "2026-08-07 13:48",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-08-07T16:37:35.454986+00:00",
-      "media_type": "video",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [],
-      "keyword_matches": [
-        "演出",
-        "影片"
-      ],
-      "llm_relevant": false,
-      "llm_confidence": 0.98,
-      "llm_labels": [],
-      "llm_categories": [],
-      "llm_reason": "內容為爵士音樂會宣傳，無口琴相關；來源與文字皆未提及口琴社團或演奏者。",
-      "text": "名家深度解析🎷雷琪夏．班傑明到底憑什麼紅遍全球？\n跟著臺灣爵士薩克斯風演奏家謝明諺，一起認識當代爵士樂壇最耀眼的新星✨\n​\n為什麼她的演出，讓謝明諺直呼「非常過癮」？\n她如何打破大家對爵士樂的想像？\n最新專輯《We Dream》有哪些必聽亮點？\n如果有機會和她同臺演出，謝明諺最期待什麼？👀\n​\n趕緊點進影片，一起聽聽老師怎麼說👆\n​\n▰▰▱▰▰▱▰▰▱▰▰▱\n𝟤𝟢𝟤𝟨 𝘕𝘛𝘊𝘏 𝘚𝘶𝘮𝘮𝘦𝘳 𝘑𝘢𝘻𝘻\n雷琪夏．班傑明爵士四重奏《浴火重生》\n𝟪.𝟣𝟦 國家音樂廳\nhttps://bit.ly/4z22ceZ\n▱▱▰▱▱▰▱▱▰▱▱▰",
-      "images": [
-        "https://i.ytimg.com/vi/vnnrUMuuKTs/maxresdefault.jpg"
-      ],
-      "videos": [],
-      "source_image_url": "https://i.ytimg.com/vi/vnnrUMuuKTs/maxresdefault.jpg",
-      "image_url": "/assets/feed-images/fac4fa6f4a6b0ae517cf.webp",
-      "image_width": 800,
-      "image_height": 450,
-      "source_avatar_url": "https://yt3.googleusercontent.com/RJMDYTXv-jL2R07KIm9CfzQu979ofWmKq-7p9dTqoLwOmKGZ8YVwOStw6RB0X5LDQhdZLefawA=s900-c-k-c0x00ffffff-no-rj",
-      "avatar_url": "/assets/source-avatars/6c6b9a140a4aa8945aa0.webp",
-      "source_initials": "N",
-      "categories": [
-        "posts-videos",
-        "events",
-        "student-clubs"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動",
-        "學生社團"
-      ],
-      "key": "yt_ntcharts:vnnrUMuuKTs"
-    },
-    {
-      "title": "新加坡國立大學口琴社｜Introducing NUS Harmonica AY26/27’s EXCOs ✨ Swipe to get to know each of our EXCOs ➡️ Hi! I’m Dwayne, the Pr…",
-      "headline": "Introducing NUS Harmonica AY26/27’s EXCOs ✨",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.instagram.com/p/DbubXo-ndbw/",
-      "source_id": "ig_nusharmonica",
-      "source": "新加坡國立大學口琴社",
-      "source_system_name": "新加坡國立大學口琴社",
-      "source_profile_url": "https://www.instagram.com/nusharmonica/",
-      "country": "新加坡",
-      "region": "新加坡/肯特崗",
-      "directory_entry_id": "watchlist-211",
-      "directory_entry_name": "新加坡國立大學口琴社",
-      "account": "nusharmonica",
-      "platform": "instagram",
-      "platform_label": "Instagram",
-      "posted_at": "Fri, 07 Aug 2026 04:26:36 GMT",
-      "posted_at_local": "2026-08-07 12:26",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-08-07T10:34:10.018399+00:00",
-      "media_type": "",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "https://rss.observe.tw/instagram/2/user/nusharmonica",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "學生社團",
-        "公開更新"
-      ],
-      "keyword_matches": [
-        "harmonica"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 0.97,
-      "llm_labels": [
-        "口琴",
-        "學生社團",
-        "公開更新"
-      ],
-      "llm_categories": [
-        "student-clubs"
-      ],
-      "llm_reason": "新加坡國大口琴社公開介紹幹部，屬口琴社團更新，與臺灣口琴社群相關。",
-      "text": "Introducing NUS Harmonica AY26/27’s EXCOs ✨\nSwipe to get to know each of our EXCOs ➡️\nHi! I’m Dwayne, the President for NUS Harmonica for AY26/27!!\nI love NUS Harmonica because it’s a place for me to relax and have fun with friends, and I get to experiment and learn new things along the way :D Also, the people here are really warm and friendly which makes me extra excited to go for practices 🥰\nHi everyone, I’m Tristan, your VP for AY26/27!\nOutside of class, I’m usually playing music, gaming, or trying to learn something new. To me, NUS Harmonica is somewhere I can express myself. It’s a chill place to pick up an instrument that’s pretty unique and small enough to take anywhere.\nHi, I’m Jiahao, NUS Harmonica’s Concert Manager! 🎵\nI’ve been playing the harmonica for fourteen years. In 2019, I won Third Place in the Youth Division of the Chinese Harmonica Festival. To me, NUS Harmonica is a place where I can keep doing what I love, meet people who enjoy music as much as I do, and share that passion with others. As Concert Manager, I’ll try my best to make sure our concerts run smoothly and give everyone an experience worth remembering.\nHi I’m Irvin, the Logistics Manager for NUS Harmo…",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/766481903_18386365492164131_7075619042021266165_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=Mzk1ODIxNTI0NDAzMzIwNTE2Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=xCvAldLjHlEQ7kNvwGXR4u5&_nc_oc=Adp-eISm_fwHR8-vOSj8TecRTlHQR7Mj84OUK6HHz2LjluhVDNNyBx9KfTnUlVVYN2c&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=91W1dPCafZttS2xwjQtVpg&_nc_ss=7a22e&oh=00_AQH9_5aDz9b5R6DtAoj1mLlHMOA0S700MkYup6UzXuHfng&oe=6A7B8D56",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/767032238_18386365546164131_8947930849363001292_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzk1ODIxNTI0NzcwNzM2NzczOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=OjLN1GtVO-EQ7kNvwG-AqxZ&_nc_oc=AdprZHln2h2bVOTZt2lmVNcYkZw87ZKTiyKJcfbMZXsjp9YM4vnpb-dX7Db11z6Tn4A&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=91W1dPCafZttS2xwjQtVpg&_nc_ss=7a22e&oh=00_AQG87dq3-fkBJIvKMiaPJ2T9BGVwc5awhyIGtte9kgHPLg&oe=6A7B74C9",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/764524243_18386365516164131_6810538465514746520_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzk1ODIxNTI0ODk4MjQ4MTYzNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=i1E5VrbFfKgQ7kNvwGDlCUb&_nc_oc=Adph6pxYMozjcDXutjlUwBYNFbYIsvxhXNuPqWOG5b_iQJ9VdgsHud8p_2aRzc-6PTU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=91W1dPCafZttS2xwjQtVpg&_nc_ss=7a22e&oh=00_AQEPxYvde2p9fyqcudJlPJhYoyFI_tdoh0svUfXFP0XbWw&oe=6A7B90E2",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/765520086_18386365519164131_8514383444860406142_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=Mzk1ODIxNTI1MDE0ODM2MjQ1MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=vOkGu_wJPJUQ7kNvwFeo-5j&_nc_oc=AdqnZY1oKxKKSAjZFcrDMlT5n_FgBO4j_DHyUZcFBC8orpqHINc65g0RCzOC_QGOig0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=91W1dPCafZttS2xwjQtVpg&_nc_ss=7a22e&oh=00_AQHh9N8WYs99G_i_ddPyZV9mwCKlBBHHRydph-JEEe-mmQ&oe=6A7B813A",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/766094663_18386365555164131_7063890088703053229_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzk1ODIxNTI1OTUxODY0MDYxOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=gqDL1hCaB9kQ7kNvwGU5TZx&_nc_oc=AdpdwvAmq6dwEm8mKysp-YcWVVHQXkrw-pbE9Bf-RcwHJ2EXWXQTio4-DA8NDAKveA8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=91W1dPCafZttS2xwjQtVpg&_nc_ss=7a22e&oh=00_AQG9xXHT9EdBeDAIinTiU-UVWN-xgOw3l1G-kWZdehLXkg&oe=6A7B9736",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/768452525_18386365528164131_5341700230140344724_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=Mzk1ODIxNTI1MTIwNTMxNzYwNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=mpwJoB-FpFcQ7kNvwEOq6Qp&_nc_oc=AdpLtv4Jyq37wr6DIOwn2yhYtrpyEnUN1WtCd6saURf2UsSOVngWeDR6_oRC-_n9fuQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=91W1dPCafZttS2xwjQtVpg&_nc_ss=7a22e&oh=00_AQGjkGtxIPc6_JX6rSht3xYykW6lB42UTA81N3H1g7gSgg&oe=6A7B9EC3",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/766094663_18386365501164131_5243737829336695310_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzk1ODIxNTI1MTc1OTAyMTkzMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=dUef0BpLM1UQ7kNvwErwbQn&_nc_oc=Adq9ChS0MRFi-918Ke-anzXNoicq8dKSl0dDKtSmno0BaCh4dwdphnyk-1oyyZnv_hY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=91W1dPCafZttS2xwjQtVpg&_nc_ss=7a22e&oh=00_AQFgaZnLn6Fd9JBy7Q5ptX6dFm6frx-vYt0_eiYaho28qg&oe=6A7B7E8C",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/764638319_18386365537164131_6965495025860290330_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzk1ODIxNTI1MTg1MTI5MDg5Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=osnCqPnv7l8Q7kNvwG9byL1&_nc_oc=AdroFvJHfLB37kPBCXAtwja6Fk_HRgI9-WhYhQN5YMV641lYTn_buYg8tF9jijLwA0E&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=91W1dPCafZttS2xwjQtVpg&_nc_ss=7a22e&oh=00_AQHn0W1ZwIwK1ZNlqiLLj5aSfW9P0m-nO-mvEWX7vUJ6tg&oe=6A7B926B"
-      ],
-      "videos": [],
-      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/766481903_18386365492164131_7075619042021266165_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=Mzk1ODIxNTI0NDAzMzIwNTE2Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=xCvAldLjHlEQ7kNvwGXR4u5&_nc_oc=Adp-eISm_fwHR8-vOSj8TecRTlHQR7Mj84OUK6HHz2LjluhVDNNyBx9KfTnUlVVYN2c&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=91W1dPCafZttS2xwjQtVpg&_nc_ss=7a22e&oh=00_AQH9_5aDz9b5R6DtAoj1mLlHMOA0S700MkYup6UzXuHfng&oe=6A7B8D56",
-      "image_url": "/assets/feed-images/9c7b7168c984e876d0b9.webp",
-      "image_width": 800,
-      "image_height": 1000,
-      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/277821478_1022532448355045_173790844923276335_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gHLlGcfEXZ1F-aluvgaAOJM-QmftW3JlPgE7aOUgf6fGaTgotMp14GulcIm0vhhPGA&_nc_ohc=w7YBOWO3Lt8Q7kNvwE9CNrp&_nc_gid=f1gBruOSbr57xevvWRtzFg&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQHvP6nWwOLP0Pul78Tv_ASC9ovWc5avVd_pNxtTDMbwPQ&oe=6A7BA050&_nc_sid=ee9879",
-      "avatar_url": "/assets/source-avatars/4c4b33a4621c6c15e245.webp",
-      "source_initials": "新加",
-      "categories": [
-        "posts-videos",
-        "student-clubs"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "學生社團"
-      ],
-      "key": "ig_nusharmonica:https://www.instagram.com/p/DbubXo-ndbw/"
-    },
-    {
-      "title": "香港口琴協會 HKHA｜🎼【西貢街坊好去處！免費享受高質感口琴社區音樂會 ✨】 這個 9 月，讓優美的口琴聲響徹西貢！2026-27「十八有藝─西貢社區演藝計劃」《琴聲貢聚》口琴計劃嘅社區音樂會（一）即將開放免費報名囉！ 🎉 這次首場演出…",
-      "headline": "🎼【西貢街坊好去處！免費享受高質感口琴社區音樂會 ✨】",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.instagram.com/p/DbuNnteExyo/",
-      "source_id": "ig_hkharmonica",
-      "source": "香港口琴協會 HKHA",
-      "source_system_name": "香港口琴協會 Hong Kong Harmonica Association",
-      "source_profile_url": "https://www.instagram.com/hkharmonica/",
-      "country": "香港",
-      "region": "香港",
-      "directory_entry_id": "watchlist-131",
-      "directory_entry_name": "Breathe with the Harmonica",
-      "account": "hkharmonica",
-      "platform": "instagram",
-      "platform_label": "Instagram",
-      "posted_at": "Fri, 07 Aug 2026 02:26:27 GMT",
-      "posted_at_local": "2026-08-07 10:26",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-08-07T13:18:42.628126+00:00",
-      "media_type": "",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "https://rss.observe.tw/instagram/2/user/hkharmonica",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "公開更新",
-        "音樂會",
-        "報名",
-        "演出"
-      ],
-      "keyword_matches": [
-        "口琴",
-        "音樂會",
-        "演出",
-        "報名",
-        "harmonica"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 0.99,
-      "llm_labels": [
-        "口琴",
-        "公開更新",
-        "音樂會",
-        "報名",
-        "演出"
-      ],
-      "llm_categories": [
-        "events"
-      ],
-      "llm_reason": "口琴社區音樂會公告，含免費報名與演出資訊，屬公開更新活動。",
-      "text": "🎼【西貢街坊好去處！免費享受高質感口琴社區音樂會 ✨】\n這個 9 月，讓優美的口琴聲響徹西貢！2026-27「十八有藝─西貢社區演藝計劃」《琴聲貢聚》口琴計劃嘅社區音樂會（一）即將開放免費報名囉！ 🎉\n這次首場演出，我們邀請到兩組超強演出陣容！曲目更打破傳統界限，古典、流行、原創大碰撞 —— 韋瓦第《秋》撞上林家謙《秋葉緣》？巴哈《G弦上的詠嘆調》遇上陳百強《劃出彩虹》？還有 MJ 的《Billie Jean》與經典電影配樂！精彩可期，絕對讓你耳目一新！\n名額有限，記低日子，拉埋屋企人同朋友一齊登記啦！ 🎟️👇\n📍 活動資料\n🗓️ 日期： 2026年9月6日（日）\n⏰ 時間： 下午 3:00\n🏢 地點： 景林鄰里社區中心\n💰 費用： 全免（憑登記入場，不設劃位）\n👨‍👩‍👧‍👦 對象： 公眾市民（年齡不限）\n🌟 精選曲目亮點：\n• 梁承熹 x 潘雋禮：薩拉沙泰《流浪者之歌》、林家靖原創作品《獅豹雨》\n• 潘倩衡 x 鍾穎昕 x 林秀婷：韋瓦第《四季．秋》× 林家謙《秋葉緣》、《不能說的秘密》〈湘倫小雨〉四手聯彈 × 舒伯特《音樂的瞬間》\n🔗 搶先報名（每人限登記 4 位）： https://www.hkharmonica.org/18dart-saikung/ (名額有限，先登記先得，額滿即止！)\n8月11日上午9時起開放網上表格登記，協會將以電郵方式確認。\n@18d.art\n#香港音樂活動\n#十八有藝 #西貢社區演藝計劃 #琴聲貢聚 #口琴計劃 #社區藝術 #西貢好去處 #18dART #西貢區 #口琴 #harmonica #香港口琴協會 #社區音樂會 #香港音樂活動",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t39.30808-6/765652675_1493988549429806_2501767268527498456_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=Mzk1ODE2MTAyNTk5MjQzMjgwOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTYzOC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=EwI1BCfAULIQ7kNvwEBDv0f&_nc_oc=Adp6fotT0ZrQ1GUU3s2m9iPAbThvvAdzNce5sqxAt4-fbDJic7V1qFfoQTlfQv_3Jyo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=fYuZQ_ogL7AOAAoKeMBn6A&_nc_ss=7a22e&oh=00_AQEY65hWbK2Qmha1Y-44gAr5fEOGsJHXxf1vj8rKcSmkRg&oe=6A7BB601"
-      ],
-      "videos": [],
-      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t39.30808-6/765652675_1493988549429806_2501767268527498456_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=Mzk1ODE2MTAyNTk5MjQzMjgwOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTYzOC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=EwI1BCfAULIQ7kNvwEBDv0f&_nc_oc=Adp6fotT0ZrQ1GUU3s2m9iPAbThvvAdzNce5sqxAt4-fbDJic7V1qFfoQTlfQv_3Jyo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=fYuZQ_ogL7AOAAoKeMBn6A&_nc_ss=7a22e&oh=00_AQEY65hWbK2Qmha1Y-44gAr5fEOGsJHXxf1vj8rKcSmkRg&oe=6A7BB601",
-      "image_url": "/assets/feed-images/0cb338c22bac07be3267.webp",
-      "image_width": 800,
-      "image_height": 1001,
-      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/122150704_3505203689537598_1757640871796550397_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42ODYuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gGixwcMFkrTqZmTB40qGT_-Mk503HMSJJLi-T7pGP0pepl3qKSHetAlUf23widtlVU&_nc_ohc=wywd4BemJQIQ7kNvwFBxjto&_nc_gid=M9hxP1AI74ScyYHMkjQEFQ&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQEjnqYYtbkeYg-xzx6MfZNWbCMLtWt2Drbs_xd8UJQ8UQ&oe=6A7BB25A&_nc_sid=ee9879",
-      "avatar_url": "/assets/source-avatars/5a269c2054dbdf58c287.webp",
-      "source_initials": "H",
-      "categories": [
-        "posts-videos",
-        "events",
-        "opportunities",
-        "student-clubs"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動",
-        "補助比賽",
-        "學生社團"
-      ],
-      "key": "ig_hkharmonica:https://www.instagram.com/p/DbuNnteExyo/"
-    },
-    {
-      "title": "香港口琴協會 HKHA｜🎼【西貢街坊好去處！免費享受高質感口琴社區音樂會 ✨】 這個 9 月，讓優美的口琴聲響徹西貢！2026-27「十八有藝─西貢社區演藝計劃」《琴聲貢聚》口琴計劃嘅社區音樂會（一）即將開放免費報名囉！ 🎉 這次首場演出…",
-      "headline": "🎼【西貢街坊好去處！免費享受高質感口琴社區音樂會 ✨】",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.facebook.com/hkharmonica/posts/pfbid02m2VrM6ersFc7pA9JbHGhsvvQDV5JmNe6jgbtiTd2sj88L2hfrnDRKu7RMx4wMVJel",
-      "source_id": "fb_hkharmonica",
-      "source": "香港口琴協會 HKHA",
-      "source_system_name": "香港口琴協會 Hong Kong Harmonica Association",
-      "source_profile_url": "https://facebook.com/hkharmonica",
-      "country": "香港",
-      "region": "香港",
-      "directory_entry_id": "watchlist-130",
-      "directory_entry_name": "香港口琴協會 Hong Kong Harmonica Association",
-      "account": "hkharmonica",
-      "platform": "facebook",
-      "platform_label": "Facebook",
-      "posted_at": "2026-08-07T02:26:23.000Z",
-      "posted_at_local": "2026-08-07 10:26",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-08-20T04:20:00.493605+00:00",
-      "media_type": "",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "公開更新",
-        "音樂會",
-        "演出",
-        "報名"
-      ],
-      "keyword_matches": [
-        "口琴",
-        "音樂會",
-        "演出",
-        "報名",
-        "harmonica"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 0.99,
-      "llm_labels": [
-        "口琴",
-        "公開更新",
-        "音樂會",
-        "演出",
-        "報名"
-      ],
-      "llm_categories": [
-        "events"
-      ],
-      "llm_reason": "口琴協會公告社區口琴音樂會，含免費報名與演出資訊，屬公開活動更新。",
-      "text": "🎼【西貢街坊好去處！免費享受高質感口琴社區音樂會 ✨】\n這個 9 月，讓優美的口琴聲響徹西貢！2026-27「十八有藝─西貢社區演藝計劃」《琴聲貢聚》口琴計劃嘅社區音樂會（一）即將開放免費報名囉！ 🎉\n這次首場演出，我們邀請到兩組超強演出陣容！曲目更打破傳統界限，古典、流行、原創大碰撞 —— 韋瓦第《秋》撞上林家謙《秋葉緣》？巴哈《G弦上的詠嘆調》遇上陳百強《劃出彩虹》？還有 MJ 的《Billie Jean》與經典電影配樂！精彩可期，絕對讓你耳目一新！\n名額有限，記低日子，拉埋屋企人同朋友一齊登記啦！ 🎟️👇\n📍 活動資料\n🗓️ 日期： 2026年9月6日（日）\n⏰ 時間： 下午 3:00\n🏢 地點： 景林鄰里社區中心\n💰 費用： 全免（憑登記入場，不設劃位）\n👨‍👩‍👧‍👦 對象： 公眾市民（年齡不限）\n🌟 精選曲目亮點：\n• 梁承熹 x 潘雋禮：薩拉沙泰《流浪者之歌》、林家靖原創作品《獅豹雨》\n• 潘倩衡 x 鍾穎昕 x 林秀婷：韋瓦第《四季．秋》× 林家謙《秋葉緣》、《不能說的秘密》〈湘倫小雨〉四手聯彈 × 舒伯特《音樂的瞬間》\n🔗 搶先報名（每人限登記 4 位）： https://www.hkharmonica.org/18dart-saikung/ (名額有限，先登記先得，額滿即止！)\n8月11日上午9時起開放網上表格登記，協會將以電郵方式確認。\n十八有藝 18 d ART\n#香港音樂活動\n#十八有藝 #西貢社區演藝計劃 #琴聲貢聚 #口琴計劃 #社區藝術 #西貢好去處 #18dART #西貢區 #口琴 #harmonica #香港口琴協會 #社區音樂會 #香港音樂活動\nhttps://www.facebook.com/photo/?fbid=1493988546096473&set=a.472887368206601",
-      "images": [
-        "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/765652675_1493988549429806_2501767268527498456_n.jpg?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s640x640&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=556rfiSgQdgQ7kNvwH4bl2I&_nc_oc=AdokGzEqmBss3mQJB7piY8mosZIuVJLSgTg45dlbwQpKOlvNN-HXLa770d--C2m1igw&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=j8hMAud6mXGEGORnj2P_ZQ&_nc_ss=72289&oh=00_AQGVi-kNtXoQf-bgOlZOpvXtcAIFBQ236Yc98SCqtkh-Iw&oe=6A8C6901"
-      ],
-      "videos": [],
-      "source_image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/765652675_1493988549429806_2501767268527498456_n.jpg?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s640x640&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=556rfiSgQdgQ7kNvwH4bl2I&_nc_oc=AdokGzEqmBss3mQJB7piY8mosZIuVJLSgTg45dlbwQpKOlvNN-HXLa770d--C2m1igw&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=j8hMAud6mXGEGORnj2P_ZQ&_nc_ss=72289&oh=00_AQGVi-kNtXoQf-bgOlZOpvXtcAIFBQ236Yc98SCqtkh-Iw&oe=6A8C6901",
-      "image_url": "/assets/feed-images/836d88006df07eaf03c0.webp",
-      "image_width": 512,
-      "image_height": 640,
-      "source_avatar_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/309762800_472887394873265_4347952976221567874_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx686x686&ctp=s50x50&_nc_cat=100&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=yJCm4QRK98EQ7kNvwGJGcf0&_nc_oc=AdoxCnVWpJdDYFbQC0Jcc8mgDB5mwZ4WN6q5eH7cgzOmyHXf6AeY-6ocIP_pALcgSgI&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=j8hMAud6mXGEGORnj2P_ZQ&_nc_ss=72289&oh=00_AQHrb6msFrZJHGMtnF1ls4dF8Owf8S_vdX2H1oY1fUP61g&oe=6A8C46D2",
-      "avatar_url": "/assets/source-avatars/6178f9d3487ed97d6496.webp",
-      "source_initials": "H",
-      "categories": [
-        "posts-videos",
-        "events",
-        "opportunities",
-        "student-clubs"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動",
-        "補助比賽",
-        "學生社團"
-      ],
-      "key": "fb_hkharmonica:1493990416096286"
     }
   ],
   "category": {

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-05T22:40:46.491584Z",
+  "generatedAt": "2026-09-06T14:08:04.003268Z",
   "source": {
     "id": 58,
     "slug": "minami-risa",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/58-minami-risa/"
   },
   "items": [
+    {
+      "id": "post-5d8cc81bdea325edcb625a60",
+      "title": "cafe壽☕️ティータイムコンサート | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙... ...",
+      "excerpt": "cafe壽☕️ティータイムコンサート | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙... ... cafe壽☕️ティータイムコンサート | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙... #Amebaブログ #アメブロ #南里沙 #クロマチックハーモニカ",
+      "url": "https://x.com/minami_risa/status/2096560355753501004",
+      "sourceName": "南里沙",
+      "platform": "X",
+      "publishedAt": "2026-09-06T11:25:15Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/54b0f1fb97e04626c5ee.webp",
+        "width": 800,
+        "height": 1067
+      }
+    },
     {
       "id": "post-67feff7aab89bb11225dd648",
       "title": "YouTube「愛傷歌 / 森昌子」 | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powered by Ameba",
@@ -545,20 +559,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/d5f51f3c1807a93dd476.webp",
         "width": 800,
         "height": 600
-      }
-    },
-    {
-      "id": "post-958bc4d01797a44d69aead52",
-      "title": "台湾からおはようございますᐠ( ᐛ )ᐟ | クロマチックハーモニカ 南里沙オフィシャルブログ「... #A...",
-      "excerpt": "台湾からおはようございますᐠ( ᐛ )ᐟ | クロマチックハーモニカ 南里沙オフィシャルブログ「... #A... 台湾からおはようございますᐠ( ᐛ )ᐟ | クロマチックハーモニカ 南里沙オフィシャルブログ「... #Amebaブログ #アメブロ #南里沙 #クロマチックハーモニカ",
-      "url": "https://x.com/minami_risa/status/2085513626358776236",
-      "sourceName": "南里沙",
-      "platform": "X",
-      "publishedAt": "2026-08-06T23:49:30Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/0c8c1b9aa1861e50d8f9.webp",
-        "width": 800,
-        "height": 1067
       }
     }
   ]

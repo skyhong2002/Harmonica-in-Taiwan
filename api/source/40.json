@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-05T22:40:46.491584Z",
+  "generatedAt": "2026-09-06T14:08:04.003268Z",
   "source": {
     "id": 40,
     "slug": "henry-chen",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/40-henry-chen/"
   },
   "items": [
+    {
+      "id": "post-957455ee1a437b5a3f18b8cf",
+      "title": "【就是吹口琴Just Play Harmonica 】｜鄧麗君 – 碧蘭村的姑娘｜複音口琴Tremolo Harmonica 演奏版本《Am(C)調》",
+      "excerpt": "【就是吹口琴Just Play Harmonica 】｜鄧麗君 – 碧蘭村的姑娘｜複音口琴Tremolo Harmonica 演奏版本《Am(C)調》 碧蘭村的姑娘 周蘭萍 作曲 周蘭萍 作詞 鄧麗君 原唱 複音口琴演奏版本《Am(C)調》",
+      "url": "https://www.youtube.com/watch?v=xISUqqKonEU",
+      "sourceName": "陳鴻儀",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-06T00:00:31Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/41bd3c14e409f3863f17.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-e13c70c6533833798dcc50d0",
       "title": "【就是吹口琴Just Play Harmonica 】｜施孝榮 – 歸人沙城｜複音口琴Tremolo Harmonica 演奏版本《C(Am)調》",
