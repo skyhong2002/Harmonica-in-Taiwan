@@ -1809,7 +1809,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-03 08:13",
       "latestUpdateSource": "國家兩廳院",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=vNbZtVlTYcw",
-      "avatarUrl": "/assets/source-avatars/4c592edeba08d1857abd.webp",
+      "avatarUrl": "/assets/source-avatars/dfc3bce49e0ca5b4ffcd.webp",
       "sourceInitials": "國家",
       "sourceTags": [
         "場館平台"
@@ -4190,7 +4190,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-01 13:07",
       "latestUpdateSource": "音和樂器",
       "latestUpdateUrl": "https://www.instagram.com/p/Dcu3zOANMnf/",
-      "avatarUrl": "/assets/source-avatars/1bb35605124b42e5fd76.webp",
+      "avatarUrl": "/assets/source-avatars/3fb1ccca5f33dff055f3.webp",
       "sourceInitials": "音和",
       "sourceTags": [
         "教學器材",
@@ -5220,7 +5220,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-31 23:35",
       "latestUpdateSource": "Lee Oskar",
       "latestUpdateUrl": "https://www.instagram.com/stories/leeoskarharmonicas/3975952663941528009/",
-      "avatarUrl": "/assets/source-avatars/df281ae7e1a6671fb31c.webp",
+      "avatarUrl": "/assets/source-avatars/8fb977f232cd6f50a2ab.webp",
       "sourceInitials": "LO",
       "sourceTags": [
         "品牌",
