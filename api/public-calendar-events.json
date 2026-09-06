@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-07T04:09:56+08:00",
+  "generatedAt": "2026-09-07T04:23:27+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
   "count": 10,
@@ -14,7 +14,7 @@
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 0,
+      "requests": 1,
       "cached": 28,
       "errors": 0
     }
@@ -240,11 +240,11 @@
       "image_url": "/assets/feed-images/c153e4887f020058c8e6.webp"
     },
     {
-      "id": "4f8ecc63d2813e03",
+      "id": "80272f1fa43c54c9",
       "title": "寶可夢30週年主題猜歌大賽⚡暨口琴社迎新",
       "eventName": "寶可夢30週年主題猜歌大賽⚡暨口琴社迎新",
-      "source": "中山醫學大學藍韻口琴社",
-      "platform": "instagram",
+      "source": "CSMU Blue Melody",
+      "platform": "facebook",
       "start": "2026-09-22T18:30:00+08:00",
       "end": "2026-09-22T20:30:00+08:00",
       "allDay": false,
@@ -253,8 +253,8 @@
       "location": "臺中市 正心樓0516教室",
       "venue": "正心樓0516教室",
       "city": "臺中市",
-      "details": "主辦／演出者：中山醫藍韻口琴社。活動日期為9月22日，時間18:30－21:00，18:15開放入場。活動採3～5人組隊，可自行報名或由主辦單位協助隨機分組，並有口琴社相關紀念品與寶可夢周邊獎品。",
-      "evidenceUrl": "https://www.instagram.com/p/Dcu06wJGAuf/",
+      "details": "主辦／演出者：中山醫藍韻口琴社。活動日期為9月22日，時間18:30－21:00，18:15開放入場。活動內容為以口琴音檔進行猜歌與節奏遊戲，採3～5人組隊報名，並有口琴社紀念品與寶可夢周邊獎品。",
+      "evidenceUrl": "https://www.facebook.com/BMHarmonica/posts/pfbid02kTxqH7TLX82wV2L5MDhc66MpB4kMUQrWHBWSXCM3y86nzEhM12Cn5PB9fgQeHRNRl",
       "confidence": 0.98,
       "calendarReview": {
         "include": true,
@@ -265,15 +265,19 @@
         "eventName": "寶可夢30週年主題猜歌大賽⚡暨口琴社迎新",
         "venue": "正心樓0516教室",
         "city": "臺中市",
-        "details": "主辦／演出者：中山醫藍韻口琴社。活動日期為9月22日，時間18:30－21:00，18:15開放入場。活動採3～5人組隊，可自行報名或由主辦單位協助隨機分組，並有口琴社相關紀念品與寶可夢周邊獎品。",
-        "reason": "貼文明確寫出9月22日於臺中校內教室舉辦的實體口琴社活動，日期與 candidateStart 相符，屬臺灣實體活動。",
+        "details": "主辦／演出者：中山醫藍韻口琴社。活動日期為9月22日，時間18:30－21:00，18:15開放入場。活動內容為以口琴音檔進行猜歌與節奏遊戲，採3～5人組隊報名，並有口琴社紀念品與寶可夢周邊獎品。",
+        "reason": "候選日期與貼文明確活動日期一致，且為臺灣實體口琴相關活動，地點與時間都清楚。",
         "confidence": 0.98
       },
       "postedAt": "2026-09-01 12:41",
       "images": [
-        "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-15/791043170_18105339887600784_8761217064510057537_n.jpg?stp=dst-jpg_e35_s1080x1080_tt6&_nc_cat=102&ig_cache_key=Mzk3NjM0NzkyNTg1MDY4MzA1Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzYwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ZliqEyUusT0Q7kNvwER7jU7&_nc_oc=AdrqAni1LA8Agf2-wQb-EN0ZsPWph6gmk7MupeGpHAreS-JZzmLCCo6P-VmppvMugbQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_gid=QZnPpNek38yXlrBdLunuBg&_nc_ss=7a22e&oh=00_AQIRIl_Hl18MD1RF9y_WMJmYoT-o9O2rt-rxoog4HuIuNg&oe=6A9C59BA"
+        "https://scontent.fpit1-1.fna.fbcdn.net/v/t51.82787-15/791043170_18105339887600784_8761217064510057537_n.jpg?stp=dst-jpg_tt6&cstp=mx3600x3600&ctp=s590x590&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=NyJ-JzdqKoAQ7kNvwGgDrRe&_nc_oc=Adric2hqSNs45IlFFywu8Jr7jkwv9KQUKSKeBSqaI911wfZ4Tx2pTbZabkOQalJzVd8&_nc_zt=23&_nc_ht=scontent.fpit1-1.fna&_nc_gid=vEcAnyahFEUlUjZw9I_21g&_nc_ss=73289&oh=00_AQJUqYWKZmosgb_7R-AG_VL2M6TN43rbxXq0_y-tLXlXJQ&oe=6AA399FA",
+        "https://scontent.fpit1-1.fna.fbcdn.net/v/t51.82787-15/791933649_18105339869600784_1315142317433506882_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s590x590&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=y3piqeA481MQ7kNvwELcTPB&_nc_oc=AdriFaLhTj2QE45AsoLGcvnvlObWlF_buVXPF_dwa4rOdeASL3azwEj_z8jvWOEW6AU&_nc_zt=23&_nc_ht=scontent.fpit1-1.fna&_nc_gid=vEcAnyahFEUlUjZw9I_21g&_nc_ss=73289&oh=00_AQJWs1d8ZtPEH8NeJNL7h9vc8_Apt9K-H9ZyH-0vo-4Klg&oe=6AA38E7C",
+        "https://scontent.fpit1-1.fna.fbcdn.net/v/t51.82787-15/791844597_18105339878600784_2047585941282319153_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s590x590&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=DAHXywj2vfwQ7kNvwGNIElr&_nc_oc=AdppVaoBmn6AdK1fWR7B34raawJnONQNcK0_l_6HoKEbLLwlvXAmbPDSPrwzfzdQFdY&_nc_zt=23&_nc_ht=scontent.fpit1-1.fna&_nc_gid=vEcAnyahFEUlUjZw9I_21g&_nc_ss=73289&oh=00_AQIdjuLnHkMB3_y-A-3v_plLPO0ISjozyuBt-j1vUDdyMA&oe=6AA3A650",
+        "https://scontent.fpit1-1.fna.fbcdn.net/v/t51.82787-15/791493286_18105339902600784_2205094155984548663_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s590x590&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=gpm2vtiT2dQQ7kNvwG5COSG&_nc_oc=AdocRq1MvHv_9R0IIkSCbJ24UKS3o5yPKgTaW7jbwJ9VuNZiubxnRHtuKwJICMbx2tQ&_nc_zt=23&_nc_ht=scontent.fpit1-1.fna&_nc_gid=vEcAnyahFEUlUjZw9I_21g&_nc_ss=73289&oh=00_AQJrlCuc7gGgM128hNk7Mv_ACQAPENdF5Yd01AB-LJNTHg&oe=6AA3A4BB",
+        "https://scontent.fpit1-1.fna.fbcdn.net/v/t51.82787-15/791388297_18105339911600784_5945613655462260992_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s590x590&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ham255Q7kh4Q7kNvwE44RBZ&_nc_oc=AdqXR7s__AGIBA1H-wpM8yvJYh_h3Gko_gYrZDS0OSQpFONELd5Ki_xe8rSHbvDQX8s&_nc_zt=23&_nc_ht=scontent.fpit1-1.fna&_nc_gid=vEcAnyahFEUlUjZw9I_21g&_nc_ss=73289&oh=00_AQJsd-beSS-c5G90PtzQut1cAknRxxYlLWyeZmR5nfgNIw&oe=6AA39F12"
       ],
-      "image_url": "/assets/feed-images/d53c1a754cf69cec4096.webp"
+      "image_url": "/assets/feed-images/9ca7e9876864ce01ace5.webp"
     },
     {
       "id": "291301f51a921d0b",
