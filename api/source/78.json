@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-06T16:48:10.544859Z",
+  "generatedAt": "2026-09-06T17:00:04.344982Z",
   "source": {
     "id": 78,
     "slug": "78",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/78/"
   },
   "items": [
+    {
+      "id": "post-1fbf4da8ca57ed5315b61fcf",
+      "title": "爵士，是一種生活濾鏡！突破國界與文化，三場世界級音樂盛典，即將席捲2026衛武營爵士週",
+      "excerpt": "爵士，是一種生活濾鏡！突破國界與文化，三場世界級音樂盛典，即將席捲2026衛武營爵士週 2026 衛武營爵士週 ———— 𝘑𝘈𝘡𝘡 @𝘞𝘌𝘐𝘞𝘜𝘠𝘐𝘕𝘎 9/18 ⇀ 9/20 09.18 🎵 MUSA 明馬丁探戈樂團《從 Barrio Hipódromo 到高雄》 橫跨阿根廷與臺灣的尋根綺想，以狂熱的探戈與拉丁律動重塑文化血脈。 09.19 🎺 阿圖羅．山多瓦《自由之聲》九重奏音樂會 榮獲十座葛萊美獎肯定，當代最無可取代的小號天王傳奇。 09.20 🎷《沒問題少女》潘子爵 live in 高雄 ft. 小林香織 臺日雙薩克斯風天后強強聯手，展開爆發力…",
+      "url": "https://www.youtube.com/watch?v=xgQ5ZNjuy_A",
+      "sourceName": "衛武營國家藝術文化中心",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-06T11:00:07Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/657d01be6f0236282e60.webp",
+        "width": 1280,
+        "height": 720
+      }
+    },
     {
       "id": "post-8598a714891972a44fb76cb5",
       "title": "最佳戲劇獎作品《父親母親》首度移師高雄，邀請觀眾與偶走入歷史隧道！",
