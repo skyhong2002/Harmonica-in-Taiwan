@@ -733,7 +733,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-06 12:43",
       "latestUpdateSource": "山下伶 Rei Yamashita",
       "latestUpdateUrl": "https://x.com/rei_harmonica/status/2096459162981130361",
-      "avatarUrl": "/assets/source-avatars/ca0d1127034df6945e57.webp",
+      "avatarUrl": "/assets/source-avatars/0aac8f47beafb7111c9d.webp",
       "sourceInitials": "RY",
       "sourceTags": [
         "演奏者",
@@ -1035,7 +1035,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-05 11:00",
       "latestUpdateSource": "衛武營國家藝術文化中心",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=afezfToCJXs",
-      "avatarUrl": "/assets/source-avatars/3e6d07e4937a6402eed1.webp",
+      "avatarUrl": "/assets/source-avatars/baaeea765f29f9803b55.webp",
       "sourceInitials": "衛武",
       "sourceTags": [
         "場館平台"
@@ -1184,7 +1184,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-04 18:00",
       "latestUpdateSource": "臺中國家歌劇院",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=D4vFqWXxGvs",
-      "avatarUrl": "/assets/source-avatars/ec5915536107036bb59c.webp",
+      "avatarUrl": "/assets/source-avatars/0efef2fbecf8f0a5b0f0.webp",
       "sourceInitials": "臺中",
       "sourceTags": [
         "場館平台"
@@ -2027,7 +2027,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-02 12:00",
       "latestUpdateSource": "新竹縣文化局",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=fZhYTzNiq6k",
-      "avatarUrl": "/assets/source-avatars/4c8a3084ee7acb4e8e29.webp",
+      "avatarUrl": "/assets/source-avatars/e809f6d8ecc96ea42a5c.webp",
       "sourceInitials": "新竹",
       "sourceTags": [
         "場館平台"
@@ -2503,7 +2503,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-02 00:26",
       "latestUpdateSource": "黃冠誌",
       "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3976703112043327905/",
-      "avatarUrl": "/assets/source-avatars/732f0bed1237e5b366b6.webp",
+      "avatarUrl": "/assets/source-avatars/4f3649c78584715f8e16.webp",
       "sourceInitials": "黃冠",
       "sourceTags": [
         "演奏者",
@@ -2965,7 +2965,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-01 20:59",
       "latestUpdateSource": "Evelyn Choong 鍾雪兒",
       "latestUpdateUrl": "https://www.instagram.com/stories/evelyn_harmonica/3976599093732600083/",
-      "avatarUrl": "/assets/source-avatars/753d4fa93e6d651eeea1.webp",
+      "avatarUrl": "/assets/source-avatars/778257856cb1150c2c42.webp",
       "sourceInitials": "EC",
       "sourceTags": [
         "演奏者",
@@ -3042,7 +3042,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-01 20:59",
       "latestUpdateSource": "CY Leo 何卓彥",
       "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3976599028779623279/",
-      "avatarUrl": "/assets/source-avatars/9c7b129c48401d3efd7a.webp",
+      "avatarUrl": "/assets/source-avatars/6e5c8a6f160e0e0a025d.webp",
       "sourceInitials": "CL",
       "sourceTags": [
         "演奏者",
@@ -3662,7 +3662,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-01 17:01",
       "latestUpdateSource": "何家健 HarmoniKahkean",
       "latestUpdateUrl": "https://www.instagram.com/stories/kahkeanho/3976479206661715916/",
-      "avatarUrl": "/assets/source-avatars/0d0438c131da2df17004.webp",
+      "avatarUrl": "/assets/source-avatars/87a43c07abc51508e1ec.webp",
       "sourceInitials": "H",
       "sourceTags": [
         "演奏者",
@@ -4265,7 +4265,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-01 11:07",
       "latestUpdateSource": "韋笙堡口琴 Weissenberg Harmonicas",
       "latestUpdateUrl": "https://www.instagram.com/stories/weissenbergtw/3976301214598154437/",
-      "avatarUrl": "/assets/source-avatars/f7bcc9b64055f35a6669.webp",
+      "avatarUrl": "/assets/source-avatars/f288e492c957ff4f1169.webp",
       "sourceInitials": "WH",
       "sourceTags": [
         "教學器材",
@@ -8323,7 +8323,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-25 04:00",
       "latestUpdateSource": "Jong-seong Park 朴鍾聲",
       "latestUpdateUrl": "https://www.instagram.com/stories/jongseongpark_harmonicist/3971012950848542957/",
-      "avatarUrl": "/assets/source-avatars/72f8f83b56190d4ce5bf.webp",
+      "avatarUrl": "/assets/source-avatars/15d9ac87bbb4e23d1878.webp",
       "sourceInitials": "JSP",
       "sourceTags": [
         "演奏者",
@@ -11169,7 +11169,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-15 14:57",
       "latestUpdateSource": "新加坡國立大學口琴社",
       "latestUpdateUrl": "https://www.instagram.com/p/DcDSzJOIVvB/",
-      "avatarUrl": "/assets/source-avatars/4c4b33a4621c6c15e245.webp",
+      "avatarUrl": "/assets/source-avatars/823ccdfa502d1d0bab3e.webp",
       "sourceInitials": "新加",
       "sourceTags": [
         "學生社團",
@@ -11423,7 +11423,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-13 17:17",
       "latestUpdateSource": "陳彥銘",
       "latestUpdateUrl": "https://www.facebook.com/emerychen.cm/posts/pfbid0vTRWuHGMaEG9xnSY8B1DmD8NXVH2QcPGjFyLaHqPgmKvNHgB2ip7rKnHvNyNFXB1l",
-      "avatarUrl": "/assets/source-avatars/04cc955dc246b579efb6.webp",
+      "avatarUrl": "/assets/source-avatars/459f6b0e48cf056db0df.webp",
       "sourceInitials": "陳彥",
       "sourceTags": [
         "演奏者",
