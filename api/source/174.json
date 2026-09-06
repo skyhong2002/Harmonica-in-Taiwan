@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-06T20:57:25.474330Z",
+  "generatedAt": "2026-09-06T21:16:34.722451Z",
   "source": {
     "id": 174,
     "slug": "yellow-pine-harmonica-festival",
@@ -30,20 +30,6 @@
       "sourceName": "Yellow Pine Harmonica Festival",
       "platform": "Facebook",
       "publishedAt": "2026-08-20T22:10:17Z"
-    },
-    {
-      "id": "post-80bcbb212291befd47ba0d01",
-      "title": "Thank you Turtle Poppers!!!! Great guys that put on a great show!!!!",
-      "excerpt": "Thank you Turtle Poppers!!!! Great guys that put on a great show!!!!",
-      "url": "https://www.facebook.com/YellowPineHarmonicaFestival/posts/pfbid0ZsyCxUCvSHCcxh83HSyMEe551gehpnmDJ9hzc2P1hr9UAft5nUnTxbemUTfNXqS2l",
-      "sourceName": "Yellow Pine Harmonica Festival",
-      "platform": "Facebook",
-      "publishedAt": "2026-08-07T21:04:57Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/b55b03599ff887d26e09.webp",
-        "width": 800,
-        "height": 450
-      }
     }
   ]
 }
