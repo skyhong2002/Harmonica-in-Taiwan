@@ -775,6 +775,117 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-9",
+      "publicId": "9",
+      "name": "李讓 Jang Li",
+      "nameEn": "Jang Li",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "半音階/十孔/作曲/配樂/跨界",
+      "structuredSummary": "半音階/十孔/作曲/配樂/跨界 / 半音階/十孔 / 演出人員",
+      "summary": "Harmonica music virtuoso performer,composer,and educator from TAIWAN🎵\nChampions Winner of WHF2009&2013🌟\nDouble Awards winner of ICCCH2021🌟\nNew Video⬇️. See the latest...",
+      "keywords": "李讓 Jang Li",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://jangliharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Jang.Li.Harmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jangli_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/jangliharmonica"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/JangLiHarmonica"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@jangli_harmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "9-jang-li",
+      "latestUpdateAt": "2026-09-06T14:22:34+00:00",
+      "latestUpdateLocal": "2026-09-06 22:22",
+      "latestUpdateSource": "李讓 Jang Li",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=W2LxzYiaKEw",
+      "avatarUrl": "/assets/source-avatars/c26c422f025773d36858.webp",
+      "sourceInitials": "JL",
+      "sourceTags": [
+        "演奏者"
+      ],
+      "sourceSummary": "Harmonica music virtuoso performer,composer,and educator from TAIWAN🎵\nChampions Winner of WHF2009&2013🌟\nDouble Awards winner of ICCCH2021🌟\nNew Video⬇️. See the latest...",
+      "sourceTagReason": "手動自 Threads 個人簡介匯入。",
+      "monitorSources": [
+        {
+          "id": "fb_jang_li_harmonica",
+          "name": "李讓 Jang Li",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Jang.Li.Harmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_jangli_harmonica",
+          "name": "李讓 Jang Li",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "jangli_harmonica",
+          "profileUrl": "https://www.instagram.com/jangli_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_jangli_harmonica",
+          "name": "李讓 Jang Li",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "jangli_harmonica",
+          "profileUrl": "https://www.instagram.com/jangli_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_jangli_harmonica",
+          "name": "李讓 Jang Li",
+          "platform": "threads",
+          "type": "rss",
+          "username": "jangli_harmonica",
+          "profileUrl": "https://www.threads.net/@jangli_harmonica",
+          "feedUrl": "https://rss.observe.tw/threads/jangli_harmonica"
+        },
+        {
+          "id": "x_jangliharmonica",
+          "name": "李讓 Jang Li",
+          "platform": "x",
+          "type": "rss",
+          "username": "JangLiHarmonica",
+          "profileUrl": "https://x.com/JangLiHarmonica",
+          "feedUrl": "https://rss.observe.tw/twitter/user/JangLiHarmonica"
+        },
+        {
+          "id": "yt_jangliharmonica",
+          "name": "李讓 Jang Li",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/jangliharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-293",
       "publicId": "293",
       "name": "Michał Kielak",
@@ -816,6 +927,92 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "https://kielak.pl/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-10",
+      "publicId": "10",
+      "name": "林家靖 Rolabo Lin",
+      "nameEn": "Rolabo Lin",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "半音階/複音/原創/比賽曲/SIHF 2026/2026 琴韻東坡・簧鳴西南",
+      "structuredSummary": "半音階/複音/原創/比賽曲/SIHF 2026/2026 琴韻東坡・簧鳴西南 / 半音階/複音 / 演出人員",
+      "summary": "臺灣的半音階與複音演出人員，活動脈絡包含原創、比賽曲與SIHF 2026。",
+      "keywords": "林家靖 Rolabo Lin Jia-jing Lin SIHF 2026 琴韻東坡 簧鳴西南",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/course/jia-jing/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/HarmonicaLin/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/rolabo_lin/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "10-rolabo-lin",
+      "latestUpdateAt": "2026-09-06T11:35:43+00:00",
+      "latestUpdateLocal": "2026-09-06 19:35",
+      "latestUpdateSource": "林家靖 Rolabo Lin",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=umvhm1XVcMI",
+      "avatarUrl": "/assets/source-avatars/rolabo-lin.jpg",
+      "sourceInitials": "RL",
+      "sourceTags": [
+        "演奏者",
+        "比賽",
+        "半音階",
+        "複音"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonicalin",
+          "name": "林家靖 Rolabo Lin",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HarmonicaLin",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_rolabo_lin",
+          "name": "林家靖 Rolabo Lin",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "rolabo_lin",
+          "profileUrl": "https://www.instagram.com/rolabo_lin/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_rolabo_lin",
+          "name": "林家靖 Rolabo Lin",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "rolabo_lin",
+          "profileUrl": "https://www.instagram.com/rolabo_lin/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ucq7wiztevpndeaaj6rdxzea",
+          "name": "林家靖 Rolabo Lin",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA",
           "feedUrl": ""
         }
       ]
@@ -4570,117 +4767,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@FedericoLinari",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-9",
-      "publicId": "9",
-      "name": "李讓 Jang Li",
-      "nameEn": "Jang Li",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "半音階/十孔/作曲/配樂/跨界",
-      "structuredSummary": "半音階/十孔/作曲/配樂/跨界 / 半音階/十孔 / 演出人員",
-      "summary": "Harmonica music virtuoso performer,composer,and educator from TAIWAN🎵\nChampions Winner of WHF2009&2013🌟\nDouble Awards winner of ICCCH2021🌟\nNew Video⬇️. See the latest...",
-      "keywords": "李讓 Jang Li",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://jangliharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Jang.Li.Harmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/jangli_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/jangliharmonica"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/JangLiHarmonica"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@jangli_harmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "9-jang-li",
-      "latestUpdateAt": "2026-09-01T00:06:35+00:00",
-      "latestUpdateLocal": "2026-09-01 08:06",
-      "latestUpdateSource": "李讓 Jang Li",
-      "latestUpdateUrl": "https://www.instagram.com/stories/jangli_harmonica/3976210042114528449/",
-      "avatarUrl": "/assets/source-avatars/c26c422f025773d36858.webp",
-      "sourceInitials": "JL",
-      "sourceTags": [
-        "演奏者"
-      ],
-      "sourceSummary": "Harmonica music virtuoso performer,composer,and educator from TAIWAN🎵\nChampions Winner of WHF2009&2013🌟\nDouble Awards winner of ICCCH2021🌟\nNew Video⬇️. See the latest...",
-      "sourceTagReason": "手動自 Threads 個人簡介匯入。",
-      "monitorSources": [
-        {
-          "id": "fb_jang_li_harmonica",
-          "name": "李讓 Jang Li",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Jang.Li.Harmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_jangli_harmonica",
-          "name": "李讓 Jang Li",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "jangli_harmonica",
-          "profileUrl": "https://www.instagram.com/jangli_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_jangli_harmonica",
-          "name": "李讓 Jang Li",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "jangli_harmonica",
-          "profileUrl": "https://www.instagram.com/jangli_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_jangli_harmonica",
-          "name": "李讓 Jang Li",
-          "platform": "threads",
-          "type": "rss",
-          "username": "jangli_harmonica",
-          "profileUrl": "https://www.threads.net/@jangli_harmonica",
-          "feedUrl": "https://rss.observe.tw/threads/jangli_harmonica"
-        },
-        {
-          "id": "x_jangliharmonica",
-          "name": "李讓 Jang Li",
-          "platform": "x",
-          "type": "rss",
-          "username": "JangLiHarmonica",
-          "profileUrl": "https://x.com/JangLiHarmonica",
-          "feedUrl": "https://rss.observe.tw/twitter/user/JangLiHarmonica"
-        },
-        {
-          "id": "yt_jangliharmonica",
-          "name": "李讓 Jang Li",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/jangliharmonica",
           "feedUrl": ""
         }
       ]
@@ -9459,92 +9545,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_profile",
           "username": "taro_senga",
           "profileUrl": "https://www.instagram.com/taro_senga/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-10",
-      "publicId": "10",
-      "name": "林家靖 Rolabo Lin",
-      "nameEn": "Rolabo Lin",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "半音階/複音/原創/比賽曲/SIHF 2026/2026 琴韻東坡・簧鳴西南",
-      "structuredSummary": "半音階/複音/原創/比賽曲/SIHF 2026/2026 琴韻東坡・簧鳴西南 / 半音階/複音 / 演出人員",
-      "summary": "臺灣的半音階與複音演出人員，活動脈絡包含原創、比賽曲與SIHF 2026。",
-      "keywords": "林家靖 Rolabo Lin Jia-jing Lin SIHF 2026 琴韻東坡 簧鳴西南",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/course/jia-jing/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/HarmonicaLin/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/rolabo_lin/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "10-rolabo-lin",
-      "latestUpdateAt": "2026-08-23T10:00:06+00:00",
-      "latestUpdateLocal": "2026-08-23 18:00",
-      "latestUpdateSource": "林家靖 Rolabo Lin",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=kSi3oNQ2kPM",
-      "avatarUrl": "/assets/source-avatars/rolabo-lin.jpg",
-      "sourceInitials": "RL",
-      "sourceTags": [
-        "演奏者",
-        "比賽",
-        "半音階",
-        "複音"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonicalin",
-          "name": "林家靖 Rolabo Lin",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/HarmonicaLin",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_rolabo_lin",
-          "name": "林家靖 Rolabo Lin",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "rolabo_lin",
-          "profileUrl": "https://www.instagram.com/rolabo_lin/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_rolabo_lin",
-          "name": "林家靖 Rolabo Lin",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "rolabo_lin",
-          "profileUrl": "https://www.instagram.com/rolabo_lin/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_ucq7wiztevpndeaaj6rdxzea",
-          "name": "林家靖 Rolabo Lin",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA",
           "feedUrl": ""
         }
       ]

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T04:04:11.463218Z",
+  "generatedAt": "2026-09-07T04:19:36.601655Z",
   "source": {
     "id": 10,
     "slug": "rolabo-lin",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/10-rolabo-lin/"
   },
   "items": [
+    {
+      "id": "post-910eb9cf1e45b17fce36b765",
+      "title": "Stravinsky - Tilim-bom （Harmonica）",
+      "excerpt": "Stravinsky - Tilim-bom （Harmonica） 曲名 Song：叮鈴噹 Tilim-bom 作曲 Composer：史特拉汶斯基 Igor Stravinsky 編曲 Arrangement：林家靖 Rolabo Lin 演出 Performance ：林家靖 Rolabo Lin ■ 樂譜： ■ 《Tilim-bom》是俄羅斯作曲家史特拉汶斯基的短篇童謠歌曲，是他的《四首俄國民歌》（Four Russian Songs）的第四首，直譯為『叮鈴噹』，內容是述山羊家著火了，母山羊驚慌跳出來求救的故事。樂曲短小精悍、節奏明快，反覆的音…",
+      "url": "https://www.youtube.com/watch?v=umvhm1XVcMI",
+      "sourceName": "林家靖 Rolabo Lin",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-06T11:35:43Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/108b2a5d6561a56f3e83.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-15eef1c65f99753308ed0076",
       "title": "2026SIHF 南 South | 林家靖 口琴",
