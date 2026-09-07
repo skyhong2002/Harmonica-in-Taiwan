@@ -2163,7 +2163,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-03 21:00",
       "latestUpdateSource": "Younghoon Cho",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=sD3lrna6pqI",
-      "avatarUrl": "/assets/source-avatars/ce8582690611be231fa9.webp",
+      "avatarUrl": "/assets/source-avatars/30cc0b47cec83fd30b2a.webp",
       "sourceInitials": "YC",
       "sourceTags": [
         "演奏者",
