@@ -71,6 +71,92 @@
   },
   "entries": [
     {
+      "id": "watchlist-298",
+      "publicId": "298",
+      "name": "香港兒童合唱團口琴課程",
+      "nameEn": "HKCC Harmonica Programme",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "教學/學校/青年",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "兒童口琴課程/合奏訓練/年度成果音樂會/2026 招生",
+      "structuredSummary": "兒童口琴課程/合奏訓練/年度成果音樂會/2026 招生 / 半音階/口琴合奏 / 教學單位/青年培育",
+      "summary": "香港的半音階與口琴合奏教學單位與青年培育。",
+      "keywords": "香港兒童合唱團 HKCC Harmonica Programme 口琴課程 Gordon Lee 2026 招生 兒童合奏",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://hkcchoir.org.hk/en/instrumental-programme"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hkcchoir"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hkcchoir/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/user/hkcchoir"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "298-hkcc-harmonica-programme",
+      "latestUpdateAt": "2026-09-07T02:44:44+00:00",
+      "latestUpdateLocal": "2026-09-07 10:44",
+      "latestUpdateSource": "香港兒童合唱團口琴課程",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=r8w0GZIQarA",
+      "avatarUrl": "/assets/source-avatars/hkcc-harmonica.png",
+      "sourceInitials": "香港",
+      "sourceTags": [
+        "學生社團",
+        "教學",
+        "課程",
+        "半音階"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hkcchoir",
+          "name": "香港兒童合唱團口琴課程",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hkcchoir",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hkcchoir",
+          "name": "香港兒童合唱團口琴課程",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hkcchoir",
+          "profileUrl": "https://www.instagram.com/hkcchoir/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hkcchoir",
+          "name": "香港兒童合唱團口琴課程",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hkcchoir",
+          "profileUrl": "https://www.instagram.com/hkcchoir/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_hkcchoir",
+          "name": "香港兒童合唱團口琴課程",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/user/hkcchoir",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-316",
       "publicId": "316",
       "name": "太平國小口琴隊",
@@ -3377,92 +3463,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-298",
-      "publicId": "298",
-      "name": "香港兒童合唱團口琴課程",
-      "nameEn": "HKCC Harmonica Programme",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "教學/學校/青年",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "兒童口琴課程/合奏訓練/年度成果音樂會/2026 招生",
-      "structuredSummary": "兒童口琴課程/合奏訓練/年度成果音樂會/2026 招生 / 半音階/口琴合奏 / 教學單位/青年培育",
-      "summary": "香港的半音階與口琴合奏教學單位與青年培育。",
-      "keywords": "香港兒童合唱團 HKCC Harmonica Programme 口琴課程 Gordon Lee 2026 招生 兒童合奏",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://hkcchoir.org.hk/en/instrumental-programme"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hkcchoir"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hkcchoir/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/user/hkcchoir"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "298-hkcc-harmonica-programme",
-      "latestUpdateAt": "2026-09-01T12:00:02+00:00",
-      "latestUpdateLocal": "2026-09-01 20:00",
-      "latestUpdateSource": "香港兒童合唱團口琴課程",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcvnNRwmMb3/",
-      "avatarUrl": "/assets/source-avatars/hkcc-harmonica.png",
-      "sourceInitials": "香港",
-      "sourceTags": [
-        "學生社團",
-        "教學",
-        "課程",
-        "半音階"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_hkcchoir",
-          "name": "香港兒童合唱團口琴課程",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hkcchoir",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hkcchoir",
-          "name": "香港兒童合唱團口琴課程",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hkcchoir",
-          "profileUrl": "https://www.instagram.com/hkcchoir/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hkcchoir",
-          "name": "香港兒童合唱團口琴課程",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hkcchoir",
-          "profileUrl": "https://www.instagram.com/hkcchoir/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_hkcchoir",
-          "name": "香港兒童合唱團口琴課程",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/user/hkcchoir",
           "feedUrl": ""
         }
       ]
