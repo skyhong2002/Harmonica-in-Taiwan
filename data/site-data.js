@@ -5216,7 +5216,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-01 01:06",
       "latestUpdateSource": "Santiago Alvarez",
       "latestUpdateUrl": "https://www.instagram.com/stories/santi.alvarez.armonica/3975998290453923939/",
-      "avatarUrl": "/assets/source-avatars/c8ea47e0989979b803b9.webp",
+      "avatarUrl": "/assets/source-avatars/cbe35c9f5de220e9d04f.webp",
       "sourceInitials": "SA",
       "sourceTags": [
         "演奏者",
