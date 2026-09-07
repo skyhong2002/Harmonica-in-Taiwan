@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T01:44:46.525243Z",
+  "generatedAt": "2026-09-07T02:02:39.172892Z",
   "source": {
     "id": 30,
     "slug": "30",
@@ -185,20 +185,6 @@
       "publishedAt": "2026-08-09T00:28:16Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/9b06721c3055b984c030.webp",
-        "width": 800,
-        "height": 800
-      }
-    },
-    {
-      "id": "post-b27319fd83176823fcb2aaff",
-      "title": "越來越喜歡口琴節的氣氛，大家回來這個地方為了理想，做一個繼續追夢、繼續造夢的人。",
-      "excerpt": "越來越喜歡口琴節的氣氛，大家回來這個地方為了理想，做一個繼續追夢、繼續造夢的人。 THMF DAY.1",
-      "url": "https://www.instagram.com/p/DbwuiLlEoiT/",
-      "sourceName": "蔡明憲",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-08T01:52:33Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/ab2c20e072bf6711e687.webp",
         "width": 800,
         "height": 800
       }
