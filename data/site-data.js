@@ -2,56 +2,6 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-09-07",
   "entries": [
     {
-      "id": "watchlist-167",
-      "publicId": "167",
-      "name": "第十五屆亞太口琴藝術週",
-      "nameEn": "15th Asia Pacific Harmonica Festival",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "國際活動/資訊入口",
-      "country": "中國",
-      "region": "中國/江蘇/無錫/江陰",
-      "cityOrFocus": "2026/7/23-27/亞太口琴節30週年/比賽/音樂會/講座/大師班",
-      "structuredSummary": "2026/7/23-27/亞太口琴節30週年/比賽/音樂會/講座/大師班 / 半音階/複音/十孔/重奏/合奏 / 國際活動來源",
-      "summary": "中國的國際活動來源，涵蓋2026、7、23-27、亞太口琴節30週年與比賽。",
-      "keywords": "第十五屆亞太口琴藝術週 Asia Pacific Harmonica Festival APHF 江陰 華西 中國口琴 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.aphfhx.com/information/newsDetail/361363469090992128"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "167-15th-asia-pacific-harmonica-festival",
-      "latestUpdateAt": "2026-09-06T15:15:20.450911+00:00",
-      "latestUpdateLocal": "2026-09-06 23:15",
-      "latestUpdateSource": "第十五屆亞太口琴藝術週",
-      "latestUpdateUrl": "https://www.aphfhx.com/information/newsDetail/361363469090992128",
-      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
-      "sourceInitials": "第十",
-      "sourceTags": [
-        "活動資訊",
-        "比賽",
-        "半音階",
-        "複音",
-        "十孔",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_167",
-          "name": "第十五屆亞太口琴藝術週",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://www.aphfhx.com/information/newsDetail/361363469090992128",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-316",
       "publicId": "316",
       "name": "太平國小口琴隊",
@@ -74,8 +24,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "316-taiping-elementary-school-harmonica-ensemble",
-      "latestUpdateAt": "2026-09-06T14:06:42.234693+00:00",
-      "latestUpdateLocal": "2026-09-06 22:06",
+      "latestUpdateAt": "2026-09-07T02:20:44.858604+00:00",
+      "latestUpdateLocal": "2026-09-07 10:20",
       "latestUpdateSource": "太平國小口琴隊",
       "latestUpdateUrl": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586",
       "avatarUrl": "/assets/source-avatars/taiping-elementary-harmonica.jpg",
@@ -97,47 +47,97 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-293",
-      "publicId": "293",
-      "name": "Michał Kielak",
-      "nameEn": "Michal Kielak",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "波蘭",
-      "region": "波蘭",
-      "cityOrFocus": "藍調口琴/錄音與巡演/2024 波蘭年度口琴手/APHF 2026",
-      "structuredSummary": "藍調口琴/錄音與巡演/2024 波蘭年度口琴手/APHF 2026 / 十孔口琴 / 國際演出人員/錄音樂手",
-      "summary": "波蘭的十孔口琴國際演出人員與錄音樂手，活動脈絡包含藍調口琴、錄音與巡演與2024 波蘭年度口琴手。",
-      "keywords": "Michal Kielak Michał Kielak Poland harmonica harp player APHF 2026",
+      "id": "watchlist-312",
+      "publicId": "312",
+      "name": "「天鵝自由呼吸」寧波口琴節",
+      "nameEn": "Swan Free Breathing Ningbo Harmonica Festival",
+      "category": "活動資訊",
+      "type": "協會",
+      "originalType": "活動/資訊入口",
+      "country": "中國",
+      "region": "中國/浙江/寧波",
+      "cityOrFocus": "2026年6月28日/三場口琴音樂活動/精品音樂沙龍/城市口琴聯盟交流/紀念石人望誕辰120周年音樂會",
+      "structuredSummary": "2026年6月28日/三場口琴音樂活動/精品音樂沙龍/城市口琴聯盟交流/紀念石人望誕辰120周年音樂會 / 半音階口琴/複音口琴/口琴合奏 / 中國地方口琴節/音樂會與交流活動來源",
+      "summary": "中國的中國地方口琴節與音樂會與交流活動來源，涵蓋2026年6月28日、三場口琴音樂活動、精品音樂沙龍、城市口琴聯盟交流與紀念石人望誕辰120周年音樂會。",
+      "keywords": "天鵝自由呼吸 宁波口琴节 Swan Free Breathing Ningbo Harmonica Festival 2026 石人望 孟偉華 楊晟 安貴林 毛哲川",
       "links": [
         {
           "label": "網站",
-          "url": "https://kielak.pl/"
+          "url": "http://www.cmia.com.cn/qydt/11674.html"
         }
       ],
       "source": "watchlist",
       "aliases": [],
-      "slug": "293-michal-kielak",
-      "latestUpdateAt": "2026-09-06T14:06:06.876109+00:00",
-      "latestUpdateLocal": "2026-09-06 22:06",
-      "latestUpdateSource": "Michał Kielak",
-      "latestUpdateUrl": "https://kielak.pl/",
-      "avatarUrl": "/assets/source-avatars/michal-kielak.jpg",
-      "sourceInitials": "MK",
+      "slug": "312-swan-free-breathing-ningbo-harmonica-festival",
+      "latestUpdateAt": "2026-09-07T02:20:41.103196+00:00",
+      "latestUpdateLocal": "2026-09-07 10:20",
+      "latestUpdateSource": "「天鵝自由呼吸」寧波口琴節",
+      "latestUpdateUrl": "http://www.cmia.com.cn/qydt/11674.html",
+      "avatarUrl": "/assets/source-avatars/ningbo-harmonica-festival.jpg",
+      "sourceInitials": "天鵝",
       "sourceTags": [
-        "演奏者",
-        "十孔",
-        "國際交流"
+        "協會",
+        "活動資訊",
+        "半音階",
+        "複音"
       ],
       "monitorSources": [
         {
-          "id": "web_293",
-          "name": "Michał Kielak",
+          "id": "web_312",
+          "name": "「天鵝自由呼吸」寧波口琴節",
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://kielak.pl/",
+          "profileUrl": "http://www.cmia.com.cn/qydt/11674.html",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-299",
+      "publicId": "299",
+      "name": "基隆社區大學就是吹口琴",
+      "nameEn": "Keelung Community University Harmonica",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "教學/社區",
+      "country": "臺灣",
+      "region": "臺灣/基隆",
+      "cityOrFocus": "社區口琴課程/十孔/重奏/半音階/THMF 2026 熟齡組",
+      "structuredSummary": "社區口琴課程/十孔/重奏/半音階/THMF 2026 熟齡組 / 十孔/半音階/口琴合奏 / 教學單位/社區推廣",
+      "summary": "臺灣的十孔、半音階與口琴合奏教學單位與社區推廣，關注社區口琴課程、重奏與THMF 2026 熟齡組。",
+      "keywords": "基隆社區大學 就是吹口琴 陳鴻儀 2026 秋季班 THMF 熟齡組",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://kcu.twcu.org.tw/course/m_course_list.php"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "299-keelung-community-university-harmonica",
+      "latestUpdateAt": "2026-09-07T02:20:22.312509+00:00",
+      "latestUpdateLocal": "2026-09-07 10:20",
+      "latestUpdateSource": "基隆社區大學就是吹口琴",
+      "latestUpdateUrl": "https://kcu.twcu.org.tw/course/m_course_list.php",
+      "avatarUrl": "/assets/source-avatars/keelung-community-harmonica.jpg",
+      "sourceInitials": "基隆",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "課程",
+        "半音階",
+        "十孔",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_299",
+          "name": "基隆社區大學就是吹口琴",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://kcu.twcu.org.tw/course/m_course_list.php",
           "feedUrl": ""
         }
       ]
@@ -165,8 +165,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "254-zhengzhou-popular-harmonica-ensemble",
-      "latestUpdateAt": "2026-09-06T14:04:40.589573+00:00",
-      "latestUpdateLocal": "2026-09-06 22:04",
+      "latestUpdateAt": "2026-09-07T02:19:31.340162+00:00",
+      "latestUpdateLocal": "2026-09-07 10:19",
       "latestUpdateSource": "鄭州大眾口琴樂團",
       "latestUpdateUrl": "https://www.aphfhx.com/information/industryNewsDetail/361339839879622656",
       "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
@@ -209,8 +209,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "253-jinan-popular-harmonica-ensemble",
-      "latestUpdateAt": "2026-09-06T14:04:36.064068+00:00",
-      "latestUpdateLocal": "2026-09-06 22:04",
+      "latestUpdateAt": "2026-09-07T02:19:29.414290+00:00",
+      "latestUpdateLocal": "2026-09-07 10:19",
       "latestUpdateSource": "濟南大眾口琴樂團",
       "latestUpdateUrl": "https://www.aphfhx.com/information/industryNewsDetail/361339839879622656",
       "avatarUrl": "/assets/source-avatars/c2a785077a9080256926.webp",
@@ -253,8 +253,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "245-qinyun-dongpo-harmonica-art-showcase-meishan",
-      "latestUpdateAt": "2026-09-06T14:04:23.598614+00:00",
-      "latestUpdateLocal": "2026-09-06 22:04",
+      "latestUpdateAt": "2026-09-07T02:19:17.389155+00:00",
+      "latestUpdateLocal": "2026-09-07 10:19",
       "latestUpdateSource": "「琴韻東坡・簧鳴西南」口琴藝術展演",
       "latestUpdateUrl": "https://www.aphfhx.com/information/announcementDetail/443573180452044800",
       "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
@@ -299,8 +299,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "244-qinsu-fuxi-harmonica-art-showcase-tianshui",
-      "latestUpdateAt": "2026-09-06T14:04:19.339522+00:00",
-      "latestUpdateLocal": "2026-09-06 22:04",
+      "latestUpdateAt": "2026-09-07T02:19:15.544155+00:00",
+      "latestUpdateLocal": "2026-09-07 10:19",
       "latestUpdateSource": "「琴溯伏羲・律動天水」口琴藝術展演",
       "latestUpdateUrl": "https://www.aphfhx.com/information/announcementDetail/407401895418511360",
       "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
@@ -345,8 +345,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "243-2nd-dunhuang-cup-online-harmonica-competition",
-      "latestUpdateAt": "2026-09-06T14:04:16.127032+00:00",
-      "latestUpdateLocal": "2026-09-06 22:04",
+      "latestUpdateAt": "2026-09-07T02:19:13.693892+00:00",
+      "latestUpdateLocal": "2026-09-07 10:19",
       "latestUpdateSource": "第二屆「敦煌杯」線上口琴大賽",
       "latestUpdateUrl": "https://www.aphfhx.com/information/announcementDetail/347951476011454464",
       "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
@@ -394,8 +394,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "241-5th-huaxia-harmonica-art-week",
-      "latestUpdateAt": "2026-09-06T14:04:11.140136+00:00",
-      "latestUpdateLocal": "2026-09-06 22:04",
+      "latestUpdateAt": "2026-09-07T02:19:11.006290+00:00",
+      "latestUpdateLocal": "2026-09-07 10:19",
       "latestUpdateSource": "第五屆華夏（寧德）口琴藝術周",
       "latestUpdateUrl": "https://www.aphfhx.com/information/newsDetail/361718112966979584",
       "avatarUrl": "/assets/source-avatars/a7cb815d7fbbb24148d6.webp",
@@ -444,8 +444,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "136-project-x",
-      "latestUpdateAt": "2026-09-06T14:02:39.668138+00:00",
-      "latestUpdateLocal": "2026-09-06 22:02",
+      "latestUpdateAt": "2026-09-07T02:18:03.926412+00:00",
+      "latestUpdateLocal": "2026-09-07 10:18",
       "latestUpdateSource": "Project X",
       "latestUpdateUrl": "https://thefestival.co.kr/info/festival/7338",
       "avatarUrl": "/assets/source-avatars/d46567b33b1baf0d8f42.webp",
@@ -499,8 +499,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "134-crossover-harmonica-ensemble",
-      "latestUpdateAt": "2026-09-06T14:02:37.465780+00:00",
-      "latestUpdateLocal": "2026-09-06 22:02",
+      "latestUpdateAt": "2026-09-07T02:18:02.605057+00:00",
+      "latestUpdateLocal": "2026-09-07 10:18",
       "latestUpdateSource": "Crossover Harmonica Ensemble",
       "latestUpdateUrl": "https://thefestival.co.kr/info/festival/7338",
       "avatarUrl": "/assets/source-avatars/d46567b33b1baf0d8f42.webp",
@@ -554,8 +554,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "21-orion",
-      "latestUpdateAt": "2026-09-06T14:00:32.450166+00:00",
-      "latestUpdateLocal": "2026-09-06 22:00",
+      "latestUpdateAt": "2026-09-07T02:16:22.844817+00:00",
+      "latestUpdateLocal": "2026-09-07 10:16",
       "latestUpdateSource": "Orion 口琴樂團",
       "latestUpdateUrl": "https://tixfun.com/UTK0201_?PRODUCT_ID=Q025T5HU",
       "avatarUrl": "/assets/source-avatars/8d01fbb157886cc0e415.webp",
@@ -608,8 +608,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "12",
-      "latestUpdateAt": "2026-09-06T14:00:19.447546+00:00",
-      "latestUpdateLocal": "2026-09-06 22:00",
+      "latestUpdateAt": "2026-09-07T02:16:13.930454+00:00",
+      "latestUpdateLocal": "2026-09-07 10:16",
       "latestUpdateSource": "臺灣口琴樂團",
       "latestUpdateUrl": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169",
       "avatarUrl": "/assets/source-avatars/c1b9a8d6df3e79573ba0.webp",
@@ -634,6 +634,102 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-167",
+      "publicId": "167",
+      "name": "第十五屆亞太口琴藝術週",
+      "nameEn": "15th Asia Pacific Harmonica Festival",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "國際活動/資訊入口",
+      "country": "中國",
+      "region": "中國/江蘇/無錫/江陰",
+      "cityOrFocus": "2026/7/23-27/亞太口琴節30週年/比賽/音樂會/講座/大師班",
+      "structuredSummary": "2026/7/23-27/亞太口琴節30週年/比賽/音樂會/講座/大師班 / 半音階/複音/十孔/重奏/合奏 / 國際活動來源",
+      "summary": "中國的國際活動來源，涵蓋2026、7、23-27、亞太口琴節30週年與比賽。",
+      "keywords": "第十五屆亞太口琴藝術週 Asia Pacific Harmonica Festival APHF 江陰 華西 中國口琴 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.aphfhx.com/information/newsDetail/361363469090992128"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "167-15th-asia-pacific-harmonica-festival",
+      "latestUpdateAt": "2026-09-06T15:15:20.450911+00:00",
+      "latestUpdateLocal": "2026-09-06 23:15",
+      "latestUpdateSource": "第十五屆亞太口琴藝術週",
+      "latestUpdateUrl": "https://www.aphfhx.com/information/newsDetail/361363469090992128",
+      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
+      "sourceInitials": "第十",
+      "sourceTags": [
+        "活動資訊",
+        "比賽",
+        "半音階",
+        "複音",
+        "十孔",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_167",
+          "name": "第十五屆亞太口琴藝術週",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://www.aphfhx.com/information/newsDetail/361363469090992128",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-293",
+      "publicId": "293",
+      "name": "Michał Kielak",
+      "nameEn": "Michal Kielak",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "波蘭",
+      "region": "波蘭",
+      "cityOrFocus": "藍調口琴/錄音與巡演/2024 波蘭年度口琴手/APHF 2026",
+      "structuredSummary": "藍調口琴/錄音與巡演/2024 波蘭年度口琴手/APHF 2026 / 十孔口琴 / 國際演出人員/錄音樂手",
+      "summary": "波蘭的十孔口琴國際演出人員與錄音樂手，活動脈絡包含藍調口琴、錄音與巡演與2024 波蘭年度口琴手。",
+      "keywords": "Michal Kielak Michał Kielak Poland harmonica harp player APHF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://kielak.pl/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "293-michal-kielak",
+      "latestUpdateAt": "2026-09-06T14:06:06.876109+00:00",
+      "latestUpdateLocal": "2026-09-06 22:06",
+      "latestUpdateSource": "Michał Kielak",
+      "latestUpdateUrl": "https://kielak.pl/",
+      "avatarUrl": "/assets/source-avatars/michal-kielak.jpg",
+      "sourceInitials": "MK",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_293",
+          "name": "Michał Kielak",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://kielak.pl/",
           "feedUrl": ""
         }
       ]
@@ -1051,55 +1147,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/user/animato1978",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-299",
-      "publicId": "299",
-      "name": "基隆社區大學就是吹口琴",
-      "nameEn": "Keelung Community University Harmonica",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "教學/社區",
-      "country": "臺灣",
-      "region": "臺灣/基隆",
-      "cityOrFocus": "社區口琴課程/十孔/重奏/半音階/THMF 2026 熟齡組",
-      "structuredSummary": "社區口琴課程/十孔/重奏/半音階/THMF 2026 熟齡組 / 十孔/半音階/口琴合奏 / 教學單位/社區推廣",
-      "summary": "臺灣的十孔、半音階與口琴合奏教學單位與社區推廣，關注社區口琴課程、重奏與THMF 2026 熟齡組。",
-      "keywords": "基隆社區大學 就是吹口琴 陳鴻儀 2026 秋季班 THMF 熟齡組",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://kcu.twcu.org.tw/course/m_course_list.php"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "299-keelung-community-university-harmonica",
-      "latestUpdateAt": "2026-09-05T08:36:11.289577+00:00",
-      "latestUpdateLocal": "2026-09-05 16:36",
-      "latestUpdateSource": "基隆社區大學就是吹口琴",
-      "latestUpdateUrl": "https://kcu.twcu.org.tw/course/m_course_list.php",
-      "avatarUrl": "/assets/source-avatars/keelung-community-harmonica.jpg",
-      "sourceInitials": "基隆",
-      "sourceTags": [
-        "教學器材",
-        "教學",
-        "課程",
-        "半音階",
-        "十孔",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_299",
-          "name": "基隆社區大學就是吹口琴",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://kcu.twcu.org.tw/course/m_course_list.php",
           "feedUrl": ""
         }
       ]
@@ -4019,53 +4066,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-312",
-      "publicId": "312",
-      "name": "「天鵝自由呼吸」寧波口琴節",
-      "nameEn": "Swan Free Breathing Ningbo Harmonica Festival",
-      "category": "活動資訊",
-      "type": "協會",
-      "originalType": "活動/資訊入口",
-      "country": "中國",
-      "region": "中國/浙江/寧波",
-      "cityOrFocus": "2026年6月28日/三場口琴音樂活動/精品音樂沙龍/城市口琴聯盟交流/紀念石人望誕辰120周年音樂會",
-      "structuredSummary": "2026年6月28日/三場口琴音樂活動/精品音樂沙龍/城市口琴聯盟交流/紀念石人望誕辰120周年音樂會 / 半音階口琴/複音口琴/口琴合奏 / 中國地方口琴節/音樂會與交流活動來源",
-      "summary": "中國的中國地方口琴節與音樂會與交流活動來源，涵蓋2026年6月28日、三場口琴音樂活動、精品音樂沙龍、城市口琴聯盟交流與紀念石人望誕辰120周年音樂會。",
-      "keywords": "天鵝自由呼吸 宁波口琴节 Swan Free Breathing Ningbo Harmonica Festival 2026 石人望 孟偉華 楊晟 安貴林 毛哲川",
-      "links": [
-        {
-          "label": "網站",
-          "url": "http://www.cmia.com.cn/qydt/11674.html"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "312-swan-free-breathing-ningbo-harmonica-festival",
-      "latestUpdateAt": "2026-09-01T06:03:33.977122+00:00",
-      "latestUpdateLocal": "2026-09-01 14:03",
-      "latestUpdateSource": "「天鵝自由呼吸」寧波口琴節",
-      "latestUpdateUrl": "http://www.cmia.com.cn/qydt/11674.html",
-      "avatarUrl": "/assets/source-avatars/ningbo-harmonica-festival.jpg",
-      "sourceInitials": "天鵝",
-      "sourceTags": [
-        "協會",
-        "活動資訊",
-        "半音階",
-        "複音"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_312",
-          "name": "「天鵝自由呼吸」寧波口琴節",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "http://www.cmia.com.cn/qydt/11674.html",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-147",
       "publicId": "147",
       "name": "Yoonseok Lee",
@@ -4190,7 +4190,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-01 13:07",
       "latestUpdateSource": "音和樂器",
       "latestUpdateUrl": "https://www.instagram.com/p/Dcu3zOANMnf/",
-      "avatarUrl": "/assets/source-avatars/3fb1ccca5f33dff055f3.webp",
+      "avatarUrl": "/assets/source-avatars/9dfb729ea3ac3f541a3f.webp",
       "sourceInitials": "音和",
       "sourceTags": [
         "教學器材",
@@ -6542,7 +6542,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-30 21:48",
       "latestUpdateSource": "蔡明憲",
       "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3975174060992244965/",
-      "avatarUrl": "/assets/source-avatars/7dccef658f33871f77f3.webp",
+      "avatarUrl": "/assets/source-avatars/98b053a05152539d7327.webp",
       "sourceInitials": "蔡明",
       "sourceTags": [
         "演奏者",
