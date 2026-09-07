@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T08:40:54.113296Z",
+  "generatedAt": "2026-09-07T08:57:50.424391Z",
   "source": {
     "id": 79,
     "slug": "79",
@@ -8,6 +8,34 @@
     "pageUrl": "https://harmonica.observe.tw/source/79/"
   },
   "items": [
+    {
+      "id": "post-b8f81fcfe6957bd05c6d8300",
+      "title": "🎬 幕後直擊｜古典音樂如何透過XR科技說故事？王羽佳XR音樂會《羽火共舞》",
+      "excerpt": "🎬 幕後直擊｜古典音樂如何透過XR科技說故事？王羽佳XR音樂會《羽火共舞》 多數人對於沉浸式體驗的想像，或許停留在遊戲、展覽或劇場。不過王羽佳、VIVE Arts 和 Atlas V 共同打造的《羽火共舞》，將鋼琴獨奏會以延展實境（Extended Reality，XR）呈現，為古典音樂賦予全新生命。🎶 ​ 這是一段探索藝術邊界的嶄新旅程，將音樂、視覺與前沿科技鎔鑄一體。在出發之前，先來看看這這群藝術家們如何形塑這場冒險吧！🪂 ​ 王羽佳XR音樂會《羽火共舞》🔥 𝘗𝘭𝘢𝘺𝘪𝘯𝘨 𝘸𝘪𝘵𝘩 𝘍𝘪𝘳𝘦: 𝘈𝘯 𝘐𝘮𝘮𝘦𝘳𝘴𝘪𝘷𝘦 𝘖𝘥𝘺𝘴𝘴𝘦𝘺 𝘸𝘪𝘵𝘩…",
+      "url": "https://www.youtube.com/watch?v=xNqGDGVOheQ",
+      "sourceName": "國家兩廳院",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-07T07:08:38Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/dcfb648fb4392520b5d4.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-64c5ea25e888d795b82398c9",
+      "title": "鋼琴天后 ✕ 沉浸式體驗——兩廳院獨家呈現2026坎城影展入選作品！王羽佳XR音樂會《羽火共舞》",
+      "excerpt": "鋼琴天后 ✕ 沉浸式體驗——兩廳院獨家呈現2026坎城影展入選作品！王羽佳XR音樂會《羽火共舞》 鋼琴天后 ✕ 沉浸式體驗—— 兩廳院獨家呈現2026坎城影展入選作品！ 鋼琴天后王羽佳，以驚人的演奏技巧與耀眼的舞臺魅力，為古典樂點燃革新火種。 大膽的演出造型、招牌俯衝式鞠躬，王羽佳永遠是話題女王。然而真正讓她立足樂壇頂點的，是她深厚的藝術底蘊，和勇於突破的創新精神。如今，她將音樂、視覺詩意與前沿科技鎔鑄一體，化作一段探索藝術邊界的嶄新旅程。 《羽火共舞》帶您走入王羽佳的音樂宇宙，徜徉蕭邦、李斯特和史特拉汶斯基的樂思間，近距離感受鋼琴家的熾熱能量。本作由…",
+      "url": "https://www.youtube.com/watch?v=OnqnHmeYSQY",
+      "sourceName": "國家兩廳院",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-07T07:05:26Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/22991c7d7c68e4ec1e28.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-f0a02cd51e7f993c9f1f6543",
       "title": "我們做的是狗屁工作嗎？ ft. 「One-Forty」品牌行銷總監 梁藝瀠、兩廳院公共溝通部經理 王統生",
