@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T18:09:35.468403Z",
+  "generatedAt": "2026-09-07T18:29:15.496401Z",
   "source": {
     "id": 66,
     "slug": "younghoon-cho",
@@ -62,20 +62,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/308249d0738acb358588.webp",
         "width": 800,
         "height": 450
-      }
-    },
-    {
-      "id": "post-13c607fc1474d54c9f7a5095",
-      "title": "SSHO in THMF 2026",
-      "excerpt": "SSHO in THMF 2026 🇹🇼🇰🇷 #SeoulSoloistsHarmonicaOrchestea #TaiwanHarmonicaMusicFestival",
-      "url": "https://www.instagram.com/p/DbyeZk9zKJK/",
-      "sourceName": "Younghoon Cho",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-08T18:15:20Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/b056808024dea2fc3e5d.webp",
-        "width": 640,
-        "height": 1136
       }
     }
   ]
