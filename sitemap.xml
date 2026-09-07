@@ -61,6 +61,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/167-15th-asia-pacific-harmonica-festival/</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/298-hkcc-harmonica-programme/</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -141,12 +147,6 @@
   <url>
     <loc>https://harmonica.observe.tw/source/12/</loc>
     <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/167-15th-asia-pacific-harmonica-festival/</loc>
-    <lastmod>2026-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
