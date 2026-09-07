@@ -2841,7 +2841,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-02 00:42",
       "latestUpdateSource": "Gordon Lee 李俊樂",
       "latestUpdateUrl": "https://www.instagram.com/stories/gordonleeharmonica/3976711099963230316/",
-      "avatarUrl": "/assets/source-avatars/5291b99f4adc73010797.webp",
+      "avatarUrl": "/assets/source-avatars/8d37d2932718d8b59abd.webp",
       "sourceInitials": "GL",
       "sourceTags": [
         "演奏者",
