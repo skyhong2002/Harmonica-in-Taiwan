@@ -7947,7 +7947,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-26 20:14",
       "latestUpdateSource": "World Harmonica Festival",
       "latestUpdateUrl": "https://www.instagram.com/p/DcgL1XJNeR8/",
-      "avatarUrl": "/assets/source-avatars/a42cf7f90f308b368921.webp",
+      "avatarUrl": "/assets/source-avatars/4a11f14fe1a074c7207d.webp",
       "sourceInitials": "WHF",
       "sourceTags": [
         "活動資訊",
@@ -16258,7 +16258,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/a42cf7f90f308b368921.webp",
+      "avatarUrl": "/assets/source-avatars/4a11f14fe1a074c7207d.webp",
       "sourceInitials": "HIH",
       "sourceTags": [
         "團體樂團",
@@ -16314,7 +16314,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/a42cf7f90f308b368921.webp",
+      "avatarUrl": "/assets/source-avatars/4a11f14fe1a074c7207d.webp",
       "sourceInitials": "KS",
       "sourceTags": [
         "團體樂團",
@@ -16416,7 +16416,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/a42cf7f90f308b368921.webp",
+      "avatarUrl": "/assets/source-avatars/4a11f14fe1a074c7207d.webp",
       "sourceInitials": "KHE",
       "sourceTags": [
         "團體樂團",
@@ -16631,7 +16631,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/a42cf7f90f308b368921.webp",
+      "avatarUrl": "/assets/source-avatars/4a11f14fe1a074c7207d.webp",
       "sourceInitials": "PHE",
       "sourceTags": [
         "團體樂團",
@@ -16737,7 +16737,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/a42cf7f90f308b368921.webp",
+      "avatarUrl": "/assets/source-avatars/4a11f14fe1a074c7207d.webp",
       "sourceInitials": "RS",
       "sourceTags": [
         "團體樂團",
