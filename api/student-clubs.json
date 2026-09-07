@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/student-clubs.xml",
   "json": "https://harmonica.observe.tw/api/student-clubs.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/student-clubs.json",
-  "count": 229,
+  "count": 228,
   "items": [
     {
       "title": "中山醫學大學藍韻口琴社｜@csmu_bluemelody: 【寶可夢30週年主題猜歌大賽⚡暨口琴社迎新】 今年迎新，我們把猜歌大賽變成一場寶可夢捕捉挑戰！ 不只有口琴社相關紀念品，還準備了正版寶可... @csmu_bluemelody …",
@@ -17788,73 +17788,6 @@
         "學生社團"
       ],
       "key": "ig_peacetones_harmonica:https://www.instagram.com/p/DbzVvLTPUKB/"
-    },
-    {
-      "title": "臺中國家歌劇院 National Taichung Theater｜2026 NTT 夏日放／FUN時光｜今夏最震撼的劇場體驗！《怪美妖仙傳》一級棒棒一級棒！ 《怪美妖仙傳》以傳統布袋戲的絕妙口白搭配變裝皇后如真人戲偶般的華麗表演，再加上…",
-      "headline": "2026 NTT 夏日放／FUN時光｜今夏最震撼的劇場體驗！《怪美妖仙傳》一級棒棒一級棒！",
-      "display_title": "2026 NTT 夏日放／FUN時光｜今夏最震撼的劇場體驗！《怪美妖仙傳》一級棒棒一級棒！",
-      "title_kind": "title",
-      "link": "https://www.youtube.com/watch?v=XUlUusKBlTw",
-      "source_id": "yt_uctl1euke_x0w6tahecepgmq",
-      "source": "臺中國家歌劇院 National Taichung Theater",
-      "source_system_name": "臺中國家歌劇院",
-      "source_profile_url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "directory_entry_id": "watchlist-80",
-      "directory_entry_name": "臺中國家歌劇院",
-      "account": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
-      "platform": "youtube",
-      "platform_label": "YouTube",
-      "posted_at": "2026-08-08T12:48:05+00:00",
-      "posted_at_local": "2026-08-08 20:48",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-08-08T15:12:45.467091+00:00",
-      "media_type": "video",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [],
-      "keyword_matches": [
-        "演出"
-      ],
-      "llm_relevant": false,
-      "llm_confidence": 0.98,
-      "llm_labels": [],
-      "llm_categories": [],
-      "llm_reason": "為一般劇場跨域演出，內容無口琴或口琴社群相關。",
-      "text": "2026 NTT 夏日放／FUN時光｜今夏最震撼的劇場體驗！《怪美妖仙傳》一級棒棒一級棒！\n《怪美妖仙傳》以傳統布袋戲的絕妙口白搭配變裝皇后如真人戲偶般的華麗表演，再加上母娘親臨的神級加持，不僅有滿滿的正能量，更是一場傳統與當代、宗教與藝術的完美跨域融合演出🔥\n只剩明天最後一場！錯還沒買票的朋友，快把握最後機會進歌劇院，見證屬於你的華麗變身！✨\n不管大人或小孩，每個人都能在劇中看見自我肯定的美麗時刻。\n⚡臺北劇場實驗室《怪美妖仙傳》⚡\n８/７㊄—８/９㊐ 📍中劇院\n我的美麗由我定義🫵https://npacntt.tw/n02qfQFr\n#臺中國家歌劇院 #布袋戲 #變裝皇后 #DragQueen #Queer #山海經 #西王母 #女媧 #KIM #蘇俊穎 #RICO #Makeila #Martiny #TinaBanana #JTL #林宗頡 #陳美辰 #NTT戲劇",
-      "images": [
-        "https://i.ytimg.com/vi/XUlUusKBlTw/maxresdefault.jpg"
-      ],
-      "videos": [],
-      "source_image_url": "https://i.ytimg.com/vi/XUlUusKBlTw/maxresdefault.jpg",
-      "image_url": "/assets/feed-images/427d9dafbab78066d423.webp",
-      "image_width": 800,
-      "image_height": 450,
-      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_kROflWtLDL5SN4-6xo3VZ9f2D2DI55Oh08zxVDWzjDjg=s900-c-k-c0x00ffffff-no-rj",
-      "avatar_url": "/assets/source-avatars/6503895ebdafdcd31f05.webp",
-      "source_initials": "NTT",
-      "categories": [
-        "posts-videos",
-        "events",
-        "student-clubs"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動",
-        "學生社團"
-      ],
-      "key": "yt_uctl1euke_x0w6tahecepgmq:XUlUusKBlTw"
     }
   ]
 }
