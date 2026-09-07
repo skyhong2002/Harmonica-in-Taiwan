@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T07:13:13.613341Z",
+  "generatedAt": "2026-09-07T07:30:43.585862Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -272,20 +272,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/7db1f28365837ca0472a.webp",
         "width": 541,
         "height": 960
-      }
-    },
-    {
-      "id": "post-8af8ecd2b1b2f58dafdebb73",
-      "title": "My harmonicas from yesterdays concert ☀️",
-      "excerpt": "My harmonicas from yesterdays concert ☀️",
-      "url": "https://www.instagram.com/p/DbxTdesDGet/",
-      "sourceName": "Filip Jers",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-08T07:15:04Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/2f236ffc0b596ece8104.webp",
-        "width": 800,
-        "height": 1067
       }
     }
   ]
