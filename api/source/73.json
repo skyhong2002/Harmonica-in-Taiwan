@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T03:13:23.748210Z",
+  "generatedAt": "2026-09-08T03:27:26.117114Z",
   "source": {
     "id": 73,
     "slug": "73",
@@ -18,20 +18,6 @@
       "publishedAt": "2026-08-12T11:47:26Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/a01b6de002c78abf4e30.webp",
-        "width": 443,
-        "height": 590
-      }
-    },
-    {
-      "id": "post-0915b6b135ee6b8f7fc728ad",
-      "title": "🎵 臺灣口琴音樂節🎶",
-      "excerpt": "🎵 臺灣口琴音樂節🎶 這個暑假，萬興國小口琴隊的孩子們真的很忙😆 才剛結束一趟國際賽事，又繼續帶著口琴來到 臺灣口琴音樂節！ 每一次比賽，小編越來越覺得，名次當然讓人期待，但更珍貴的是孩子一次次站上舞台後的改變🤩 從上台前的緊張、反覆確認譜 到燈一亮，自己走上台、站定位、深呼吸，然後吹出第一個音符🎵 這些看起來小小的瞬間，其實都是他們慢慢累積起來的勇氣❤️ 而口琴音樂節最棒的地方，就是可以一次看到好多不同學校、不同年齡的演奏者 除了比賽，也是在聽別人、看別人，然後偷偷把新的刺激和想法帶回來 對萬興口琴隊的孩子來說 比完一場，不只是完成一場比賽，而是又比…",
-      "url": "https://www.facebook.com/permalink.php?id=61574004532712&story_fbid=pfbid0371mGFeodM8tsDHE49yJyPXCNwyBnr88AhTQuKXk1gwFTGupsnYuAJU37H3sRs3nDl",
-      "sourceName": "萬興國小口琴隊",
-      "platform": "Facebook",
-      "publishedAt": "2026-08-09T03:14:09Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/f3ec5437cadff5e658cb.webp",
         "width": 443,
         "height": 590
       }
