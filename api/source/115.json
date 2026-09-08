@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T08:33:04.751834Z",
+  "generatedAt": "2026-09-08T08:58:08.208295Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -272,20 +272,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/5cae9bf2c7d615cca1bc.webp",
         "width": 800,
         "height": 1423
-      }
-    },
-    {
-      "id": "post-d4a8743bce3ef544f159c865",
-      "title": "Join me walking to the stage where all my harmonicas are 🎶🎶🎶",
-      "excerpt": "Join me walking to the stage where all my harmonicas are 🎶🎶🎶",
-      "url": "https://www.facebook.com/reel/855458947505233/",
-      "sourceName": "Filip Jers",
-      "platform": "Facebook",
-      "publishedAt": "2026-08-09T08:36:31Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/7db1f28365837ca0472a.webp",
-        "width": 541,
-        "height": 960
       }
     }
   ]
