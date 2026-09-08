@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T00:20:21.834464Z",
+  "generatedAt": "2026-09-08T00:38:42.216729Z",
   "source": {
     "id": 30,
     "slug": "30",
@@ -171,20 +171,6 @@
       "publishedAt": "2026-08-10T13:46:02Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/a2114e89c583524cb401.webp",
-        "width": 800,
-        "height": 800
-      }
-    },
-    {
-      "id": "post-bcf15e5721d6ca21fd988229",
-      "title": "「這是你心中理想口琴節的樣子嗎？」",
-      "excerpt": "「這是你心中理想口琴節的樣子嗎？」 『對我來說，是』 一起玩音樂、享受舞台、見見老朋友，知道彼此一切都好：） 2026 THMF DAY.2",
-      "url": "https://www.instagram.com/p/DbzJr4wkldC/",
-      "sourceName": "蔡明憲",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-09T00:28:16Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/9b06721c3055b984c030.webp",
         "width": 800,
         "height": 800
       }
