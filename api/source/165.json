@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T03:48:09.096081Z",
+  "generatedAt": "2026-09-08T04:01:15.437186Z",
   "source": {
     "id": 165,
     "slug": "malaysia-harmonica-festival",
@@ -88,20 +88,6 @@
       "publishedAt": "2026-08-09T04:01:18Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/bd7a5a06b1ec4a72bd10.webp",
-        "width": 800,
-        "height": 1000
-      }
-    },
-    {
-      "id": "post-66a5448fbab941b0a6a7b5c7",
-      "title": "🎉 Congratulations to all the winners - Solo Categories! 🏆",
-      "excerpt": "🎉 Congratulations to all the winners - Solo Categories! 🏆 A heartfelt thank you to every contestant for your participation and support! 🔔 The e-certificates and judges’ comments for all contestants will be sent together via email on 15 August. 📧 Please stay tuned and thank you f…",
-      "url": "https://www.instagram.com/p/DbziBhRkw_x/",
-      "sourceName": "馬來西亞口琴節",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-09T04:00:05Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/d3dea3c03f333b1b694a.webp",
         "width": 800,
         "height": 1000
       }
