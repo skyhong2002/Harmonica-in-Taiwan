@@ -9735,7 +9735,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-23 12:07",
       "latestUpdateSource": "mr.Why 花影樂團",
       "latestUpdateUrl": "https://www.instagram.com/stories/mr.why.why/3969808643608765314/",
-      "avatarUrl": "/assets/source-avatars/754d6bd5a92e15c94269.webp",
+      "avatarUrl": "/assets/source-avatars/e8c2c94cba3fcd868cc6.webp",
       "sourceInitials": "MW",
       "sourceTags": [
         "團體樂團"
