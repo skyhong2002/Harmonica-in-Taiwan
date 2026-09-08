@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T20:40:46.528261Z",
+  "generatedAt": "2026-09-08T21:13:40.075370Z",
   "source": {
     "id": 224,
     "slug": "easttop-harmonicas",
@@ -272,20 +272,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/336465fd8376143104f1.webp",
         "width": 800,
         "height": 450
-      }
-    },
-    {
-      "id": "post-25e94d3d964805b3358c4faa",
-      "title": "\"Rhapsody\" by @easttopharmonicas",
-      "excerpt": "\"Rhapsody\" by @easttopharmonicas 🤟🇫🇷 #guyane #harmonicachromatique #ameriquedusud #easttopharmonica",
-      "url": "https://www.instagram.com/p/Db1WkSmRtPm/",
-      "sourceName": "Easttop Harmonicas",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-09T21:03:29Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/b363b250cf381e4a0c63.webp",
-        "width": 640,
-        "height": 1136
       }
     }
   ]
