@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T00:38:42.216729Z",
+  "generatedAt": "2026-09-08T00:54:11.525143Z",
   "source": {
     "id": 78,
     "slug": "78",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/78/"
   },
   "items": [
+    {
+      "id": "post-0e9cd90ef6e3d30ba6ea56b2",
+      "title": "那個男人來了！莫札特《唐 ⭑ 喬萬尼》歌劇音樂會獨家呈現，頂尖聲樂陣容奢華登場！",
+      "excerpt": "那個男人來了！莫札特《唐 ⭑ 喬萬尼》歌劇音樂會獨家呈現，頂尖聲樂陣容奢華登場！ 18 世紀嘲諷巔峰之作，莫札特《唐 ⭑ 喬萬尼》歌劇音樂會，即將啟售！ ​ 如果只能選一部莫札特歌劇 許多人會選 《唐 ⭑ 喬萬尼》 ​ 從《費加洛婚禮》在布拉格的盛大成功，到莫札特靈思泉湧寫下的全新作品；甚至連開演前一晚才完成的傳奇序曲，都成為歌劇史上令人津津樂道的故事。 ​ 莫札特筆下的唐 ⭑ 喬萬尼，看似縱橫情場、遊戲人間，卻在一次次失手與失策中走向天譴；而安娜、艾薇拉、澤林娜等角色，也各自藏著難以言說的情感與慾望。 ​ 喜劇 ✕ 悲劇 狂歡 ✕ 幽暗 花腔飛舞 ✕…",
+      "url": "https://www.youtube.com/watch?v=hd3WEiTC62o",
+      "sourceName": "衛武營國家藝術文化中心",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-07T08:56:24Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/cacfd7572cc7589294a6.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-1fbf4da8ca57ed5315b61fcf",
       "title": "爵士，是一種生活濾鏡！突破國界與文化，三場世界級音樂盛典，即將席捲2026衛武營爵士週",
