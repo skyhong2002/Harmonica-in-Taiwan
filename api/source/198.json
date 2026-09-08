@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T05:42:57.269321Z",
+  "generatedAt": "2026-09-08T06:06:47.981221Z",
   "source": {
     "id": 198,
     "slug": "bamboo-melody-harmonica-club",
@@ -76,20 +76,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/37410813e98fd0450efd.webp",
         "width": 800,
         "height": 1423
-      }
-    },
-    {
-      "id": "post-55763e5a24cc41ba36f1be4e",
-      "title": "陽明交大竹韻口琴社｜復社紀念影片",
-      "excerpt": "陽明交大竹韻口琴社｜復社紀念影片",
-      "url": "https://www.youtube.com/watch?v=CxUG95kHNdc",
-      "sourceName": "陽明交大竹韻口琴社",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-09T06:00:06Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/36e5cb12cc7eb8407cee.webp",
-        "width": 800,
-        "height": 450
       }
     }
   ]
