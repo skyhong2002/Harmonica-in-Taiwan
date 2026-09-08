@@ -2,6 +2,56 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-09-08",
   "entries": [
     {
+      "id": "watchlist-167",
+      "publicId": "167",
+      "name": "第十五屆亞太口琴藝術週",
+      "nameEn": "15th Asia Pacific Harmonica Festival",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "國際活動/資訊入口",
+      "country": "中國",
+      "region": "中國/江蘇/無錫/江陰",
+      "cityOrFocus": "2026/7/23-27/亞太口琴節30週年/比賽/音樂會/講座/大師班",
+      "structuredSummary": "2026/7/23-27/亞太口琴節30週年/比賽/音樂會/講座/大師班 / 半音階/複音/十孔/重奏/合奏 / 國際活動來源",
+      "summary": "中國的國際活動來源，涵蓋2026、7、23-27、亞太口琴節30週年與比賽。",
+      "keywords": "第十五屆亞太口琴藝術週 Asia Pacific Harmonica Festival APHF 江陰 華西 中國口琴 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.aphfhx.com/information/newsDetail/361363469090992128"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "167-15th-asia-pacific-harmonica-festival",
+      "latestUpdateAt": "2026-09-08T03:46:14.820042+00:00",
+      "latestUpdateLocal": "2026-09-08 11:46",
+      "latestUpdateSource": "第十五屆亞太口琴藝術週",
+      "latestUpdateUrl": "https://www.aphfhx.com/information/newsDetail/361363469090992128",
+      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
+      "sourceInitials": "第十",
+      "sourceTags": [
+        "活動資訊",
+        "比賽",
+        "半音階",
+        "複音",
+        "十孔",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_167",
+          "name": "第十五屆亞太口琴藝術週",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://www.aphfhx.com/information/newsDetail/361363469090992128",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-58",
       "publicId": "58",
       "name": "南里沙",
@@ -821,51 +871,87 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-167",
-      "publicId": "167",
-      "name": "第十五屆亞太口琴藝術週",
-      "nameEn": "15th Asia Pacific Harmonica Festival",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "國際活動/資訊入口",
-      "country": "中國",
-      "region": "中國/江蘇/無錫/江陰",
-      "cityOrFocus": "2026/7/23-27/亞太口琴節30週年/比賽/音樂會/講座/大師班",
-      "structuredSummary": "2026/7/23-27/亞太口琴節30週年/比賽/音樂會/講座/大師班 / 半音階/複音/十孔/重奏/合奏 / 國際活動來源",
-      "summary": "中國的國際活動來源，涵蓋2026、7、23-27、亞太口琴節30週年與比賽。",
-      "keywords": "第十五屆亞太口琴藝術週 Asia Pacific Harmonica Festival APHF 江陰 華西 中國口琴 2026",
+      "id": "watchlist-115",
+      "publicId": "115",
+      "name": "Filip Jers",
+      "nameEn": "Filip Jers",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "瑞典",
+      "region": "瑞典",
+      "cityOrFocus": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出",
+      "structuredSummary": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出 / 半音階/十孔 / 國際演出人員/作曲者/教育者",
+      "summary": "瑞典的半音階與十孔國際演出人員、作曲者與教育者，活動脈絡包含瑞典代表性口琴演奏、作曲與音樂教育。",
+      "keywords": "Filip Jers harmonica SIHF",
       "links": [
         {
           "label": "網站",
-          "url": "https://www.aphfhx.com/information/newsDetail/361363469090992128"
+          "url": "https://www.filipjers.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/filipjersmusic/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/filipjersharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@filipjersmusic"
         }
       ],
       "source": "watchlist",
       "aliases": [],
-      "slug": "167-15th-asia-pacific-harmonica-festival",
-      "latestUpdateAt": "2026-09-07T15:38:19.186590+00:00",
-      "latestUpdateLocal": "2026-09-07 23:38",
-      "latestUpdateSource": "第十五屆亞太口琴藝術週",
-      "latestUpdateUrl": "https://www.aphfhx.com/information/newsDetail/361363469090992128",
-      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
-      "sourceInitials": "第十",
+      "slug": "115-filip-jers",
+      "latestUpdateAt": "2026-09-07T21:38:50+00:00",
+      "latestUpdateLocal": "2026-09-08 05:38",
+      "latestUpdateSource": "Filip Jers",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=sAjKJNN8938",
+      "avatarUrl": "/assets/source-avatars/0ad0ecfa443679726327.webp",
+      "sourceInitials": "FJ",
       "sourceTags": [
-        "活動資訊",
-        "比賽",
+        "演奏者",
         "半音階",
-        "複音",
         "十孔",
-        "重奏",
         "國際交流"
       ],
       "monitorSources": [
         {
-          "id": "web_167",
-          "name": "第十五屆亞太口琴藝術週",
-          "platform": "website",
-          "type": "webpage_watch",
+          "id": "fb_filipjersmusic",
+          "name": "Filip Jers",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
           "username": "",
-          "profileUrl": "https://www.aphfhx.com/information/newsDetail/361363469090992128",
+          "profileUrl": "https://facebook.com/filipjersmusic",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_filipjersharmonica",
+          "name": "Filip Jers",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "filipjersharmonica",
+          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_filipjersharmonica",
+          "name": "Filip Jers",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "filipjersharmonica",
+          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_filipjersmusic",
+          "name": "Filip Jers",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@filipjersmusic",
           "feedUrl": ""
         }
       ]
@@ -3799,92 +3885,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "hksmsa_official",
           "profileUrl": "https://www.instagram.com/hksmsa_official/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-115",
-      "publicId": "115",
-      "name": "Filip Jers",
-      "nameEn": "Filip Jers",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "瑞典",
-      "region": "瑞典",
-      "cityOrFocus": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出",
-      "structuredSummary": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出 / 半音階/十孔 / 國際演出人員/作曲者/教育者",
-      "summary": "瑞典的半音階與十孔國際演出人員、作曲者與教育者，活動脈絡包含瑞典代表性口琴演奏、作曲與音樂教育。",
-      "keywords": "Filip Jers harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.filipjers.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/filipjersmusic/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/filipjersharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@filipjersmusic"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "115-filip-jers",
-      "latestUpdateAt": "2026-09-01T11:04:49+00:00",
-      "latestUpdateLocal": "2026-09-01 19:04",
-      "latestUpdateSource": "Filip Jers",
-      "latestUpdateUrl": "https://www.instagram.com/stories/filipjersharmonica/3976541340137478897/",
-      "avatarUrl": "/assets/source-avatars/0ad0ecfa443679726327.webp",
-      "sourceInitials": "FJ",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_filipjersmusic",
-          "name": "Filip Jers",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/filipjersmusic",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_filipjersharmonica",
-          "name": "Filip Jers",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "filipjersharmonica",
-          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_filipjersharmonica",
-          "name": "Filip Jers",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "filipjersharmonica",
-          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_filipjersmusic",
-          "name": "Filip Jers",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@filipjersmusic",
           "feedUrl": ""
         }
       ]

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T03:27:26.117114Z",
+  "generatedAt": "2026-09-08T03:48:09.096081Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/115-filip-jers/"
   },
   "items": [
+    {
+      "id": "post-00d7e87bdd7e38d4ed68643d",
+      "title": "Jazz Harmonica & Guitar – Filip Jers & Emil Ernebro | Fjäril vingad syns på Haga - Live recording",
+      "excerpt": "Jazz Harmonica & Guitar – Filip Jers & Emil Ernebro | Fjäril vingad syns på Haga - Live recording Put a camera on one of the PA speakers during a concert this summer, so here I am sharing a live video with me and my buddy @EmilErnebroGuitar We're performing a jazz version of the…",
+      "url": "https://www.youtube.com/watch?v=sAjKJNN8938",
+      "sourceName": "Filip Jers",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-07T21:38:50Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/0392689fc4efaef3d55c.webp",
+        "width": 1280,
+        "height": 720
+      }
+    },
     {
       "id": "post-34d06e905dd7456bf46292ca",
       "title": "Tango harmonica ☀️",
