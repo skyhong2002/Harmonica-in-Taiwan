@@ -1,6 +1,6 @@
 window.publicCalendarEvents = {
   "version": 2,
-  "generatedAt": "2026-09-08T12:58:04+08:00",
+  "generatedAt": "2026-09-08T13:09:07+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
   "count": 10,
