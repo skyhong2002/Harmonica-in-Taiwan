@@ -2,56 +2,6 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-09-08",
   "entries": [
     {
-      "id": "watchlist-167",
-      "publicId": "167",
-      "name": "第十五屆亞太口琴藝術週",
-      "nameEn": "15th Asia Pacific Harmonica Festival",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "國際活動/資訊入口",
-      "country": "中國",
-      "region": "中國/江蘇/無錫/江陰",
-      "cityOrFocus": "2026/7/23-27/亞太口琴節30週年/比賽/音樂會/講座/大師班",
-      "structuredSummary": "2026/7/23-27/亞太口琴節30週年/比賽/音樂會/講座/大師班 / 半音階/複音/十孔/重奏/合奏 / 國際活動來源",
-      "summary": "中國的國際活動來源，涵蓋2026、7、23-27、亞太口琴節30週年與比賽。",
-      "keywords": "第十五屆亞太口琴藝術週 Asia Pacific Harmonica Festival APHF 江陰 華西 中國口琴 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.aphfhx.com/information/newsDetail/361363469090992128"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "167-15th-asia-pacific-harmonica-festival",
-      "latestUpdateAt": "2026-09-07T15:38:19.186590+00:00",
-      "latestUpdateLocal": "2026-09-07 23:38",
-      "latestUpdateSource": "第十五屆亞太口琴藝術週",
-      "latestUpdateUrl": "https://www.aphfhx.com/information/newsDetail/361363469090992128",
-      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
-      "sourceInitials": "第十",
-      "sourceTags": [
-        "活動資訊",
-        "比賽",
-        "半音階",
-        "複音",
-        "十孔",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_167",
-          "name": "第十五屆亞太口琴藝術週",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://www.aphfhx.com/information/newsDetail/361363469090992128",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-316",
       "publicId": "316",
       "name": "太平國小口琴隊",
@@ -74,8 +24,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "316-taiping-elementary-school-harmonica-ensemble",
-      "latestUpdateAt": "2026-09-07T14:30:51.558718+00:00",
-      "latestUpdateLocal": "2026-09-07 22:30",
+      "latestUpdateAt": "2026-09-08T02:38:39.992923+00:00",
+      "latestUpdateLocal": "2026-09-08 10:38",
       "latestUpdateSource": "太平國小口琴隊",
       "latestUpdateUrl": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586",
       "avatarUrl": "/assets/source-avatars/taiping-elementary-harmonica.jpg",
@@ -92,6 +42,53 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-312",
+      "publicId": "312",
+      "name": "「天鵝自由呼吸」寧波口琴節",
+      "nameEn": "Swan Free Breathing Ningbo Harmonica Festival",
+      "category": "活動資訊",
+      "type": "協會",
+      "originalType": "活動/資訊入口",
+      "country": "中國",
+      "region": "中國/浙江/寧波",
+      "cityOrFocus": "2026年6月28日/三場口琴音樂活動/精品音樂沙龍/城市口琴聯盟交流/紀念石人望誕辰120周年音樂會",
+      "structuredSummary": "2026年6月28日/三場口琴音樂活動/精品音樂沙龍/城市口琴聯盟交流/紀念石人望誕辰120周年音樂會 / 半音階口琴/複音口琴/口琴合奏 / 中國地方口琴節/音樂會與交流活動來源",
+      "summary": "中國的中國地方口琴節與音樂會與交流活動來源，涵蓋2026年6月28日、三場口琴音樂活動、精品音樂沙龍、城市口琴聯盟交流與紀念石人望誕辰120周年音樂會。",
+      "keywords": "天鵝自由呼吸 宁波口琴节 Swan Free Breathing Ningbo Harmonica Festival 2026 石人望 孟偉華 楊晟 安貴林 毛哲川",
+      "links": [
+        {
+          "label": "網站",
+          "url": "http://www.cmia.com.cn/qydt/11674.html"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "312-swan-free-breathing-ningbo-harmonica-festival",
+      "latestUpdateAt": "2026-09-08T02:38:34.870649+00:00",
+      "latestUpdateLocal": "2026-09-08 10:38",
+      "latestUpdateSource": "「天鵝自由呼吸」寧波口琴節",
+      "latestUpdateUrl": "http://www.cmia.com.cn/qydt/11674.html",
+      "avatarUrl": "/assets/source-avatars/ningbo-harmonica-festival.jpg",
+      "sourceInitials": "天鵝",
+      "sourceTags": [
+        "協會",
+        "活動資訊",
+        "半音階",
+        "複音"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_312",
+          "name": "「天鵝自由呼吸」寧波口琴節",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "http://www.cmia.com.cn/qydt/11674.html",
           "feedUrl": ""
         }
       ]
@@ -119,8 +116,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "299-keelung-community-university-harmonica",
-      "latestUpdateAt": "2026-09-07T14:30:24.485077+00:00",
-      "latestUpdateLocal": "2026-09-07 22:30",
+      "latestUpdateAt": "2026-09-08T02:38:16.647387+00:00",
+      "latestUpdateLocal": "2026-09-08 10:38",
       "latestUpdateSource": "基隆社區大學就是吹口琴",
       "latestUpdateUrl": "https://kcu.twcu.org.tw/course/m_course_list.php",
       "avatarUrl": "/assets/source-avatars/keelung-community-harmonica.jpg",
@@ -168,8 +165,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "254-zhengzhou-popular-harmonica-ensemble",
-      "latestUpdateAt": "2026-09-07T14:28:49.461799+00:00",
-      "latestUpdateLocal": "2026-09-07 22:28",
+      "latestUpdateAt": "2026-09-08T02:37:23.302965+00:00",
+      "latestUpdateLocal": "2026-09-08 10:37",
       "latestUpdateSource": "鄭州大眾口琴樂團",
       "latestUpdateUrl": "https://www.aphfhx.com/information/industryNewsDetail/361339839879622656",
       "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
@@ -212,8 +209,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "253-jinan-popular-harmonica-ensemble",
-      "latestUpdateAt": "2026-09-07T14:28:47.619028+00:00",
-      "latestUpdateLocal": "2026-09-07 22:28",
+      "latestUpdateAt": "2026-09-08T02:37:20.024896+00:00",
+      "latestUpdateLocal": "2026-09-08 10:37",
       "latestUpdateSource": "濟南大眾口琴樂團",
       "latestUpdateUrl": "https://www.aphfhx.com/information/industryNewsDetail/361339839879622656",
       "avatarUrl": "/assets/source-avatars/c2a785077a9080256926.webp",
@@ -256,8 +253,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "245-qinyun-dongpo-harmonica-art-showcase-meishan",
-      "latestUpdateAt": "2026-09-07T14:28:33.100639+00:00",
-      "latestUpdateLocal": "2026-09-07 22:28",
+      "latestUpdateAt": "2026-09-08T02:37:06.759188+00:00",
+      "latestUpdateLocal": "2026-09-08 10:37",
       "latestUpdateSource": "「琴韻東坡・簧鳴西南」口琴藝術展演",
       "latestUpdateUrl": "https://www.aphfhx.com/information/announcementDetail/443573180452044800",
       "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
@@ -302,8 +299,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "244-qinsu-fuxi-harmonica-art-showcase-tianshui",
-      "latestUpdateAt": "2026-09-07T14:28:31.225096+00:00",
-      "latestUpdateLocal": "2026-09-07 22:28",
+      "latestUpdateAt": "2026-09-08T02:37:03.053825+00:00",
+      "latestUpdateLocal": "2026-09-08 10:37",
       "latestUpdateSource": "「琴溯伏羲・律動天水」口琴藝術展演",
       "latestUpdateUrl": "https://www.aphfhx.com/information/announcementDetail/407401895418511360",
       "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
@@ -348,8 +345,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "243-2nd-dunhuang-cup-online-harmonica-competition",
-      "latestUpdateAt": "2026-09-07T14:28:29.410790+00:00",
-      "latestUpdateLocal": "2026-09-07 22:28",
+      "latestUpdateAt": "2026-09-08T02:36:58.605795+00:00",
+      "latestUpdateLocal": "2026-09-08 10:36",
       "latestUpdateSource": "第二屆「敦煌杯」線上口琴大賽",
       "latestUpdateUrl": "https://www.aphfhx.com/information/announcementDetail/347951476011454464",
       "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
@@ -397,8 +394,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "241-5th-huaxia-harmonica-art-week",
-      "latestUpdateAt": "2026-09-07T14:28:24.915830+00:00",
-      "latestUpdateLocal": "2026-09-07 22:28",
+      "latestUpdateAt": "2026-09-08T02:36:54.109410+00:00",
+      "latestUpdateLocal": "2026-09-08 10:36",
       "latestUpdateSource": "第五屆華夏（寧德）口琴藝術周",
       "latestUpdateUrl": "https://www.aphfhx.com/information/newsDetail/361718112966979584",
       "avatarUrl": "/assets/source-avatars/a7cb815d7fbbb24148d6.webp",
@@ -447,8 +444,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "136-project-x",
-      "latestUpdateAt": "2026-09-07T14:26:55.411938+00:00",
-      "latestUpdateLocal": "2026-09-07 22:26",
+      "latestUpdateAt": "2026-09-08T02:35:53.646740+00:00",
+      "latestUpdateLocal": "2026-09-08 10:35",
       "latestUpdateSource": "Project X",
       "latestUpdateUrl": "https://thefestival.co.kr/info/festival/7338",
       "avatarUrl": "/assets/source-avatars/d46567b33b1baf0d8f42.webp",
@@ -502,8 +499,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "134-crossover-harmonica-ensemble",
-      "latestUpdateAt": "2026-09-07T14:26:54.138663+00:00",
-      "latestUpdateLocal": "2026-09-07 22:26",
+      "latestUpdateAt": "2026-09-08T02:35:50.979769+00:00",
+      "latestUpdateLocal": "2026-09-08 10:35",
       "latestUpdateSource": "Crossover Harmonica Ensemble",
       "latestUpdateUrl": "https://thefestival.co.kr/info/festival/7338",
       "avatarUrl": "/assets/source-avatars/d46567b33b1baf0d8f42.webp",
@@ -557,8 +554,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "12",
-      "latestUpdateAt": "2026-09-07T14:25:13.454481+00:00",
-      "latestUpdateLocal": "2026-09-07 22:25",
+      "latestUpdateAt": "2026-09-08T02:34:14.164883+00:00",
+      "latestUpdateLocal": "2026-09-08 10:34",
       "latestUpdateSource": "臺灣口琴樂團",
       "latestUpdateUrl": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169",
       "avatarUrl": "/assets/source-avatars/c1b9a8d6df3e79573ba0.webp",
@@ -583,6 +580,104 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-323",
+      "publicId": "323",
+      "name": "日本ハーモニカまつり",
+      "nameEn": "Japan Harmonica Festival",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "活動/資訊入口",
+      "country": "日本",
+      "region": "日本/東京/代代木",
+      "cityOrFocus": "日本ハーモニカ芸術協会主辦/2027年4月23日至24日於國立奧林匹克紀念青少年綜合中心舉行/紀念口琴誕生200周年與佐藤秀廊世界大會優勝100周年/演奏、研修與交流",
+      "structuredSummary": "日本ハーモニカ芸術協会主辦/2027年4月23日至24日於國立奧林匹克紀念青少年綜合中心舉行/紀念口琴誕生200周年與佐藤秀廊世界大會優勝100周年/演奏、研修與交流 / 複音口琴/口琴合奏 / 國際音樂節/活動公告與報名資訊來源",
+      "summary": "日本ハーモニカまつり是JHAA主辦的日本口琴節；2027年4月23日至24日於東京代代木舉行，紀念口琴誕生200周年。",
+      "keywords": "日本ハーモニカまつり Japan Harmonica Festival 2027 JHAA 日本ハーモニカ芸術協会 代々木 國立奧林匹克紀念青少年綜合中心 口琴200周年 佐藤秀廊",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://jhaa.info/topics/index.html"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "323-japan-harmonica-festival",
+      "latestUpdateAt": "2026-09-08T01:15:38+00:00",
+      "latestUpdateLocal": "2026-09-08 09:15",
+      "latestUpdateSource": "日本ハーモニカまつり",
+      "latestUpdateUrl": "https://jhaa.info/topics/index.html",
+      "avatarUrl": "/assets/source-avatars/875263853804cee31233.webp",
+      "sourceInitials": "日本",
+      "sourceTags": [
+        "活動資訊",
+        "音樂節",
+        "國際交流"
+      ],
+      "sourceSummary": "日本ハーモニカまつり是JHAA主辦的日本口琴節；2027年4月23日至24日於東京代代木舉行，紀念口琴誕生200周年。",
+      "sourceTagReason": "依日本ハーモニカ芸術協会官方公告與兩日活動日程確認活動名稱、主辦單位、日期、地點及紀念主題。",
+      "monitorSources": [
+        {
+          "id": "web_323",
+          "name": "日本ハーモニカまつり",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://jhaa.info/topics/index.html",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-167",
+      "publicId": "167",
+      "name": "第十五屆亞太口琴藝術週",
+      "nameEn": "15th Asia Pacific Harmonica Festival",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "國際活動/資訊入口",
+      "country": "中國",
+      "region": "中國/江蘇/無錫/江陰",
+      "cityOrFocus": "2026/7/23-27/亞太口琴節30週年/比賽/音樂會/講座/大師班",
+      "structuredSummary": "2026/7/23-27/亞太口琴節30週年/比賽/音樂會/講座/大師班 / 半音階/複音/十孔/重奏/合奏 / 國際活動來源",
+      "summary": "中國的國際活動來源，涵蓋2026、7、23-27、亞太口琴節30週年與比賽。",
+      "keywords": "第十五屆亞太口琴藝術週 Asia Pacific Harmonica Festival APHF 江陰 華西 中國口琴 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.aphfhx.com/information/newsDetail/361363469090992128"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "167-15th-asia-pacific-harmonica-festival",
+      "latestUpdateAt": "2026-09-07T15:38:19.186590+00:00",
+      "latestUpdateLocal": "2026-09-07 23:38",
+      "latestUpdateSource": "第十五屆亞太口琴藝術週",
+      "latestUpdateUrl": "https://www.aphfhx.com/information/newsDetail/361363469090992128",
+      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
+      "sourceInitials": "第十",
+      "sourceTags": [
+        "活動資訊",
+        "比賽",
+        "半音階",
+        "複音",
+        "十孔",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_167",
+          "name": "第十五屆亞太口琴藝術週",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://www.aphfhx.com/information/newsDetail/361363469090992128",
           "feedUrl": ""
         }
       ]
@@ -1008,53 +1103,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/user/hkcchoir",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-312",
-      "publicId": "312",
-      "name": "「天鵝自由呼吸」寧波口琴節",
-      "nameEn": "Swan Free Breathing Ningbo Harmonica Festival",
-      "category": "活動資訊",
-      "type": "協會",
-      "originalType": "活動/資訊入口",
-      "country": "中國",
-      "region": "中國/浙江/寧波",
-      "cityOrFocus": "2026年6月28日/三場口琴音樂活動/精品音樂沙龍/城市口琴聯盟交流/紀念石人望誕辰120周年音樂會",
-      "structuredSummary": "2026年6月28日/三場口琴音樂活動/精品音樂沙龍/城市口琴聯盟交流/紀念石人望誕辰120周年音樂會 / 半音階口琴/複音口琴/口琴合奏 / 中國地方口琴節/音樂會與交流活動來源",
-      "summary": "中國的中國地方口琴節與音樂會與交流活動來源，涵蓋2026年6月28日、三場口琴音樂活動、精品音樂沙龍、城市口琴聯盟交流與紀念石人望誕辰120周年音樂會。",
-      "keywords": "天鵝自由呼吸 宁波口琴节 Swan Free Breathing Ningbo Harmonica Festival 2026 石人望 孟偉華 楊晟 安貴林 毛哲川",
-      "links": [
-        {
-          "label": "網站",
-          "url": "http://www.cmia.com.cn/qydt/11674.html"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "312-swan-free-breathing-ningbo-harmonica-festival",
-      "latestUpdateAt": "2026-09-07T02:20:41.103196+00:00",
-      "latestUpdateLocal": "2026-09-07 10:20",
-      "latestUpdateSource": "「天鵝自由呼吸」寧波口琴節",
-      "latestUpdateUrl": "http://www.cmia.com.cn/qydt/11674.html",
-      "avatarUrl": "/assets/source-avatars/ningbo-harmonica-festival.jpg",
-      "sourceInitials": "天鵝",
-      "sourceTags": [
-        "協會",
-        "活動資訊",
-        "半音階",
-        "複音"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_312",
-          "name": "「天鵝自由呼吸」寧波口琴節",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "http://www.cmia.com.cn/qydt/11674.html",
           "feedUrl": ""
         }
       ]
@@ -3384,7 +3432,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-01 20:59",
       "latestUpdateSource": "Evelyn Choong 鍾雪兒",
       "latestUpdateUrl": "https://www.instagram.com/stories/evelyn_harmonica/3976599093732600083/",
-      "avatarUrl": "/assets/source-avatars/31e6dac168a6f338f6aa.webp",
+      "avatarUrl": "/assets/source-avatars/746026f15952cc7d7d51.webp",
       "sourceInitials": "EC",
       "sourceTags": [
         "演奏者",
@@ -4387,7 +4435,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-01 13:07",
       "latestUpdateSource": "音和樂器",
       "latestUpdateUrl": "https://www.instagram.com/p/Dcu3zOANMnf/",
-      "avatarUrl": "/assets/source-avatars/9dfb729ea3ac3f541a3f.webp",
+      "avatarUrl": "/assets/source-avatars/d16deab9038a626a71af.webp",
       "sourceInitials": "音和",
       "sourceTags": [
         "教學器材",
@@ -19715,54 +19763,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@ForumHarmonicas",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-323",
-      "publicId": "323",
-      "name": "日本ハーモニカまつり",
-      "nameEn": "Japan Harmonica Festival",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "活動/資訊入口",
-      "country": "日本",
-      "region": "日本/東京/代代木",
-      "cityOrFocus": "日本ハーモニカ芸術協会主辦/2027年4月23日至24日於國立奧林匹克紀念青少年綜合中心舉行/紀念口琴誕生200周年與佐藤秀廊世界大會優勝100周年/演奏、研修與交流",
-      "structuredSummary": "日本ハーモニカ芸術協会主辦/2027年4月23日至24日於國立奧林匹克紀念青少年綜合中心舉行/紀念口琴誕生200周年與佐藤秀廊世界大會優勝100周年/演奏、研修與交流 / 複音口琴/口琴合奏 / 國際音樂節/活動公告與報名資訊來源",
-      "summary": "日本ハーモニカまつり是JHAA主辦的日本口琴節；2027年4月23日至24日於東京代代木舉行，紀念口琴誕生200周年。",
-      "keywords": "日本ハーモニカまつり Japan Harmonica Festival 2027 JHAA 日本ハーモニカ芸術協会 代々木 國立奧林匹克紀念青少年綜合中心 口琴200周年 佐藤秀廊",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://jhaa.info/topics/index.html"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "323-japan-harmonica-festival",
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/875263853804cee31233.webp",
-      "sourceInitials": "日本",
-      "sourceTags": [
-        "活動資訊",
-        "音樂節",
-        "國際交流"
-      ],
-      "sourceSummary": "日本ハーモニカまつり是JHAA主辦的日本口琴節；2027年4月23日至24日於東京代代木舉行，紀念口琴誕生200周年。",
-      "sourceTagReason": "依日本ハーモニカ芸術協会官方公告與兩日活動日程確認活動名稱、主辦單位、日期、地點及紀念主題。",
-      "monitorSources": [
-        {
-          "id": "web_323",
-          "name": "日本ハーモニカまつり",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://jhaa.info/topics/index.html",
           "feedUrl": ""
         }
       ]

@@ -1,11 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T02:19:31.846649Z",
+  "generatedAt": "2026-09-08T02:39:37.626440Z",
   "source": {
     "id": 323,
     "slug": "japan-harmonica-festival",
     "name": "日本ハーモニカまつり",
     "pageUrl": "https://harmonica.observe.tw/source/323-japan-harmonica-festival/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-a03e9f0e7ea59478eb10a62e",
+      "title": "お知らせ・活動報告：日本ハーモニカ芸術協会",
+      "excerpt": "お知らせ・活動報告：日本ハーモニカ芸術協会 協会について 年間行事 グレード認定制度 ご入会について お知らせ・活動報告 出版物 メールマガジン（無料） お知らせ・活動報告 ホーム お知らせ・活動報告 TOPICS お知らせ 2026年9月8日 最新の会則が必要な方はここからダウンロードください。 開封に必用なパスワードは、会報「夏号」の事務局便りに記載の パスワードの最後に\"1\"を追加となります。[PDF] 2026年8月17日 第4回 複音ハーモニカ「編曲」コンクールの応募要項です。[PDF] 2026年8月17日 第16回 複音ハーモニカコンクー…",
+      "url": "https://jhaa.info/topics/index.html",
+      "sourceName": "日本ハーモニカまつり",
+      "platform": "website",
+      "publishedAt": "2026-09-08T01:15:38Z"
+    }
+  ]
 }
