@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-09T15:05:44.404635Z",
+  "generatedAt": "2026-09-09T15:39:57.815529Z",
   "source": {
     "id": 39,
     "slug": "39",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/39/"
   },
   "items": [
+    {
+      "id": "post-02dee88a3a0b57a0d88905be",
+      "title": "@musette585: 影片被切掉了，補八度跟快速音階的。",
+      "excerpt": "@musette585: 影片被切掉了，補八度跟快速音階的。 @musette585 : 影片被切掉了，補八度跟快速音階的。",
+      "url": "https://www.threads.com/t/DdEjhcUk7R7",
+      "sourceName": "林士傑",
+      "platform": "Threads",
+      "publishedAt": "2026-09-09T15:12:32Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ec1e90240c632fa9a8f7.webp",
+        "width": 800,
+        "height": 1423
+      }
+    },
     {
       "id": "post-9a6d0f638b7cf51f7f92b19a",
       "title": "@musette585: Brendan Power的TWIN-Harmonica system，有兩把半音階組合，琴身改為特製7mm厚度，整體小巧不少，有八度及複音半音階，我是買複音半音階，錄一小段...",
