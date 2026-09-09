@@ -7521,7 +7521,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-28 05:24",
       "latestUpdateSource": "Easttop Harmonicas",
       "latestUpdateUrl": "https://www.instagram.com/p/Dcju0ZKRsBv/",
-      "avatarUrl": "/assets/source-avatars/fef8feb16347ab4a31c8.webp",
+      "avatarUrl": "/assets/source-avatars/7ceea6c66c06e16135bd.webp",
       "sourceInitials": "EH",
       "sourceTags": [
         "品牌",
