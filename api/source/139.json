@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-09T09:24:45.809393Z",
+  "generatedAt": "2026-09-09T09:50:22.479398Z",
   "source": {
     "id": 139,
     "slug": "lee-oskar",
@@ -160,20 +160,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/3c3456e9f9387849fdcf.webp",
         "width": 800,
         "height": 1423
-      }
-    },
-    {
-      "id": "post-d7b892a530b546d5380d2e40",
-      "title": "Kinda chick to own one #leeoskarharmonicas",
-      "excerpt": "Kinda chick to own one #leeoskarharmonicas 👀",
-      "url": "https://www.instagram.com/p/Db2t4zIAnJb/",
-      "sourceName": "Lee Oskar",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-10T09:43:36Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/ac2d01ff61b6b13f1c97.webp",
-        "width": 720,
-        "height": 1280
       }
     }
   ]
