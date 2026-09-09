@@ -2,6 +2,60 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-09-09",
   "entries": [
     {
+      "id": "watchlist-40",
+      "publicId": "40",
+      "name": "陳鴻儀",
+      "nameEn": "Henry Chen",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/基隆/宜蘭",
+      "cityOrFocus": "複音口琴演奏與編曲/多次全國學生音樂比賽與亞太口琴節評審/曾任基隆市口琴協會理事長/東光國中、仁愛國小、樂齡中心與社區大學口琴教學/《複音口琴教本》編著",
+      "structuredSummary": "複音口琴演奏與編曲/多次全國學生音樂比賽與亞太口琴節評審/曾任基隆市口琴協會理事長/東光國中、仁愛國小、樂齡中心與社區大學口琴教學/《複音口琴教本》編著 / 複音口琴/十孔口琴/半音階口琴/口琴重奏與合奏 / 演出人員/評審/教育者/教材作者/協會前理事長",
+      "summary": "臺灣的複音口琴、十孔口琴、半音階口琴與口琴重奏與合奏演出人員、評審與教育者，活動脈絡包含複音口琴演奏與編曲、多次全國學生音樂比賽與亞太口琴節評審與曾任基隆市口琴協會理事長。",
+      "keywords": "陳鴻儀 Henry Chen 就是吹口琴 複音口琴 教本 編曲 基隆 社區大學 東光國中 亞太口琴節 評審",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://kcu.twcu.org.tw/course/m_course_detail.php?u=f5fbc46e1198f1d957519223b6068dc8"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@HenrysHarmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "40-henry-chen",
+      "latestUpdateAt": "2026-09-09T09:00:06+00:00",
+      "latestUpdateLocal": "2026-09-09 17:00",
+      "latestUpdateSource": "陳鴻儀",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=Vq5YzOlWdqk",
+      "avatarUrl": "/assets/source-avatars/11010264a3489f5a5679.webp",
+      "sourceInitials": "陳鴻",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "比賽",
+        "半音階",
+        "複音",
+        "十孔",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_henrysharmonica",
+          "name": "陳鴻儀",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@HenrysHarmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-58",
       "publicId": "58",
       "name": "南里沙",
@@ -1067,60 +1121,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "https://jhaa.info/topics/index.html",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-40",
-      "publicId": "40",
-      "name": "陳鴻儀",
-      "nameEn": "Henry Chen",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣/基隆/宜蘭",
-      "cityOrFocus": "複音口琴演奏與編曲/多次全國學生音樂比賽與亞太口琴節評審/曾任基隆市口琴協會理事長/東光國中、仁愛國小、樂齡中心與社區大學口琴教學/《複音口琴教本》編著",
-      "structuredSummary": "複音口琴演奏與編曲/多次全國學生音樂比賽與亞太口琴節評審/曾任基隆市口琴協會理事長/東光國中、仁愛國小、樂齡中心與社區大學口琴教學/《複音口琴教本》編著 / 複音口琴/十孔口琴/半音階口琴/口琴重奏與合奏 / 演出人員/評審/教育者/教材作者/協會前理事長",
-      "summary": "臺灣的複音口琴、十孔口琴、半音階口琴與口琴重奏與合奏演出人員、評審與教育者，活動脈絡包含複音口琴演奏與編曲、多次全國學生音樂比賽與亞太口琴節評審與曾任基隆市口琴協會理事長。",
-      "keywords": "陳鴻儀 Henry Chen 就是吹口琴 複音口琴 教本 編曲 基隆 社區大學 東光國中 亞太口琴節 評審",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://kcu.twcu.org.tw/course/m_course_detail.php?u=f5fbc46e1198f1d957519223b6068dc8"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@HenrysHarmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "40-henry-chen",
-      "latestUpdateAt": "2026-09-08T00:00:06+00:00",
-      "latestUpdateLocal": "2026-09-08 08:00",
-      "latestUpdateSource": "陳鴻儀",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=FSrlFqJmzvU",
-      "avatarUrl": "/assets/source-avatars/11010264a3489f5a5679.webp",
-      "sourceInitials": "陳鴻",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "比賽",
-        "半音階",
-        "複音",
-        "十孔",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "yt_henrysharmonica",
-          "name": "陳鴻儀",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@HenrysHarmonica",
           "feedUrl": ""
         }
       ]
@@ -5903,7 +5903,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-31 20:34",
       "latestUpdateSource": "Liam Ward & Malcolm Thorne",
       "latestUpdateUrl": "https://www.instagram.com/p/DctFNDBMzb-/",
-      "avatarUrl": "/assets/source-avatars/fcdb1098b19be10d541d.webp",
+      "avatarUrl": "/assets/source-avatars/d89594f855a1ca55edfb.webp",
       "sourceInitials": "LWM",
       "sourceTags": [
         "團體樂團",

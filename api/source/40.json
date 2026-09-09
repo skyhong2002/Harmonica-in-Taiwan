@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-09T12:07:06.997799Z",
+  "generatedAt": "2026-09-09T12:15:24.578558Z",
   "source": {
     "id": 40,
     "slug": "henry-chen",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/40-henry-chen/"
   },
   "items": [
+    {
+      "id": "post-463d27dfc2feaffaf311bdaa",
+      "title": "【公益活動】｜紀露霞 – 慈母淚痕｜基隆社大就是吹口琴班",
+      "excerpt": "【公益活動】｜紀露霞 – 慈母淚痕｜基隆社大就是吹口琴班 慈母淚痕(九段の母) 許瓊芳演唱劉萱姑主題曲 --59年布袋戲雲州大儒俠史艷文插曲 能代八郎 作曲 石松秋二 作詞 台語作詞：葉俊麟 紀露霞 原唱 複音口琴演奏版本《C調》 1150908公益活動",
+      "url": "https://www.youtube.com/watch?v=Vq5YzOlWdqk",
+      "sourceName": "陳鴻儀",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-09T09:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/0a18ea929b3b3aa00696.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-e3d09ad1e978910b19ce9532",
       "title": "【就是吹口琴Just Play Harmonica 】｜The Beatles – Yesterday(昨日)｜複音口琴Tremolo Harmonica 演奏版本《C調》",
