@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-09T19:24:45.520446Z",
+  "generatedAt": "2026-09-09T19:56:37.127453Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/115-filip-jers/"
   },
   "items": [
+    {
+      "id": "post-d6e7dfa171e09dd96218f439",
+      "title": "harmonica warm-up: the first thing i played today",
+      "excerpt": "harmonica warm-up: the first thing i played today Today I had a little time in the hotel room before we went to today's concert, so I took the opportunity to warm up and play harmonica. I also recorded the first thing I played today, I think it's an interesting artistic process.…",
+      "url": "https://www.youtube.com/watch?v=-MdnZrDzQBc",
+      "sourceName": "Filip Jers",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-09T18:45:32Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/18feab7b904010b0ecb3.webp",
+        "width": 1280,
+        "height": 720
+      }
+    },
     {
       "id": "post-00d7e87bdd7e38d4ed68643d",
       "title": "Jazz Harmonica & Guitar – Filip Jers & Emil Ernebro | Fjäril vingad syns på Haga - Live recording",
