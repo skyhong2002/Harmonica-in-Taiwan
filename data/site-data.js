@@ -6912,7 +6912,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-30 21:48",
       "latestUpdateSource": "蔡明憲",
       "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3975174060992244965/",
-      "avatarUrl": "/assets/source-avatars/ea3418eef4f80c3b37df.webp",
+      "avatarUrl": "/assets/source-avatars/ff7d6e98ace3565fa827.webp",
       "sourceInitials": "蔡明",
       "sourceTags": [
         "演奏者",
@@ -8321,7 +8321,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-25 22:32",
       "latestUpdateSource": "口琴保存與推廣協會 SPAH",
       "latestUpdateUrl": "https://www.instagram.com/p/Dcd2lyBNvpp/",
-      "avatarUrl": "/assets/source-avatars/87171a111e897764dca7.webp",
+      "avatarUrl": "/assets/source-avatars/34e3787ecf137d46ca99.webp",
       "sourceInitials": "S",
       "sourceTags": [
         "協會",
