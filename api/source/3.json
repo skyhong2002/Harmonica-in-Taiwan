@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-09T09:50:22.479398Z",
+  "generatedAt": "2026-09-09T09:58:49.160067Z",
   "source": {
     "id": 3,
     "slug": "sirius-harmonica-ensemble",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/3-sirius-harmonica-ensemble/"
   },
   "items": [
+    {
+      "id": "post-58270ba456c7df325e95901f",
+      "title": "[Live] Still Got the Blues -天狼星口琴樂團 Sirius Harmonica Ensemble (Remix)",
+      "excerpt": "[Live] Still Got the Blues -天狼星口琴樂團 Sirius Harmonica Ensemble (Remix) Arrangement: Fata Morgana/ Sirius 此影片為天狼星口琴樂團於2026首爾國際口琴節的演出實況(Remix) 〈Still Got the Blues〉是北愛爾蘭吉他手 Gary Moore 於 1990 年推出的代表作品，也是他轉向藍調風格後最廣為人知的經典之一。作品以深情而帶有哀愁的旋律線條，結合藍調音樂特有的張力與搖滾樂的飽滿能量，展現出濃烈而真摯的情感表達。無論是原曲中極具歌唱…",
+      "url": "https://www.youtube.com/watch?v=PSCmYU3KIQw",
+      "sourceName": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-08T13:20:38Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/d1a9d879d0180889d828.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-6a14ed2753047569e61709ae",
       "title": "📌 2025年9月27 日｜臺灣・滬尾藝文休閒園區",

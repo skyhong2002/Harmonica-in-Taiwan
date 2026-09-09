@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 442,
+  "count": 443,
   "items": [
     {
       "title": "太平國小口琴隊｜臺中市政府教育局-校園活動報導 --> 跳到主要內容區 臺中市政府教育局 回首頁 市府首頁 網站導覽 常見問答 快速連結 English 教育服務網 A- A A+ 搜尋 單位介紹 首長介紹 組織與職掌 各級學校 局徽介紹…",
@@ -914,6 +914,88 @@
         "公開活動"
       ],
       "key": "fb_deak_harp:10245112783417338"
+    },
+    {
+      "title": "Sirius Harmonica Ensemble 天狼星口琴樂團｜[Live] Still Got the Blues -天狼星口琴樂團 Sirius Harmonica Ensemble (Remix) Arrangement: Fa…",
+      "headline": "[Live] Still Got the Blues -天狼星口琴樂團 Sirius Harmonica Ensemble (Remix)",
+      "display_title": "[Live] Still Got the Blues -天狼星口琴樂團 Sirius Harmonica Ensemble (Remix)",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=PSCmYU3KIQw",
+      "source_id": "yt_siriusharp",
+      "source": "Sirius Harmonica Ensemble 天狼星口琴樂團",
+      "source_system_name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+      "source_profile_url": "https://www.youtube.com/channel/UC4VsbNoM_plTCUot3578gkQ",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-3",
+      "directory_entry_name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+      "account": "https://www.youtube.com/channel/UC4VsbNoM_plTCUot3578gkQ",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-09-08T13:20:38+00:00",
+      "posted_at_local": "2026-09-08 21:20",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-09T09:58:00.416841+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "影片"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "演出",
+        "影片",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴樂團演出實況影片，屬公開更新且與口琴演出直接相關。",
+      "text": "[Live] Still Got the Blues -天狼星口琴樂團 Sirius Harmonica Ensemble (Remix)\nArrangement: Fata Morgana/ Sirius\n此影片為天狼星口琴樂團於2026首爾國際口琴節的演出實況(Remix)\n〈Still Got the Blues〉是北愛爾蘭吉他手 Gary Moore 於 1990 年推出的代表作品，也是他轉向藍調風格後最廣為人知的經典之一。作品以深情而帶有哀愁的旋律線條，結合藍調音樂特有的張力與搖滾樂的飽滿能量，展現出濃烈而真摯的情感表達。無論是原曲中極具歌唱性的吉他聲響，或改編為口琴演奏時所呈現的呼吸感與音色變化，都讓這首作品充滿扣人心弦的感染力。\nThis video features a live performance by Sirius Harmonica Ensemble at the 2026 Seoul International Harmonica Festival (Remix).\n“Still Got the Blues” is one of the signature works by Northern Irish guitarist Gary Moore, released in 1990 as part of his celebrated turn toward the blues. With its soulful melodic lines, poignant atmosphere, and a powerful blend of blues expression and rock intensity, the piece has become a timeless classic. Whether heard through the singing voice of the electric guitar in the original version or reimagined through the breath, tone, and expressive nuance of the harmonica, this music continues to resonate with deep emotional power.\n十孔口琴 Diatonic Harmonica | Konstantin Reinfeld\n和弦口琴 Chord Harmonica | 陳彥銘 Yen-Ming Emery Chen\n半音階口琴Chromatic Harmonica | 陳奕翔(陳Q) Q Chen, 蔡明憲Ming-Hsien Tsai, 張晁滕Chao-Teng Chang, 王衍華Yen-Hua Wang\n倍低音口琴Double B…",
+      "images": [
+        "https://i.ytimg.com/vi/PSCmYU3KIQw/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/PSCmYU3KIQw/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/d1a9d879d0180889d828.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/jR3eAOGA6jwPzujduflEsfntxzowSvmhgc6NgiJfwVXGHGKRQ0k7AQaRxctPE8GmedT5d4OaLA=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/0ee32389be7eb84aba7d.webp",
+      "source_initials": "SHE",
+      "categories": [
+        "posts-videos",
+        "events",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "學生社團"
+      ],
+      "key": "yt_siriusharp:PSCmYU3KIQw"
     },
     {
       "title": "吹口琴的小园园｜不必害怕独处，一个人也自在从容 | 口琴演奏《#一个人的歌 》【吹口琴的小园园】#music #vlog 听完这首歌曲记得订阅我的频道哦❤👉https://bit.ly/2D09zMV 哈喽，这里是吹口琴的小园园的官方Yo…",
@@ -6206,7 +6288,7 @@
       "image_width": 640,
       "image_height": 1136,
       "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/342082157_3090307354602464_2620361561875229081_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42MjcuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFqCOGdKmlCtpIjiCT1DE9cvVrYqlwWRS96dtpkFY7u06ypChcYyPwVZewLigXyImA&_nc_ohc=DUtSipBk34cQ7kNvwEm5wvW&_nc_gid=vOtFtA061LHAK3Xbo2ENtQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_fJyPIVNrfRHIskxuIFx5qy3dYla_iGs6uRJ0tiiDfSA&oe=6A44A8FB&_nc_sid=8b3546",
-      "avatar_url": "/assets/source-avatars/8fb977f232cd6f50a2ab.webp",
+      "avatar_url": "/assets/source-avatars/e2eda6bdae8419edd77a.webp",
       "source_initials": "LOH",
       "categories": [
         "posts-videos",

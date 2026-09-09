@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 09 Sep 2026 09:50:23 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 09:58:50 +0000</lastBuildDate>
     <item>
       <title>南里沙</title>
       <link>https://minamirisa.com/</link>
@@ -170,6 +170,17 @@ Tag：演奏者、教學、十孔、國際交流
 國家：美國
 地區：美國
 美國的十孔與藍調口琴國際演出人員，活動脈絡包含WHF 2025、藍調十孔與Chicago blues。</description>
+    </item>
+    <item>
+      <title>天狼星口琴樂團 Sirius Harmonica Ensemble</title>
+      <link>https://www.taiwanharmonica.com/sirius</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/1d79bff0b1b80c28</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：活動資訊、團體樂團、音樂節、重奏、國際交流
+國家：臺灣
+地區：臺灣
+臺灣的國際演出團體與音樂節主辦，涵蓋2017 WHF小合奏冠軍、TAIWAN TOP、THMF主辦與近年SIHF FEN APHF交流。</description>
     </item>
     <item>
       <title>吹口琴的小园园</title>
@@ -1512,17 +1523,6 @@ Tag：演奏者、團體樂團、半音階、重奏、國際交流
 國家：以色列
 地區：比利時/以色列/紐約/國際
 以色列的半音階口琴與爵士口琴國際演出人員、作曲家與爵士樂團領隊，活動脈絡包含比利時與以色列背景的爵士半音階口琴家與作曲家、以中東與拉丁。</description>
-    </item>
-    <item>
-      <title>天狼星口琴樂團 Sirius Harmonica Ensemble</title>
-      <link>https://www.taiwanharmonica.com/sirius</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/1d79bff0b1b80c28</guid>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：活動資訊、團體樂團、音樂節、重奏、國際交流
-國家：臺灣
-地區：臺灣
-臺灣的國際演出團體與音樂節主辦，涵蓋2017 WHF小合奏冠軍、TAIWAN TOP、THMF主辦與近年SIHF FEN APHF交流。</description>
     </item>
     <item>
       <title>臺灣口琴音樂節 THMF</title>
