@@ -71,6 +71,92 @@
   },
   "entries": [
     {
+      "id": "watchlist-39",
+      "publicId": "39",
+      "name": "林士傑",
+      "nameEn": "Shih-Chieh Lin",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "1995年起投入口琴/狂響口琴樂團與口琴愛樂集成員/1999至2001臺灣口琴節半音階獨奏與重奏獲獎/2000與2010亞太口琴節重奏及大合奏獲獎/古典、探戈與臺灣經典曲目演出/口琴收藏",
+      "structuredSummary": "1995年起投入口琴/狂響口琴樂團與口琴愛樂集成員/1999至2001臺灣口琴節半音階獨奏與重奏獲獎/2000與2010亞太口琴節重奏及大合奏獲獎/古典、探戈與臺灣經典曲目演出/口琴收藏 / 半音階口琴/口琴重奏與合奏 / 資深演出人員/樂團成員/口琴收藏家",
+      "summary": "臺灣的半音階口琴與口琴重奏與合奏資深演出人員、樂團成員與口琴收藏家，活動脈絡包含1995年起投入口琴、狂響口琴樂團與口琴愛樂集成員與1999至2001臺灣口琴節半音階獨奏與重奏獲獎。",
+      "keywords": "林士傑 Shih-Chieh Lin 半音階 狂響口琴樂團 口琴愛樂集 1999 2000 2001 2010 APHF 探戈 口琴收藏",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.jazz9.tw/2025/05/music-20260516p.html"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/lin.shi.jie.661489"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/musette585/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@musette585"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "39",
+      "latestUpdateAt": "2026-09-09T14:54:51+00:00",
+      "latestUpdateLocal": "2026-09-09 22:54",
+      "latestUpdateSource": "林士傑",
+      "latestUpdateUrl": "https://www.threads.com/t/DdEhgTTD2VT",
+      "avatarUrl": "/assets/source-avatars/b56fd76d9de1b454d998.webp",
+      "sourceInitials": "林士",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "半音階",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_lin_shi_jie_661489",
+          "name": "林士傑",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/lin.shi.jie.661489",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_musette585",
+          "name": "林士傑",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "musette585",
+          "profileUrl": "https://www.instagram.com/musette585/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_musette585",
+          "name": "林士傑",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "musette585",
+          "profileUrl": "https://www.instagram.com/musette585/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_musette585",
+          "name": "林士傑",
+          "platform": "threads",
+          "type": "rss",
+          "username": "musette585",
+          "profileUrl": "https://www.threads.net/@musette585",
+          "feedUrl": "https://rss.observe.tw/threads/musette585"
+        }
+      ]
+    },
+    {
       "id": "watchlist-40",
       "publicId": "40",
       "name": "陳鴻儀",
@@ -10961,92 +11047,6 @@
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCaHrTB0aiwNv-9wCSeB8eKg",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-39",
-      "publicId": "39",
-      "name": "林士傑",
-      "nameEn": "Shih-Chieh Lin",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "1995年起投入口琴/狂響口琴樂團與口琴愛樂集成員/1999至2001臺灣口琴節半音階獨奏與重奏獲獎/2000與2010亞太口琴節重奏及大合奏獲獎/古典、探戈與臺灣經典曲目演出/口琴收藏",
-      "structuredSummary": "1995年起投入口琴/狂響口琴樂團與口琴愛樂集成員/1999至2001臺灣口琴節半音階獨奏與重奏獲獎/2000與2010亞太口琴節重奏及大合奏獲獎/古典、探戈與臺灣經典曲目演出/口琴收藏 / 半音階口琴/口琴重奏與合奏 / 資深演出人員/樂團成員/口琴收藏家",
-      "summary": "臺灣的半音階口琴與口琴重奏與合奏資深演出人員、樂團成員與口琴收藏家，活動脈絡包含1995年起投入口琴、狂響口琴樂團與口琴愛樂集成員與1999至2001臺灣口琴節半音階獨奏與重奏獲獎。",
-      "keywords": "林士傑 Shih-Chieh Lin 半音階 狂響口琴樂團 口琴愛樂集 1999 2000 2001 2010 APHF 探戈 口琴收藏",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.jazz9.tw/2025/05/music-20260516p.html"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/lin.shi.jie.661489"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/musette585/"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@musette585"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "39",
-      "latestUpdateAt": "2026-08-17T14:04:35+00:00",
-      "latestUpdateLocal": "2026-08-17 22:04",
-      "latestUpdateSource": "林士傑",
-      "latestUpdateUrl": "https://www.threads.com/t/DcJNeCMj8X3",
-      "avatarUrl": "/assets/source-avatars/b56fd76d9de1b454d998.webp",
-      "sourceInitials": "林士",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "半音階",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_lin_shi_jie_661489",
-          "name": "林士傑",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/lin.shi.jie.661489",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_musette585",
-          "name": "林士傑",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "musette585",
-          "profileUrl": "https://www.instagram.com/musette585/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_musette585",
-          "name": "林士傑",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "musette585",
-          "profileUrl": "https://www.instagram.com/musette585/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_musette585",
-          "name": "林士傑",
-          "platform": "threads",
-          "type": "rss",
-          "username": "musette585",
-          "profileUrl": "https://www.threads.net/@musette585",
-          "feedUrl": "https://rss.observe.tw/threads/musette585"
         }
       ]
     },
