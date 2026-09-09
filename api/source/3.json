@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-09T12:15:24.578558Z",
+  "generatedAt": "2026-09-09T12:42:26.741537Z",
   "source": {
     "id": 3,
     "slug": "sirius-harmonica-ensemble",
@@ -76,20 +76,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/95f88266f6a696293def.webp",
         "width": 511,
         "height": 720
-      }
-    },
-    {
-      "id": "post-44b251fbe87c4bcb0ce03fca",
-      "title": "Some great moments backstage! ✨",
-      "excerpt": "Some great moments backstage! ✨ #aphf2026 #harmonicaartists #harmonica",
-      "url": "https://www.instagram.com/p/Db2_ymxiXl7/",
-      "sourceName": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-10T12:18:47Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/7c10346a73f6fc7aba40.webp",
-        "width": 800,
-        "height": 455
       }
     }
   ]
