@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-09T14:58:54.013571Z",
+  "generatedAt": "2026-09-09T15:05:44.404635Z",
   "source": {
     "id": 80,
     "slug": "80",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/80/"
   },
   "items": [
+    {
+      "id": "post-8bd889b6fd856e3f192fb9e4",
+      "title": "《WOW挖藝術》特別集｜巨人會客室－戲曲篇（2026）",
+      "excerpt": "《WOW挖藝術》特別集｜巨人會客室－戲曲篇（2026） 主持/企劃：劇場狂粉吉米布蘭卡 受訪來賓：劇評人吳岳霖 《WOW挖藝術》特別集「巨人會客室戲曲篇」上架了！ 今年歌劇院的「遇見巨人」推出2檔非常有趣的戲曲節目，彼此有著驚人的巧合：不但都是新編歌仔戲，說的都是臺灣歷史，發生時間都落在清末到日治這個百花齊放、新舊交替的關鍵年代，故事的發生地點竟都在大稻埕！ 巨人會客室戲曲篇由「劇場狂粉」吉米布蘭卡主持，劇評人吳岳霖，一起介紹這2檔精彩的戲曲節目。 ———✨2026 遇見巨人✨—— 10/16-12/27 關於劇場的解構與重構 👉 #2026NTT遇見…",
+      "url": "https://www.youtube.com/watch?v=ZCnV6qTC-o8",
+      "sourceName": "臺中國家歌劇院",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-09T04:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/942e821de727362ad286.webp",
+        "width": 1280,
+        "height": 720
+      }
+    },
     {
       "id": "post-fa35eb82eb98c793a49265f2",
       "title": "NTT+不藏私講堂｜蔡沛原《返鄉青年創生：找回島嶼原色》",

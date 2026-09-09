@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-09T14:58:54.013571Z",
+  "generatedAt": "2026-09-09T15:05:44.404635Z",
   "source": {
     "id": 78,
     "slug": "78",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/78/"
   },
   "items": [
+    {
+      "id": "post-0032d50cafd6a7a4ac7fed33",
+      "title": "唱出屬於臺灣的生命樂章：《戀戀 40─陳明章現場作品四十年》新年音樂會",
+      "excerpt": "唱出屬於臺灣的生命樂章：《戀戀 40─陳明章現場作品四十年》新年音樂會 四十年前，陳明章開啟「從土地出發」的創作之路。從電影配樂《戀戀風塵》、《幻之光》到流行金曲〈流浪到淡水〉、音樂劇《再會吧北投》，他以「留學臺灣」的多樣姿態，創作出跨越國界的音樂。 ⠀ 本次的新年音樂會，陳明章將帶著月琴與臺灣明琴，以《戀戀 40》同時唱響過去和未來。 邀請您一起走入劇場，在滿載土地自信的樂聲中，感動迎接新的一年！ ⠀ 《戀戀 40─陳明章現場作品四十年》新年音樂會 2027/1/1（五）14:30 衛武營音樂廳 票價 NTD 600、1,000、1,600、2,00…",
+      "url": "https://www.youtube.com/watch?v=HLekPo-u-DA",
+      "sourceName": "衛武營國家藝術文化中心",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-09T10:00:07Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/8a8556923fe628e1b1db.webp",
+        "width": 1280,
+        "height": 720
+      }
+    },
     {
       "id": "post-0e9cd90ef6e3d30ba6ea56b2",
       "title": "那個男人來了！莫札特《唐 ⭑ 喬萬尼》歌劇音樂會獨家呈現，頂尖聲樂陣容奢華登場！",
