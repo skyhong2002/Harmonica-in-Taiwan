@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-09T07:00:39.168576Z",
+  "generatedAt": "2026-09-09T07:07:58.521908Z",
   "source": {
     "id": 158,
     "slug": "deak-harp",
@@ -8,6 +8,29 @@
     "pageUrl": "https://harmonica.observe.tw/source/158-deak-harp/"
   },
   "items": [
+    {
+      "id": "post-c8d5f08bae35df5b9cabba37",
+      "title": "10 years later 🗓⏳👣",
+      "excerpt": "10 years later 🗓⏳👣",
+      "url": "https://www.facebook.com/deak.harp/posts/pfbid02DhafNfQ7FJg1s19GJY1Dt6QzFGrZ78AHJ9d5aXEYJxr7W2jsH1fQNGfwXcPrEW7nl",
+      "sourceName": "Deak Harp",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-08T16:41:19Z"
+    },
+    {
+      "id": "post-bb41cf9ba5167498700529e6",
+      "title": "Thank you, Atlanta. We had a blast thanks Smitto Cannonball, and Jay. We made history now back to Clarksdale for the we…",
+      "excerpt": "Thank you, Atlanta. We had a blast thanks Smitto Cannonball, and Jay. We made history now back to Clarksdale for the weekend and then off to Chicago to play the 250 year American blues birthday party",
+      "url": "https://www.facebook.com/deak.harp/posts/pfbid0ZEkEpmRoSgGrdcPuwJck6TDkLxas6Yauqiu1LUagvRoFYKandBvkG59vLiyk4FWvl",
+      "sourceName": "Deak Harp",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-08T15:00:29Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/8f3891e74f42884a009c.webp",
+        "width": 526,
+        "height": 701
+      }
+    },
     {
       "id": "post-851e92b0163adb25b6461294",
       "title": "BBQ BLUES & BREWS",
