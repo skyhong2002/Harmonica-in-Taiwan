@@ -1,5 +1,5 @@
 window.HARMONICA_OBSERVE_DATA = {
-  "generatedAt": "2026-09-09",
+  "generatedAt": "2026-09-10",
   "entries": [
     {
       "id": "watchlist-316",
@@ -375,6 +375,92 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-39",
+      "publicId": "39",
+      "name": "林士傑",
+      "nameEn": "Shih-Chieh Lin",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "1995年起投入口琴/狂響口琴樂團與口琴愛樂集成員/1999至2001臺灣口琴節半音階獨奏與重奏獲獎/2000與2010亞太口琴節重奏及大合奏獲獎/古典、探戈與臺灣經典曲目演出/口琴收藏",
+      "structuredSummary": "1995年起投入口琴/狂響口琴樂團與口琴愛樂集成員/1999至2001臺灣口琴節半音階獨奏與重奏獲獎/2000與2010亞太口琴節重奏及大合奏獲獎/古典、探戈與臺灣經典曲目演出/口琴收藏 / 半音階口琴/口琴重奏與合奏 / 資深演出人員/樂團成員/口琴收藏家",
+      "summary": "臺灣的半音階口琴與口琴重奏與合奏資深演出人員、樂團成員與口琴收藏家，活動脈絡包含1995年起投入口琴、狂響口琴樂團與口琴愛樂集成員與1999至2001臺灣口琴節半音階獨奏與重奏獲獎。",
+      "keywords": "林士傑 Shih-Chieh Lin 半音階 狂響口琴樂團 口琴愛樂集 1999 2000 2001 2010 APHF 探戈 口琴收藏",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.jazz9.tw/2025/05/music-20260516p.html"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/lin.shi.jie.661489"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/musette585/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@musette585"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "39",
+      "latestUpdateAt": "2026-09-09T15:33:30+00:00",
+      "latestUpdateLocal": "2026-09-09 23:33",
+      "latestUpdateSource": "林士傑",
+      "latestUpdateUrl": "https://www.threads.com/t/DdEl7XxGP4K",
+      "avatarUrl": "/assets/source-avatars/b56fd76d9de1b454d998.webp",
+      "sourceInitials": "林士",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "半音階",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_lin_shi_jie_661489",
+          "name": "林士傑",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/lin.shi.jie.661489",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_musette585",
+          "name": "林士傑",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "musette585",
+          "profileUrl": "https://www.instagram.com/musette585/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_musette585",
+          "name": "林士傑",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "musette585",
+          "profileUrl": "https://www.instagram.com/musette585/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_musette585",
+          "name": "林士傑",
+          "platform": "threads",
+          "type": "rss",
+          "username": "musette585",
+          "profileUrl": "https://www.threads.net/@musette585",
+          "feedUrl": "https://rss.observe.tw/threads/musette585"
+        }
+      ]
+    },
+    {
       "id": "watchlist-136",
       "publicId": "136",
       "name": "Project X",
@@ -588,92 +674,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-39",
-      "publicId": "39",
-      "name": "林士傑",
-      "nameEn": "Shih-Chieh Lin",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "1995年起投入口琴/狂響口琴樂團與口琴愛樂集成員/1999至2001臺灣口琴節半音階獨奏與重奏獲獎/2000與2010亞太口琴節重奏及大合奏獲獎/古典、探戈與臺灣經典曲目演出/口琴收藏",
-      "structuredSummary": "1995年起投入口琴/狂響口琴樂團與口琴愛樂集成員/1999至2001臺灣口琴節半音階獨奏與重奏獲獎/2000與2010亞太口琴節重奏及大合奏獲獎/古典、探戈與臺灣經典曲目演出/口琴收藏 / 半音階口琴/口琴重奏與合奏 / 資深演出人員/樂團成員/口琴收藏家",
-      "summary": "臺灣的半音階口琴與口琴重奏與合奏資深演出人員、樂團成員與口琴收藏家，活動脈絡包含1995年起投入口琴、狂響口琴樂團與口琴愛樂集成員與1999至2001臺灣口琴節半音階獨奏與重奏獲獎。",
-      "keywords": "林士傑 Shih-Chieh Lin 半音階 狂響口琴樂團 口琴愛樂集 1999 2000 2001 2010 APHF 探戈 口琴收藏",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.jazz9.tw/2025/05/music-20260516p.html"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/lin.shi.jie.661489"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/musette585/"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@musette585"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "39",
-      "latestUpdateAt": "2026-09-09T15:12:32+00:00",
-      "latestUpdateLocal": "2026-09-09 23:12",
-      "latestUpdateSource": "林士傑",
-      "latestUpdateUrl": "https://www.threads.com/t/DdEjhcUk7R7",
-      "avatarUrl": "/assets/source-avatars/b56fd76d9de1b454d998.webp",
-      "sourceInitials": "林士",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "半音階",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_lin_shi_jie_661489",
-          "name": "林士傑",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/lin.shi.jie.661489",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_musette585",
-          "name": "林士傑",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "musette585",
-          "profileUrl": "https://www.instagram.com/musette585/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_musette585",
-          "name": "林士傑",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "musette585",
-          "profileUrl": "https://www.instagram.com/musette585/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_musette585",
-          "name": "林士傑",
-          "platform": "threads",
-          "type": "rss",
-          "username": "musette585",
-          "profileUrl": "https://www.threads.net/@musette585",
-          "feedUrl": "https://rss.observe.tw/threads/musette585"
         }
       ]
     },
@@ -975,6 +975,56 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "https://www.aphfhx.com/information/newsDetail/361363469090992128",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-86",
+      "publicId": "86",
+      "name": "吹出好心琴 + Ou Frog",
+      "nameEn": "Ou Frog",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "教學/影片來源",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴教學影片/示範",
+      "structuredSummary": "口琴教學影片/示範 / 口琴 / 教學影片來源",
+      "summary": "臺灣的口琴教學影片來源，關注口琴教學影片與示範。",
+      "keywords": "吹出好心琴 Ou Frog 口琴 教學 YouTube",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@oufrog"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "86-ou-frog",
+      "latestUpdateAt": "2026-09-09T04:00:23+00:00",
+      "latestUpdateLocal": "2026-09-09 12:00",
+      "latestUpdateSource": "吹出好心琴 + Ou Frog",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=-0ObLCqQ6hg",
+      "avatarUrl": "/assets/source-avatars/2241bd394301b93492ed.webp",
+      "sourceInitials": "OF",
+      "sourceTags": [
+        "品牌",
+        "教學器材",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_oufrog",
+          "name": "吹出好心琴 + Ou Frog",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@oufrog",
           "feedUrl": ""
         }
       ]
@@ -1847,56 +1897,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8%E8%97%8D%E9%9F%BB%E5%8F%A3%E7%90%B4",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-86",
-      "publicId": "86",
-      "name": "吹出好心琴 + Ou Frog",
-      "nameEn": "Ou Frog",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "教學/影片來源",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴教學影片/示範",
-      "structuredSummary": "口琴教學影片/示範 / 口琴 / 教學影片來源",
-      "summary": "臺灣的口琴教學影片來源，關注口琴教學影片與示範。",
-      "keywords": "吹出好心琴 Ou Frog 口琴 教學 YouTube",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@oufrog"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "86-ou-frog",
-      "latestUpdateAt": "2026-09-07T04:00:20+00:00",
-      "latestUpdateLocal": "2026-09-07 12:00",
-      "latestUpdateSource": "吹出好心琴 + Ou Frog",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=ftZqGtO0GpM",
-      "avatarUrl": "/assets/source-avatars/2241bd394301b93492ed.webp",
-      "sourceInitials": "OF",
-      "sourceTags": [
-        "品牌",
-        "教學器材",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "yt_oufrog",
-          "name": "吹出好心琴 + Ou Frog",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@oufrog",
           "feedUrl": ""
         }
       ]

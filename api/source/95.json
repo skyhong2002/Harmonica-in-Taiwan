@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-09T15:39:57.815529Z",
+  "generatedAt": "2026-09-09T16:09:52.003781Z",
   "source": {
     "id": 95,
     "slug": "weissenberg-harmonicas",
@@ -46,20 +46,6 @@
       "publishedAt": "2026-08-16T04:05:05Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/9ce39847858c2dbcabc0.webp",
-        "width": 640,
-        "height": 1136
-      }
-    },
-    {
-      "id": "post-a8b2c7cbd3b759d53d8843e1",
-      "title": "Fallin'",
-      "excerpt": "Fallin' (Singing songs from my parents playlist)",
-      "url": "https://www.instagram.com/p/Db3Z4tCzebQ/",
-      "sourceName": "韋笙堡口琴 Weissenberg Harmonicas",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-10T16:07:42Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/6a2c2b755034614d7c11.webp",
         "width": 640,
         "height": 1136
       }
