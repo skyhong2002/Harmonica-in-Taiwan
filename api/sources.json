@@ -1692,6 +1692,91 @@
       ]
     },
     {
+      "id": "watchlist-171",
+      "publicId": "171",
+      "name": "口琴保存與推廣協會 SPAH",
+      "nameEn": "Society for the Preservation and Advancement of the Harmonica",
+      "category": "活動資訊",
+      "type": "協會",
+      "originalType": "協會/活動",
+      "country": "美國",
+      "region": "美國/密蘇里",
+      "cityOrFocus": "SPAH convention/教育/青年獎學金/社群俱樂部",
+      "structuredSummary": "SPAH convention/教育/青年獎學金/社群俱樂部 / 口琴 / 國際協會/活動來源",
+      "summary": "美國的國際協會與活動來源，涵蓋SPAH convention、教育、青年獎學金與社群俱樂部。",
+      "keywords": "SPAH Society for the Preservation and Advancement of the Harmonica convention youth scholarships",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://spah.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/SPAH63/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/official_spah63/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "171-society-for-the-preservation-and-advancement-of-the-harmonica",
+      "latestUpdateAt": "2026-09-08T16:05:49+00:00",
+      "latestUpdateLocal": "2026-09-09 00:05",
+      "latestUpdateSource": "口琴保存與推廣協會 SPAH",
+      "latestUpdateUrl": "https://www.facebook.com/SPAH63/posts/pfbid02dFoMhGmnzST4FXABL15S7JXcnew8otCiuXMEX2uC4d7w91abEG6PELeyqBUk8mH6l",
+      "avatarUrl": "/assets/source-avatars/34e3787ecf137d46ca99.webp",
+      "sourceInitials": "S",
+      "sourceTags": [
+        "協會",
+        "活動資訊",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_spah63",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/SPAH63",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_official_spah63",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "official_spah63",
+          "profileUrl": "https://www.instagram.com/official_spah63/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_official_spah63",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "official_spah63",
+          "profileUrl": "https://www.instagram.com/official_spah63/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ucbjlie6bvgh8jhvco_xltsg",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-3",
       "publicId": "3",
       "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
@@ -2020,6 +2105,92 @@
       ]
     },
     {
+      "id": "watchlist-298",
+      "publicId": "298",
+      "name": "香港兒童合唱團口琴課程",
+      "nameEn": "HKCC Harmonica Programme",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "教學/學校/青年",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "兒童口琴課程/合奏訓練/年度成果音樂會/2026 招生",
+      "structuredSummary": "兒童口琴課程/合奏訓練/年度成果音樂會/2026 招生 / 半音階/口琴合奏 / 教學單位/青年培育",
+      "summary": "香港的半音階與口琴合奏教學單位與青年培育。",
+      "keywords": "香港兒童合唱團 HKCC Harmonica Programme 口琴課程 Gordon Lee 2026 招生 兒童合奏",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://hkcchoir.org.hk/en/instrumental-programme"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hkcchoir"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hkcchoir/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/user/hkcchoir"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "298-hkcc-harmonica-programme",
+      "latestUpdateAt": "2026-09-07T12:18:35+00:00",
+      "latestUpdateLocal": "2026-09-07 20:18",
+      "latestUpdateSource": "香港兒童合唱團口琴課程",
+      "latestUpdateUrl": "https://www.facebook.com/reel/3988868044587512/",
+      "avatarUrl": "/assets/source-avatars/hkcc-harmonica.png",
+      "sourceInitials": "香港",
+      "sourceTags": [
+        "學生社團",
+        "教學",
+        "課程",
+        "半音階"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hkcchoir",
+          "name": "香港兒童合唱團口琴課程",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hkcchoir",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hkcchoir",
+          "name": "香港兒童合唱團口琴課程",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hkcchoir",
+          "profileUrl": "https://www.instagram.com/hkcchoir/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hkcchoir",
+          "name": "香港兒童合唱團口琴課程",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hkcchoir",
+          "profileUrl": "https://www.instagram.com/hkcchoir/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_hkcchoir",
+          "name": "香港兒童合唱團口琴課程",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/user/hkcchoir",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-79",
       "publicId": "79",
       "name": "國家兩廳院",
@@ -2111,92 +2282,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/user/ntcharts",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-298",
-      "publicId": "298",
-      "name": "香港兒童合唱團口琴課程",
-      "nameEn": "HKCC Harmonica Programme",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "教學/學校/青年",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "兒童口琴課程/合奏訓練/年度成果音樂會/2026 招生",
-      "structuredSummary": "兒童口琴課程/合奏訓練/年度成果音樂會/2026 招生 / 半音階/口琴合奏 / 教學單位/青年培育",
-      "summary": "香港的半音階與口琴合奏教學單位與青年培育。",
-      "keywords": "香港兒童合唱團 HKCC Harmonica Programme 口琴課程 Gordon Lee 2026 招生 兒童合奏",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://hkcchoir.org.hk/en/instrumental-programme"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hkcchoir"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hkcchoir/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/user/hkcchoir"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "298-hkcc-harmonica-programme",
-      "latestUpdateAt": "2026-09-07T02:44:44+00:00",
-      "latestUpdateLocal": "2026-09-07 10:44",
-      "latestUpdateSource": "香港兒童合唱團口琴課程",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=r8w0GZIQarA",
-      "avatarUrl": "/assets/source-avatars/hkcc-harmonica.png",
-      "sourceInitials": "香港",
-      "sourceTags": [
-        "學生社團",
-        "教學",
-        "課程",
-        "半音階"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_hkcchoir",
-          "name": "香港兒童合唱團口琴課程",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hkcchoir",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hkcchoir",
-          "name": "香港兒童合唱團口琴課程",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hkcchoir",
-          "profileUrl": "https://www.instagram.com/hkcchoir/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hkcchoir",
-          "name": "香港兒童合唱團口琴課程",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hkcchoir",
-          "profileUrl": "https://www.instagram.com/hkcchoir/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_hkcchoir",
-          "name": "香港兒童合唱團口琴課程",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/user/hkcchoir",
           "feedUrl": ""
         }
       ]
@@ -8532,91 +8617,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@JudysHarmonicaEnsemble",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-171",
-      "publicId": "171",
-      "name": "口琴保存與推廣協會 SPAH",
-      "nameEn": "Society for the Preservation and Advancement of the Harmonica",
-      "category": "活動資訊",
-      "type": "協會",
-      "originalType": "協會/活動",
-      "country": "美國",
-      "region": "美國/密蘇里",
-      "cityOrFocus": "SPAH convention/教育/青年獎學金/社群俱樂部",
-      "structuredSummary": "SPAH convention/教育/青年獎學金/社群俱樂部 / 口琴 / 國際協會/活動來源",
-      "summary": "美國的國際協會與活動來源，涵蓋SPAH convention、教育、青年獎學金與社群俱樂部。",
-      "keywords": "SPAH Society for the Preservation and Advancement of the Harmonica convention youth scholarships",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://spah.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/SPAH63/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/official_spah63/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "171-society-for-the-preservation-and-advancement-of-the-harmonica",
-      "latestUpdateAt": "2026-08-25T14:32:45+00:00",
-      "latestUpdateLocal": "2026-08-25 22:32",
-      "latestUpdateSource": "口琴保存與推廣協會 SPAH",
-      "latestUpdateUrl": "https://www.instagram.com/p/Dcd2lyBNvpp/",
-      "avatarUrl": "/assets/source-avatars/34e3787ecf137d46ca99.webp",
-      "sourceInitials": "S",
-      "sourceTags": [
-        "協會",
-        "活動資訊",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_spah63",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/SPAH63",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_official_spah63",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "official_spah63",
-          "profileUrl": "https://www.instagram.com/official_spah63/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_official_spah63",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "official_spah63",
-          "profileUrl": "https://www.instagram.com/official_spah63/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_ucbjlie6bvgh8jhvco_xltsg",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg",
           "feedUrl": ""
         }
       ]
