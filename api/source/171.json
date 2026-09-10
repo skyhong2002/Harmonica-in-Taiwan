@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T14:28:21.182184Z",
+  "generatedAt": "2026-09-10T14:51:12.298529Z",
   "source": {
     "id": 171,
     "slug": "society-for-the-preservation-and-advancement-of-the-harmonica",
@@ -122,20 +122,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/0fde4b965651fa90f7f3.webp",
         "width": 720,
         "height": 1280
-      }
-    },
-    {
-      "id": "post-e465890713b0eea832e38650",
-      "title": "Here we go!",
-      "excerpt": "Here we go! #spah #joinus #harmonica #harmonicaplayer",
-      "url": "https://www.instagram.com/p/Db51dUiKS5Q/",
-      "sourceName": "口琴保存與推廣協會 SPAH",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-11T14:46:31Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/5782045a585b66bb2012.webp",
-        "width": 800,
-        "height": 1067
       }
     }
   ]
