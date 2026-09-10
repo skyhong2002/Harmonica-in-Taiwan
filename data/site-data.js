@@ -856,7 +856,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-09 18:00",
       "latestUpdateSource": "衛武營國家藝術文化中心",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=HLekPo-u-DA",
-      "avatarUrl": "/assets/source-avatars/bfb838f4a0a9fcd1aa90.webp",
+      "avatarUrl": "/assets/source-avatars/33c1a7deeff78c53b601.webp",
       "sourceInitials": "衛武",
       "sourceTags": [
         "場館平台"
