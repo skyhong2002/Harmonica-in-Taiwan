@@ -2372,7 +2372,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-06 12:43",
       "latestUpdateSource": "山下伶 Rei Yamashita",
       "latestUpdateUrl": "https://x.com/rei_harmonica/status/2096459162981130361",
-      "avatarUrl": "/assets/source-avatars/f5815ddd8512253bd300.webp",
+      "avatarUrl": "/assets/source-avatars/47935ad28b7bd248b050.webp",
       "sourceInitials": "RY",
       "sourceTags": [
         "演奏者",
@@ -8330,7 +8330,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-26 20:14",
       "latestUpdateSource": "World Harmonica Festival",
       "latestUpdateUrl": "https://www.instagram.com/p/DcgL1XJNeR8/",
-      "avatarUrl": "/assets/source-avatars/394ae714077e4a21bcff.webp",
+      "avatarUrl": "/assets/source-avatars/38443451d7c4c248b5c0.webp",
       "sourceInitials": "WHF",
       "sourceTags": [
         "活動資訊",
@@ -11471,7 +11471,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-13 17:17",
       "latestUpdateSource": "陳彥銘",
       "latestUpdateUrl": "https://www.facebook.com/emerychen.cm/posts/pfbid0vTRWuHGMaEG9xnSY8B1DmD8NXVH2QcPGjFyLaHqPgmKvNHgB2ip7rKnHvNyNFXB1l",
-      "avatarUrl": "/assets/source-avatars/8b0b0550ea7619b9c56a.webp",
+      "avatarUrl": "/assets/source-avatars/20f4be3eb6d87d7b412d.webp",
       "sourceInitials": "陳彥",
       "sourceTags": [
         "演奏者",
@@ -16306,7 +16306,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/394ae714077e4a21bcff.webp",
+      "avatarUrl": "/assets/source-avatars/38443451d7c4c248b5c0.webp",
       "sourceInitials": "HIH",
       "sourceTags": [
         "團體樂團",
@@ -16362,7 +16362,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/394ae714077e4a21bcff.webp",
+      "avatarUrl": "/assets/source-avatars/38443451d7c4c248b5c0.webp",
       "sourceInitials": "KS",
       "sourceTags": [
         "團體樂團",
@@ -16464,7 +16464,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/394ae714077e4a21bcff.webp",
+      "avatarUrl": "/assets/source-avatars/38443451d7c4c248b5c0.webp",
       "sourceInitials": "KHE",
       "sourceTags": [
         "團體樂團",
@@ -16679,7 +16679,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/394ae714077e4a21bcff.webp",
+      "avatarUrl": "/assets/source-avatars/38443451d7c4c248b5c0.webp",
       "sourceInitials": "PHE",
       "sourceTags": [
         "團體樂團",
@@ -16785,7 +16785,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/394ae714077e4a21bcff.webp",
+      "avatarUrl": "/assets/source-avatars/38443451d7c4c248b5c0.webp",
       "sourceInitials": "RS",
       "sourceTags": [
         "團體樂團",
