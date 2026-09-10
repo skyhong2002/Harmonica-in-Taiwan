@@ -1661,7 +1661,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-09 00:05",
       "latestUpdateSource": "口琴保存與推廣協會 SPAH",
       "latestUpdateUrl": "https://www.facebook.com/SPAH63/posts/pfbid02dFoMhGmnzST4FXABL15S7JXcnew8otCiuXMEX2uC4d7w91abEG6PELeyqBUk8mH6l",
-      "avatarUrl": "/assets/source-avatars/34e3787ecf137d46ca99.webp",
+      "avatarUrl": "/assets/source-avatars/a2aadf54b966c7a0ef90.webp",
       "sourceInitials": "S",
       "sourceTags": [
         "協會",
