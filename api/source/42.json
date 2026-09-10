@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T17:09:54.211397Z",
+  "generatedAt": "2026-09-10T17:25:55.408830Z",
   "source": {
     "id": 42,
     "slug": "hsin-ho-wang",
@@ -118,20 +118,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/8bf4c3c17294f4fa8bcc.webp",
         "width": 800,
         "height": 534
-      }
-    },
-    {
-      "id": "post-7ba119d4ac09a9bec4f0cb2a",
-      "title": "🦁 I’ve just landed in Paris. Thank you, Piracicaba. Many thanks to everyone working on this beautiful festival, all the…",
-      "excerpt": "🦁 I’ve just landed in Paris. Thank you, Piracicaba. Many thanks to everyone working on this beautiful festival, all the musicians, and all the peo... 🦁 I’ve just landed in Paris. Thank you, Piracicaba. Many thanks to everyone working on this beautiful festival, all the musicians…",
-      "url": "https://www.instagram.com/p/Db6GUxkMg6N/",
-      "sourceName": "王心禾",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-11T17:13:35Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/bc482555213ae0edc8a9.webp",
-        "width": 1440,
-        "height": 1810
       }
     }
   ]
