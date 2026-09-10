@@ -44,7 +44,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-10 20:56",
       "latestUpdateSource": "臺中國家歌劇院",
       "latestUpdateUrl": "https://www.threads.com/t/DdG4xV9n9M0",
-      "avatarUrl": "/assets/source-avatars/75b09d3a9e7de0f320d8.webp",
+      "avatarUrl": "/assets/source-avatars/85fc0d3dd0c89f0ac533.webp",
       "sourceInitials": "臺中",
       "sourceTags": [
         "場館平台"
