@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T15:37:16.565694Z",
+  "generatedAt": "2026-09-10T16:01:05.198528Z",
   "source": {
     "id": 290,
     "slug": "ivan-marcio",
@@ -60,20 +60,6 @@
       "publishedAt": "2026-08-11T22:16:35Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/996991f0429e83ec16ce.webp",
-        "width": 640,
-        "height": 1136
-      }
-    },
-    {
-      "id": "post-9ae14aef28696d6e9d5cb517",
-      "title": "@danielgranado.blues @kielak.pl",
-      "excerpt": "@danielgranado.blues @kielak.pl APHF 2026 #easttopharmonica #aprendagaita #aulasdegaita #harmonica #bluesbrasil",
-      "url": "https://www.instagram.com/p/Db58x6uxebr/",
-      "sourceName": "Ivan Marcio",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-11T15:50:37Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/c08b58c37999a1699fee.webp",
         "width": 640,
         "height": 1136
       }

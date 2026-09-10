@@ -1,9 +1,9 @@
 {
   "currentSource": {},
-  "errors": 6,
-  "fetchedPosts": 2385,
-  "finishedAt": "2026-09-10T15:36:05.815438+00:00",
-  "heartbeatAt": "2026-09-10T15:36:05.815433+00:00",
+  "errors": 7,
+  "fetchedPosts": 2381,
+  "finishedAt": "2026-09-10T15:59:39.461726+00:00",
+  "heartbeatAt": "2026-09-10T15:59:39.461722+00:00",
   "instagram": {
     "attempted": 0,
     "deferred": 357,
@@ -23,17 +23,17 @@
   },
   "llmTags": {
     "cached": 0,
-    "enabled": true,
+    "enabled": false,
     "errors": 0,
     "requests": 0
   },
   "message": "",
   "newRelevantPosts": 0,
   "phase": "complete",
-  "pid": 25066,
+  "pid": 78185,
   "processedSources": 795,
   "skippedOldPosts": 0,
-  "startedAt": "2026-09-10T15:34:02.879408+00:00",
+  "startedAt": "2026-09-10T15:56:25.835643+00:00",
   "status": "ok",
   "totalSources": 795,
   "version": 1
