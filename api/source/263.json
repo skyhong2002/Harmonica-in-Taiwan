@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T01:51:00.753855Z",
+  "generatedAt": "2026-09-10T02:20:22.814099Z",
   "source": {
     "id": 263,
     "slug": "jdr-harmonica",
@@ -146,20 +146,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/91d8accb8990eeba353a.webp",
         "width": 800,
         "height": 450
-      }
-    },
-    {
-      "id": "post-de37e6cda9600ad9c5483351",
-      "title": "Boris_Plotnikov——Hey Jude (Lennon-McCartney), key of F, Bb harmonica Assassin black 2nd position",
-      "excerpt": "Boris_Plotnikov——Hey Jude (Lennon-McCartney), key of F, Bb harmonica Assassin black 2nd position",
-      "url": "https://www.instagram.com/p/Db4d4G2A1xv/",
-      "sourceName": "JDR Harmonica",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-11T02:01:23Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/87863d2b8592b4dc14fe.webp",
-        "width": 640,
-        "height": 360
       }
     }
   ]
