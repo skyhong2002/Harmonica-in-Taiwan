@@ -1096,7 +1096,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-10 11:59",
       "latestUpdateSource": "Orion 口琴樂團",
       "latestUpdateUrl": "https://tixfun.com/UTK0201_?PRODUCT_ID=Q025T5HU",
-      "avatarUrl": "/assets/source-avatars/8763d1a16a5f2ea89e78.webp",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
       "sourceInitials": "O",
       "sourceTags": [
         "團體樂團",
@@ -10222,7 +10222,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-22 19:15",
       "latestUpdateSource": "臺灣口琴音樂節 THMF",
       "latestUpdateUrl": "https://www.instagram.com/p/DcVxLxkTp72/",
-      "avatarUrl": "/assets/source-avatars/8763d1a16a5f2ea89e78.webp",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
       "sourceInitials": "T",
       "sourceTags": [
         "活動資訊",
@@ -11012,7 +11012,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-17 08:29",
       "latestUpdateSource": "進擊的口琴樂團",
       "latestUpdateUrl": "https://www.instagram.com/p/DcGg6m9k-0N/",
-      "avatarUrl": "/assets/source-avatars/10fea8c4ddac450576fc.webp",
+      "avatarUrl": "/assets/source-avatars/a149d8ee19497ec6256a.webp",
       "sourceInitials": "進擊",
       "sourceTags": [
         "團體樂團",
@@ -15853,7 +15853,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/8763d1a16a5f2ea89e78.webp",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
       "sourceInitials": "AHE",
       "sourceTags": [
         "團體樂團"
@@ -15965,7 +15965,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/8763d1a16a5f2ea89e78.webp",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
       "sourceInitials": "B",
       "sourceTags": [
         "團體樂團",
@@ -16065,7 +16065,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/8763d1a16a5f2ea89e78.webp",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
       "sourceInitials": "CHE",
       "sourceTags": [
         "團體樂團"
@@ -16252,7 +16252,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/8763d1a16a5f2ea89e78.webp",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
       "sourceInitials": "DTC",
       "sourceTags": [
         "團體樂團",
@@ -16567,7 +16567,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/8763d1a16a5f2ea89e78.webp",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
       "sourceInitials": "MH",
       "sourceTags": [
         "團體樂團",
@@ -17323,7 +17323,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/8763d1a16a5f2ea89e78.webp",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
       "sourceInitials": "巴國",
       "sourceTags": [
         "團體樂團"
@@ -17491,7 +17491,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/8763d1a16a5f2ea89e78.webp",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
       "sourceInitials": "海豚",
       "sourceTags": [
         "團體樂團"
@@ -17599,7 +17599,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/8763d1a16a5f2ea89e78.webp",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
       "sourceInitials": "自由",
       "sourceTags": [
         "團體樂團"
@@ -17925,7 +17925,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/8763d1a16a5f2ea89e78.webp",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
       "sourceInitials": "龍騎",
       "sourceTags": [
         "團體樂團"
@@ -18795,7 +18795,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/8763d1a16a5f2ea89e78.webp",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
       "sourceInitials": "GBH",
       "sourceTags": [
         "品牌",
