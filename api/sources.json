@@ -1286,6 +1286,91 @@
       ]
     },
     {
+      "id": "watchlist-54",
+      "publicId": "54",
+      "name": "CY Leo 何卓彥",
+      "nameEn": "CY Leo",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "古典與爵士半音階/2009、2013 WHF獨奏世界冠軍/作曲與創作歌手/國際管弦樂協演/電影、流行與遊戲錄音/口琴教材",
+      "structuredSummary": "古典與爵士半音階/2009、2013 WHF獨奏世界冠軍/作曲與創作歌手/國際管弦樂協演/電影、流行與遊戲錄音/口琴教材 / 半音階口琴 / 國際演出人員/作曲家與創作歌手/評審/Music Lab聯合藝術總監",
+      "summary": "香港的半音階口琴國際演出人員、作曲家與創作歌手與評審，活動脈絡包含古典與爵士半音階、2009與2013 WHF獨奏世界冠軍。",
+      "keywords": "CY Leo 何卓彥 harmonica WHF 2009 2013 classical jazz composer Ginger Muse Music Lab",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.cyleomusic.io/profile"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Cyleoharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cy_leo/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@cyleoharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "54-cy-leo",
+      "latestUpdateAt": "2026-09-11T02:26:01+00:00",
+      "latestUpdateLocal": "2026-09-11 10:26",
+      "latestUpdateSource": "CY Leo 何卓彥",
+      "latestUpdateUrl": "https://www.facebook.com/Cyleoharmonica/posts/pfbid02BG3dZiBVbnynCav5AEa25MEky2j4anfphZCCiZoJ2UNWkftd7PWqA6MxT82NUkHXl",
+      "avatarUrl": "/assets/source-avatars/6e5c8a6f160e0e0a025d.webp",
+      "sourceInitials": "CL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Cyleoharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@cyleoharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-40",
       "publicId": "40",
       "name": "陳鴻儀",
@@ -4486,91 +4571,6 @@
           "type": "rsshub_instagram_story",
           "username": "evelyn_harmonica",
           "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-54",
-      "publicId": "54",
-      "name": "CY Leo 何卓彥",
-      "nameEn": "CY Leo",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "古典與爵士半音階/2009、2013 WHF獨奏世界冠軍/作曲與創作歌手/國際管弦樂協演/電影、流行與遊戲錄音/口琴教材",
-      "structuredSummary": "古典與爵士半音階/2009、2013 WHF獨奏世界冠軍/作曲與創作歌手/國際管弦樂協演/電影、流行與遊戲錄音/口琴教材 / 半音階口琴 / 國際演出人員/作曲家與創作歌手/評審/Music Lab聯合藝術總監",
-      "summary": "香港的半音階口琴國際演出人員、作曲家與創作歌手與評審，活動脈絡包含古典與爵士半音階、2009與2013 WHF獨奏世界冠軍。",
-      "keywords": "CY Leo 何卓彥 harmonica WHF 2009 2013 classical jazz composer Ginger Muse Music Lab",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.cyleomusic.io/profile"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Cyleoharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/cy_leo/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@cyleoharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "54-cy-leo",
-      "latestUpdateAt": "2026-09-01T12:59:25+00:00",
-      "latestUpdateLocal": "2026-09-01 20:59",
-      "latestUpdateSource": "CY Leo 何卓彥",
-      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3976599028779623279/",
-      "avatarUrl": "/assets/source-avatars/6e5c8a6f160e0e0a025d.webp",
-      "sourceInitials": "CL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Cyleoharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@cyleoharmonica",
           "feedUrl": ""
         }
       ]
