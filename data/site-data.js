@@ -1882,7 +1882,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-08 21:20",
       "latestUpdateSource": "天狼星口琴樂團 Sirius Harmonica Ensemble",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=PSCmYU3KIQw",
-      "avatarUrl": "/assets/source-avatars/93835cb48c6cc1048bfa.webp",
+      "avatarUrl": "/assets/source-avatars/d2339018c08c7eb0d4cf.webp",
       "sourceInitials": "SHE",
       "sourceTags": [
         "活動資訊",
@@ -5323,7 +5323,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-01 08:47",
       "latestUpdateSource": "王衍華",
       "latestUpdateUrl": "https://www.instagram.com/stories/yenhua_wang/3976230856901083300/",
-      "avatarUrl": "/assets/source-avatars/2093e47371f595672bc2.webp",
+      "avatarUrl": "/assets/source-avatars/d2106ff54a92768032cb.webp",
       "sourceInitials": "王衍",
       "sourceTags": [
         "演奏者",
@@ -11516,7 +11516,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-13 17:17",
       "latestUpdateSource": "陳彥銘",
       "latestUpdateUrl": "https://www.facebook.com/emerychen.cm/posts/pfbid0vTRWuHGMaEG9xnSY8B1DmD8NXVH2QcPGjFyLaHqPgmKvNHgB2ip7rKnHvNyNFXB1l",
-      "avatarUrl": "/assets/source-avatars/20f4be3eb6d87d7b412d.webp",
+      "avatarUrl": "/assets/source-avatars/86283fcd9f0911ece276.webp",
       "sourceInitials": "陳彥",
       "sourceTags": [
         "演奏者",
