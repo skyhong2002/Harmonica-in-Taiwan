@@ -1071,6 +1071,53 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-221",
+      "publicId": "221",
+      "name": "吹口琴的小园园",
+      "nameEn": "Yuanyuan Harmonica",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "中國",
+      "region": "中國/北京",
+      "cityOrFocus": "藍調口琴演奏與大眾推廣/師從張曉松並加入藍調口琴網/《园园口琴教室》系列教學/經典老歌、流行與影視曲改編/十孔及半音階口琴影音內容",
+      "structuredSummary": "藍調口琴演奏與大眾推廣/師從張曉松並加入藍調口琴網/《园园口琴教室》系列教學/經典老歌、流行與影視曲改編/十孔及半音階口琴影音內容 / 十孔口琴/藍調口琴/半音階口琴 / 演出人員/口琴教育影音創作者/藍調口琴推廣者",
+      "summary": "中國的十孔口琴、藍調口琴與半音階口琴演出人員、口琴教育影音創作者與藍調口琴推廣者，活動脈絡包含藍調口琴演奏與大眾推廣、師從張曉松並加入藍調口琴網與《园园口琴教室》系列教學。",
+      "keywords": "吹口琴的小园园 Yuanyuan Harmonica 園園 北京 藍調口琴網 張曉松 园园口琴教室 十孔 半音階 經典老歌 流行 教學 推廣",
+      "links": [
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@yuanyuanharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "221-yuanyuan-harmonica",
+      "latestUpdateAt": "2026-09-10T10:00:13+00:00",
+      "latestUpdateLocal": "2026-09-10 18:00",
+      "latestUpdateSource": "吹口琴的小园园",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=hKWYaS4di-s",
+      "avatarUrl": "/assets/source-avatars/aed956184d6a75510a0c.webp",
+      "sourceInitials": "吹口",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_yuanyuanharmonica",
+          "name": "吹口琴的小园园",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@yuanyuanharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-58",
       "publicId": "58",
       "name": "南里沙",
@@ -1935,53 +1982,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/SiriusHARP",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-221",
-      "publicId": "221",
-      "name": "吹口琴的小园园",
-      "nameEn": "Yuanyuan Harmonica",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "中國",
-      "region": "中國/北京",
-      "cityOrFocus": "藍調口琴演奏與大眾推廣/師從張曉松並加入藍調口琴網/《园园口琴教室》系列教學/經典老歌、流行與影視曲改編/十孔及半音階口琴影音內容",
-      "structuredSummary": "藍調口琴演奏與大眾推廣/師從張曉松並加入藍調口琴網/《园园口琴教室》系列教學/經典老歌、流行與影視曲改編/十孔及半音階口琴影音內容 / 十孔口琴/藍調口琴/半音階口琴 / 演出人員/口琴教育影音創作者/藍調口琴推廣者",
-      "summary": "中國的十孔口琴、藍調口琴與半音階口琴演出人員、口琴教育影音創作者與藍調口琴推廣者，活動脈絡包含藍調口琴演奏與大眾推廣、師從張曉松並加入藍調口琴網與《园园口琴教室》系列教學。",
-      "keywords": "吹口琴的小园园 Yuanyuan Harmonica 園園 北京 藍調口琴網 張曉松 园园口琴教室 十孔 半音階 經典老歌 流行 教學 推廣",
-      "links": [
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@yuanyuanharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "221-yuanyuan-harmonica",
-      "latestUpdateAt": "2026-09-08T10:00:39+00:00",
-      "latestUpdateLocal": "2026-09-08 18:00",
-      "latestUpdateSource": "吹口琴的小园园",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=Z3xQcB86mt8",
-      "avatarUrl": "/assets/source-avatars/aed956184d6a75510a0c.webp",
-      "sourceInitials": "吹口",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "十孔"
-      ],
-      "monitorSources": [
-        {
-          "id": "yt_yuanyuanharmonica",
-          "name": "吹口琴的小园园",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@yuanyuanharmonica",
           "feedUrl": ""
         }
       ]
