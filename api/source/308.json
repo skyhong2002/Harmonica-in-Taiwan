@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T09:42:51.099950Z",
+  "generatedAt": "2026-09-11T10:06:35.546246Z",
   "source": {
     "id": 308,
     "slug": "into-the-harmonica-academy",
@@ -32,20 +32,6 @@
       "publishedAt": "2026-08-19T10:00:17Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/cf53c337e06fc10e2084.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-151a117682e8d1a25a50fe1a",
-      "title": "무대 위 핀마이크 참사(?)부터 오케스트라 지휘자 도전까지! | Into the Artist. 박종성 (Part.2)",
-      "excerpt": "무대 위 핀마이크 참사(?)부터 오케스트라 지휘자 도전까지! | Into the Artist. 박종성 (Part.2) 세계적인 하모니시스트 박종성 연주자와 함께하는 인터뷰 2부! 1부에 이어 이번 Part.2에서는 박종성 연주자가 실제 사용하는 명품 악기 'Silver Concerto' 이야기부터 마이크 세팅, 연주 꿀팁, 그리고 그의 음악적 비하인드 스토리까지 더욱 깊이 있는 내용을 담았습니다. 하모니카 연주자분들은 물론, 악기와 음악을 사랑하는 모든 분들께 유용한 장비 정보와 노하우를 확인해…",
-      "url": "https://www.youtube.com/watch?v=h1V_W0_TjJw",
-      "sourceName": "Into The Harmonica 口琴學院",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-12T10:00:03Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/ff08dd8b882dea19534e.webp",
         "width": 800,
         "height": 450
       }
