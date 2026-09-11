@@ -1882,7 +1882,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-08 21:20",
       "latestUpdateSource": "天狼星口琴樂團 Sirius Harmonica Ensemble",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=PSCmYU3KIQw",
-      "avatarUrl": "/assets/source-avatars/d2339018c08c7eb0d4cf.webp",
+      "avatarUrl": "/assets/source-avatars/93835cb48c6cc1048bfa.webp",
       "sourceInitials": "SHE",
       "sourceTags": [
         "活動資訊",
@@ -5323,7 +5323,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-01 08:47",
       "latestUpdateSource": "王衍華",
       "latestUpdateUrl": "https://www.instagram.com/stories/yenhua_wang/3976230856901083300/",
-      "avatarUrl": "/assets/source-avatars/d2106ff54a92768032cb.webp",
+      "avatarUrl": "/assets/source-avatars/fa03d895b3cc6f4f5bf7.webp",
       "sourceInitials": "王衍",
       "sourceTags": [
         "演奏者",
@@ -7227,7 +7227,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-30 21:48",
       "latestUpdateSource": "蔡明憲",
       "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3975174060992244965/",
-      "avatarUrl": "/assets/source-avatars/a1745d09969a03c896ae.webp",
+      "avatarUrl": "/assets/source-avatars/15933b4ed37e8f1ebc56.webp",
       "sourceInitials": "蔡明",
       "sourceTags": [
         "演奏者",
