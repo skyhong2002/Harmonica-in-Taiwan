@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T01:05:59.473913Z",
+  "generatedAt": "2026-09-11T01:26:39.657229Z",
   "source": {
     "id": 40,
     "slug": "henry-chen",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/40-henry-chen/"
   },
   "items": [
+    {
+      "id": "post-112513b65bd3bb7875aef996",
+      "title": "【就是吹口琴Just Play Harmonica 】｜黃乙玲 – 無字的情批｜複音口琴Tremolo Harmonica 演奏版本《C調》",
+      "excerpt": "【就是吹口琴Just Play Harmonica 】｜黃乙玲 – 無字的情批｜複音口琴Tremolo Harmonica 演奏版本《C調》 無字的情批 游鴻明 作曲 許常德 作詞 黃乙玲 原唱 複音口琴演奏版本《C調》",
+      "url": "https://www.youtube.com/watch?v=fD5iZhQcSBk",
+      "sourceName": "陳鴻儀",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-11T00:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/4c64224c2e8c0c084c01.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-463d27dfc2feaffaf311bdaa",
       "title": "【公益活動】｜紀露霞 – 慈母淚痕｜基隆社大就是吹口琴班",
