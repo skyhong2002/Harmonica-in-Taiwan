@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T04:21:27.337376Z",
+  "generatedAt": "2026-09-11T04:31:02.014635Z",
   "source": {
     "id": 224,
     "slug": "easttop-harmonicas",
@@ -172,20 +172,6 @@
       "publishedAt": "2026-08-13T06:43:51Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/140ec2a20d05f80ec51a.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-8005cbf9ebd5082d99e3e393",
-      "title": "Splendor of the Asia-Pacific Concert（15th APHF,EAST TOP)",
-      "excerpt": "Splendor of the Asia-Pacific Concert（15th APHF,EAST TOP) With a profound development history, the Asia-Pacific Harmonica Festival has grown into a prestigious and influential harmonica event in the regional music circle. The festival features spectacular gala concerts that gathe…",
-      "url": "https://www.youtube.com/watch?v=4WTPBtFguuk",
-      "sourceName": "Easttop Harmonicas",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-12T04:29:26Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/1f7ceb63dcf0db72904e.webp",
         "width": 800,
         "height": 450
       }
