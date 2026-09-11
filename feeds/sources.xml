@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 11 Sep 2026 03:44:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 03:56:33 +0000</lastBuildDate>
+    <item>
+      <title>中山醫藍韻口琴社</title>
+      <link>https://powerup.csmu.edu.tw/Act/act_Info/c75b7f5a-53e4-4bf9-b3d9-5af47d787fba</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/edff637b42d1d782</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <description>分類：學校社團
+Tag：學生社團、大專社團
+國家：臺灣
+地區：臺灣/臺中
+臺灣的口琴學校社團。</description>
+    </item>
     <item>
       <title>陳鴻儀</title>
       <link>https://kcu.twcu.org.tw/course/m_course_detail.php?u=f5fbc46e1198f1d957519223b6068dc8</link>
@@ -181,17 +192,6 @@ Tag：演奏者、半音階、國際交流
 國家：日本
 地區：日本
 日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
-    </item>
-    <item>
-      <title>中山醫藍韻口琴社</title>
-      <link>https://powerup.csmu.edu.tw/Act/act_Info/c75b7f5a-53e4-4bf9-b3d9-5af47d787fba</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/edff637b42d1d782</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <description>分類：學校社團
-Tag：學生社團、大專社團
-國家：臺灣
-地區：臺灣/臺中
-臺灣的口琴學校社團。</description>
     </item>
     <item>
       <title>Michał Kielak</title>
