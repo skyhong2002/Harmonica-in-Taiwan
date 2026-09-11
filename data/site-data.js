@@ -7585,7 +7585,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-30 12:02",
       "latestUpdateSource": "Aiden Soon",
       "latestUpdateUrl": "https://www.instagram.com/p/Dcpmo2es0bU/",
-      "avatarUrl": "/assets/source-avatars/d8a0e5a9b7a13c7cb99d.webp",
+      "avatarUrl": "/assets/source-avatars/8744237ba8aeb014b6c8.webp",
       "sourceInitials": "AS",
       "sourceTags": [
         "演奏者",
