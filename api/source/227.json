@@ -1,26 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T13:00:12.486071Z",
+  "generatedAt": "2026-09-11T13:35:02.640621Z",
   "source": {
     "id": 227,
     "slug": "tancy-liu",
     "name": "Tancy Liu",
     "pageUrl": "https://harmonica.observe.tw/source/227-tancy-liu/"
   },
-  "items": [
-    {
-      "id": "post-1c893af9d81fbb904ade87f8",
-      "title": "I've been focusing on saxophone and chromatic harmonica these",
-      "excerpt": "I've been focusing on saxophone and chromatic harmonica these past few years.🥰 This time, I'm posting a video of my blues harmonica performance with my band.🥳🤩😇",
-      "url": "https://www.facebook.com/reel/959898360455295/",
-      "sourceName": "Tancy Liu",
-      "platform": "Facebook",
-      "publishedAt": "2026-08-12T13:23:02Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/5972c4a93c8d75559454.webp",
-        "width": 800,
-        "height": 450
-      }
-    }
-  ]
+  "items": []
 }
