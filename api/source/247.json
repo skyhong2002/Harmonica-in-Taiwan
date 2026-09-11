@@ -1,11 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T17:31:56.295455Z",
+  "generatedAt": "2026-09-11T18:03:30.129671Z",
   "source": {
     "id": 247,
     "slug": "easttop-harmonica-museum",
     "name": "東方口琴博物館",
     "pageUrl": "https://harmonica.observe.tw/source/247-easttop-harmonica-museum/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-ab0e5443b5a74d7a07576f23",
+      "title": "中国大众音乐协会口琴专业委员会",
+      "excerpt": "中国大众音乐协会口琴专业委员会 欢迎光临 中国大众音乐协会口琴专业委员会！ 分享到： 网站首页 本会概括 本会简介 本会章程 联系我们 组织架构 专家 名誉主任委员 主任委员 常务副主任委员 副主任委员 办公室主任 办公室 委员 本会动态 通知公告 专委会文件 资讯中心 行业资讯 社会新闻 风采展示 教师风采 会员风采 活动展示 加入我们 入会须知 个人入会申请 团体入会申请 个人申请表下载 团体申请表下载 入会申请表 上传 活动报名 考级报名 news 资讯中心 行业资讯 你当前的位置：首页 > 行业资讯 行业资讯 社会新闻 一座博物馆 一部中国百年…",
+      "url": "https://www.harmonica.org.cn/news-show.asp?nlt=111&none=17",
+      "sourceName": "東方口琴博物館",
+      "platform": "website",
+      "publishedAt": "2026-09-11T18:01:54.280925Z"
+    }
+  ]
 }
