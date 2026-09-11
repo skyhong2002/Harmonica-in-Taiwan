@@ -2296,7 +2296,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-07 15:08",
       "latestUpdateSource": "國家兩廳院",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=xNqGDGVOheQ",
-      "avatarUrl": "/assets/source-avatars/e0e8af71ab964ed7872b.webp",
+      "avatarUrl": "/assets/source-avatars/cb72461ff87b047b93a9.webp",
       "sourceInitials": "國家",
       "sourceTags": [
         "場館平台"
