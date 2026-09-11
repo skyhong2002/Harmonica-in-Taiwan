@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T02:14:21.773472Z",
+  "generatedAt": "2026-09-11T02:35:09.871412Z",
   "source": {
     "id": 224,
     "slug": "easttop-harmonicas",
@@ -186,20 +186,6 @@
       "publishedAt": "2026-08-12T04:29:26Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/1f7ceb63dcf0db72904e.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-084948b7a771c6b19f3b7856",
-      "title": "Voices of the World — Oriental Night Concert of 15th APHF(EAST TOP)",
-      "excerpt": "Voices of the World — Oriental Night Concert of 15th APHF(EAST TOP) Voices of the World — Oriental Night Concert of 15th APHF(EAST TOP) boasts rich and diverse performance forms. Including Chromatic Solo,10-holes solo etc. The performers deliver virtuoso harmonica renditions wit…",
-      "url": "https://www.youtube.com/watch?v=aj3yP1zbM5M",
-      "sourceName": "Easttop Harmonicas",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-12T02:16:33Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/54687865fbcfe1f51cbb.webp",
         "width": 800,
         "height": 450
       }
