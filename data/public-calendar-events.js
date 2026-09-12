@@ -1,9 +1,9 @@
 window.publicCalendarEvents = {
   "version": 2,
-  "generatedAt": "2026-09-12T22:46:22+08:00",
+  "generatedAt": "2026-09-12T23:02:56+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 9,
+  "count": 8,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -15,7 +15,7 @@ window.publicCalendarEvents = {
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 25,
+      "cached": 23,
       "errors": 0
     }
   },
@@ -130,42 +130,6 @@ window.publicCalendarEvents = {
         "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-6/736921370_1546041260866287_3590465714306944280_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x500&ctp=s1200x500&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Snb5y5-ibAwQ7kNvwFpj7pO&_nc_oc=AdonLbu3ItPejPFxit3hf_Y3N2YaDYUcvRU3h74D4v0ryLmRV_GMt9PLGF4j3UIowkg&_nc_zt=23&_nc_ht=scontent-atl3-3.xx&_nc_gid=GyYaZsWIBdifSFV3V4iExw&_nc_ss=72289&oh=00_AQD9YvoYz2mvfVWCZjYlmjkTowhPfKdnRznmfoho_DVtpA&oe=6A4DA8CB"
       ],
       "image_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-6/736921370_1546041260866287_3590465714306944280_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x500&ctp=s1200x500&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Snb5y5-ibAwQ7kNvwFpj7pO&_nc_oc=AdonLbu3ItPejPFxit3hf_Y3N2YaDYUcvRU3h74D4v0ryLmRV_GMt9PLGF4j3UIowkg&_nc_zt=23&_nc_ht=scontent-atl3-3.xx&_nc_gid=GyYaZsWIBdifSFV3V4iExw&_nc_ss=72289&oh=00_AQD9YvoYz2mvfVWCZjYlmjkTowhPfKdnRznmfoho_DVtpA&oe=6A4DA8CB"
-    },
-    {
-      "id": "248d51bb52af1f32",
-      "title": "聽說口琴音樂故事",
-      "eventName": "聽說口琴音樂故事",
-      "source": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-      "platform": "facebook",
-      "start": "2026-09-12T19:30:00+08:00",
-      "end": "2026-09-12T21:30:00+08:00",
-      "allDay": false,
-      "calendarType": "taiwan_physical",
-      "timezone": "Asia/Taipei",
-      "location": "臺北市 國立臺灣大學藝文中心雅頌坊",
-      "venue": "國立臺灣大學藝文中心雅頌坊",
-      "city": "臺北市",
-      "details": "主辦／演出者：天狼星口琴樂團 Sirius Harmonica Ensemble。天狼星口琴樂團演出，主辦單位為國立臺灣大學藝文中心。演出時間為 2026/9/12（六）19:30，購票入場，票價 600 元，臺灣大學系統教職員工生享五折優惠。",
-      "evidenceUrl": "https://www.facebook.com/SiriusHarp/posts/pfbid04D3UFMgrnEq7vWc8p4LB6jFSTyKhejBM8jMkH6rNKyms3oBLCBQuWLMkiMfahoZCl",
-      "confidence": 0.99,
-      "calendarReview": {
-        "include": true,
-        "country": "臺灣",
-        "eventMode": "taiwan_physical",
-        "timezone": "Asia/Taipei",
-        "candidateDateMatches": true,
-        "eventName": "聽說口琴音樂故事",
-        "venue": "國立臺灣大學藝文中心雅頌坊",
-        "city": "臺北市",
-        "details": "主辦／演出者：天狼星口琴樂團 Sirius Harmonica Ensemble。天狼星口琴樂團演出，主辦單位為國立臺灣大學藝文中心。演出時間為 2026/9/12（六）19:30，購票入場，票價 600 元，臺灣大學系統教職員工生享五折優惠。",
-        "reason": "候選日期與貼文明確演出時間一致，且為臺灣實體口琴演出活動。",
-        "confidence": 0.99
-      },
-      "postedAt": "2026-08-13 22:53",
-      "images": [
-        "https://scontent-det1-1.xx.fbcdn.net/v/t39.30808-6/772819165_1611998727604402_523188504921327667_n.jpg?stp=dst-jpg_tt6&cstp=mx1202x1695&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=L_nL30JRLMwQ7kNvwFnfdkN&_nc_oc=AdqsmLanFcWOGtZC_KSK-V-cGsiO3Sc5TB_793qlzoKi17zJ6sNqoQg5j-9IgUnzXes&_nc_zt=23&_nc_ht=scontent-det1-1.xx&_nc_gid=lZjRh1gltTWgJk0lNU2XNg&_nc_ss=72289&oh=00_AQHhuSrzZhB7u2EdMmfDyhk_0NGwEwjMzHhT-4PhewFyuA&oe=6A8EC146"
-      ],
-      "image_url": "/assets/feed-images/95f88266f6a696293def.webp"
     },
     {
       "id": "d8cd144edb7b64bd",
