@@ -6685,7 +6685,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "links": [
         {
           "label": "Facebook",
-          "url": "https://www.facebook.com/kmumonharmonicaclub"
+          "url": "https://www.facebook.com/profile.php?id=61572133765334"
         },
         {
           "label": "Instagram",
@@ -6707,12 +6707,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "monitorSources": [
         {
-          "id": "fb_kmumonharmonicaclub",
+          "id": "fb_ab3a06dfde",
           "name": "高醫萌風口琴社",
           "platform": "facebook",
           "type": "facebook_page_posts",
           "username": "",
-          "profileUrl": "https://facebook.com/kmumonharmonicaclub",
+          "profileUrl": "https://facebook.com/profile.php?id=61572133765334",
           "feedUrl": ""
         },
         {
