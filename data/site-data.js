@@ -3848,7 +3848,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-02 00:47",
       "latestUpdateSource": "王心禾",
       "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_wang/3976713968781835072/",
-      "avatarUrl": "/assets/source-avatars/dd15f025e5d56a25901e.webp",
+      "avatarUrl": "/assets/source-avatars/f7c087297a9a30d9e110.webp",
       "sourceInitials": "王心",
       "sourceTags": [
         "演奏者",
