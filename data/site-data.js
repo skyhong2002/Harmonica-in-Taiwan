@@ -9151,7 +9151,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-25 01:44",
       "latestUpdateSource": "Antonio Serrano",
       "latestUpdateUrl": "https://www.instagram.com/p/DcboCVJRxZv/",
-      "avatarUrl": "/assets/source-avatars/0074a951adec1d32d4cc.webp",
+      "avatarUrl": "/assets/source-avatars/fabe8864384bb712d439.webp",
       "sourceInitials": "AS",
       "sourceTags": [
         "演奏者",
