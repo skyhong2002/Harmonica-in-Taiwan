@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-12T09:15:30.423863Z",
+  "generatedAt": "2026-09-12T09:34:20.902077Z",
   "source": {
     "id": 132,
     "slug": "antonio-serrano",
@@ -88,20 +88,6 @@
       "publishedAt": "2026-08-18T19:41:21Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/4f7f860ce94a655c6f98.webp",
-        "width": 800,
-        "height": 800
-      }
-    },
-    {
-      "id": "post-7181412be15c5621bc4c3ca6",
-      "title": "Antonio Serrano",
-      "excerpt": "",
-      "url": "https://www.instagram.com/p/Db-aDx-iAas/",
-      "sourceName": "Antonio Serrano",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-13T09:22:57Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/f307f810b9a568293bf4.webp",
         "width": 800,
         "height": 800
       }

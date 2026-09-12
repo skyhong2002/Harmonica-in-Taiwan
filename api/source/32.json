@@ -1,26 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-12T09:15:30.423863Z",
+  "generatedAt": "2026-09-12T09:34:20.902077Z",
   "source": {
     "id": 32,
     "slug": "32",
     "name": "陳彥銘",
     "pageUrl": "https://harmonica.observe.tw/source/32/"
   },
-  "items": [
-    {
-      "id": "post-b343833043c4ebadcca23bd0",
-      "title": "長達快一個月的音樂節模式終於結束了",
-      "excerpt": "長達快一個月的音樂節模式終於結束了 差不多要回到書桌前處理一些爛攤子😰 今年的行程相當精實，三個城市三場活動，留下了許多回憶點，但對我個人來說也帶來許多有待思考的課題⋯ 過去這一個月，願我的夥伴們與所有琴友們都感到充實與美好 感恩一切，繼續努力",
-      "url": "https://www.facebook.com/emerychen.cm/posts/pfbid0vTRWuHGMaEG9xnSY8B1DmD8NXVH2QcPGjFyLaHqPgmKvNHgB2ip7rKnHvNyNFXB1l",
-      "sourceName": "陳彥銘",
-      "platform": "Facebook",
-      "publishedAt": "2026-08-13T09:17:24Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/87d43fe0f7f1efdb8300.webp",
-        "width": 526,
-        "height": 701
-      }
-    }
-  ]
+  "items": []
 }
