@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-12T12:44:07.211072Z",
+  "generatedAt": "2026-09-12T13:02:37.203364Z",
   "source": {
     "id": 147,
     "slug": "yoonseok-lee",
@@ -60,20 +60,6 @@
       "publishedAt": "2026-08-14T01:04:26Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/bae31a48502e0a56e3a1.webp",
-        "width": 800,
-        "height": 800
-      }
-    },
-    {
-      "id": "post-473485d6f0a42831a821a6e6",
-      "title": "Nagoya Concert: Day 2",
-      "excerpt": "Nagoya Concert: Day 2 ”HARMONICA REVOLUTION 2026“",
-      "url": "https://www.instagram.com/p/Db-x0ZVE--r/",
-      "sourceName": "Yoonseok Lee",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-13T12:50:37Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/952a6edd59896f65bf35.webp",
         "width": 800,
         "height": 800
       }
