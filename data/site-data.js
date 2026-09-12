@@ -1238,7 +1238,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-11 23:27",
       "latestUpdateSource": "CY Leo 何卓彥",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=Bnlc_KXnPHQ",
-      "avatarUrl": "/assets/source-avatars/6e5c8a6f160e0e0a025d.webp",
+      "avatarUrl": "/assets/source-avatars/3a8add64c7614ac12786.webp",
       "sourceInitials": "CL",
       "sourceTags": [
         "演奏者",
