@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-12T21:57:13.734830Z",
+  "generatedAt": "2026-09-12T22:14:41.863393Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -244,20 +244,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/d23ef8430b49957e668f.webp",
         "width": 720,
         "height": 1280
-      }
-    },
-    {
-      "id": "post-c5a94e79efc6b59a3627ca96",
-      "title": "My harmonicas getting warmed up ☀️",
-      "excerpt": "My harmonicas getting warmed up ☀️",
-      "url": "https://www.instagram.com/p/Db_x52ksiBm/",
-      "sourceName": "Filip Jers",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-13T22:11:04Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/6c6bb6030ed951fd8b7d.webp",
-        "width": 800,
-        "height": 534
       }
     }
   ]
