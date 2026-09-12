@@ -6219,7 +6219,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-31 23:35",
       "latestUpdateSource": "Lee Oskar",
       "latestUpdateUrl": "https://www.instagram.com/stories/leeoskarharmonicas/3975952663941528009/",
-      "avatarUrl": "/assets/source-avatars/79523d4563257c6d21c4.webp",
+      "avatarUrl": "/assets/source-avatars/417255f261ffbc78a8a0.webp",
       "sourceInitials": "LO",
       "sourceTags": [
         "品牌",
