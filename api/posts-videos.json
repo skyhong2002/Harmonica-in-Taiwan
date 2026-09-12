@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/posts-videos.xml",
   "json": "https://harmonica.observe.tw/api/posts-videos.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/posts-videos.json",
-  "count": 1700,
+  "count": 1701,
   "items": [
     {
       "title": "臺中國家歌劇院 National Taichung Theater｜2026 NTT 遇見巨人 | 2025-2026歌劇院駐館藝術家賴奇霞《共振計畫：感．響》 ▰▱ 在數位爆炸的時代，知覺漸漸鈍化， 唯有親身與聲響共振，才能喚醒沉睡感官…",
@@ -1228,6 +1228,81 @@
         "學生社團"
       ],
       "key": "web_12:0c4e7d364dc037c4f974a37aed4e315cca10f12d6e12dea48449b581b1202f28"
+    },
+    {
+      "title": "Konstantin Reinfeld｜Learn This 12-Bar Jazz Blues Melody on Harmonica | G in 2nd Position 🔥 Learn the complete melody st…",
+      "headline": "Learn This 12-Bar Jazz Blues Melody on Harmonica | G in 2nd Position",
+      "display_title": "Learn This 12-Bar Jazz Blues Melody on Harmonica | G in 2nd Position",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=h9dawSraMCs",
+      "source_id": "yt_konstantinreinfeld",
+      "source": "Konstantin Reinfeld",
+      "source_system_name": "Konstantin Reinfeld",
+      "source_profile_url": "https://www.youtube.com/channel/UC0TK6DAoV_VVnjfW6X5T_CQ",
+      "country": "德國",
+      "region": "德國",
+      "directory_entry_id": "watchlist-107",
+      "directory_entry_name": "Konstantin Reinfeld",
+      "account": "https://www.youtube.com/channel/UC0TK6DAoV_VVnjfW6X5T_CQ",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-09-11T16:00:13+00:00",
+      "posted_at_local": "2026-09-12 00:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-12T03:22:37.880550+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "課程",
+        "影片"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "課程",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴演奏教學影片，屬公開更新且與口琴課程內容直接相關。",
+      "text": "Learn This 12-Bar Jazz Blues Melody on Harmonica | G in 2nd Position\n🔥 Learn the complete melody step by step + get the sheet music on Patreon:\nhttps://patreon.com/konstantinreinfeld\nSave 20% with the annual Patreon membership.\n🎵 12-Bar Blues Harmonica Melody #1 – G / 2nd Position\nThis is the first part of a new 7-part series where I teach seven original 12-bar blues melodies in seven different keys.\nWe start in G – 2nd position on a C harmonica.\nThe idea behind the series: strong, melodic blues playing without relying on overblows or overdraws. Everything is playable with regular bends.\nIn this short YouTube version, I play the complete melody and introduce the concept behind the series.\n⚠️ On Patreon, you get:\n• the full 17-minute step-by-step lesson\n• sheet music for the complete melody\n• detailed breakdown of bends and phrasing\n• all upcoming lessons from the 7-part series\nThe next lessons will cover C, D, E, F, A and B♭.\n👉 Get the full lesson + sheet music here:\nhttps://patreon.com/konstantinreinfeld\nChoose the annual membership to save 20%.\nThe backing track I used:\nhttps://youtu.be/1E9Qk-mJXdA\n//\n► Online harmonica lessons:\nlessons@konstantinreinfeld.com\n► Patreon:\nhttps://…",
+      "images": [
+        "https://i.ytimg.com/vi/h9dawSraMCs/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/h9dawSraMCs/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/8b992eb3004b413fcf1c.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_n433_f3X8URO0TSL-R8tWZd6UwzSYbifUfNIlPCYEp7w=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/11267371ae9633c34445.webp",
+      "source_initials": "KR",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "yt_konstantinreinfeld:h9dawSraMCs"
     },
     {
       "title": "Cy Leo｜Two Worlds 在兩個心中間坐下 - Cy Leo ft. Ashley Lin & Walter Kwan Live performance footage at Two Worlds In One (Hong Ko…",
