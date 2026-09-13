@@ -4223,7 +4223,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-01 22:18",
       "latestUpdateSource": "梁芷菁 Steffi Leung",
       "latestUpdateUrl": "https://www.instagram.com/stories/steffi.leung/3976638891192887069/",
-      "avatarUrl": "/assets/source-avatars/944f9a705865f62c67f6.webp",
+      "avatarUrl": "/assets/source-avatars/1e3b3bfed81f5eb7a187.webp",
       "sourceInitials": "SL",
       "sourceTags": [
         "演奏者",

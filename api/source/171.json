@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T15:07:02.614153Z",
+  "generatedAt": "2026-09-13T15:40:32.295745Z",
   "source": {
     "id": 171,
     "slug": "society-for-the-preservation-and-advancement-of-the-harmonica",
@@ -106,20 +106,6 @@
       "publishedAt": "2026-08-15T12:55:17Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/484af01a5c57ace70586.webp",
-        "width": 720,
-        "height": 1280
-      }
-    },
-    {
-      "id": "post-be367fa3d4107839e05d5819",
-      "title": "Eric on the new Harp Reactor, Rob on guitar, and me on the harp. Hit the Road Jack! 🎶🎸",
-      "excerpt": "Eric on the new Harp Reactor, Rob on guitar, and me on the harp. Hit the Road Jack! 🎶🎸 #HitTheRoadJack #Harmonica #Blues #Guitar #MusicReel",
-      "url": "https://www.instagram.com/p/DcBn08At7UZ/",
-      "sourceName": "口琴保存與推廣協會 SPAH",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-14T15:25:45Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/0fde4b965651fa90f7f3.webp",
         "width": 720,
         "height": 1280
       }
