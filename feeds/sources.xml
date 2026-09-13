@@ -5,7 +5,51 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 13 Sep 2026 16:44:38 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 17:16:16 +0000</lastBuildDate>
+    <item>
+      <title>Project X</title>
+      <link>https://thefestival.co.kr/info/festival/7338</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/2919597dff32b328</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏、國際交流
+國家：國際
+地區：國際
+國際的口琴國際演出團體，活動脈絡包含口琴合作企劃、跨團重奏與SIHF 2018。</description>
+    </item>
+    <item>
+      <title>Crossover Harmonica Ensemble</title>
+      <link>https://thefestival.co.kr/info/festival/7338</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/80dfab0a0061e7f0</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏、國際交流
+國家：韓國
+地區：韓國
+韓國的口琴重奏國際演出團體，活動脈絡包含韓國跨界口琴重奏、國際交流與SIHF 2018。</description>
+    </item>
+    <item>
+      <title>Orion 口琴樂團</title>
+      <link>https://tixfun.com/UTK0201_?PRODUCT_ID=Q025T5HU</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/0e159ce9c7632f98</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏
+國家：臺灣
+地區：臺灣
+臺灣的口琴重奏演出團體，活動脈絡包含青少年室內樂、WHF 2025與張晁滕。</description>
+    </item>
+    <item>
+      <title>臺灣口琴樂團</title>
+      <link>https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/40e8fa5cd2ccb242</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團
+國家：臺灣
+地區：臺灣
+臺灣的口琴合奏演出團體，活動脈絡包含1998成立、THE-22與合奏。</description>
+    </item>
     <item>
       <title>中山醫藍韻口琴社</title>
       <link>https://powerup.csmu.edu.tw/Act/act_Info/c75b7f5a-53e4-4bf9-b3d9-5af47d787fba</link>
@@ -117,39 +161,6 @@ Tag：活動資訊、比賽、半音階、複音、十孔、重奏、國際交�
 中國的國際活動來源，涵蓋2025、7、23-27、展演與比賽。</description>
     </item>
     <item>
-      <title>Project X</title>
-      <link>https://thefestival.co.kr/info/festival/7338</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/2919597dff32b328</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏、國際交流
-國家：國際
-地區：國際
-國際的口琴國際演出團體，活動脈絡包含口琴合作企劃、跨團重奏與SIHF 2018。</description>
-    </item>
-    <item>
-      <title>Crossover Harmonica Ensemble</title>
-      <link>https://thefestival.co.kr/info/festival/7338</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/80dfab0a0061e7f0</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏、國際交流
-國家：韓國
-地區：韓國
-韓國的口琴重奏國際演出團體，活動脈絡包含韓國跨界口琴重奏、國際交流與SIHF 2018。</description>
-    </item>
-    <item>
-      <title>臺灣口琴樂團</title>
-      <link>https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/40e8fa5cd2ccb242</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團
-國家：臺灣
-地區：臺灣
-臺灣的口琴合奏演出團體，活動脈絡包含1998成立、THE-22與合奏。</description>
-    </item>
-    <item>
       <title>陳鴻儀</title>
       <link>https://kcu.twcu.org.tw/course/m_course_detail.php?u=f5fbc46e1198f1d957519223b6068dc8</link>
       <guid>https://harmonica.observe.tw/feeds/sources/f746f35737f921f8</guid>
@@ -159,17 +170,6 @@ Tag：演奏者、教學、比賽、半音階、複音、十孔、重奏
 國家：臺灣
 地區：臺灣/基隆/宜蘭
 臺灣的複音口琴、十孔口琴、半音階口琴與口琴重奏與合奏演出人員、評審與教育者，活動脈絡包含複音口琴演奏與編曲、多次全國學生音樂比賽與亞太口琴節評審與曾任基隆市口琴協會理事長。</description>
-    </item>
-    <item>
-      <title>Orion 口琴樂團</title>
-      <link>https://tixfun.com/UTK0201_?PRODUCT_ID=Q025T5HU</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/0e159ce9c7632f98</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏
-國家：臺灣
-地區：臺灣
-臺灣的口琴重奏演出團體，活動脈絡包含青少年室內樂、WHF 2025與張晁滕。</description>
     </item>
     <item>
       <title>南里沙</title>

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T16:44:37.488296Z",
+  "generatedAt": "2026-09-13T17:16:16.127835Z",
   "source": {
     "id": 229,
     "slug": "hohner-harmonica",
@@ -48,20 +48,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/a589423aa4e4d0a36018.webp",
         "width": 640,
         "height": 1136
-      }
-    },
-    {
-      "id": "post-96415de25d20fa017984b4de",
-      "title": "LEARN HARMONICA TODAY!",
-      "excerpt": "LEARN HARMONICA TODAY! www.isaaccorbitt.com #harmonica #isaaccorbitt #harmonicalessons #musiclesson",
-      "url": "https://www.instagram.com/p/DcByykhBhmt/",
-      "sourceName": "Hohner Harmonica",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-14T16:58:00Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/8a3e8f5fc22748afd8d5.webp",
-        "width": 720,
-        "height": 1280
       }
     }
   ]
