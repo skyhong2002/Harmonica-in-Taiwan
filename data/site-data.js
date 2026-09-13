@@ -6639,7 +6639,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-31 14:23",
       "latestUpdateSource": "Lee Hangyeol 이한결",
       "latestUpdateUrl": "https://www.instagram.com/stories/gyeoli_94/3975674956381902689/",
-      "avatarUrl": "/assets/source-avatars/3ce792feb8dd2489d5e3.webp",
+      "avatarUrl": "/assets/source-avatars/15411088e441e07c7099.webp",
       "sourceInitials": "LH",
       "sourceTags": [
         "演奏者",
@@ -8164,7 +8164,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-28 05:24",
       "latestUpdateSource": "Easttop Harmonicas",
       "latestUpdateUrl": "https://www.instagram.com/p/Dcju0ZKRsBv/",
-      "avatarUrl": "/assets/source-avatars/f9be4f7073905e35ec56.webp",
+      "avatarUrl": "/assets/source-avatars/f178282cf492ad415c33.webp",
       "sourceInitials": "EH",
       "sourceTags": [
         "品牌",
@@ -8410,7 +8410,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-27 04:01",
       "latestUpdateSource": "Rachelle Plas & Philippe Hervouet",
       "latestUpdateUrl": "https://www.instagram.com/p/DcgZtMSiAuy/",
-      "avatarUrl": "/assets/source-avatars/f880c7cd7e53f334b408.webp",
+      "avatarUrl": "/assets/source-avatars/7d3bf033479577d85e2b.webp",
       "sourceInitials": "RPP",
       "sourceTags": [
         "團體樂團",
