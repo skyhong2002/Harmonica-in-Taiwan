@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T17:16:16.127835Z",
+  "generatedAt": "2026-09-13T17:50:41.086532Z",
   "source": {
     "id": 88,
     "slug": "bluebo-harmonica",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/88-bluebo-harmonica/"
   },
   "items": [
+    {
+      "id": "post-601b00cc16430fc31e01e015",
+      "title": "聞笛丨中正社大半音階口琴班",
+      "excerpt": "聞笛丨中正社大半音階口琴班 這回由半音階班班長德生與則汝同學攜手合奏《聞笛》，兩個聲部，兩把口琴，一唱一和，吹出古詩中清冷悠揚的意境。🎶 聽聽這首 別有韻味 的口琴版《聞笛》！ 中正社大半音階口琴班(五)下午",
+      "url": "https://www.youtube.com/watch?v=eKtC5xNQXL8",
+      "sourceName": "藍波口琴教室",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-12T10:00:18Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/cf28fc35ec0d4c727a9e.webp",
+        "width": 480,
+        "height": 360
+      }
+    },
     {
       "id": "post-bea3264dbd0b61cff3ec1efd",
       "title": "Autumn Leaves秋葉丨爵士名曲",
