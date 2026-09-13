@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-13T07:56:20+08:00",
+  "generatedAt": "2026-09-13T08:24:31+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "overseas_physical",
-  "count": 8,
+  "count": 7,
   "source": "/api/events.json",
   "ics": "/feeds/overseas-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -15,7 +15,7 @@
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 23,
+      "cached": 22,
       "errors": 0
     }
   },
@@ -130,42 +130,6 @@
         "https://pbs.twimg.com/media/HOekMrFbsAAcm03?format=jpg&name=orig"
       ],
       "image_url": "https://pbs.twimg.com/media/HOekMrFbsAAcm03?format=jpg&name=orig"
-    },
-    {
-      "id": "e9a91b34ffa66ec5",
-      "title": "Qin Yuan 51《琴缘51》",
-      "eventName": "Qin Yuan 51《琴缘51》",
-      "source": "口琴愛好者協會（新加坡）",
-      "platform": "facebook",
-      "start": "2026-10-04T17:00:00+08:00",
-      "end": "2026-10-04T19:00:00+08:00",
-      "allDay": false,
-      "calendarType": "overseas_physical",
-      "timezone": "Asia/Singapore",
-      "location": "Singapore Esplanade Recital Studio",
-      "venue": "Esplanade Recital Studio",
-      "city": "Singapore",
-      "details": "主辦／演出者：口琴愛好者協會（新加坡）。口琴音樂會，主打古典、爵士、亞洲樂曲與熟悉旋律，由本地口琴演奏家及樂團演出，特邀嘉賓為 CY Leo 何卓彦。活動為 2026 年 10 月 4 日下午 5:00，票價 Public $30、會員/學生 $25。",
-      "evidenceUrl": "https://www.facebook.com/HARMONICAMUSICLOVERS/posts/pfbid0id39yWkpmaozz87m5CjJXaciSuQ23znBeXh6fNDyCnT7uVW1MVZZvwxxRBhpAnLCl",
-      "confidence": 0.98,
-      "calendarReview": {
-        "include": true,
-        "country": "新加坡",
-        "eventMode": "overseas_physical",
-        "timezone": "Asia/Singapore",
-        "candidateDateMatches": true,
-        "eventName": "Qin Yuan 51《琴缘51》",
-        "venue": "Esplanade Recital Studio",
-        "city": "Singapore",
-        "details": "主辦／演出者：口琴愛好者協會（新加坡）。口琴音樂會，主打古典、爵士、亞洲樂曲與熟悉旋律，由本地口琴演奏家及樂團演出，特邀嘉賓為 CY Leo 何卓彦。活動為 2026 年 10 月 4 日下午 5:00，票價 Public $30、會員/學生 $25。",
-        "reason": "貼文明確寫出 2026/10/04 5:00 PM、Esplanade Recital Studio 與售票資訊，屬新加坡實體口琴活動，日期與候選一致。",
-        "confidence": 0.98
-      },
-      "postedAt": "2026-08-14 08:15",
-      "images": [
-        "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/772265143_1690618266403579_878248659833092620_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1920&ctp=p526x296&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=OLUibseIXvYQ7kNvwGCRa5X&_nc_oc=AdrINbq4m5CIIRyQrlzBnlwBOePSBK8iZgzsC0Cpimwoc7jFFHy3NdxIlnu1FL2tuAhB9bnUj-0yAXRhf8ZCtUfN&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=aK1hOQ1ZEUWwILkG6aw3bw&_nc_ss=72289&oh=00_AQE_GXTle5aXwQ5ZSX4CATafJXj-g0wB2cp_CfX6JSq2tw&oe=6A8C6430"
-      ],
-      "image_url": "/assets/feed-images/a58c97187f3e8524246e.webp"
     },
     {
       "id": "27c7beee2756d514",
