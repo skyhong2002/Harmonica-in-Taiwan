@@ -1,5 +1,5 @@
 window.HARMONICA_OBSERVE_DATA = {
-  "generatedAt": "2026-09-13",
+  "generatedAt": "2026-09-14",
   "entries": [
     {
       "id": "watchlist-187",
@@ -934,7 +934,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-12 09:00",
       "latestUpdateSource": "臺中國家歌劇院",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=PPuMpP5GOoA",
-      "avatarUrl": "/assets/source-avatars/e3f1c3008a312a090469.webp",
+      "avatarUrl": "/assets/source-avatars/b03b67c0a59a3d100671.webp",
       "sourceInitials": "臺中",
       "sourceTags": [
         "場館平台"
