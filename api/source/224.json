@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T02:08:15.676809Z",
+  "generatedAt": "2026-09-13T02:41:12.705867Z",
   "source": {
     "id": 224,
     "slug": "easttop-harmonicas",
@@ -74,20 +74,6 @@
       "publishedAt": "2026-08-14T04:01:09Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/1c6a093444ff04574b04.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-6f80baf14f92bcee14ba76ee",
-      "title": "Harmonic Bonds of the Asia-Pacific — Tremolo Harmonica Special Concert of 15th APHF(EAST TOP)",
-      "excerpt": "Harmonic Bonds of the Asia-Pacific — Tremolo Harmonica Special Concert of 15th APHF(EAST TOP) This special concert features outstanding performers playing the tremolo harmonica. With superb performing skills, the artists deliver expressive and mesmerizing harmonica pieces throug…",
-      "url": "https://www.youtube.com/watch?v=7O8aODAIS4M",
-      "sourceName": "Easttop Harmonicas",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-14T02:14:31Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/8f2ba2497205ff90be2f.webp",
         "width": 800,
         "height": 450
       }
