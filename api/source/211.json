@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T05:58:59.920568Z",
+  "generatedAt": "2026-09-13T06:29:40.388237Z",
   "source": {
     "id": 211,
     "slug": "nus-harmonica",
@@ -20,20 +20,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/70ac15bc08e0c3dd30df.webp",
         "width": 800,
         "height": 1001
-      }
-    },
-    {
-      "id": "post-dd14c26eb52ea08595a68cc8",
-      "title": "✨ SLF wrapped up! ✨",
-      "excerpt": "✨ SLF wrapped up! ✨ Thank you to everyone who came by our booth, chatted with us, and expressed interest in NUS Harmonica! 💚 It was lovely meeting all of you, and we hope to see you again soon! Missed our booth? No worries! Our Welcome Tea is happening next Monday 🍵 Welcome Tea…",
-      "url": "https://www.instagram.com/p/DcAqfXAHbEC/",
-      "sourceName": "新加坡國立大學口琴社",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-14T06:25:03Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/d0297f2f745548b047be.webp",
-        "width": 800,
-        "height": 1000
       }
     }
   ]
