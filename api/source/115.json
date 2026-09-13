@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T13:30:41.782752Z",
+  "generatedAt": "2026-09-13T14:02:28.930650Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -230,20 +230,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/9c9cda97909cc7039437.webp",
         "width": 800,
         "height": 450
-      }
-    },
-    {
-      "id": "post-58aea52f9c011ef22f3ba822",
-      "title": "Recording the first thing I’m playing on my harmonica today 🥳🎶",
-      "excerpt": "Recording the first thing I’m playing on my harmonica today 🥳🎶 No AI was used to create this music or video, just me playing jazz and jamming with my metronome ☀️",
-      "url": "https://www.instagram.com/p/DcBa0FMstIa/",
-      "sourceName": "Filip Jers",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-14T13:32:53Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/d23ef8430b49957e668f.webp",
-        "width": 720,
-        "height": 1280
       }
     }
   ]
