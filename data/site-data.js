@@ -2031,7 +2031,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-09 18:00",
       "latestUpdateSource": "衛武營國家藝術文化中心",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=HLekPo-u-DA",
-      "avatarUrl": "/assets/source-avatars/48a1187dd92b116c64b4.webp",
+      "avatarUrl": "/assets/source-avatars/583c24c5b15b2c1085c5.webp",
       "sourceInitials": "衛武",
       "sourceTags": [
         "場館平台"
@@ -5214,7 +5214,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-01 14:01",
       "latestUpdateSource": "Yoonseok Lee",
       "latestUpdateUrl": "https://www.instagram.com/stories/yoonseoklee_harmonica/3976388818449388329/",
-      "avatarUrl": "/assets/source-avatars/f6922e9e0858476322a5.webp",
+      "avatarUrl": "/assets/source-avatars/63ea51f7f97c4e71df8b.webp",
       "sourceInitials": "YL",
       "sourceTags": [
         "演奏者",
