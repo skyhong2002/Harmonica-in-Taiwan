@@ -9536,7 +9536,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-24 17:21",
       "latestUpdateSource": "馬來西亞口琴節",
       "latestUpdateUrl": "https://www.instagram.com/stories/malaysia_harmonica_festival/3970691274381846463/",
-      "avatarUrl": "/assets/source-avatars/1724f9794207b99fe45f.webp",
+      "avatarUrl": "/assets/source-avatars/b62f3537a0fe4efc05b5.webp",
       "sourceInitials": "馬來",
       "sourceTags": [
         "活動資訊",
