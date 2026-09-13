@@ -1,26 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T17:50:41.086532Z",
+  "generatedAt": "2026-09-13T18:20:39.653617Z",
   "source": {
     "id": 192,
     "slug": "ckhc-64th",
     "name": "建中口琴社",
     "pageUrl": "https://harmonica.observe.tw/source/192-ckhc-64th/"
   },
-  "items": [
-    {
-      "id": "post-7a6bcf12c1a6371b6c201b1a",
-      "title": "漂流瓶──《琴極之夏》建中口琴64 65成果發表會",
-      "excerpt": "漂流瓶──《琴極之夏》建中口琴64 65成果發表會 漂流瓶 演出人員： chord ：陳仲安 半音階口琴：陳睿捷、闕壯宸 bass ：吳宥頡",
-      "url": "https://www.youtube.com/watch?v=gMD2fvMg9nQ",
-      "sourceName": "建中口琴社",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-14T18:04:31Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/e190a726f1141714d1c2.webp",
-        "width": 800,
-        "height": 450
-      }
-    }
-  ]
+  "items": []
 }
