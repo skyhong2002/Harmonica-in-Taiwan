@@ -2186,7 +2186,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-09 12:00",
       "latestUpdateSource": "新竹縣文化局",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=za_f0MK36_0",
-      "avatarUrl": "/assets/source-avatars/1b8db3b814cbd6da6490.webp",
+      "avatarUrl": "/assets/source-avatars/9384bc75dfef2ff30002.webp",
       "sourceInitials": "新竹",
       "sourceTags": [
         "場館平台"
