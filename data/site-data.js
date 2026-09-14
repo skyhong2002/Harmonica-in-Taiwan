@@ -989,6 +989,87 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-99",
+      "publicId": "99",
+      "name": "范曉怡",
+      "nameEn": "Hsiao-Yi Fan",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "狂響口琴樂團/教學/地方推廣",
+      "structuredSummary": "狂響口琴樂團/教學/地方推廣 / 低音口琴/口琴 / 演出人員/教學者",
+      "summary": "臺灣的低音口琴與口琴演出人員與教學者，活動脈絡包含狂響口琴樂團、教學與地方推廣。",
+      "keywords": "范曉怡 fanhsiaoyi 口琴 狂響",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/fanhsiaoyi/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/fanhsiaoyi/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@fanhsiaoyi"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "99",
+      "latestUpdateAt": "2026-09-12T23:11:11+00:00",
+      "latestUpdateLocal": "2026-09-13 07:11",
+      "latestUpdateSource": "范曉怡",
+      "latestUpdateUrl": "https://www.facebook.com/fanhsiaoyi/posts/pfbid02CdmgkbhNfkdBZrjiDbjzQEv1j5RkxPLexDrvPyWfsDVUQxAiG3RtmckRLUYZvTdpl",
+      "avatarUrl": "/assets/source-avatars/de647ba73f2a42f476bc.webp",
+      "sourceInitials": "范曉",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_fanhsiaoyi",
+          "name": "范曉怡",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/fanhsiaoyi",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_fanhsiaoyi",
+          "name": "范曉怡",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "fanhsiaoyi",
+          "profileUrl": "https://www.instagram.com/fanhsiaoyi/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_fanhsiaoyi",
+          "name": "范曉怡",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "fanhsiaoyi",
+          "profileUrl": "https://www.instagram.com/fanhsiaoyi/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_fanhsiaoyi",
+          "name": "范曉怡",
+          "platform": "threads",
+          "type": "rss",
+          "username": "fanhsiaoyi",
+          "profileUrl": "https://www.threads.net/@fanhsiaoyi",
+          "feedUrl": "https://rss.observe.tw/threads/fanhsiaoyi"
+        }
+      ]
+    },
+    {
       "id": "watchlist-88",
       "publicId": "88",
       "name": "藍波口琴教室",
@@ -2976,6 +3057,90 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-197",
+      "publicId": "197",
+      "name": "清華大學口琴社",
+      "nameEn": "NTHU Harmonica Club",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
+      "cityOrFocus": "國立清華大學/學校社團/新竹",
+      "structuredSummary": "國立清華大學/學校社團/新竹 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
+      "keywords": "清華大學口琴社 NTHU Harmonica Club 口琴社",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://oz.nthu.edu.tw/~u9562333/harmonic/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/nthuharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nthu_harmonica_club/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC9jltWvJkMzNa3p-mbTIINQ"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "197-nthu-harmonica-club",
+      "latestUpdateAt": "2026-09-06T05:03:59+00:00",
+      "latestUpdateLocal": "2026-09-06 13:03",
+      "latestUpdateSource": "清華大學口琴社",
+      "latestUpdateUrl": "https://www.facebook.com/nthuharmonica/posts/pfbid0m4v5bYGPRi95XjQ5ngJaQ39ZphNRMk2sfDG4C8ixkZGAnvn5Bx56WXX89sSoZLxRl",
+      "avatarUrl": "/assets/source-avatars/d9189b06f007bad0f354.webp",
+      "sourceInitials": "清華",
+      "sourceTags": [
+        "學生社團",
+        "大專社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_nthuharmonica",
+          "name": "NTHU Harmonica Club",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nthu_harmonica_club",
+          "name": "NTHU Harmonica Club",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nthu_harmonica_club",
+          "profileUrl": "https://www.instagram.com/nthu_harmonica_club/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nthu_harmonica_club",
+          "name": "清華大學口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nthu_harmonica_club",
+          "profileUrl": "https://www.instagram.com/nthu_harmonica_club/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_uc9jltwvjkmzna3p_mbtiinq",
+          "name": "清華大學口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UC9jltWvJkMzNa3p-mbTIINQ",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-57",
       "publicId": "57",
       "name": "山下伶 Rei Yamashita",
@@ -3634,87 +3799,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=149308&menuNo=200110",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-99",
-      "publicId": "99",
-      "name": "范曉怡",
-      "nameEn": "Hsiao-Yi Fan",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "狂響口琴樂團/教學/地方推廣",
-      "structuredSummary": "狂響口琴樂團/教學/地方推廣 / 低音口琴/口琴 / 演出人員/教學者",
-      "summary": "臺灣的低音口琴與口琴演出人員與教學者，活動脈絡包含狂響口琴樂團、教學與地方推廣。",
-      "keywords": "范曉怡 fanhsiaoyi 口琴 狂響",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/fanhsiaoyi/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/fanhsiaoyi/"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@fanhsiaoyi"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "99",
-      "latestUpdateAt": "2026-09-02T03:40:32+00:00",
-      "latestUpdateLocal": "2026-09-02 11:40",
-      "latestUpdateSource": "范曉怡",
-      "latestUpdateUrl": "https://www.facebook.com/fanhsiaoyi/posts/pfbid02SRWY4yPMgjRw5bmbgyUegp1oeMDi9Dke3azwm4QJbrRSH5VzAVaoGRb8FVJGMWPnl",
-      "avatarUrl": "/assets/source-avatars/de647ba73f2a42f476bc.webp",
-      "sourceInitials": "范曉",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_fanhsiaoyi",
-          "name": "范曉怡",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/fanhsiaoyi",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_fanhsiaoyi",
-          "name": "范曉怡",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "fanhsiaoyi",
-          "profileUrl": "https://www.instagram.com/fanhsiaoyi/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_fanhsiaoyi",
-          "name": "范曉怡",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "fanhsiaoyi",
-          "profileUrl": "https://www.instagram.com/fanhsiaoyi/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_fanhsiaoyi",
-          "name": "范曉怡",
-          "platform": "threads",
-          "type": "rss",
-          "username": "fanhsiaoyi",
-          "profileUrl": "https://www.threads.net/@fanhsiaoyi",
-          "feedUrl": "https://rss.observe.tw/threads/fanhsiaoyi"
         }
       ]
     },
@@ -14533,90 +14617,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCTd9aZdWomWZtieKMKmxDlA",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-197",
-      "publicId": "197",
-      "name": "清華大學口琴社",
-      "nameEn": "NTHU Harmonica Club",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "臺灣",
-      "region": "臺灣/新竹",
-      "cityOrFocus": "國立清華大學/學校社團/新竹",
-      "structuredSummary": "國立清華大學/學校社團/新竹 / 口琴 / 學校社團",
-      "summary": "臺灣的口琴學校社團。",
-      "keywords": "清華大學口琴社 NTHU Harmonica Club 口琴社",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://oz.nthu.edu.tw/~u9562333/harmonic/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/nthuharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/nthu_harmonica_club/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UC9jltWvJkMzNa3p-mbTIINQ"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "197-nthu-harmonica-club",
-      "latestUpdateAt": "2026-05-27T11:09:31+00:00",
-      "latestUpdateLocal": "2026-05-27 19:09",
-      "latestUpdateSource": "清華大學口琴社",
-      "latestUpdateUrl": "https://www.instagram.com/p/DY1wKd8k3I6/",
-      "avatarUrl": "/assets/source-avatars/d9189b06f007bad0f354.webp",
-      "sourceInitials": "清華",
-      "sourceTags": [
-        "學生社團",
-        "大專社團"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_nthuharmonica",
-          "name": "NTHU Harmonica Club",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_nthu_harmonica_club",
-          "name": "NTHU Harmonica Club",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "nthu_harmonica_club",
-          "profileUrl": "https://www.instagram.com/nthu_harmonica_club/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_nthu_harmonica_club",
-          "name": "清華大學口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "nthu_harmonica_club",
-          "profileUrl": "https://www.instagram.com/nthu_harmonica_club/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_uc9jltwvjkmzna3p_mbtiinq",
-          "name": "清華大學口琴社",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UC9jltWvJkMzNa3p-mbTIINQ",
           "feedUrl": ""
         }
       ]

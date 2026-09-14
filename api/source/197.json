@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T04:30:36.463094Z",
+  "generatedAt": "2026-09-14T04:38:31.154966Z",
   "source": {
     "id": 197,
     "slug": "nthu-harmonica-club",
     "name": "清華大學口琴社",
     "pageUrl": "https://harmonica.observe.tw/source/197-nthu-harmonica-club/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-efdb3aded2a82b7fd0171b6e",
+      "title": "【9/10 社博】",
+      "excerpt": "【9/10 社博】 一年一度的社博登場啦！ 不管你是對音樂有熱情，還是單純想豐富自己的大學生活～ 口琴社，絕對是你最沒有負擔的開始💯 不用擔心自己什麼都不會，進來我們會手把手帶你從零學起💪 不需要昂貴器材，口袋一放就能出發，來這裡找一群能一起玩音樂、一起廢的好朋友！ 想加入我們的又或者還不確定想試試看的歡迎填寫表單👇",
+      "url": "https://www.facebook.com/nthuharmonica/posts/pfbid0m4v5bYGPRi95XjQ5ngJaQ39ZphNRMk2sfDG4C8ixkZGAnvn5Bx56WXX89sSoZLxRl",
+      "sourceName": "清華大學口琴社",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-06T05:03:59Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/6e59fb8db4d6e6f6d044.webp",
+        "width": 512,
+        "height": 640
+      }
+    }
+  ]
 }
