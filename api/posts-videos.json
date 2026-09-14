@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/posts-videos.xml",
   "json": "https://harmonica.observe.tw/api/posts-videos.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/posts-videos.json",
-  "count": 1484,
+  "count": 1485,
   "items": [
     {
       "title": "南里沙 / Risa MINAMI｜おはようございます🎶 昨日のブログはこちらから 『三宮レッスン♬』 https://ameblo.jp/risa-harmonica/entry-12978645874.html #クロマチックハーモニ…",
@@ -785,6 +785,84 @@
         "學生社團"
       ],
       "key": "web_12:dc2b34760f4aa0e0998736d2c49f4c7b33d11d5ce3d9ae3d2451adbb609cdfc7"
+    },
+    {
+      "title": "吹口琴的小园园｜我不难过，只是为什么眼泪会流 | 口琴演奏《#我不难过 》【吹口琴的小园园】#music #vlog 听完这首歌曲记得订阅我的频道哦❤👉https://bit.ly/2D09zMV 哈喽，这里是吹口琴的小园园的官方YouT…",
+      "headline": "我不难过，只是为什么眼泪会流 | 口琴演奏《#我不难过 》【吹口琴的小园园】#music #vlog",
+      "display_title": "我不难过，只是为什么眼泪会流 | 口琴演奏《#我不难过 》【吹口琴的小园园】#music #vlog",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=x_vELKVQH_o",
+      "source_id": "yt_yuanyuanharmonica",
+      "source": "吹口琴的小园园",
+      "source_system_name": "吹口琴的小园园",
+      "source_profile_url": "https://www.youtube.com/channel/UCsVX4NKKFhUjjlvG3Ks1uXQ",
+      "country": "中國",
+      "region": "中國/北京",
+      "directory_entry_id": "watchlist-221",
+      "directory_entry_name": "吹口琴的小园园",
+      "account": "https://www.youtube.com/channel/UCsVX4NKKFhUjjlvG3Ks1uXQ",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-09-13T10:00:24+00:00",
+      "posted_at_local": "2026-09-13 18:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-14T02:53:39.955720+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "影片",
+        "演出"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.99,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "影片",
+        "演出"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴演奏影片，屬口琴演奏者公開更新，符合收錄範圍。",
+      "text": "我不难过，只是为什么眼泪会流 | 口琴演奏《#我不难过 》【吹口琴的小园园】#music #vlog\n听完这首歌曲记得订阅我的频道哦❤👉https://bit.ly/2D09zMV\n哈喽，这里是吹口琴的小园园的官方YouTube频道，\n希望大家多多点赞、分享和关注\ntiktok: @ten_holes\n合作邮箱：soharp@126.com\n【简单易学的蓝调十孔口琴教学】👉http://bit.ly/2ZZ4DQh\n【简单易学的半音阶口琴教学】👉http://bit.ly/3e1nmmJ\nHello everyone, this is XiaoYuanYuan Play the harmonica. Welcome to my YouTube channel.\nPlease like, comment & subscribe to my channel:https://bit.ly/2D09zMV\n#口琴 #吹口琴的小园园 #音樂 #harmonica #harmonicaplayer",
+      "images": [
+        "https://i.ytimg.com/vi/x_vELKVQH_o/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/x_vELKVQH_o/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/95d1482cf32f77646ced.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_n4Zs3juSRqkg31S3daPD6AZH7SYf1mnmcPZVQTSMeGYg=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/aed956184d6a75510a0c.webp",
+      "source_initials": "吹口",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "yt_yuanyuanharmonica:x_vELKVQH_o"
     },
     {
       "title": "中山醫學大學藍韻口琴社｜@csmu_bluemelody: 聽說向基拉祈許願一定會實現 小編希望中山醫的寶可夢訓練家都來報名參加我們的猜歌大賽，把30週年周邊帶回家！ https://forms.gle/mGoGyAxBtt... @cs…",
