@@ -48,7 +48,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-14 08:00",
       "latestUpdateSource": "南里沙",
       "latestUpdateUrl": "https://x.com/minami_risa/status/2099287037799268839",
-      "avatarUrl": "/assets/source-avatars/72befe5319e710314cf7.webp",
+      "avatarUrl": "/assets/source-avatars/2d0cc684e6ad47c82735.webp",
       "sourceInitials": "南里",
       "sourceTags": [
         "演奏者",
