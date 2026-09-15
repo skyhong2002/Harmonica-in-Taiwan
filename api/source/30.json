@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T03:20:52.553446Z",
+  "generatedAt": "2026-09-15T03:53:57.869093Z",
   "source": {
     "id": 30,
     "slug": "30",
@@ -92,20 +92,6 @@
       "publishedAt": "2026-08-19T03:21:38Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/29ddd7199d6d88b7196c.webp",
-        "width": 800,
-        "height": 800
-      }
-    },
-    {
-      "id": "post-7df18b5eb1c316c691c60716",
-      "title": "綵排演出那日通常是最有趣的一天，可以自己決定行程，講座結束後，把晚上的音樂會吹好即可。",
-      "excerpt": "綵排演出那日通常是最有趣的一天，可以自己決定行程，講座結束後，把晚上的音樂會吹好即可。 吃了不錯的橋村炸雞，幾杯快樂肥宅水下肚，舒舒服服前往音樂廳：）",
-      "url": "https://www.instagram.com/p/DcFgOJnkuuo/",
-      "sourceName": "蔡明憲",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-16T03:31:32Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/72a492c15f8985c45d95.webp",
         "width": 800,
         "height": 800
       }
