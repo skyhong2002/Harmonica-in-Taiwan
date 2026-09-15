@@ -4153,7 +4153,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-02 00:26",
       "latestUpdateSource": "黃冠誌",
       "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3976703112043327905/",
-      "avatarUrl": "/assets/source-avatars/b70fa43a7273f3bfb828.webp",
+      "avatarUrl": "/assets/source-avatars/1bb22690960abce92a2e.webp",
       "sourceInitials": "黃冠",
       "sourceTags": [
         "演奏者",
@@ -5384,7 +5384,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-01 13:07",
       "latestUpdateSource": "音和樂器",
       "latestUpdateUrl": "https://www.instagram.com/p/Dcu3zOANMnf/",
-      "avatarUrl": "/assets/source-avatars/d16deab9038a626a71af.webp",
+      "avatarUrl": "/assets/source-avatars/81fa36d32a8fd17393ca.webp",
       "sourceInitials": "音和",
       "sourceTags": [
         "教學器材",
@@ -7539,7 +7539,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-30 21:48",
       "latestUpdateSource": "蔡明憲",
       "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3975174060992244965/",
-      "avatarUrl": "/assets/source-avatars/a2590406a28e7edab245.webp",
+      "avatarUrl": "/assets/source-avatars/6cd5815ea68316e4a3ff.webp",
       "sourceInitials": "蔡明",
       "sourceTags": [
         "演奏者",

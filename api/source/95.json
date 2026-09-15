@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T03:53:57.869093Z",
+  "generatedAt": "2026-09-15T04:25:56.817552Z",
   "source": {
     "id": 95,
     "slug": "weissenberg-harmonicas",
@@ -32,20 +32,6 @@
       "publishedAt": "2026-08-17T14:30:24Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/5094d95ba41f22b4a504.webp",
-        "width": 640,
-        "height": 1136
-      }
-    },
-    {
-      "id": "post-f7bffcde3d5d0e3c0e183f19",
-      "title": "Worthy ☝🏼❤️",
-      "excerpt": "Worthy ☝🏼❤️ @10mfan @weissenbergtw",
-      "url": "https://www.instagram.com/p/DcFjuhfTulh/",
-      "sourceName": "韋笙堡口琴 Weissenberg Harmonicas",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-16T04:05:05Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/9ce39847858c2dbcabc0.webp",
         "width": 640,
         "height": 1136
       }
