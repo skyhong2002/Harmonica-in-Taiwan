@@ -10707,7 +10707,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-22 09:00",
       "latestUpdateSource": "口琴愛好者協會（新加坡）",
       "latestUpdateUrl": "https://www.instagram.com/stories/has_singapore/3968989495495105128/",
-      "avatarUrl": "/assets/source-avatars/71f4521852fa3ea7f711.webp",
+      "avatarUrl": "/assets/source-avatars/ededc211e1d327239fa1.webp",
       "sourceInitials": "口琴",
       "sourceTags": [
         "協會",
