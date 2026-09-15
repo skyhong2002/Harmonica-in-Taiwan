@@ -2,6 +2,55 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-09-16",
   "entries": [
     {
+      "id": "watchlist-299",
+      "publicId": "299",
+      "name": "基隆社區大學就是吹口琴",
+      "nameEn": "Keelung Community University Harmonica",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "教學/社區",
+      "country": "臺灣",
+      "region": "臺灣/基隆",
+      "cityOrFocus": "社區口琴課程/十孔/重奏/半音階/THMF 2026 熟齡組",
+      "structuredSummary": "社區口琴課程/十孔/重奏/半音階/THMF 2026 熟齡組 / 十孔/半音階/口琴合奏 / 教學單位/社區推廣",
+      "summary": "臺灣的十孔、半音階與口琴合奏教學單位與社區推廣，關注社區口琴課程、重奏與THMF 2026 熟齡組。",
+      "keywords": "基隆社區大學 就是吹口琴 陳鴻儀 2026 秋季班 THMF 熟齡組",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://kcu.twcu.org.tw/course/m_course_list.php"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "299-keelung-community-university-harmonica",
+      "latestUpdateAt": "2026-09-15T21:26:05.254189+00:00",
+      "latestUpdateLocal": "2026-09-16 05:26",
+      "latestUpdateSource": "基隆社區大學就是吹口琴",
+      "latestUpdateUrl": "https://kcu.twcu.org.tw/course/m_course_list.php",
+      "avatarUrl": "/assets/source-avatars/keelung-community-harmonica.jpg",
+      "sourceInitials": "基隆",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "課程",
+        "半音階",
+        "十孔",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_299",
+          "name": "基隆社區大學就是吹口琴",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://kcu.twcu.org.tw/course/m_course_list.php",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-316",
       "publicId": "316",
       "name": "太平國小口琴隊",
@@ -745,55 +794,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@lamberharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-299",
-      "publicId": "299",
-      "name": "基隆社區大學就是吹口琴",
-      "nameEn": "Keelung Community University Harmonica",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "教學/社區",
-      "country": "臺灣",
-      "region": "臺灣/基隆",
-      "cityOrFocus": "社區口琴課程/十孔/重奏/半音階/THMF 2026 熟齡組",
-      "structuredSummary": "社區口琴課程/十孔/重奏/半音階/THMF 2026 熟齡組 / 十孔/半音階/口琴合奏 / 教學單位/社區推廣",
-      "summary": "臺灣的十孔、半音階與口琴合奏教學單位與社區推廣，關注社區口琴課程、重奏與THMF 2026 熟齡組。",
-      "keywords": "基隆社區大學 就是吹口琴 陳鴻儀 2026 秋季班 THMF 熟齡組",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://kcu.twcu.org.tw/course/m_course_list.php"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "299-keelung-community-university-harmonica",
-      "latestUpdateAt": "2026-09-15T09:22:58.136867+00:00",
-      "latestUpdateLocal": "2026-09-15 17:22",
-      "latestUpdateSource": "基隆社區大學就是吹口琴",
-      "latestUpdateUrl": "https://kcu.twcu.org.tw/course/m_course_list.php",
-      "avatarUrl": "/assets/source-avatars/keelung-community-harmonica.jpg",
-      "sourceInitials": "基隆",
-      "sourceTags": [
-        "教學器材",
-        "教學",
-        "課程",
-        "半音階",
-        "十孔",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_299",
-          "name": "基隆社區大學就是吹口琴",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://kcu.twcu.org.tw/course/m_course_list.php",
           "feedUrl": ""
         }
       ]
