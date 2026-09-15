@@ -1,11 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T10:00:17.893372Z",
+  "generatedAt": "2026-09-15T10:34:55.600161Z",
   "source": {
     "id": 175,
     "slug": "deutscher-harmonika-verband-e-v",
     "name": "德國 Harmonica/Harmonika 協會 DHV",
     "pageUrl": "https://harmonica.observe.tw/source/175-deutscher-harmonika-verband-e-v/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-092bbe6359cd7df18ce7181e",
+      "title": "Mundharmonika – DHV e.V.",
+      "excerpt": "Mundharmonika – DHV e.V. Startseite AMP 2027 Ausschreibung Online-Anmeldung Phase 1 Landeswettbewerbe Akkordeon Wettbewerbe Projekte Auswahlorchester Akkordeonjugend Aus- & Weiterbildung Die Einstiegsstufe und die D-Reihe Die C-Lehrgänge Osterarbeitswoche Hohner Konservatorium A…",
+      "url": "https://www.dhv-ev.de/mundharmonika/",
+      "sourceName": "德國 Harmonica/Harmonika 協會 DHV",
+      "platform": "website",
+      "publishedAt": "2026-09-15T10:32:40.649815Z"
+    }
+  ]
 }
