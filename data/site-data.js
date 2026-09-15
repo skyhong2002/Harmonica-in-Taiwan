@@ -2,6 +2,152 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-09-15",
   "entries": [
     {
+      "id": "watchlist-299",
+      "publicId": "299",
+      "name": "基隆社區大學就是吹口琴",
+      "nameEn": "Keelung Community University Harmonica",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "教學/社區",
+      "country": "臺灣",
+      "region": "臺灣/基隆",
+      "cityOrFocus": "社區口琴課程/十孔/重奏/半音階/THMF 2026 熟齡組",
+      "structuredSummary": "社區口琴課程/十孔/重奏/半音階/THMF 2026 熟齡組 / 十孔/半音階/口琴合奏 / 教學單位/社區推廣",
+      "summary": "臺灣的十孔、半音階與口琴合奏教學單位與社區推廣，關注社區口琴課程、重奏與THMF 2026 熟齡組。",
+      "keywords": "基隆社區大學 就是吹口琴 陳鴻儀 2026 秋季班 THMF 熟齡組",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://kcu.twcu.org.tw/course/m_course_list.php"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "299-keelung-community-university-harmonica",
+      "latestUpdateAt": "2026-09-15T09:22:58.136867+00:00",
+      "latestUpdateLocal": "2026-09-15 17:22",
+      "latestUpdateSource": "基隆社區大學就是吹口琴",
+      "latestUpdateUrl": "https://kcu.twcu.org.tw/course/m_course_list.php",
+      "avatarUrl": "/assets/source-avatars/keelung-community-harmonica.jpg",
+      "sourceInitials": "基隆",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "課程",
+        "半音階",
+        "十孔",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_299",
+          "name": "基隆社區大學就是吹口琴",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://kcu.twcu.org.tw/course/m_course_list.php",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-187",
+      "publicId": "187",
+      "name": "中山醫藍韻口琴社",
+      "nameEn": "CSMU Blue Melody",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "中山醫學大學/學校社團/臺中",
+      "structuredSummary": "中山醫學大學/學校社團/臺中 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
+      "keywords": "中山醫藍韻口琴社 CSMU Blue Melody 口琴社",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://powerup.csmu.edu.tw/Act/act_Info/c75b7f5a-53e4-4bf9-b3d9-5af47d787fba"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/BMHarmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/csmu_bluemelody/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8%E8%97%8D%E9%9F%BB%E5%8F%A3%E7%90%B4"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@csmu_bluemelody"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "187-csmu-blue-melody",
+      "latestUpdateAt": "2026-09-15T09:20:50+00:00",
+      "latestUpdateLocal": "2026-09-15 17:20",
+      "latestUpdateSource": "中山醫藍韻口琴社",
+      "latestUpdateUrl": "https://www.threads.com/t/DdTX9uAibZL",
+      "avatarUrl": "/assets/source-avatars/c80a7a9dba8d47f96adb.webp",
+      "sourceInitials": "中山",
+      "sourceTags": [
+        "學生社團",
+        "大專社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_csmu_bmharmonica",
+          "name": "CSMU Blue Melody",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_csmu_bluemelody",
+          "name": "CSMU Blue Melody",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "csmu_bluemelody",
+          "profileUrl": "https://www.instagram.com/csmu_bluemelody/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_csmu_bluemelody",
+          "name": "中山醫藍韻口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "csmu_bluemelody",
+          "profileUrl": "https://www.instagram.com/csmu_bluemelody/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_csmu_bluemelody",
+          "name": "中山醫藍韻口琴社",
+          "platform": "threads",
+          "type": "rss",
+          "username": "csmu_bluemelody",
+          "profileUrl": "https://www.threads.net/@csmu_bluemelody",
+          "feedUrl": "https://rss.observe.tw/threads/csmu_bluemelody"
+        },
+        {
+          "id": "yt_10f4784559",
+          "name": "中山醫藍韻口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8%E8%97%8D%E9%9F%BB%E5%8F%A3%E7%90%B4",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-4",
       "publicId": "4",
       "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
@@ -741,55 +887,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-299",
-      "publicId": "299",
-      "name": "基隆社區大學就是吹口琴",
-      "nameEn": "Keelung Community University Harmonica",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "教學/社區",
-      "country": "臺灣",
-      "region": "臺灣/基隆",
-      "cityOrFocus": "社區口琴課程/十孔/重奏/半音階/THMF 2026 熟齡組",
-      "structuredSummary": "社區口琴課程/十孔/重奏/半音階/THMF 2026 熟齡組 / 十孔/半音階/口琴合奏 / 教學單位/社區推廣",
-      "summary": "臺灣的十孔、半音階與口琴合奏教學單位與社區推廣，關注社區口琴課程、重奏與THMF 2026 熟齡組。",
-      "keywords": "基隆社區大學 就是吹口琴 陳鴻儀 2026 秋季班 THMF 熟齡組",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://kcu.twcu.org.tw/course/m_course_list.php"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "299-keelung-community-university-harmonica",
-      "latestUpdateAt": "2026-09-14T20:53:01.555910+00:00",
-      "latestUpdateLocal": "2026-09-15 04:53",
-      "latestUpdateSource": "基隆社區大學就是吹口琴",
-      "latestUpdateUrl": "https://kcu.twcu.org.tw/course/m_course_list.php",
-      "avatarUrl": "/assets/source-avatars/keelung-community-harmonica.jpg",
-      "sourceInitials": "基隆",
-      "sourceTags": [
-        "教學器材",
-        "教學",
-        "課程",
-        "半音階",
-        "十孔",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_299",
-          "name": "基隆社區大學就是吹口琴",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://kcu.twcu.org.tw/course/m_course_list.php",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-296",
       "publicId": "296",
       "name": "C.A. SEYDEL SÖHNE",
@@ -888,103 +985,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "https://tixfun.com/UTK0201_?PRODUCT_ID=Q025T5HU",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-187",
-      "publicId": "187",
-      "name": "中山醫藍韻口琴社",
-      "nameEn": "CSMU Blue Melody",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "中山醫學大學/學校社團/臺中",
-      "structuredSummary": "中山醫學大學/學校社團/臺中 / 口琴 / 學校社團",
-      "summary": "臺灣的口琴學校社團。",
-      "keywords": "中山醫藍韻口琴社 CSMU Blue Melody 口琴社",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://powerup.csmu.edu.tw/Act/act_Info/c75b7f5a-53e4-4bf9-b3d9-5af47d787fba"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/BMHarmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/csmu_bluemelody/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8%E8%97%8D%E9%9F%BB%E5%8F%A3%E7%90%B4"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@csmu_bluemelody"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "187-csmu-blue-melody",
-      "latestUpdateAt": "2026-09-14T06:52:14+00:00",
-      "latestUpdateLocal": "2026-09-14 14:52",
-      "latestUpdateSource": "中山醫藍韻口琴社",
-      "latestUpdateUrl": "https://www.threads.com/t/DdQiP5mD5KZ",
-      "avatarUrl": "/assets/source-avatars/c80a7a9dba8d47f96adb.webp",
-      "sourceInitials": "中山",
-      "sourceTags": [
-        "學生社團",
-        "大專社團"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_csmu_bmharmonica",
-          "name": "CSMU Blue Melody",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_csmu_bluemelody",
-          "name": "CSMU Blue Melody",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "csmu_bluemelody",
-          "profileUrl": "https://www.instagram.com/csmu_bluemelody/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_csmu_bluemelody",
-          "name": "中山醫藍韻口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "csmu_bluemelody",
-          "profileUrl": "https://www.instagram.com/csmu_bluemelody/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_csmu_bluemelody",
-          "name": "中山醫藍韻口琴社",
-          "platform": "threads",
-          "type": "rss",
-          "username": "csmu_bluemelody",
-          "profileUrl": "https://www.threads.net/@csmu_bluemelody",
-          "feedUrl": "https://rss.observe.tw/threads/csmu_bluemelody"
-        },
-        {
-          "id": "yt_10f4784559",
-          "name": "中山醫藍韻口琴社",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8%E8%97%8D%E9%9F%BB%E5%8F%A3%E7%90%B4",
           "feedUrl": ""
         }
       ]
