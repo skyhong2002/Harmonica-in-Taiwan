@@ -1,5 +1,5 @@
 window.HARMONICA_OBSERVE_DATA = {
-  "generatedAt": "2026-09-15",
+  "generatedAt": "2026-09-16",
   "entries": [
     {
       "id": "watchlist-58",
@@ -6449,7 +6449,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-31 23:35",
       "latestUpdateSource": "Lee Oskar",
       "latestUpdateUrl": "https://www.instagram.com/stories/leeoskarharmonicas/3975952663941528009/",
-      "avatarUrl": "/assets/source-avatars/417255f261ffbc78a8a0.webp",
+      "avatarUrl": "/assets/source-avatars/fbe0bfc07ec36f1d8268.webp",
       "sourceInitials": "LO",
       "sourceTags": [
         "品牌",
