@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 15 Sep 2026 17:07:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 17:41:15 +0000</lastBuildDate>
     <item>
       <title>南里沙</title>
       <link>https://minamirisa.com/</link>
@@ -27,6 +27,17 @@ Tag：協會、國際交流、半音階
 國家：德國
 地區：德國/特羅辛根
 德國的國際協會與資訊來源，關注德國口琴與手風琴協會、研習與合奏教育。</description>
+    </item>
+    <item>
+      <title>藍波口琴教室</title>
+      <link>https://www.blueboclass.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/208580c304c32492</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：教學器材、教學、課程
+國家：臺灣
+地區：臺灣
+臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。</description>
     </item>
     <item>
       <title>基隆社區大學就是吹口琴</title>
@@ -269,17 +280,6 @@ Tag：演奏者、團體樂團、教學
 國家：臺灣
 地區：臺灣
 臺灣的低音口琴與口琴演出人員與教學者，活動脈絡包含狂響口琴樂團、教學與地方推廣。</description>
-    </item>
-    <item>
-      <title>藍波口琴教室</title>
-      <link>https://www.blueboclass.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/208580c304c32492</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：教學器材、教學、課程
-國家：臺灣
-地區：臺灣
-臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。</description>
     </item>
     <item>
       <title>臺中國家歌劇院</title>

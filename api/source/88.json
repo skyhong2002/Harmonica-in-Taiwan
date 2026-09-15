@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T17:07:58.481957Z",
+  "generatedAt": "2026-09-15T17:41:15.210281Z",
   "source": {
     "id": 88,
     "slug": "bluebo-harmonica",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/88-bluebo-harmonica/"
   },
   "items": [
+    {
+      "id": "post-7a2e6da9f12924c91ec7c350",
+      "title": "飛鳥和蟬丨用十孔口琴詮釋爆紅金曲",
+      "excerpt": "飛鳥和蟬丨用十孔口琴詮釋爆紅金曲 文山口琴班的同學，這次挑戰了爆紅金曲-飛鳥和蟬，用靈巧的十孔口琴吹奏出那份帶有淡淡憂傷與思念的旋律。 十孔口琴雖然體積小巧，但要將《飛鳥和蟬》細膩的曲調流暢表達出來，非常考驗壓音（Bending）技巧與氣息控制。立屏同學在練習過程中花了不少心思調整音色，從起初的摸索到現在能順暢吹出動人的旋律，進步真的非常有目共睹！👏 「你驕傲的飛遠，我棲息的夏天……」當這首溫柔的曲子從口琴聲中流淌出來，是不是也讓你想起了某個夏天呢？ 快點開影片一起欣賞她的精彩演出吧！也別忘了在下方留言給她一點鼓勵與支持喔！👇✨ 文山社大口琴班(二)晚上",
+      "url": "https://www.youtube.com/watch?v=lkSWewPjhjw",
+      "sourceName": "藍波口琴教室",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-15T10:00:34Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/652d3a586ee4ee9cdabc.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-601b00cc16430fc31e01e015",
       "title": "聞笛丨中正社大半音階口琴班",
