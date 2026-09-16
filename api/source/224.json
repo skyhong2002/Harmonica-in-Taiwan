@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T21:55:33.102187Z",
+  "generatedAt": "2026-09-16T22:23:14.855517Z",
   "source": {
     "id": 224,
     "slug": "easttop-harmonicas",
@@ -32,20 +32,6 @@
       "publishedAt": "2026-08-25T11:54:47Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/126dbeff1687cd43585f.webp",
-        "width": 640,
-        "height": 360
-      }
-    },
-    {
-      "id": "post-b013bc32c1c203d4102232ec",
-      "title": "\"Song for Jessica\" with \"Rhapsody\" by @easttopharmonicas",
-      "excerpt": "\"Song for Jessica\" with \"Rhapsody\" by @easttopharmonicas Roy Rogers and Norton Buffalo, album R&B 🤟🇫🇷 @easttop.br @easttopsouthamerica @15852589728jsdf #easttopharmonica #harmonicachromatique #countryfolk",
-      "url": "https://www.instagram.com/p/DcJSAG6Rrx7/",
-      "sourceName": "Easttop Harmonicas",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-17T21:57:17Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/508d9d6a93cd4ddcbffa.webp",
         "width": 640,
         "height": 360
       }
