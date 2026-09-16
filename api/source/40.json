@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T23:35:19.748155Z",
+  "generatedAt": "2026-09-16T00:08:15.505084Z",
   "source": {
     "id": 40,
     "slug": "henry-chen",
@@ -200,20 +200,6 @@
       "publishedAt": "2026-08-18T16:00:06Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/b9cf202de13ea3db1d86.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-5d8f83bce875a54365daeca3",
-      "title": "【就是吹口琴Just Play Harmonica 】｜萬沙浪 – 娜奴娃情歌｜複音口琴Tremolo Harmonica 演奏版本《G調》",
-      "excerpt": "【就是吹口琴Just Play Harmonica 】｜萬沙浪 – 娜奴娃情歌｜複音口琴Tremolo Harmonica 演奏版本《G調》 娜奴娃情歌 古 月 作曲 田 雨 作詞 萬沙浪 原唱 複音口琴演奏版本《G調》",
-      "url": "https://www.youtube.com/watch?v=3BuWTI7vwTE",
-      "sourceName": "陳鴻儀",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-17T00:00:06Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/9718bec8a7440d8dd940.webp",
         "width": 800,
         "height": 450
       }
