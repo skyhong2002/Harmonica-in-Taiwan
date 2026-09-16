@@ -1,26 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T12:05:38.996801Z",
+  "generatedAt": "2026-09-16T12:34:15.102865Z",
   "source": {
     "id": 162,
     "slug": "harmonica-aficionados-society-singapore",
     "name": "口琴愛好者協會（新加坡）",
     "pageUrl": "https://harmonica.observe.tw/source/162-harmonica-aficionados-society-singapore/"
   },
-  "items": [
-    {
-      "id": "post-3436a1f95a54fc5ea0be81ed",
-      "title": "🎓 HAS Chromatic Harmonica Examination 2026 – Registration Now Open! 🎵",
-      "excerpt": "🎓 HAS Chromatic Harmonica Examination 2026 – Registration Now Open! 🎵 Set yourself a new goal and take the next step in your harmonica journey! Whether you are learning, progressing through the grades, or looking to challenge yourself, the examination is an opportunity to build…",
-      "url": "https://www.facebook.com/HARMONICAMUSICLOVERS/posts/pfbid02HUD4SHkJ1ps9tM96WawxAP94HMnwNzU2Rjktp6unKuzTXRj7681UH9Bo5ig6aEcfl",
-      "sourceName": "口琴愛好者協會（新加坡）",
-      "platform": "Facebook",
-      "publishedAt": "2026-08-17T12:17:50Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/ff5b2db30a30055ba5f1.webp",
-        "width": 443,
-        "height": 590
-      }
-    }
-  ]
+  "items": []
 }
