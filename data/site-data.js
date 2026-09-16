@@ -1078,6 +1078,52 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-308",
+      "publicId": "308",
+      "name": "Into The Harmonica 口琴學院",
+      "nameEn": "Into The Harmonica Academy",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "教學工作室",
+      "country": "韓國",
+      "region": "韓國/首爾",
+      "cityOrFocus": "成人口琴教學/教材/示範演奏/半音階/THMF交流",
+      "structuredSummary": "成人口琴教學/教材/示範演奏/半音階/THMF交流 / 半音階口琴 / 口琴教學機構/教材與影音來源",
+      "summary": "韓國的半音階口琴口琴教學機構與教材與影音來源，關注成人口琴教學、教材、示範演奏、半音階與THMF交流。",
+      "keywords": "인투더하모니카학원 Into The Harmonica Academy Seoul harmonica lesson Seokbeom Jang Jongseong Park THMF",
+      "links": [
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@INTOTHEHARMONICA"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "308-into-the-harmonica-academy",
+      "latestUpdateAt": "2026-09-16T10:00:03+00:00",
+      "latestUpdateLocal": "2026-09-16 18:00",
+      "latestUpdateSource": "Into The Harmonica 口琴學院",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=LO_Hg9i1FSE",
+      "avatarUrl": "/assets/source-avatars/into-the-harmonica.jpg",
+      "sourceInitials": "ITH",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "半音階"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_intotheharmonica",
+          "name": "Into The Harmonica 口琴學院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@INTOTHEHARMONICA",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-78",
       "publicId": "78",
       "name": "衛武營國家藝術文化中心",
@@ -11053,52 +11099,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "sabrinachen820",
           "profileUrl": "https://www.instagram.com/sabrinachen820/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-308",
-      "publicId": "308",
-      "name": "Into The Harmonica 口琴學院",
-      "nameEn": "Into The Harmonica Academy",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "教學工作室",
-      "country": "韓國",
-      "region": "韓國/首爾",
-      "cityOrFocus": "成人口琴教學/教材/示範演奏/半音階/THMF交流",
-      "structuredSummary": "成人口琴教學/教材/示範演奏/半音階/THMF交流 / 半音階口琴 / 口琴教學機構/教材與影音來源",
-      "summary": "韓國的半音階口琴口琴教學機構與教材與影音來源，關注成人口琴教學、教材、示範演奏、半音階與THMF交流。",
-      "keywords": "인투더하모니카학원 Into The Harmonica Academy Seoul harmonica lesson Seokbeom Jang Jongseong Park THMF",
-      "links": [
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@INTOTHEHARMONICA"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "308-into-the-harmonica-academy",
-      "latestUpdateAt": "2026-08-20T10:00:22+00:00",
-      "latestUpdateLocal": "2026-08-20 18:00",
-      "latestUpdateSource": "Into The Harmonica 口琴學院",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=lKwbgX5M6Mo",
-      "avatarUrl": "/assets/source-avatars/into-the-harmonica.jpg",
-      "sourceInitials": "ITH",
-      "sourceTags": [
-        "教學器材",
-        "教學",
-        "半音階"
-      ],
-      "monitorSources": [
-        {
-          "id": "yt_intotheharmonica",
-          "name": "Into The Harmonica 口琴學院",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@INTOTHEHARMONICA",
           "feedUrl": ""
         }
       ]

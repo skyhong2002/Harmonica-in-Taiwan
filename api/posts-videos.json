@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/posts-videos.xml",
   "json": "https://harmonica.observe.tw/api/posts-videos.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/posts-videos.json",
-  "count": 1277,
+  "count": 1280,
   "items": [
     {
       "title": "德國 Harmonica/Harmonika 協會 DHV｜Mundharmonika – DHV e.V. Startseite AMP 2027 Ausschreibung Online-Anmeldung Phase 1 Lande…",
@@ -1126,6 +1126,223 @@
         "貼文影片"
       ],
       "key": "x_minami_risa:https://twitter.com/minami_risa/status/2100192984105156641"
+    },
+    {
+      "title": "인투더하모니카학원 INTO THE HARMONICA｜[Into the Artist] 하모니시스트 Monica J | 악기, 비브라토, 그리고 연습 루틴 (Part.1) 독보적인 감수성과 섬세한 표현력으로 마음을 사…",
+      "headline": "[Into the Artist] 하모니시스트 Monica J | 악기, 비브라토, 그리고 연습 루틴 (Part.1)",
+      "display_title": "[Into the Artist] 하모니시스트 Monica J | 악기, 비브라토, 그리고 연습 루틴 (Part.1)",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=LO_Hg9i1FSE",
+      "source_id": "yt_intotheharmonica",
+      "source": "인투더하모니카학원 INTO THE HARMONICA",
+      "source_system_name": "Into The Harmonica 口琴學院",
+      "source_profile_url": "https://www.youtube.com/channel/UCWX3fJx9q88VquW_Idcc8aA",
+      "country": "韓國",
+      "region": "韓國/首爾",
+      "directory_entry_id": "watchlist-308",
+      "directory_entry_name": "Into The Harmonica 口琴學院",
+      "account": "https://www.youtube.com/channel/UCWX3fJx9q88VquW_Idcc8aA",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-09-16T10:00:03+00:00",
+      "posted_at_local": "2026-09-16 18:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-16T23:36:45.220385+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "影片"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.96,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴演奏者訪談影片，內容談口琴技巧與練習，屬公開更新且相關。",
+      "text": "[Into the Artist] 하모니시스트 Monica J | 악기, 비브라토, 그리고 연습 루틴 (Part.1)\n독보적인 감수성과 섬세한 표현력으로 마음을 사로잡는\n하모니시스트 Monica J 님을 모셨습니다.\n나만의 소리를 만드는 비브라토와 톤(Tone) 노하우부터 그녀만의 일상 연습 루틴,\n그리고 슬럼프를 극복해낸 진솔한 순간들까지!\n그 어디서도 듣지 못했던 Monica J 님의 음악 인생과 비하인드 스토리가 펼쳐집니다.\n하모니카를 사랑하는 분들뿐만 아니라, 음악을 사랑하는 모든 분들께 깊은 울림을 줄 이번 인터뷰는 총 2부작으로 진행되며, 오늘은 그 첫 번째 이야기입니다. 재미있게 시청해 주세요!\n✨ 모니카 J 연주자 프로필 & 활동 더 보기:\nhttps://www.instagram.com/monicaaa__j\n🎵 인투더하모니카 채널 구독하기:\nhttps://www.youtube.com/@UCWX3fJx9q88VquW_Idcc8aA\n00:00 인트로\n00:38 모니카 J\n1:46 MONICA J님의 비브라토는 어떻게 만들어졌나요?\n3:39 'Tone'을 만들기 위해서 노력하시는 부분이 있으실까요?\n4:47 연습 루틴은 어떻게 되시나요?\n6:40 MONICA J님의 악기에 대해서\n10:03 슬럼프가 있으셨나요?",
+      "images": [
+        "https://i.ytimg.com/vi/LO_Hg9i1FSE/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/LO_Hg9i1FSE/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/3fcb3ea151c2c56750e8.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_kkxDRJ6boAixPb6yvssBwjY_75BiJR-C-S9ytkffbINA=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/a5fdbd6d9f61d8e0562a.webp",
+      "source_initials": "ITH",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "yt_intotheharmonica:LO_Hg9i1FSE"
+    },
+    {
+      "title": "인투더하모니카학원 INTO THE HARMONICA｜듣자마자 명장면이 떠오르는 타이타닉 OST | Monica J - 'My Heart Will Go On' 안녕하세요, 인투더하모니카입니다. 깊은 감수성과 섬세한 …",
+      "headline": "듣자마자 명장면이 떠오르는 타이타닉 OST | Monica J - 'My Heart Will Go On'",
+      "display_title": "듣자마자 명장면이 떠오르는 타이타닉 OST | Monica J - 'My Heart Will Go On'",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=ILL-5s9VmcE",
+      "source_id": "yt_intotheharmonica",
+      "source": "인투더하모니카학원 INTO THE HARMONICA",
+      "source_system_name": "Into The Harmonica 口琴學院",
+      "source_profile_url": "https://www.youtube.com/channel/UCWX3fJx9q88VquW_Idcc8aA",
+      "country": "韓國",
+      "region": "韓國/首爾",
+      "directory_entry_id": "watchlist-308",
+      "directory_entry_name": "Into The Harmonica 口琴學院",
+      "account": "https://www.youtube.com/channel/UCWX3fJx9q88VquW_Idcc8aA",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-09-16T09:59:28+00:00",
+      "posted_at_local": "2026-09-16 17:59",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-16T23:36:45.220385+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "影片",
+        "演出"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "影片",
+        "演出"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴學院發布口琴演奏影片，介紹演奏者與曲目，屬公開更新且與口琴相關。",
+      "text": "듣자마자 명장면이 떠오르는 타이타닉 OST | Monica J - 'My Heart Will Go On'\n안녕하세요, 인투더하모니카입니다.\n깊은 감수성과 섬세한 표현력으로 마음을 사로잡는 하모니시스트 모니카 J 님의 아름다운 호흡이 담긴 곡 'My Heart Will Go On'을 소개해 드립니다.\n영화 타이타닉의 진한 감동과 명장면의 아련한 여운을 작은 하모니카 하나로 완벽하게 표현해 낸 무대. 아름다운 선율 속에 녹아든 그녀의 깊은 몰입과 감성에 빠져보세요.\n반복되는 일상 속에서 가슴 벅찬 감동과 따뜻한 위로가 필요할 때, 모니카 J 님의 음악으로 특별한 순간을 경험해 보세요.\n#모니카J #하모니카 #MyHeartWillGoOn #타이타닉 #하모니시스트 #타이타닉OST #하모니카연주 #연주곡 #monicaj",
+      "images": [
+        "https://i.ytimg.com/vi/ILL-5s9VmcE/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/ILL-5s9VmcE/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/2c3d54a9ae6254fefcae.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_kkxDRJ6boAixPb6yvssBwjY_75BiJR-C-S9ytkffbINA=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/a5fdbd6d9f61d8e0562a.webp",
+      "source_initials": "ITH",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "yt_intotheharmonica:ILL-5s9VmcE"
+    },
+    {
+      "title": "인투더하모니카학원 INTO THE HARMONICA｜깊은 울림으로 전하는 희망의 선율 | Monica J - '이젠 그랬으면 좋겠네' 안녕하세요, 인투더하모니카입니다. 깊은 감수성과 섬세한 표현력으로 마음을 사로잡…",
+      "headline": "깊은 울림으로 전하는 희망의 선율 | Monica J - '이젠 그랬으면 좋겠네'",
+      "display_title": "깊은 울림으로 전하는 희망의 선율 | Monica J - '이젠 그랬으면 좋겠네'",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=LpxCt6MWIps",
+      "source_id": "yt_intotheharmonica",
+      "source": "인투더하모니카학원 INTO THE HARMONICA",
+      "source_system_name": "Into The Harmonica 口琴學院",
+      "source_profile_url": "https://www.youtube.com/channel/UCWX3fJx9q88VquW_Idcc8aA",
+      "country": "韓國",
+      "region": "韓國/首爾",
+      "directory_entry_id": "watchlist-308",
+      "directory_entry_name": "Into The Harmonica 口琴學院",
+      "account": "https://www.youtube.com/channel/UCWX3fJx9q88VquW_Idcc8aA",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-09-16T09:59:20+00:00",
+      "posted_at_local": "2026-09-16 17:59",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-16T23:36:45.220385+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "影片",
+        "演出"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "影片",
+        "演出"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴學院發布口琴演奏影片，介紹演奏者與曲目，屬公開更新且與口琴直接相關。",
+      "text": "깊은 울림으로 전하는 희망의 선율 | Monica J - '이젠 그랬으면 좋겠네'\n안녕하세요, 인투더하모니카입니다.\n깊은 감수성과 섬세한 표현력으로 마음을 사로잡는 하모니시스트 모니카 J 님의 아름다운 호흡이 담긴 곡 '이젠 그랬으면 좋겠네'를 소개해 드립니다.\n지친 마음을 따뜻하게 다독이는 멜로디와 깊은 여운을 작은 하모니카 하나로 완벽하게 표현해 낸 무대. 아름다운 선율 속에 녹아든 그녀의 깊은 몰입과 감성에 빠져보세요.\n반복되는 일상 속에서 가슴 따뜻한 위로와 희망의 울림이 필요할 때, 모니카 J 님의 음악으로 특별한 순간을 경험해 보세요.\n#모니카J #하모니카 #이젠그랬으면좋겠네 #조용필 #하모니시스트 #하모니카연주 #연주곡 #희망의선율 #MonicaJ",
+      "images": [
+        "https://i.ytimg.com/vi_webp/LpxCt6MWIps/maxresdefault.webp"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi_webp/LpxCt6MWIps/maxresdefault.webp",
+      "image_url": "/assets/feed-images/450359215d7e28287095.webp",
+      "image_width": 1280,
+      "image_height": 720,
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_kkxDRJ6boAixPb6yvssBwjY_75BiJR-C-S9ytkffbINA=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/a5fdbd6d9f61d8e0562a.webp",
+      "source_initials": "ITH",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "yt_intotheharmonica:LpxCt6MWIps"
     },
     {
       "title": "衛武營國家藝術文化中心 weiwuying_centerforthearts｜臺灣現代音樂的啟蒙老師—許常惠 代表性大型作品一次齊聚；指揮簡文彬率領頂尖演出陣容，見證臺灣音樂史巔峰的珍貴時刻 「許常惠逝世25週年紀念音樂會」由指揮簡文彬領…",
