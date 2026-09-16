@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T16:03:06.145772Z",
+  "generatedAt": "2026-09-16T16:10:18.285560Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/115-filip-jers/"
   },
   "items": [
+    {
+      "id": "post-6c2e0d6fae5c38d3667526d5",
+      "title": "Jazz Harmonica & Guitar – Filip Jers & Emil Ernebro | \"I found a new baby\" - Live recording",
+      "excerpt": "Jazz Harmonica & Guitar – Filip Jers & Emil Ernebro | \"I found a new baby\" - Live recording Live video from 15 of September 2026, filmed at Utopia Jazz Club in Gothenburg. Great times playing with @EmilErnebroGuitar I am using a 16 hole chromatic harmonica in this video. --- Joi…",
+      "url": "https://www.youtube.com/watch?v=7qihPfTKHz0",
+      "sourceName": "Filip Jers",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-16T13:10:17Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/fd230008549bb72f55e3.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-d6e7dfa171e09dd96218f439",
       "title": "harmonica warm-up: the first thing i played today",
