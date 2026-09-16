@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T16:10:18.285560Z",
+  "generatedAt": "2026-09-16T16:37:36.491021Z",
   "source": {
     "id": 33,
     "slug": "33",
@@ -32,20 +32,6 @@
       "publishedAt": "2026-08-18T12:00:07Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/9f32bfab9a4d6e761294.webp",
-        "width": 800,
-        "height": 1423
-      }
-    },
-    {
-      "id": "post-08eac36a31ed897ba55fe902",
-      "title": "Sometimes, one performance changes the way you hear an instrument forever. 🎶",
-      "excerpt": "Sometimes, one performance changes the way you hear an instrument forever. 🎶 For Jamey Garner, seeing country harmonica player Tim Beattie opened up a whole new world of what the harmonica could be. Hear more from Jamey in his full HOHNER Artist Spotlight on YouTube at the link…",
-      "url": "https://www.instagram.com/p/DcJedHNGTHm/",
-      "sourceName": "黃冠誌",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-17T16:33:30Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/ae15cadc64f41d955181.webp",
         "width": 800,
         "height": 1423
       }
