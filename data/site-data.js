@@ -3469,7 +3469,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-06 06:10",
       "latestUpdateSource": "Trio Animato",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=n0hMq1kStsY",
-      "avatarUrl": "/assets/source-avatars/c7a7842de365e0d36cc2.webp",
+      "avatarUrl": "/assets/source-avatars/fb0007a207524f8f411d.webp",
       "sourceInitials": "TA",
       "sourceTags": [
         "活動資訊",
