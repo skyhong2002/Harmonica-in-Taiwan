@@ -2,6 +2,117 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-09-16",
   "entries": [
     {
+      "id": "watchlist-9",
+      "publicId": "9",
+      "name": "李讓 Jang Li",
+      "nameEn": "Jang Li",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "半音階/十孔/作曲/配樂/跨界",
+      "structuredSummary": "半音階/十孔/作曲/配樂/跨界 / 半音階/十孔 / 演出人員",
+      "summary": "Harmonica music virtuoso performer,composer,and educator from TAIWAN🎵\nChampions Winner of WHF2009&2013🌟\nDouble Awards winner of ICCCH2021🌟\nNew Video⬇️. See the latest...",
+      "keywords": "李讓 Jang Li",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://jangliharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Jang.Li.Harmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jangli_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/jangliharmonica"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/JangLiHarmonica"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@jangli_harmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "9-jang-li",
+      "latestUpdateAt": "2026-09-16T01:23:09+00:00",
+      "latestUpdateLocal": "2026-09-16 09:23",
+      "latestUpdateSource": "李讓 Jang Li",
+      "latestUpdateUrl": "https://www.threads.com/t/DdVGLWeEwX1",
+      "avatarUrl": "/assets/source-avatars/c26c422f025773d36858.webp",
+      "sourceInitials": "JL",
+      "sourceTags": [
+        "演奏者"
+      ],
+      "sourceSummary": "Harmonica music virtuoso performer,composer,and educator from TAIWAN🎵\nChampions Winner of WHF2009&2013🌟\nDouble Awards winner of ICCCH2021🌟\nNew Video⬇️. See the latest...",
+      "sourceTagReason": "手動自 Threads 個人簡介匯入。",
+      "monitorSources": [
+        {
+          "id": "fb_jang_li_harmonica",
+          "name": "李讓 Jang Li",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Jang.Li.Harmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_jangli_harmonica",
+          "name": "李讓 Jang Li",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "jangli_harmonica",
+          "profileUrl": "https://www.instagram.com/jangli_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_jangli_harmonica",
+          "name": "李讓 Jang Li",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "jangli_harmonica",
+          "profileUrl": "https://www.instagram.com/jangli_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_jangli_harmonica",
+          "name": "李讓 Jang Li",
+          "platform": "threads",
+          "type": "rss",
+          "username": "jangli_harmonica",
+          "profileUrl": "https://www.threads.net/@jangli_harmonica",
+          "feedUrl": "https://rss.observe.tw/threads/jangli_harmonica"
+        },
+        {
+          "id": "x_jangliharmonica",
+          "name": "李讓 Jang Li",
+          "platform": "x",
+          "type": "rss",
+          "username": "JangLiHarmonica",
+          "profileUrl": "https://x.com/JangLiHarmonica",
+          "feedUrl": "https://rss.observe.tw/twitter/user/JangLiHarmonica"
+        },
+        {
+          "id": "yt_jangliharmonica",
+          "name": "李讓 Jang Li",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/jangliharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-58",
       "publicId": "58",
       "name": "南里沙",
@@ -3055,117 +3166,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-9",
-      "publicId": "9",
-      "name": "李讓 Jang Li",
-      "nameEn": "Jang Li",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "半音階/十孔/作曲/配樂/跨界",
-      "structuredSummary": "半音階/十孔/作曲/配樂/跨界 / 半音階/十孔 / 演出人員",
-      "summary": "Harmonica music virtuoso performer,composer,and educator from TAIWAN🎵\nChampions Winner of WHF2009&2013🌟\nDouble Awards winner of ICCCH2021🌟\nNew Video⬇️. See the latest...",
-      "keywords": "李讓 Jang Li",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://jangliharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Jang.Li.Harmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/jangli_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/jangliharmonica"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/JangLiHarmonica"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@jangli_harmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "9-jang-li",
-      "latestUpdateAt": "2026-09-06T14:22:34+00:00",
-      "latestUpdateLocal": "2026-09-06 22:22",
-      "latestUpdateSource": "李讓 Jang Li",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=W2LxzYiaKEw",
-      "avatarUrl": "/assets/source-avatars/c26c422f025773d36858.webp",
-      "sourceInitials": "JL",
-      "sourceTags": [
-        "演奏者"
-      ],
-      "sourceSummary": "Harmonica music virtuoso performer,composer,and educator from TAIWAN🎵\nChampions Winner of WHF2009&2013🌟\nDouble Awards winner of ICCCH2021🌟\nNew Video⬇️. See the latest...",
-      "sourceTagReason": "手動自 Threads 個人簡介匯入。",
-      "monitorSources": [
-        {
-          "id": "fb_jang_li_harmonica",
-          "name": "李讓 Jang Li",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Jang.Li.Harmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_jangli_harmonica",
-          "name": "李讓 Jang Li",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "jangli_harmonica",
-          "profileUrl": "https://www.instagram.com/jangli_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_jangli_harmonica",
-          "name": "李讓 Jang Li",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "jangli_harmonica",
-          "profileUrl": "https://www.instagram.com/jangli_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_jangli_harmonica",
-          "name": "李讓 Jang Li",
-          "platform": "threads",
-          "type": "rss",
-          "username": "jangli_harmonica",
-          "profileUrl": "https://www.threads.net/@jangli_harmonica",
-          "feedUrl": "https://rss.observe.tw/threads/jangli_harmonica"
-        },
-        {
-          "id": "x_jangliharmonica",
-          "name": "李讓 Jang Li",
-          "platform": "x",
-          "type": "rss",
-          "username": "JangLiHarmonica",
-          "profileUrl": "https://x.com/JangLiHarmonica",
-          "feedUrl": "https://rss.observe.tw/twitter/user/JangLiHarmonica"
-        },
-        {
-          "id": "yt_jangliharmonica",
-          "name": "李讓 Jang Li",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/jangliharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-10",
       "publicId": "10",
       "name": "林家靖 Rolabo Lin",
@@ -4761,7 +4761,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-01 20:59",
       "latestUpdateSource": "Evelyn Choong 鍾雪兒",
       "latestUpdateUrl": "https://www.instagram.com/stories/evelyn_harmonica/3976599093732600083/",
-      "avatarUrl": "/assets/source-avatars/8e51838862420be489c7.webp",
+      "avatarUrl": "/assets/source-avatars/0adc774595e158a08e98.webp",
       "sourceInitials": "EC",
       "sourceTags": [
         "演奏者",
