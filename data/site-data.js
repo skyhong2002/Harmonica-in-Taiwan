@@ -7685,7 +7685,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-30 21:48",
       "latestUpdateSource": "蔡明憲",
       "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3975174060992244965/",
-      "avatarUrl": "/assets/source-avatars/6cd5815ea68316e4a3ff.webp",
+      "avatarUrl": "/assets/source-avatars/1c9b1ac0cf055d33f82b.webp",
       "sourceInitials": "蔡明",
       "sourceTags": [
         "演奏者",
