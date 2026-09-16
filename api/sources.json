@@ -924,6 +924,54 @@
       ]
     },
     {
+      "id": "watchlist-323",
+      "publicId": "323",
+      "name": "日本ハーモニカまつり",
+      "nameEn": "Japan Harmonica Festival",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "活動/資訊入口",
+      "country": "日本",
+      "region": "日本/東京/代代木",
+      "cityOrFocus": "日本ハーモニカ芸術協会主辦/2027年4月23日至24日於國立奧林匹克紀念青少年綜合中心舉行/紀念口琴誕生200周年與佐藤秀廊世界大會優勝100周年/演奏、研修與交流",
+      "structuredSummary": "日本ハーモニカ芸術協会主辦/2027年4月23日至24日於國立奧林匹克紀念青少年綜合中心舉行/紀念口琴誕生200周年與佐藤秀廊世界大會優勝100周年/演奏、研修與交流 / 複音口琴/口琴合奏 / 國際音樂節/活動公告與報名資訊來源",
+      "summary": "日本ハーモニカまつり是JHAA主辦的日本口琴節；2027年4月23日至24日於東京代代木舉行，紀念口琴誕生200周年。",
+      "keywords": "日本ハーモニカまつり Japan Harmonica Festival 2027 JHAA 日本ハーモニカ芸術協会 代々木 國立奧林匹克紀念青少年綜合中心 口琴200周年 佐藤秀廊",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://jhaa.info/topics/index.html"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "323-japan-harmonica-festival",
+      "latestUpdateAt": "2026-09-16T01:21:58+00:00",
+      "latestUpdateLocal": "2026-09-16 09:21",
+      "latestUpdateSource": "日本ハーモニカまつり",
+      "latestUpdateUrl": "https://jhaa.info/topics/index.html",
+      "avatarUrl": "/assets/source-avatars/875263853804cee31233.webp",
+      "sourceInitials": "日本",
+      "sourceTags": [
+        "活動資訊",
+        "音樂節",
+        "國際交流"
+      ],
+      "sourceSummary": "日本ハーモニカまつり是JHAA主辦的日本口琴節；2027年4月23日至24日於東京代代木舉行，紀念口琴誕生200周年。",
+      "sourceTagReason": "依日本ハーモニカ芸術協会官方公告與兩日活動日程確認活動名稱、主辦單位、日期、地點及紀念主題。",
+      "monitorSources": [
+        {
+          "id": "web_323",
+          "name": "日本ハーモニカまつり",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://jhaa.info/topics/index.html",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-299",
       "publicId": "299",
       "name": "基隆社區大學就是吹口琴",
@@ -3000,54 +3048,6 @@
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "http://www.cmia.com.cn/qydt/11674.html",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-323",
-      "publicId": "323",
-      "name": "日本ハーモニカまつり",
-      "nameEn": "Japan Harmonica Festival",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "活動/資訊入口",
-      "country": "日本",
-      "region": "日本/東京/代代木",
-      "cityOrFocus": "日本ハーモニカ芸術協会主辦/2027年4月23日至24日於國立奧林匹克紀念青少年綜合中心舉行/紀念口琴誕生200周年與佐藤秀廊世界大會優勝100周年/演奏、研修與交流",
-      "structuredSummary": "日本ハーモニカ芸術協会主辦/2027年4月23日至24日於國立奧林匹克紀念青少年綜合中心舉行/紀念口琴誕生200周年與佐藤秀廊世界大會優勝100周年/演奏、研修與交流 / 複音口琴/口琴合奏 / 國際音樂節/活動公告與報名資訊來源",
-      "summary": "日本ハーモニカまつり是JHAA主辦的日本口琴節；2027年4月23日至24日於東京代代木舉行，紀念口琴誕生200周年。",
-      "keywords": "日本ハーモニカまつり Japan Harmonica Festival 2027 JHAA 日本ハーモニカ芸術協会 代々木 國立奧林匹克紀念青少年綜合中心 口琴200周年 佐藤秀廊",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://jhaa.info/topics/index.html"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "323-japan-harmonica-festival",
-      "latestUpdateAt": "2026-09-08T01:15:38+00:00",
-      "latestUpdateLocal": "2026-09-08 09:15",
-      "latestUpdateSource": "日本ハーモニカまつり",
-      "latestUpdateUrl": "https://jhaa.info/topics/index.html",
-      "avatarUrl": "/assets/source-avatars/875263853804cee31233.webp",
-      "sourceInitials": "日本",
-      "sourceTags": [
-        "活動資訊",
-        "音樂節",
-        "國際交流"
-      ],
-      "sourceSummary": "日本ハーモニカまつり是JHAA主辦的日本口琴節；2027年4月23日至24日於東京代代木舉行，紀念口琴誕生200周年。",
-      "sourceTagReason": "依日本ハーモニカ芸術協会官方公告與兩日活動日程確認活動名稱、主辦單位、日期、地點及紀念主題。",
-      "monitorSources": [
-        {
-          "id": "web_323",
-          "name": "日本ハーモニカまつり",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://jhaa.info/topics/index.html",
           "feedUrl": ""
         }
       ]
