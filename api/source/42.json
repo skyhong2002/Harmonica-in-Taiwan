@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T13:51:26.442155Z",
+  "generatedAt": "2026-09-16T14:18:44.693957Z",
   "source": {
     "id": 42,
     "slug": "hsin-ho-wang",
@@ -76,20 +76,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/05d422732da4b790ffdb.webp",
         "width": 800,
         "height": 1067
-      }
-    },
-    {
-      "id": "post-2cbb3a86f6dd1803c32be6cc",
-      "title": "【Cover | Jess Lee李佳薇 - strangers甲乙丙丁】",
-      "excerpt": "【Cover | Jess Lee李佳薇 - strangers甲乙丙丁】 #harmonica #cover #jesslee #李佳薇 #甲乙丙丁",
-      "url": "https://www.instagram.com/p/DcJNB71zQQ8/",
-      "sourceName": "王心禾",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-17T14:02:49Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/632ad809e435d67f2c97.webp",
-        "width": 800,
-        "height": 1423
       }
     }
   ]
