@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 16 Sep 2026 13:44:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 13:51:27 +0000</lastBuildDate>
     <item>
       <title>南里沙</title>
       <link>https://minamirisa.com/</link>
@@ -205,6 +205,17 @@ Tag：團體樂團
 臺灣的口琴合奏演出團體，活動脈絡包含1998成立、THE-22與合奏。</description>
     </item>
     <item>
+      <title>臺中國家歌劇院</title>
+      <link>https://www.npac-ntt.org/index</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/3bda2c9a244d309c</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/臺中
+臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
       <title>新竹縣文化局</title>
       <link>https://www.hchcc.gov.tw/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/764c874d5d511c0a</guid>
@@ -313,17 +324,6 @@ Tag：演奏者、團體樂團、教學
 國家：臺灣
 地區：臺灣
 臺灣的低音口琴與口琴演出人員與教學者，活動脈絡包含狂響口琴樂團、教學與地方推廣。</description>
-    </item>
-    <item>
-      <title>臺中國家歌劇院</title>
-      <link>https://www.npac-ntt.org/index</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/3bda2c9a244d309c</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/臺中
-臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>東方口琴博物館</title>
