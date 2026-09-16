@@ -71,6 +71,52 @@
   },
   "entries": [
     {
+      "id": "watchlist-175",
+      "publicId": "175",
+      "name": "德國 Harmonica/Harmonika 協會 DHV",
+      "nameEn": "Deutscher Harmonika-Verband e.V.",
+      "category": "國際交流",
+      "type": "協會",
+      "originalType": "協會",
+      "country": "德國",
+      "region": "德國/特羅辛根",
+      "cityOrFocus": "德國口琴與手風琴協會/Mundharmonika/研習/合奏教育",
+      "structuredSummary": "德國口琴與手風琴協會/Mundharmonika/研習/合奏教育 / Mundharmonika/半音階/低音/和弦口琴 / 國際協會/資訊來源",
+      "summary": "德國的國際協會與資訊來源，關注德國口琴與手風琴協會、研習與合奏教育。",
+      "keywords": "Deutscher Harmonika-Verband DHV Mundharmonika Chromonica harmonica Germany",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.dhv-ev.de/mundharmonika/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "175-deutscher-harmonika-verband-e-v",
+      "latestUpdateAt": "2026-09-16T11:19:24.099794+00:00",
+      "latestUpdateLocal": "2026-09-16 19:19",
+      "latestUpdateSource": "德國 Harmonica/Harmonika 協會 DHV",
+      "latestUpdateUrl": "https://www.dhv-ev.de/mundharmonika/",
+      "avatarUrl": "/assets/source-avatars/2c731f4548fe7ed5241e.webp",
+      "sourceInitials": "HHD",
+      "sourceTags": [
+        "協會",
+        "國際交流",
+        "半音階"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_175",
+          "name": "德國 Harmonica/Harmonika 協會 DHV",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://www.dhv-ev.de/mundharmonika",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-299",
       "publicId": "299",
       "name": "基隆社區大學就是吹口琴",
@@ -1070,52 +1116,6 @@
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "https://jhaa.info/topics/index.html",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-175",
-      "publicId": "175",
-      "name": "德國 Harmonica/Harmonika 協會 DHV",
-      "nameEn": "Deutscher Harmonika-Verband e.V.",
-      "category": "國際交流",
-      "type": "協會",
-      "originalType": "協會",
-      "country": "德國",
-      "region": "德國/特羅辛根",
-      "cityOrFocus": "德國口琴與手風琴協會/Mundharmonika/研習/合奏教育",
-      "structuredSummary": "德國口琴與手風琴協會/Mundharmonika/研習/合奏教育 / Mundharmonika/半音階/低音/和弦口琴 / 國際協會/資訊來源",
-      "summary": "德國的國際協會與資訊來源，關注德國口琴與手風琴協會、研習與合奏教育。",
-      "keywords": "Deutscher Harmonika-Verband DHV Mundharmonika Chromonica harmonica Germany",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.dhv-ev.de/mundharmonika/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "175-deutscher-harmonika-verband-e-v",
-      "latestUpdateAt": "2026-09-15T10:32:40.649815+00:00",
-      "latestUpdateLocal": "2026-09-15 18:32",
-      "latestUpdateSource": "德國 Harmonica/Harmonika 協會 DHV",
-      "latestUpdateUrl": "https://www.dhv-ev.de/mundharmonika/",
-      "avatarUrl": "/assets/source-avatars/2c731f4548fe7ed5241e.webp",
-      "sourceInitials": "HHD",
-      "sourceTags": [
-        "協會",
-        "國際交流",
-        "半音階"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_175",
-          "name": "德國 Harmonica/Harmonika 協會 DHV",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://www.dhv-ev.de/mundharmonika",
           "feedUrl": ""
         }
       ]
