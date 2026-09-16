@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T10:47:01.785458Z",
+  "generatedAt": "2026-09-16T10:55:59.743488Z",
   "source": {
     "id": 40,
     "slug": "henry-chen",
@@ -8,6 +8,34 @@
     "pageUrl": "https://harmonica.observe.tw/source/40-henry-chen/"
   },
   "items": [
+    {
+      "id": "post-452ff8776949c26490a329aa",
+      "title": "【就是吹口琴Just Play Harmonica 】｜沈文程 – 舊情也綿綿｜複音口琴Tremolo Harmonica 演奏版本《C調》",
+      "excerpt": "【就是吹口琴Just Play Harmonica 】｜沈文程 – 舊情也綿綿｜複音口琴Tremolo Harmonica 演奏版本《C調》 舊情也綿綿 沈文程 作曲 沈文程 作詞 沈文程 原唱 複音口琴演奏版本《C調》",
+      "url": "https://www.youtube.com/watch?v=yj2zkt3M4qc",
+      "sourceName": "陳鴻儀",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-16T09:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ccd74db708c0fc53f892.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-660ca06d856b63a2fdaa1a17",
+      "title": "【公益活動】｜凝望、真的好想你、香港之夜｜基隆社大就是吹口琴重合奏班",
+      "excerpt": "【公益活動】｜凝望、真的好想你、香港之夜｜基隆社大就是吹口琴重合奏班 1150908【就是吹口琴】重合奏班演出",
+      "url": "https://www.youtube.com/watch?v=VJReM-hFquY",
+      "sourceName": "陳鴻儀",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-16T00:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/84266f4791c77f9fd24e.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-e074e7638873cb3649defed7",
       "title": "【就是吹口琴Just Play Harmonica 】｜The Carpenters – Yesterday Once More ( 昨日重現 )｜複音口琴Tremolo Harm.演奏版本《A調》",
