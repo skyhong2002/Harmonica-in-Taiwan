@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T21:06:19.187387Z",
+  "generatedAt": "2026-09-17T21:25:45.293272Z",
   "source": {
     "id": 76,
     "slug": "76",
@@ -8,6 +8,34 @@
     "pageUrl": "https://harmonica.observe.tw/source/76/"
   },
   "items": [
+    {
+      "id": "post-d2cf7a2b29bd98bdea6f094e",
+      "title": "書畫雙傑‧墨藝新象—賴煥琳、李登勝創作雙個展 李登勝書畫創作紀錄片",
+      "excerpt": "書畫雙傑‧墨藝新象—賴煥琳、李登勝創作雙個展 李登勝書畫創作紀錄片 多年創作歷程中，李登勝老師始終以筆墨為核心，在傳統與個人創作之間不斷尋找自己的語言。 本次「書畫雙傑．墨藝新象—賴煥琳、李登勝創作雙個展」，李登勝老師以「筆歌墨舞」為主題，展出神明造像、文人仕女等作品，在工筆與寫意之間自由轉換，讓筆墨如歌、如舞，展現深厚的傳統繪畫底蘊。 透過紀錄片走進李登勝老師的創作世界，帶領觀眾看見一位藝術家如何以筆墨延續傳統，也在歲月累積中形成獨具個人特色的藝術面貌。",
+      "url": "https://www.youtube.com/watch?v=twYj2ZL6b3Y",
+      "sourceName": "新竹縣文化局",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-17T08:12:42Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/95f718cc8f62c9b399fb.webp",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "id": "post-c3f153f2ebe4012372ffb873",
+      "title": "書畫雙傑‧墨藝新象—賴煥琳、李登勝創作雙個展 賴煥琳書法創作紀錄片",
+      "excerpt": "書畫雙傑‧墨藝新象—賴煥琳、李登勝創作雙個展 賴煥琳書法創作紀錄片 本次「書畫雙傑．墨藝新象—賴煥琳、李登勝創作雙個展」中，賴煥琳校長以「筆之續舞」為主題，延續「筆之舞」、「筆之再舞」的創作脈絡，從「懷舊、客語、墨彩、筆舞」四個系列出發，將記憶、鄉土、生活與筆墨交織於作品之中。 透過紀錄片走近賴煥琳校長的創作與生活，透過藝術家的自述、創作現場與作品，回望一路走來的書藝歷程，也看見一位藝術家如何在傳統與生活之間持續書寫、持續探索的歷程。",
+      "url": "https://www.youtube.com/watch?v=IvaHCnGfaHc",
+      "sourceName": "新竹縣文化局",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-17T08:05:43Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/5337d2bbcd2da2bfeb42.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-1a002eafe6fd896d1b328c2e",
       "title": "文科客家諺語教室L415【感受您个燒暖，記心田】",
