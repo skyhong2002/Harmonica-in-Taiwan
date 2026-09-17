@@ -61,6 +61,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/86-ou-frog/</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/78/</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -242,12 +248,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/4-judy-s-harmonica-ensemble/</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/86-ou-frog/</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2361,6 +2361,12 @@
   <url>
     <loc>https://harmonica.observe.tw/event/d8cd144edb7b64bd/</loc>
     <lastmod>2026-08-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/event/96e415d45dce4236/</loc>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>

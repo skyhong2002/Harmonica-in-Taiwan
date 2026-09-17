@@ -2,6 +2,56 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-09-17",
   "entries": [
     {
+      "id": "watchlist-86",
+      "publicId": "86",
+      "name": "吹出好心琴 + Ou Frog",
+      "nameEn": "Ou Frog",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "教學/影片來源",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴教學影片/示範",
+      "structuredSummary": "口琴教學影片/示範 / 口琴 / 教學影片來源",
+      "summary": "臺灣的口琴教學影片來源，關注口琴教學影片與示範。",
+      "keywords": "吹出好心琴 Ou Frog 口琴 教學 YouTube",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@oufrog"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "86-ou-frog",
+      "latestUpdateAt": "2026-09-17T04:00:31+00:00",
+      "latestUpdateLocal": "2026-09-17 12:00",
+      "latestUpdateSource": "吹出好心琴 + Ou Frog",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=2l3zyQ7QnfY",
+      "avatarUrl": "/assets/source-avatars/2241bd394301b93492ed.webp",
+      "sourceInitials": "OF",
+      "sourceTags": [
+        "品牌",
+        "教學器材",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_oufrog",
+          "name": "吹出好心琴 + Ou Frog",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@oufrog",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-78",
       "publicId": "78",
       "name": "衛武營國家藝術文化中心",
@@ -1895,7 +1945,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-15 16:46",
       "latestUpdateSource": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
       "latestUpdateUrl": "https://www.threads.com/t/DdTUGNxmvjl",
-      "avatarUrl": "/assets/source-avatars/94078177897f59538292.webp",
+      "avatarUrl": "/assets/source-avatars/ca4a71ecb89e0cc376e4.webp",
       "sourceInitials": "JSH",
       "sourceTags": [
         "團體樂團",
@@ -1948,56 +1998,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@JudysHarmonicaEnsemble",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-86",
-      "publicId": "86",
-      "name": "吹出好心琴 + Ou Frog",
-      "nameEn": "Ou Frog",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "教學/影片來源",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴教學影片/示範",
-      "structuredSummary": "口琴教學影片/示範 / 口琴 / 教學影片來源",
-      "summary": "臺灣的口琴教學影片來源，關注口琴教學影片與示範。",
-      "keywords": "吹出好心琴 Ou Frog 口琴 教學 YouTube",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@oufrog"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "86-ou-frog",
-      "latestUpdateAt": "2026-09-15T04:00:24+00:00",
-      "latestUpdateLocal": "2026-09-15 12:00",
-      "latestUpdateSource": "吹出好心琴 + Ou Frog",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=-Af1o1UkrqQ",
-      "avatarUrl": "/assets/source-avatars/2241bd394301b93492ed.webp",
-      "sourceInitials": "OF",
-      "sourceTags": [
-        "品牌",
-        "教學器材",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "yt_oufrog",
-          "name": "吹出好心琴 + Ou Frog",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@oufrog",
           "feedUrl": ""
         }
       ]

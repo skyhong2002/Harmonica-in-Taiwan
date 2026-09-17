@@ -7,8 +7,90 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 308,
+  "count": 309,
   "items": [
+    {
+      "title": "吹出好心琴 + Ou Frog +｜[口琴音樂會＿風城show琴] ｜狂響口琴樂團｜Ausencia Infinita(無盡的思念） ＊9/20（日）午後，在臺北，雅痞書店 狂響口琴樂團將帶來『探戈與島嶼之歌』。歡迎想聽更多探戈曲目的朋友…",
+      "headline": "[口琴音樂會＿風城show琴] ｜狂響口琴樂團｜Ausencia Infinita(無盡的思念）",
+      "display_title": "[口琴音樂會＿風城show琴] ｜狂響口琴樂團｜Ausencia Infinita(無盡的思念）",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=2l3zyQ7QnfY",
+      "source_id": "yt_oufrog",
+      "source": "吹出好心琴 + Ou Frog +",
+      "source_system_name": "吹出好心琴 + Ou Frog",
+      "source_profile_url": "https://www.youtube.com/channel/UCYVZf8lsckbde4dRRB0EK8A",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-86",
+      "directory_entry_name": "吹出好心琴 + Ou Frog",
+      "account": "https://www.youtube.com/channel/UCYVZf8lsckbde4dRRB0EK8A",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-09-17T04:00:31+00:00",
+      "posted_at_local": "2026-09-17 12:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-17T06:26:12.688393+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "音樂會",
+        "演出",
+        "影片"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "音樂會",
+        "演出",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "音樂會",
+        "演出",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴音樂會與演出影片，屬口琴公開更新，內容明確相關。",
+      "text": "[口琴音樂會＿風城show琴] ｜狂響口琴樂團｜Ausencia Infinita(無盡的思念）\n＊9/20（日）午後，在臺北，雅痞書店\n狂響口琴樂團將帶來『探戈與島嶼之歌』。歡迎想聽更多探戈曲目的朋友蒞臨指教。＊\n感謝主辦單位Sirius Harmonica Ensemble 天狼星口琴樂團邀請，\n狂響口琴樂團於第一天的風城show琴中再次為大家演奏三首風格迥異的曲子；\n首先為大家分享及介紹由北部團員演奏的”Ausencia Infinita(無盡的思念）”，此曲為阿根廷作曲家既班多鈕手風琴演奏家Fabio Hager創作，有經典的Tango節奏Yumba及Syncopa，搭配洗腦的旋律及精彩的變奏，改編後，充分展現複音口琴、半音階口琴、Bass、Chord的特色！\n演出人員（由左至右）\n和弦口琴：阮柏文\n半音階口琴：林士傑\n複音口琴：歐純伶\n倍低音口琴:高廷瑜\n#口琴 #複音口琴 #Harmonica #Tremolo harmonica #特效口琴 #特效鋼琴\n#口琴譜 #口琴演奏＃taiwanharmonica＃狂響口琴樂團",
+      "images": [
+        "https://i.ytimg.com/vi_webp/2l3zyQ7QnfY/maxresdefault.webp"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi_webp/2l3zyQ7QnfY/maxresdefault.webp",
+      "image_url": "/assets/feed-images/77de565a7dddcac2b842.webp",
+      "image_width": 1280,
+      "image_height": 720,
+      "source_avatar_url": "https://yt3.googleusercontent.com/zpNQ6PMxz1G01j8vDzQ53R9CJOQvK9USeamGpVffmwo3Gjpm6uktX120aOiTgmtw-fLshswvNA=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/2241bd394301b93492ed.webp",
+      "source_initials": "OF",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "yt_oufrog:2l3zyQ7QnfY"
+    },
     {
       "title": "衛武營國家藝術文化中心 weiwuying_centerforthearts｜【衛武營管風琴VR解密】讓每一份對藝術的好奇，都不再受限於距離！ 全亞洲最大的管風琴，座落於衛武營葡萄園式音樂廳，擁有9,085支音管，宏偉卻無法移動。衛武營運…",
       "headline": "【衛武營管風琴VR解密】讓每一份對藝術的好奇，都不再受限於距離！",

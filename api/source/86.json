@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T06:22:01.521519Z",
+  "generatedAt": "2026-09-17T06:27:15.350176Z",
   "source": {
     "id": 86,
     "slug": "ou-frog",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/86-ou-frog/"
   },
   "items": [
+    {
+      "id": "post-10a49dd2715ab83940a9824c",
+      "title": "[口琴音樂會＿風城show琴] ｜狂響口琴樂團｜Ausencia Infinita(無盡的思念）",
+      "excerpt": "[口琴音樂會＿風城show琴] ｜狂響口琴樂團｜Ausencia Infinita(無盡的思念） ＊9/20（日）午後，在臺北，雅痞書店 狂響口琴樂團將帶來『探戈與島嶼之歌』。歡迎想聽更多探戈曲目的朋友蒞臨指教。＊ 感謝主辦單位Sirius Harmonica Ensemble 天狼星口琴樂團邀請， 狂響口琴樂團於第一天的風城show琴中再次為大家演奏三首風格迥異的曲子； 首先為大家分享及介紹由北部團員演奏的”Ausencia Infinita(無盡的思念）”，此曲為阿根廷作曲家既班多鈕手風琴演奏家Fabio Hager創作，有經典的Tango節奏Yu…",
+      "url": "https://www.youtube.com/watch?v=2l3zyQ7QnfY",
+      "sourceName": "吹出好心琴 + Ou Frog",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-17T04:00:31Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/77de565a7dddcac2b842.webp",
+        "width": 1280,
+        "height": 720
+      }
+    },
     {
       "id": "post-d5c3f2a7018dd17fdf8dc24a",
       "title": "[伴奏 Accompaniment] ｜雲上太陽｜複音口琴｜Tremolo harmonica｜口琴譜｜口琴教學｜Harmonica tabs",
