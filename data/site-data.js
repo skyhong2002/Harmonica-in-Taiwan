@@ -4807,7 +4807,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-01 20:59",
       "latestUpdateSource": "Evelyn Choong 鍾雪兒",
       "latestUpdateUrl": "https://www.instagram.com/stories/evelyn_harmonica/3976599093732600083/",
-      "avatarUrl": "/assets/source-avatars/0adc774595e158a08e98.webp",
+      "avatarUrl": "/assets/source-avatars/92db8cdadefdb85735ba.webp",
       "sourceInitials": "EC",
       "sourceTags": [
         "演奏者",
