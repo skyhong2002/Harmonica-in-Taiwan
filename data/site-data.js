@@ -6087,7 +6087,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-01 06:30",
       "latestUpdateSource": "Gregoire Maret",
       "latestUpdateUrl": "https://www.instagram.com/stories/gregoiremaret/3976161735730346329/",
-      "avatarUrl": "/assets/source-avatars/42c14ca9ebbb1696940b.webp",
+      "avatarUrl": "/assets/source-avatars/e781a4f4250a052d9036.webp",
       "sourceInitials": "GM",
       "sourceTags": [
         "演奏者",
