@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T16:02:40.434087Z",
+  "generatedAt": "2026-09-17T16:16:34.085653Z",
   "source": {
     "id": 322,
     "slug": "tombo-festival-awards",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/322-tombo-festival-awards/"
   },
   "items": [
+    {
+      "id": "post-eb3e73bbb8328109f465ca92",
+      "title": "田ノ岡三郎のアコーディオン試奏室（TOMBO STATION 2026 夏号より）",
+      "excerpt": "田ノ岡三郎のアコーディオン試奏室（TOMBO STATION 2026 夏号より） こちらはハーモニカ＆アコーディオン情報番組 『TOMBO STATION 2026 夏号』より『田ノ岡三郎のアコーディオン試奏室』を抜粋した動画です。 番組全編の動画はこちらになります。 〈コーナー解説〉 ♪ 田ノ岡三郎のアコーディオン試奏室 旅するアコーディオニストの田ノ岡三郎さんに、トンボ楽器製作所のショールームに展示しているアコーディオンを自由に弾いていただき、その魅力や特徴を語っていただくコーナーです！ あらゆるシーンで活躍するアコーディオニストが奏でることで、…",
+      "url": "https://www.youtube.com/watch?v=emsDpXmGc1k",
+      "sourceName": "TOMBO祭アワード",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-17T15:00:22Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/e98d41e4af75cd611738.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-4aa87972cd3aa2785eb002cf",
       "title": "風の音を訪ねて ～あなたの街のハーモニカ＆アコーディオン奏者をご紹介！～ （TOMBO STATION 2026 夏号より）",
