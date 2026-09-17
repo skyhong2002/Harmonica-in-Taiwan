@@ -2266,6 +2266,52 @@
       ]
     },
     {
+      "id": "watchlist-87",
+      "publicId": "87",
+      "name": "桃園玩口琴",
+      "nameEn": "Taoyuan Harmonica Community",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "地方教學/社大課程",
+      "country": "臺灣",
+      "region": "臺灣/桃園",
+      "cityOrFocus": "口琴課程/地方社群活動",
+      "structuredSummary": "口琴課程/地方社群活動 / 口琴 / 教學/課程來源",
+      "summary": "臺灣的口琴教學與課程來源，關注口琴課程與地方社群活動。",
+      "keywords": "桃園玩口琴 桃園 口琴 課程 社大",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/p/%E6%A1%83%E5%9C%92%E7%8E%A9%E5%8F%A3%E7%90%B4-100057424090624/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "87",
+      "latestUpdateAt": "2026-09-13T01:25:43+00:00",
+      "latestUpdateLocal": "2026-09-13 09:25",
+      "latestUpdateSource": "桃園玩口琴",
+      "latestUpdateUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid02oyko7pPJT946NwSBQkqPZxMHPoMmrq7h54uvftc5YMKpJHiezidbf3NoUK9JaJb5l&id=100057424090624",
+      "avatarUrl": "/assets/source-avatars/taoyuan-harmonica.jpg",
+      "sourceInitials": "桃園",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "課程"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_291bc27392",
+          "name": "桃園玩口琴",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/p/%E6%A1%83%E5%9C%92%E7%8E%A9%E5%8F%A3%E7%90%B4-100057424090624",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-99",
       "publicId": "99",
       "name": "范曉怡",
@@ -3010,10 +3056,10 @@
       "source": "watchlist",
       "aliases": [],
       "slug": "5-punch-harmonica-ensemble",
-      "latestUpdateAt": "2026-09-09T14:00:11+00:00",
+      "latestUpdateAt": "2026-09-09T14:00:45+00:00",
       "latestUpdateLocal": "2026-09-09 22:00",
       "latestUpdateSource": "胖擊口琴樂團",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=z36bv7Lmn6g",
+      "latestUpdateUrl": "https://www.facebook.com/reel/1829182328451221/",
       "avatarUrl": "/assets/source-avatars/5502dc6edc42ae731231.webp",
       "sourceInitials": "胖擊",
       "sourceTags": [
@@ -8231,52 +8277,6 @@
           "type": "facebook_page_posts",
           "username": "",
           "profileUrl": "https://facebook.com/huang.yu.wen.163338",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-87",
-      "publicId": "87",
-      "name": "桃園玩口琴",
-      "nameEn": "Taoyuan Harmonica Community",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "地方教學/社大課程",
-      "country": "臺灣",
-      "region": "臺灣/桃園",
-      "cityOrFocus": "口琴課程/地方社群活動",
-      "structuredSummary": "口琴課程/地方社群活動 / 口琴 / 教學/課程來源",
-      "summary": "臺灣的口琴教學與課程來源，關注口琴課程與地方社群活動。",
-      "keywords": "桃園玩口琴 桃園 口琴 課程 社大",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/p/%E6%A1%83%E5%9C%92%E7%8E%A9%E5%8F%A3%E7%90%B4-100057424090624/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "87",
-      "latestUpdateAt": "2026-08-29T16:42:54+00:00",
-      "latestUpdateLocal": "2026-08-30 00:42",
-      "latestUpdateSource": "桃園玩口琴",
-      "latestUpdateUrl": "https://www.facebook.com/reel/3293278990845019/",
-      "avatarUrl": "/assets/source-avatars/taoyuan-harmonica.jpg",
-      "sourceInitials": "桃園",
-      "sourceTags": [
-        "教學器材",
-        "教學",
-        "課程"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_291bc27392",
-          "name": "桃園玩口琴",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/p/%E6%A1%83%E5%9C%92%E7%8E%A9%E5%8F%A3%E7%90%B4-100057424090624",
           "feedUrl": ""
         }
       ]
