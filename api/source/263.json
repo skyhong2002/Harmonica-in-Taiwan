@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T08:12:59.443451Z",
+  "generatedAt": "2026-09-17T08:38:35.400350Z",
   "source": {
     "id": 263,
     "slug": "jdr-harmonica",
@@ -90,20 +90,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/1e24c390a46f9ca5cadb.webp",
         "width": 800,
         "height": 450
-      }
-    },
-    {
-      "id": "post-e75d16862fc297e5332639c4",
-      "title": "SPAH 2026 wrapped up last week.",
-      "excerpt": "SPAH 2026 wrapped up last week. It was great spending the week in St. Louis, seeing familiar faces, meeting new players, and talking harmonicas face to face. A big thank-you to everyone who stopped by and spent some time with JDR. See you next time! Rodrigo Eberienos Ross Garren",
-      "url": "https://www.facebook.com/JDRmusik/posts/pfbid02fAxsD1BYZjfpKcigsheHHLJbwc2ZKavxAmj9z2VEcbSXzm57pRAPU97H2TzvDJEhl",
-      "sourceName": "JDR Harmonica",
-      "platform": "Facebook",
-      "publishedAt": "2026-08-18T08:36:27Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/32e8e59d6594473aca4c.webp",
-        "width": 590,
-        "height": 332
       }
     }
   ]
