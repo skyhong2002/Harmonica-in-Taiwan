@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T19:25:29.557416Z",
+  "generatedAt": "2026-09-17T19:43:43.802273Z",
   "source": {
     "id": 132,
     "slug": "antonio-serrano",
@@ -74,20 +74,6 @@
       "publishedAt": "2026-08-20T09:39:38Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/51c8e3878ef3807eb61a.webp",
-        "width": 800,
-        "height": 800
-      }
-    },
-    {
-      "id": "post-38ec9df1b607b6b5d02e6dcf",
-      "title": "ANTONIO SERRANO Y FRAN RUBIO",
-      "excerpt": "ANTONIO SERRANO Y FRAN RUBIO Gre2Jazz 2026 Castillo de Valdecorneja El Barco de Ávila - Spain Un gran festival que todos deberíamos conocer, en el que el increíble Antonio Serrano estrenó en directo su nueva armónica digital, todo un espectáculo.",
-      "url": "https://www.instagram.com/p/DcMYzcuDODu/",
-      "sourceName": "Antonio Serrano",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-18T19:41:21Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/4f7f860ce94a655c6f98.webp",
         "width": 800,
         "height": 800
       }
