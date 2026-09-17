@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T19:59:09.188790Z",
+  "generatedAt": "2026-09-17T20:18:00.629970Z",
   "source": {
     "id": 54,
     "slug": "cy-leo",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/54-cy-leo/"
   },
   "items": [
+    {
+      "id": "post-0f22a8552f9bdf022675e34f",
+      "title": "(Live) Forgiveness 諒 - Cy Leo at Two Worlds In One (HK)",
+      "excerpt": "(Live) Forgiveness 諒 - Cy Leo at Two Worlds In One (HK) Live performance footage at Two Worlds In One (Hong Kong) concert curated by Cy Leo on 30th August, 2026. 在一個爾虞我詐、世態炎涼的世代，仍然能夠保持內心的溫度與容量，才是我們最大的功名。諒，是諒解 —— 諒人，也諒己。 每個成年人心中總有幾根刺，執着過去的自己，懊惱曾經的事。這幾根刺，釘好了便不願離開，總使我們隱隱作痛。隨着時間，以為癒…",
+      "url": "https://www.youtube.com/watch?v=-JtHyrUff14",
+      "sourceName": "CY Leo 何卓彥",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-17T15:12:01Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/161515ed9763c3c42d20.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-e366a695d724cdd6461c997d",
       "title": "Two Worlds 在兩個心中間坐下 - Cy Leo ft. Ashley Lin & Walter Kwan",
