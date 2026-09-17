@@ -8015,7 +8015,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-30 12:02",
       "latestUpdateSource": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
       "latestUpdateUrl": "https://www.instagram.com/p/Dcpmo2es0bU/",
-      "avatarUrl": "/assets/source-avatars/ab6903ca4361774cae03.webp",
+      "avatarUrl": "/assets/source-avatars/5cfd5acf4fbdd53199b7.webp",
       "sourceInitials": "ANE",
       "sourceTags": [
         "團體樂團",
