@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T20:18:00.629970Z",
+  "generatedAt": "2026-09-17T20:32:49.848081Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -174,20 +174,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/123c8c078077a83010ca.webp",
         "width": 473,
         "height": 590
-      }
-    },
-    {
-      "id": "post-1db6db985445e1971a2eede0",
-      "title": "Posting some funky jazz harmonica so your feed isn’t all AI videos 🎶🎶🎶",
-      "excerpt": "Posting some funky jazz harmonica so your feed isn’t all AI videos 🎶🎶🎶",
-      "url": "https://www.facebook.com/reel/1706906870525813/",
-      "sourceName": "Filip Jers",
-      "platform": "Facebook",
-      "publishedAt": "2026-08-18T20:19:23Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/3cc343c5e2d085c2bf87.webp",
-        "width": 540,
-        "height": 960
       }
     }
   ]
