@@ -2,6 +2,170 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-09-17",
   "entries": [
     {
+      "id": "watchlist-136",
+      "publicId": "136",
+      "name": "Project X",
+      "nameEn": "Project X",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體/合作企劃",
+      "country": "國際",
+      "region": "國際",
+      "cityOrFocus": "口琴合作企劃/跨團重奏/SIHF 2018",
+      "structuredSummary": "口琴合作企劃/跨團重奏/SIHF 2018 / 口琴 / 國際演出團體",
+      "summary": "國際的口琴國際演出團體，活動脈絡包含口琴合作企劃、跨團重奏與SIHF 2018。",
+      "keywords": "Project X harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://thefestival.co.kr/info/festival/7338"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "136-project-x",
+      "latestUpdateAt": "2026-09-17T07:00:02.883225+00:00",
+      "latestUpdateLocal": "2026-09-17 15:00",
+      "latestUpdateSource": "Project X",
+      "latestUpdateUrl": "https://thefestival.co.kr/info/festival/7338",
+      "avatarUrl": "/assets/source-avatars/d46567b33b1baf0d8f42.webp",
+      "sourceInitials": "PX",
+      "sourceTags": [
+        "團體樂團",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_136",
+          "name": "Project X",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://thefestival.co.kr/info/festival/7338",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_sihf_uv5mk",
+          "name": "Seoul International Harmonica Festival",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@SIHF-uv5mk",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-134",
+      "publicId": "134",
+      "name": "Crossover Harmonica Ensemble",
+      "nameEn": "Crossover Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "韓國跨界口琴重奏/國際交流/SIHF 2018",
+      "structuredSummary": "韓國跨界口琴重奏/國際交流/SIHF 2018 / 口琴重奏 / 國際演出團體",
+      "summary": "韓國的口琴重奏國際演出團體，活動脈絡包含韓國跨界口琴重奏、國際交流與SIHF 2018。",
+      "keywords": "Crossover Harmonica Ensemble Korea SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://thefestival.co.kr/info/festival/7338"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "134-crossover-harmonica-ensemble",
+      "latestUpdateAt": "2026-09-17T07:00:00.045500+00:00",
+      "latestUpdateLocal": "2026-09-17 15:00",
+      "latestUpdateSource": "Crossover Harmonica Ensemble",
+      "latestUpdateUrl": "https://thefestival.co.kr/info/festival/7338",
+      "avatarUrl": "/assets/source-avatars/d46567b33b1baf0d8f42.webp",
+      "sourceInitials": "CHE",
+      "sourceTags": [
+        "團體樂團",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_134",
+          "name": "Crossover Harmonica Ensemble",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://thefestival.co.kr/info/festival/7338",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_sihf_uv5mk",
+          "name": "Seoul International Harmonica Festival",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@SIHF-uv5mk",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-21",
+      "publicId": "21",
+      "name": "Orion 口琴樂團",
+      "nameEn": "Orion Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "青少年室內樂/WHF 2025/張晁滕/陳瑤容",
+      "structuredSummary": "青少年室內樂/WHF 2025/張晁滕/陳瑤容 / 口琴重奏 / 演出團體",
+      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含青少年室內樂、WHF 2025與張晁滕。",
+      "keywords": "Orion 口琴樂團 WHF 2025 張晁滕 陳瑤容",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://tixfun.com/UTK0201_?PRODUCT_ID=Q025T5HU"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "21-orion",
+      "latestUpdateAt": "2026-09-17T06:58:40.717013+00:00",
+      "latestUpdateLocal": "2026-09-17 14:58",
+      "latestUpdateSource": "Orion 口琴樂團",
+      "latestUpdateUrl": "https://tixfun.com/UTK0201_?PRODUCT_ID=Q025T5HU",
+      "avatarUrl": "/assets/source-avatars/113228f2ca1dc11269d0.webp",
+      "sourceInitials": "O",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_taiwanharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "taiwanharmonica",
+          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "web_21",
+          "name": "Orion 口琴樂團",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://tixfun.com/UTK0201_?PRODUCT_ID=Q025T5HU",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-12",
       "publicId": "12",
       "name": "臺灣口琴樂團",
@@ -1112,170 +1276,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "http://youth.whut.edu.cn/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-136",
-      "publicId": "136",
-      "name": "Project X",
-      "nameEn": "Project X",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體/合作企劃",
-      "country": "國際",
-      "region": "國際",
-      "cityOrFocus": "口琴合作企劃/跨團重奏/SIHF 2018",
-      "structuredSummary": "口琴合作企劃/跨團重奏/SIHF 2018 / 口琴 / 國際演出團體",
-      "summary": "國際的口琴國際演出團體，活動脈絡包含口琴合作企劃、跨團重奏與SIHF 2018。",
-      "keywords": "Project X harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://thefestival.co.kr/info/festival/7338"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "136-project-x",
-      "latestUpdateAt": "2026-09-16T18:54:08.120683+00:00",
-      "latestUpdateLocal": "2026-09-17 02:54",
-      "latestUpdateSource": "Project X",
-      "latestUpdateUrl": "https://thefestival.co.kr/info/festival/7338",
-      "avatarUrl": "/assets/source-avatars/d46567b33b1baf0d8f42.webp",
-      "sourceInitials": "PX",
-      "sourceTags": [
-        "團體樂團",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_136",
-          "name": "Project X",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://thefestival.co.kr/info/festival/7338",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_sihf_uv5mk",
-          "name": "Seoul International Harmonica Festival",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@SIHF-uv5mk",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-134",
-      "publicId": "134",
-      "name": "Crossover Harmonica Ensemble",
-      "nameEn": "Crossover Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "韓國跨界口琴重奏/國際交流/SIHF 2018",
-      "structuredSummary": "韓國跨界口琴重奏/國際交流/SIHF 2018 / 口琴重奏 / 國際演出團體",
-      "summary": "韓國的口琴重奏國際演出團體，活動脈絡包含韓國跨界口琴重奏、國際交流與SIHF 2018。",
-      "keywords": "Crossover Harmonica Ensemble Korea SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://thefestival.co.kr/info/festival/7338"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "134-crossover-harmonica-ensemble",
-      "latestUpdateAt": "2026-09-16T18:54:06.928144+00:00",
-      "latestUpdateLocal": "2026-09-17 02:54",
-      "latestUpdateSource": "Crossover Harmonica Ensemble",
-      "latestUpdateUrl": "https://thefestival.co.kr/info/festival/7338",
-      "avatarUrl": "/assets/source-avatars/d46567b33b1baf0d8f42.webp",
-      "sourceInitials": "CHE",
-      "sourceTags": [
-        "團體樂團",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_134",
-          "name": "Crossover Harmonica Ensemble",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://thefestival.co.kr/info/festival/7338",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_sihf_uv5mk",
-          "name": "Seoul International Harmonica Festival",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@SIHF-uv5mk",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-21",
-      "publicId": "21",
-      "name": "Orion 口琴樂團",
-      "nameEn": "Orion Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "青少年室內樂/WHF 2025/張晁滕/陳瑤容",
-      "structuredSummary": "青少年室內樂/WHF 2025/張晁滕/陳瑤容 / 口琴重奏 / 演出團體",
-      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含青少年室內樂、WHF 2025與張晁滕。",
-      "keywords": "Orion 口琴樂團 WHF 2025 張晁滕 陳瑤容",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://tixfun.com/UTK0201_?PRODUCT_ID=Q025T5HU"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "21-orion",
-      "latestUpdateAt": "2026-09-16T18:52:52.346438+00:00",
-      "latestUpdateLocal": "2026-09-17 02:52",
-      "latestUpdateSource": "Orion 口琴樂團",
-      "latestUpdateUrl": "https://tixfun.com/UTK0201_?PRODUCT_ID=Q025T5HU",
-      "avatarUrl": "/assets/source-avatars/113228f2ca1dc11269d0.webp",
-      "sourceInitials": "O",
-      "sourceTags": [
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_taiwanharmonica",
-          "name": "臺灣口琴音樂節 THMF",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "taiwanharmonica",
-          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "web_21",
-          "name": "Orion 口琴樂團",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://tixfun.com/UTK0201_?PRODUCT_ID=Q025T5HU",
           "feedUrl": ""
         }
       ]
