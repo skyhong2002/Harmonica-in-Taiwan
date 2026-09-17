@@ -2,6 +2,53 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-09-17",
   "entries": [
     {
+      "id": "watchlist-312",
+      "publicId": "312",
+      "name": "「天鵝自由呼吸」寧波口琴節",
+      "nameEn": "Swan Free Breathing Ningbo Harmonica Festival",
+      "category": "活動資訊",
+      "type": "協會",
+      "originalType": "活動/資訊入口",
+      "country": "中國",
+      "region": "中國/浙江/寧波",
+      "cityOrFocus": "2026年6月28日/三場口琴音樂活動/精品音樂沙龍/城市口琴聯盟交流/紀念石人望誕辰120周年音樂會",
+      "structuredSummary": "2026年6月28日/三場口琴音樂活動/精品音樂沙龍/城市口琴聯盟交流/紀念石人望誕辰120周年音樂會 / 半音階口琴/複音口琴/口琴合奏 / 中國地方口琴節/音樂會與交流活動來源",
+      "summary": "中國的中國地方口琴節與音樂會與交流活動來源，涵蓋2026年6月28日、三場口琴音樂活動、精品音樂沙龍、城市口琴聯盟交流與紀念石人望誕辰120周年音樂會。",
+      "keywords": "天鵝自由呼吸 宁波口琴节 Swan Free Breathing Ningbo Harmonica Festival 2026 石人望 孟偉華 楊晟 安貴林 毛哲川",
+      "links": [
+        {
+          "label": "網站",
+          "url": "http://www.cmia.com.cn/qydt/11674.html"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "312-swan-free-breathing-ningbo-harmonica-festival",
+      "latestUpdateAt": "2026-09-17T01:12:22.598776+00:00",
+      "latestUpdateLocal": "2026-09-17 09:12",
+      "latestUpdateSource": "「天鵝自由呼吸」寧波口琴節",
+      "latestUpdateUrl": "http://www.cmia.com.cn/qydt/11674.html",
+      "avatarUrl": "/assets/source-avatars/ningbo-harmonica-festival.jpg",
+      "sourceInitials": "天鵝",
+      "sourceTags": [
+        "協會",
+        "活動資訊",
+        "半音階",
+        "複音"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_312",
+          "name": "「天鵝自由呼吸」寧波口琴節",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "http://www.cmia.com.cn/qydt/11674.html",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-9",
       "publicId": "9",
       "name": "李讓 Jang Li",
@@ -2978,53 +3025,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/SiriusHARP",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-312",
-      "publicId": "312",
-      "name": "「天鵝自由呼吸」寧波口琴節",
-      "nameEn": "Swan Free Breathing Ningbo Harmonica Festival",
-      "category": "活動資訊",
-      "type": "協會",
-      "originalType": "活動/資訊入口",
-      "country": "中國",
-      "region": "中國/浙江/寧波",
-      "cityOrFocus": "2026年6月28日/三場口琴音樂活動/精品音樂沙龍/城市口琴聯盟交流/紀念石人望誕辰120周年音樂會",
-      "structuredSummary": "2026年6月28日/三場口琴音樂活動/精品音樂沙龍/城市口琴聯盟交流/紀念石人望誕辰120周年音樂會 / 半音階口琴/複音口琴/口琴合奏 / 中國地方口琴節/音樂會與交流活動來源",
-      "summary": "中國的中國地方口琴節與音樂會與交流活動來源，涵蓋2026年6月28日、三場口琴音樂活動、精品音樂沙龍、城市口琴聯盟交流與紀念石人望誕辰120周年音樂會。",
-      "keywords": "天鵝自由呼吸 宁波口琴节 Swan Free Breathing Ningbo Harmonica Festival 2026 石人望 孟偉華 楊晟 安貴林 毛哲川",
-      "links": [
-        {
-          "label": "網站",
-          "url": "http://www.cmia.com.cn/qydt/11674.html"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "312-swan-free-breathing-ningbo-harmonica-festival",
-      "latestUpdateAt": "2026-09-08T02:38:34.870649+00:00",
-      "latestUpdateLocal": "2026-09-08 10:38",
-      "latestUpdateSource": "「天鵝自由呼吸」寧波口琴節",
-      "latestUpdateUrl": "http://www.cmia.com.cn/qydt/11674.html",
-      "avatarUrl": "/assets/source-avatars/ningbo-harmonica-festival.jpg",
-      "sourceInitials": "天鵝",
-      "sourceTags": [
-        "協會",
-        "活動資訊",
-        "半音階",
-        "複音"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_312",
-          "name": "「天鵝自由呼吸」寧波口琴節",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "http://www.cmia.com.cn/qydt/11674.html",
           "feedUrl": ""
         }
       ]
