@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T03:01:57.344062Z",
+  "generatedAt": "2026-09-17T03:29:37.973638Z",
   "source": {
     "id": 42,
     "slug": "hsin-ho-wang",
@@ -48,20 +48,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/3a40bff190e3b6176549.webp",
         "width": 800,
         "height": 977
-      }
-    },
-    {
-      "id": "post-9404a14eb16fcd0a4d1ee924",
-      "title": "Nāo quero perder o trem para Tainan (José Fernando Seifarth).",
-      "excerpt": "Nāo quero perder o trem para Tainan (José Fernando Seifarth). Qué honor tocar esta canción con mis queridos amigos y grandes músicos argentinos de Django Sessions 🇦🇷🇧🇷🎶",
-      "url": "https://www.instagram.com/p/DcKnq2ixYT7/",
-      "sourceName": "王心禾",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-18T03:22:39Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/894928564df6111aff09.webp",
-        "width": 720,
-        "height": 1280
       }
     }
   ]
