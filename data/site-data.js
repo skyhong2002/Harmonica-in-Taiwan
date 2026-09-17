@@ -1993,7 +1993,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-15 16:46",
       "latestUpdateSource": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
       "latestUpdateUrl": "https://www.threads.com/t/DdTUGNxmvjl",
-      "avatarUrl": "/assets/source-avatars/ca4a71ecb89e0cc376e4.webp",
+      "avatarUrl": "/assets/source-avatars/94078177897f59538292.webp",
       "sourceInitials": "JSH",
       "sourceTags": [
         "團體樂團",
@@ -10268,7 +10268,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-23 18:52",
       "latestUpdateSource": "莊筑迪",
       "latestUpdateUrl": "https://www.instagram.com/p/DcYSVsQlPVN/",
-      "avatarUrl": "/assets/source-avatars/fba0aae0256734018b66.webp",
+      "avatarUrl": "/assets/source-avatars/d69271c9c323bf4ab46e.webp",
       "sourceInitials": "莊筑",
       "sourceTags": [
         "演奏者",
