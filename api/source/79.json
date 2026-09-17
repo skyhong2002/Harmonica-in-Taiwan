@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T05:47:46.797096Z",
+  "generatedAt": "2026-09-17T05:53:05.476746Z",
   "source": {
     "id": 79,
     "slug": "79",
@@ -8,6 +8,34 @@
     "pageUrl": "https://harmonica.observe.tw/source/79/"
   },
   "items": [
+    {
+      "id": "post-575d0517e1c217a553e4faf2",
+      "title": "台語創作多重宇宙 ft. 鄭宜農、温若喬【LIVE PODCAST】",
+      "excerpt": "台語創作多重宇宙 ft. 鄭宜農、温若喬【LIVE PODCAST】 語言不只是溝通的載體，更是我們探索世界的重要濾鏡。本集邀請到金曲台語創作歌手鄭宜農、以及「ohtaigi學台語」創辦人暨台文詩人温若喬，分享他們與台語之間充滿矛盾卻又無比深刻的真實經歷，帶領大家走進台語的多重宇宙。宜農在節目中分享她如何克服初期的語言隔閡，將原本不熟悉的台語轉化為創作利器，並在陣痛中迎來突破；若喬則從自身經驗出發，細膩剖析台文標準化與創作自由之間的反覆拉扯。語言究竟如何幫助我們接通更廣闊的世界？邀請你一起收聽這趟跌跌撞撞卻充滿勇氣的母語探險之旅，與三位講者共同享受跨越…",
+      "url": "https://www.youtube.com/watch?v=RGjxG7ZHX-o",
+      "sourceName": "國家兩廳院",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-17T00:14:49Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/bed0f7908b4c04403f41.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-8fa15e7a0fe19cf4de1c8557",
+      "title": "台語創作多重宇宙｜觀眾QA ft. 鄭宜農、温若喬【LIVE PODCAST】",
+      "excerpt": "台語創作多重宇宙｜觀眾QA ft. 鄭宜農、温若喬【LIVE PODCAST】 語言不只是溝通的載體，更是我們探索世界的重要濾鏡。本集邀請到金曲台語創作歌手鄭宜農、以及「ohtaigi學台語」創辦人暨台文詩人温若喬，分享他們與台語之間充滿矛盾卻又無比深刻的真實經歷，帶領大家走進台語的多重宇宙。宜農在節目中分享她如何克服初期的語言隔閡，將原本不熟悉的台語轉化為創作利器，並在陣痛中迎來突破；若喬則從自身經驗出發，細膩剖析台文標準化與創作自由之間的反覆拉扯。語言究竟如何幫助我們接通更廣闊的世界？邀請你一起收聽這趟跌跌撞撞卻充滿勇氣的母語探險之旅，與三位講者共…",
+      "url": "https://www.youtube.com/watch?v=qlJWm-c4YNo",
+      "sourceName": "國家兩廳院",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-17T00:09:25Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/4f5f8f1c0e22d4bcc2da.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-b8f81fcfe6957bd05c6d8300",
       "title": "🎬 幕後直擊｜古典音樂如何透過XR科技說故事？王羽佳XR音樂會《羽火共舞》",

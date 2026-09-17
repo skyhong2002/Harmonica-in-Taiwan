@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T05:47:46.797096Z",
+  "generatedAt": "2026-09-17T05:53:05.476746Z",
   "source": {
     "id": 78,
     "slug": "78",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/78/"
   },
   "items": [
+    {
+      "id": "post-b937fde2bbd4361e253c47c1",
+      "title": "【衛武營管風琴VR解密】讓每一份對藝術的好奇，都不再受限於距離！",
+      "excerpt": "【衛武營管風琴VR解密】讓每一份對藝術的好奇，都不再受限於距離！ 全亞洲最大的管風琴，座落於衛武營葡萄園式音樂廳，擁有9,085支音管，宏偉卻無法移動。衛武營運用360度空間掃描技術，打造「管風琴VR解密」影片！使用者只需戴上VR裝置，就能瞬間「穿越」到衛武營音樂廳，不僅能近距離欣賞演奏，更能走進平時難以進入的儲風室與內部密室，探索樂器之王的秘密。 2024 年起【衛武營管風琴VR解密】團隊帶著這套科技裝備，從衛武營出發走過高雄，2025年跨海前往澎湖，2026年更深入屏東與小琉球的偏鄉學校及樂齡單位。讓學生、老師與長者不必遠行，就能身臨其境感受亞洲最…",
+      "url": "https://www.youtube.com/watch?v=mekabIkm1lw",
+      "sourceName": "衛武營國家藝術文化中心",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-17T03:00:20Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a5173abfc5a6895498c2.webp",
+        "width": 1280,
+        "height": 720
+      }
+    },
     {
       "id": "post-b7a28d8c5fa87fb056e2c839",
       "title": "臺灣現代音樂的啟蒙老師—許常惠 代表性大型作品一次齊聚；指揮簡文彬率領頂尖演出陣容，見證臺灣音樂史巔峰的珍貴時刻",
