@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T21:39:59.779111Z",
+  "generatedAt": "2026-09-17T21:59:39.945286Z",
   "source": {
     "id": 78,
     "slug": "78",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/78/"
   },
   "items": [
+    {
+      "id": "post-a62b2d2c98d4e8b57e951d05",
+      "title": "【劇場藝術體驗教育計畫】衛武營胡桃鉗合唱課程：在歌聲中遇見最好的自己",
+      "excerpt": "【劇場藝術體驗教育計畫】衛武營胡桃鉗合唱課程：在歌聲中遇見最好的自己 特別專案「胡桃鉗合唱計畫」以2020年啟動的「衛武營劇場藝術體驗教育計畫」之「讀劇課程」為架構，繼2024年《伊甸園》安可演出後，持續導入在地學生合唱團參與演出。 衛武營邀請兩所當地鄰近學校：永芳國小、鳳西國小，進行13週的合唱訓練、舞蹈體驗等聲音及肢體開發課程。 學生們在經過了深度的藝文體驗後與練習後，與樂團一同在「雪花」段落呈現最純真動人的歌聲。 ▍衛武營劇場藝術體驗教育計畫 ▍更多衛武營學習推廣活動 ▍更多衛武營線上藝術學習資源",
+      "url": "https://www.youtube.com/watch?v=f38FWMPppEo",
+      "sourceName": "衛武營國家藝術文化中心",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-17T06:51:16Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9083c09db16b1597d8da.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-b937fde2bbd4361e253c47c1",
       "title": "【衛武營管風琴VR解密】讓每一份對藝術的好奇，都不再受限於距離！",
