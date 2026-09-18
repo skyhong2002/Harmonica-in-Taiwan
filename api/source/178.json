@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T20:27:21.405338Z",
+  "generatedAt": "2026-09-18T21:02:23.792881Z",
   "source": {
     "id": 178,
     "slug": "harmonica-fen-festival-academy",
     "name": "Harmonica FEN 口琴節與學院",
     "pageUrl": "https://harmonica.observe.tw/source/178-harmonica-fen-festival-academy/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-6ddb5f1f65cd788b5c807a2d",
+      "title": "HARMONICA FEN FESTIVAL 2026 – the festival (official video)",
+      "excerpt": "HARMONICA FEN FESTIVAL 2026 – the festival (official video) Official video of the HARMONICA FEN FESTIVAL 2026. The festival took place from 29 to 31 May 2026 in the Kulturbrauerei Berlin and connected the harmonica again with related instruments like the accordion, the Chinese s…",
+      "url": "https://www.youtube.com/watch?v=_8NFUxOmgaY",
+      "sourceName": "Harmonica FEN 口琴節與學院",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-18T08:00:18Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/4aabb8b49752d7e5e41d.webp",
+        "width": 1280,
+        "height": 720
+      }
+    }
+  ]
 }

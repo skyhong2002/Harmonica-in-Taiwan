@@ -71,6 +71,51 @@
   },
   "entries": [
     {
+      "id": "watchlist-316",
+      "publicId": "316",
+      "name": "太平國小口琴隊",
+      "nameEn": "Taiping Elementary School Harmonica Ensemble",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校/青年",
+      "country": "臺灣",
+      "region": "臺灣/臺中/太平",
+      "cityOrFocus": "臺中市太平國小口琴合奏團隊/長期扎根音樂教育與分部訓練/114學年度全國學生音樂比賽國小口琴合奏特優/2026達成連續四年全國賽特優",
+      "structuredSummary": "臺中市太平國小口琴合奏團隊/長期扎根音樂教育與分部訓練/114學年度全國學生音樂比賽國小口琴合奏特優/2026達成連續四年全國賽特優 / 口琴合奏/校園口琴教育 / 學校團隊/青少年口琴教育/全國學生音樂比賽團隊",
+      "summary": "臺灣的口琴合奏與校園口琴教育學校團隊、青少年口琴教育與全國學生音樂比賽團隊。",
+      "keywords": "臺中 太平國小口琴隊 Taiping Elementary School Harmonica Ensemble 2026 全國學生音樂比賽 口琴合奏 特優 四連霸 蔡政嘉 姜義良",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "316-taiping-elementary-school-harmonica-ensemble",
+      "latestUpdateAt": "2026-09-18T21:01:00.284646+00:00",
+      "latestUpdateLocal": "2026-09-19 05:01",
+      "latestUpdateSource": "太平國小口琴隊",
+      "latestUpdateUrl": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586",
+      "avatarUrl": "/assets/source-avatars/taiping-elementary-harmonica.jpg",
+      "sourceInitials": "太平",
+      "sourceTags": [
+        "學生社團",
+        "比賽"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_316",
+          "name": "太平國小口琴隊",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-254",
       "publicId": "254",
       "name": "鄭州大眾口琴樂團",
@@ -1016,51 +1061,6 @@
       ]
     },
     {
-      "id": "watchlist-316",
-      "publicId": "316",
-      "name": "太平國小口琴隊",
-      "nameEn": "Taiping Elementary School Harmonica Ensemble",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校/青年",
-      "country": "臺灣",
-      "region": "臺灣/臺中/太平",
-      "cityOrFocus": "臺中市太平國小口琴合奏團隊/長期扎根音樂教育與分部訓練/114學年度全國學生音樂比賽國小口琴合奏特優/2026達成連續四年全國賽特優",
-      "structuredSummary": "臺中市太平國小口琴合奏團隊/長期扎根音樂教育與分部訓練/114學年度全國學生音樂比賽國小口琴合奏特優/2026達成連續四年全國賽特優 / 口琴合奏/校園口琴教育 / 學校團隊/青少年口琴教育/全國學生音樂比賽團隊",
-      "summary": "臺灣的口琴合奏與校園口琴教育學校團隊、青少年口琴教育與全國學生音樂比賽團隊。",
-      "keywords": "臺中 太平國小口琴隊 Taiping Elementary School Harmonica Ensemble 2026 全國學生音樂比賽 口琴合奏 特優 四連霸 蔡政嘉 姜義良",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "316-taiping-elementary-school-harmonica-ensemble",
-      "latestUpdateAt": "2026-09-18T08:30:19.247357+00:00",
-      "latestUpdateLocal": "2026-09-18 16:30",
-      "latestUpdateSource": "太平國小口琴隊",
-      "latestUpdateUrl": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586",
-      "avatarUrl": "/assets/source-avatars/taiping-elementary-harmonica.jpg",
-      "sourceInitials": "太平",
-      "sourceTags": [
-        "學生社團",
-        "比賽"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_316",
-          "name": "太平國小口琴隊",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-66",
       "publicId": "66",
       "name": "Younghoon Cho",
@@ -1143,6 +1143,93 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/c/hoontobe",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-178",
+      "publicId": "178",
+      "name": "Harmonica FEN 口琴節與學院",
+      "nameEn": "Harmonica FEN Festival & Academy",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "活動/教育入口",
+      "country": "德國",
+      "region": "德國/柏林",
+      "cityOrFocus": "柏林口琴節/Academy/演奏會/工作坊/Open Stage",
+      "structuredSummary": "柏林口琴節/Academy/演奏會/工作坊/Open Stage / 口琴/半音階/十孔/跨界 / 國際活動/教育來源",
+      "summary": "德國的國際活動與教育來源，涵蓋柏林口琴節、Academy、演奏會、工作坊與Open Stage。",
+      "keywords": "Harmonica FEN Festival Academy Berlin harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica-fen-festival.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/harmonicafenfestival"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/harmonica_fen_festival/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCtti8XH0v4DgrgP7hz68bWw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "178-harmonica-fen-festival-academy",
+      "latestUpdateAt": "2026-09-18T08:00:18+00:00",
+      "latestUpdateLocal": "2026-09-18 16:00",
+      "latestUpdateSource": "Harmonica FEN 口琴節與學院",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=_8NFUxOmgaY",
+      "avatarUrl": "/assets/source-avatars/824192a5e4bcb97400f8.webp",
+      "sourceInitials": "HF",
+      "sourceTags": [
+        "活動資訊",
+        "比賽",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonicafenfestival",
+          "name": "Harmonica FEN 口琴節與學院",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonicafenfestival",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_harmonica_fen_festival",
+          "name": "Harmonica FEN 口琴節與學院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "harmonica_fen_festival",
+          "profileUrl": "https://www.instagram.com/harmonica_fen_festival/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_harmonica_fen_festival",
+          "name": "Harmonica FEN 口琴節與學院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "harmonica_fen_festival",
+          "profileUrl": "https://www.instagram.com/harmonica_fen_festival/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_uctti8xh0v4dgrgp7hz68bww",
+          "name": "Harmonica FEN 口琴節與學院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCtti8XH0v4DgrgP7hz68bWw",
           "feedUrl": ""
         }
       ]
@@ -12663,93 +12750,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@FrescoHarmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-178",
-      "publicId": "178",
-      "name": "Harmonica FEN 口琴節與學院",
-      "nameEn": "Harmonica FEN Festival & Academy",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "活動/教育入口",
-      "country": "德國",
-      "region": "德國/柏林",
-      "cityOrFocus": "柏林口琴節/Academy/演奏會/工作坊/Open Stage",
-      "structuredSummary": "柏林口琴節/Academy/演奏會/工作坊/Open Stage / 口琴/半音階/十孔/跨界 / 國際活動/教育來源",
-      "summary": "德國的國際活動與教育來源，涵蓋柏林口琴節、Academy、演奏會、工作坊與Open Stage。",
-      "keywords": "Harmonica FEN Festival Academy Berlin harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica-fen-festival.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/harmonicafenfestival"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/harmonica_fen_festival/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCtti8XH0v4DgrgP7hz68bWw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "178-harmonica-fen-festival-academy",
-      "latestUpdateAt": "2026-08-08T20:25:00+00:00",
-      "latestUpdateLocal": "2026-08-09 04:25",
-      "latestUpdateSource": "Harmonica FEN 口琴節與學院",
-      "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_fen_festival/3959428680874756201/",
-      "avatarUrl": "/assets/source-avatars/824192a5e4bcb97400f8.webp",
-      "sourceInitials": "HF",
-      "sourceTags": [
-        "活動資訊",
-        "比賽",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonicafenfestival",
-          "name": "Harmonica FEN 口琴節與學院",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/harmonicafenfestival",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_harmonica_fen_festival",
-          "name": "Harmonica FEN 口琴節與學院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "harmonica_fen_festival",
-          "profileUrl": "https://www.instagram.com/harmonica_fen_festival/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_harmonica_fen_festival",
-          "name": "Harmonica FEN 口琴節與學院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "harmonica_fen_festival",
-          "profileUrl": "https://www.instagram.com/harmonica_fen_festival/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_uctti8xh0v4dgrgp7hz68bww",
-          "name": "Harmonica FEN 口琴節與學院",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCtti8XH0v4DgrgP7hz68bWw",
           "feedUrl": ""
         }
       ]
