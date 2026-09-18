@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T00:28:51.683840Z",
+  "generatedAt": "2026-09-18T00:50:06.154399Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/115-filip-jers/"
   },
   "items": [
+    {
+      "id": "post-d99c6c3d30d86dab35f41ecb",
+      "title": "I updated my video rig for making harmonica videos!",
+      "excerpt": "I updated my video rig for making harmonica videos! In this video, I’m testing out my new live recording setup! I cleaned my chromatic harmonica, plugged in all my gear straight into the camera, and played a quick jazz jam. --- Join my Patreon community for exclusive lessons, vl…",
+      "url": "https://www.youtube.com/watch?v=0Uua6CTCz-U",
+      "sourceName": "Filip Jers",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-17T20:56:11Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/862c0a022ba1c0251462.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-6c2e0d6fae5c38d3667526d5",
       "title": "Jazz Harmonica & Guitar – Filip Jers & Emil Ernebro | \"I found a new baby\" - Live recording",
