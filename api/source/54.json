@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T15:23:44.802475Z",
+  "generatedAt": "2026-09-18T15:44:40.411019Z",
   "source": {
     "id": 54,
     "slug": "cy-leo",
@@ -20,6 +20,20 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/161515ed9763c3c42d20.webp",
         "width": 800,
         "height": 450
+      }
+    },
+    {
+      "id": "post-83717687c51b105f7d350899",
+      "title": "I started teaching them jazz early this year.",
+      "excerpt": "I started teaching them jazz early this year. And yesterday I introduced them to jam session in Hong Kong. They were very inspired.",
+      "url": "https://www.facebook.com/reel/1980437802667011/",
+      "sourceName": "CY Leo 何卓彥",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-17T02:12:42Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/97f7e64fc0573b2ab4c8.webp",
+        "width": 540,
+        "height": 960
       }
     },
     {
