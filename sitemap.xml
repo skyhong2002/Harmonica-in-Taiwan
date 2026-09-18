@@ -157,6 +157,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/40-henry-chen/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/115-filip-jers/</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -242,12 +248,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/308-into-the-harmonica-academy/</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/40-henry-chen/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
