@@ -1,11 +1,40 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T16:20:45.767388Z",
+  "generatedAt": "2026-09-18T16:56:57.302750Z",
   "source": {
     "id": 100,
     "slug": "otis-tsao",
     "name": "曹小歐",
     "pageUrl": "https://harmonica.observe.tw/source/100-otis-tsao/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-9e603b98d11012b2ae6e8cd1",
+      "title": "歷久彌新的口琴冷笑話時間！",
+      "excerpt": "歷久彌新的口琴冷笑話時間！ ※影片錄製於2025/6/14 小歐專場《OG》 #影片內容純屬台上玩笑 #如有冒犯之處請勿當真 #脫口秀 #單口喜劇 #小歐",
+      "url": "https://www.facebook.com/reel/1614578946983054/",
+      "sourceName": "曹小歐",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-15T13:00:15Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ef1fe400a6e56706ee69.webp",
+        "width": 541,
+        "height": 960
+      }
+    },
+    {
+      "id": "post-6439803e252833f93cc435e1",
+      "title": "我打故我在🧘",
+      "excerpt": "我打故我在🧘 完整版YT🔍阿秋Acho Lin",
+      "url": "https://www.facebook.com/reel/1538764070872484/",
+      "sourceName": "曹小歐",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-02T13:00:25Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/640b4387053d1776fcdb.webp",
+        "width": 540,
+        "height": 960
+      }
+    }
+  ]
 }

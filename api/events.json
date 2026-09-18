@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 300,
+  "count": 307,
   "items": [
     {
       "title": "香港兒童合唱團口琴課程｜",
@@ -512,6 +512,85 @@
         "學生社團"
       ],
       "key": "web_12:767f685ef2a806d04a7e67a0d388c6998dff8d0d3f3db348ac60d827e7984d6c"
+    },
+    {
+      "title": "藍波口琴教室｜《尋人啟事》 如果我只會唱歌能學口琴嗎？當然可以，全班陪你用你擅長的方式接近口琴，而且你會是這堂課的歌唱老師；如果我只懂中醫呢？你會是課間休息的養身操老師，大家用節拍器作操，一起練習穩定節奏；如果你不知道你有什麼優勢，淑貞老…",
+      "headline": "《尋人啟事》",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/reel/1693936745780765/",
+      "source_id": "fb_happyharmonica",
+      "source": "藍波口琴教室",
+      "source_system_name": "藍波口琴教室",
+      "source_profile_url": "https://facebook.com/happyharmonica",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-88",
+      "directory_entry_name": "藍波口琴教室",
+      "account": "happyharmonica",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-09-18T04:00:04.000Z",
+      "posted_at_local": "2026-09-18 12:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-18T16:55:07.964160+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "招生",
+        "課程"
+      ],
+      "keyword_matches": [
+        "口琴"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "招生",
+        "課程"
+      ],
+      "llm_categories": [
+        "opportunities"
+      ],
+      "llm_reason": "口琴教室招生與課程資訊，提到社大班別與名額，屬公開更新且具招生性質。",
+      "text": "《尋人啟事》\n如果我只會唱歌能學口琴嗎？當然可以，全班陪你用你擅長的方式接近口琴，而且你會是這堂課的歌唱老師；如果我只懂中醫呢？你會是課間休息的養身操老師，大家用節拍器作操，一起練習穩定節奏；如果你不知道你有什麼優勢，淑貞老師會讓你相信，你的音樂能力無所不在，你不需要準備好才上舞台，開學歡樂氣氛對了就吹最高。\n目前淑貞老師的班只剩中山社大和北投社大還有名額，其他都額滿喔!\n健民協會口琴班（ㄧ）下午-額滿\n中山社大口琴班（三）晚上\n板橋社大口琴班（四）晚上-額滿\n北投社大口琴班（五）晚上\nhttps://www.facebook.com/reel/1693936745780765/",
+      "images": [
+        "https://scontent.fmem1-1.fna.fbcdn.net/v/t15.5256-10/802811003_1865000878004841_5241509606129837251_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=s960x960&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=lewvlVWC6TYQ7kNvwF7S-HW&_nc_oc=Adpj1IkmVvRyVGcpoCYZYt3chqCI6LyTLw2tsU7aoOWa2uqMLzo95QBykBQX_KlbGgY&_nc_zt=23&_nc_ht=scontent.fmem1-1.fna&_nc_gid=BMbXYIWyPA4M55Q8UbLyew&_nc_ss=73289&oh=00_AQLv-tWnyj9d4StUtIAAjixJjElX2ujGkMk3OjbVMJOqxw&oe=6AB339DF"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent.fmem1-1.fna.fbcdn.net/v/t15.5256-10/802811003_1865000878004841_5241509606129837251_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=s960x960&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=lewvlVWC6TYQ7kNvwF7S-HW&_nc_oc=Adpj1IkmVvRyVGcpoCYZYt3chqCI6LyTLw2tsU7aoOWa2uqMLzo95QBykBQX_KlbGgY&_nc_zt=23&_nc_ht=scontent.fmem1-1.fna&_nc_gid=BMbXYIWyPA4M55Q8UbLyew&_nc_ss=73289&oh=00_AQLv-tWnyj9d4StUtIAAjixJjElX2ujGkMk3OjbVMJOqxw&oe=6AB339DF",
+      "image_url": "/assets/feed-images/1efc6a14b97f9f6077b4.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://scontent.fmem1-1.fna.fbcdn.net/v/t39.30808-1/358664214_753920859867193_3224395817038140154_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1200x1200&ctp=s50x50&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=ZvCce_aD_X8Q7kNvwFox4dm&_nc_oc=AdriEQ0zbAn0w45S2m9GRfAerVR5pLbWPPUXXGd9zUvC80Bt_mMkTH-Lm484yHahAFQ&_nc_zt=24&_nc_ht=scontent.fmem1-1.fna&_nc_gid=BMbXYIWyPA4M55Q8UbLyew&_nc_ss=73289&oh=00_AQLb8AXejH5NyOMd1Xg3grgqF1-tGYzb2Wwbp6mKeQZAYw&oe=6AB33C47",
+      "avatar_url": "/assets/source-avatars/586d4453e3875cd72558.webp",
+      "source_initials": "藍波",
+      "categories": [
+        "posts-videos",
+        "opportunities",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽",
+        "公開活動"
+      ],
+      "key": "fb_happyharmonica:1579496053976332"
     },
     {
       "title": "南里沙 / Risa MINAMI｜昨日はRJ&BME'sマンスリーライブ🎶お越しくださった皆さん、ありがとうございました！気になるRJお食事ランキング第1位は……ブログをチェックして下さいね�... 昨日はRJ&BME'sマンスリーライ…",
@@ -2539,6 +2618,86 @@
       "key": "yt_uctl1euke_x0w6tahecepgmq:DjxIHtn7YAY"
     },
     {
+      "title": "藍波口琴教室｜【小陳老師，魅力無限，再爆一班~】 新莊社大十孔口琴班，每週三晚上，歡迎你的加入！ 🎶 你是不是也曾想過學一種樂器，隨時隨地用音樂療癒自己、打動他人？ 不用擔心沒有音樂基礎！十孔口琴（Blues Harp）體積小巧、攜帶方便…",
+      "headline": "【小陳老師，魅力無限，再爆一班~】",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/happyharmonica/posts/pfbid0UYvkF9Zxoi19Pwx9yBgnGEcHjMhUaRsMkwVRZxgniheFDGvz557Ygb4p1q41dXaUl",
+      "source_id": "fb_happyharmonica",
+      "source": "藍波口琴教室",
+      "source_system_name": "藍波口琴教室",
+      "source_profile_url": "https://facebook.com/happyharmonica",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-88",
+      "directory_entry_name": "藍波口琴教室",
+      "account": "happyharmonica",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-09-16T04:00:06.000Z",
+      "posted_at_local": "2026-09-16 12:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-18T16:55:07.964160+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "課程",
+        "招生"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "交流"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "課程",
+        "招生"
+      ],
+      "llm_categories": [
+        "opportunities"
+      ],
+      "llm_reason": "新莊社大十孔口琴班招生課程，明確為口琴教學與加入資訊。",
+      "text": "【小陳老師，魅力無限，再爆一班~】\n新莊社大十孔口琴班，每週三晚上，歡迎你的加入！ 🎶\n你是不是也曾想過學一種樂器，隨時隨地用音樂療癒自己、打動他人？\n不用擔心沒有音樂基礎！十孔口琴（Blues Harp）體積小巧、攜帶方便，音色豐富多彩。無論是藍調、流行曲還是民謠，一琴在手就能輕鬆吹出你的專屬心聲。\n在我們的班級裡，沒有嚴肅的課業壓力，只有最溫馨的共學氛圍與一群志同道合的好夥伴。老師親切耐心的指導，讓你從第一堂課就能享受合奏的樂趣與成就感！\n✨ 課程亮點\n零基礎友善：從正確呼吸、吹奏單音到基礎樂理，手把手帶你輕鬆入門。\n精緻小班制：課堂互動熱烈，每位學員都能獲得充份的指導與練習。\n溫馨共學圈：結識熱愛音樂的新朋友，下課後一起交流分享、歡樂共聚。\n#十孔口琴 #快樂學習 #口琴家族 #大人學樂器 #零基礎樂器 #音樂共學\nhttps://www.facebook.com/photo/?fbid=1578207670771837&set=a.753920833200529",
+      "images": [
+        "https://scontent.fmem1-1.fna.fbcdn.net/v/t39.30808-6/810931454_1578207674105170_8127744975114092050_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=p526x296&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=rvzGIP7ey-oQ7kNvwF6r_pZ&_nc_oc=Adr-FknQORBljIGMCj0uOSWdfSHEAY6EuRC9RrRodrXQ2XdKXZYFqMi_S_-uOKvb6vk&_nc_zt=23&_nc_ht=scontent.fmem1-1.fna&_nc_gid=BMbXYIWyPA4M55Q8UbLyew&_nc_ss=73289&oh=00_AQJn_4zBvwgxc9MPpYHz7mI0F9EPyMjI5oiKyX-kkwJCag&oe=6AB35963"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent.fmem1-1.fna.fbcdn.net/v/t39.30808-6/810931454_1578207674105170_8127744975114092050_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=p526x296&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=rvzGIP7ey-oQ7kNvwF6r_pZ&_nc_oc=Adr-FknQORBljIGMCj0uOSWdfSHEAY6EuRC9RrRodrXQ2XdKXZYFqMi_S_-uOKvb6vk&_nc_zt=23&_nc_ht=scontent.fmem1-1.fna&_nc_gid=BMbXYIWyPA4M55Q8UbLyew&_nc_ss=73289&oh=00_AQJn_4zBvwgxc9MPpYHz7mI0F9EPyMjI5oiKyX-kkwJCag&oe=6AB35963",
+      "image_url": "/assets/feed-images/d0b926514c510c390e51.webp",
+      "image_width": 526,
+      "image_height": 526,
+      "source_avatar_url": "https://scontent.fmem1-1.fna.fbcdn.net/v/t39.30808-1/358664214_753920859867193_3224395817038140154_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1200x1200&ctp=s50x50&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=ZvCce_aD_X8Q7kNvwFox4dm&_nc_oc=AdriEQ0zbAn0w45S2m9GRfAerVR5pLbWPPUXXGd9zUvC80Bt_mMkTH-Lm484yHahAFQ&_nc_zt=24&_nc_ht=scontent.fmem1-1.fna&_nc_gid=BMbXYIWyPA4M55Q8UbLyew&_nc_ss=73289&oh=00_AQLb8AXejH5NyOMd1Xg3grgqF1-tGYzb2Wwbp6mKeQZAYw&oe=6AB33C47",
+      "avatar_url": "/assets/source-avatars/586d4453e3875cd72558.webp",
+      "source_initials": "藍波",
+      "categories": [
+        "posts-videos",
+        "opportunities",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽",
+        "公開活動"
+      ],
+      "key": "fb_happyharmonica:1578244950768109"
+    },
+    {
       "title": "新竹縣政府文化局｜文科客家諺語教室L415【感受您个燒暖，記心田】 #共下來講客家話 #新竹縣 #客家文化 ▍每週三，文科老師教您 #共下來講客家話 🎼客家金曲獎特輯part17 -得獎作品：風雨个祝福🎼 【感受您个燒暖，記心田】感謝您的…",
       "headline": "文科客家諺語教室L415【感受您个燒暖，記心田】",
       "display_title": "文科客家諺語教室L415【感受您个燒暖，記心田】",
@@ -3217,6 +3376,85 @@
         "公開活動"
       ],
       "key": "yt_weiwuyingfilm:5CLkyN6qeQE"
+    },
+    {
+      "title": "藍波口琴教室｜《飛鳥和蟬》 文山口琴班的同學，這次挑戰了爆紅金曲-飛鳥和蟬，用靈巧的十孔口琴吹奏出那份帶有淡淡憂傷與思念的旋律。 十孔口琴雖然體積小巧，但要將《飛鳥和蟬》細膩的曲調流暢表達出來，非常考驗壓音（Bending）技巧與氣息控制…",
+      "headline": "《飛鳥和蟬》",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/reel/1091189783627856/",
+      "source_id": "fb_happyharmonica",
+      "source": "藍波口琴教室",
+      "source_system_name": "藍波口琴教室",
+      "source_profile_url": "https://facebook.com/happyharmonica",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-88",
+      "directory_entry_name": "藍波口琴教室",
+      "account": "happyharmonica",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-09-14T05:01:04.000Z",
+      "posted_at_local": "2026-09-14 13:01",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-18T16:55:07.964160+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "影片",
+        "演出"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "演出",
+        "影片"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "影片",
+        "演出"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴教室發布學員十孔口琴演奏影片，屬口琴公開更新與演出內容。",
+      "text": "《飛鳥和蟬》\n文山口琴班的同學，這次挑戰了爆紅金曲-飛鳥和蟬，用靈巧的十孔口琴吹奏出那份帶有淡淡憂傷與思念的旋律。\n十孔口琴雖然體積小巧，但要將《飛鳥和蟬》細膩的曲調流暢表達出來，非常考驗壓音（Bending）技巧與氣息控制。立屏同學在練習過程中花了不少心思調整音色，從起初的摸索到現在能順暢吹出動人的旋律，進步真的非常有目共睹！👏\n「你驕傲的飛遠，我棲息的夏天……」當這首溫柔的曲子從口琴聲中流淌出來，是不是也讓你想起了某個夏天呢？\n快點開影片一起欣賞她的精彩演出吧！也別忘了在下方留言給她一點鼓勵與支持喔！👇✨\n#口琴教學 #十孔口琴 #飛鳥和蟬 #音樂學習 #口琴演奏\nhttps://www.facebook.com/reel/1091189783627856/",
+      "images": [
+        "https://scontent.fmem1-1.fna.fbcdn.net/v/t15.5256-10/806101179_1858088672023248_8350454496891245951_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=s960x960&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=IKnKA7yeOOgQ7kNvwGuwCZM&_nc_oc=AdqiZx0Sqv3yqNKXbJx5kH_NdZbWGtmrR5vgZEnCWEiLYejAgYVwNrXSiDbML7HaU7g&_nc_zt=23&_nc_ht=scontent.fmem1-1.fna&_nc_gid=BMbXYIWyPA4M55Q8UbLyew&_nc_ss=73289&oh=00_AQIfo_jbPYwovKGFANi0YYAdoVYYCnMKJIkjDi-F2tCCPg&oe=6AB3487A"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent.fmem1-1.fna.fbcdn.net/v/t15.5256-10/806101179_1858088672023248_8350454496891245951_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=s960x960&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=IKnKA7yeOOgQ7kNvwGuwCZM&_nc_oc=AdqiZx0Sqv3yqNKXbJx5kH_NdZbWGtmrR5vgZEnCWEiLYejAgYVwNrXSiDbML7HaU7g&_nc_zt=23&_nc_ht=scontent.fmem1-1.fna&_nc_gid=BMbXYIWyPA4M55Q8UbLyew&_nc_ss=73289&oh=00_AQIfo_jbPYwovKGFANi0YYAdoVYYCnMKJIkjDi-F2tCCPg&oe=6AB3487A",
+      "image_url": "/assets/feed-images/a1d6e9acf571d0ccdf09.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://scontent.fmem1-1.fna.fbcdn.net/v/t39.30808-1/358664214_753920859867193_3224395817038140154_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1200x1200&ctp=s50x50&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=ZvCce_aD_X8Q7kNvwFox4dm&_nc_oc=AdriEQ0zbAn0w45S2m9GRfAerVR5pLbWPPUXXGd9zUvC80Bt_mMkTH-Lm484yHahAFQ&_nc_zt=24&_nc_ht=scontent.fmem1-1.fna&_nc_gid=BMbXYIWyPA4M55Q8UbLyew&_nc_ss=73289&oh=00_AQLb8AXejH5NyOMd1Xg3grgqF1-tGYzb2Wwbp6mKeQZAYw&oe=6AB33C47",
+      "avatar_url": "/assets/source-avatars/586d4453e3875cd72558.webp",
+      "source_initials": "藍波",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "fb_happyharmonica:1577390437520227"
     },
     {
       "title": "Chinese-YMCA-of-Hong-Kong-Harmonica-Orchestra｜香港貿易發展局邀請香港中華基督教青年會口琴樂團重奏隊，於8月14日晚上在灣仔會議展覽中心參與「香港美食節」演出，演出時長三十分鐘。 是次演出曲目緊…",
@@ -5186,6 +5424,91 @@
       "key": "fb_deak_harp:10245112783417338"
     },
     {
+      "title": "天狼星口琴樂團 Sirius Harmonica Ensemble｜📍 這是天狼星口琴樂團於 2026 首爾國際口琴節的演出實況，曲目為〈Still Got the Blues〉。 對天狼星而言，這是一個非常忙碌的夏天。從不同城市、不同舞…",
+      "headline": "📍 這是天狼星口琴樂團於 2026 首爾國際口琴節的演出實況，曲目為〈Still Got the Blues〉。",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/SiriusHarp/posts/pfbid031FbbQRd6Sb1R3CJFdiNf3zSJfydc6gF2P73B56yi9TEZRCSC8k9rdVSEryzCAg5Jl",
+      "source_id": "fb_siriusharp",
+      "source": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+      "source_system_name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+      "source_profile_url": "https://facebook.com/SiriusHarp",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-3",
+      "directory_entry_name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+      "account": "SiriusHarp",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-09-08T14:03:59.000Z",
+      "posted_at_local": "2026-09-08 22:03",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-18T16:55:07.964160+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "交流",
+        "影片"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "演出",
+        "交流",
+        "影片",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "交流",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴樂團公開演出實況與影片分享，屬口琴演奏者公開更新。",
+      "text": "📍 這是天狼星口琴樂團於 2026 首爾國際口琴節的演出實況，曲目為〈Still Got the Blues〉。\n對天狼星而言，這是一個非常忙碌的夏天。從不同城市、不同舞台之間接續奔走，而首爾國際口琴節，正是這一連串活動中的第二站。雖然行程緊湊，但能夠再次來到首爾，與許多熟悉的朋友、音樂家與口琴同好相聚，仍然讓我們感到非常開心與感動。\n多年來，天狼星口琴樂團與首爾國際口琴節已經建立起非常良好的默契。每一次來到這裡，都不只是參與一場音樂節，更像是回到一個熟悉而溫暖的地方。台上台下的交流、彼此之間的支持與鼓勵，也讓我們一次又一次感受到亞洲口琴社群之間珍貴的連結。\n〈Still Got the Blues〉一直是我們非常喜愛的一首作品。最早聽見這首曲子，是透過 Harmonica Quartet Fata Morgana 的精彩演奏；從那時起，我們就一直希望有一天能將它帶上自己的舞台。這次演出中，我們盡可能保留 Fata Morgana 經典編曲中的精神與韻味，同時也加入了許多屬於天狼星的設計與詮釋，希望在致敬原有版本的同時，也讓這首作品展現出新的聲音與情感。也希望透過這支影片，將當晚舞台上的熱情、回憶與感動，再次傳遞給每一位喜愛口琴音樂的朋友。\n📍 完整影片連結置於留言區\n--\n📍 This video features Sirius Harmonica Ensemble’s live performance of “Still Got the Blues” at the 2026 Seoul International Harmonica Festival.\nFor Sirius, this has been an incredibly busy summer. We have been traveling from city to city and from stage to stage, and the Seoul International Harmonica Festival was the second stop in this series of consecutive events. Although the schedule was intense, returning to Seoul and reuniting with so many familiar friends, musicians, and harmonica lovers was truly joyful and moving for us.\nOver the years, Sirius Harmonica Ensemble has built a strong mutual understanding with the Seoul International Harmoni…",
+      "images": [
+        "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-6/796787954_1636940951776846_3972274336621489129_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1365&ctp=p180x540&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=73td4o5Z5mkQ7kNvwHuEbU_&_nc_oc=AdpwUnvGrkywv06UE2YrIjKZaJKXDvQ7oaIQ2SNGhhOmNzouXP_5LIgCyvoqhCvQ8UU&_nc_zt=23&_nc_ht=scontent-sea5-1.xx&_nc_gid=92FGyZTO-EeWhqfd_do6cA&_nc_ss=72289&oh=00_AQLeiGQmptoPhouuuegV1fGDTr4C6jIW-p920FXn5uhJWw&oe=6AB35556"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-6/796787954_1636940951776846_3972274336621489129_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1365&ctp=p180x540&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=73td4o5Z5mkQ7kNvwHuEbU_&_nc_oc=AdpwUnvGrkywv06UE2YrIjKZaJKXDvQ7oaIQ2SNGhhOmNzouXP_5LIgCyvoqhCvQ8UU&_nc_zt=23&_nc_ht=scontent-sea5-1.xx&_nc_gid=92FGyZTO-EeWhqfd_do6cA&_nc_ss=72289&oh=00_AQLeiGQmptoPhouuuegV1fGDTr4C6jIW-p920FXn5uhJWw&oe=6AB35556",
+      "image_url": "/assets/feed-images/0c2ed77b5250fde87f89.webp",
+      "image_width": 800,
+      "image_height": 534,
+      "source_avatar_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/465250282_8920649977985846_8172505109270831866_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1542x1542&ctp=s50x50&_nc_cat=107&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=nCMLcdcNOooQ7kNvwEH65LT&_nc_oc=AdrJ9XZveAeyRcuj8-nrwZEHM8EBnj6ZzQ_vcVTaH33sENUYZKofo6dXHNjTa83rSfA&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=92FGyZTO-EeWhqfd_do6cA&_nc_ss=72289&oh=00_AQJ8xXNgsLTK5HnFDHCsFkVSfZ6NrcRdBp-NneNDvg6oQQ&oe=6AB3366A",
+      "avatar_url": "/assets/source-avatars/7b882613b0b22fd1bdb5.webp",
+      "source_initials": "SHE",
+      "categories": [
+        "posts-videos",
+        "events",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "學生社團"
+      ],
+      "key": "fb_siriusharp:1636944605109814"
+    },
+    {
       "title": "Sirius Harmonica Ensemble 天狼星口琴樂團｜[Live] Still Got the Blues -天狼星口琴樂團 Sirius Harmonica Ensemble (Remix) Arrangement: Fa…",
       "headline": "[Live] Still Got the Blues -天狼星口琴樂團 Sirius Harmonica Ensemble (Remix)",
       "display_title": "[Live] Still Got the Blues -天狼星口琴樂團 Sirius Harmonica Ensemble (Remix)",
@@ -6573,6 +6896,92 @@
         "公開活動"
       ],
       "key": "yt_weiwuyingfilm:xgQ5ZNjuy_A"
+    },
+    {
+      "title": "音和樂器PeaceTones｜上週是萬華社大秋季班的開學週，本週新北市樹立社大也要開學囉！ 開學前兩週都有免費的旁聽機會，歡迎對課程有興趣的朋友在上課時間至辦公室辦理旁聽手續即可體驗課程喔！ ——————————— 📣歡迎加入我們的學習行…",
+      "headline": "上週是萬華社大秋季班的開學週，本週新北市樹立社大也要開學囉！",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/PeaceTones.harmonica/posts/pfbid02wLfBNWvX8JSugYNzEJxUUiT3jFR4DivyJ1uWxp4148KPQz3QQQ5vL4mrMaMuu9PEl",
+      "source_id": "fb_peacetones_harmonica",
+      "source": "音和樂器PeaceTones",
+      "source_system_name": "音和樂器",
+      "source_profile_url": "https://facebook.com/PeaceTones.harmonica",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "directory_entry_id": "watchlist-27",
+      "directory_entry_name": "音和樂器",
+      "account": "PeaceTones.harmonica",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-09-06T07:09:33.000Z",
+      "posted_at_local": "2026-09-06 15:09",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-18T16:55:07.964160+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "招生",
+        "報名",
+        "課程"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "報名",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.99,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "招生",
+        "報名",
+        "課程"
+      ],
+      "llm_categories": [
+        "opportunities"
+      ],
+      "llm_reason": "口琴社大課程招生與報名資訊，屬公開更新且具明確招生性質。",
+      "text": "上週是萬華社大秋季班的開學週，本週新北市樹立社大也要開學囉！\n開學前兩週都有免費的旁聽機會，歡迎對課程有興趣的朋友在上課時間至辦公室辦理旁聽手續即可體驗課程喔！\n———————————\n📣歡迎加入我們的學習行列：\n▫️萬華社大 龍韻口琴合奏班：\n🔺報名：\nhttps://whcc.twcu.org.tw/course/m_course_detail.php?u=c916c6d88da0bb2bf042a7bafc2b37be\n▫️萬華社大 龍韻口琴獨奏A班：\n🔺報名：\nhttps://whcc.twcu.org.tw/course/m_course_detail.php?u=1af3086c7e8083a49d45e68a2d7edcfd\n▫️萬華社大 龍韻口琴獨奏B班：\n🔺報名：\nhttps://whcc.twcu.org.tw/course/m_course_detail.php?u=7328b6b93c8c63148d872d02fc756785\n▫️樹林社大 口琴輕鬆學：\n🔺報名：\nhttps://shulin.twco.org.tw/course/m_course_detail.php?u=79ce9d5e4f028682d63d3ca6f08b4901\nhttps://www.facebook.com/PeaceTones.harmonica/posts/pfbid02wLfBNWvX8JSugYNzEJxUUiT3jFR4DivyJ1uWxp4148KPQz3QQQ5vL4mrMaMuu9PEl",
+      "images": [
+        "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/798746189_1573716408101956_144780515081405693_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1440x1080&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=LTHWlnWdZ68Q7kNvwFQ0k91&_nc_oc=AdrnLCi3ebrk1Cz-6y4lr87Q0L5T9VwTHWgVtaUioEhWKDd3--ti5a9G3hVTq8V3Bqw&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=Bs6W1Pd1E7G_rYE9mGrAhA&_nc_ss=73289&oh=00_AQLoqehaZPd3rkHtLL_a3h_0xM1IG1mVQr_MU_XelMQ-tg&oe=6AB33BEF",
+        "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/798095274_1573716428101954_5323195033635295059_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx810x1440&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=NI71yEazuloQ7kNvwEkETPA&_nc_oc=AdqAYc9fkKETxu5mK3TMWox8jQCnC-3pVvWJsREDAY3bVgpMeC1_tdEc5157hzjryQo&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=Bs6W1Pd1E7G_rYE9mGrAhA&_nc_ss=73289&oh=00_AQKC9fBSDVpXY3k1UnbG2tebAkzkxuz8tkl0q8hli14gGg&oe=6AB334B2"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/798746189_1573716408101956_144780515081405693_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1440x1080&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=LTHWlnWdZ68Q7kNvwFQ0k91&_nc_oc=AdrnLCi3ebrk1Cz-6y4lr87Q0L5T9VwTHWgVtaUioEhWKDd3--ti5a9G3hVTq8V3Bqw&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=Bs6W1Pd1E7G_rYE9mGrAhA&_nc_ss=73289&oh=00_AQLoqehaZPd3rkHtLL_a3h_0xM1IG1mVQr_MU_XelMQ-tg&oe=6AB33BEF",
+      "image_url": "/assets/feed-images/0c3fc4cac031fcc4a23a.webp",
+      "image_width": 590,
+      "image_height": 443,
+      "source_avatar_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/273558016_327227779417498_8977996107877435718_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2001x2001&ctp=s50x50&_nc_cat=109&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=lsK0saeOsFUQ7kNvwHUmkhR&_nc_oc=AdqL1qWpUwZGD4uF23UT3XEnOFWgUKFbQI-XIwsGnKuIAkrs37NGFPbUaqi9vmL_BBY&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=Bs6W1Pd1E7G_rYE9mGrAhA&_nc_ss=73289&oh=00_AQI4i-wjrJ8WjD4FerIRPtBElmsu_POVFYLOTQwBrzMkQQ&oe=6AB32728",
+      "avatar_url": "/assets/source-avatars/0884fab98145fc1dc8d2.webp",
+      "source_initials": "P",
+      "categories": [
+        "posts-videos",
+        "opportunities",
+        "events",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽",
+        "公開活動",
+        "學生社團"
+      ],
+      "key": "fb_peacetones_harmonica:1573716464768617"
     },
     {
       "title": "NTHU Harmonica Club｜【9/10 社博】 一年一度的社博登場啦！ 不管你是對音樂有熱情，還是單純想豐富自己的大學生活～ 口琴社，絕對是你最沒有負擔的開始💯 不用擔心自己什麼都不會，進來我們會手把手帶你從零學起💪 不需要昂…",
@@ -8794,6 +9203,83 @@
       "key": "yt_yuanyuanharmonica:SXi0cgg7v20"
     },
     {
+      "title": "Liam Ward & Malcolm Thorne｜LAST CHANCE - MUST END SUNDAY 6TH SEPTEMBER I’ve been offering 25% off all of my online harm…",
+      "headline": "LAST CHANCE - MUST END SUNDAY 6TH SEPTEMBER",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/learntheharmonica/posts/pfbid02Q3UfmyUShJYpf1rrhu5cnY8kAUPV5GpirJHbsDkssjUS8pnZdq2j4BMfAqDUYwoBl",
+      "source_id": "fb_learntheharmonica",
+      "source": "Liam Ward & Malcolm Thorne",
+      "source_system_name": "Liam Ward & Malcolm Thorne",
+      "source_profile_url": "https://facebook.com/learntheharmonica",
+      "country": "英國",
+      "region": "英國",
+      "directory_entry_id": "watchlist-149",
+      "directory_entry_name": "Liam Ward & Malcolm Thorne",
+      "account": "learntheharmonica",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-09-03T09:49:14.000Z",
+      "posted_at_local": "2026-09-03 17:49",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-18T16:55:07.964160+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "招生",
+        "報名"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.93,
+      "llm_labels": [
+        "口琴",
+        "招生",
+        "報名"
+      ],
+      "llm_categories": [
+        "opportunities"
+      ],
+      "llm_reason": "口琴線上學校會員限時優惠，屬招生/報名性質的公開更新。",
+      "text": "LAST CHANCE - MUST END SUNDAY 6TH SEPTEMBER\nI’ve been offering 25% off all of my online harmonica school memberships during Back To School Season.\nSave up to $280!\nClick the link for details - https://www.learntheharmonica.com/back-to-school-offer\nhttps://www.facebook.com/photo/?fbid=1697766162304406&set=a.526962006051500",
+      "images": [
+        "https://scontent-msp1-1.xx.fbcdn.net/v/t39.30808-6/790408524_1697766165637739_3712195559418922777_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=p526x296&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=kxsxQHv3vU8Q7kNvwFqh3cx&_nc_oc=Adpb7lZt3n6EHLwkRwpp6e1nNaLbAztyoWlzxMN0L3ZUohe3ZpIDB3zQaFdG6m1_32o&_nc_zt=23&_nc_ht=scontent-msp1-1.xx&_nc_gid=IlbkXVNGBOao9KPEzT5OCg&_nc_ss=73289&oh=00_AQKqelWE_J4vchodoZ3LVKK6ldxvCVHEjUg8m2khhZQqZg&oe=6AB32402"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-msp1-1.xx.fbcdn.net/v/t39.30808-6/790408524_1697766165637739_3712195559418922777_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=p526x296&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=kxsxQHv3vU8Q7kNvwFqh3cx&_nc_oc=Adpb7lZt3n6EHLwkRwpp6e1nNaLbAztyoWlzxMN0L3ZUohe3ZpIDB3zQaFdG6m1_32o&_nc_zt=23&_nc_ht=scontent-msp1-1.xx&_nc_gid=IlbkXVNGBOao9KPEzT5OCg&_nc_ss=73289&oh=00_AQKqelWE_J4vchodoZ3LVKK6ldxvCVHEjUg8m2khhZQqZg&oe=6AB32402",
+      "image_url": "/assets/feed-images/1def2b3409ded7d11eec.webp",
+      "image_width": 526,
+      "image_height": 526,
+      "source_avatar_url": "https://scontent-msp1-1.xx.fbcdn.net/v/t39.30808-1/302195690_526962039384830_1011018064873131806_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx582x582&ctp=s50x50&_nc_cat=105&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=1zDzxE8sfMEQ7kNvwGsS1SY&_nc_oc=AdoWQc22j9byUC1dAScMcHBXXvIadbs5E8pj1T9Du-qGD8cV5BWy99m2Ti-GmZSFSZs&_nc_zt=24&_nc_ht=scontent-msp1-1.xx&_nc_gid=IlbkXVNGBOao9KPEzT5OCg&_nc_ss=73289&oh=00_AQIqkv3lxWKBr-Fb4YlNIV0LcgHACjLkeCUzxKcLSOc_8Q&oe=6AB32387",
+      "avatar_url": "/assets/source-avatars/ef5b533bdb0a83793af4.webp",
+      "source_initials": "LWM",
+      "categories": [
+        "posts-videos",
+        "opportunities",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽",
+        "公開活動"
+      ],
+      "key": "fb_learntheharmonica:1697769572304065"
+    },
+    {
       "title": "陳晟禕｜【教學日常】 國中口琴社團的第一天，口琴新生不知會否超過十人，從十多年前最高峰一屆近30人，減至如今狀況，不如歸去感不免而生。50年後青少年還有人會吹口琴嗎？都去玩什麼樂器了呢？至今仍是蠻推崇與喜愛吹口琴時，那種口琴與音樂與自己交…",
       "headline": "【教學日常】",
       "display_title": "",
@@ -10321,6 +10807,93 @@
         "公開活動"
       ],
       "key": "ig_hksmsa_official:3976458667847971411"
+    },
+    {
+      "title": "音和樂器PeaceTones｜這週是社區大學的開學週；說明秋季班的班務以及活動規劃後剩下時間不多，不過我們還是把握時間玩了一首曲子「一念」！ ——————————— 📣歡迎加入我們的學習行列： ▫️萬華社大 龍韻口琴合奏班： 🔺報名： h…",
+      "headline": "這週是社區大學的開學週；說明秋季班的班務以及活動規劃後剩下時間不多，不過我們還是把握時間玩了一首曲子「一念」！",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/reel/1402534271984563/",
+      "source_id": "fb_peacetones_harmonica",
+      "source": "音和樂器PeaceTones",
+      "source_system_name": "音和樂器",
+      "source_profile_url": "https://facebook.com/PeaceTones.harmonica",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "directory_entry_id": "watchlist-27",
+      "directory_entry_name": "音和樂器",
+      "account": "PeaceTones.harmonica",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-09-01T05:39:59.000Z",
+      "posted_at_local": "2026-09-01 13:39",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-18T16:55:07.964160+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "招生",
+        "課程",
+        "報名",
+        "影片"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "報名"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "招生",
+        "課程",
+        "報名",
+        "影片"
+      ],
+      "llm_categories": [
+        "opportunities",
+        "posts-videos"
+      ],
+      "llm_reason": "口琴課程招生與報名資訊，附公開影片更新，屬口琴相關機會貼文。",
+      "text": "這週是社區大學的開學週；說明秋季班的班務以及活動規劃後剩下時間不多，不過我們還是把握時間玩了一首曲子「一念」！\n———————————\n📣歡迎加入我們的學習行列：\n▫️萬華社大 龍韻口琴合奏班：\n🔺報名：\nhttps://whcc.twcu.org.tw/course/m_course_detail.php?u=c916c6d88da0bb2bf042a7bafc2b37be\n▫️萬華社大 龍韻口琴獨奏A班：\n🔺報名：\nhttps://whcc.twcu.org.tw/course/m_course_detail.php?u=1af3086c7e8083a49d45e68a2d7edcfd\n▫️萬華社大 龍韻口琴獨奏B班：\n🔺報名：\nhttps://whcc.twcu.org.tw/course/m_course_detail.php?u=7328b6b93c8c63148d872d02fc756785\n▫️樹林社大 口琴輕鬆學：\n🔺報名：\nhttps://shulin.twco.org.tw/course/m_course_detail.php?u=79ce9d5e4f028682d63d3ca6f08b4901\nhttps://www.facebook.com/reel/1402534271984563/",
+      "images": [
+        "https://scontent-atl3-1.xx.fbcdn.net/v/t15.5256-10/790023490_27921127960915354_8392323610433748992_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=zIgOraaPowsQ7kNvwF2MWD1&_nc_oc=AdqxpjOZYac3ehtxiwJZG6yVoORt1YNI2uP6gp0cs-1BU77HMSTIkcrpps9oFA9USwg&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=Bs6W1Pd1E7G_rYE9mGrAhA&_nc_ss=73289&oh=00_AQJr959c0VjCRLMANrYWEze-FxRdbdwVst3Br8d1uK99uA&oe=6AB358CD"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t15.5256-10/790023490_27921127960915354_8392323610433748992_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=zIgOraaPowsQ7kNvwF2MWD1&_nc_oc=AdqxpjOZYac3ehtxiwJZG6yVoORt1YNI2uP6gp0cs-1BU77HMSTIkcrpps9oFA9USwg&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=Bs6W1Pd1E7G_rYE9mGrAhA&_nc_ss=73289&oh=00_AQJr959c0VjCRLMANrYWEze-FxRdbdwVst3Br8d1uK99uA&oe=6AB358CD",
+      "image_url": "/assets/feed-images/a5a3359949b0819ae5a2.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/273558016_327227779417498_8977996107877435718_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2001x2001&ctp=s50x50&_nc_cat=109&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=lsK0saeOsFUQ7kNvwHUmkhR&_nc_oc=AdqL1qWpUwZGD4uF23UT3XEnOFWgUKFbQI-XIwsGnKuIAkrs37NGFPbUaqi9vmL_BBY&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=Bs6W1Pd1E7G_rYE9mGrAhA&_nc_ss=73289&oh=00_AQI4i-wjrJ8WjD4FerIRPtBElmsu_POVFYLOTQwBrzMkQQ&oe=6AB32728",
+      "avatar_url": "/assets/source-avatars/0884fab98145fc1dc8d2.webp",
+      "source_initials": "P",
+      "categories": [
+        "posts-videos",
+        "opportunities",
+        "events",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽",
+        "公開活動",
+        "學生社團"
+      ],
+      "key": "fb_peacetones_harmonica:1568742465266017"
     },
     {
       "title": "音和樂器PeaceTones｜JDR Chicago/芝加哥 十孔口琴",

@@ -1183,6 +1183,69 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-88",
+      "publicId": "88",
+      "name": "藍波口琴教室",
+      "nameEn": "Bluebo Harmonica",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "教學工作室",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴教學/課程/學習資源",
+      "structuredSummary": "口琴教學/課程/學習資源 / 口琴 / 教學/課程來源",
+      "summary": "臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。",
+      "keywords": "藍波口琴教室 藍波口琴網 口琴 教學",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.blueboclass.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/happyharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@lamberharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "88-bluebo-harmonica",
+      "latestUpdateAt": "2026-09-18T04:00:04+00:00",
+      "latestUpdateLocal": "2026-09-18 12:00",
+      "latestUpdateSource": "藍波口琴教室",
+      "latestUpdateUrl": "https://www.facebook.com/reel/1693936745780765/",
+      "avatarUrl": "/assets/source-avatars/bluebo-harmonica.jpg",
+      "sourceInitials": "藍波",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "課程"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_happyharmonica",
+          "name": "藍波口琴教室",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/happyharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_lamberharmonica",
+          "name": "藍波口琴教室",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@lamberharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-65",
       "publicId": "65",
       "name": "Jong-seong Park 朴鍾聲",
@@ -2320,64 +2383,98 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-88",
-      "publicId": "88",
-      "name": "藍波口琴教室",
-      "nameEn": "Bluebo Harmonica",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "教學工作室",
+      "id": "watchlist-100",
+      "publicId": "100",
+      "name": "曹小歐",
+      "nameEn": "Otis Tsao",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "口琴教學/課程/學習資源",
-      "structuredSummary": "口琴教學/課程/學習資源 / 口琴 / 教學/課程來源",
-      "summary": "臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。",
-      "keywords": "藍波口琴教室 藍波口琴網 口琴 教學",
+      "cityOrFocus": "單口喜劇/藍調口琴/演出",
+      "structuredSummary": "單口喜劇/藍調口琴/演出 / 十孔/藍調口琴 / 演出人員",
+      "summary": "臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。",
+      "keywords": "曹小歐 Otis Tsao 口琴 單口喜劇 藍調口琴",
       "links": [
         {
           "label": "網站",
-          "url": "https://www.blueboclass.com/"
+          "url": "https://portaly.cc/otistsao"
         },
         {
           "label": "Facebook",
-          "url": "https://www.facebook.com/happyharmonica/"
+          "url": "https://www.facebook.com/otis5hundredtsao/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/otistsao/"
         },
         {
           "label": "YouTube",
-          "url": "https://www.youtube.com/@lamberharmonica"
+          "url": "https://www.youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@otistsao"
         }
       ],
       "source": "watchlist",
       "aliases": [],
-      "slug": "88-bluebo-harmonica",
-      "latestUpdateAt": "2026-09-15T10:00:34+00:00",
-      "latestUpdateLocal": "2026-09-15 18:00",
-      "latestUpdateSource": "藍波口琴教室",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=lkSWewPjhjw",
-      "avatarUrl": "/assets/source-avatars/bluebo-harmonica.jpg",
-      "sourceInitials": "藍波",
+      "slug": "100-otis-tsao",
+      "latestUpdateAt": "2026-09-15T13:00:15+00:00",
+      "latestUpdateLocal": "2026-09-15 21:00",
+      "latestUpdateSource": "曹小歐",
+      "latestUpdateUrl": "https://www.facebook.com/reel/1614578946983054/",
+      "avatarUrl": "/assets/source-avatars/7d39ebcaa43b919f5f5e.webp",
+      "sourceInitials": "曹小",
       "sourceTags": [
-        "教學器材",
-        "教學",
-        "課程"
+        "演奏者",
+        "十孔"
       ],
       "monitorSources": [
         {
-          "id": "fb_happyharmonica",
-          "name": "藍波口琴教室",
+          "id": "fb_otis5hundredtsao",
+          "name": "曹小歐",
           "platform": "facebook",
           "type": "facebook_page_posts",
           "username": "",
-          "profileUrl": "https://facebook.com/happyharmonica",
+          "profileUrl": "https://facebook.com/otis5hundredtsao",
           "feedUrl": ""
         },
         {
-          "id": "yt_lamberharmonica",
-          "name": "藍波口琴教室",
+          "id": "ig_otistsao",
+          "name": "曹小歐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "otistsao",
+          "profileUrl": "https://www.instagram.com/otistsao/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_otistsao",
+          "name": "曹小歐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "otistsao",
+          "profileUrl": "https://www.instagram.com/otistsao/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_otistsao",
+          "name": "曹小歐",
+          "platform": "threads",
+          "type": "rss",
+          "username": "otistsao",
+          "profileUrl": "https://www.threads.net/@otistsao",
+          "feedUrl": "https://rss.observe.tw/threads/otistsao"
+        },
+        {
+          "id": "yt_ucbdafdgrntui_iqtg9e4bmw",
+          "name": "曹小歐",
           "platform": "youtube",
           "type": "youtube_ytdlp",
           "username": "",
-          "profileUrl": "https://youtube.com/@lamberharmonica",
+          "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
           "feedUrl": ""
         }
       ]
@@ -2480,6 +2577,92 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-149",
+      "publicId": "149",
+      "name": "Liam Ward & Malcolm Thorne",
+      "nameEn": "Liam Ward & Malcolm Thorne",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體/合作企劃",
+      "country": "英國",
+      "region": "英國",
+      "cityOrFocus": "WHF 2025/藍調口琴/吉他合作/教學",
+      "structuredSummary": "WHF 2025/藍調口琴/吉他合作/教學 / 十孔/藍調口琴/吉他 / 國際演出團體/教育者",
+      "summary": "英國的十孔、藍調口琴與吉他國際演出團體與教育者，活動脈絡包含WHF 2025、吉他合作與教學。",
+      "keywords": "Liam Ward Malcolm Thorne LearnTheHarmonica liamwardmusic harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://learntheharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/learntheharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/liamwardmusic/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@learntheharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "149-liam-ward-malcolm-thorne",
+      "latestUpdateAt": "2026-09-15T09:06:08+00:00",
+      "latestUpdateLocal": "2026-09-15 17:06",
+      "latestUpdateSource": "Liam Ward & Malcolm Thorne",
+      "latestUpdateUrl": "https://www.facebook.com/learntheharmonica/posts/pfbid032cfYZA3vaYUb3h3troie1qTnWHN5TSE2mNAQkTGu5SY2FpWsntXUmF3seYfEdfaAl",
+      "avatarUrl": "/assets/source-avatars/d89594f855a1ca55edfb.webp",
+      "sourceInitials": "LWM",
+      "sourceTags": [
+        "團體樂團",
+        "教學",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_learntheharmonica",
+          "name": "Liam Ward & Malcolm Thorne",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/learntheharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_liamwardmusic",
+          "name": "Liam Ward & Malcolm Thorne",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "liamwardmusic",
+          "profileUrl": "https://www.instagram.com/liamwardmusic/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_liamwardmusic",
+          "name": "Liam Ward & Malcolm Thorne",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "liamwardmusic",
+          "profileUrl": "https://www.instagram.com/liamwardmusic/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_learntheharmonica",
+          "name": "Liam Ward & Malcolm Thorne",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@learntheharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-4",
       "publicId": "4",
       "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
@@ -2575,6 +2758,94 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@JudysHarmonicaEnsemble",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-263",
+      "publicId": "263",
+      "name": "JDR Harmonica",
+      "nameEn": "JDR Harmonica",
+      "category": "活動資訊",
+      "type": "品牌",
+      "originalType": "品牌/樂器製造商",
+      "country": "中國",
+      "region": "中國/江蘇/江陰",
+      "cityOrFocus": "口琴製造/十孔/半音階/器材資訊/國際音樂節贊助",
+      "structuredSummary": "口琴製造/十孔/半音階/器材資訊/國際音樂節贊助 / 十孔/半音階/口琴 / 器材品牌/活動贊助單位",
+      "summary": "中國的器材品牌與活動贊助單位，涵蓋口琴製造、器材資訊與國際音樂節贊助。",
+      "keywords": "JDR Harmonica 嘉德瑞 Jiangyin Soundreal harmonica THMF SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.jdrharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/JDRmusik/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jdr_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@JDRHarmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "263-jdr-harmonica",
+      "latestUpdateAt": "2026-09-14T03:26:55+00:00",
+      "latestUpdateLocal": "2026-09-14 11:26",
+      "latestUpdateSource": "JDR Harmonica",
+      "latestUpdateUrl": "https://www.facebook.com/reel/1128830519808027/",
+      "avatarUrl": "/assets/source-avatars/08549f396d311d5a7f50.webp",
+      "sourceInitials": "JH",
+      "sourceTags": [
+        "品牌",
+        "活動資訊",
+        "音樂節",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_jdrmusik",
+          "name": "JDR Harmonica",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/JDRmusik",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_jdr_harmonica",
+          "name": "JDR Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "jdr_harmonica",
+          "profileUrl": "https://www.instagram.com/jdr_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_jdr_harmonica",
+          "name": "JDR Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "jdr_harmonica",
+          "profileUrl": "https://www.instagram.com/jdr_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_jdrharmonica",
+          "name": "JDR Harmonica",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@JDRHarmonica",
           "feedUrl": ""
         }
       ]
@@ -3676,10 +3947,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "3-sirius-harmonica-ensemble",
-      "latestUpdateAt": "2026-09-08T13:20:38+00:00",
-      "latestUpdateLocal": "2026-09-08 21:20",
+      "latestUpdateAt": "2026-09-08T14:03:59+00:00",
+      "latestUpdateLocal": "2026-09-08 22:03",
       "latestUpdateSource": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=PSCmYU3KIQw",
+      "latestUpdateUrl": "https://www.facebook.com/SiriusHarp/posts/pfbid031FbbQRd6Sb1R3CJFdiNf3zSJfydc6gF2P73B56yi9TEZRCSC8k9rdVSEryzCAg5Jl",
       "avatarUrl": "/assets/source-avatars/93835cb48c6cc1048bfa.webp",
       "sourceInitials": "SHE",
       "sourceTags": [
@@ -3819,6 +4090,90 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-27",
+      "publicId": "27",
+      "name": "音和樂器",
+      "nameEn": "PeaceTones Harmonica",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "樂器行/口琴專賣店",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務",
+      "structuredSummary": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務 / 口琴 / 器材/教學來源",
+      "summary": "臺灣的口琴器材與教學來源，關注口琴器材、活動資訊、口琴買賣、維修保養與教學服務。",
+      "keywords": "音和樂器 PeaceTones Harmonica 口琴專賣店 口琴 維修 教學",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://0223120930.web66.com.tw/web/SEC?Code=&sortType=J"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/PeaceTones.harmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/peacetones.harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@peacetonesharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "27-peacetones-harmonica",
+      "latestUpdateAt": "2026-09-06T07:09:33+00:00",
+      "latestUpdateLocal": "2026-09-06 15:09",
+      "latestUpdateSource": "音和樂器",
+      "latestUpdateUrl": "https://www.facebook.com/PeaceTones.harmonica/posts/pfbid02wLfBNWvX8JSugYNzEJxUUiT3jFR4DivyJ1uWxp4148KPQz3QQQ5vL4mrMaMuu9PEl",
+      "avatarUrl": "/assets/source-avatars/81fa36d32a8fd17393ca.webp",
+      "sourceInitials": "音和",
+      "sourceTags": [
+        "教學器材",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_peacetones_harmonica",
+          "name": "音和樂器",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/PeaceTones.harmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_peacetones_harmonica",
+          "name": "音和樂器",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "peacetones.harmonica",
+          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_peacetones_harmonica",
+          "name": "音和樂器",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "peacetones.harmonica",
+          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_peacetonesharmonica",
+          "name": "音和樂器",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@peacetonesharmonica",
           "feedUrl": ""
         }
       ]
@@ -4535,7 +4890,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-03 13:54",
       "latestUpdateSource": "陳晟禕",
       "latestUpdateUrl": "https://www.facebook.com/chen.cheng.yi.487430/posts/pfbid02VLaQDsnhGjtTjXFQfocrYPiyt7JLeL5hv5ti8HmK9PRmp6r5B9Mab4UcycwFmrFSl",
-      "avatarUrl": "/assets/source-avatars/c00c8c8d5550e9b713e5.webp",
+      "avatarUrl": "/assets/source-avatars/fdec14ad0129b67f3c26.webp",
       "sourceInitials": "陳晟",
       "sourceTags": [
         "演奏者",
@@ -5064,191 +5419,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "steffi.leung",
           "profileUrl": "https://www.instagram.com/steffi.leung/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-100",
-      "publicId": "100",
-      "name": "曹小歐",
-      "nameEn": "Otis Tsao",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "單口喜劇/藍調口琴/演出",
-      "structuredSummary": "單口喜劇/藍調口琴/演出 / 十孔/藍調口琴 / 演出人員",
-      "summary": "臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。",
-      "keywords": "曹小歐 Otis Tsao 口琴 單口喜劇 藍調口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://portaly.cc/otistsao"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/otis5hundredtsao/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/otistsao/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@otistsao"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "100-otis-tsao",
-      "latestUpdateAt": "2026-09-01T14:08:11+00:00",
-      "latestUpdateLocal": "2026-09-01 22:08",
-      "latestUpdateSource": "曹小歐",
-      "latestUpdateUrl": "https://www.instagram.com/stories/otistsao/3976633635301863498/",
-      "avatarUrl": "/assets/source-avatars/7d39ebcaa43b919f5f5e.webp",
-      "sourceInitials": "曹小",
-      "sourceTags": [
-        "演奏者",
-        "十孔"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_otis5hundredtsao",
-          "name": "曹小歐",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/otis5hundredtsao",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_otistsao",
-          "name": "曹小歐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "otistsao",
-          "profileUrl": "https://www.instagram.com/otistsao/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_otistsao",
-          "name": "曹小歐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "otistsao",
-          "profileUrl": "https://www.instagram.com/otistsao/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_otistsao",
-          "name": "曹小歐",
-          "platform": "threads",
-          "type": "rss",
-          "username": "otistsao",
-          "profileUrl": "https://www.threads.net/@otistsao",
-          "feedUrl": "https://rss.observe.tw/threads/otistsao"
-        },
-        {
-          "id": "yt_ucbdafdgrntui_iqtg9e4bmw",
-          "name": "曹小歐",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-263",
-      "publicId": "263",
-      "name": "JDR Harmonica",
-      "nameEn": "JDR Harmonica",
-      "category": "活動資訊",
-      "type": "品牌",
-      "originalType": "品牌/樂器製造商",
-      "country": "中國",
-      "region": "中國/江蘇/江陰",
-      "cityOrFocus": "口琴製造/十孔/半音階/器材資訊/國際音樂節贊助",
-      "structuredSummary": "口琴製造/十孔/半音階/器材資訊/國際音樂節贊助 / 十孔/半音階/口琴 / 器材品牌/活動贊助單位",
-      "summary": "中國的器材品牌與活動贊助單位，涵蓋口琴製造、器材資訊與國際音樂節贊助。",
-      "keywords": "JDR Harmonica 嘉德瑞 Jiangyin Soundreal harmonica THMF SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.jdrharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/JDRmusik/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/jdr_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@JDRHarmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "263-jdr-harmonica",
-      "latestUpdateAt": "2026-09-01T13:27:50+00:00",
-      "latestUpdateLocal": "2026-09-01 21:27",
-      "latestUpdateSource": "JDR Harmonica",
-      "latestUpdateUrl": "https://www.facebook.com/JDRmusik/posts/pfbid0qX5g9eatpbu7Hs7QDampVaCmxWEMNwkko4BbAcgCqa2AMvc9LVdGGLZjs2dmqQSLl",
-      "avatarUrl": "/assets/source-avatars/08549f396d311d5a7f50.webp",
-      "sourceInitials": "JH",
-      "sourceTags": [
-        "品牌",
-        "活動資訊",
-        "音樂節",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_jdrmusik",
-          "name": "JDR Harmonica",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/JDRmusik",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_jdr_harmonica",
-          "name": "JDR Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "jdr_harmonica",
-          "profileUrl": "https://www.instagram.com/jdr_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_jdr_harmonica",
-          "name": "JDR Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "jdr_harmonica",
-          "profileUrl": "https://www.instagram.com/jdr_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_jdrharmonica",
-          "name": "JDR Harmonica",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@JDRHarmonica",
           "feedUrl": ""
         }
       ]
@@ -6010,90 +6180,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/c/YoonseokLee_HARMONICA",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-27",
-      "publicId": "27",
-      "name": "音和樂器",
-      "nameEn": "PeaceTones Harmonica",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "樂器行/口琴專賣店",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務",
-      "structuredSummary": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務 / 口琴 / 器材/教學來源",
-      "summary": "臺灣的口琴器材與教學來源，關注口琴器材、活動資訊、口琴買賣、維修保養與教學服務。",
-      "keywords": "音和樂器 PeaceTones Harmonica 口琴專賣店 口琴 維修 教學",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://0223120930.web66.com.tw/web/SEC?Code=&sortType=J"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/PeaceTones.harmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/peacetones.harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@peacetonesharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "27-peacetones-harmonica",
-      "latestUpdateAt": "2026-09-01T05:07:45+00:00",
-      "latestUpdateLocal": "2026-09-01 13:07",
-      "latestUpdateSource": "音和樂器",
-      "latestUpdateUrl": "https://www.instagram.com/p/Dcu3zOANMnf/",
-      "avatarUrl": "/assets/source-avatars/81fa36d32a8fd17393ca.webp",
-      "sourceInitials": "音和",
-      "sourceTags": [
-        "教學器材",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_peacetones_harmonica",
-          "name": "音和樂器",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/PeaceTones.harmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_peacetones_harmonica",
-          "name": "音和樂器",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "peacetones.harmonica",
-          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_peacetones_harmonica",
-          "name": "音和樂器",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "peacetones.harmonica",
-          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_peacetonesharmonica",
-          "name": "音和樂器",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@peacetonesharmonica",
           "feedUrl": ""
         }
       ]
@@ -7156,92 +7242,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@KelvinLeungharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-149",
-      "publicId": "149",
-      "name": "Liam Ward & Malcolm Thorne",
-      "nameEn": "Liam Ward & Malcolm Thorne",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體/合作企劃",
-      "country": "英國",
-      "region": "英國",
-      "cityOrFocus": "WHF 2025/藍調口琴/吉他合作/教學",
-      "structuredSummary": "WHF 2025/藍調口琴/吉他合作/教學 / 十孔/藍調口琴/吉他 / 國際演出團體/教育者",
-      "summary": "英國的十孔、藍調口琴與吉他國際演出團體與教育者，活動脈絡包含WHF 2025、吉他合作與教學。",
-      "keywords": "Liam Ward Malcolm Thorne LearnTheHarmonica liamwardmusic harmonica WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://learntheharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/learntheharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/liamwardmusic/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@learntheharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "149-liam-ward-malcolm-thorne",
-      "latestUpdateAt": "2026-08-31T12:34:00+00:00",
-      "latestUpdateLocal": "2026-08-31 20:34",
-      "latestUpdateSource": "Liam Ward & Malcolm Thorne",
-      "latestUpdateUrl": "https://www.instagram.com/p/DctFNDBMzb-/",
-      "avatarUrl": "/assets/source-avatars/d89594f855a1ca55edfb.webp",
-      "sourceInitials": "LWM",
-      "sourceTags": [
-        "團體樂團",
-        "教學",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_learntheharmonica",
-          "name": "Liam Ward & Malcolm Thorne",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/learntheharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_liamwardmusic",
-          "name": "Liam Ward & Malcolm Thorne",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "liamwardmusic",
-          "profileUrl": "https://www.instagram.com/liamwardmusic/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_liamwardmusic",
-          "name": "Liam Ward & Malcolm Thorne",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "liamwardmusic",
-          "profileUrl": "https://www.instagram.com/liamwardmusic/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_learntheharmonica",
-          "name": "Liam Ward & Malcolm Thorne",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@learntheharmonica",
           "feedUrl": ""
         }
       ]

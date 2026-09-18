@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T16:20:45.767388Z",
+  "generatedAt": "2026-09-18T16:56:57.302750Z",
   "source": {
     "id": 263,
     "slug": "jdr-harmonica",
@@ -8,6 +8,34 @@
     "pageUrl": "https://harmonica.observe.tw/source/263-jdr-harmonica/"
   },
   "items": [
+    {
+      "id": "post-b06a62d07f6d8f2a0359786c",
+      "title": "The JDR Infinity is a 16-hole chromatic with a patented four-section reed plate design, using different plate thickness…",
+      "excerpt": "The JDR Infinity is a 16-hole chromatic with a patented four-section reed plate design, using different plate thicknesses across the four octaves. Brazilian chromatic harmonica player Gabriel Grossi recently received the Infinity and shared this short video with us.",
+      "url": "https://www.facebook.com/reel/1128830519808027/",
+      "sourceName": "JDR Harmonica",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-14T03:26:55Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/04d4f1a542ee1ab6f050.webp",
+        "width": 480,
+        "height": 848
+      }
+    },
+    {
+      "id": "post-18df21b2d1d9e4877e4df3ec",
+      "title": "A small detail built into the JDR GM-0648 chromatic harmonica is its anti-squeal design in the upper register.",
+      "excerpt": "A small detail built into the JDR GM-0648 chromatic harmonica is its anti-squeal design in the upper register. The upper register on a chromatic harmonica is usually more sensitive to embouchure, tongue position, and breath control, especially for players who are still getting u…",
+      "url": "https://www.facebook.com/JDRmusik/posts/pfbid02yMd6MaF9QuwkvhZ5mDf6WeRuMs8ZU1axQ8NVBE25NMDsqK76LAf4GbCy4mpUVgLrl",
+      "sourceName": "JDR Harmonica",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-09T14:18:08Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ff9099862d7d752dbc27.webp",
+        "width": 590,
+        "height": 393
+      }
+    },
     {
       "id": "post-cf74761eb474d9803fc01ef2",
       "title": "Hey, everyone! We’re working on a 12-hole version of the Trochilus.",
