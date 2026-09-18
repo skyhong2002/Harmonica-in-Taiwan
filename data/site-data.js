@@ -3617,7 +3617,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-06 12:43",
       "latestUpdateSource": "山下伶 Rei Yamashita",
       "latestUpdateUrl": "https://x.com/rei_harmonica/status/2096459162981130361",
-      "avatarUrl": "/assets/source-avatars/3a92a8afc3b6e9004b9a.webp",
+      "avatarUrl": "/assets/source-avatars/630288b0405d6de44d8e.webp",
       "sourceInitials": "RY",
       "sourceTags": [
         "演奏者",
@@ -8964,7 +8964,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-26 20:14",
       "latestUpdateSource": "World Harmonica Festival",
       "latestUpdateUrl": "https://www.instagram.com/p/DcgL1XJNeR8/",
-      "avatarUrl": "/assets/source-avatars/82e7edc5d74c83c09162.webp",
+      "avatarUrl": "/assets/source-avatars/23a9fb9d38f72c0d9586.webp",
       "sourceInitials": "WHF",
       "sourceTags": [
         "活動資訊",
@@ -16533,7 +16533,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/82e7edc5d74c83c09162.webp",
+      "avatarUrl": "/assets/source-avatars/23a9fb9d38f72c0d9586.webp",
       "sourceInitials": "HIH",
       "sourceTags": [
         "團體樂團",
@@ -16589,7 +16589,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/82e7edc5d74c83c09162.webp",
+      "avatarUrl": "/assets/source-avatars/23a9fb9d38f72c0d9586.webp",
       "sourceInitials": "KS",
       "sourceTags": [
         "團體樂團",
@@ -16691,7 +16691,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/82e7edc5d74c83c09162.webp",
+      "avatarUrl": "/assets/source-avatars/23a9fb9d38f72c0d9586.webp",
       "sourceInitials": "KHE",
       "sourceTags": [
         "團體樂團",
@@ -16906,7 +16906,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/82e7edc5d74c83c09162.webp",
+      "avatarUrl": "/assets/source-avatars/23a9fb9d38f72c0d9586.webp",
       "sourceInitials": "PHE",
       "sourceTags": [
         "團體樂團",
@@ -17012,7 +17012,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/82e7edc5d74c83c09162.webp",
+      "avatarUrl": "/assets/source-avatars/23a9fb9d38f72c0d9586.webp",
       "sourceInitials": "RS",
       "sourceTags": [
         "團體樂團",
