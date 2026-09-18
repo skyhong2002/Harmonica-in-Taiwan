@@ -44,10 +44,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "58-minami-risa",
-      "latestUpdateAt": "2026-09-18T00:45:43+00:00",
-      "latestUpdateLocal": "2026-09-18 08:45",
+      "latestUpdateAt": "2026-09-18T02:15:44+00:00",
+      "latestUpdateLocal": "2026-09-18 10:15",
       "latestUpdateSource": "南里沙",
-      "latestUpdateUrl": "https://x.com/minami_risa/status/2100748066198581482",
+      "latestUpdateUrl": "https://x.com/minami_risa/status/2100770718250324060",
       "avatarUrl": "/assets/source-avatars/04c26c8b269c1d994897.webp",
       "sourceInitials": "南里",
       "sourceTags": [
