@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-19T00:56:59+08:00",
+  "generatedAt": "2026-09-19T01:32:56+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "overseas_physical",
-  "count": 7,
+  "count": 8,
   "source": "/api/events.json",
   "ics": "/feeds/overseas-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -14,7 +14,7 @@
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 0,
+      "requests": 1,
       "cached": 22,
       "errors": 0
     }
@@ -130,6 +130,42 @@
         "https://pbs.twimg.com/media/HOekMrFbsAAcm03?format=jpg&name=orig"
       ],
       "image_url": "https://pbs.twimg.com/media/HOekMrFbsAAcm03?format=jpg&name=orig"
+    },
+    {
+      "id": "392fa995f897a50c",
+      "title": "CY Leo 何卓彦 & Band 《Two Worlds in One 二合为一》 Asia Tour Singapore Stop",
+      "eventName": "CY Leo 何卓彦 & Band 《Two Worlds in One 二合为一》 Asia Tour Singapore Stop",
+      "source": "口琴愛好者協會（新加坡）",
+      "platform": "facebook",
+      "start": "2026-10-03",
+      "end": "2026-10-04",
+      "allDay": true,
+      "calendarType": "overseas_physical",
+      "timezone": "Asia/Singapore",
+      "location": "Singapore 新加坡",
+      "venue": "新加坡",
+      "city": "Singapore",
+      "details": "主辦／演出者：口琴愛好者協會（新加坡）。CY Leo 與樂團在新加坡舉行亞洲巡演場次，為現場口琴音樂會。貼文同時提到 10/4 的另一場《琴缘51》，但本候選對應的是 10/3 這場。",
+      "evidenceUrl": "https://www.facebook.com/HARMONICAMUSICLOVERS/posts/pfbid02ieoQbhsywFpBvCr23fvjwgs9my39UE31VeY5bNF5cS2hntLHSRFkivXvJrHwCh1Ml",
+      "confidence": 0.97,
+      "calendarReview": {
+        "include": true,
+        "country": "新加坡",
+        "eventMode": "overseas_physical",
+        "timezone": "Asia/Singapore",
+        "candidateDateMatches": true,
+        "eventName": "CY Leo 何卓彦 & Band 《Two Worlds in One 二合为一》 Asia Tour Singapore Stop",
+        "venue": "新加坡",
+        "city": "Singapore",
+        "details": "主辦／演出者：口琴愛好者協會（新加坡）。CY Leo 與樂團在新加坡舉行亞洲巡演場次，為現場口琴音樂會。貼文同時提到 10/4 的另一場《琴缘51》，但本候選對應的是 10/3 這場。",
+        "reason": "候選日期 2026-10-03 與貼文中 3 Oct 的演出一致，且為新加坡實體口琴音樂會，符合收錄範圍。",
+        "confidence": 0.97
+      },
+      "postedAt": "2026-09-06 18:20",
+      "images": [
+        "https://scontent-det1-1.xx.fbcdn.net/v/t39.30808-6/798035355_1713491547449584_8939327444707546633_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1229&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=QRRM2oC1ccEQ7kNvwEnttc1&_nc_oc=AdoNXnm80nTaHcZGgabQR2T_nUkg3E_leKxnsw0zz0k4FoFJ6HVITVbDY8YqUPI-bLs&_nc_zt=23&_nc_ht=scontent-det1-1.xx&_nc_gid=zaZ_9AgAFAs436kX_2c9BQ&_nc_ss=73289&oh=00_AQJZApna08tYZeJ3Zx1yOO-snZVRvxrJexTFX7hi4yeNeQ&oe=6AB360F4"
+      ],
+      "image_url": "/assets/feed-images/aad18f69ee9cc4f8947c.webp"
     },
     {
       "id": "27c7beee2756d514",

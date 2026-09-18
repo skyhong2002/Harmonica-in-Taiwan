@@ -1,11 +1,54 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T16:56:57.302750Z",
+  "generatedAt": "2026-09-18T17:32:54.881024Z",
   "source": {
     "id": 162,
     "slug": "harmonica-aficionados-society-singapore",
     "name": "口琴愛好者協會（新加坡）",
     "pageUrl": "https://harmonica.observe.tw/source/162-harmonica-aficionados-society-singapore/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-0328ab9cb3e98b6331b0cd51",
+      "title": "Wonderful Sunday 欢乐星期天 – September Edition!",
+      "excerpt": "Wonderful Sunday 欢乐星期天 – September Edition! Join us next Sunday for another wonderful afternoon of harmonica, music and friendship! ❤️ 📅 20 September 2026 (Sunday) 🕑 2:00–3:00 PM 📍 HAS Clubhouse, 21 Smith Street #03-01 ✨ This month’s highlights: 1️⃣ STUDIO 8 八琴韵室口琴重奏团 — with spe…",
+      "url": "https://www.facebook.com/HARMONICAMUSICLOVERS/posts/pfbid0vG1rcbdwwJYr27Xy4AuHHJvRpiq8S8QeM7NJapUrVoswXdXanpuUEveC42rAFgCl",
+      "sourceName": "口琴愛好者協會（新加坡）",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-13T04:00:54Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ee8e6f377df70d188183.webp",
+        "width": 526,
+        "height": 701
+      }
+    },
+    {
+      "id": "post-d1f27a31712d66e874a3016d",
+      "title": "Catch CY Leo in Singapore this October!",
+      "excerpt": "Catch CY Leo in Singapore this October! 这个十月，在新加坡感受 CY Leo 的口琴魅力！ One weekend, two harmonica concerts — two different experiences! 一个周末，两场口琴音乐会，两种不同的精彩！ 🎵 3 Oct — CY Leo 何卓彦 & Band 《Two Worlds in One 二合为一》 Asia Tour Singapore Stop — a rare chance to catch CY Leo & Band live! 亚洲巡…",
+      "url": "https://www.facebook.com/HARMONICAMUSICLOVERS/posts/pfbid02ieoQbhsywFpBvCr23fvjwgs9my39UE31VeY5bNF5cS2hntLHSRFkivXvJrHwCh1Ml",
+      "sourceName": "口琴愛好者協會（新加坡）",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-06T10:20:01Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/aad18f69ee9cc4f8947c.webp",
+        "width": 590,
+        "height": 504
+      }
+    },
+    {
+      "id": "post-6f925868dbde02099f2f7d62",
+      "title": "Harmonica Playground – September Session",
+      "excerpt": "Harmonica Playground – September Session Join us for our 5th Monthly Interest Group Session! 🗓 13 September 2026 (Sunday) 🕑 2:00–3:00 PM 📍 HAS Clubhouse 21 Smith Street #03-01, Singapore 058935 This month, we’ll revisit: 🎶 月亮代表我的心 🎶 Jambalaya 🎶 送别 🎶 Dayung Sampan ✨ New song: Suk…",
+      "url": "https://www.facebook.com/HARMONICAMUSICLOVERS/posts/pfbid02zPUChQCYKZzbQANkbJQ8E9BvYaTDB9MufFzULwzNtA7an2dmwPDMNb6cfx1hBvJ1l",
+      "sourceName": "口琴愛好者協會（新加坡）",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-05T08:44:24Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/bda9a3c8ceea1e5f2d53.webp",
+        "width": 512,
+        "height": 640
+      }
+    }
+  ]
 }

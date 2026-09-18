@@ -1,11 +1,40 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T16:56:57.302750Z",
+  "generatedAt": "2026-09-18T17:32:54.881024Z",
   "source": {
     "id": 6,
     "slug": "rhapsody-harmonica-ensemble",
     "name": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
     "pageUrl": "https://harmonica.observe.tw/source/6-rhapsody-harmonica-ensemble/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-ae88dcca72c119918ce9b5ab",
+      "title": "“探戈與島嶼之歌” 雅痞書店加演場來囉！",
+      "excerpt": "“探戈與島嶼之歌” 雅痞書店加演場來囉！ 臺灣與阿根廷，地理上相隔萬里；但有人說，只要從臺灣穿越地心，另一端正是阿根廷。這一次，狂響口琴樂團將帶領大家踏上一段橫跨世界的音樂旅程。 這場相較於上一場，我們微調了幾首曲目，如果您錯過了上一場，或是您還想再來聽一次，都歡迎您！ 報名連結",
+      "url": "https://www.facebook.com/RhapsodyHarmonicaEnsemble/posts/pfbid021sRHsMiSDXgf3Ft1psA1Ut5sSvLoLzKgRjiCNtk2bpYuPTmM4oof1B9wkX9i8SQbl",
+      "sourceName": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-10T06:46:58Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a03b14c98f1ed1e62f4e.webp",
+        "width": 500,
+        "height": 261
+      }
+    },
+    {
+      "id": "post-9ab80dce31e71339272a06ca",
+      "title": "感謝主辦單位Sirius Harmonica Ensemble 天狼星口琴樂團邀請，狂響口琴樂團於第一天的風城show琴中再次為大家演奏三首風格迥異的曲子；首先為大家分享及介紹由北部團員演奏的”Ausencia Infinita(無盡的思…",
+      "excerpt": "感謝主辦單位Sirius Harmonica Ensemble 天狼星口琴樂團邀請，狂響口琴樂團於第一天的風城show琴中再次為大家演奏三首風格迥異的曲子；首先為大家分享及介紹由北部團員演奏的”Ausencia Infinita(無盡的思念）”，此曲為阿根廷作曲家既班多鈕手風琴演奏家Fabio Hager創作，有經典的Tango節奏Yumba及Syncopa，搭配洗腦的旋律及精彩的變奏，改編後，充分展現複音口琴、半音階口琴、Bass、Chord的特色！ 演出人員（由左至右） 和弦口琴：阮柏文 半音階口琴：林士傑 複音口琴：歐純伶 倍低音口琴:高廷瑜 #…",
+      "url": "https://www.facebook.com/RhapsodyHarmonicaEnsemble/posts/pfbid0TcKeqpCecx7QKNMfyjJguZkapa1UFG2dq5TUPtcSjcb7UFFUpMQF2mUethcpMeqBl",
+      "sourceName": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-07T05:21:47Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a81a9332c0675b69d05b.webp",
+        "width": 500,
+        "height": 261
+      }
+    }
+  ]
 }

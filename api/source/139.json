@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T16:56:57.302750Z",
+  "generatedAt": "2026-09-18T17:32:54.881024Z",
   "source": {
     "id": 139,
     "slug": "lee-oskar",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/139-lee-oskar/"
   },
   "items": [
+    {
+      "id": "post-051925f6b881e1221ec9ec6a",
+      "title": "👀⚡️💥",
+      "excerpt": "👀⚡️💥 #leeoskarharmonicas #lowrider #leeoskar #harmonicaplayer #armónica",
+      "url": "https://www.facebook.com/reel/1683537676463012/",
+      "sourceName": "Lee Oskar",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-07T14:14:55Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/831f0feb3a0851a73b97.webp",
+        "width": 540,
+        "height": 960
+      }
+    },
     {
       "id": "post-d3b86f85525ca3c62bc0d9a8",
       "title": "Guitar and harmonica, playing Love Me Do by The Beatles together, all the way through, chords and harmonica line at onc…",

@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T16:56:57.302750Z",
+  "generatedAt": "2026-09-18T17:32:54.881024Z",
   "source": {
     "id": 173,
     "slug": "spring-harp-fest",
     "name": "Spring Harp Fest",
     "pageUrl": "https://harmonica.observe.tw/source/173-spring-harp-fest/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-5c7bcf6bee395ef99fdfcd35",
+      "title": "We are starting to work on the line up for Spring Harp Fest 2027 March 27.",
+      "excerpt": "We are starting to work on the line up for Spring Harp Fest 2027 March 27. This is our 25th year. I would love to have a lineup that includes as many former headliners as possible. Financially, we are not able to pay every artist what they deserve. Most of the artists donate the…",
+      "url": "https://www.facebook.com/springharpfest/posts/pfbid0286FSeyMoYsdk7ViakjVYz5pXAWx9W3rDkfE9aGmddJAT9ji9VJCoRiLdfN2CbA9Xl",
+      "sourceName": "Spring Harp Fest",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-15T21:55:53Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/588fa1f204d50022b256.webp",
+        "width": 641,
+        "height": 335
+      }
+    }
+  ]
 }

@@ -479,6 +479,51 @@
       ]
     },
     {
+      "id": "watchlist-91",
+      "publicId": "91",
+      "name": "臺北黃石口琴樂團",
+      "nameEn": "Taipei Yellowstone Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "成立逾34年/年度公演/偏鄉與弱勢公益推廣/盧鴻麟指導",
+      "structuredSummary": "成立逾34年/年度公演/偏鄉與弱勢公益推廣/盧鴻麟指導 / 口琴重奏/口琴合奏 / 演出團體/公益與地方推廣",
+      "summary": "臺灣的口琴重奏與口琴合奏演出團體與公益與地方推廣，活動脈絡包含成立逾34年、年度公演與偏鄉與弱勢公益推廣。",
+      "keywords": "臺北黃石口琴樂團 Taipei Yellowstone Harmonica Ensemble 盧鴻麟 年度公演 公益 偏鄉",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/TaipeiYellowstoneHarmonicaEnsemble/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "91-taipei-yellowstone-harmonica-ensemble",
+      "latestUpdateAt": "2026-09-18T09:22:47+00:00",
+      "latestUpdateLocal": "2026-09-18 17:22",
+      "latestUpdateSource": "臺北黃石口琴樂團",
+      "latestUpdateUrl": "https://www.facebook.com/TaipeiYellowstoneHarmonicaEnsemble/posts/pfbid02Y8yK21STvDGz8at3rmhoM7wkAB7R2giudWCqZfRkntEoB1Tg3HcTxq6YpQFKmfUhl",
+      "avatarUrl": "/assets/source-avatars/taipei-yellowstone.jpg",
+      "sourceInitials": "臺北",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_taipeiyellowstoneharmonicaensemble",
+          "name": "臺北黃石口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/TaipeiYellowstoneHarmonicaEnsemble",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-316",
       "publicId": "316",
       "name": "太平國小口琴隊",
@@ -2452,6 +2497,93 @@
       ]
     },
     {
+      "id": "watchlist-173",
+      "publicId": "173",
+      "name": "Spring Harp Fest",
+      "nameEn": "Spring Harp Fest",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "活動/資訊入口",
+      "country": "美國",
+      "region": "美國/加州/拉米薩",
+      "cityOrFocus": "美國地方藍調口琴節/Jam/社群比賽與演出/2026年4月4日活動",
+      "structuredSummary": "美國地方藍調口琴節/Jam/社群比賽與演出/2026年4月4日活動 / 十孔口琴/藍調口琴 / 國際音樂節/社群活動與演出來源",
+      "summary": "美國的國際音樂節與社群活動與演出來源，涵蓋美國地方藍調口琴節、Jam、社群比賽與演出與2026年4月4日活動。",
+      "keywords": "Spring Harp Fest 2026 April 4 La Mesa blues harmonica festival jam",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://springharpfest.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/springharpfest/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/springharpfest/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@springharpfest/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "173-spring-harp-fest",
+      "latestUpdateAt": "2026-09-15T21:55:53+00:00",
+      "latestUpdateLocal": "2026-09-16 05:55",
+      "latestUpdateSource": "Spring Harp Fest",
+      "latestUpdateUrl": "https://www.facebook.com/springharpfest/posts/pfbid0286FSeyMoYsdk7ViakjVYz5pXAWx9W3rDkfE9aGmddJAT9ji9VJCoRiLdfN2CbA9Xl",
+      "avatarUrl": "/assets/source-avatars/spring-harp-fest.jpg",
+      "sourceInitials": "SHF",
+      "sourceTags": [
+        "活動資訊",
+        "音樂節",
+        "比賽",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_springharpfest",
+          "name": "Spring Harp Fest",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/springharpfest",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_springharpfest",
+          "name": "Spring Harp Fest",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "springharpfest",
+          "profileUrl": "https://www.instagram.com/springharpfest/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_springharpfest",
+          "name": "Spring Harp Fest",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "springharpfest",
+          "profileUrl": "https://www.instagram.com/springharpfest/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_springharpfest",
+          "name": "Spring Harp Fest",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@springharpfest",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-100",
       "publicId": "100",
       "name": "曹小歐",
@@ -3113,6 +3245,73 @@
       ]
     },
     {
+      "id": "watchlist-162",
+      "publicId": "162",
+      "name": "口琴愛好者協會（新加坡）",
+      "nameEn": "Harmonica Aficionados Society Singapore",
+      "category": "國際交流",
+      "type": "協會",
+      "originalType": "協會",
+      "country": "新加坡",
+      "region": "新加坡",
+      "cityOrFocus": "口琴協會/工作坊/音樂會/社群推廣",
+      "structuredSummary": "口琴協會/工作坊/音樂會/社群推廣 / 口琴 / 國際協會/資訊來源",
+      "summary": "新加坡的國際協會與資訊來源，關注口琴協會、工作坊、音樂會與社群推廣。",
+      "keywords": "口琴愛好者協會 新加坡 Harmonica Aficionados Society Singapore HAS Singapore",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/HARMONICAMUSICLOVERS/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/has_singapore/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "162-harmonica-aficionados-society-singapore",
+      "latestUpdateAt": "2026-09-13T04:00:54+00:00",
+      "latestUpdateLocal": "2026-09-13 12:00",
+      "latestUpdateSource": "口琴愛好者協會（新加坡）",
+      "latestUpdateUrl": "https://www.facebook.com/HARMONICAMUSICLOVERS/posts/pfbid0vG1rcbdwwJYr27Xy4AuHHJvRpiq8S8QeM7NJapUrVoswXdXanpuUEveC42rAFgCl",
+      "avatarUrl": "/assets/source-avatars/71f4521852fa3ea7f711.webp",
+      "sourceInitials": "口琴",
+      "sourceTags": [
+        "協會",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonicamusiclovers",
+          "name": "口琴愛好者協會（新加坡）",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HARMONICAMUSICLOVERS",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_has_singapore",
+          "name": "口琴愛好者協會（新加坡）",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "has_singapore",
+          "profileUrl": "https://www.instagram.com/has_singapore/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_has_singapore",
+          "name": "口琴愛好者協會（新加坡）",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "has_singapore",
+          "profileUrl": "https://www.instagram.com/has_singapore/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-87",
       "publicId": "87",
       "name": "桃園玩口琴",
@@ -3622,6 +3821,54 @@
       ]
     },
     {
+      "id": "watchlist-6",
+      "publicId": "6",
+      "name": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
+      "nameEn": "Rhapsody Harmonica Ensemble",
+      "category": "活動資訊",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴重奏與合奏/口琴教學/簡譜製作/編曲/THMF 2026協辦",
+      "structuredSummary": "口琴重奏與合奏/口琴教學/簡譜製作/編曲/THMF 2026協辦 / 口琴重奏/口琴合奏 / 演出團體/教學與編曲來源/音樂節協辦",
+      "summary": "臺灣的演出團體、教學與編曲來源與音樂節協辦，涵蓋口琴重奏與合奏、口琴教學、簡譜製作、編曲與THMF 2026協辦。",
+      "keywords": "Rhapsody Harmonica Ensemble 狂響口琴樂團 教學 簡譜 編曲 THMF 2026",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/RhapsodyHarmonicaEnsemble/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "6-rhapsody-harmonica-ensemble",
+      "latestUpdateAt": "2026-09-10T06:46:58+00:00",
+      "latestUpdateLocal": "2026-09-10 14:46",
+      "latestUpdateSource": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.facebook.com/RhapsodyHarmonicaEnsemble/posts/pfbid021sRHsMiSDXgf3Ft1psA1Ut5sSvLoLzKgRjiCNtk2bpYuPTmM4oof1B9wkX9i8SQbl",
+      "avatarUrl": "/assets/source-avatars/rhapsody-harmonica.jpg",
+      "sourceInitials": "RHE",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "教學",
+        "音樂節",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_rhapsodyharmonicaensemble",
+          "name": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/RhapsodyHarmonicaEnsemble",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-39",
       "publicId": "39",
       "name": "林士傑",
@@ -4073,6 +4320,97 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/SiriusHARP",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-139",
+      "publicId": "139",
+      "name": "Lee Oskar",
+      "nameEn": "Lee Oskar",
+      "category": "演奏者",
+      "type": "品牌",
+      "originalType": "個人/品牌",
+      "country": "丹麥",
+      "region": "美國",
+      "cityOrFocus": "War樂團成員/Lee Oskar Harmonicas創辦人/藍調搖滾與口琴品牌",
+      "structuredSummary": "War樂團成員/Lee Oskar Harmonicas創辦人/藍調搖滾與口琴品牌 / 十孔/藍調口琴 / 國際演出人員/品牌創辦人",
+      "summary": "丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。",
+      "keywords": "Lee Oskar harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://leeoskar.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/LeeOskarHarmonicas/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/leeoskarharmonicas/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@leeoskarharmonicas"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@leeoskarharmonicas"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "139-lee-oskar",
+      "latestUpdateAt": "2026-09-07T14:14:55+00:00",
+      "latestUpdateLocal": "2026-09-07 22:14",
+      "latestUpdateSource": "Lee Oskar",
+      "latestUpdateUrl": "https://www.facebook.com/reel/1683537676463012/",
+      "avatarUrl": "/assets/source-avatars/b578c126cdec2f5659aa.webp",
+      "sourceInitials": "LO",
+      "sourceTags": [
+        "品牌",
+        "演奏者",
+        "團體樂團",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_leeoskarharmonicas",
+          "name": "Lee Oskar",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/LeeOskarHarmonicas",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_leeoskarharmonicas",
+          "name": "Lee Oskar",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "leeoskarharmonicas",
+          "profileUrl": "https://www.instagram.com/leeoskarharmonicas/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_leeoskarharmonicas",
+          "name": "Lee Oskar",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "leeoskarharmonicas",
+          "profileUrl": "https://www.instagram.com/leeoskarharmonicas/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_leeoskarharmonicas",
+          "name": "Lee Oskar",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@leeoskarharmonicas",
           "feedUrl": ""
         }
       ]
@@ -4975,6 +5313,56 @@
           "type": "facebook_page_posts",
           "username": "",
           "profileUrl": "https://facebook.com/chen.cheng.yi.487430",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-92",
+      "publicId": "92",
+      "name": "狂響逗嘴鼓口琴樂坊",
+      "nameEn": "Rhapsody Harmonica & Drum Studio",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "教學工作室",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
+      "cityOrFocus": "口琴/手鼓教學/工作室/講座",
+      "structuredSummary": "口琴/手鼓教學/工作室/講座 / 口琴/手鼓 / 教學/工作坊/活動來源",
+      "summary": "臺灣的口琴與手鼓教學、工作坊與活動來源，關注手鼓教學、工作室與講座。",
+      "keywords": "狂響逗嘴鼓口琴樂坊 高雄 口琴 手鼓 教學 工作室",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://art-garden.khcc.gov.tw/introduction/team/7677"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/HarmonicaDrumRhapsody/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "92-rhapsody-harmonica-drum-studio",
+      "latestUpdateAt": "2026-09-02T06:26:04+00:00",
+      "latestUpdateLocal": "2026-09-02 14:26",
+      "latestUpdateSource": "狂響逗嘴鼓口琴樂坊",
+      "latestUpdateUrl": "https://www.facebook.com/HarmonicaDrumRhapsody/posts/pfbid028arzx56knRNzvD9JcgxkiDPEVoqELceH9fRMJxuYJiYGxY4SUmmSRDy9g7fgnPD4l",
+      "avatarUrl": "/assets/source-avatars/rhapsody-drum-studio.jpg",
+      "sourceInitials": "狂響",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "工作室"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonicadrumrhapsody",
+          "name": "狂響逗嘴鼓口琴樂坊",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HarmonicaDrumRhapsody",
           "feedUrl": ""
         }
       ]
@@ -7080,97 +7468,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCj06r7zxcQqFS26fy7n0jZw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-139",
-      "publicId": "139",
-      "name": "Lee Oskar",
-      "nameEn": "Lee Oskar",
-      "category": "演奏者",
-      "type": "品牌",
-      "originalType": "個人/品牌",
-      "country": "丹麥",
-      "region": "美國",
-      "cityOrFocus": "War樂團成員/Lee Oskar Harmonicas創辦人/藍調搖滾與口琴品牌",
-      "structuredSummary": "War樂團成員/Lee Oskar Harmonicas創辦人/藍調搖滾與口琴品牌 / 十孔/藍調口琴 / 國際演出人員/品牌創辦人",
-      "summary": "丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。",
-      "keywords": "Lee Oskar harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://leeoskar.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/LeeOskarHarmonicas/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/leeoskarharmonicas/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@leeoskarharmonicas"
-        },
-        {
-          "label": "TikTok",
-          "url": "https://www.tiktok.com/@leeoskarharmonicas"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "139-lee-oskar",
-      "latestUpdateAt": "2026-08-31T15:35:13+00:00",
-      "latestUpdateLocal": "2026-08-31 23:35",
-      "latestUpdateSource": "Lee Oskar",
-      "latestUpdateUrl": "https://www.instagram.com/stories/leeoskarharmonicas/3975952663941528009/",
-      "avatarUrl": "/assets/source-avatars/b578c126cdec2f5659aa.webp",
-      "sourceInitials": "LO",
-      "sourceTags": [
-        "品牌",
-        "演奏者",
-        "團體樂團",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_leeoskarharmonicas",
-          "name": "Lee Oskar",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/LeeOskarHarmonicas",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_leeoskarharmonicas",
-          "name": "Lee Oskar",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "leeoskarharmonicas",
-          "profileUrl": "https://www.instagram.com/leeoskarharmonicas/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_leeoskarharmonicas",
-          "name": "Lee Oskar",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "leeoskarharmonicas",
-          "profileUrl": "https://www.instagram.com/leeoskarharmonicas/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_leeoskarharmonicas",
-          "name": "Lee Oskar",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@leeoskarharmonicas",
           "feedUrl": ""
         }
       ]
@@ -10243,51 +10540,6 @@
       ]
     },
     {
-      "id": "watchlist-91",
-      "publicId": "91",
-      "name": "臺北黃石口琴樂團",
-      "nameEn": "Taipei Yellowstone Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "成立逾34年/年度公演/偏鄉與弱勢公益推廣/盧鴻麟指導",
-      "structuredSummary": "成立逾34年/年度公演/偏鄉與弱勢公益推廣/盧鴻麟指導 / 口琴重奏/口琴合奏 / 演出團體/公益與地方推廣",
-      "summary": "臺灣的口琴重奏與口琴合奏演出團體與公益與地方推廣，活動脈絡包含成立逾34年、年度公演與偏鄉與弱勢公益推廣。",
-      "keywords": "臺北黃石口琴樂團 Taipei Yellowstone Harmonica Ensemble 盧鴻麟 年度公演 公益 偏鄉",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/TaipeiYellowstoneHarmonicaEnsemble/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "91-taipei-yellowstone-harmonica-ensemble",
-      "latestUpdateAt": "2026-08-23T23:46:38+00:00",
-      "latestUpdateLocal": "2026-08-24 07:46",
-      "latestUpdateSource": "臺北黃石口琴樂團",
-      "latestUpdateUrl": "https://www.facebook.com/TaipeiYellowstoneHarmonicaEnsemble/posts/pfbid02DhMeWxw9du4Cf23yGm2wCo4vAdXVVBdegkhceoHkyeKzonDxuAR7PwqLcQjQQ7uUl",
-      "avatarUrl": "/assets/source-avatars/taipei-yellowstone.jpg",
-      "sourceInitials": "臺北",
-      "sourceTags": [
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_taipeiyellowstoneharmonicaensemble",
-          "name": "臺北黃石口琴樂團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/TaipeiYellowstoneHarmonicaEnsemble",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-239",
       "publicId": "239",
       "name": "邴國榮",
@@ -10989,73 +11241,6 @@
       ]
     },
     {
-      "id": "watchlist-162",
-      "publicId": "162",
-      "name": "口琴愛好者協會（新加坡）",
-      "nameEn": "Harmonica Aficionados Society Singapore",
-      "category": "國際交流",
-      "type": "協會",
-      "originalType": "協會",
-      "country": "新加坡",
-      "region": "新加坡",
-      "cityOrFocus": "口琴協會/工作坊/音樂會/社群推廣",
-      "structuredSummary": "口琴協會/工作坊/音樂會/社群推廣 / 口琴 / 國際協會/資訊來源",
-      "summary": "新加坡的國際協會與資訊來源，關注口琴協會、工作坊、音樂會與社群推廣。",
-      "keywords": "口琴愛好者協會 新加坡 Harmonica Aficionados Society Singapore HAS Singapore",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/HARMONICAMUSICLOVERS/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/has_singapore/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "162-harmonica-aficionados-society-singapore",
-      "latestUpdateAt": "2026-08-22T01:00:39+00:00",
-      "latestUpdateLocal": "2026-08-22 09:00",
-      "latestUpdateSource": "口琴愛好者協會（新加坡）",
-      "latestUpdateUrl": "https://www.instagram.com/stories/has_singapore/3968989495495105128/",
-      "avatarUrl": "/assets/source-avatars/71f4521852fa3ea7f711.webp",
-      "sourceInitials": "口琴",
-      "sourceTags": [
-        "協會",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonicamusiclovers",
-          "name": "口琴愛好者協會（新加坡）",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/HARMONICAMUSICLOVERS",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_has_singapore",
-          "name": "口琴愛好者協會（新加坡）",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "has_singapore",
-          "profileUrl": "https://www.instagram.com/has_singapore/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_has_singapore",
-          "name": "口琴愛好者協會（新加坡）",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "has_singapore",
-          "profileUrl": "https://www.instagram.com/has_singapore/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-81",
       "publicId": "81",
       "name": "雙燕樂器",
@@ -11144,7 +11329,7 @@
       "latestUpdateLocal": "2026-08-21 19:59",
       "latestUpdateSource": "臺中一中口琴社校友團",
       "latestUpdateUrl": "https://www.instagram.com/stories/tcfsh_harmonica_alumni/3968596374731403987/",
-      "avatarUrl": "/assets/source-avatars/1e63facd2c7ab823694d.webp",
+      "avatarUrl": "/assets/source-avatars/540ceba2fdf296e48c63.webp",
       "sourceInitials": "臺中",
       "sourceTags": [
         "學生社團",
@@ -12711,56 +12896,6 @@
       ]
     },
     {
-      "id": "watchlist-92",
-      "publicId": "92",
-      "name": "狂響逗嘴鼓口琴樂坊",
-      "nameEn": "Rhapsody Harmonica & Drum Studio",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "教學工作室",
-      "country": "臺灣",
-      "region": "臺灣/高雄",
-      "cityOrFocus": "口琴/手鼓教學/工作室/講座",
-      "structuredSummary": "口琴/手鼓教學/工作室/講座 / 口琴/手鼓 / 教學/工作坊/活動來源",
-      "summary": "臺灣的口琴與手鼓教學、工作坊與活動來源，關注手鼓教學、工作室與講座。",
-      "keywords": "狂響逗嘴鼓口琴樂坊 高雄 口琴 手鼓 教學 工作室",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://art-garden.khcc.gov.tw/introduction/team/7677"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/HarmonicaDrumRhapsody/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "92-rhapsody-harmonica-drum-studio",
-      "latestUpdateAt": "2026-08-06T02:11:49+00:00",
-      "latestUpdateLocal": "2026-08-06 10:11",
-      "latestUpdateSource": "狂響逗嘴鼓口琴樂坊",
-      "latestUpdateUrl": "https://www.facebook.com/HarmonicaDrumRhapsody/posts/pfbid0Kn6onkK3nmfMdGn34TcvttSe7mh1DYBX3EJH577qSDq4aZ6hvtxgw7r1VxzmY8KTl",
-      "avatarUrl": "/assets/source-avatars/rhapsody-drum-studio.jpg",
-      "sourceInitials": "狂響",
-      "sourceTags": [
-        "教學器材",
-        "教學",
-        "工作室"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonicadrumrhapsody",
-          "name": "狂響逗嘴鼓口琴樂坊",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/HarmonicaDrumRhapsody",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-164",
       "publicId": "164",
       "name": "新加坡青年節藝術展演（口琴）",
@@ -12923,93 +13058,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@%E9%99%BD%E6%98%8E%E4%BA%A4%E5%A4%A7%E8%97%9D%E6%96%87%E4%B8%AD%E5%BF%83-k8f",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-173",
-      "publicId": "173",
-      "name": "Spring Harp Fest",
-      "nameEn": "Spring Harp Fest",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "活動/資訊入口",
-      "country": "美國",
-      "region": "美國/加州/拉米薩",
-      "cityOrFocus": "美國地方藍調口琴節/Jam/社群比賽與演出/2026年4月4日活動",
-      "structuredSummary": "美國地方藍調口琴節/Jam/社群比賽與演出/2026年4月4日活動 / 十孔口琴/藍調口琴 / 國際音樂節/社群活動與演出來源",
-      "summary": "美國的國際音樂節與社群活動與演出來源，涵蓋美國地方藍調口琴節、Jam、社群比賽與演出與2026年4月4日活動。",
-      "keywords": "Spring Harp Fest 2026 April 4 La Mesa blues harmonica festival jam",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://springharpfest.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/springharpfest/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/springharpfest/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@springharpfest/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "173-spring-harp-fest",
-      "latestUpdateAt": "2026-08-03T06:29:38+00:00",
-      "latestUpdateLocal": "2026-08-03 14:29",
-      "latestUpdateSource": "Spring Harp Fest",
-      "latestUpdateUrl": "https://www.instagram.com/stories/springharpfest/3955384387575271250/",
-      "avatarUrl": "/assets/source-avatars/spring-harp-fest.jpg",
-      "sourceInitials": "SHF",
-      "sourceTags": [
-        "活動資訊",
-        "音樂節",
-        "比賽",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_springharpfest",
-          "name": "Spring Harp Fest",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/springharpfest",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_springharpfest",
-          "name": "Spring Harp Fest",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "springharpfest",
-          "profileUrl": "https://www.instagram.com/springharpfest/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_springharpfest",
-          "name": "Spring Harp Fest",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "springharpfest",
-          "profileUrl": "https://www.instagram.com/springharpfest/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_springharpfest",
-          "name": "Spring Harp Fest",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@springharpfest",
           "feedUrl": ""
         }
       ]
@@ -13866,54 +13914,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@DMingStudio",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-6",
-      "publicId": "6",
-      "name": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
-      "nameEn": "Rhapsody Harmonica Ensemble",
-      "category": "活動資訊",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴重奏與合奏/口琴教學/簡譜製作/編曲/THMF 2026協辦",
-      "structuredSummary": "口琴重奏與合奏/口琴教學/簡譜製作/編曲/THMF 2026協辦 / 口琴重奏/口琴合奏 / 演出團體/教學與編曲來源/音樂節協辦",
-      "summary": "臺灣的演出團體、教學與編曲來源與音樂節協辦，涵蓋口琴重奏與合奏、口琴教學、簡譜製作、編曲與THMF 2026協辦。",
-      "keywords": "Rhapsody Harmonica Ensemble 狂響口琴樂團 教學 簡譜 編曲 THMF 2026",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/RhapsodyHarmonicaEnsemble/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "6-rhapsody-harmonica-ensemble",
-      "latestUpdateAt": "2026-07-08T14:53:31+00:00",
-      "latestUpdateLocal": "2026-07-08 22:53",
-      "latestUpdateSource": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
-      "latestUpdateUrl": "https://www.facebook.com/RhapsodyHarmonicaEnsemble/posts/pfbid0CN8B9ucWtxt9hkw2fcsPfRveJjUd5Y5D6noberkwy4MMM6bmgnCd9K6vtGGmxAtfl",
-      "avatarUrl": "/assets/source-avatars/rhapsody-harmonica.jpg",
-      "sourceInitials": "RHE",
-      "sourceTags": [
-        "活動資訊",
-        "團體樂團",
-        "教學",
-        "音樂節",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_rhapsodyharmonicaensemble",
-          "name": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/RhapsodyHarmonicaEnsemble",
           "feedUrl": ""
         }
       ]
