@@ -1,11 +1,40 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T15:44:40.411019Z",
+  "generatedAt": "2026-09-18T16:20:45.767388Z",
   "source": {
     "id": 37,
     "slug": "37",
     "name": "陳晟禕",
     "pageUrl": "https://harmonica.observe.tw/source/37/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-67dfb27fae54fd2df4cbb43d",
+      "title": "【教學日常】",
+      "excerpt": "【教學日常】 國中口琴社團的第一天，口琴新生不知會否超過十人，從十多年前最高峰一屆近30人，減至如今狀況，不如歸去感不免而生。50年後青少年還有人會吹口琴嗎？都去玩什麼樂器了呢？至今仍是蠻推崇與喜愛吹口琴時，那種口琴與音樂與自己交融在一起的那種狀態（或是不協調狀態+_+），真是愉快， 咳尚未息，雨不停歇，下雨的第三週已經迎來新學年的開始，拖著疲憊的身軀坐在往屏東的火車上，早上拿起日常用的背包，居然發霉了，想起一些塵封少用的複音口琴會不會也長了菌絲？ 又是一個口琴年度循環的開始，不知是否該打破這個循環？再想想。這一篇好多問號，代表我的心智根本還沒到不惑之…",
+      "url": "https://www.facebook.com/chen.cheng.yi.487430/posts/pfbid02VLaQDsnhGjtTjXFQfocrYPiyt7JLeL5hv5ti8HmK9PRmp6r5B9Mab4UcycwFmrFSl",
+      "sourceName": "陳晟禕",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-03T05:54:12Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ed679da385ad63e28447.webp",
+        "width": 526,
+        "height": 1241
+      }
+    },
+    {
+      "id": "post-5bb375b60340084e53ca7fe1",
+      "title": "高雄的雨進入了第三周，已打破之前的雨量紀錄，",
+      "excerpt": "高雄的雨進入了第三周，已打破之前的雨量紀錄， 所幸高雄市這幾年防洪建設得很好，沒有重大的淹水災情， 我老覺得高雄人欠陳其邁市長兩年，包含我也是， 今日看到他的最後一次施政報告，想著若再做兩年有多好， 但時光不能重來，這就是人生。 隨著雨來，各種奇奇怪怪的生病s也進入了第三周， 雨勢小了，身體也漸漸回復了， 只希望這一波雨勢走了之後，也可以順勢痊癒。 在八月初的臺灣口琴節結束之後，人生彷彿按下暫時停止鍵， 每天大概只能做休養的事情， 也不是什麼大病，但每天昏昏沉沉的也不能做什麼事， 我只能說生命在疼痛面前真是不堪一擊， 所幸也總算忍過去了。 還記得台口節…",
+      "url": "https://www.facebook.com/chen.cheng.yi.487430/posts/pfbid021rKvc6Xb6TjdwaypTfBgS5WQD18L9PZz2qBWEW8EPLMRs5Hg6kHyA9AH8yHuLTC5l",
+      "sourceName": "陳晟禕",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-01T14:53:04Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ab2e68f3856ac236a3f0.webp",
+        "width": 526,
+        "height": 942
+      }
+    }
+  ]
 }

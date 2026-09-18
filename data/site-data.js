@@ -1,5 +1,5 @@
 window.HARMONICA_OBSERVE_DATA = {
-  "generatedAt": "2026-09-18",
+  "generatedAt": "2026-09-19",
   "entries": [
     {
       "id": "watchlist-58",
@@ -2580,6 +2580,152 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-159",
+      "publicId": "159",
+      "name": "香港中華基督教青年會口琴樂團",
+      "nameEn": "Hong Kong Chinese YMCA Harmonica Orchestra",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "香港口琴樂團/教育推廣/年度音樂會",
+      "structuredSummary": "香港口琴樂團/教育推廣/年度音樂會 / 口琴合奏 / 國際演出團體/教育來源",
+      "summary": "香港的口琴合奏國際演出團體與教育來源，活動脈絡包含香港口琴樂團、教育推廣與年度音樂會。",
+      "keywords": "香港中華基督教青年會口琴樂團 Hong Kong Chinese YMCA Harmonica Orchestra HKCYMCA harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://ymcaho.org/wp/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Chinese-YMCA-of-Hong-Kong-Harmonica-Orchestra-185471864816806/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@chineseymcaofhongkongharmo9428"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "159-hong-kong-chinese-ymca-harmonica-orchestra",
+      "latestUpdateAt": "2026-09-13T16:25:40+00:00",
+      "latestUpdateLocal": "2026-09-14 00:25",
+      "latestUpdateSource": "香港中華基督教青年會口琴樂團",
+      "latestUpdateUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid0WveBPwvsKc21TH6Li35fnsWX9fZSEUTB4iJmQdbDC8TFkhdesuJwTB6xUVbwiSBal&id=100057255378181",
+      "avatarUrl": "/assets/source-avatars/hk-chinese-ymca-harmonica.jpg",
+      "sourceInitials": "香港",
+      "sourceTags": [
+        "團體樂團",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_chinese_ymca_of_hong_kong_harmonica_orchestra_185471864816806",
+          "name": "香港中華基督教青年會口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Chinese-YMCA-of-Hong-Kong-Harmonica-Orchestra-185471864816806",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_chineseymcaofhongkongharmo9428",
+          "name": "香港中華基督教青年會口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@chineseymcaofhongkongharmo9428",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-198",
+      "publicId": "198",
+      "name": "陽明交大竹韻口琴社",
+      "nameEn": "Bamboo Melody Harmonica Club",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
+      "cityOrFocus": "1968年創立/國立陽明交通大學學生社團/古典與流行口琴教學/獨奏重奏合奏/社內競賽與成果音樂會",
+      "structuredSummary": "1968年創立/國立陽明交通大學學生社團/古典與流行口琴教學/獨奏重奏合奏/社內競賽與成果音樂會 / 半音階口琴/複音口琴/重奏與大合奏 / 大學學生社團/演出與人才培育",
+      "summary": "臺灣的半音階口琴、複音口琴與重奏與大合奏大學學生社團與演出與人才培育。",
+      "keywords": "陽明交大竹韻口琴社 Bamboo Melody Harmonica Club NYCU 交通大學 1968 口琴社",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/nycubmhc/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nycu_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "198-bamboo-melody-harmonica-club",
+      "latestUpdateAt": "2026-09-13T11:31:40+00:00",
+      "latestUpdateLocal": "2026-09-13 19:31",
+      "latestUpdateSource": "陽明交大竹韻口琴社",
+      "latestUpdateUrl": "https://www.facebook.com/nycubmhc/posts/pfbid02dpTYwTUWotXhiXNj5KWMR32rKeGJRdAtTGXyDNQPBTb7ATKfikoVMPB4LJtPBD2Nl",
+      "avatarUrl": "/assets/source-avatars/3a5f6bac814d96ec8d05.webp",
+      "sourceInitials": "陽明",
+      "sourceTags": [
+        "學生社團",
+        "大專社團",
+        "教學",
+        "半音階",
+        "複音",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_nycubmhc",
+          "name": "陽明交大竹韻口琴社",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/nycubmhc",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nycu_harmonica",
+          "name": "陽明交大竹韻口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nycu_harmonica",
+          "profileUrl": "https://www.instagram.com/nycu_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nycu_harmonica",
+          "name": "陽明交大竹韻口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nycu_harmonica",
+          "profileUrl": "https://www.instagram.com/nycu_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ucliodayl9_jvnbpc4nfthgw",
+          "name": "陽明交大竹韻口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-221",
       "publicId": "221",
       "name": "吹口琴的小园园",
@@ -3861,6 +4007,94 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-16",
+      "publicId": "16",
+      "name": "Dr. Blue 口琴樂團",
+      "nameEn": "Dr. Blue Harmonica Ensemble",
+      "category": "學校社團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "源自台大藍聲口琴社/青年口琴重奏與合奏/推廣口琴音樂/精進樂團合奏能力/2023臺灣口琴音樂節小合奏公開組首獎/年度專場音樂會",
+      "structuredSummary": "源自台大藍聲口琴社/青年口琴重奏與合奏/推廣口琴音樂/精進樂團合奏能力/2023臺灣口琴音樂節小合奏公開組首獎/年度專場音樂會 / 半音階口琴/低音口琴/和弦口琴/口琴重奏與合奏 / 青年演出團體/大學校友樂團/臺灣口琴音樂節得獎團體",
+      "summary": "臺灣的半音階口琴、低音口琴、和弦口琴與口琴重奏與合奏青年演出團體、大學校友樂團與臺灣口琴音樂節得獎團體。",
+      "keywords": "Dr. Blue 口琴樂團 NTU Blue Sound 臺大藍聲 THMF 2023 首獎 重奏 合奏 年度音樂會",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://drblue.kktix.cc/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/dr.blueharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/dr.blue_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCvHln_2aWplJqbfO_9aPatw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "16-dr-blue",
+      "latestUpdateAt": "2026-09-06T01:00:15+00:00",
+      "latestUpdateLocal": "2026-09-06 09:00",
+      "latestUpdateSource": "Dr. Blue 口琴樂團",
+      "latestUpdateUrl": "https://www.facebook.com/dr.blueharmonica/posts/pfbid02iix79QZRDDZBeeLcoNe1pFbpBUNunE1DyvrjumviY8G1wGY8whjh2FC8Gwp57aRzl",
+      "avatarUrl": "/assets/source-avatars/d539cb7f6a4a045a3e38.webp",
+      "sourceInitials": "DB",
+      "sourceTags": [
+        "學生社團",
+        "大專社團",
+        "團體樂團",
+        "音樂節",
+        "半音階",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_dr_blueharmonica",
+          "name": "Dr. Blue 口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/dr.blueharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_dr_blue_harmonica",
+          "name": "Dr. Blue 口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "dr.blue_harmonica",
+          "profileUrl": "https://www.instagram.com/dr.blue_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_dr_blue_harmonica",
+          "name": "Dr. Blue 口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "dr.blue_harmonica",
+          "profileUrl": "https://www.instagram.com/dr.blue_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ucvhln_2awpljqbfo_9apatw",
+          "name": "Dr. Blue 口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCvHln_2aWplJqbfO_9aPatw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-116",
       "publicId": "116",
       "name": "Trio Animato",
@@ -3922,6 +4156,78 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/user/animato1978",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-151",
+      "publicId": "151",
+      "name": "Rachelle Plas & Philippe Hervouet",
+      "nameEn": "Rachelle Plas & Philippe Hervouet",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體/合作企劃",
+      "country": "法國",
+      "region": "法國",
+      "cityOrFocus": "WHF 2025/藍調口琴/吉他與歌唱/Golden Melody ambassador",
+      "structuredSummary": "WHF 2025/藍調口琴/吉他與歌唱/Golden Melody ambassador / 十孔/藍調口琴/吉他/人聲 / 國際演出團體",
+      "summary": "法國的十孔、藍調口琴、吉他與人聲國際演出團體，活動脈絡包含WHF 2025、吉他與歌唱與Golden Melody ambassador。",
+      "keywords": "Rachelle Plas Philippe Hervouet Plas Hervouet Band harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "http://www.plashervouetband.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/plashervouetband/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/plashervouetband/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "151-rachelle-plas-philippe-hervouet",
+      "latestUpdateAt": "2026-09-05T16:54:34+00:00",
+      "latestUpdateLocal": "2026-09-06 00:54",
+      "latestUpdateSource": "Rachelle Plas & Philippe Hervouet",
+      "latestUpdateUrl": "https://www.facebook.com/plashervouetband/posts/pfbid02sYVSChjmhCayL3KZYCiGDLEubEuupgycFcV49Bba7BQrsrxfmbKe3FmCA7UTxqCbl",
+      "avatarUrl": "/assets/source-avatars/7d3bf033479577d85e2b.webp",
+      "sourceInitials": "RPP",
+      "sourceTags": [
+        "團體樂團",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_plashervouetband",
+          "name": "Rachelle Plas & Philippe Hervouet",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/plashervouetband",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_plashervouetband",
+          "name": "Rachelle Plas & Philippe Hervouet",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "plashervouetband",
+          "profileUrl": "https://www.instagram.com/plashervouetband/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_plashervouetband",
+          "name": "Rachelle Plas & Philippe Hervouet",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "plashervouetband",
+          "profileUrl": "https://www.instagram.com/plashervouetband/",
           "feedUrl": ""
         }
       ]
@@ -4199,6 +4505,57 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-37",
+      "publicId": "37",
+      "name": "陳晟禕",
+      "nameEn": "Sheng-Yi Chen",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
+      "cityOrFocus": "半音階口琴/狂響口琴樂團創團與團長/社區大學教學/編曲",
+      "structuredSummary": "半音階口琴/狂響口琴樂團創團與團長/社區大學教學/編曲 / 半音階口琴 / 演出人員/教育者/編曲者",
+      "summary": "臺灣的半音階口琴演出人員、教育者與編曲者，活動脈絡包含狂響口琴樂團創團與團長、社區大學教學與編曲。",
+      "keywords": "陳晟禕 口琴 狂響 狂響逗嘴鼓 高雄 社區大學 半音階 編曲",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://kaohsiungmusichall.kcg.gov.tw/home02.aspx?AP=%245201_DATE-112%2F12%2F23%5E%245201_START-1900%5E%245201_END-2100&DATA=35177&EXEC=D&ID=%245201&IDK=2"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chen.cheng.yi.487430/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "37",
+      "latestUpdateAt": "2026-09-03T05:54:12+00:00",
+      "latestUpdateLocal": "2026-09-03 13:54",
+      "latestUpdateSource": "陳晟禕",
+      "latestUpdateUrl": "https://www.facebook.com/chen.cheng.yi.487430/posts/pfbid02VLaQDsnhGjtTjXFQfocrYPiyt7JLeL5hv5ti8HmK9PRmp6r5B9Mab4UcycwFmrFSl",
+      "avatarUrl": "/assets/source-avatars/c00c8c8d5550e9b713e5.webp",
+      "sourceInitials": "陳晟",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "教學",
+        "半音階"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_chen_cheng_yi_487430",
+          "name": "陳晟禕",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/chen.cheng.yi.487430",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-43",
       "publicId": "43",
       "name": "林裕豐",
@@ -4268,90 +4625,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@YFHarmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-198",
-      "publicId": "198",
-      "name": "陽明交大竹韻口琴社",
-      "nameEn": "Bamboo Melody Harmonica Club",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "臺灣",
-      "region": "臺灣/新竹",
-      "cityOrFocus": "1968年創立/國立陽明交通大學學生社團/古典與流行口琴教學/獨奏重奏合奏/社內競賽與成果音樂會",
-      "structuredSummary": "1968年創立/國立陽明交通大學學生社團/古典與流行口琴教學/獨奏重奏合奏/社內競賽與成果音樂會 / 半音階口琴/複音口琴/重奏與大合奏 / 大學學生社團/演出與人才培育",
-      "summary": "臺灣的半音階口琴、複音口琴與重奏與大合奏大學學生社團與演出與人才培育。",
-      "keywords": "陽明交大竹韻口琴社 Bamboo Melody Harmonica Club NYCU 交通大學 1968 口琴社",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/nycubmhc/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/nycu_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "198-bamboo-melody-harmonica-club",
-      "latestUpdateAt": "2026-09-01T17:15:36+00:00",
-      "latestUpdateLocal": "2026-09-02 01:15",
-      "latestUpdateSource": "陽明交大竹韻口琴社",
-      "latestUpdateUrl": "https://www.instagram.com/stories/nycu_harmonica/3976727963173168272/",
-      "avatarUrl": "/assets/source-avatars/3a5f6bac814d96ec8d05.webp",
-      "sourceInitials": "陽明",
-      "sourceTags": [
-        "學生社團",
-        "大專社團",
-        "教學",
-        "半音階",
-        "複音",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_nycubmhc",
-          "name": "陽明交大竹韻口琴社",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/nycubmhc",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_nycu_harmonica",
-          "name": "陽明交大竹韻口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "nycu_harmonica",
-          "profileUrl": "https://www.instagram.com/nycu_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_nycu_harmonica",
-          "name": "陽明交大竹韻口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "nycu_harmonica",
-          "profileUrl": "https://www.instagram.com/nycu_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_ucliodayl9_jvnbpc4nfthgw",
-          "name": "陽明交大竹韻口琴社",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw",
           "feedUrl": ""
         }
       ]
@@ -7470,94 +7743,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-16",
-      "publicId": "16",
-      "name": "Dr. Blue 口琴樂團",
-      "nameEn": "Dr. Blue Harmonica Ensemble",
-      "category": "學校社團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "源自台大藍聲口琴社/青年口琴重奏與合奏/推廣口琴音樂/精進樂團合奏能力/2023臺灣口琴音樂節小合奏公開組首獎/年度專場音樂會",
-      "structuredSummary": "源自台大藍聲口琴社/青年口琴重奏與合奏/推廣口琴音樂/精進樂團合奏能力/2023臺灣口琴音樂節小合奏公開組首獎/年度專場音樂會 / 半音階口琴/低音口琴/和弦口琴/口琴重奏與合奏 / 青年演出團體/大學校友樂團/臺灣口琴音樂節得獎團體",
-      "summary": "臺灣的半音階口琴、低音口琴、和弦口琴與口琴重奏與合奏青年演出團體、大學校友樂團與臺灣口琴音樂節得獎團體。",
-      "keywords": "Dr. Blue 口琴樂團 NTU Blue Sound 臺大藍聲 THMF 2023 首獎 重奏 合奏 年度音樂會",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://drblue.kktix.cc/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/dr.blueharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/dr.blue_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCvHln_2aWplJqbfO_9aPatw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "16-dr-blue",
-      "latestUpdateAt": "2026-08-31T01:15:06+00:00",
-      "latestUpdateLocal": "2026-08-31 09:15",
-      "latestUpdateSource": "Dr. Blue 口琴樂團",
-      "latestUpdateUrl": "https://www.instagram.com/stories/dr.blue_harmonica/3975519751899487271/",
-      "avatarUrl": "/assets/source-avatars/d539cb7f6a4a045a3e38.webp",
-      "sourceInitials": "DB",
-      "sourceTags": [
-        "學生社團",
-        "大專社團",
-        "團體樂團",
-        "音樂節",
-        "半音階",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_dr_blueharmonica",
-          "name": "Dr. Blue 口琴樂團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/dr.blueharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_dr_blue_harmonica",
-          "name": "Dr. Blue 口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "dr.blue_harmonica",
-          "profileUrl": "https://www.instagram.com/dr.blue_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_dr_blue_harmonica",
-          "name": "Dr. Blue 口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "dr.blue_harmonica",
-          "profileUrl": "https://www.instagram.com/dr.blue_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_ucvhln_2awpljqbfo_9apatw",
-          "name": "Dr. Blue 口琴樂團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCvHln_2aWplJqbfO_9aPatw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-222",
       "publicId": "222",
       "name": "Do Not Disturb Harmonica Ensemble",
@@ -8738,78 +8923,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-151",
-      "publicId": "151",
-      "name": "Rachelle Plas & Philippe Hervouet",
-      "nameEn": "Rachelle Plas & Philippe Hervouet",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體/合作企劃",
-      "country": "法國",
-      "region": "法國",
-      "cityOrFocus": "WHF 2025/藍調口琴/吉他與歌唱/Golden Melody ambassador",
-      "structuredSummary": "WHF 2025/藍調口琴/吉他與歌唱/Golden Melody ambassador / 十孔/藍調口琴/吉他/人聲 / 國際演出團體",
-      "summary": "法國的十孔、藍調口琴、吉他與人聲國際演出團體，活動脈絡包含WHF 2025、吉他與歌唱與Golden Melody ambassador。",
-      "keywords": "Rachelle Plas Philippe Hervouet Plas Hervouet Band harmonica WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "http://www.plashervouetband.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/plashervouetband/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/plashervouetband/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "151-rachelle-plas-philippe-hervouet",
-      "latestUpdateAt": "2026-08-26T20:01:38+00:00",
-      "latestUpdateLocal": "2026-08-27 04:01",
-      "latestUpdateSource": "Rachelle Plas & Philippe Hervouet",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcgZtMSiAuy/",
-      "avatarUrl": "/assets/source-avatars/7d3bf033479577d85e2b.webp",
-      "sourceInitials": "RPP",
-      "sourceTags": [
-        "團體樂團",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_plashervouetband",
-          "name": "Rachelle Plas & Philippe Hervouet",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/plashervouetband",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_plashervouetband",
-          "name": "Rachelle Plas & Philippe Hervouet",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "plashervouetband",
-          "profileUrl": "https://www.instagram.com/plashervouetband/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_plashervouetband",
-          "name": "Rachelle Plas & Philippe Hervouet",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "plashervouetband",
-          "profileUrl": "https://www.instagram.com/plashervouetband/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-174",
       "publicId": "174",
       "name": "Yellow Pine Harmonica Festival",
@@ -9083,6 +9196,90 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_profile",
           "username": "whf_world_harmonica_festival",
           "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-154",
+      "publicId": "154",
+      "name": "Orchestra Hohnerklang",
+      "nameEn": "Orchester Hohnerklang",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "德國",
+      "region": "德國/特羅辛根",
+      "cityOrFocus": "WHF 2025開幕/HOHNER orchestral harmonica tradition/大型合奏",
+      "structuredSummary": "WHF 2025開幕/HOHNER orchestral harmonica tradition/大型合奏 / 口琴合奏 / 國際演出團體",
+      "summary": "德國的口琴合奏國際演出團體，活動脈絡包含WHF 2025開幕、HOHNER orchestral harmonica tradition與大型合奏。",
+      "keywords": "Orchester Hohnerklang Orchestra Hohnerklang harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://hohnerklang.de/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hohnerklang"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hohnerklang"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/hohnerklang"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "154-orchester-hohnerklang",
+      "latestUpdateAt": "2026-08-26T10:56:13+00:00",
+      "latestUpdateLocal": "2026-08-26 18:56",
+      "latestUpdateSource": "Orchestra Hohnerklang",
+      "latestUpdateUrl": "https://www.facebook.com/hohnerklang/posts/pfbid02g7NFp6zEdiNye6LQHdbTDUwkqwc5zdq7TQkRJGqY7izZVt6xRLXNin2H3GTjGp9Wl",
+      "avatarUrl": "/assets/source-avatars/orchestra-hohnerklang.jpg",
+      "sourceInitials": "OH",
+      "sourceTags": [
+        "團體樂團",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hohnerklang",
+          "name": "Orchestra Hohnerklang",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hohnerklang",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hohnerklang",
+          "name": "Orchestra Hohnerklang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hohnerklang",
+          "profileUrl": "https://www.instagram.com/hohnerklang/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hohnerklang",
+          "name": "Orchestra Hohnerklang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hohnerklang",
+          "profileUrl": "https://www.instagram.com/hohnerklang/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_hohnerklang",
+          "name": "Orchestra Hohnerklang",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/hohnerklang",
           "feedUrl": ""
         }
       ]
@@ -12946,90 +13143,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-154",
-      "publicId": "154",
-      "name": "Orchestra Hohnerklang",
-      "nameEn": "Orchester Hohnerklang",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "德國",
-      "region": "德國/特羅辛根",
-      "cityOrFocus": "WHF 2025開幕/HOHNER orchestral harmonica tradition/大型合奏",
-      "structuredSummary": "WHF 2025開幕/HOHNER orchestral harmonica tradition/大型合奏 / 口琴合奏 / 國際演出團體",
-      "summary": "德國的口琴合奏國際演出團體，活動脈絡包含WHF 2025開幕、HOHNER orchestral harmonica tradition與大型合奏。",
-      "keywords": "Orchester Hohnerklang Orchestra Hohnerklang harmonica WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://hohnerklang.de/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hohnerklang"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hohnerklang"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/hohnerklang"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "154-orchester-hohnerklang",
-      "latestUpdateAt": "2026-08-01T07:45:34+00:00",
-      "latestUpdateLocal": "2026-08-01 15:45",
-      "latestUpdateSource": "Orchestra Hohnerklang",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hohnerklang/3953973005431328468/",
-      "avatarUrl": "/assets/source-avatars/orchestra-hohnerklang.jpg",
-      "sourceInitials": "OH",
-      "sourceTags": [
-        "團體樂團",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_hohnerklang",
-          "name": "Orchestra Hohnerklang",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hohnerklang",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hohnerklang",
-          "name": "Orchestra Hohnerklang",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hohnerklang",
-          "profileUrl": "https://www.instagram.com/hohnerklang/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hohnerklang",
-          "name": "Orchestra Hohnerklang",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hohnerklang",
-          "profileUrl": "https://www.instagram.com/hohnerklang/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_hohnerklang",
-          "name": "Orchestra Hohnerklang",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/hohnerklang",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-226",
       "publicId": "226",
       "name": "黃志榮 Wesley Wong",
@@ -13613,57 +13726,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-37",
-      "publicId": "37",
-      "name": "陳晟禕",
-      "nameEn": "Sheng-Yi Chen",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣/高雄",
-      "cityOrFocus": "半音階口琴/狂響口琴樂團創團與團長/社區大學教學/編曲",
-      "structuredSummary": "半音階口琴/狂響口琴樂團創團與團長/社區大學教學/編曲 / 半音階口琴 / 演出人員/教育者/編曲者",
-      "summary": "臺灣的半音階口琴演出人員、教育者與編曲者，活動脈絡包含狂響口琴樂團創團與團長、社區大學教學與編曲。",
-      "keywords": "陳晟禕 口琴 狂響 狂響逗嘴鼓 高雄 社區大學 半音階 編曲",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://kaohsiungmusichall.kcg.gov.tw/home02.aspx?AP=%245201_DATE-112%2F12%2F23%5E%245201_START-1900%5E%245201_END-2100&DATA=35177&EXEC=D&ID=%245201&IDK=2"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/chen.cheng.yi.487430/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "37",
-      "latestUpdateAt": "2026-07-13T08:06:25+00:00",
-      "latestUpdateLocal": "2026-07-13 16:06",
-      "latestUpdateSource": "陳晟禕",
-      "latestUpdateUrl": "https://www.facebook.com/reel/1870522134353852/",
-      "avatarUrl": "/assets/source-avatars/c00c8c8d5550e9b713e5.webp",
-      "sourceInitials": "陳晟",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "教學",
-        "半音階"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_chen_cheng_yi_487430",
-          "name": "陳晟禕",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/chen.cheng.yi.487430",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-98",
       "publicId": "98",
       "name": "蔡明憲 DMing Studio",
@@ -13847,68 +13909,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@markbandoneon",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-159",
-      "publicId": "159",
-      "name": "香港中華基督教青年會口琴樂團",
-      "nameEn": "Hong Kong Chinese YMCA Harmonica Orchestra",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "香港口琴樂團/教育推廣/年度音樂會",
-      "structuredSummary": "香港口琴樂團/教育推廣/年度音樂會 / 口琴合奏 / 國際演出團體/教育來源",
-      "summary": "香港的口琴合奏國際演出團體與教育來源，活動脈絡包含香港口琴樂團、教育推廣與年度音樂會。",
-      "keywords": "香港中華基督教青年會口琴樂團 Hong Kong Chinese YMCA Harmonica Orchestra HKCYMCA harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://ymcaho.org/wp/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Chinese-YMCA-of-Hong-Kong-Harmonica-Orchestra-185471864816806/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@chineseymcaofhongkongharmo9428"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "159-hong-kong-chinese-ymca-harmonica-orchestra",
-      "latestUpdateAt": "2026-06-29T07:04:21+00:00",
-      "latestUpdateLocal": "2026-06-29 15:04",
-      "latestUpdateSource": "香港中華基督教青年會口琴樂團",
-      "latestUpdateUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid08zJQn7fJ1wECjgKfCiP9dm6RYLXHR2SEuTRMc18nC9ZNz7dNgVNzWRqJh4jNTJWFl&id=100057255378181",
-      "avatarUrl": "/assets/source-avatars/hk-chinese-ymca-harmonica.jpg",
-      "sourceInitials": "香港",
-      "sourceTags": [
-        "團體樂團",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_chinese_ymca_of_hong_kong_harmonica_orchestra_185471864816806",
-          "name": "香港中華基督教青年會口琴樂團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Chinese-YMCA-of-Hong-Kong-Harmonica-Orchestra-185471864816806",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_chineseymcaofhongkongharmo9428",
-          "name": "香港中華基督教青年會口琴樂團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@chineseymcaofhongkongharmo9428",
           "feedUrl": ""
         }
       ]

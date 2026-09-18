@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T15:44:40.411019Z",
+  "generatedAt": "2026-09-18T16:20:45.767388Z",
   "source": {
     "id": 159,
     "slug": "hong-kong-chinese-ymca-harmonica-orchestra",
     "name": "香港中華基督教青年會口琴樂團",
     "pageUrl": "https://harmonica.observe.tw/source/159-hong-kong-chinese-ymca-harmonica-orchestra/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-d3ceaa3984f9eaf74fb2cce4",
+      "title": "香港貿易發展局邀請香港中華基督教青年會口琴樂團重奏隊，於8月14日晚上在灣仔會議展覽中心參與「香港美食節」演出，演出時長三十分鐘。",
+      "excerpt": "香港貿易發展局邀請香港中華基督教青年會口琴樂團重奏隊，於8月14日晚上在灣仔會議展覽中心參與「香港美食節」演出，演出時長三十分鐘。 是次演出曲目緊扣美食節主題，包括《麥兜與雞》（Moment Musical）、《Manbo Italiano》（小鳳姐的叉燒包）等，與觀眾共渡一個盛夏小週末的愉快時光。 當日演出歌曲： 步步高，Entertainer，LaRaspa， Duo - Cantata BWV 147（Bach） Hungarian Dance # 5， Moment Musical (麥兜與鷄)，Besame Mucho and Membo I…",
+      "url": "https://www.facebook.com/permalink.php?id=100057255378181&story_fbid=pfbid0WveBPwvsKc21TH6Li35fnsWX9fZSEUTB4iJmQdbDC8TFkhdesuJwTB6xUVbwiSBal",
+      "sourceName": "香港中華基督教青年會口琴樂團",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-13T16:25:40Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/4d2135d0195d881b5710.webp",
+        "width": 590,
+        "height": 443
+      }
+    }
+  ]
 }

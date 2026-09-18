@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-18T23:44:42+08:00",
+  "generatedAt": "2026-09-19T00:20:47+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 9,
+  "count": 11,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -14,7 +14,7 @@
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 0,
+      "requests": 2,
       "cached": 20,
       "errors": 0
     }
@@ -278,6 +278,78 @@
         "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/811203261_18025236962880937_3199962528113309495_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzk4NjYxODQ4MzE5MDk4Njk4MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNzUzLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=7e9XYsXZs6QQ7kNvwH1UemW&_nc_oc=AdqtdfPlwJjNq9RKyXQ16Iiy-AMUCCautLoIwvhHz4yKQn0kS3RkfkNoo5GwNgxopxI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=JRkuGsu0pefIp42CXBRDQA&_nc_ss=7a22e&oh=00_AQIUufwWvsZBIvw4sUTF3nTcT_aPfykJWzhnUbrBdzFeKw&oe=6AAEDAC1"
       ],
       "image_url": "/assets/feed-images/14a36fc231ec9d0b2ba2.webp"
+    },
+    {
+      "id": "a6b4974828f29a0e",
+      "title": "Dr. Blue 口琴音樂會",
+      "eventName": "Dr. Blue 口琴音樂會",
+      "source": "Dr. Blue 口琴樂團",
+      "platform": "facebook",
+      "start": "2026-09-25",
+      "end": "2026-09-26",
+      "allDay": true,
+      "calendarType": "taiwan_physical",
+      "timezone": "Asia/Taipei",
+      "location": "臺中市 武陵富野渡假村 2F展演廳",
+      "venue": "武陵富野渡假村 2F展演廳",
+      "city": "臺中市",
+      "details": "主辦／演出者：Dr. Blue 口琴樂團。Dr. Blue 將於九月中秋連假在武陵富野渡假村帶來連續四天的音樂會。時間為 09/25（五）至 09/28（一）每晚 20:30～21:30。",
+      "evidenceUrl": "https://www.facebook.com/dr.blueharmonica/posts/pfbid02iix79QZRDDZBeeLcoNe1pFbpBUNunE1DyvrjumviY8G1wGY8whjh2FC8Gwp57aRzl",
+      "confidence": 0.96,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventMode": "taiwan_physical",
+        "timezone": "Asia/Taipei",
+        "candidateDateMatches": true,
+        "eventName": "Dr. Blue 口琴音樂會",
+        "venue": "武陵富野渡假村 2F展演廳",
+        "city": "臺中市",
+        "details": "主辦／演出者：Dr. Blue 口琴樂團。Dr. Blue 將於九月中秋連假在武陵富野渡假村帶來連續四天的音樂會。時間為 09/25（五）至 09/28（一）每晚 20:30～21:30。",
+        "reason": "貼文明確是臺中市的實體口琴演出，且候選日期 09/25 落在活動期間內。",
+        "confidence": 0.96
+      },
+      "postedAt": "2026-09-06 09:00",
+      "images": [
+        "https://scontent.ftup1-1.fna.fbcdn.net/v/t39.30808-6/797744784_122330370974027168_4984632865481113780_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=cVYJqNh-TnsQ7kNvwFBy0fg&_nc_oc=Adqom_iN7uw5aO1M0fIaNTF4-oBhIYQ7ksk0m1WlU_y7_9pQ29wAuR1ZOwWaM4E8Gzs&_nc_zt=23&_nc_ht=scontent.ftup1-1.fna&_nc_gid=q6ElV1n_GTAURX55DGaq_A&_nc_ss=72289&oh=00_AQJSvrnUNrtClup4rMYQ5ib6XW8BYf2vnliZJoab5773hQ&oe=6AB335CD"
+      ],
+      "image_url": "/assets/feed-images/84d2c968076a85e0e9cd.webp"
+    },
+    {
+      "id": "3cc9a2ac09a819b3",
+      "title": "武陵富野渡假村 音樂會",
+      "eventName": "武陵富野渡假村 音樂會",
+      "source": "Dr. Blue 口琴樂團",
+      "platform": "facebook",
+      "start": "2026-09-28T20:30:00+08:00",
+      "end": "2026-09-28T22:30:00+08:00",
+      "allDay": false,
+      "calendarType": "taiwan_physical",
+      "timezone": "Asia/Taipei",
+      "location": "臺中市 武陵富野渡假村 2F展演廳",
+      "venue": "武陵富野渡假村 2F展演廳",
+      "city": "臺中市",
+      "details": "主辦／演出者：Dr. Blue 口琴樂團。Dr. Blue 口琴樂團將於中秋連假在武陵富野渡假村連續演出四天。公告時間為 09/25（五）至 09/28（一）每晚 20:30～21:30。",
+      "evidenceUrl": "https://www.facebook.com/dr.blueharmonica/posts/pfbid02iix79QZRDDZBeeLcoNe1pFbpBUNunE1DyvrjumviY8G1wGY8whjh2FC8Gwp57aRzl",
+      "confidence": 0.96,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventMode": "taiwan_physical",
+        "timezone": "Asia/Taipei",
+        "candidateDateMatches": true,
+        "eventName": "武陵富野渡假村 音樂會",
+        "venue": "武陵富野渡假村 2F展演廳",
+        "city": "臺中市",
+        "details": "主辦／演出者：Dr. Blue 口琴樂團。Dr. Blue 口琴樂團將於中秋連假在武陵富野渡假村連續演出四天。公告時間為 09/25（五）至 09/28（一）每晚 20:30～21:30。",
+        "reason": "貼文明確是臺灣實體演出，地點與候選日期 09/28 20:30 完全一致，且屬口琴活動。",
+        "confidence": 0.96
+      },
+      "postedAt": "2026-09-06 09:00",
+      "images": [
+        "https://scontent.ftup1-1.fna.fbcdn.net/v/t39.30808-6/797744784_122330370974027168_4984632865481113780_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=cVYJqNh-TnsQ7kNvwFBy0fg&_nc_oc=Adqom_iN7uw5aO1M0fIaNTF4-oBhIYQ7ksk0m1WlU_y7_9pQ29wAuR1ZOwWaM4E8Gzs&_nc_zt=23&_nc_ht=scontent.ftup1-1.fna&_nc_gid=q6ElV1n_GTAURX55DGaq_A&_nc_ss=72289&oh=00_AQJSvrnUNrtClup4rMYQ5ib6XW8BYf2vnliZJoab5773hQ&oe=6AB335CD"
+      ],
+      "image_url": "/assets/feed-images/84d2c968076a85e0e9cd.webp"
     },
     {
       "sourceName": "衛武營國家藝術文化中心",

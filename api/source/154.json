@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T15:44:40.411019Z",
+  "generatedAt": "2026-09-18T16:20:45.767388Z",
   "source": {
     "id": 154,
     "slug": "orchester-hohnerklang",
     "name": "Orchestra Hohnerklang",
     "pageUrl": "https://harmonica.observe.tw/source/154-orchester-hohnerklang/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-230698d512f1d61e4a0d616e",
+      "title": "✨ GALAKONZERT 2026 – Orchester Hohnerklang ✨",
+      "excerpt": "✨ GALAKONZERT 2026 – Orchester Hohnerklang ✨ Ein Abend voller musikalischer Highlights! Erlebe das Orchester Hohnerklang live beim großen Galakonzert und lasse dich von einem besonderen Konzerterlebnis begeistern. 📅 Show: 21. November 2026 | 19:00 Uhr 📍 Ort: Dr.-Ernst-Hohner-Kon…",
+      "url": "https://www.facebook.com/hohnerklang/posts/pfbid02g7NFp6zEdiNye6LQHdbTDUwkqwc5zdq7TQkRJGqY7izZVt6xRLXNin2H3GTjGp9Wl",
+      "sourceName": "Orchestra Hohnerklang",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-26T10:56:13Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/7f515d9419e77445517e.webp",
+        "width": 526,
+        "height": 701
+      }
+    }
+  ]
 }
