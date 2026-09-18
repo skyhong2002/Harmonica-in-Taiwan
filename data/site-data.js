@@ -4930,7 +4930,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-01 20:48",
       "latestUpdateSource": "Marcos Coll",
       "latestUpdateUrl": "https://www.instagram.com/stories/marcoscollgonzalez/3976593506029799549/",
-      "avatarUrl": "/assets/source-avatars/9f8a8d3728dd675414d2.webp",
+      "avatarUrl": "/assets/source-avatars/044e8ce28025a973c854.webp",
       "sourceInitials": "MC",
       "sourceTags": [
         "活動資訊",
