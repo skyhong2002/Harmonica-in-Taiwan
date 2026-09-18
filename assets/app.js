@@ -1788,6 +1788,14 @@
     const stories = recentStoryItems();
     stopHomeStoryAutoScroll();
     if (!stories.length) {
+      const collector = instagramStoryHealth?.stories;
+      if (collector) {
+        const message = collector.status === "ok"
+          ? `已檢查 ${Number(collector.checkedSources24h) || 0}/${Number(collector.totalSources) || 0} 個來源，目前沒有可顯示的限動。`
+          : `限動目前未完整更新：${collector.reason || "抓取延遲，暫時無法確認近 24 小時的限動"}。`;
+        homeStoryList.innerHTML = `<div class="empty-state">${escapeHtml(message)}<a href="/status/">查看系統狀態</a></div>`;
+        return;
+      }
       const healthText = [
         instagramStoryHealth?.summary || "",
         ...(Array.isArray(instagramStoryHealth?.details) ? instagramStoryHealth.details : []),

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-18T23:08:38+08:00",
+  "generatedAt": "2026-09-18T23:23:46+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
   "count": 9,
@@ -15,7 +15,7 @@
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 21,
+      "cached": 20,
       "errors": 0
     }
   },
@@ -244,40 +244,40 @@
       "image_url": "/assets/feed-images/9ca7e9876864ce01ace5.webp"
     },
     {
-      "id": "291301f51a921d0b",
-      "title": "Cy Leo《兩界一心》",
-      "eventName": "Cy Leo《兩界一心》",
-      "source": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-      "platform": "facebook",
-      "start": "2026-09-23T19:30:00+08:00",
-      "end": "2026-09-23T21:30:00+08:00",
-      "allDay": false,
+      "id": "79333d11111041bb",
+      "title": "Cy Leo《兩界一心 Two Worlds in One》巡演音樂會",
+      "eventName": "Cy Leo《兩界一心 Two Worlds in One》巡演音樂會",
+      "source": "Judy’s Harmonica Ensemble 茱蒂口琴樂團",
+      "platform": "threads",
+      "start": "2026-09-23",
+      "end": "2026-09-24",
+      "allDay": true,
       "calendarType": "taiwan_physical",
       "timezone": "Asia/Taipei",
-      "location": "新北市板橋區 新北市藝文中心演藝廳",
+      "location": "新北市藝文中心演藝廳",
       "venue": "新北市藝文中心演藝廳",
-      "city": "新北市板橋區",
-      "details": "主辦／演出者：天狼星口琴樂團 Sirius Harmonica Ensemble。演出時間為 2026/9/23 (三) 19:30，為 Cy Leo 何卓彥的巡迴計畫《兩界一心》臺灣場。入場方式為購票入場，售票系統為 OPENTIX 兩廳院售票系統。",
-      "evidenceUrl": "https://www.facebook.com/SiriusHarp/posts/pfbid0SuTkaKGDM36B1GizNwChHhcraAhNo3DDaQqzc3FQ2JGhPxq6PDXALSymb31YtdMul",
-      "confidence": 0.98,
+      "city": "新北市",
+      "details": "主辦／演出者：茱蒂口琴樂團 Judy's Harmonica Ensemble。香港半音階口琴演奏家 Cy Leo 來臺亞洲巡演第二站，並與天狼星口琴樂團合作演出。時間為 9/23（三）19:30，貼文提供購票連結。",
+      "evidenceUrl": "https://www.threads.com/t/DdTUGNxmvjl",
+      "confidence": 0.95,
       "calendarReview": {
         "include": true,
         "country": "臺灣",
         "eventMode": "taiwan_physical",
         "timezone": "Asia/Taipei",
         "candidateDateMatches": true,
-        "eventName": "Cy Leo《兩界一心》",
+        "eventName": "Cy Leo《兩界一心 Two Worlds in One》巡演音樂會",
         "venue": "新北市藝文中心演藝廳",
-        "city": "新北市板橋區",
-        "details": "主辦／演出者：天狼星口琴樂團 Sirius Harmonica Ensemble。演出時間為 2026/9/23 (三) 19:30，為 Cy Leo 何卓彥的巡迴計畫《兩界一心》臺灣場。入場方式為購票入場，售票系統為 OPENTIX 兩廳院售票系統。",
-        "reason": "候選日期與貼文明確演出時間一致，且為在新北市舉辦的實體口琴音樂會，符合收錄範圍。",
-        "confidence": 0.98
+        "city": "新北市",
+        "details": "主辦／演出者：茱蒂口琴樂團 Judy's Harmonica Ensemble。香港半音階口琴演奏家 Cy Leo 來臺亞洲巡演第二站，並與天狼星口琴樂團合作演出。時間為 9/23（三）19:30，貼文提供購票連結。",
+        "reason": "貼文明確寫出 9/23 19:30 於新北市藝文中心演藝廳舉行的現場音樂會，符合臺灣實體口琴活動收錄範圍。",
+        "confidence": 0.95
       },
-      "postedAt": "2026-08-19 23:07",
+      "postedAt": "2026-09-15 16:46",
       "images": [
-        "https://scontent-det1-1.xx.fbcdn.net/v/t39.30808-6/780471380_1617871143683827_8399336899933963612_n.jpg?stp=dst-jpg_tt6&cstp=mx1190x1684&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=eA--LoJw2mUQ7kNvwFRD6K3&_nc_oc=Adr9jLbUCl4JhZGF1oiWBUrEP6eiy7-Yl9hn6cTU-6frFf91SLL3O3QimcCIAGJKXM8&_nc_zt=23&_nc_ht=scontent-det1-1.xx&_nc_gid=lZjRh1gltTWgJk0lNU2XNg&_nc_ss=72289&oh=00_AQGEuOkhhv8Ur0q0KF1FagP_UoaeGz4dfJRexsst4QBzgQ&oe=6A8ECEE6"
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/811203261_18025236962880937_3199962528113309495_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzk4NjYxODQ4MzE5MDk4Njk4MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNzUzLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=7e9XYsXZs6QQ7kNvwH1UemW&_nc_oc=AdqtdfPlwJjNq9RKyXQ16Iiy-AMUCCautLoIwvhHz4yKQn0kS3RkfkNoo5GwNgxopxI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=JRkuGsu0pefIp42CXBRDQA&_nc_ss=7a22e&oh=00_AQIUufwWvsZBIvw4sUTF3nTcT_aPfykJWzhnUbrBdzFeKw&oe=6AAEDAC1"
       ],
-      "image_url": "/assets/feed-images/aed5e16a4eebcf47f6dd.webp"
+      "image_url": "/assets/feed-images/14a36fc231ec9d0b2ba2.webp"
     },
     {
       "sourceName": "衛武營國家藝術文化中心",
