@@ -680,6 +680,8 @@ def format_rsshub_route(route: str, source: dict[str, Any]) -> str:
 
 
 def source_feed_url(source: dict[str, Any]) -> str:
+    if source.get("provider") in {"instagram_public", "apify_stories"}:
+        return str(source.get("source_profile_url") or "")
     base = str(source.get("rsshub_base") or "").rstrip("/")
     if not base:
         return ""

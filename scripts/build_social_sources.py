@@ -265,7 +265,7 @@ def parse_instagram_source(row: dict[str, str]) -> dict[str, Any] | None:
         "limit": 5,
         "name": source_name(row),
         "platform": "instagram",
-        "provider": "instaloader",
+        "provider": "instagram_public",
         "source_profile_url": f"https://www.instagram.com/{username}/",
         "type": "rsshub_instagram_profile",
         "username": username,
@@ -287,9 +287,9 @@ def parse_instagram_story_source(row: dict[str, str]) -> dict[str, Any] | None:
         "media_type": "instagram_story",
         "name": source_name(row),
         "platform": "instagram",
-        "provider": "instaloader",
+        "provider": "apify_stories",
         "source_profile_url": f"https://www.instagram.com/{username}/",
-        "story_provider": "instaloader",
+        "story_provider": "apify_stories",
         "type": "rsshub_instagram_story",
         "username": username,
         "generated_by": GENERATED_BY,
@@ -498,7 +498,11 @@ def normalize_instagram_providers(sources: list[dict[str, Any]]) -> list[dict[st
     normalized: list[dict[str, Any]] = []
     for source in sources:
         if str(source.get("type") or "") == "rsshub_instagram_profile":
-            source = {**source, "provider": "instaloader"}
+            source = {**source, "provider": "instagram_public"}
+            source.pop("rsshub_base", None)
+            source.pop("route", None)
+        if str(source.get("type") or "") == "rsshub_instagram_story":
+            source = {**source, "provider": "apify_stories", "story_provider": "apify_stories"}
             source.pop("rsshub_base", None)
             source.pop("route", None)
         normalized.append(source)

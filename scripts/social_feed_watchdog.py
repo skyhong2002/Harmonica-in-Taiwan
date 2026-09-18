@@ -1015,6 +1015,18 @@ def is_instaloader_source(source: dict[str, Any]) -> bool:
     )
 
 
+def externally_collected_instagram(source: dict[str, Any]) -> bool:
+    return str(source.get("provider") or "") in {"instagram_public", "apify_stories"}
+
+
+def cached_instagram_posts(source: dict[str, Any]) -> list[dict[str, Any]]:
+    state = load_json(PROJECT_ROOT / "state" / "instagram_public.json", {})
+    posts = state.get("sources", {}).get(source["id"], {}).get("posts", [])
+    now = dt.datetime.now(dt.timezone.utc)
+    return [p for p in posts if not is_story_source(source) or
+            ((expiry := parse_datetime(p.get("story_expires_at"))) is not None and expiry > now)]
+
+
 def is_instaloader_auth_error(error: str) -> bool:
     message = str(error or "").casefold()
     return any(pattern in message for pattern in INSTALOADER_AUTH_ERROR_PATTERNS)
@@ -1252,6 +1264,8 @@ def record_webpage_attempt(
 
 
 def source_delay_secs(source: dict[str, Any], token: str | None, args: argparse.Namespace) -> float:
+    if externally_collected_instagram(source):
+        return 0.0
     if instagram_source_kind(source):
         return max(0.0, float(args.instagram_delay_secs))
     return DEFAULT_RSS_DELAY_SECS if should_throttle_source(source, token) else 0.0
@@ -1675,6 +1689,7 @@ def normalize_external_post(source: dict[str, Any], row: dict[str, Any]) -> dict
         "source_feed_url",
         "story_provider",
         "story_fetched_at",
+        "story_expires_at",
         "rsshub_guid",
         "rsshub_title",
     ):
@@ -1803,6 +1818,8 @@ def fetch_webpage(source: dict[str, Any]) -> list[dict[str, Any]]:
 
 
 def fetch_source(source: dict[str, Any], token: str | None) -> list[dict[str, Any]]:
+    if externally_collected_instagram(source):
+        return cached_instagram_posts(source)
     kind = source.get("type")
     if kind in {"rss", "rsshub_facebook_page", "rsshub_instagram_profile", "rsshub_instagram_story", "rsshub_twitter_user", "rsshub_threads_user"}:
         return fetch_rss(source)
@@ -1816,6 +1833,8 @@ def fetch_source(source: dict[str, Any], token: str | None) -> list[dict[str, An
 
 
 def should_throttle_source(source: dict[str, Any], token: str | None) -> bool:
+    if externally_collected_instagram(source):
+        return False
     kind = source.get("type")
     if kind in {"rss", "rsshub_facebook_page", "rsshub_instagram_profile", "rsshub_instagram_story", "rsshub_twitter_user", "rsshub_threads_user", "jsonl", "external_jsonl", "n8n_jsonl"}:
         return True
@@ -2600,7 +2619,9 @@ def main() -> int:
                     message=skip_reason,
                 )
                 continue
-        instagram_kind = instagram_source_kind(source)
+        # The independent collector owns attempts, cooldowns and health. Reading
+        # its cache must not record a new successful network fetch.
+        instagram_kind = "" if externally_collected_instagram(source) else instagram_source_kind(source)
         if instagram_kind:
             due, skip_reason, schedule_changed = instagram_due_info(
                 source,

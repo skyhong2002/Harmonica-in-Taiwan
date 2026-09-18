@@ -172,6 +172,7 @@ def main() -> int:
     parser.add_argument("--skip-source-build", action="store_true")
     parser.add_argument("--skip-youtube", action="store_true")
     parser.add_argument("--skip-facebook", action="store_true")
+    parser.add_argument("--skip-instagram", action="store_true")
     parser.add_argument("--skip-llm-tags", action="store_true")
     parser.add_argument("--facebook-dry-run", action="store_true")
     parser.add_argument("--youtube-full-refresh", action="store_true")
@@ -262,6 +263,9 @@ def main() -> int:
             run([PYTHON, "scripts/build_social_sources.py"], step="build social sources", status_hook=mark_step)
 
         if not args.skip_watch:
+            if not args.skip_instagram:
+                run([PYTHON, "scripts/instagram_public_fetcher.py", "--pipeline-lock-held"],
+                    optional=True, step="fetch instagram public", status_hook=mark_step)
             if not args.skip_youtube:
                 youtube_args = [
                     PYTHON,

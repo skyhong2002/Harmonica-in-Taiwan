@@ -473,6 +473,10 @@ def persistent_source_errors(
         source_type = str(state.get("source_type") or source_by_id[str(source_id)].get("type") or "")
         source = source_by_id[str(source_id)]
         provider = str(source.get("story_provider") or source.get("provider") or "")
+        if provider in {"instagram_public", "apify_stories"}:
+            # This state belongs to the retired authenticated collector. The new
+            # collector reports its own attempts; preserve old records as history.
+            continue
         error_lower = error.casefold()
         if provider == "instaloader" and "asset asset://laser.provider/" in error_lower:
             continue
@@ -512,6 +516,52 @@ def persistent_source_errors(
     return persistent
 
 
+def public_instagram_component(state: dict[str, Any], sources: list[dict[str, Any]], now: dt.datetime) -> dict[str, Any]:
+    labels = {
+        "credit_budget": "每日免費額度預算不足，等待下一輪／額度重置",
+        "daily_result_limit": "今日限動筆數已達上限",
+        "user_daily_exhausted": "供應商今日免費筆數已用完",
+        "free_capacity_exhausted": "供應商免費容量暫滿，一小時後重試",
+        "public_unavailable_credit_reserve": "公開貼文端點受限，Apify 保留額度不足以補抓",
+        "no_sources_due": "依排程等待下一批來源",
+        "partial_scan": "部分來源或圖片抓取失敗",
+    }
+    entries = state.get("sources", {})
+    details = ["限動：Apify Stories；貼文：免登入公開端點／Apify。無需維護者 Instagram 登入。"]
+    sections = {}
+    for kind, provider, title in (("story", "apify_stories", "限動"), ("profile", "instagram_public", "貼文")):
+        row = state.get(kind, {})
+        selected = [s for s in sources if s.get("provider") == provider]
+        successful = [entries.get(s["id"], {}) for s in selected if entries.get(s["id"], {}).get("last_success_at")]
+        fresh = sum(age is not None and 0 <= age <= 24
+                    for e in successful for age in [hours_since(parse_time(e["last_success_at"]), now)])
+        latest = max((e["last_success_at"] for e in successful), default="")
+        status = row.get("status") or "paused"
+        age = hours_since(parse_time(latest), now)
+        if status == "ok" and (age is None or age > 24):
+            status = "degraded"
+        reason = labels.get(row.get("reason"), row.get("reason")) or ("尚未成功抓取" if not latest else "")
+        active = sum(1 for e in successful for p in e.get("posts", [])
+                     if (expiry := parse_time(p.get("story_expires_at"))) and expiry > now) if kind == "story" else 0
+        sections[kind] = {"status": status, "reason": reason, "lastSuccessAt": latest,
+                          "checkedSources24h": fresh, "totalSources": len(selected), "activeStories": active,
+                          "nextRunAt": dt.datetime.fromtimestamp(float(row.get("next_run_at") or 0), dt.timezone.utc).isoformat()}
+        details.append(f"{title}：24 小時內成功檢查 {fresh}/{len(selected)} 個來源；最後成功 {time_label(parse_time(latest))}。")
+        if reason:
+            details.append(f"{title}狀態：{reason}。")
+    quota = state.get("quota", {})
+    details.append(f"可用月額度 US${float(quota.get('remaining_usd') or 0):.3f}；設定上限 US${float(quota.get('monthly_cap_usd') or 0):g}；每日按剩餘天數分配，與 Facebook 共用。")
+    details.append(f"額度週期結束：{time_label(parse_time(quota.get('cycle_end')))}；限動每批最多 10 個來源、10 筆，每日最多 40 筆。")
+    if state.get("quota_error"):
+        details.append(f"額度檢查：{state['quota_error']}")
+    statuses = [r["status"] for r in sections.values()]
+    overall = "degraded" if "degraded" in statuses else "paused" if "paused" in statuses else "ok"
+    result = component("instagram", "Instagram 擷取", overall,
+                       f"免登入分批抓取；目前可顯示 {sections['story']['activeStories']} 筆限動。", details)
+    result.update(stories=sections["story"], profiles=sections["profile"])
+    return result
+
+
 def build_status() -> dict[str, Any]:
     now = dt.datetime.now(dt.timezone.utc)
     sources = enabled_watch_sources()
@@ -521,6 +571,7 @@ def build_status() -> dict[str, Any]:
     errors = read_jsonl(SOCIAL_ERRORS)
     social_seen = read_json(SOCIAL_SEEN, {})
     social_fetch_state = read_json(SOCIAL_FETCH_STATE, {})
+    instagram_public_state = read_json(PROJECT_ROOT / "state/instagram_public.json", {})
     pipeline_runtime = read_json(PIPELINE_RUNTIME_STATUS, {})
     social_progress = read_json(SOCIAL_FETCH_PROGRESS, {})
     latest_payload = read_json(LATEST_API, {})
@@ -564,6 +615,14 @@ def build_status() -> dict[str, Any]:
         and not ignorable_threads_upstream_error(row, source_by_id)
     ]
     current_errors.extend(persistent_source_errors(social_fetch_state, source_by_id, current_errors))
+    current_errors = [row for row in current_errors if not (
+        row.get("source_type") in {"rsshub_instagram_profile", "rsshub_instagram_story"}
+        and source_by_id.get(str(row.get("source_id")), {}).get("provider") in {"instagram_public", "apify_stories"})]
+    for source_id, entry in instagram_public_state.get("sources", {}).items():
+        if entry.get("status") == "error" and entry.get("error") and source_id in source_by_id:
+            current_errors.append({"source_id": source_id, "source_type": source_by_id[source_id].get("type"),
+                                   "error": entry["error"], "seen_at": dt.datetime.fromtimestamp(
+                                       float(entry.get("last_attempt_at") or 0), dt.timezone.utc).isoformat()})
 
     annotated_current_errors = annotate_errors(current_errors, source_by_id)
     current_error_platforms = collections.Counter(row["platform"] for row in annotated_current_errors)
@@ -690,6 +749,9 @@ def build_status() -> dict[str, Any]:
             ],
         )
     )
+    if any(s.get("provider") in {"instagram_public", "apify_stories"} for s in sources):
+        components[-1] = public_instagram_component(
+            instagram_public_state, sources, now)
 
     x_errors = current_error_platforms.get("x", 0)
     components.append(
@@ -796,12 +858,15 @@ def build_status() -> dict[str, Any]:
     platform_rows = []
     for platform, count in sorted(watch_platforms.items()):
         error_count = current_error_platforms.get(platform, 0)
+        platform_status = "degraded" if error_count else "ok"
+        if platform == "instagram":
+            platform_status = next(c["status"] for c in components if c["id"] == "instagram")
         platform_rows.append(
             {
                 "platform": platform,
                 "sources": count,
                 "currentErrors": error_count,
-                "status": "degraded" if error_count else "ok",
+                "status": platform_status,
             }
         )
 

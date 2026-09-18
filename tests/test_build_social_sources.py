@@ -88,7 +88,7 @@ class BuildSocialSourcesWebpageTests(unittest.TestCase):
             )
         )
 
-    def test_instagram_story_source_uses_instaloader(self):
+    def test_instagram_story_source_uses_apify(self):
         source = builder.parse_instagram_story_source(
             {"public_id": "54", "name": "CY Leo", "ig_url": "https://www.instagram.com/cy_leo/"}
         )
@@ -96,12 +96,12 @@ class BuildSocialSourcesWebpageTests(unittest.TestCase):
         self.assertIsNotNone(source)
         assert source is not None
         self.assertEqual(source["type"], "rsshub_instagram_story")
-        self.assertEqual(source["provider"], "instaloader")
-        self.assertEqual(source["story_provider"], "instaloader")
+        self.assertEqual(source["provider"], "apify_stories")
+        self.assertEqual(source["story_provider"], "apify_stories")
         self.assertNotIn("route", source)
         self.assertNotIn("rsshub_base", source)
 
-    def test_instagram_profile_source_uses_instaloader(self):
+    def test_instagram_profile_source_uses_public_collector(self):
         source = builder.parse_instagram_source(
             {"public_id": "54", "name": "CY Leo", "ig_url": "https://www.instagram.com/cy_leo/"}
         )
@@ -109,7 +109,7 @@ class BuildSocialSourcesWebpageTests(unittest.TestCase):
         self.assertIsNotNone(source)
         assert source is not None
         self.assertEqual(source["type"], "rsshub_instagram_profile")
-        self.assertEqual(source["provider"], "instaloader")
+        self.assertEqual(source["provider"], "instagram_public")
         self.assertNotIn("route", source)
         self.assertNotIn("rsshub_base", source)
 
@@ -127,7 +127,7 @@ class BuildSocialSourcesWebpageTests(unittest.TestCase):
             ]
         )
 
-        self.assertEqual(sources[0]["provider"], "instaloader")
+        self.assertEqual(sources[0]["provider"], "instagram_public")
         self.assertNotIn("rsshub_base", sources[0])
 
 
