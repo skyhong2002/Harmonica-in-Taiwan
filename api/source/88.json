@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T09:41:42.407722Z",
+  "generatedAt": "2026-09-18T10:04:26.859274Z",
   "source": {
     "id": 88,
     "slug": "bluebo-harmonica",
@@ -88,20 +88,6 @@
       "publishedAt": "2026-08-21T10:00:34Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/5d5abfbb5e7ad9ea9f02.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-b5db52f25d94663758df2305",
-      "title": "《月亮代表我的心＋青蘋果樂園》營火晚會丨北投社大口琴班",
-      "excerpt": "《月亮代表我的心＋青蘋果樂園》營火晚會丨北投社大口琴班 北投班來到盛夏的露營活動，淑貞老師秉持「我願盡力」的童軍諾言，帶著同學無視酷暑歡樂參與到底，連壓箱底的帶動唱老活兒都用上了！！吹口琴讓人快樂健康，玩童軍保證充滿活力，吹口琴又玩童軍⋯完美啦！ 你也是童軍嗎？來刷一波＋1，以後跟淑貞老師相認要用咱們童軍招呼喔 北投社大口琴班(五)晚上",
-      "url": "https://www.youtube.com/watch?v=14EzY4WhOp4",
-      "sourceName": "藍波口琴教室",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-19T10:00:19Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/93117309adec5a27b0a8.webp",
         "width": 800,
         "height": 450
       }
