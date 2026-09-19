@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-19T12:33:38+08:00",
+  "generatedAt": "2026-09-19T13:09:24+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
     "status": "degraded",
     "label": "部分異常",
-    "summary": "核心 pipeline 有產出；需要注意：Threads / 其他 RSS。 Instagram 擷取 目前依排程或預算節流。"
+    "summary": "核心 pipeline 有產出；需要注意：YouTube yt-dlp、Threads / 其他 RSS。 Instagram 擷取 目前依排程或預算節流。"
   },
   "metrics": {
-    "updates": 1178,
+    "updates": 1176,
     "updatesWindowDays": 30,
     "directoryEntries": 322,
     "watchSources": 794,
     "currentErrors": 1,
-    "latestDataAt": "2026-09-19T12:33:17+08:00",
-    "latestSocialObservationAt": "2026-09-19T12:31:39+08:00"
+    "latestDataAt": "2026-09-19T13:09:05+08:00",
+    "latestSocialObservationAt": "2026-09-19T13:06:43+08:00"
   },
   "watchSources": {
     "platforms": {
@@ -79,7 +79,7 @@
       "label": "正常",
       "summary": "定期 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-09-19 12:33:17",
+        "最新公開資料：2026-09-19 13:09:05",
         "pipeline.log 更新：2026-07-12 02:58:29",
         "pipeline.err.log 更新：2026-07-11 14:33:03",
         "LaunchAgent：running，last exit 0"
@@ -90,7 +90,7 @@
       "name": "公開 API",
       "status": "ok",
       "label": "正常",
-      "summary": "latest.json 有 1178 筆更新，sources.json 有 322 筆公開目錄。",
+      "summary": "latest.json 有 1176 筆更新，sources.json 有 322 筆公開目錄。",
       "details": [
         "更新視窗：30 天",
         "watch sources：794"
@@ -104,7 +104,7 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：33 ms"
+        "耗時：45 ms"
       ]
     },
     {
@@ -129,7 +129,7 @@
         "checkedSources24h": 4,
         "totalSources": 179,
         "activeStories": 3,
-        "nextRunAt": "2026-09-19T04:34:44.440706+00:00"
+        "nextRunAt": "2026-09-19T08:04:10.521080+00:00"
       },
       "profiles": {
         "status": "paused",
@@ -138,7 +138,7 @@
         "checkedSources24h": 0,
         "totalSources": 179,
         "activeStories": 0,
-        "nextRunAt": "2026-09-19T04:34:44.440706+00:00"
+        "nextRunAt": "2026-09-19T08:04:10.521080+00:00"
       }
     },
     {
@@ -171,11 +171,11 @@
     {
       "id": "youtube",
       "name": "YouTube yt-dlp",
-      "status": "ok",
-      "label": "正常",
-      "summary": "141 個 YouTube 來源；最近 run error_count=0。",
+      "status": "degraded",
+      "label": "部分異常",
+      "summary": "141 個 YouTube 來源；最近 run error_count=1。",
       "details": [
-        "最近完成：2026-09-19 12:29:33",
+        "最近完成：2026-09-19 13:04:15",
         "最近新增 inbox：0"
       ]
     },
@@ -192,23 +192,23 @@
   ],
   "recentErrors": [
     {
-      "seenAt": "2026-09-19T11:57:16+08:00",
+      "seenAt": "2026-09-19T13:06:43+08:00",
       "sourceId": "web_312",
       "sourceName": "「天鵝自由呼吸」寧波口琴節",
       "platform": "website",
       "sourceType": "webpage_watch",
-      "error": "連續失敗 13 次：<urlopen error timed out>"
+      "error": "<urlopen error timed out>"
     }
   ],
   "runtime": {
     "pipeline": {
       "currentStep": "build status page",
-      "heartbeatAt": "2026-09-19T04:33:38.089756+00:00",
+      "heartbeatAt": "2026-09-19T05:09:23.889674+00:00",
       "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
       "maxPostAgeDays": 30,
       "message": "",
-      "pid": 80343,
-      "startedAt": "2026-09-19T04:29:24.282632+00:00",
+      "pid": 74490,
+      "startedAt": "2026-09-19T05:04:10.414400+00:00",
       "status": "running",
       "steps": [
         {
@@ -216,10 +216,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_social_sources.py"
           ],
-          "finishedAt": "2026-09-19T04:29:24.348778+00:00",
+          "finishedAt": "2026-09-19T05:04:10.481001+00:00",
           "name": "build social sources",
           "returnCode": 0,
-          "startedAt": "2026-09-19T04:29:24.283669+00:00",
+          "startedAt": "2026-09-19T05:04:10.415827+00:00",
           "status": "ok"
         },
         {
@@ -228,10 +228,10 @@
             "scripts/instagram_public_fetcher.py",
             "--pipeline-lock-held"
           ],
-          "finishedAt": "2026-09-19T04:29:26.552431+00:00",
+          "finishedAt": "2026-09-19T05:04:12.676885+00:00",
           "name": "fetch instagram public",
           "returnCode": 0,
-          "startedAt": "2026-09-19T04:29:24.349183+00:00",
+          "startedAt": "2026-09-19T05:04:10.482306+00:00",
           "status": "ok"
         },
         {
@@ -241,10 +241,10 @@
             "--max-post-age-days",
             "30"
           ],
-          "finishedAt": "2026-09-19T04:29:33.841664+00:00",
+          "finishedAt": "2026-09-19T05:04:15.583550+00:00",
           "name": "fetch youtube",
           "returnCode": 0,
-          "startedAt": "2026-09-19T04:29:26.555281+00:00",
+          "startedAt": "2026-09-19T05:04:12.679961+00:00",
           "status": "ok"
         },
         {
@@ -257,10 +257,10 @@
             "30",
             "--run"
           ],
-          "finishedAt": "2026-09-19T04:29:35.030696+00:00",
+          "finishedAt": "2026-09-19T05:04:16.632516+00:00",
           "name": "fetch facebook apify",
           "returnCode": 0,
-          "startedAt": "2026-09-19T04:29:33.842249+00:00",
+          "startedAt": "2026-09-19T05:04:15.584215+00:00",
           "status": "ok"
         },
         {
@@ -272,10 +272,10 @@
             "--request-timeout",
             "10"
           ],
-          "finishedAt": "2026-09-19T04:31:39.282056+00:00",
+          "finishedAt": "2026-09-19T05:06:43.118001+00:00",
           "name": "watch social feeds",
           "returnCode": 0,
-          "startedAt": "2026-09-19T04:29:35.033472+00:00",
+          "startedAt": "2026-09-19T05:04:16.633544+00:00",
           "status": "ok"
         },
         {
@@ -283,10 +283,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_public_data.py"
           ],
-          "finishedAt": "2026-09-19T04:31:41.993483+00:00",
+          "finishedAt": "2026-09-19T05:06:45.755600+00:00",
           "name": "build public data",
           "returnCode": 0,
-          "startedAt": "2026-09-19T04:31:39.284154+00:00",
+          "startedAt": "2026-09-19T05:06:43.119555+00:00",
           "status": "ok"
         },
         {
@@ -295,10 +295,10 @@
             "scripts/backfill_public_source_pages.py",
             "--skip-fetch"
           ],
-          "finishedAt": "2026-09-19T04:31:46.716399+00:00",
+          "finishedAt": "2026-09-19T05:06:50.411671+00:00",
           "name": "backfill source pages",
           "returnCode": 0,
-          "startedAt": "2026-09-19T04:31:41.994415+00:00",
+          "startedAt": "2026-09-19T05:06:45.756489+00:00",
           "status": "ok"
         },
         {
@@ -306,10 +306,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_public_data.py"
           ],
-          "finishedAt": "2026-09-19T04:31:49.231290+00:00",
+          "finishedAt": "2026-09-19T05:06:53.078803+00:00",
           "name": "rebuild public data",
           "returnCode": 0,
-          "startedAt": "2026-09-19T04:31:46.718005+00:00",
+          "startedAt": "2026-09-19T05:06:50.414818+00:00",
           "status": "ok"
         },
         {
@@ -317,10 +317,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_score_publications.py"
           ],
-          "finishedAt": "2026-09-19T04:31:49.337329+00:00",
+          "finishedAt": "2026-09-19T05:06:53.314578+00:00",
           "name": "build score publications",
           "returnCode": 0,
-          "startedAt": "2026-09-19T04:31:49.232020+00:00",
+          "startedAt": "2026-09-19T05:06:53.079911+00:00",
           "status": "ok"
         },
         {
@@ -328,10 +328,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_score_sources.py"
           ],
-          "finishedAt": "2026-09-19T04:31:49.366280+00:00",
+          "finishedAt": "2026-09-19T05:06:53.380871+00:00",
           "name": "build score sources",
           "returnCode": 0,
-          "startedAt": "2026-09-19T04:31:49.337948+00:00",
+          "startedAt": "2026-09-19T05:06:53.315581+00:00",
           "status": "ok"
         },
         {
@@ -339,10 +339,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/generate_rss_feeds.py"
           ],
-          "finishedAt": "2026-09-19T04:33:19.358251+00:00",
+          "finishedAt": "2026-09-19T05:09:07.404120+00:00",
           "name": "generate rss feeds",
           "returnCode": 0,
-          "startedAt": "2026-09-19T04:31:49.366705+00:00",
+          "startedAt": "2026-09-19T05:06:53.381483+00:00",
           "status": "ok"
         },
         {
@@ -350,10 +350,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_public_calendar_events.py"
           ],
-          "finishedAt": "2026-09-19T04:33:19.999217+00:00",
+          "finishedAt": "2026-09-19T05:09:08.190099+00:00",
           "name": "build public calendar events",
           "returnCode": 0,
-          "startedAt": "2026-09-19T04:33:19.358772+00:00",
+          "startedAt": "2026-09-19T05:09:07.405156+00:00",
           "status": "ok"
         },
         {
@@ -361,10 +361,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/apply_submitted_events.py"
           ],
-          "finishedAt": "2026-09-19T04:33:20.134478+00:00",
+          "finishedAt": "2026-09-19T05:09:08.275297+00:00",
           "name": "apply submitted events",
           "returnCode": 0,
-          "startedAt": "2026-09-19T04:33:20.001531+00:00",
+          "startedAt": "2026-09-19T05:09:08.191326+00:00",
           "status": "ok"
         },
         {
@@ -372,10 +372,10 @@
             "/Users/skyhong/.hermes/harmonica-intake-venv/bin/python",
             "scripts/sync_google_calendar_events.py"
           ],
-          "finishedAt": "2026-09-19T04:33:38.087136+00:00",
+          "finishedAt": "2026-09-19T05:09:23.887723+00:00",
           "name": "sync google calendar",
           "returnCode": 0,
-          "startedAt": "2026-09-19T04:33:20.135093+00:00",
+          "startedAt": "2026-09-19T05:09:08.276317+00:00",
           "status": "ok"
         },
         {
@@ -386,7 +386,7 @@
           "finishedAt": "",
           "name": "build status page",
           "returnCode": null,
-          "startedAt": "2026-09-19T04:33:38.089734+00:00",
+          "startedAt": "2026-09-19T05:09:23.889526+00:00",
           "status": "running"
         }
       ],
@@ -394,10 +394,10 @@
     },
     "socialFetch": {
       "currentSource": {},
-      "errors": 6,
+      "errors": 7,
       "fetchedPosts": 2559,
-      "finishedAt": "2026-09-19T04:31:39.177014+00:00",
-      "heartbeatAt": "2026-09-19T04:31:39.177009+00:00",
+      "finishedAt": "2026-09-19T05:06:43.040164+00:00",
+      "heartbeatAt": "2026-09-19T05:06:43.040160+00:00",
       "instagram": {
         "attempted": 0,
         "deferred": 0,
@@ -424,10 +424,10 @@
       "message": "",
       "newRelevantPosts": 0,
       "phase": "complete",
-      "pid": 81447,
+      "pid": 74524,
       "processedSources": 795,
       "skippedOldPosts": 0,
-      "startedAt": "2026-09-19T04:29:35.141857+00:00",
+      "startedAt": "2026-09-19T05:04:16.704797+00:00",
       "status": "ok",
       "totalSources": 795,
       "version": 1
