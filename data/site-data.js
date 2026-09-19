@@ -1049,7 +1049,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-18 18:01",
       "latestUpdateSource": "Filip Jers",
       "latestUpdateUrl": "https://www.instagram.com/stories/filipjersharmonica/3988830764992877469/",
-      "avatarUrl": "/assets/source-avatars/80d18617ab84474305c9.webp",
+      "avatarUrl": "/assets/source-avatars/0177e4e2c825edcbdbb7.webp",
       "sourceInitials": "FJ",
       "sourceTags": [
         "演奏者",
