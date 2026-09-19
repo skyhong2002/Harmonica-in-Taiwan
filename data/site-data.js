@@ -1929,7 +1929,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-17 14:51",
       "latestUpdateSource": "衛武營國家藝術文化中心",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=f38FWMPppEo",
-      "avatarUrl": "/assets/source-avatars/c49db0b042d93a1248ce.webp",
+      "avatarUrl": "/assets/source-avatars/255decebd488fae6c57a.webp",
       "sourceInitials": "衛武",
       "sourceTags": [
         "場館平台"
@@ -5929,7 +5929,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-01 20:59",
       "latestUpdateSource": "Evelyn Choong 鍾雪兒",
       "latestUpdateUrl": "https://www.instagram.com/stories/evelyn_harmonica/3976599093732600083/",
-      "avatarUrl": "/assets/source-avatars/92db8cdadefdb85735ba.webp",
+      "avatarUrl": "/assets/source-avatars/02b4e4f78a9c5a93c621.webp",
       "sourceInitials": "EC",
       "sourceTags": [
         "演奏者",
