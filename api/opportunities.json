@@ -7,8 +7,91 @@
   "rss": "https://harmonica.observe.tw/feeds/opportunities.xml",
   "json": "https://harmonica.observe.tw/api/opportunities.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/opportunities.json",
-  "count": 90,
+  "count": 91,
   "items": [
+    {
+      "title": "吹出好心琴 + Ou Frog +｜[口琴演奏 Play Harmonica]《月夜愁》115學年度學生音樂比賽 複音獨奏國小組指定曲 ｜複音口琴｜Tremolo｜口琴譜｜口琴教學｜Harmonica tabs 頻道開啟了超級感謝、留言系…",
+      "headline": "[口琴演奏 Play Harmonica]《月夜愁》115學年度學生音樂比賽 複音獨奏國小組指定曲 ｜複音口琴｜Tremolo｜口琴譜｜口琴教學｜Harmonica tabs",
+      "display_title": "[口琴演奏 Play Harmonica]《月夜愁》115學年度學生音樂比賽 複音獨奏國小組指定曲 ｜複音口琴｜Tremolo｜口琴譜｜口琴教學｜Harmonica tabs",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=JLNJDo9949U",
+      "source_id": "yt_oufrog",
+      "source": "吹出好心琴 + Ou Frog +",
+      "source_system_name": "吹出好心琴 + Ou Frog",
+      "source_profile_url": "https://www.youtube.com/channel/UCYVZf8lsckbde4dRRB0EK8A",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-86",
+      "directory_entry_name": "吹出好心琴 + Ou Frog",
+      "account": "https://www.youtube.com/channel/UCYVZf8lsckbde4dRRB0EK8A",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-09-19T04:00:37+00:00",
+      "posted_at_local": "2026-09-19 12:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-19T06:52:06.211464+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "比賽",
+        "影片",
+        "公開更新"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "比賽",
+        "指定曲",
+        "學生音樂比賽",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "比賽",
+        "影片",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴演奏影片，內容含學生音樂比賽指定曲與口琴教學，屬公開更新。",
+      "text": "[口琴演奏 Play Harmonica]《月夜愁》115學年度學生音樂比賽 複音獨奏國小組指定曲 ｜複音口琴｜Tremolo｜口琴譜｜口琴教學｜Harmonica tabs\n頻道開啟了超級感謝、留言系列，再請多多支持❤😄。\n複音口琴 21 孔 Tremolo Harmonica 21 hole ； 節拍器速度 96\n口琴：歐老師\nE-mail：tcling.com@gmail.com\n#口琴 #複音口琴 #Harmonica #Tremolo harmonica #特效口琴 #特效鋼琴\n#口琴譜 #口琴教學",
+      "images": [
+        "https://i.ytimg.com/vi_webp/JLNJDo9949U/maxresdefault.webp"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi_webp/JLNJDo9949U/maxresdefault.webp",
+      "image_url": "/assets/feed-images/9fa32348290d8f9b15ee.webp",
+      "image_width": 1280,
+      "image_height": 720,
+      "source_avatar_url": "https://yt3.googleusercontent.com/zpNQ6PMxz1G01j8vDzQ53R9CJOQvK9USeamGpVffmwo3Gjpm6uktX120aOiTgmtw-fLshswvNA=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/2241bd394301b93492ed.webp",
+      "source_initials": "OF",
+      "categories": [
+        "posts-videos",
+        "opportunities",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽",
+        "學生社團"
+      ],
+      "key": "yt_oufrog:JLNJDo9949U"
+    },
     {
       "title": "基隆社區大學就是吹口琴｜基隆社區大學 - 周課表 ﻿ 基隆社區大學 - 周課表 Toggle main menu visibility 基隆市基隆社區大學 首頁 校務公告 週課表 講師群 --> 查詢活動 --> 聯絡我們 --> 回到官…",
       "headline": "基隆社區大學 - 周課表",

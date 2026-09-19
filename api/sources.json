@@ -71,6 +71,56 @@
   },
   "entries": [
     {
+      "id": "watchlist-86",
+      "publicId": "86",
+      "name": "吹出好心琴 + Ou Frog",
+      "nameEn": "Ou Frog",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "教學/影片來源",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴教學影片/示範",
+      "structuredSummary": "口琴教學影片/示範 / 口琴 / 教學影片來源",
+      "summary": "臺灣的口琴教學影片來源，關注口琴教學影片與示範。",
+      "keywords": "吹出好心琴 Ou Frog 口琴 教學 YouTube",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@oufrog"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "86-ou-frog",
+      "latestUpdateAt": "2026-09-19T04:00:37+00:00",
+      "latestUpdateLocal": "2026-09-19 12:00",
+      "latestUpdateSource": "吹出好心琴 + Ou Frog",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=JLNJDo9949U",
+      "avatarUrl": "/assets/source-avatars/2241bd394301b93492ed.webp",
+      "sourceInitials": "OF",
+      "sourceTags": [
+        "品牌",
+        "教學器材",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_oufrog",
+          "name": "吹出好心琴 + Ou Frog",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@oufrog",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-58",
       "publicId": "58",
       "name": "南里沙",
@@ -1114,6 +1164,68 @@
       ]
     },
     {
+      "id": "watchlist-81",
+      "publicId": "81",
+      "name": "雙燕樂器",
+      "nameEn": "Musix Co., Ltd.",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "樂器行/單位",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴器材/活動資訊",
+      "structuredSummary": "口琴器材/活動資訊 / 口琴 / 器材來源",
+      "summary": "臺灣的口琴器材來源，關注口琴器材與活動資訊。",
+      "keywords": "雙燕樂器 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.musix.com.tw/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/MusixKHS/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@KHS_musix"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "81-musix-co-ltd",
+      "latestUpdateAt": "2026-09-18T08:42:22+00:00",
+      "latestUpdateLocal": "2026-09-18 16:42",
+      "latestUpdateSource": "雙燕樂器",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=6S6AYJGT1NU",
+      "avatarUrl": "/assets/source-avatars/8aee7cfbac001d68d0b8.webp",
+      "sourceInitials": "雙燕",
+      "sourceTags": [
+        "教學器材",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_musixkhs",
+          "name": "雙燕樂器",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/MusixKHS",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_khs_musix",
+          "name": "雙燕樂器",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@KHS_musix",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-66",
       "publicId": "66",
       "name": "Younghoon Cho",
@@ -2047,56 +2159,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@weiwuyingfilm",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-86",
-      "publicId": "86",
-      "name": "吹出好心琴 + Ou Frog",
-      "nameEn": "Ou Frog",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "教學/影片來源",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴教學影片/示範",
-      "structuredSummary": "口琴教學影片/示範 / 口琴 / 教學影片來源",
-      "summary": "臺灣的口琴教學影片來源，關注口琴教學影片與示範。",
-      "keywords": "吹出好心琴 Ou Frog 口琴 教學 YouTube",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@oufrog"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "86-ou-frog",
-      "latestUpdateAt": "2026-09-17T04:00:31+00:00",
-      "latestUpdateLocal": "2026-09-17 12:00",
-      "latestUpdateSource": "吹出好心琴 + Ou Frog",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=2l3zyQ7QnfY",
-      "avatarUrl": "/assets/source-avatars/2241bd394301b93492ed.webp",
-      "sourceInitials": "OF",
-      "sourceTags": [
-        "品牌",
-        "教學器材",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "yt_oufrog",
-          "name": "吹出好心琴 + Ou Frog",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@oufrog",
           "feedUrl": ""
         }
       ]
@@ -11323,68 +11385,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@thmc6470",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-81",
-      "publicId": "81",
-      "name": "雙燕樂器",
-      "nameEn": "Musix Co., Ltd.",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "樂器行/單位",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴器材/活動資訊",
-      "structuredSummary": "口琴器材/活動資訊 / 口琴 / 器材來源",
-      "summary": "臺灣的口琴器材來源，關注口琴器材與活動資訊。",
-      "keywords": "雙燕樂器 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.musix.com.tw/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/MusixKHS/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@KHS_musix"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "81-musix-co-ltd",
-      "latestUpdateAt": "2026-08-21T14:00:39+00:00",
-      "latestUpdateLocal": "2026-08-21 22:00",
-      "latestUpdateSource": "雙燕樂器",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=TGHt2cLafIY",
-      "avatarUrl": "/assets/source-avatars/8aee7cfbac001d68d0b8.webp",
-      "sourceInitials": "雙燕",
-      "sourceTags": [
-        "教學器材",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_musixkhs",
-          "name": "雙燕樂器",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/MusixKHS",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_khs_musix",
-          "name": "雙燕樂器",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@KHS_musix",
           "feedUrl": ""
         }
       ]

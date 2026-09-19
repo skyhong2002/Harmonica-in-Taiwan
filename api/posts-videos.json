@@ -7,8 +7,91 @@
   "rss": "https://harmonica.observe.tw/feeds/posts-videos.xml",
   "json": "https://harmonica.observe.tw/api/posts-videos.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/posts-videos.json",
-  "count": 1175,
+  "count": 1176,
   "items": [
+    {
+      "title": "吹出好心琴 + Ou Frog +｜[口琴演奏 Play Harmonica]《月夜愁》115學年度學生音樂比賽 複音獨奏國小組指定曲 ｜複音口琴｜Tremolo｜口琴譜｜口琴教學｜Harmonica tabs 頻道開啟了超級感謝、留言系…",
+      "headline": "[口琴演奏 Play Harmonica]《月夜愁》115學年度學生音樂比賽 複音獨奏國小組指定曲 ｜複音口琴｜Tremolo｜口琴譜｜口琴教學｜Harmonica tabs",
+      "display_title": "[口琴演奏 Play Harmonica]《月夜愁》115學年度學生音樂比賽 複音獨奏國小組指定曲 ｜複音口琴｜Tremolo｜口琴譜｜口琴教學｜Harmonica tabs",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=JLNJDo9949U",
+      "source_id": "yt_oufrog",
+      "source": "吹出好心琴 + Ou Frog +",
+      "source_system_name": "吹出好心琴 + Ou Frog",
+      "source_profile_url": "https://www.youtube.com/channel/UCYVZf8lsckbde4dRRB0EK8A",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-86",
+      "directory_entry_name": "吹出好心琴 + Ou Frog",
+      "account": "https://www.youtube.com/channel/UCYVZf8lsckbde4dRRB0EK8A",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-09-19T04:00:37+00:00",
+      "posted_at_local": "2026-09-19 12:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-19T06:52:06.211464+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "比賽",
+        "影片",
+        "公開更新"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "比賽",
+        "指定曲",
+        "學生音樂比賽",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "比賽",
+        "影片",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴演奏影片，內容含學生音樂比賽指定曲與口琴教學，屬公開更新。",
+      "text": "[口琴演奏 Play Harmonica]《月夜愁》115學年度學生音樂比賽 複音獨奏國小組指定曲 ｜複音口琴｜Tremolo｜口琴譜｜口琴教學｜Harmonica tabs\n頻道開啟了超級感謝、留言系列，再請多多支持❤😄。\n複音口琴 21 孔 Tremolo Harmonica 21 hole ； 節拍器速度 96\n口琴：歐老師\nE-mail：tcling.com@gmail.com\n#口琴 #複音口琴 #Harmonica #Tremolo harmonica #特效口琴 #特效鋼琴\n#口琴譜 #口琴教學",
+      "images": [
+        "https://i.ytimg.com/vi_webp/JLNJDo9949U/maxresdefault.webp"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi_webp/JLNJDo9949U/maxresdefault.webp",
+      "image_url": "/assets/feed-images/9fa32348290d8f9b15ee.webp",
+      "image_width": 1280,
+      "image_height": 720,
+      "source_avatar_url": "https://yt3.googleusercontent.com/zpNQ6PMxz1G01j8vDzQ53R9CJOQvK9USeamGpVffmwo3Gjpm6uktX120aOiTgmtw-fLshswvNA=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/2241bd394301b93492ed.webp",
+      "source_initials": "OF",
+      "categories": [
+        "posts-videos",
+        "opportunities",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽",
+        "學生社團"
+      ],
+      "key": "yt_oufrog:JLNJDo9949U"
+    },
     {
       "title": "南里沙 / Risa MINAMI｜昨日は日帰りで東京へ🚄来週9月25日(金)の『#ギンザめざましクラシックス』のリハーサル、そのあと別件の打ち合わせ。 すっかり忘れてたシルバーウィーク… 東... 昨日は日帰りで東京へ🚄来週9月25日(…",
       "headline": "昨日は日帰りで東京へ🚄来週9月25日(金)の『#ギンザめざましクラシックス』のリハーサル、そのあと別件の打ち合わせ。 すっかり忘れてたシルバーウィーク… 東...",
@@ -1336,6 +1419,69 @@
         "公開活動"
       ],
       "key": "fb_taipeiyellowstoneharmonicaensemble:1560408129436368"
+    },
+    {
+      "title": "双燕樂器｜JUPITER 演奏級中音薩克斯風JAS1150 JAS1150 兼具共鳴表現力、投射穿透力，能夠靈敏地響應演奏者的演奏，提供個人的表現力，讓音樂家在過程中展現自信的演奏。 透過 JAS1150，每一次演奏都將成為獨一無二的個人…",
+      "headline": "JUPITER 演奏級中音薩克斯風JAS1150",
+      "display_title": "JUPITER 演奏級中音薩克斯風JAS1150",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=6S6AYJGT1NU",
+      "source_id": "yt_khs_musix",
+      "source": "双燕樂器",
+      "source_system_name": "雙燕樂器",
+      "source_profile_url": "https://www.youtube.com/channel/UCfLPdt_NYAGHda-IZr-_TKQ",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-81",
+      "directory_entry_name": "雙燕樂器",
+      "account": "https://www.youtube.com/channel/UCfLPdt_NYAGHda-IZr-_TKQ",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-09-18T08:42:22+00:00",
+      "posted_at_local": "2026-09-18 16:42",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-19T06:52:06.211464+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [],
+      "keyword_matches": [],
+      "llm_relevant": false,
+      "llm_confidence": 0.99,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "內容為薩克斯風產品介紹，非口琴演出、課程或社群更新。",
+      "text": "JUPITER 演奏級中音薩克斯風JAS1150\nJAS1150 兼具共鳴表現力、投射穿透力，能夠靈敏地響應演奏者的演奏，提供個人的表現力，讓音樂家在過程中展現自信的演奏。\n透過 JAS1150，每一次演奏都將成為獨一無二的個人作品——由演奏者塑造，由個人表達定義，無可取代。\n#双燕樂器 #薩克斯風 #JupiterInstrument #saxophone\n----------------------------------------------------------------------\n【追蹤我們】\nJupiter FB\n►http://www.facebook.com/JupiterInstru...\nJupiter 官網\n►http://www.jupitermusic.com\n双燕樂器 FB\n► https://www.facebook.com/MusixKHS",
+      "images": [
+        "https://i.ytimg.com/vi/6S6AYJGT1NU/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/6S6AYJGT1NU/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/fa586c3ee29d6dc74216.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/C8ML2SDiIVxEXXs4PM7NMLo2f4qTlxWOV3sixscT1skuWxa7GvHZLQStT2QgV0GGewq3rRdR8pg=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/8aee7cfbac001d68d0b8.webp",
+      "source_initials": "双燕",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "yt_khs_musix:6S6AYJGT1NU"
     },
     {
       "title": "피아니스트 조영훈｜Instagram story @hoontobe_piano",
@@ -88401,91 +88547,6 @@
         "學生社團"
       ],
       "key": "yt_hkcchoir:0clEVfCrMSU"
-    },
-    {
-      "title": "Jens Bunge｜Instagram story @jensbunge.jazzharmonica",
-      "headline": "Instagram story @jensbunge.jazzharmonica",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.instagram.com/stories/jensbunge.jazzharmonica/3967712020101812785/",
-      "source_id": "ig_story_jensbunge_jazzharmonica",
-      "source": "Jens Bunge",
-      "source_system_name": "Jens Bunge",
-      "source_profile_url": "https://www.instagram.com/jensbunge.jazzharmonica/",
-      "country": "德國",
-      "region": "德國",
-      "directory_entry_id": "watchlist-125",
-      "directory_entry_name": "Jens Bunge",
-      "account": "jensbunge.jazzharmonica",
-      "platform": "instagram",
-      "platform_label": "Instagram story",
-      "posted_at": "2026-08-20T06:42:31+00:00",
-      "posted_at_local": "2026-08-20 14:42",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-08-20T14:03:28.977284+00:00",
-      "media_type": "instagram_story",
-      "story": true,
-      "story_provider": "instagram_web",
-      "story_fetched_at": "2026-08-20T14:00:52.195070+00:00",
-      "story_expires_at": "2026-08-21T06:42:31+00:00",
-      "source_feed_url": "https://rss.observe.tw/picuki/profile/jensbunge.jazzharmonica/story/0",
-      "rsshub_guid": "3967712020101812785_6986420302",
-      "rsshub_title": "Instagram story @jensbunge.jazzharmonica",
-      "instagram_user_id": "6986420302",
-      "matched_keywords": [
-        "口琴",
-        "公開更新",
-        "限時動態"
-      ],
-      "keyword_matches": [
-        "harmonica"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 0.86,
-      "llm_labels": [
-        "口琴",
-        "限時動態",
-        "公開更新"
-      ],
-      "llm_categories": [
-        "posts-videos"
-      ],
-      "llm_reason": "來源為口琴演奏者帳號的 Instagram 限時動態，屬口琴公開更新。",
-      "text": "Instagram story @jensbunge.jazzharmonica",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/778794217_18376320124236303_3617432511654060332_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzk2NzcxMjAyMDEwMTgxMjc4NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEwODAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=tPEP0MAUF7UQ7kNvwGMCqxM&_nc_oc=Adq7yzON8QMrDy3cpPkJBFd4wBOI3YNwDDX7Zv4XJNNrIkHe0TZ4Vvkt-RAQJ1qvo8M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=bK67WNSbxZsYh9P5xqbDKg&_nc_ss=7a22e&oh=00_AQHa4g84m7PXIq_X_ZXw-ZEL3ysNqmlE4AIK_4ORlwQkvQ&oe=6A8CCE70",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/778794217_18376320124236303_3617432511654060332_n.heic?stp=dst-jpg_e35_p720x720_tt6&_nc_cat=100&ig_cache_key=Mzk2NzcxMjAyMDEwMTgxMjc4NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEwODAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=tPEP0MAUF7UQ7kNvwGMCqxM&_nc_oc=Adq7yzON8QMrDy3cpPkJBFd4wBOI3YNwDDX7Zv4XJNNrIkHe0TZ4Vvkt-RAQJ1qvo8M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=bK67WNSbxZsYh9P5xqbDKg&_nc_ss=7a22e&oh=00_AQEj84vuiX_OR7SKSm6KapMxZA-flJLp5PBwf8k_SUdkEw&oe=6A8CCE70",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/778794217_18376320124236303_3617432511654060332_n.heic?stp=dst-jpg_e35_p640x640_sh2.08_tt6&_nc_cat=100&ig_cache_key=Mzk2NzcxMjAyMDEwMTgxMjc4NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEwODAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=tPEP0MAUF7UQ7kNvwGMCqxM&_nc_oc=Adq7yzON8QMrDy3cpPkJBFd4wBOI3YNwDDX7Zv4XJNNrIkHe0TZ4Vvkt-RAQJ1qvo8M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=bK67WNSbxZsYh9P5xqbDKg&_nc_ss=7a22e&oh=00_AQE6HC5yTfHjFmzY7HqNUX0Zt7e7DfASiGQHkPeAb1l-IQ&oe=6A8CCE70",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/778794217_18376320124236303_3617432511654060332_n.heic?stp=dst-jpg_e35_p480x480_tt6&_nc_cat=100&ig_cache_key=Mzk2NzcxMjAyMDEwMTgxMjc4NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEwODAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=tPEP0MAUF7UQ7kNvwGMCqxM&_nc_oc=Adq7yzON8QMrDy3cpPkJBFd4wBOI3YNwDDX7Zv4XJNNrIkHe0TZ4Vvkt-RAQJ1qvo8M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=bK67WNSbxZsYh9P5xqbDKg&_nc_ss=7a22e&oh=00_AQFEZet0naqc4LYXDz2G1RrxZeWTIBoL7IDdtW2Su16qfw&oe=6A8CCE70",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/778794217_18376320124236303_3617432511654060332_n.heic?stp=dst-jpg_e35_p320x320_tt6&_nc_cat=100&ig_cache_key=Mzk2NzcxMjAyMDEwMTgxMjc4NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEwODAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=tPEP0MAUF7UQ7kNvwGMCqxM&_nc_oc=Adq7yzON8QMrDy3cpPkJBFd4wBOI3YNwDDX7Zv4XJNNrIkHe0TZ4Vvkt-RAQJ1qvo8M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=bK67WNSbxZsYh9P5xqbDKg&_nc_ss=7a22e&oh=00_AQEFXRrhZm1kQQZRcqoKO4dqeF-SdHu-i6uIqoBnJAeefQ&oe=6A8CCE70",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/778794217_18376320124236303_3617432511654060332_n.heic?stp=dst-jpg_e35_p240x240_tt6&_nc_cat=100&ig_cache_key=Mzk2NzcxMjAyMDEwMTgxMjc4NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEwODAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=tPEP0MAUF7UQ7kNvwGMCqxM&_nc_oc=Adq7yzON8QMrDy3cpPkJBFd4wBOI3YNwDDX7Zv4XJNNrIkHe0TZ4Vvkt-RAQJ1qvo8M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=bK67WNSbxZsYh9P5xqbDKg&_nc_ss=7a22e&oh=00_AQHomh8lo5L2pu0i7wChgC6WW8CsqlwLlFOYIkqtNUfABQ&oe=6A8CCE70",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/778794217_18376320124236303_3617432511654060332_n.heic?stp=c0.420.1080.1080a_dst-jpg_e35_s1080x1080_tt6&_nc_cat=100&ig_cache_key=Mzk2NzcxMjAyMDEwMTgxMjc4NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEwODAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=tPEP0MAUF7UQ7kNvwGMCqxM&_nc_oc=Adq7yzON8QMrDy3cpPkJBFd4wBOI3YNwDDX7Zv4XJNNrIkHe0TZ4Vvkt-RAQJ1qvo8M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=bK67WNSbxZsYh9P5xqbDKg&_nc_ss=7a22e&oh=00_AQGP2HaVmazdzk0ke4hVNxcC7oTmSJ_SrQUWc2-1W1jgRQ&oe=6A8CCE70",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/778794217_18376320124236303_3617432511654060332_n.heic?stp=c0.420.1080.1080a_dst-jpg_e35_s750x750_sh2.08_tt6&_nc_cat=100&ig_cache_key=Mzk2NzcxMjAyMDEwMTgxMjc4NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEwODAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=tPEP0MAUF7UQ7kNvwGMCqxM&_nc_oc=Adq7yzON8QMrDy3cpPkJBFd4wBOI3YNwDDX7Zv4XJNNrIkHe0TZ4Vvkt-RAQJ1qvo8M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=bK67WNSbxZsYh9P5xqbDKg&_nc_ss=7a22e&oh=00_AQERqMEDK_fyBb3_JNkFib3gg5qFgr6uUM-V4FA44Y9bfg&oe=6A8CCE70",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/778794217_18376320124236303_3617432511654060332_n.heic?stp=c0.420.1080.1080a_dst-jpg_e35_s640x640_sh2.08_tt6&_nc_cat=100&ig_cache_key=Mzk2NzcxMjAyMDEwMTgxMjc4NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEwODAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=tPEP0MAUF7UQ7kNvwGMCqxM&_nc_oc=Adq7yzON8QMrDy3cpPkJBFd4wBOI3YNwDDX7Zv4XJNNrIkHe0TZ4Vvkt-RAQJ1qvo8M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=bK67WNSbxZsYh9P5xqbDKg&_nc_ss=7a22e&oh=00_AQGHb_KSTEK05XfKwCViJiEc0gkIMWkcOl-Dh8YrFV3B8g&oe=6A8CCE70",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/778794217_18376320124236303_3617432511654060332_n.heic?stp=c0.420.1080.1080a_dst-jpg_e35_s480x480_tt6&_nc_cat=100&ig_cache_key=Mzk2NzcxMjAyMDEwMTgxMjc4NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEwODAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=tPEP0MAUF7UQ7kNvwGMCqxM&_nc_oc=Adq7yzON8QMrDy3cpPkJBFd4wBOI3YNwDDX7Zv4XJNNrIkHe0TZ4Vvkt-RAQJ1qvo8M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=bK67WNSbxZsYh9P5xqbDKg&_nc_ss=7a22e&oh=00_AQGY7VcMRv6-k2QyOO60vastqiI2-JpjIMqqWK-GQLBCPw&oe=6A8CCE70",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/778794217_18376320124236303_3617432511654060332_n.heic?stp=c0.420.1080.1080a_dst-jpg_e35_s320x320_tt6&_nc_cat=100&ig_cache_key=Mzk2NzcxMjAyMDEwMTgxMjc4NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEwODAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=tPEP0MAUF7UQ7kNvwGMCqxM&_nc_oc=Adq7yzON8QMrDy3cpPkJBFd4wBOI3YNwDDX7Zv4XJNNrIkHe0TZ4Vvkt-RAQJ1qvo8M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=bK67WNSbxZsYh9P5xqbDKg&_nc_ss=7a22e&oh=00_AQGPMfF9D7SdBfVxO16qQ_0iJ9csXdxh2x5LxhAzrfruuA&oe=6A8CCE70",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/778794217_18376320124236303_3617432511654060332_n.heic?stp=c0.420.1080.1080a_dst-jpg_e35_s240x240_tt6&_nc_cat=100&ig_cache_key=Mzk2NzcxMjAyMDEwMTgxMjc4NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEwODAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=tPEP0MAUF7UQ7kNvwGMCqxM&_nc_oc=Adq7yzON8QMrDy3cpPkJBFd4wBOI3YNwDDX7Zv4XJNNrIkHe0TZ4Vvkt-RAQJ1qvo8M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=bK67WNSbxZsYh9P5xqbDKg&_nc_ss=7a22e&oh=00_AQEwra9Fs-7xri0L3pLXQBBmn1HVyiNL7SQOznSaJDux-g&oe=6A8CCE70",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/778794217_18376320124236303_3617432511654060332_n.heic?stp=c0.420.1080.1080a_dst-jpg_e35_s150x150_tt6&_nc_cat=100&ig_cache_key=Mzk2NzcxMjAyMDEwMTgxMjc4NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEwODAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=tPEP0MAUF7UQ7kNvwGMCqxM&_nc_oc=Adq7yzON8QMrDy3cpPkJBFd4wBOI3YNwDDX7Zv4XJNNrIkHe0TZ4Vvkt-RAQJ1qvo8M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=bK67WNSbxZsYh9P5xqbDKg&_nc_ss=7a22e&oh=00_AQGshChmzPC4ge1_Tb56Jnx3jTz9M2cKUiskuzF4RknBBw&oe=6A8CCE70"
-      ],
-      "videos": [],
-      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/778794217_18376320124236303_3617432511654060332_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzk2NzcxMjAyMDEwMTgxMjc4NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEwODAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=tPEP0MAUF7UQ7kNvwGMCqxM&_nc_oc=Adq7yzON8QMrDy3cpPkJBFd4wBOI3YNwDDX7Zv4XJNNrIkHe0TZ4Vvkt-RAQJ1qvo8M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=bK67WNSbxZsYh9P5xqbDKg&_nc_ss=7a22e&oh=00_AQHa4g84m7PXIq_X_ZXw-ZEL3ysNqmlE4AIK_4ORlwQkvQ&oe=6A8CCE70",
-      "image_url": "/assets/feed-images/b4dab9ee570815dfd745.webp",
-      "image_width": 800,
-      "image_height": 1423,
-      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/538731817_18324506119236303_5140016961001233642_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHfYWjKz8WIPPISBM7z_aYLeItdL1R1BXRJSs65xdstyV9vIFgIDCUKKEGCmEozMLQ&_nc_ohc=P76xWRsoRk0Q7kNvwGhB_Zz&_nc_gid=bK67WNSbxZsYh9P5xqbDKg&edm=ANmP7GQBAAAA&ccb=7-5&oh=00_AQEnfxMJXHYZrIiV3CMC_5bnXvNLyXHvGWwbPNcV8iQ_pA&oe=6A8CCBB4&_nc_sid=982cc7",
-      "avatar_url": "/assets/source-avatars/c2c255131cb2ac6d1634.webp",
-      "source_initials": "JB",
-      "categories": [
-        "posts-videos"
-      ],
-      "category_labels": [
-        "貼文影片"
-      ],
-      "key": "ig_story_jensbunge_jazzharmonica:3967712020101812785_6986420302"
     }
   ]
 }
