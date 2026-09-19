@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T10:26:59.156527Z",
+  "generatedAt": "2026-09-19T11:02:50.727754Z",
   "source": {
     "id": 132,
     "slug": "antonio-serrano",
@@ -48,20 +48,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/f2a1b720faa382ae333b.webp",
         "width": 720,
         "height": 900
-      }
-    },
-    {
-      "id": "post-120b1ae2edd4ba66c7f5f18d",
-      "title": "30.08.26 - @caprichosmusicales -",
-      "excerpt": "30.08.26 - @caprichosmusicales -",
-      "url": "https://www.instagram.com/p/DcQjTwAgFP1/",
-      "sourceName": "Antonio Serrano",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-20T10:31:03Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/b785c02b91891a7da25c.webp",
-        "width": 800,
-        "height": 1423
       }
     }
   ]
