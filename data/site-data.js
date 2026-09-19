@@ -2528,7 +2528,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-16 12:00",
       "latestUpdateSource": "臺中國家歌劇院",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=1R2pudzEwGM",
-      "avatarUrl": "/assets/source-avatars/3bf71faf53a1c27b32e5.webp",
+      "avatarUrl": "/assets/source-avatars/6db04528535601cec421.webp",
       "sourceInitials": "臺中",
       "sourceTags": [
         "場館平台"
@@ -9970,7 +9970,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-25 01:44",
       "latestUpdateSource": "Antonio Serrano",
       "latestUpdateUrl": "https://www.instagram.com/p/DcboCVJRxZv/",
-      "avatarUrl": "/assets/source-avatars/ac791fc92fdf8a0e9265.webp",
+      "avatarUrl": "/assets/source-avatars/fabe8864384bb712d439.webp",
       "sourceInitials": "AS",
       "sourceTags": [
         "演奏者",
