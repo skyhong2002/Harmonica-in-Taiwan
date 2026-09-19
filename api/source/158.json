@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T00:29:39.187725Z",
+  "generatedAt": "2026-09-19T01:03:58.249014Z",
   "source": {
     "id": 158,
     "slug": "deak-harp",
@@ -84,20 +84,6 @@
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/3696738383ce0ff95ea8.webp",
         "width": 540,
-        "height": 960
-      }
-    },
-    {
-      "id": "post-2b7baf6f2d6519a973da9118",
-      "title": "One of my harps getting some use Robert Connely",
-      "excerpt": "One of my harps getting some use Robert Connely",
-      "url": "https://www.facebook.com/deak.harp/posts/pfbid0oYBiUgNNk1EVAe5zo5bRqsqgpFRo6SUGAaSXwf7LnuYhWQUExsjqerH8x4R1EmPkl",
-      "sourceName": "Deak Harp",
-      "platform": "Facebook",
-      "publishedAt": "2026-08-20T00:53:17Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/a1bedf791006452b0a57.webp",
-        "width": 522,
         "height": 960
       }
     }
