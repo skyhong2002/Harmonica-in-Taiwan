@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T17:28:43.884374Z",
+  "generatedAt": "2026-09-19T18:03:25.505360Z",
   "source": {
     "id": 142,
     "slug": "howard-levy",
@@ -76,20 +76,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/1eaf75fefa732de0c2a6.webp",
         "width": 640,
         "height": 1136
-      }
-    },
-    {
-      "id": "post-ec5b5f9bf8a453f6ef58ba5a",
-      "title": "Jesse Fuller | Music Legends You Should Know",
-      "excerpt": "Jesse Fuller | Music Legends You Should Know 【Music Legends You Should Know】Jesse Fuller, the amazing American singer-songwriter and one-man band, a true American original. Born into extreme poverty in Georgia in 1896, he passed through a rough childhood, but learned to play gui…",
-      "url": "https://www.youtube.com/watch?v=qB8v7fjM1cM",
-      "sourceName": "Howard Levy",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-20T17:43:34Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/bccb30c346bf72e5d954.webp",
-        "width": 800,
-        "height": 450
       }
     }
   ]
