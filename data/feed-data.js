@@ -1,5 +1,5 @@
 window.HARMONICA_OBSERVE_FEEDS = {
-  "generatedAt": "2026-09-20 06:42",
+  "generatedAt": "2026-09-20 07:17",
   "updatesWindowDays": 30,
   "updates": [
     {
@@ -81529,71 +81529,6 @@ window.HARMONICA_OBSERVE_FEEDS = {
         "貼文影片"
       ],
       "key": "ig_story_hummingwayharmonica:3968217355247610290_8494453999"
-    },
-    {
-      "title": "Ivan Marcio｜Gravação para o novo som do @suplaoriginal Papito deu uma força com umas dicas legais para o solo ! Valeu m…",
-      "headline": "Gravação para o novo som do @suplaoriginal Papito deu uma força com umas dicas legais para o solo ! Valeu meu velho !",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.instagram.com/p/DcR3-OfRlvM/",
-      "source_id": "ig_ivanmarciogaita",
-      "source": "Ivan Marcio",
-      "source_system_name": "Ivan Marcio",
-      "source_profile_url": "https://www.instagram.com/ivanmarciogaita/",
-      "country": "巴西",
-      "region": "巴西/聖保羅",
-      "directory_entry_id": "watchlist-290",
-      "directory_entry_name": "Ivan Marcio",
-      "account": "ivanmarciogaita",
-      "platform": "instagram",
-      "platform_label": "Instagram",
-      "posted_at": "Thu, 20 Aug 2026 22:49:57 GMT",
-      "posted_at_local": "2026-08-21 06:49",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-08-21T09:36:40.654290+00:00",
-      "media_type": "",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "https://rss.observe.tw/instagram/2/user/ivanmarciogaita",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴"
-      ],
-      "keyword_matches": [
-        "harmonica"
-      ],
-      "llm_relevant": null,
-      "llm_confidence": null,
-      "llm_labels": [],
-      "llm_categories": [],
-      "llm_reason": "",
-      "text": "Gravação para o novo som do @suplaoriginal Papito deu uma força com umas dicas legais para o solo ! Valeu meu velho !\nRolê aleatório que só acontece comigo ! Kkkkkkkk\n@mateusschanoski muito obrigado pela força irmão.\n@easttopharmonicas @easttop.br",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/774236922_18630623137057122_8875983967095008633_n.webp?_nc_cat=109&ig_cache_key=Mzk2ODE5ODkxNTQxMjg3NjIzNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=3D-2wqLH4c0Q7kNvwHWb5rJ&_nc_oc=AdrSS9og8qr7S2625O5xj1qDk_KPEKJCRV-N3pLtYfr4pc3q979NHxnJtvEXMSyXXbY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WsfNzh7sMDqGaEJgOCwNiA&_nc_ss=7a22e&oh=00_AQEghRY-5KmOK6KK7x7_G9dRSbjFjKcZJIjcmn2c7I1f3w&oe=6A8DD683"
-      ],
-      "videos": [],
-      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/774236922_18630623137057122_8875983967095008633_n.webp?_nc_cat=109&ig_cache_key=Mzk2ODE5ODkxNTQxMjg3NjIzNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=3D-2wqLH4c0Q7kNvwHWb5rJ&_nc_oc=AdrSS9og8qr7S2625O5xj1qDk_KPEKJCRV-N3pLtYfr4pc3q979NHxnJtvEXMSyXXbY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WsfNzh7sMDqGaEJgOCwNiA&_nc_ss=7a22e&oh=00_AQEghRY-5KmOK6KK7x7_G9dRSbjFjKcZJIjcmn2c7I1f3w&oe=6A8DD683",
-      "image_url": "/assets/feed-images/47340a772446ce92481d.webp",
-      "image_width": 1440,
-      "image_height": 1440,
-      "source_avatar_url": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/448309471_1012351996991422_117063928896339527_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gGkN34EtQGF_lB9XfCrQpyk2XrIjypzGsTwvHYziTJxQR7Ac-0htcr28LdG0RTEtO8&_nc_ohc=Hg7zw878EtsQ7kNvwGY-k7Y&_nc_gid=9bGc208HAoN9uHt9zoh56A&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQGOvcgoVKRrZUqcVNZ7dbW3dhZVvHKgOvyixc1hAsXnvw&oe=6A8DDD68&_nc_sid=ee9879",
-      "avatar_url": "/assets/source-avatars/2614cb74a83744fb3d63.webp",
-      "source_initials": "IM",
-      "categories": [
-        "posts-videos"
-      ],
-      "category_labels": [
-        "貼文影片"
-      ],
-      "key": "ig_ivanmarciogaita:https://www.instagram.com/p/DcR3-OfRlvM/"
     }
   ],
   "socialSources": [
@@ -193650,74 +193585,9 @@ window.HARMONICA_OBSERVE_FEEDS = {
             "貼文影片"
           ],
           "key": "ig_story_hummingwayharmonica:3968217355247610290_8494453999"
-        },
-        {
-          "title": "Ivan Marcio｜Gravação para o novo som do @suplaoriginal Papito deu uma força com umas dicas legais para o solo ! Valeu m…",
-          "headline": "Gravação para o novo som do @suplaoriginal Papito deu uma força com umas dicas legais para o solo ! Valeu meu velho !",
-          "display_title": "",
-          "title_kind": "caption",
-          "link": "https://www.instagram.com/p/DcR3-OfRlvM/",
-          "source_id": "ig_ivanmarciogaita",
-          "source": "Ivan Marcio",
-          "source_system_name": "Ivan Marcio",
-          "source_profile_url": "https://www.instagram.com/ivanmarciogaita/",
-          "country": "巴西",
-          "region": "巴西/聖保羅",
-          "directory_entry_id": "watchlist-290",
-          "directory_entry_name": "Ivan Marcio",
-          "account": "ivanmarciogaita",
-          "platform": "instagram",
-          "platform_label": "Instagram",
-          "posted_at": "Thu, 20 Aug 2026 22:49:57 GMT",
-          "posted_at_local": "2026-08-21 06:49",
-          "like_count": null,
-          "comment_count": null,
-          "share_count": null,
-          "reaction_count": null,
-          "view_count": null,
-          "seen_at": "2026-08-21T09:36:40.654290+00:00",
-          "media_type": "",
-          "story": false,
-          "story_provider": "",
-          "story_fetched_at": "",
-          "story_expires_at": "",
-          "source_feed_url": "https://rss.observe.tw/instagram/2/user/ivanmarciogaita",
-          "rsshub_guid": "",
-          "rsshub_title": "",
-          "instagram_user_id": "",
-          "matched_keywords": [
-            "口琴"
-          ],
-          "keyword_matches": [
-            "harmonica"
-          ],
-          "llm_relevant": null,
-          "llm_confidence": null,
-          "llm_labels": [],
-          "llm_categories": [],
-          "llm_reason": "",
-          "text": "Gravação para o novo som do @suplaoriginal Papito deu uma força com umas dicas legais para o solo ! Valeu meu velho !\nRolê aleatório que só acontece comigo ! Kkkkkkkk\n@mateusschanoski muito obrigado pela força irmão.\n@easttopharmonicas @easttop.br",
-          "images": [
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/774236922_18630623137057122_8875983967095008633_n.webp?_nc_cat=109&ig_cache_key=Mzk2ODE5ODkxNTQxMjg3NjIzNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=3D-2wqLH4c0Q7kNvwHWb5rJ&_nc_oc=AdrSS9og8qr7S2625O5xj1qDk_KPEKJCRV-N3pLtYfr4pc3q979NHxnJtvEXMSyXXbY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WsfNzh7sMDqGaEJgOCwNiA&_nc_ss=7a22e&oh=00_AQEghRY-5KmOK6KK7x7_G9dRSbjFjKcZJIjcmn2c7I1f3w&oe=6A8DD683"
-          ],
-          "videos": [],
-          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/774236922_18630623137057122_8875983967095008633_n.webp?_nc_cat=109&ig_cache_key=Mzk2ODE5ODkxNTQxMjg3NjIzNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=3D-2wqLH4c0Q7kNvwHWb5rJ&_nc_oc=AdrSS9og8qr7S2625O5xj1qDk_KPEKJCRV-N3pLtYfr4pc3q979NHxnJtvEXMSyXXbY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WsfNzh7sMDqGaEJgOCwNiA&_nc_ss=7a22e&oh=00_AQEghRY-5KmOK6KK7x7_G9dRSbjFjKcZJIjcmn2c7I1f3w&oe=6A8DD683",
-          "image_url": "/assets/feed-images/47340a772446ce92481d.webp",
-          "image_width": 1440,
-          "image_height": 1440,
-          "source_avatar_url": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/448309471_1012351996991422_117063928896339527_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gGkN34EtQGF_lB9XfCrQpyk2XrIjypzGsTwvHYziTJxQR7Ac-0htcr28LdG0RTEtO8&_nc_ohc=Hg7zw878EtsQ7kNvwGY-k7Y&_nc_gid=9bGc208HAoN9uHt9zoh56A&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQGOvcgoVKRrZUqcVNZ7dbW3dhZVvHKgOvyixc1hAsXnvw&oe=6A8DDD68&_nc_sid=ee9879",
-          "avatar_url": "/assets/source-avatars/2614cb74a83744fb3d63.webp",
-          "source_initials": "IM",
-          "categories": [
-            "posts-videos"
-          ],
-          "category_labels": [
-            "貼文影片"
-          ],
-          "key": "ig_ivanmarciogaita:https://www.instagram.com/p/DcR3-OfRlvM/"
         }
       ],
-      "count": 1088
+      "count": 1087
     },
     {
       "id": "student-clubs",
