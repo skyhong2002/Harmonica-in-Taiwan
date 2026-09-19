@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T03:58:34.203584Z",
+  "generatedAt": "2026-09-19T04:33:17.576943Z",
   "source": {
     "id": 263,
     "slug": "jdr-harmonica",
@@ -104,20 +104,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/14b73deb62cc54f7a37b.webp",
         "width": 640,
         "height": 480
-      }
-    },
-    {
-      "id": "post-a192a5aee44e5162b4bc13f6",
-      "title": "Today feels like a good day for some “Blue Monk.”",
-      "excerpt": "Today feels like a good day for some “Blue Monk.” Written by American jazz pianist and composer Thelonious Monk and first recorded in 1954, “Blue Monk” is built around the classic 12-bar blues form — simple on paper, but with plenty of room for a player to make it their own. Her…",
-      "url": "https://www.facebook.com/reel/27410975661915839/",
-      "sourceName": "JDR Harmonica",
-      "platform": "Facebook",
-      "publishedAt": "2026-08-20T04:15:24Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/1e24c390a46f9ca5cadb.webp",
-        "width": 800,
-        "height": 450
       }
     }
   ]
