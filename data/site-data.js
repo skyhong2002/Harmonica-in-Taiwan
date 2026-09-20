@@ -976,6 +976,162 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-53",
+      "publicId": "53",
+      "name": "Leafin Harmonica Ensemble",
+      "nameEn": "Leafin Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "青年口琴重奏/大學與社區舞台/2025世界口琴節成人三重奏第七名（優秀評等）/2026亞太口琴節兩金一銀",
+      "structuredSummary": "青年口琴重奏/大學與社區舞台/2025世界口琴節成人三重奏第七名（優秀評等）/2026亞太口琴節兩金一銀 / 口琴三重奏/口琴合奏 / 國際演出團體/青年團體",
+      "summary": "馬來西亞的口琴三重奏與口琴合奏國際演出團體與青年團體，活動脈絡包含青年口琴重奏、大學與社區舞台與2025世界口琴節成人三重奏第七名（優秀評等）。",
+      "keywords": "Leafin Harmonica Ensemble Malaysia harmonica youth trio WHF 2025 seventh outstanding APHF 2026 two gold one silver",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://worldharmonicafestival.de/wp-content/uploads/2025/11/whf-2025_final-results.pdf"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/61573180934784/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/_leafin_harmonicaensemble/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "53-leafin-harmonica-ensemble",
+      "latestUpdateAt": "2026-09-18T13:29:13+00:00",
+      "latestUpdateLocal": "2026-09-18 21:29",
+      "latestUpdateSource": "Leafin Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.facebook.com/reel/1414466263957915/",
+      "avatarUrl": "/assets/source-avatars/8ff89f930f53d66a7b79.webp",
+      "sourceInitials": "LHE",
+      "sourceTags": [
+        "團體樂團",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_61573180934784",
+          "name": "Leafin Harmonica Ensemble",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/61573180934784",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_leafin_harmonicaensemble",
+          "name": "Leafin Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "_leafin_harmonicaensemble",
+          "profileUrl": "https://www.instagram.com/_leafin_harmonicaensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_leafin_harmonicaensemble",
+          "name": "Leafin Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "_leafin_harmonicaensemble",
+          "profileUrl": "https://www.instagram.com/_leafin_harmonicaensemble/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-196",
+      "publicId": "196",
+      "name": "彰師大白沙口琴社",
+      "nameEn": "NCUE Harmonica",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "臺灣",
+      "region": "臺灣/彰化",
+      "cityOrFocus": "國立彰化師範大學/學校社團/彰化",
+      "structuredSummary": "國立彰化師範大學/學校社團/彰化 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
+      "keywords": "彰師大白沙口琴社 NCUE Harmonica 口琴社",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://hackmd.io/@NCUESA/ryeONV6C9"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/p/%E5%BD%B0%E5%B8%AB%E5%A4%A7%E7%99%BD%E6%B2%99%E5%8F%A3%E7%90%B4%E7%A4%BE-100063575904295/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/harmonica_ncue/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCw8TcNJXpgX1Sf8CSUFKf1w"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "196-ncue-harmonica",
+      "latestUpdateAt": "2026-09-18T11:58:40+00:00",
+      "latestUpdateLocal": "2026-09-18 19:58",
+      "latestUpdateSource": "彰師大白沙口琴社",
+      "latestUpdateUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid0aowdZHb2PMgmmAxKJP9QJzdFcQMAAuBiEWrTjStLQstAHb2qrkAjjVXjNS1aH8Myl&id=100063575904295",
+      "avatarUrl": "/assets/source-avatars/54120042919c10556c84.webp",
+      "sourceInitials": "彰師",
+      "sourceTags": [
+        "學生社團",
+        "大專社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_951baeb1a9",
+          "name": "彰師大白沙口琴社",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/p/%E5%BD%B0%E5%B8%AB%E5%A4%A7%E7%99%BD%E6%B2%99%E5%8F%A3%E7%90%B4%E7%A4%BE-100063575904295",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_harmonica_ncue",
+          "name": "NCUE Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "harmonica_ncue",
+          "profileUrl": "https://www.instagram.com/harmonica_ncue/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_harmonica_ncue",
+          "name": "彰師大白沙口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "harmonica_ncue",
+          "profileUrl": "https://www.instagram.com/harmonica_ncue/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ucw8tcnjxpgx1sf8csufkf1w",
+          "name": "彰師大白沙口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCw8TcNJXpgX1Sf8CSUFKf1w",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-298",
       "publicId": "298",
       "name": "香港兒童合唱團口琴課程",
@@ -10068,78 +10224,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-53",
-      "publicId": "53",
-      "name": "Leafin Harmonica Ensemble",
-      "nameEn": "Leafin Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "青年口琴重奏/大學與社區舞台/2025世界口琴節成人三重奏第七名（優秀評等）/2026亞太口琴節兩金一銀",
-      "structuredSummary": "青年口琴重奏/大學與社區舞台/2025世界口琴節成人三重奏第七名（優秀評等）/2026亞太口琴節兩金一銀 / 口琴三重奏/口琴合奏 / 國際演出團體/青年團體",
-      "summary": "馬來西亞的口琴三重奏與口琴合奏國際演出團體與青年團體，活動脈絡包含青年口琴重奏、大學與社區舞台與2025世界口琴節成人三重奏第七名（優秀評等）。",
-      "keywords": "Leafin Harmonica Ensemble Malaysia harmonica youth trio WHF 2025 seventh outstanding APHF 2026 two gold one silver",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://worldharmonicafestival.de/wp-content/uploads/2025/11/whf-2025_final-results.pdf"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/61573180934784/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/_leafin_harmonicaensemble/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "53-leafin-harmonica-ensemble",
-      "latestUpdateAt": "2026-08-24T14:31:18+00:00",
-      "latestUpdateLocal": "2026-08-24 22:31",
-      "latestUpdateSource": "Leafin Harmonica Ensemble",
-      "latestUpdateUrl": "https://www.instagram.com/stories/_leafin_harmonicaensemble/3970847101395468704/",
-      "avatarUrl": "/assets/source-avatars/8ff89f930f53d66a7b79.webp",
-      "sourceInitials": "LHE",
-      "sourceTags": [
-        "團體樂團",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_61573180934784",
-          "name": "Leafin Harmonica Ensemble",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/61573180934784",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_leafin_harmonicaensemble",
-          "name": "Leafin Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "_leafin_harmonicaensemble",
-          "profileUrl": "https://www.instagram.com/_leafin_harmonicaensemble/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_leafin_harmonicaensemble",
-          "name": "Leafin Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "_leafin_harmonicaensemble",
-          "profileUrl": "https://www.instagram.com/_leafin_harmonicaensemble/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-320",
       "publicId": "320",
       "name": "黃庭晧",
@@ -14713,90 +14797,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCTd9aZdWomWZtieKMKmxDlA",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-196",
-      "publicId": "196",
-      "name": "彰師大白沙口琴社",
-      "nameEn": "NCUE Harmonica",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "臺灣",
-      "region": "臺灣/彰化",
-      "cityOrFocus": "國立彰化師範大學/學校社團/彰化",
-      "structuredSummary": "國立彰化師範大學/學校社團/彰化 / 口琴 / 學校社團",
-      "summary": "臺灣的口琴學校社團。",
-      "keywords": "彰師大白沙口琴社 NCUE Harmonica 口琴社",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://hackmd.io/@NCUESA/ryeONV6C9"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/p/%E5%BD%B0%E5%B8%AB%E5%A4%A7%E7%99%BD%E6%B2%99%E5%8F%A3%E7%90%B4%E7%A4%BE-100063575904295/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/harmonica_ncue/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCw8TcNJXpgX1Sf8CSUFKf1w"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "196-ncue-harmonica",
-      "latestUpdateAt": "2026-05-26T05:45:35+00:00",
-      "latestUpdateLocal": "2026-05-26 13:45",
-      "latestUpdateSource": "彰師大白沙口琴社",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=sdS5NS7Q5Ds",
-      "avatarUrl": "/assets/source-avatars/54120042919c10556c84.webp",
-      "sourceInitials": "彰師",
-      "sourceTags": [
-        "學生社團",
-        "大專社團"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_951baeb1a9",
-          "name": "彰師大白沙口琴社",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/p/%E5%BD%B0%E5%B8%AB%E5%A4%A7%E7%99%BD%E6%B2%99%E5%8F%A3%E7%90%B4%E7%A4%BE-100063575904295",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_harmonica_ncue",
-          "name": "NCUE Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "harmonica_ncue",
-          "profileUrl": "https://www.instagram.com/harmonica_ncue/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_harmonica_ncue",
-          "name": "彰師大白沙口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "harmonica_ncue",
-          "profileUrl": "https://www.instagram.com/harmonica_ncue/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_ucw8tcnjxpgx1sf8csufkf1w",
-          "name": "彰師大白沙口琴社",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCw8TcNJXpgX1Sf8CSUFKf1w",
           "feedUrl": ""
         }
       ]

@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T00:26:50.322484Z",
+  "generatedAt": "2026-09-20T01:02:48.525514Z",
   "source": {
     "id": 196,
     "slug": "ncue-harmonica",
     "name": "彰師大白沙口琴社",
     "pageUrl": "https://harmonica.observe.tw/source/196-ncue-harmonica/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-81137ced88b1c5e005039033",
+      "title": "Harmonica Competition",
+      "excerpt": "Harmonica Competition 🎵2026 第一屆拔萃盃｜ 口琴重奏大賽🎵 ✨讓更多聲音相遇，讓更多可能被聽見✨ 拔萃盃以口琴重奏為主題，提供演奏者交流與競賽的舞台。 藉由不同編制與曲目的演出，讓參賽團隊展現演奏技巧、團隊默契與音樂詮釋。 本次比賽也希望促進各地口琴團隊之間的交流， 讓更多演奏者有機會彼此觀摩、切磋，拓展更多被看見的可能！ 🎈日期：2026/12/19 (六） 🎈時間：10:00~17:00（09:00選手開始檢錄） 🎈地點：國立彰化師範大學 綜合活動中心2樓演講廳 🎈報名時間：2026/10/17 20:00 ～ 2026…",
+      "url": "https://www.facebook.com/permalink.php?id=100063575904295&story_fbid=pfbid0aowdZHb2PMgmmAxKJP9QJzdFcQMAAuBiEWrTjStLQstAHb2qrkAjjVXjNS1aH8Myl",
+      "sourceName": "彰師大白沙口琴社",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-18T11:58:40Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/c5997efb4c6e3535d21b.webp",
+        "width": 439,
+        "height": 590
+      }
+    }
+  ]
 }
