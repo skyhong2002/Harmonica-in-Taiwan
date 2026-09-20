@@ -61,6 +61,24 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/316-taiping-elementary-school-harmonica-ensemble/</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/314-rivet-harmonica-ensemble/</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/58-minami-risa/</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/293-michal-kielak/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -133,12 +151,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/58-minami-risa/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/50-aiden-soon/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -152,12 +164,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/317-harmonica-music-events-center/</loc>
-    <lastmod>2026-09-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/316-taiping-elementary-school-harmonica-ensemble/</loc>
     <lastmod>2026-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1022,12 +1028,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/228-tcfsh-harmonica-alumni-ensemble/</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/314-rivet-harmonica-ensemble/</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
