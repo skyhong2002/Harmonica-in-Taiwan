@@ -229,6 +229,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/186-tcfsh-harmonica/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/298-hkcc-harmonica-programme/</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -344,6 +350,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/216-wuhan-university-of-technology-xingyi-harmonica-association/</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/8/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -950,12 +962,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/184-ming-hsun-tsai/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/186-tcfsh-harmonica/</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1604,12 +1610,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/282-free-harmonica-ensemble/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/8/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2377,7 +2377,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/event/79333d11111041bb/</loc>
+    <loc>https://harmonica.observe.tw/event/8ea33417836e7b8d/</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -2391,6 +2391,12 @@
   <url>
     <loc>https://harmonica.observe.tw/event/3cc9a2ac09a819b3/</loc>
     <lastmod>2026-09-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/event/2f5db60a29c5b790/</loc>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>

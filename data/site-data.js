@@ -44,10 +44,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "58-minami-risa",
-      "latestUpdateAt": "2026-09-20T12:00:02+00:00",
-      "latestUpdateLocal": "2026-09-20 20:00",
+      "latestUpdateAt": "2026-09-20T15:38:15+00:00",
+      "latestUpdateLocal": "2026-09-20 23:38",
       "latestUpdateSource": "南里沙",
-      "latestUpdateUrl": "https://x.com/minami_risa/status/2101642539749249441",
+      "latestUpdateUrl": "https://x.com/minami_risa/status/2101697456270721130",
       "avatarUrl": "/assets/source-avatars/04c26c8b269c1d994897.webp",
       "sourceInitials": "南里",
       "sourceTags": [
@@ -1707,6 +1707,85 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-186",
+      "publicId": "186",
+      "name": "中一中口琴社",
+      "nameEn": "TCFSH Harmonica",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "臺中一中/學校社團/臺中",
+      "structuredSummary": "臺中一中/學校社團/臺中 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
+      "keywords": "中一中口琴社 TCFSH Harmonica 口琴社",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/tcfsh.harmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/tcfsh_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@%E5%8F%A3%E7%90%B4%E4%B9%8B%E7%8B%BC"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "186-tcfsh-harmonica",
+      "latestUpdateAt": "2026-09-18T11:56:52+00:00",
+      "latestUpdateLocal": "2026-09-18 19:56",
+      "latestUpdateSource": "中一中口琴社",
+      "latestUpdateUrl": "https://www.facebook.com/tcfsh.harmonica/posts/pfbid02U6wDyPxjwc3k3gM9HEAaLEzPpDYZu85tzHaUWd8havCTdC7twm6Q516LHAReYEuul",
+      "avatarUrl": "/assets/source-avatars/9033731e98662050a211.webp",
+      "sourceInitials": "中一",
+      "sourceTags": [
+        "學生社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_tcfsh_harmonica",
+          "name": "中一中口琴社",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/tcfsh.harmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_tcfsh_harmonica",
+          "name": "TCFSH Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "tcfsh_harmonica",
+          "profileUrl": "https://www.instagram.com/tcfsh_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_tcfsh_harmonica",
+          "name": "中一中口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "tcfsh_harmonica",
+          "profileUrl": "https://www.instagram.com/tcfsh_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_19430dac8a",
+          "name": "中一中口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E5%8F%A3%E7%90%B4%E4%B9%8B%E7%8B%BC",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-298",
       "publicId": "298",
       "name": "香港兒童合唱團口琴課程",
@@ -3162,6 +3241,69 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "http://youth.whut.edu.cn/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-8",
+      "publicId": "8",
+      "name": "臺中市中華口琴會",
+      "nameEn": "Taichung City Chinese Harmonica Association",
+      "category": "團體樂團",
+      "type": "協會",
+      "originalType": "協會/團體",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "臺中地方口琴會/樂團/學生系統/比賽演出",
+      "structuredSummary": "臺中地方口琴會/樂團/學生系統/比賽演出 / 口琴合奏/口琴隊 / 地方協會/演出團體/學生系統來源",
+      "summary": "臺灣的口琴合奏與口琴隊地方協會、演出團體與學生系統來源，活動脈絡包含臺中地方口琴會、樂團與學生系統。",
+      "keywords": "臺中市中華口琴會 臺中市中華口琴會 口琴會 樂團 學生 團隊 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.tcharmonica.org.tw/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/TCHarmonicaA/?locale=zh_TW"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@%E5%8F%B0%E4%B8%AD%E5%B8%82%E4%B8%AD%E8%8F%AF%E5%8F%A3%E7%90%B4%E6%9C%83"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "8",
+      "latestUpdateAt": "2026-09-16T14:44:41+00:00",
+      "latestUpdateLocal": "2026-09-16 22:44",
+      "latestUpdateSource": "臺中市中華口琴會",
+      "latestUpdateUrl": "https://www.facebook.com/TCHarmonicaA/posts/pfbid0K3XWmaqAzATbxK51PPA3DmTzLG245NDQbyjVp7SrLijAJKom5VqdiUgaRwTf3iH4l",
+      "avatarUrl": "/assets/source-avatars/4df93c46438ca873550e.webp",
+      "sourceInitials": "臺中",
+      "sourceTags": [
+        "協會",
+        "團體樂團",
+        "比賽"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_tcharmonicaa",
+          "name": "臺中市中華口琴會",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/TCHarmonicaA",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_2cd0d8c978",
+          "name": "臺中市中華口琴會",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E5%8F%B0%E4%B8%AD%E5%B8%82%E4%B8%AD%E8%8F%AF%E5%8F%A3%E7%90%B4%E6%9C%83",
           "feedUrl": ""
         }
       ]
@@ -10570,85 +10712,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-186",
-      "publicId": "186",
-      "name": "中一中口琴社",
-      "nameEn": "TCFSH Harmonica",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "臺中一中/學校社團/臺中",
-      "structuredSummary": "臺中一中/學校社團/臺中 / 口琴 / 學校社團",
-      "summary": "臺灣的口琴學校社團。",
-      "keywords": "中一中口琴社 TCFSH Harmonica 口琴社",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/tcfsh.harmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/tcfsh_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@%E5%8F%A3%E7%90%B4%E4%B9%8B%E7%8B%BC"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "186-tcfsh-harmonica",
-      "latestUpdateAt": "2026-08-24T11:35:33+00:00",
-      "latestUpdateLocal": "2026-08-24 19:35",
-      "latestUpdateSource": "中一中口琴社",
-      "latestUpdateUrl": "https://www.instagram.com/stories/tcfsh_harmonica/3970758602407221362/",
-      "avatarUrl": "/assets/source-avatars/9033731e98662050a211.webp",
-      "sourceInitials": "中一",
-      "sourceTags": [
-        "學生社團"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_tcfsh_harmonica",
-          "name": "中一中口琴社",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/tcfsh.harmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_tcfsh_harmonica",
-          "name": "TCFSH Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "tcfsh_harmonica",
-          "profileUrl": "https://www.instagram.com/tcfsh_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_tcfsh_harmonica",
-          "name": "中一中口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "tcfsh_harmonica",
-          "profileUrl": "https://www.instagram.com/tcfsh_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_19430dac8a",
-          "name": "中一中口琴社",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@%E5%8F%A3%E7%90%B4%E4%B9%8B%E7%8B%BC",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-165",
       "publicId": "165",
       "name": "馬來西亞口琴節",
@@ -17807,69 +17870,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "https://www.taiwanharmonica.com/s/F1_-kgya.pdf",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-8",
-      "publicId": "8",
-      "name": "臺中市中華口琴會",
-      "nameEn": "Taichung City Chinese Harmonica Association",
-      "category": "團體樂團",
-      "type": "協會",
-      "originalType": "協會/團體",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "臺中地方口琴會/樂團/學生系統/比賽演出",
-      "structuredSummary": "臺中地方口琴會/樂團/學生系統/比賽演出 / 口琴合奏/口琴隊 / 地方協會/演出團體/學生系統來源",
-      "summary": "臺灣的口琴合奏與口琴隊地方協會、演出團體與學生系統來源，活動脈絡包含臺中地方口琴會、樂團與學生系統。",
-      "keywords": "臺中市中華口琴會 臺中市中華口琴會 口琴會 樂團 學生 團隊 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.tcharmonica.org.tw/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/TCHarmonicaA/?locale=zh_TW"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@%E5%8F%B0%E4%B8%AD%E5%B8%82%E4%B8%AD%E8%8F%AF%E5%8F%A3%E7%90%B4%E6%9C%83"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "8",
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/4df93c46438ca873550e.webp",
-      "sourceInitials": "臺中",
-      "sourceTags": [
-        "協會",
-        "團體樂團",
-        "比賽"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_tcharmonicaa",
-          "name": "臺中市中華口琴會",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/TCHarmonicaA",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_2cd0d8c978",
-          "name": "臺中市中華口琴會",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@%E5%8F%B0%E4%B8%AD%E5%B8%82%E4%B8%AD%E8%8F%AF%E5%8F%A3%E7%90%B4%E6%9C%83",
           "feedUrl": ""
         }
       ]

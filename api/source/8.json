@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T15:12:57.954098Z",
+  "generatedAt": "2026-09-20T15:48:40.211754Z",
   "source": {
     "id": 8,
     "slug": "8",
     "name": "臺中市中華口琴會",
     "pageUrl": "https://harmonica.observe.tw/source/8/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-e62c5919ff3c785f34716740",
+      "title": "🎼 有一群人，正在為了10月31日，努力準備著。",
+      "excerpt": "🎼 有一群人，正在為了10月31日，努力準備著。 從一次又一次的分部、合奏， 從一個音準、一個節拍， 到整個樂團慢慢學會一起呼吸、一起前進。 有人第一次站上這樣的舞台， 有人已經與口琴走過好多年， 而我們，都在等待同一個晚上。 ✨ 10月31日 19:30 《狂想與榮光：交響詩的讚歌》 這一晚，臺中市中華口琴會將集結： 🎵 臺中市青少年口琴管弦樂團 🎵 臺中市中華口琴會菁英團 🎵 臺中市中華口琴會會員團 🎺 中灣銅管室內樂團 並邀請口琴演奏家 張志勝會計師、半音階口琴演奏家李欣穎 擔任獨奏。 我們準備了交響詩、音樂劇、舞曲， 也準備了一些屬於口琴的全新…",
+      "url": "https://www.facebook.com/TCHarmonicaA/posts/pfbid0K3XWmaqAzATbxK51PPA3DmTzLG245NDQbyjVp7SrLijAJKom5VqdiUgaRwTf3iH4l",
+      "sourceName": "臺中市中華口琴會",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-16T14:44:41Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a26d035455f340b98572.webp",
+        "width": 511,
+        "height": 720
+      }
+    }
+  ]
 }

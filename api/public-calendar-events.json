@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-20T23:13:01+08:00",
+  "generatedAt": "2026-09-20T23:48:42+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 11,
+  "count": 12,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -14,7 +14,7 @@
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 0,
+      "requests": 2,
       "cached": 21,
       "errors": 0
     }
@@ -244,11 +244,11 @@
       "image_url": "/assets/feed-images/9ca7e9876864ce01ace5.webp"
     },
     {
-      "id": "79333d11111041bb",
-      "title": "Cy Leo《兩界一心 Two Worlds in One》巡演音樂會",
-      "eventName": "Cy Leo《兩界一心 Two Worlds in One》巡演音樂會",
+      "id": "8ea33417836e7b8d",
+      "title": "Cy Leo 何卓彥《兩界一心 Two Worlds in One》",
+      "eventName": "Cy Leo 何卓彥《兩界一心 Two Worlds in One》",
       "source": "Judy’s Harmonica Ensemble 茱蒂口琴樂團",
-      "platform": "threads",
+      "platform": "facebook",
       "start": "2026-09-23",
       "end": "2026-09-24",
       "allDay": true,
@@ -257,27 +257,25 @@
       "location": "新北市藝文中心演藝廳",
       "venue": "新北市藝文中心演藝廳",
       "city": "新北市",
-      "details": "主辦／演出者：茱蒂口琴樂團 Judy's Harmonica Ensemble。香港半音階口琴演奏家 Cy Leo 來臺亞洲巡演第二站，並與天狼星口琴樂團合作演出。時間為 9/23（三）19:30，貼文提供購票連結。",
-      "evidenceUrl": "https://www.threads.com/t/DdTUGNxmvjl",
-      "confidence": 0.95,
+      "details": "主辦／演出者：茱蒂口琴樂團 Judy's Harmonica Ensemble。香港半音階口琴演奏家 Cy Leo 何卓彥來臺演出，並與天狼星口琴樂團合作。時間為 9/23（三）19:30，購票資訊見貼文連結。",
+      "evidenceUrl": "https://www.facebook.com/Judys.Harmonica.Ensemble/posts/pfbid027BwRAN7xYHPv9ucyJ7Mk1Qq7c3TEfWphky5QZmtD7xAq3K1b47LR2eD896p1ZvmGl",
+      "confidence": 0.98,
       "calendarReview": {
         "include": true,
         "country": "臺灣",
         "eventMode": "taiwan_physical",
         "timezone": "Asia/Taipei",
         "candidateDateMatches": true,
-        "eventName": "Cy Leo《兩界一心 Two Worlds in One》巡演音樂會",
+        "eventName": "Cy Leo 何卓彥《兩界一心 Two Worlds in One》",
         "venue": "新北市藝文中心演藝廳",
         "city": "新北市",
-        "details": "主辦／演出者：茱蒂口琴樂團 Judy's Harmonica Ensemble。香港半音階口琴演奏家 Cy Leo 來臺亞洲巡演第二站，並與天狼星口琴樂團合作演出。時間為 9/23（三）19:30，貼文提供購票連結。",
-        "reason": "貼文明確寫出 9/23 19:30 於新北市藝文中心演藝廳舉行的現場音樂會，符合臺灣實體口琴活動收錄範圍。",
-        "confidence": 0.95
+        "details": "主辦／演出者：茱蒂口琴樂團 Judy's Harmonica Ensemble。香港半音階口琴演奏家 Cy Leo 何卓彥來臺演出，並與天狼星口琴樂團合作。時間為 9/23（三）19:30，購票資訊見貼文連結。",
+        "reason": "貼文明確寫出 9/23 19:30、地點在新北市藝文中心演藝廳，屬臺灣實體口琴音樂會，且日期與候選一致。",
+        "confidence": 0.98
       },
-      "postedAt": "2026-09-15 16:46",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/811203261_18025236962880937_3199962528113309495_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzk4NjYxODQ4MzE5MDk4Njk4MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNzUzLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=7e9XYsXZs6QQ7kNvwH1UemW&_nc_oc=AdqtdfPlwJjNq9RKyXQ16Iiy-AMUCCautLoIwvhHz4yKQn0kS3RkfkNoo5GwNgxopxI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=JRkuGsu0pefIp42CXBRDQA&_nc_ss=7a22e&oh=00_AQIUufwWvsZBIvw4sUTF3nTcT_aPfykJWzhnUbrBdzFeKw&oe=6AAEDAC1"
-      ],
-      "image_url": "/assets/feed-images/14a36fc231ec9d0b2ba2.webp"
+      "postedAt": "2026-09-15 10:09",
+      "images": [],
+      "image_url": ""
     },
     {
       "id": "a6b4974828f29a0e",
@@ -350,6 +348,42 @@
         "https://scontent.ftup1-1.fna.fbcdn.net/v/t39.30808-6/797744784_122330370974027168_4984632865481113780_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=cVYJqNh-TnsQ7kNvwFBy0fg&_nc_oc=Adqom_iN7uw5aO1M0fIaNTF4-oBhIYQ7ksk0m1WlU_y7_9pQ29wAuR1ZOwWaM4E8Gzs&_nc_zt=23&_nc_ht=scontent.ftup1-1.fna&_nc_gid=q6ElV1n_GTAURX55DGaq_A&_nc_ss=72289&oh=00_AQJSvrnUNrtClup4rMYQ5ib6XW8BYf2vnliZJoab5773hQ&oe=6AB335CD"
       ],
       "image_url": "/assets/feed-images/84d2c968076a85e0e9cd.webp"
+    },
+    {
+      "id": "2f5db60a29c5b790",
+      "title": "狂想與榮光：交響詩的讚歌",
+      "eventName": "狂想與榮光：交響詩的讚歌",
+      "source": "臺中市中華口琴會",
+      "platform": "facebook",
+      "start": "2026-10-31",
+      "end": "2026-11-01",
+      "allDay": true,
+      "calendarType": "taiwan_physical",
+      "timezone": "Asia/Taipei",
+      "location": "臺中市中山堂",
+      "venue": "臺中市中山堂",
+      "city": "臺中市",
+      "details": "主辦／演出者：臺中市中華口琴會。演出時間為2026/10/31（六）19:30，票價400／500／700／1000元。演出單位包含臺中市青少年口琴管弦樂團、臺中市中華口琴會菁英團與會員團，並邀請口琴演奏家張志勝會計師、李欣穎擔任獨奏。",
+      "evidenceUrl": "https://www.facebook.com/TCHarmonicaA/posts/pfbid0K3XWmaqAzATbxK51PPA3DmTzLG245NDQbyjVp7SrLijAJKom5VqdiUgaRwTf3iH4l",
+      "confidence": 0.98,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventMode": "taiwan_physical",
+        "timezone": "Asia/Taipei",
+        "candidateDateMatches": true,
+        "eventName": "狂想與榮光：交響詩的讚歌",
+        "venue": "臺中市中山堂",
+        "city": "臺中市",
+        "details": "主辦／演出者：臺中市中華口琴會。演出時間為2026/10/31（六）19:30，票價400／500／700／1000元。演出單位包含臺中市青少年口琴管弦樂團、臺中市中華口琴會菁英團與會員團，並邀請口琴演奏家張志勝會計師、李欣穎擔任獨奏。",
+        "reason": "貼文明確標示活動名稱、時間與地點，且為臺中市實體口琴音樂會，符合收錄範圍。",
+        "confidence": 0.98
+      },
+      "postedAt": "2026-09-16 22:44",
+      "images": [
+        "https://scontent-det1-1.xx.fbcdn.net/v/t39.30808-6/812195606_1726419516157691_7888523899922466088_n.jpg?stp=dst-jpg_tt6&cstp=mx1078x1519&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Ae5N0NoFXj8Q7kNvwHpnDTZ&_nc_oc=AdqMNiq2Xf43FLnSzM_HXiGXvetG82BFmDRiKPAiAvy0SEbskuMRklj_J--BapFuo_E8EWCbj5SllEBrP50iX2xC&_nc_zt=23&_nc_ht=scontent-det1-1.xx&_nc_gid=C5ElzXFkldK4xZn95M0sYw&_nc_ss=73289&oh=00_AQJ1368R_dCiUAmBcJ8tI_lbBhjexbgJ38hpwltO2inUiA&oe=6AB5B8E0"
+      ],
+      "image_url": "/assets/feed-images/a26d035455f340b98572.webp"
     },
     {
       "sourceName": "衛武營國家藝術文化中心",

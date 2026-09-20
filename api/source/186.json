@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T15:12:57.954098Z",
+  "generatedAt": "2026-09-20T15:48:40.211754Z",
   "source": {
     "id": 186,
     "slug": "tcfsh-harmonica",
     "name": "中一中口琴社",
     "pageUrl": "https://harmonica.observe.tw/source/186-tcfsh-harmonica/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-e17ec49a1d48bd61c5c61ecf",
+      "title": "第一次社課9/18",
+      "excerpt": "第一次社課9/18 非常高興大家加入口琴社！謝謝張有璿學長的指導和大家的參與，希望大家都有感受到吹口琴的樂趣🎵期待大家以後來團練和社課！",
+      "url": "https://www.facebook.com/tcfsh.harmonica/posts/pfbid02U6wDyPxjwc3k3gM9HEAaLEzPpDYZu85tzHaUWd8havCTdC7twm6Q516LHAReYEuul",
+      "sourceName": "中一中口琴社",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-18T11:56:52Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/0a3badd720bcf6244bd7.webp",
+        "width": 590,
+        "height": 456
+      }
+    }
+  ]
 }

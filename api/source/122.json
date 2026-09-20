@@ -1,40 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T15:12:57.954098Z",
+  "generatedAt": "2026-09-20T15:48:40.211754Z",
   "source": {
     "id": 122,
     "slug": "perfect-fourth",
     "name": "Perfect Fourth",
     "pageUrl": "https://harmonica.observe.tw/source/122-perfect-fourth/"
   },
-  "items": [
-    {
-      "id": "post-e320b798b5d179498347b7a5",
-      "title": "Last group session rehearsal before cy_leo ‘s concert on 30/8.",
-      "excerpt": "Last group session rehearsal before cy_leo ‘s concert on 30/8. Together with our friends Harry Choi Timothy Yip 葉進禧",
-      "url": "https://www.facebook.com/reel/1816557936191954/",
-      "sourceName": "Perfect Fourth",
-      "platform": "Facebook",
-      "publishedAt": "2026-08-21T15:35:18Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/ab6dba9893f76a949d1e.webp",
-        "width": 540,
-        "height": 960
-      }
-    },
-    {
-      "id": "post-9248780a857d16a78a067aef",
-      "title": "Last group session rehearsal before @cy_leo ‘s concert on 30/8.",
-      "excerpt": "Last group session rehearsal before @cy_leo ‘s concert on 30/8. Together with our friends @harryoffenbach @timothyyip_harmonica",
-      "url": "https://www.instagram.com/p/DcTq2Tgvmar/",
-      "sourceName": "Perfect Fourth",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-21T15:35:01Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/ab1e9029b29f4062be09.webp",
-        "width": 720,
-        "height": 1280
-      }
-    }
-  ]
+  "items": []
 }
