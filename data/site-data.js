@@ -2,6 +2,52 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-09-20",
   "entries": [
     {
+      "id": "watchlist-305",
+      "publicId": "305",
+      "name": "黃浚宇",
+      "nameEn": "Wong Chun Yu",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "複音/五葉草口琴隊/亞太與首爾口琴節冠軍/香港口琴協會理事/APHF 2026",
+      "structuredSummary": "複音/五葉草口琴隊/亞太與首爾口琴節冠軍/香港口琴協會理事/APHF 2026 / 複音 / 國際演出人員/講師/協會理事",
+      "summary": "香港的複音國際演出人員、講師與協會理事，活動脈絡包含五葉草口琴隊、亞太與首爾口琴節冠軍與香港口琴協會理事。",
+      "keywords": "黃浚宇 黄浚宇 Wong Chun Yu harmonica tremolo Clover Harmonica HKHA APHF SIHF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hkharmonica.org/cas2024-25-talk-3/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "305-wong-chun-yu",
+      "latestUpdateAt": "2026-09-20T11:04:35+00:00",
+      "latestUpdateLocal": "2026-09-20 19:04",
+      "latestUpdateSource": "黃浚宇",
+      "latestUpdateUrl": "https://www.hkharmonica.org/cas2024-25-talk-3/",
+      "avatarUrl": "/assets/source-avatars/wong-chun-yu.png",
+      "sourceInitials": "黃浚",
+      "sourceTags": [
+        "演奏者",
+        "複音",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_305",
+          "name": "黃浚宇",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://www.hkharmonica.org/cas2024-25-talk-3",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-316",
       "publicId": "316",
       "name": "太平國小口琴隊",
@@ -10324,7 +10370,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-25 01:44",
       "latestUpdateSource": "Antonio Serrano",
       "latestUpdateUrl": "https://www.instagram.com/p/DcboCVJRxZv/",
-      "avatarUrl": "/assets/source-avatars/fabe8864384bb712d439.webp",
+      "avatarUrl": "/assets/source-avatars/d287b9982650be4d78eb.webp",
       "sourceInitials": "AS",
       "sourceTags": [
         "演奏者",
@@ -11552,52 +11598,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_profile",
           "username": "tcfsh_harmonica_alumni",
           "profileUrl": "https://www.instagram.com/tcfsh_harmonica_alumni/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-305",
-      "publicId": "305",
-      "name": "黃浚宇",
-      "nameEn": "Wong Chun Yu",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "複音/五葉草口琴隊/亞太與首爾口琴節冠軍/香港口琴協會理事/APHF 2026",
-      "structuredSummary": "複音/五葉草口琴隊/亞太與首爾口琴節冠軍/香港口琴協會理事/APHF 2026 / 複音 / 國際演出人員/講師/協會理事",
-      "summary": "香港的複音國際演出人員、講師與協會理事，活動脈絡包含五葉草口琴隊、亞太與首爾口琴節冠軍與香港口琴協會理事。",
-      "keywords": "黃浚宇 黄浚宇 Wong Chun Yu harmonica tremolo Clover Harmonica HKHA APHF SIHF 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hkharmonica.org/cas2024-25-talk-3/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "305-wong-chun-yu",
-      "latestUpdateAt": "2026-08-21T06:45:09+00:00",
-      "latestUpdateLocal": "2026-08-21 14:45",
-      "latestUpdateSource": "黃浚宇",
-      "latestUpdateUrl": "https://www.hkharmonica.org/cas2024-25-talk-3/",
-      "avatarUrl": "/assets/source-avatars/wong-chun-yu.png",
-      "sourceInitials": "黃浚",
-      "sourceTags": [
-        "演奏者",
-        "複音",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_305",
-          "name": "黃浚宇",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://www.hkharmonica.org/cas2024-25-talk-3",
           "feedUrl": ""
         }
       ]
