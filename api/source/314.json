@@ -1,21 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T06:21:11.117852Z",
+  "generatedAt": "2026-09-20T06:55:48.854885Z",
   "source": {
     "id": 314,
     "slug": "rivet-harmonica-ensemble",
     "name": "Rivet 口琴重奏",
     "pageUrl": "https://harmonica.observe.tw/source/314-rivet-harmonica-ensemble/"
   },
-  "items": [
-    {
-      "id": "post-96fa8c04074331cb2005a96b",
-      "title": "《琴聲貢聚》口琴計劃 2026-27 – 計劃啟動音樂會 – 香港口琴協會",
-      "excerpt": "《琴聲貢聚》口琴計劃 2026-27 – 計劃啟動音樂會 – 香港口琴協會 ');mask-image:url('data:image/svg+xml;utf8, ');mask-mode:alpha;-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain}}:root :where(.wp-block-image.is…",
-      "url": "https://www.hkharmonica.org/cas2026-27-project-activation-concert/",
-      "sourceName": "Rivet 口琴重奏",
-      "platform": "website",
-      "publishedAt": "2026-08-21T06:45:13Z"
-    }
-  ]
+  "items": []
 }
