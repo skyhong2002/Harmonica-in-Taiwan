@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T08:06:16.034805Z",
+  "generatedAt": "2026-09-20T08:42:26.236875Z",
   "source": {
     "id": 263,
     "slug": "jdr-harmonica",
@@ -90,20 +90,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/1d4d68a4a37e8f03a204.webp",
         "width": 800,
         "height": 1068
-      }
-    },
-    {
-      "id": "post-9f16604ebf1f4daa37300ced",
-      "title": "The 12th Seoul International Harmonica Festival 2026",
-      "excerpt": "The 12th Seoul International Harmonica Festival 2026",
-      "url": "https://www.youtube.com/watch?v=vDmsmh_MNWw",
-      "sourceName": "JDR Harmonica",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-21T08:24:36Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/14b73deb62cc54f7a37b.webp",
-        "width": 640,
-        "height": 480
       }
     }
   ]
