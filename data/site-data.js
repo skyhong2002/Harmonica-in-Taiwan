@@ -1575,7 +1575,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-19 04:25",
       "latestUpdateSource": "Filip Jers",
       "latestUpdateUrl": "https://www.facebook.com/reel/1059781100302363/",
-      "avatarUrl": "/assets/source-avatars/0177e4e2c825edcbdbb7.webp",
+      "avatarUrl": "/assets/source-avatars/52499fb2541e9f9ff26a.webp",
       "sourceInitials": "FJ",
       "sourceTags": [
         "演奏者",
