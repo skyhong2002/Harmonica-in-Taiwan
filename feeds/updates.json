@@ -1,6 +1,225 @@
 {
   "items": [
     {
+      "title": "Aiden Soon｜Instagram story @aidensoon",
+      "headline": "Instagram story @aidensoon",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/stories/aidensoon/3990021567887415171/",
+      "source_id": "ig_story_aidensoon",
+      "source": "Aiden Soon",
+      "source_system_name": "Aiden Soon",
+      "source_profile_url": "https://www.instagram.com/aidensoon/",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "directory_entry_id": "watchlist-50",
+      "directory_entry_name": "Aiden Soon",
+      "account": "aidensoon",
+      "platform": "instagram",
+      "platform_label": "Instagram story",
+      "posted_at": "2026-09-20T01:27:37+00:00",
+      "posted_at_local": "2026-09-20 09:27",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-20T02:13:09.222066+00:00",
+      "media_type": "instagram_story",
+      "story": true,
+      "story_provider": "apify_stories",
+      "story_fetched_at": "2026-09-20T02:09:33.510528+00:00",
+      "story_expires_at": "2026-09-21T01:27:37+00:00",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "限時動態"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.86,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "限時動態"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "來源為 Instagram 限時動態公開更新，屬口琴演奏者相關更新，符合收錄範圍。",
+      "text": "Instagram story @aidensoon",
+      "images": [
+        "/assets/feed-images/1cd6462d77e5a9ef1a78.webp"
+      ],
+      "videos": [],
+      "source_image_url": "/assets/feed-images/1cd6462d77e5a9ef1a78.webp",
+      "image_url": "/assets/feed-images/1cd6462d77e5a9ef1a78.webp",
+      "image_width": 716,
+      "image_height": 1274,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/481753509_1302015630879526_2097597869176712720_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gEUFR9doAh3uyuxzSC5vzrXeFlxSOmNX8t-WlzxgSdX7U9qA1mjCmy5gw3_rtVpBZE&_nc_ohc=NUAYok-I8eEQ7kNvwHw1lEu&_nc_gid=pL0s0eYv_WReINWMzILotQ&edm=ANmP7GQBAAAA&ccb=7-5&oh=00_AQA8EE97EK_ZPWoNeSrGUZD8GgyFM5ndyRx0crP539xSyg&oe=6A4C83D0&_nc_sid=982cc7",
+      "avatar_url": "/assets/source-avatars/3bb94a334836d83b3b5a.webp",
+      "source_initials": "AS",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_story_aidensoon:3990021567887415171"
+    },
+    {
+      "title": "Leafin Harmonica Ensemble｜Instagram story @_leafin_harmonicaensemble",
+      "headline": "Instagram story @_leafin_harmonicaensemble",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/stories/_leafin_harmonicaensemble/3989986841617198310/",
+      "source_id": "ig_story_leafin_harmonicaensemble",
+      "source": "Leafin Harmonica Ensemble",
+      "source_system_name": "Leafin Harmonica Ensemble",
+      "source_profile_url": "https://www.instagram.com/_leafin_harmonicaensemble/",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "directory_entry_id": "watchlist-53",
+      "directory_entry_name": "Leafin Harmonica Ensemble",
+      "account": "_leafin_harmonicaensemble",
+      "platform": "instagram",
+      "platform_label": "Instagram story",
+      "posted_at": "2026-09-20T00:18:32+00:00",
+      "posted_at_local": "2026-09-20 08:18",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-20T02:13:09.222066+00:00",
+      "media_type": "instagram_story",
+      "story": true,
+      "story_provider": "apify_stories",
+      "story_fetched_at": "2026-09-20T02:09:33.510528+00:00",
+      "story_expires_at": "2026-09-21T00:18:32+00:00",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "限時動態"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.93,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "限時動態"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "來源為口琴團隊的 Instagram 限動，屬口琴公開更新。",
+      "text": "Instagram story @_leafin_harmonicaensemble",
+      "images": [
+        "/assets/feed-images/636f5eed29a84529bd88.webp"
+      ],
+      "videos": [],
+      "source_image_url": "/assets/feed-images/636f5eed29a84529bd88.webp",
+      "image_url": "/assets/feed-images/636f5eed29a84529bd88.webp",
+      "image_width": 720,
+      "image_height": 1280,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/344582327_953435892351985_2418767897146553133_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gHu2ukt4STo_nW7MzEXkZAHtEX78sepiHcyKlSg7L7cO5If5ZtnpGPOdZ9KB_3IEHo&_nc_ohc=oSUy9Jj2eP8Q7kNvwGvfy-q&_nc_gid=7RPsfg5tudRX4NgXk-LcPQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQCsyF4waMJw4WkJCYeFq7XifHd20Zi87pdiLrRahA8y6g&oe=6A4A0AB7&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/4f7972d9ee649563ba48.webp",
+      "source_initials": "LHE",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_story_leafin_harmonicaensemble:3989986841617198310"
+    },
+    {
+      "title": "Leafin Harmonica Ensemble｜Instagram story @_leafin_harmonicaensemble",
+      "headline": "Instagram story @_leafin_harmonicaensemble",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/stories/_leafin_harmonicaensemble/3989978794492654566/",
+      "source_id": "ig_story_leafin_harmonicaensemble",
+      "source": "Leafin Harmonica Ensemble",
+      "source_system_name": "Leafin Harmonica Ensemble",
+      "source_profile_url": "https://www.instagram.com/_leafin_harmonicaensemble/",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "directory_entry_id": "watchlist-53",
+      "directory_entry_name": "Leafin Harmonica Ensemble",
+      "account": "_leafin_harmonicaensemble",
+      "platform": "instagram",
+      "platform_label": "Instagram story",
+      "posted_at": "2026-09-20T00:02:38+00:00",
+      "posted_at_local": "2026-09-20 08:02",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-20T02:13:09.222066+00:00",
+      "media_type": "instagram_story",
+      "story": true,
+      "story_provider": "apify_stories",
+      "story_fetched_at": "2026-09-20T02:09:33.510528+00:00",
+      "story_expires_at": "2026-09-21T00:02:38+00:00",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "限時動態"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.93,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "限時動態"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "來源為口琴合奏團的 Instagram 限時動態，屬口琴公開更新。",
+      "text": "Instagram story @_leafin_harmonicaensemble",
+      "images": [
+        "/assets/feed-images/b1029784b6c6478f2d5f.webp"
+      ],
+      "videos": [],
+      "source_image_url": "/assets/feed-images/b1029784b6c6478f2d5f.webp",
+      "image_url": "/assets/feed-images/b1029784b6c6478f2d5f.webp",
+      "image_width": 720,
+      "image_height": 1280,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/344582327_953435892351985_2418767897146553133_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gHu2ukt4STo_nW7MzEXkZAHtEX78sepiHcyKlSg7L7cO5If5ZtnpGPOdZ9KB_3IEHo&_nc_ohc=oSUy9Jj2eP8Q7kNvwGvfy-q&_nc_gid=7RPsfg5tudRX4NgXk-LcPQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQCsyF4waMJw4WkJCYeFq7XifHd20Zi87pdiLrRahA8y6g&oe=6A4A0AB7&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/4f7972d9ee649563ba48.webp",
+      "source_initials": "LHE",
+      "categories": [
+        "posts-videos",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽"
+      ],
+      "key": "ig_story_leafin_harmonicaensemble:3989978794492654566"
+    },
+    {
       "title": "南里沙 / Risa MINAMI｜おはようございます🎶 昨日のブログはこちらから 『YouTubeチャンネル登録者数50000人』 https://ameblo.jp/risa-harmonica/entry-12979202937.h…",
       "headline": "おはようございます🎶 昨日のブログはこちらから 『YouTubeチャンネル登録者数50000人』 https://ameblo.jp/risa-harmonica/entry-12979202937.html #クロマチ...",
       "display_title": "",
@@ -834,6 +1053,416 @@
       "key": "web_12:61101d81e9781973cc8db25d7649473fb55bddf94bc3a0817a3b1e3541a90a3a"
     },
     {
+      "title": "Aiden Soon｜Instagram story @aidensoon",
+      "headline": "Instagram story @aidensoon",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/stories/aidensoon/3989729151330511936/",
+      "source_id": "ig_story_aidensoon",
+      "source": "Aiden Soon",
+      "source_system_name": "Aiden Soon",
+      "source_profile_url": "https://www.instagram.com/aidensoon/",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "directory_entry_id": "watchlist-50",
+      "directory_entry_name": "Aiden Soon",
+      "account": "aidensoon",
+      "platform": "instagram",
+      "platform_label": "Instagram story",
+      "posted_at": "2026-09-19T15:46:38+00:00",
+      "posted_at_local": "2026-09-19 23:46",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-20T02:13:09.222066+00:00",
+      "media_type": "instagram_story",
+      "story": true,
+      "story_provider": "apify_stories",
+      "story_fetched_at": "2026-09-20T02:09:33.510528+00:00",
+      "story_expires_at": "2026-09-20T15:46:38+00:00",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "限時動態"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.86,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "限時動態"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "來源為口琴演奏者的 Instagram 限時動態公開更新，屬口琴相關內容。",
+      "text": "Instagram story @aidensoon",
+      "images": [
+        "/assets/feed-images/0a06436223ab10af49ea.webp"
+      ],
+      "videos": [],
+      "source_image_url": "/assets/feed-images/0a06436223ab10af49ea.webp",
+      "image_url": "/assets/feed-images/0a06436223ab10af49ea.webp",
+      "image_width": 720,
+      "image_height": 1280,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/481753509_1302015630879526_2097597869176712720_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gEUFR9doAh3uyuxzSC5vzrXeFlxSOmNX8t-WlzxgSdX7U9qA1mjCmy5gw3_rtVpBZE&_nc_ohc=NUAYok-I8eEQ7kNvwHw1lEu&_nc_gid=pL0s0eYv_WReINWMzILotQ&edm=ANmP7GQBAAAA&ccb=7-5&oh=00_AQA8EE97EK_ZPWoNeSrGUZD8GgyFM5ndyRx0crP539xSyg&oe=6A4C83D0&_nc_sid=982cc7",
+      "avatar_url": "/assets/source-avatars/3bb94a334836d83b3b5a.webp",
+      "source_initials": "AS",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_story_aidensoon:3989729151330511936"
+    },
+    {
+      "title": "Aiden Soon｜Instagram story @aidensoon",
+      "headline": "Instagram story @aidensoon",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/stories/aidensoon/3989728992534198578/",
+      "source_id": "ig_story_aidensoon",
+      "source": "Aiden Soon",
+      "source_system_name": "Aiden Soon",
+      "source_profile_url": "https://www.instagram.com/aidensoon/",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "directory_entry_id": "watchlist-50",
+      "directory_entry_name": "Aiden Soon",
+      "account": "aidensoon",
+      "platform": "instagram",
+      "platform_label": "Instagram story",
+      "posted_at": "2026-09-19T15:46:19+00:00",
+      "posted_at_local": "2026-09-19 23:46",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-20T02:13:09.222066+00:00",
+      "media_type": "instagram_story",
+      "story": true,
+      "story_provider": "apify_stories",
+      "story_fetched_at": "2026-09-20T02:09:33.510528+00:00",
+      "story_expires_at": "2026-09-20T15:46:19+00:00",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "限時動態"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.86,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "限時動態"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "來源為口琴演奏者 Aiden Soon 的 Instagram 限時動態公開更新，屬口琴相關內容。",
+      "text": "Instagram story @aidensoon",
+      "images": [
+        "/assets/feed-images/fafeca48f46f991ab6d0.webp"
+      ],
+      "videos": [],
+      "source_image_url": "/assets/feed-images/fafeca48f46f991ab6d0.webp",
+      "image_url": "/assets/feed-images/fafeca48f46f991ab6d0.webp",
+      "image_width": 720,
+      "image_height": 1280,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/481753509_1302015630879526_2097597869176712720_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gEUFR9doAh3uyuxzSC5vzrXeFlxSOmNX8t-WlzxgSdX7U9qA1mjCmy5gw3_rtVpBZE&_nc_ohc=NUAYok-I8eEQ7kNvwHw1lEu&_nc_gid=pL0s0eYv_WReINWMzILotQ&edm=ANmP7GQBAAAA&ccb=7-5&oh=00_AQA8EE97EK_ZPWoNeSrGUZD8GgyFM5ndyRx0crP539xSyg&oe=6A4C83D0&_nc_sid=982cc7",
+      "avatar_url": "/assets/source-avatars/3bb94a334836d83b3b5a.webp",
+      "source_initials": "AS",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_story_aidensoon:3989728992534198578"
+    },
+    {
+      "title": "Aiden & Evelyn｜Instagram story @aidennevelyn",
+      "headline": "Instagram story @aidennevelyn",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/stories/aidennevelyn/3989728182504527314/",
+      "source_id": "ig_story_aidennevelyn",
+      "source": "Aiden & Evelyn",
+      "source_system_name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
+      "source_profile_url": "https://www.instagram.com/aidennevelyn/",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "directory_entry_id": "watchlist-49",
+      "directory_entry_name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
+      "account": "aidennevelyn",
+      "platform": "instagram",
+      "platform_label": "Instagram story",
+      "posted_at": "2026-09-19T15:44:35+00:00",
+      "posted_at_local": "2026-09-19 23:44",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-20T02:13:09.222066+00:00",
+      "media_type": "instagram_story",
+      "story": true,
+      "story_provider": "apify_stories",
+      "story_fetched_at": "2026-09-20T02:09:33.510528+00:00",
+      "story_expires_at": "2026-09-20T15:44:35+00:00",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "限時動態"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": false,
+      "llm_confidence": 0.96,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "僅有帳號與限時動態來源，貼文文字未見口琴或相關活動內容。",
+      "text": "Instagram story @aidennevelyn",
+      "images": [
+        "/assets/feed-images/5be70b1253f511fdda94.webp"
+      ],
+      "videos": [],
+      "source_image_url": "/assets/feed-images/5be70b1253f511fdda94.webp",
+      "image_url": "/assets/feed-images/5be70b1253f511fdda94.webp",
+      "image_width": 720,
+      "image_height": 1280,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/459216051_3277825682354593_1311083221920922932_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gHILclcWf2g1k1D1No1-S_P2XAbdf3remXQBt3n04iEibchqqs2WGMAHY7IcZbI-TM&_nc_ohc=h-gjKWXRMb4Q7kNvwHeKXsZ&_nc_gid=1JABdzJMVtXThnXMiuG5Gg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af83Ppq7dbftAaSvZ-wxseXurZJSfzTnGQFO8ZgQoWMVyw&oe=6A41D605&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/58e8bad4c2d4f442829e.webp",
+      "source_initials": "AE",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_story_aidennevelyn:3989728182504527314"
+    },
+    {
+      "title": "Yora ♥｜Instagram story @_yora._",
+      "headline": "Instagram story @_yora._",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/stories/_yora._/3989699599597431736/",
+      "source_id": "ig_story_yora",
+      "source": "Yora ♥",
+      "source_system_name": "陳瑤容 Yora Chen",
+      "source_profile_url": "https://www.instagram.com/_yora._/",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-103",
+      "directory_entry_name": "陳瑤容 Yora Chen",
+      "account": "_yora._",
+      "platform": "instagram",
+      "platform_label": "Instagram story",
+      "posted_at": "2026-09-19T14:47:56+00:00",
+      "posted_at_local": "2026-09-19 22:47",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-20T02:13:09.222066+00:00",
+      "media_type": "instagram_story",
+      "story": true,
+      "story_provider": "apify_stories",
+      "story_fetched_at": "2026-09-20T02:09:33.510528+00:00",
+      "story_expires_at": "2026-09-20T14:47:56+00:00",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "限時動態"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.86,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "限時動態"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "來源為 Instagram 限時動態公開更新，屬口琴演奏者相關更新，符合收錄範圍。",
+      "text": "Instagram story @_yora._",
+      "images": [
+        "/assets/feed-images/4cb1c4b4409697dba8ed.webp"
+      ],
+      "videos": [],
+      "source_image_url": "/assets/feed-images/4cb1c4b4409697dba8ed.webp",
+      "image_url": "/assets/feed-images/4cb1c4b4409697dba8ed.webp",
+      "image_width": 800,
+      "image_height": 1423,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/649819815_18039811514750913_9196551202714696136_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gGAJOtstnahBlP1dMBaaJL5Fif_7ZQTrs_tqvmueaGys1wOjW6TGgkswBa3Z6PXkAY&_nc_ohc=-63XUwwlYAkQ7kNvwG6KKPE&_nc_gid=Wf2wLcqguN6PvrMGmfzvpw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af9W2yJcAPjbPayjWjuaR5qITYQy6XrKUmFFbHf3Fuaj6A&oe=6A41BD07&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/76711db3096aa4ba92ef.webp",
+      "source_initials": "Y",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_story_yora:3989699599597431736"
+    },
+    {
+      "title": "ᴅᴜᴏ ᴠᴏʟᴄᴇ ᴍᴜꜱɪᴄ ꜱᴛᴜᴅɪᴏ 誼聲音樂室｜Instagram story @DuoVolce",
+      "headline": "Instagram story @DuoVolce",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/stories/DuoVolce/3989697074694423486/",
+      "source_id": "ig_story_duovolce",
+      "source": "ᴅᴜᴏ ᴠᴏʟᴄᴇ ᴍᴜꜱɪᴄ ꜱᴛᴜᴅɪᴏ 誼聲音樂室",
+      "source_system_name": "Duo Volce Music Studio 誼聲音樂室",
+      "source_profile_url": "https://www.instagram.com/DuoVolce/",
+      "country": "香港",
+      "region": "香港/國際",
+      "directory_entry_id": "watchlist-94",
+      "directory_entry_name": "Duo Volce Music Studio 誼聲音樂室",
+      "account": "DuoVolce",
+      "platform": "instagram",
+      "platform_label": "Instagram story",
+      "posted_at": "2026-09-19T14:42:54+00:00",
+      "posted_at_local": "2026-09-19 22:42",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-20T02:13:09.222066+00:00",
+      "media_type": "instagram_story",
+      "story": true,
+      "story_provider": "apify_stories",
+      "story_fetched_at": "2026-09-20T02:09:33.510528+00:00",
+      "story_expires_at": "2026-09-20T14:42:54+00:00",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "限時動態"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": false,
+      "llm_confidence": 0.96,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "僅見來源與限動標記，貼文文字無口琴相關內容，判定不相關。",
+      "text": "Instagram story @DuoVolce",
+      "images": [
+        "/assets/feed-images/2b964a8187ea3dfa9ab9.webp"
+      ],
+      "videos": [],
+      "source_image_url": "/assets/feed-images/2b964a8187ea3dfa9ab9.webp",
+      "image_url": "/assets/feed-images/2b964a8187ea3dfa9ab9.webp",
+      "image_width": 720,
+      "image_height": 1280,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/245552813_587442312304501_7334831981869808741_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gEhr36JBscGHEyWnfEKeSCSiiz9RCXEYd-wtP8z3lrxucFCZko7gagY6DIsQdC1GHo&_nc_ohc=B_IL8hkOgzMQ7kNvwGsu7gU&_nc_gid=P_X5ZjoOn6BRhFXMjSXX2w&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af868mP0h6CSKiotyxtBPyriGr5jeY1av8DtLWC-1utwJg&oe=6A41E9BD&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/5f856de4e7f86e6802d3.webp",
+      "source_initials": "誼聲",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_story_duovolce:3989697074694423486"
+    },
+    {
+      "title": "Yora ♥｜Instagram story @_yora._",
+      "headline": "Instagram story @_yora._",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/stories/_yora._/3989650758487546815/",
+      "source_id": "ig_story_yora",
+      "source": "Yora ♥",
+      "source_system_name": "陳瑤容 Yora Chen",
+      "source_profile_url": "https://www.instagram.com/_yora._/",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-103",
+      "directory_entry_name": "陳瑤容 Yora Chen",
+      "account": "_yora._",
+      "platform": "instagram",
+      "platform_label": "Instagram story",
+      "posted_at": "2026-09-19T13:10:53+00:00",
+      "posted_at_local": "2026-09-19 21:10",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-20T02:13:09.222066+00:00",
+      "media_type": "instagram_story",
+      "story": true,
+      "story_provider": "apify_stories",
+      "story_fetched_at": "2026-09-20T02:09:33.510528+00:00",
+      "story_expires_at": "2026-09-20T13:10:53+00:00",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "限時動態"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.86,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "限時動態"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "來源為 Instagram 限時動態，屬口琴演奏者公開更新，符合收錄範圍。",
+      "text": "Instagram story @_yora._",
+      "images": [
+        "/assets/feed-images/72aad6ae447621c75dd4.webp"
+      ],
+      "videos": [],
+      "source_image_url": "/assets/feed-images/72aad6ae447621c75dd4.webp",
+      "image_url": "/assets/feed-images/72aad6ae447621c75dd4.webp",
+      "image_width": 800,
+      "image_height": 1423,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/649819815_18039811514750913_9196551202714696136_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gGAJOtstnahBlP1dMBaaJL5Fif_7ZQTrs_tqvmueaGys1wOjW6TGgkswBa3Z6PXkAY&_nc_ohc=-63XUwwlYAkQ7kNvwG6KKPE&_nc_gid=Wf2wLcqguN6PvrMGmfzvpw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af9W2yJcAPjbPayjWjuaR5qITYQy6XrKUmFFbHf3Fuaj6A&oe=6A41BD07&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/76711db3096aa4ba92ef.webp",
+      "source_initials": "Y",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_story_yora:3989650758487546815"
+    },
+    {
       "title": "南里沙 / Risa MINAMI｜〜本日のおすすめ動画〜 「Speechless (from Aladdin)」covered by 南里沙【クロマチックハーモニカ・EWI SOLO】chromaticharmonica -Risa M…",
       "headline": "〜本日のおすすめ動画〜 「Speechless (from Aladdin)」covered by 南里沙【クロマチックハーモニカ・EWI SOLO】chromaticharmonica -Risa MINAMI https://www.…",
       "display_title": "",
@@ -903,6 +1532,69 @@
         "貼文影片"
       ],
       "key": "x_minami_risa:https://twitter.com/minami_risa/status/2101280167616475167"
+    },
+    {
+      "title": "Alysa Liao｜Instagram story @__yich___",
+      "headline": "Instagram story @__yich___",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/stories/__yich___/3989606428905161652/",
+      "source_id": "ig_story_yich",
+      "source": "Alysa Liao",
+      "source_system_name": "廖苡晴",
+      "source_profile_url": "https://www.instagram.com/__yich___/",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-46",
+      "directory_entry_name": "廖苡晴",
+      "account": "__yich___",
+      "platform": "instagram",
+      "platform_label": "Instagram story",
+      "posted_at": "2026-09-19T11:42:49+00:00",
+      "posted_at_local": "2026-09-19 19:42",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-20T02:13:09.222066+00:00",
+      "media_type": "instagram_story",
+      "story": true,
+      "story_provider": "apify_stories",
+      "story_fetched_at": "2026-09-20T02:09:33.510528+00:00",
+      "story_expires_at": "2026-09-20T11:42:49+00:00",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "限時動態"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": false,
+      "llm_confidence": 0.96,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "僅為 Instagram 限時動態來源標記，貼文文字無口琴或相關活動內容。",
+      "text": "Instagram story @__yich___",
+      "images": [
+        "/assets/feed-images/1a94e0aafbd90f8d61cf.webp"
+      ],
+      "videos": [],
+      "source_image_url": "/assets/feed-images/1a94e0aafbd90f8d61cf.webp",
+      "image_url": "/assets/feed-images/1a94e0aafbd90f8d61cf.webp",
+      "image_width": 720,
+      "image_height": 1280,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/541165853_17983626428902339_1251687501642565010_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42MDkuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gHmxME-1LS8jhaehY86JnkwHAsFazDOJkpCZaiSy-SAdyDH0aaM-OLeyIZAnlKUsyc&_nc_ohc=26OsO8vwNYAQ7kNvwEFslnt&_nc_gid=z_iKHIn7u8rmWNq0fe7X7A&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af-VqbsiR7ck4_GDLDP6K-wwiZjNry_Q0IjRBrdhv1zQgw&oe=6A41683F&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/5b5371b7851220afa3a1.webp",
+      "source_initials": "AL",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_story_yich:3989606428905161652"
     },
     {
       "title": "Michał Kielak｜MICHAŁ KIELAK - Harmonijkarz Roku 2024/ Harp Player of the year 2024/ 2024年度口琴演奏家 MICHAŁ KIELAK Harmonijk…",
@@ -81889,81 +82581,6 @@
         "補助比賽"
       ],
       "key": "ig_chgsh_harmonica:https://www.instagram.com/p/DcSUmUoINH9/"
-    },
-    {
-      "title": "Ming-Hsien Tsai｜Instagram story @damingtsai",
-      "headline": "Instagram story @damingtsai",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.instagram.com/stories/damingtsai/3968293661099774979/",
-      "source_id": "ig_story_damingtsai",
-      "source": "Ming-Hsien Tsai",
-      "source_system_name": "蔡明憲",
-      "source_profile_url": "https://www.instagram.com/damingtsai/",
-      "country": "臺灣",
-      "region": "臺灣",
-      "directory_entry_id": "watchlist-30",
-      "directory_entry_name": "蔡明憲",
-      "account": "damingtsai",
-      "platform": "instagram",
-      "platform_label": "Instagram story",
-      "posted_at": "2026-08-21T01:58:09+00:00",
-      "posted_at_local": "2026-08-21 09:58",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-08-21T06:44:51.024990+00:00",
-      "media_type": "instagram_story",
-      "story": true,
-      "story_provider": "instagram_web",
-      "story_fetched_at": "2026-08-21T06:41:48.475679+00:00",
-      "story_expires_at": "2026-08-22T01:58:09+00:00",
-      "source_feed_url": "https://rss.observe.tw/picuki/profile/damingtsai/story/0",
-      "rsshub_guid": "3968293661099774979_477953017",
-      "rsshub_title": "Instagram story @damingtsai",
-      "instagram_user_id": "477953017",
-      "matched_keywords": [
-        "限時動態"
-      ],
-      "keyword_matches": [],
-      "llm_relevant": null,
-      "llm_confidence": null,
-      "llm_labels": [],
-      "llm_categories": [],
-      "llm_reason": "",
-      "text": "Instagram story @damingtsai",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/779842318_18639316987001018_1448769430628282213_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=Mzk2ODI5MzY2MTA5OTc3NDk3OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjExNzAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=qsvq1r7fBAYQ7kNvwGVl7Qo&_nc_oc=Adph5dIjPWmyq2msFSvsm0YWzYKhkVD_EwxYLJ5871A7qeqPGKAR6OZtqqDfbXiRVdw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YPl_vmvc5ZnmJ308iO94yA&_nc_ss=7a22e&oh=00_AQFUagJEwc-9YBUbShwGFt2O6mjR7ZFA-lehOofvZ0CMmQ&oe=6A8DC257",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/779842318_18639316987001018_1448769430628282213_n.jpg?stp=dst-jpg_e35_p720x720_tt6&_nc_cat=104&ig_cache_key=Mzk2ODI5MzY2MTA5OTc3NDk3OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjExNzAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=qsvq1r7fBAYQ7kNvwGVl7Qo&_nc_oc=Adph5dIjPWmyq2msFSvsm0YWzYKhkVD_EwxYLJ5871A7qeqPGKAR6OZtqqDfbXiRVdw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YPl_vmvc5ZnmJ308iO94yA&_nc_ss=7a22e&oh=00_AQFE1Y2qp3T7tfkEx2gJejHQNhS1ZGPPqS3ZX1Br2_mpCA&oe=6A8DC257",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/779842318_18639316987001018_1448769430628282213_n.jpg?stp=dst-jpg_e35_p640x640_sh2.08_tt6&_nc_cat=104&ig_cache_key=Mzk2ODI5MzY2MTA5OTc3NDk3OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjExNzAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=qsvq1r7fBAYQ7kNvwGVl7Qo&_nc_oc=Adph5dIjPWmyq2msFSvsm0YWzYKhkVD_EwxYLJ5871A7qeqPGKAR6OZtqqDfbXiRVdw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YPl_vmvc5ZnmJ308iO94yA&_nc_ss=7a22e&oh=00_AQH27mPT-kE5b-29osYOtP2Z2wFNQhD0SfolHxlQLVfmtg&oe=6A8DC257",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/779842318_18639316987001018_1448769430628282213_n.jpg?stp=dst-jpg_e35_p480x480_tt6&_nc_cat=104&ig_cache_key=Mzk2ODI5MzY2MTA5OTc3NDk3OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjExNzAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=qsvq1r7fBAYQ7kNvwGVl7Qo&_nc_oc=Adph5dIjPWmyq2msFSvsm0YWzYKhkVD_EwxYLJ5871A7qeqPGKAR6OZtqqDfbXiRVdw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YPl_vmvc5ZnmJ308iO94yA&_nc_ss=7a22e&oh=00_AQGXfBgamdDrp18IRf16cY00UtwhfM1sZOejWwKVvO8Z6w&oe=6A8DC257",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/779842318_18639316987001018_1448769430628282213_n.jpg?stp=dst-jpg_e35_p320x320_tt6&_nc_cat=104&ig_cache_key=Mzk2ODI5MzY2MTA5OTc3NDk3OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjExNzAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=qsvq1r7fBAYQ7kNvwGVl7Qo&_nc_oc=Adph5dIjPWmyq2msFSvsm0YWzYKhkVD_EwxYLJ5871A7qeqPGKAR6OZtqqDfbXiRVdw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YPl_vmvc5ZnmJ308iO94yA&_nc_ss=7a22e&oh=00_AQHr9PuIk6ffbtBMdzUwdvnTt6yvqstDcc8ozu96jJJeuw&oe=6A8DC257",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/779842318_18639316987001018_1448769430628282213_n.jpg?stp=dst-jpg_e35_p240x240_tt6&_nc_cat=104&ig_cache_key=Mzk2ODI5MzY2MTA5OTc3NDk3OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjExNzAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=qsvq1r7fBAYQ7kNvwGVl7Qo&_nc_oc=Adph5dIjPWmyq2msFSvsm0YWzYKhkVD_EwxYLJ5871A7qeqPGKAR6OZtqqDfbXiRVdw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YPl_vmvc5ZnmJ308iO94yA&_nc_ss=7a22e&oh=00_AQEUJGR_D2sHTdbtzzxMvodfd_piT943KoADggYEwHq4ig&oe=6A8DC257",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/779842318_18639316987001018_1448769430628282213_n.jpg?stp=c0.455.1170.1170a_dst-jpg_e35_s1080x1080_tt6&_nc_cat=104&ig_cache_key=Mzk2ODI5MzY2MTA5OTc3NDk3OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjExNzAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=qsvq1r7fBAYQ7kNvwGVl7Qo&_nc_oc=Adph5dIjPWmyq2msFSvsm0YWzYKhkVD_EwxYLJ5871A7qeqPGKAR6OZtqqDfbXiRVdw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YPl_vmvc5ZnmJ308iO94yA&_nc_ss=7a22e&oh=00_AQGstYRsuwOKX7f30XQlynTQ5RCgJTYQY2Jd0sz-jJZ3fg&oe=6A8DC257",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/779842318_18639316987001018_1448769430628282213_n.jpg?stp=c0.455.1170.1170a_dst-jpg_e35_s750x750_sh2.08_tt6&_nc_cat=104&ig_cache_key=Mzk2ODI5MzY2MTA5OTc3NDk3OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjExNzAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=qsvq1r7fBAYQ7kNvwGVl7Qo&_nc_oc=Adph5dIjPWmyq2msFSvsm0YWzYKhkVD_EwxYLJ5871A7qeqPGKAR6OZtqqDfbXiRVdw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YPl_vmvc5ZnmJ308iO94yA&_nc_ss=7a22e&oh=00_AQF0t6bMwUq_k67tp6j_Bq5Yz3yKDIDtNHMOCTT0pF5FHw&oe=6A8DC257",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/779842318_18639316987001018_1448769430628282213_n.jpg?stp=c0.455.1170.1170a_dst-jpg_e35_s640x640_sh2.08_tt6&_nc_cat=104&ig_cache_key=Mzk2ODI5MzY2MTA5OTc3NDk3OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjExNzAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=qsvq1r7fBAYQ7kNvwGVl7Qo&_nc_oc=Adph5dIjPWmyq2msFSvsm0YWzYKhkVD_EwxYLJ5871A7qeqPGKAR6OZtqqDfbXiRVdw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YPl_vmvc5ZnmJ308iO94yA&_nc_ss=7a22e&oh=00_AQH7SJ8q39_5anL85U32QzVPCwyg7x2Ae6hF7PgR2A3ANA&oe=6A8DC257",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/779842318_18639316987001018_1448769430628282213_n.jpg?stp=c0.455.1170.1170a_dst-jpg_e35_s480x480_tt6&_nc_cat=104&ig_cache_key=Mzk2ODI5MzY2MTA5OTc3NDk3OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjExNzAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=qsvq1r7fBAYQ7kNvwGVl7Qo&_nc_oc=Adph5dIjPWmyq2msFSvsm0YWzYKhkVD_EwxYLJ5871A7qeqPGKAR6OZtqqDfbXiRVdw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YPl_vmvc5ZnmJ308iO94yA&_nc_ss=7a22e&oh=00_AQFAZQJ4OpBsyAECt6jU6ADziE6Had92h-AtSg7nDOMp-g&oe=6A8DC257",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/779842318_18639316987001018_1448769430628282213_n.jpg?stp=c0.455.1170.1170a_dst-jpg_e35_s320x320_tt6&_nc_cat=104&ig_cache_key=Mzk2ODI5MzY2MTA5OTc3NDk3OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjExNzAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=qsvq1r7fBAYQ7kNvwGVl7Qo&_nc_oc=Adph5dIjPWmyq2msFSvsm0YWzYKhkVD_EwxYLJ5871A7qeqPGKAR6OZtqqDfbXiRVdw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YPl_vmvc5ZnmJ308iO94yA&_nc_ss=7a22e&oh=00_AQH_iEGZmlD6O-TXDI9-yGoHvcKyXuW2NUR-uCwDX1wumA&oe=6A8DC257",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/779842318_18639316987001018_1448769430628282213_n.jpg?stp=c0.455.1170.1170a_dst-jpg_e35_s240x240_tt6&_nc_cat=104&ig_cache_key=Mzk2ODI5MzY2MTA5OTc3NDk3OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjExNzAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=qsvq1r7fBAYQ7kNvwGVl7Qo&_nc_oc=Adph5dIjPWmyq2msFSvsm0YWzYKhkVD_EwxYLJ5871A7qeqPGKAR6OZtqqDfbXiRVdw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YPl_vmvc5ZnmJ308iO94yA&_nc_ss=7a22e&oh=00_AQFJuuuPM3frE6nqLQ-IbRQ32ks6fKjkiBshgbwoPDbFZA&oe=6A8DC257",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/779842318_18639316987001018_1448769430628282213_n.jpg?stp=c0.455.1170.1170a_dst-jpg_e35_s150x150_tt6&_nc_cat=104&ig_cache_key=Mzk2ODI5MzY2MTA5OTc3NDk3OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjExNzAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=qsvq1r7fBAYQ7kNvwGVl7Qo&_nc_oc=Adph5dIjPWmyq2msFSvsm0YWzYKhkVD_EwxYLJ5871A7qeqPGKAR6OZtqqDfbXiRVdw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YPl_vmvc5ZnmJ308iO94yA&_nc_ss=7a22e&oh=00_AQGzr6LOEJqvke3dG7TcHGWFQgkz9JYU9X-UeNNxdkw4NQ&oe=6A8DC257"
-      ],
-      "videos": [],
-      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/779842318_18639316987001018_1448769430628282213_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=Mzk2ODI5MzY2MTA5OTc3NDk3OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjExNzAuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=qsvq1r7fBAYQ7kNvwGVl7Qo&_nc_oc=Adph5dIjPWmyq2msFSvsm0YWzYKhkVD_EwxYLJ5871A7qeqPGKAR6OZtqqDfbXiRVdw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YPl_vmvc5ZnmJ308iO94yA&_nc_ss=7a22e&oh=00_AQFUagJEwc-9YBUbShwGFt2O6mjR7ZFA-lehOofvZ0CMmQ&oe=6A8DC257",
-      "image_url": "/assets/feed-images/e8f7e9ae5f5d8d392f8d.webp",
-      "image_width": 800,
-      "image_height": 1423,
-      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/452992890_468289262797164_2736951104040571947_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42NDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gHAaKiEvLO7I3-dvFMyAu-klVpBaBWxjhC4rwre4bCgG0sDv5Jvtz5qJGmXHB_p30g&_nc_ohc=ORX9WcsJqsUQ7kNvwEm8t9s&_nc_gid=YPl_vmvc5ZnmJ308iO94yA&edm=ANmP7GQBAAAA&ccb=7-5&oh=00_AQFegefbp0Tp61U_X-i29v65KhUjGd6Gr_xIRohq-npSxQ&oe=6A8DD3BC&_nc_sid=982cc7",
-      "avatar_url": "/assets/source-avatars/6a42aaf8f5dc405d18c0.webp",
-      "source_initials": "MHT",
-      "categories": [
-        "posts-videos"
-      ],
-      "category_labels": [
-        "貼文影片"
-      ],
-      "key": "ig_story_damingtsai:3968293661099774979_477953017"
     }
   ]
 }

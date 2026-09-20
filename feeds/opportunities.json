@@ -1,6 +1,81 @@
 {
   "items": [
     {
+      "title": "Leafin Harmonica Ensemble｜Instagram story @_leafin_harmonicaensemble",
+      "headline": "Instagram story @_leafin_harmonicaensemble",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/stories/_leafin_harmonicaensemble/3989978794492654566/",
+      "source_id": "ig_story_leafin_harmonicaensemble",
+      "source": "Leafin Harmonica Ensemble",
+      "source_system_name": "Leafin Harmonica Ensemble",
+      "source_profile_url": "https://www.instagram.com/_leafin_harmonicaensemble/",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "directory_entry_id": "watchlist-53",
+      "directory_entry_name": "Leafin Harmonica Ensemble",
+      "account": "_leafin_harmonicaensemble",
+      "platform": "instagram",
+      "platform_label": "Instagram story",
+      "posted_at": "2026-09-20T00:02:38+00:00",
+      "posted_at_local": "2026-09-20 08:02",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-20T02:13:09.222066+00:00",
+      "media_type": "instagram_story",
+      "story": true,
+      "story_provider": "apify_stories",
+      "story_fetched_at": "2026-09-20T02:09:33.510528+00:00",
+      "story_expires_at": "2026-09-21T00:02:38+00:00",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "限時動態"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.93,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "限時動態"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "來源為口琴合奏團的 Instagram 限時動態，屬口琴公開更新。",
+      "text": "Instagram story @_leafin_harmonicaensemble",
+      "images": [
+        "/assets/feed-images/b1029784b6c6478f2d5f.webp"
+      ],
+      "videos": [],
+      "source_image_url": "/assets/feed-images/b1029784b6c6478f2d5f.webp",
+      "image_url": "/assets/feed-images/b1029784b6c6478f2d5f.webp",
+      "image_width": 720,
+      "image_height": 1280,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/344582327_953435892351985_2418767897146553133_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gHu2ukt4STo_nW7MzEXkZAHtEX78sepiHcyKlSg7L7cO5If5ZtnpGPOdZ9KB_3IEHo&_nc_ohc=oSUy9Jj2eP8Q7kNvwGvfy-q&_nc_gid=7RPsfg5tudRX4NgXk-LcPQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQCsyF4waMJw4WkJCYeFq7XifHd20Zi87pdiLrRahA8y6g&oe=6A4A0AB7&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/4f7972d9ee649563ba48.webp",
+      "source_initials": "LHE",
+      "categories": [
+        "posts-videos",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽"
+      ],
+      "key": "ig_story_leafin_harmonicaensemble:3989978794492654566"
+    },
+    {
       "title": "口琴音樂賽事中心｜口琴音乐赛事中心 口琴音乐赛事中心 中文 EN 日语 Korean 江苏惠文乐器有限公司、江苏东方乐器有限公司、江苏惠文文化发展有限公司 切换语言 口琴音乐赛事中心 注册 / 登录 首页 活动列表 活动资讯 周边商城 学…",
       "headline": "口琴音乐赛事中心",
       "display_title": "口琴音乐赛事中心",
