@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T01:02:48.525514Z",
+  "generatedAt": "2026-09-20T01:38:37.119854Z",
   "source": {
     "id": 322,
     "slug": "tombo-festival-awards",
@@ -20,6 +20,20 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/e98d41e4af75cd611738.webp",
         "width": 800,
         "height": 450
+      }
+    },
+    {
+      "id": "post-ac25bbaba20e7c80944ab1f6",
+      "title": "今日は第57回ニッポンハーモニカクラブコンサートです。",
+      "excerpt": "今日は第57回ニッポンハーモニカクラブコンサートです。",
+      "url": "https://www.facebook.com/tombogakki/posts/pfbid0vKU8o8PwDrp39TtfDdi2g7Qi47vStgprxq6GpFwMgjydbPuH7uKoS4ZDNbzeQcoXl",
+      "sourceName": "TOMBO祭アワード",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-17T06:47:24Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ad8348d5ea606ea8de1f.webp",
+        "width": 443,
+        "height": 590
       }
     },
     {

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T01:02:48.525514Z",
+  "generatedAt": "2026-09-20T01:38:37.119854Z",
   "source": {
     "id": 218,
     "slug": "evelyn-choong",
@@ -21,6 +21,15 @@
         "width": 720,
         "height": 1280
       }
+    },
+    {
+      "id": "post-9255d901063355dfb44a0371",
+      "title": "今晚將會與來自臺灣的大明老師一起暢聊",
+      "excerpt": "今晚將會與來自臺灣的大明老師一起暢聊 關於口琴比賽與評審觀點這檔事 歡迎大家來聽聽～",
+      "url": "https://www.facebook.com/evelyn.choong.3/posts/pfbid032jyz5Cu2TcNxR4j7Kw2dC9UpVs9wUM4mjzHYCXX4GiLHVrEc2K8A4VUjDT144Pcpl",
+      "sourceName": "Evelyn Choong 鍾雪兒",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-22T00:08:19Z"
     }
   ]
 }

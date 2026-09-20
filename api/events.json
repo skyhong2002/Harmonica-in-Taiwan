@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 312,
+  "count": 313,
   "items": [
     {
       "title": "口琴音樂賽事中心｜口琴音乐赛事中心 口琴音乐赛事中心 中文 EN 日语 Korean 江苏惠文乐器有限公司、江苏东方乐器有限公司、江苏惠文文化发展有限公司 切换语言 口琴音乐赛事中心 注册 / 登录 首页 活动列表 活动资讯 周边商城 学…",
@@ -2195,6 +2195,81 @@
         "學生社團"
       ],
       "key": "yt_weiwuyingfilm:f38FWMPppEo"
+    },
+    {
+      "title": "TOMBO祭アワード｜今日は第57回ニッポンハーモニカクラブコンサートです。 https://www.facebook.com/tombogakki/posts/pfbid0vKU8o8PwDrp39TtfDdi2g7Qi47vStgpr…",
+      "headline": "今日は第57回ニッポンハーモニカクラブコンサートです。",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/tombogakki/posts/pfbid0vKU8o8PwDrp39TtfDdi2g7Qi47vStgprxq6GpFwMgjydbPuH7uKoS4ZDNbzeQcoXl",
+      "source_id": "fb_tombogakki",
+      "source": "TOMBO祭アワード",
+      "source_system_name": "TOMBO祭アワード",
+      "source_profile_url": "https://facebook.com/tombogakki",
+      "country": "日本",
+      "region": "日本/線上",
+      "directory_entry_id": "watchlist-322",
+      "directory_entry_name": "TOMBO祭アワード",
+      "account": "tombogakki",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-09-17T06:47:24.000Z",
+      "posted_at_local": "2026-09-17 14:47",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-20T01:37:11.501892+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "演出",
+        "音樂會"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.93,
+      "llm_labels": [
+        "口琴",
+        "演出",
+        "音樂會"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "內容明確提到哈蒙尼卡俱樂部音樂會，屬口琴演出活動。",
+      "text": "今日は第57回ニッポンハーモニカクラブコンサートです。\nhttps://www.facebook.com/tombogakki/posts/pfbid0vKU8o8PwDrp39TtfDdi2g7Qi47vStgprxq6GpFwMgjydbPuH7uKoS4ZDNbzeQcoXl",
+      "images": [
+        "https://scontent-msp1-1.xx.fbcdn.net/v/t39.30808-6/813976443_1664030009014457_3451972302345320206_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=L4fQ7U4vgv8Q7kNvwG5ejbO&_nc_oc=AdpkFr-t0rskXjUbBS4QAMJndkovnmLhjWSK60juDJGVMWX1zI6HHQWOvrzqGzdg2D5KPSxA_iNf_4fu4EnmTpSN&_nc_zt=23&_nc_ht=scontent-msp1-1.xx&_nc_gid=-ptFFkxBAy3ApfNjgGi-Cg&_nc_ss=73289&oh=00_AQJSJuFO2RmHKsW2vCOTQxaDCwpe2y_pf-AvcGxKi_zPEw&oe=6AB4FFB1",
+        "https://scontent-msp1-1.xx.fbcdn.net/v/t39.30808-6/813428693_1664030052347786_5369260229865710536_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=44Evi0yLzJgQ7kNvwEN1d0y&_nc_oc=AdryMd7e1YV__gDZCz_dLxNxc6uhwWj7P_fORO8x3p3ONeHveeQjwWEVtGuBiMiFeRHKtRK4YZjgKnntQ7dnpMcv&_nc_zt=23&_nc_ht=scontent-msp1-1.xx&_nc_gid=-ptFFkxBAy3ApfNjgGi-Cg&_nc_ss=73289&oh=00_AQKd7hgsRs00eagU3T9ELaMCUlH0UHqAIUngIaFTmuS7FA&oe=6AB5083C",
+        "https://scontent-msp1-1.xx.fbcdn.net/v/t39.30808-6/813428709_1664030002347791_5929946977115453984_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=015amPSh-rsQ7kNvwGBU606&_nc_oc=Adq_0rY9Rmf6ucDqr6s5SRGbJS-N2ZiE2Wspx2Qvw6JcvFi7kqtKQDC-b_jSJUemMl3Nr4RnwgUSR3cspealz-AH&_nc_zt=23&_nc_ht=scontent-msp1-1.xx&_nc_gid=-ptFFkxBAy3ApfNjgGi-Cg&_nc_ss=73289&oh=00_AQKxtVZ_G0eQ9gqWqtRTH28i-F55f1Nie3jG3EyfNlbphw&oe=6AB514F8"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-msp1-1.xx.fbcdn.net/v/t39.30808-6/813976443_1664030009014457_3451972302345320206_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=L4fQ7U4vgv8Q7kNvwG5ejbO&_nc_oc=AdpkFr-t0rskXjUbBS4QAMJndkovnmLhjWSK60juDJGVMWX1zI6HHQWOvrzqGzdg2D5KPSxA_iNf_4fu4EnmTpSN&_nc_zt=23&_nc_ht=scontent-msp1-1.xx&_nc_gid=-ptFFkxBAy3ApfNjgGi-Cg&_nc_ss=73289&oh=00_AQJSJuFO2RmHKsW2vCOTQxaDCwpe2y_pf-AvcGxKi_zPEw&oe=6AB4FFB1",
+      "image_url": "/assets/feed-images/ad8348d5ea606ea8de1f.webp",
+      "image_width": 443,
+      "image_height": 590,
+      "source_avatar_url": "https://scontent-msp1-1.xx.fbcdn.net/v/t39.30808-1/302171799_507556571328479_3917570218525636477_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1654x1654&ctp=s50x50&_nc_cat=108&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=pb2yt5VbPpMQ7kNvwEznEmn&_nc_oc=AdqiwtNj8SWBJViIJEAaYUhjAymCSiJh1nvh_GeNB6Y6SRfIASrB-tkvjBTYNIIGrqs8NiRIGG_GYDG3YoqY5-Er&_nc_zt=24&_nc_ht=scontent-msp1-1.xx&_nc_gid=-ptFFkxBAy3ApfNjgGi-Cg&_nc_ss=73289&oh=00_AQKSQ3AA-inSy1EoOkJw-NCg1DbKKAX-4Q53k06pgQACew&oe=6AB4FF31",
+      "avatar_url": "/assets/source-avatars/8472450ccc2270224456.webp",
+      "source_initials": "T",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "fb_tombogakki:1664029912347800"
     },
     {
       "title": "吹出好心琴 + Ou Frog +｜[口琴音樂會＿風城show琴] ｜狂響口琴樂團｜Ausencia Infinita(無盡的思念） ＊9/20（日）午後，在臺北，雅痞書店 狂響口琴樂團將帶來『探戈與島嶼之歌』。歡迎想聽更多探戈曲目的朋友…",
