@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T23:51:26.485504Z",
+  "generatedAt": "2026-09-20T00:26:50.322484Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/115-filip-jers/"
   },
   "items": [
+    {
+      "id": "post-9ba0872d7e043afe0cfd4888",
+      "title": "Just connected my new mixer and recorded some jazz harmonica music for you all 🥳",
+      "excerpt": "Just connected my new mixer and recorded some jazz harmonica music for you all 🥳",
+      "url": "https://www.facebook.com/reel/1059781100302363/",
+      "sourceName": "Filip Jers",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-18T20:25:28Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/12f478373e555fb73c44.webp",
+        "width": 540,
+        "height": 960
+      }
+    },
     {
       "id": "post-d99c6c3d30d86dab35f41ecb",
       "title": "I updated my video rig for making harmonica videos!",
@@ -34,6 +48,34 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/fd230008549bb72f55e3.webp",
         "width": 800,
         "height": 450
+      }
+    },
+    {
+      "id": "post-a74812ccf8b97f50d21a3c7e",
+      "title": "Trading harmonica and guitar jazz licks with my buddy @emilernebroguitar ☀️ live from yesterday, playing at @utopiajazz…",
+      "excerpt": "Trading harmonica and guitar jazz licks with my buddy @emilernebroguitar ☀️ live from yesterday, playing at @utopiajazzgbg , great venue!",
+      "url": "https://www.facebook.com/reel/1737878554135505/",
+      "sourceName": "Filip Jers",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-16T13:03:22Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/64c49e55475237f175e6.webp",
+        "width": 541,
+        "height": 960
+      }
+    },
+    {
+      "id": "post-b2e81e696f43a3dde618d123",
+      "title": "- Vad smakar ett munspel?",
+      "excerpt": "- Vad smakar ett munspel? - Får ni betalt för det här? - Hur länge har ni spelat? - Finns det munspel i olika smaker? - Vad är er favoritlåt? Skolkonserter i Karlsborg med Emil Ernebro, härliga tider! ☀️",
+      "url": "https://www.facebook.com/filipjersmusic/posts/pfbid0ucWqgN1Yvact3JSTcRWak2YdknSCZwJ3HpVStcRbTmubzYaDgrd7H1xnVn4AN1Pml",
+      "sourceName": "Filip Jers",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-15T10:27:57Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/f892af5ffc3255fb8080.webp",
+        "width": 526,
+        "height": 701
       }
     },
     {
