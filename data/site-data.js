@@ -1,5 +1,5 @@
 window.HARMONICA_OBSERVE_DATA = {
-  "generatedAt": "2026-09-20",
+  "generatedAt": "2026-09-21",
   "entries": [
     {
       "id": "watchlist-58",
@@ -3280,7 +3280,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-16 22:44",
       "latestUpdateSource": "臺中市中華口琴會",
       "latestUpdateUrl": "https://www.facebook.com/TCHarmonicaA/posts/pfbid0K3XWmaqAzATbxK51PPA3DmTzLG245NDQbyjVp7SrLijAJKom5VqdiUgaRwTf3iH4l",
-      "avatarUrl": "/assets/source-avatars/4df93c46438ca873550e.webp",
+      "avatarUrl": "/assets/source-avatars/48d4f3dac27b6fce3082.webp",
       "sourceInitials": "臺中",
       "sourceTags": [
         "協會",
