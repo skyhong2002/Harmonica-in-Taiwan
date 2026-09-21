@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 304,
+  "count": 305,
   "items": [
     {
       "title": "口琴音樂賽事中心｜口琴音乐赛事中心 口琴音乐赛事中心 中文 EN 日语 Korean 江苏惠文乐器有限公司、江苏东方乐器有限公司、江苏惠文文化发展有限公司 切换语言 口琴音乐赛事中心 注册 / 登录 首页 活动列表 活动资讯 周边商城 学…",
@@ -997,6 +997,84 @@
         "公開活動"
       ],
       "key": "web_305:21dd957702b4d56dab731272a7f3bb44bc7cab86d339e83960e628e8db8b41ec"
+    },
+    {
+      "title": "吹口琴的小园园｜铿锵有力，热血澎湃 | 口琴演奏《#强军战歌 》【吹口琴的小园园】#music #vlog 听完这首歌曲记得订阅我的频道哦❤👉https://bit.ly/2D09zMV 哈喽，这里是吹口琴的小园园的官方YouTube频道…",
+      "headline": "铿锵有力，热血澎湃 | 口琴演奏《#强军战歌 》【吹口琴的小园园】#music #vlog",
+      "display_title": "铿锵有力，热血澎湃 | 口琴演奏《#强军战歌 》【吹口琴的小园园】#music #vlog",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=gLqYo5LItuI",
+      "source_id": "yt_yuanyuanharmonica",
+      "source": "吹口琴的小园园",
+      "source_system_name": "吹口琴的小园园",
+      "source_profile_url": "https://www.youtube.com/channel/UCsVX4NKKFhUjjlvG3Ks1uXQ",
+      "country": "中國",
+      "region": "中國/北京",
+      "directory_entry_id": "watchlist-221",
+      "directory_entry_name": "吹口琴的小园园",
+      "account": "https://www.youtube.com/channel/UCsVX4NKKFhUjjlvG3Ks1uXQ",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-09-20T10:00:37+00:00",
+      "posted_at_local": "2026-09-20 18:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-21T01:03:29.070797+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "影片"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.99,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴演奏影片，屬口琴演奏者公開更新，符合收錄範圍。",
+      "text": "铿锵有力，热血澎湃 | 口琴演奏《#强军战歌 》【吹口琴的小园园】#music #vlog\n听完这首歌曲记得订阅我的频道哦❤👉https://bit.ly/2D09zMV\n哈喽，这里是吹口琴的小园园的官方YouTube频道，\n希望大家多多点赞、分享和关注\ntiktok: @ten_holes\n合作邮箱：soharp@126.com\n【简单易学的蓝调十孔口琴教学】👉http://bit.ly/2ZZ4DQh\n【简单易学的半音阶口琴教学】👉http://bit.ly/3e1nmmJ\nHello everyone, this is XiaoYuanYuan Play the harmonica. Welcome to my YouTube channel.\nPlease like, comment & subscribe to my channel:https://bit.ly/2D09zMV\n#口琴 #吹口琴的小园园 #音樂 #harmonica #harmonicaplayer",
+      "images": [
+        "https://i.ytimg.com/vi_webp/gLqYo5LItuI/maxresdefault.webp"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi_webp/gLqYo5LItuI/maxresdefault.webp",
+      "image_url": "/assets/feed-images/952eed10d0baabf267d4.webp",
+      "image_width": 1280,
+      "image_height": 720,
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_n4Zs3juSRqkg31S3daPD6AZH7SYf1mnmcPZVQTSMeGYg=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/aed956184d6a75510a0c.webp",
+      "source_initials": "吹口",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "yt_yuanyuanharmonica:gLqYo5LItuI"
     },
     {
       "title": "Rivet 口琴重奏｜《琴聲貢聚》口琴計劃 2026-27 – 計劃啟動音樂會 – 香港口琴協會 ');mask-image:url('data:image/svg+xml;utf8, ');mask-mode:alpha;-webkit…",
