@@ -5376,7 +5376,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-08 22:03",
       "latestUpdateSource": "天狼星口琴樂團 Sirius Harmonica Ensemble",
       "latestUpdateUrl": "https://www.facebook.com/SiriusHarp/posts/pfbid031FbbQRd6Sb1R3CJFdiNf3zSJfydc6gF2P73B56yi9TEZRCSC8k9rdVSEryzCAg5Jl",
-      "avatarUrl": "/assets/source-avatars/93835cb48c6cc1048bfa.webp",
+      "avatarUrl": "/assets/source-avatars/be6f9d6d00efc7fe16f0.webp",
       "sourceInitials": "SHE",
       "sourceTags": [
         "活動資訊",
@@ -6249,7 +6249,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-04 11:15",
       "latestUpdateSource": "蔡明憲",
       "latestUpdateUrl": "https://www.facebook.com/dming.tsai/posts/pfbid0NnCTwyJjMa3YjWbEwfuRXxEAPcCctRqtVd9DrXSvBZNZGDCqNU2AgSGpnV2KAk1yl",
-      "avatarUrl": "/assets/source-avatars/bf2f349c5f4c1ca4392a.webp",
+      "avatarUrl": "/assets/source-avatars/ddd1f562b3747ddda862.webp",
       "sourceInitials": "蔡明",
       "sourceTags": [
         "演奏者",
@@ -7697,7 +7697,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-01 08:47",
       "latestUpdateSource": "王衍華",
       "latestUpdateUrl": "https://www.instagram.com/stories/yenhua_wang/3976230856901083300/",
-      "avatarUrl": "/assets/source-avatars/2093e47371f595672bc2.webp",
+      "avatarUrl": "/assets/source-avatars/54c54dca2cd6e276b658.webp",
       "sourceInitials": "王衍",
       "sourceTags": [
         "演奏者",
@@ -8608,7 +8608,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-31 14:23",
       "latestUpdateSource": "Lee Hangyeol 이한결",
       "latestUpdateUrl": "https://www.instagram.com/stories/gyeoli_94/3975674956381902689/",
-      "avatarUrl": "/assets/source-avatars/22373ada8608e9a53219.webp",
+      "avatarUrl": "/assets/source-avatars/59a54eb15ec03c6ec24d.webp",
       "sourceInitials": "LH",
       "sourceTags": [
         "演奏者",
