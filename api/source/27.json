@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T22:19:00.448313Z",
+  "generatedAt": "2026-09-21T23:00:26.700404Z",
   "source": {
     "id": 27,
     "slug": "peacetones-harmonica",
@@ -18,6 +18,20 @@
       "publishedAt": "2026-09-21T15:48:57Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/225441819c272a5fe186.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-baa5ab4ae4df167ea4997f2a",
+      "title": "萬華社大「龍韻口琴合奏班」上課記錄｜口琴合奏｜電視劇「逐玉」插曲【一念】",
+      "excerpt": "萬華社大「龍韻口琴合奏班」上課記錄｜口琴合奏｜電視劇「逐玉」插曲【一念】",
+      "url": "https://www.youtube.com/watch?v=aGeTBUsz6rc",
+      "sourceName": "音和樂器",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-21T15:34:58Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/3f7a65ef6f002b47dc1c.webp",
         "width": 800,
         "height": 450
       }
