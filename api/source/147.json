@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T13:56:22.108698Z",
+  "generatedAt": "2026-09-21T14:38:11.406616Z",
   "source": {
     "id": 147,
     "slug": "yoonseok-lee",
@@ -32,20 +32,6 @@
       "publishedAt": "2026-08-23T10:35:28Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/ce610a7e39f1b2483842.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-0fca5b9f0b5aaf300d22b6b9",
-      "title": "이윤석 에세이 『그 모든 시간 속에서도 음악은 여전히』 출간",
-      "excerpt": "이윤석 에세이 『그 모든 시간 속에서도 음악은 여전히』 출간 안녕하세요~ 제가 음악 에세이를 내게 되었습니다. 연주자로 살아오며 생각한 것들을 조금씩 글로 적어 묶었습니다. 글로도 많은 분들과 만나고 싶어요. 현재 온라인 서점(교보문고, 예스24, 알라딘)에서 판매 중입니다😊📖 많은 관심 부탁드립니다😍 ----- 이윤석 에세이 『그 모든 시간 속에서도 음악은 여전히』 “이 작은 악기를 클래식 무대의 당당한 주역으로 세운 것은 그의 대담함과 멈추지 않는 도전 정신 덕분이다.” [금난새 (지휘자)]…",
-      "url": "https://www.youtube.com/watch?v=q7VPaBm1Km8",
-      "sourceName": "Yoonseok Lee",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-22T14:16:04Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/60efecb8d2817ea27dda.webp",
         "width": 800,
         "height": 450
       }
