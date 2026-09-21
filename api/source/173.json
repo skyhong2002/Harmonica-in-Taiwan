@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T17:25:59.808906Z",
+  "generatedAt": "2026-09-21T18:07:57.416032Z",
   "source": {
     "id": 173,
     "slug": "spring-harp-fest",
@@ -20,6 +20,20 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/588fa1f204d50022b256.webp",
         "width": 641,
         "height": 335
+      }
+    },
+    {
+      "id": "post-d4c0be809013c5d64211b858",
+      "title": "Spring Harp Fest",
+      "excerpt": "",
+      "url": "https://www.facebook.com/events/1764894444851163/",
+      "sourceName": "Spring Harp Fest",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-11T14:17:14Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/5c6bc1e3a1da1aa5d5a1.webp",
+        "width": 565,
+        "height": 565
       }
     }
   ]

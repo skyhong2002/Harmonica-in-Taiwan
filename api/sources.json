@@ -1460,6 +1460,54 @@
       ]
     },
     {
+      "id": "watchlist-6",
+      "publicId": "6",
+      "name": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
+      "nameEn": "Rhapsody Harmonica Ensemble",
+      "category": "活動資訊",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴重奏與合奏/口琴教學/簡譜製作/編曲/THMF 2026協辦",
+      "structuredSummary": "口琴重奏與合奏/口琴教學/簡譜製作/編曲/THMF 2026協辦 / 口琴重奏/口琴合奏 / 演出團體/教學與編曲來源/音樂節協辦",
+      "summary": "臺灣的演出團體、教學與編曲來源與音樂節協辦，涵蓋口琴重奏與合奏、口琴教學、簡譜製作、編曲與THMF 2026協辦。",
+      "keywords": "Rhapsody Harmonica Ensemble 狂響口琴樂團 教學 簡譜 編曲 THMF 2026",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/RhapsodyHarmonicaEnsemble/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "6-rhapsody-harmonica-ensemble",
+      "latestUpdateAt": "2026-09-20T04:12:48+00:00",
+      "latestUpdateLocal": "2026-09-20 12:12",
+      "latestUpdateSource": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.facebook.com/RhapsodyHarmonicaEnsemble/posts/pfbid02SzimkhTTjtJ3FTYPUfJh2iC7sDqLH8MNs5eRBeRSewMXSZr48aTDRFwt7xUeMYaZl",
+      "avatarUrl": "/assets/source-avatars/rhapsody-harmonica.jpg",
+      "sourceInitials": "RHE",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "教學",
+        "音樂節",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_rhapsodyharmonicaensemble",
+          "name": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/RhapsodyHarmonicaEnsemble",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-50",
       "publicId": "50",
       "name": "Aiden Soon",
@@ -5238,54 +5286,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/user/Moridaira01",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-6",
-      "publicId": "6",
-      "name": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
-      "nameEn": "Rhapsody Harmonica Ensemble",
-      "category": "活動資訊",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴重奏與合奏/口琴教學/簡譜製作/編曲/THMF 2026協辦",
-      "structuredSummary": "口琴重奏與合奏/口琴教學/簡譜製作/編曲/THMF 2026協辦 / 口琴重奏/口琴合奏 / 演出團體/教學與編曲來源/音樂節協辦",
-      "summary": "臺灣的演出團體、教學與編曲來源與音樂節協辦，涵蓋口琴重奏與合奏、口琴教學、簡譜製作、編曲與THMF 2026協辦。",
-      "keywords": "Rhapsody Harmonica Ensemble 狂響口琴樂團 教學 簡譜 編曲 THMF 2026",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/RhapsodyHarmonicaEnsemble/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "6-rhapsody-harmonica-ensemble",
-      "latestUpdateAt": "2026-09-10T06:46:58+00:00",
-      "latestUpdateLocal": "2026-09-10 14:46",
-      "latestUpdateSource": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
-      "latestUpdateUrl": "https://www.facebook.com/RhapsodyHarmonicaEnsemble/posts/pfbid021sRHsMiSDXgf3Ft1psA1Ut5sSvLoLzKgRjiCNtk2bpYuPTmM4oof1B9wkX9i8SQbl",
-      "avatarUrl": "/assets/source-avatars/rhapsody-harmonica.jpg",
-      "sourceInitials": "RHE",
-      "sourceTags": [
-        "活動資訊",
-        "團體樂團",
-        "教學",
-        "音樂節",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_rhapsodyharmonicaensemble",
-          "name": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/RhapsodyHarmonicaEnsemble",
           "feedUrl": ""
         }
       ]

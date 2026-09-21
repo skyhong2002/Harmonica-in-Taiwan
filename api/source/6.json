@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T17:25:59.808906Z",
+  "generatedAt": "2026-09-21T18:07:57.416032Z",
   "source": {
     "id": 6,
     "slug": "rhapsody-harmonica-ensemble",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/6-rhapsody-harmonica-ensemble/"
   },
   "items": [
+    {
+      "id": "post-c0fc488f293b622c8c6d0f08",
+      "title": "9/20 14:10雅痞書店節目單",
+      "excerpt": "9/20 14:10雅痞書店節目單",
+      "url": "https://www.facebook.com/RhapsodyHarmonicaEnsemble/posts/pfbid02SzimkhTTjtJ3FTYPUfJh2iC7sDqLH8MNs5eRBeRSewMXSZr48aTDRFwt7xUeMYaZl",
+      "sourceName": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-20T04:12:48Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/d83e6563243697481b36.webp",
+        "width": 800,
+        "height": 351
+      }
+    },
     {
       "id": "post-ae88dcca72c119918ce9b5ab",
       "title": "“探戈與島嶼之歌” 雅痞書店加演場來囉！",
