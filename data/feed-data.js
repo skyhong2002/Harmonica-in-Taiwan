@@ -1,7 +1,86 @@
 window.HARMONICA_OBSERVE_FEEDS = {
-  "generatedAt": "2026-09-22 04:53",
+  "generatedAt": "2026-09-22 05:35",
   "updatesWindowDays": 30,
   "updates": [
+    {
+      "title": "Project X｜::축제 정보 센터 || 페스티벌 Scroll Top 축제 정보 센터 축제 정보 맛집 정보 숙박 정보 관광지 정보 특산물 정보 축제 뉴스 전체뉴스 축제/관광 기획특집 인터뷰 연재 축제 리뷰 전체리…",
+      "headline": "::축제 정보 센터 || 페스티벌",
+      "display_title": "::축제 정보 센터 || 페스티벌",
+      "title_kind": "title",
+      "link": "https://thefestival.co.kr/info/festival/7338",
+      "source_id": "web_136",
+      "source": "Project X",
+      "source_system_name": "Project X",
+      "source_profile_url": "https://thefestival.co.kr/info/festival/7338",
+      "country": "國際",
+      "region": "國際",
+      "directory_entry_id": "watchlist-136",
+      "directory_entry_name": "Project X",
+      "account": "https://thefestival.co.kr/info/festival/7338",
+      "platform": "website",
+      "platform_label": "website",
+      "posted_at": "2026-09-21T21:30:43.722028+00:00",
+      "posted_at_local": "2026-09-22 05:30",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-21T21:34:11.333251+00:00",
+      "media_type": "webpage_update",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "比賽",
+        "交流",
+        "音樂會"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "比賽",
+        "交流",
+        "音樂會"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "國際口琴節公告，含比賽、交流、音樂會與主辦資訊，屬口琴公開活動更新。",
+      "text": "::축제 정보 센터 || 페스티벌\nScroll Top\n축제 정보 센터\n축제 정보\n맛집 정보\n숙박 정보\n관광지 정보\n특산물 정보\n축제 뉴스\n전체뉴스\n축제/관광\n기획특집\n인터뷰\n연재\n축제 리뷰\n전체리뷰\n축제 리뷰\n맛집 리뷰\n숙박 리뷰\n관광지 리뷰\n특산물 리뷰\n축제 커뮤니티\n축제 사진\n자유게시판\n이벤트\n축제달력\n축제순위\n축제 정보\n맛집 정보\n숙박 정보\n관광지 정보\n특산물 정보\n전체뉴스\n축제/관광\n기획특집\n인터뷰\n연재\n전체리뷰\n축제 리뷰\n맛집 리뷰\n숙박 리뷰\n관광지 리뷰\n특산물 리뷰\n축제 사진\n자유게시판\n이벤트\n추천검색어\n포도축제 전어축제 냉면맛집 야간관광 국가유산야행\n인기검색어\n주간 기준\n1 대추축제 2 국악축제 3 다리축제 4 록페스티벌 5 인삼축제 6 춤축제 7 거리예술 8 구절초 9 김장축제 10 라틴 11 복숭아축제 12 가든페스타\n축제 정보 센터\n축제 정보\n맛집 정보\n숙박 정보\n관광지 정보\n특산물 정보\n진행예정\n제6회 국제하모니카페스티벌\n기간\n2018-08-03(금) ~ 2018-08-05(일) / 3일간\n장소\n서울 중구 세종대로 110\n주최\n한국하모니카교육협회\n주관\nSIHF조직위원회\n문의전화\n02-848-5061\n공식사이트\nhttps://sihf.or.kr\n태그\nSIHF2018 하모니카축제 서울하모니카페스티벌 KHEA 한국하모니카교육협회\n등록일\n2018년 07월 18일 00시 21분\n0.0\n0\n7,439\n축제소개\nThe 6th Seoul Int\"l Harmonica Festival  제6회 서울국제하모니카페스티벌 The Seoul International Harmonica Festival seeks to foster international exchanges of harmonica music by inviting harmonica performances by world-class artists and discovering new talent. Since 2013, the Korea Harmonica Education Association, with the help of Seoul City Government, generous sponsors and harmonica fans worldwide, has hosted the festival to build lasting partnerships with the local and international communities. Hosted by    Korea …",
+      "images": [],
+      "videos": [],
+      "source_image_url": "",
+      "image_url": "",
+      "image_width": null,
+      "image_height": null,
+      "source_avatar_url": "https://thefestival.co.kr/upfile/img/2018/07/hjs3000_1531840728.jpg",
+      "avatar_url": "/assets/source-avatars/3290814d7ba9b9a05a86.webp",
+      "source_initials": "PX",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "補助比賽"
+      ],
+      "key": "web_136:52bec5e24d9aab31d10c7810856f10062e4a4c2f0327544c74786e360f41b98c"
+    },
     {
       "title": "Orion 口琴樂團｜TixFun 優先購買 輸入資訊無效 驗證碼 驗證碼錯誤 已售完！ 驗證 快速訂購 請填寫下述欄位即可完成加入購物車流程 代碼 代碼錯誤 座位將由系統自動配位。 驗證碼 驗證碼錯誤 加入購物車 首頁 所有活動 藝文好…",
       "headline": "TixFun",
@@ -904,85 +983,6 @@ window.HARMONICA_OBSERVE_FEEDS = {
         "公開活動"
       ],
       "key": "x_minami_risa:https://twitter.com/minami_risa/status/2101966460390387722"
-    },
-    {
-      "title": "Project X｜::축제 정보 센터 || 페스티벌 Scroll Top 축제 정보 센터 축제 정보 맛집 정보 숙박 정보 관광지 정보 특산물 정보 축제 뉴스 전체뉴스 축제/관광 기획특집 인터뷰 연재 축제 리뷰 전체리…",
-      "headline": "::축제 정보 센터 || 페스티벌",
-      "display_title": "::축제 정보 센터 || 페스티벌",
-      "title_kind": "title",
-      "link": "https://thefestival.co.kr/info/festival/7338",
-      "source_id": "web_136",
-      "source": "Project X",
-      "source_system_name": "Project X",
-      "source_profile_url": "https://thefestival.co.kr/info/festival/7338",
-      "country": "國際",
-      "region": "國際",
-      "directory_entry_id": "watchlist-136",
-      "directory_entry_name": "Project X",
-      "account": "https://thefestival.co.kr/info/festival/7338",
-      "platform": "website",
-      "platform_label": "website",
-      "posted_at": "2026-09-21T09:15:34.945316+00:00",
-      "posted_at_local": "2026-09-21 17:15",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-09-21T09:16:43.667050+00:00",
-      "media_type": "webpage_update",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "公開更新",
-        "比賽",
-        "交流",
-        "音樂會"
-      ],
-      "keyword_matches": [
-        "harmonica"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 0.98,
-      "llm_labels": [
-        "口琴",
-        "公開更新",
-        "比賽",
-        "交流",
-        "音樂會"
-      ],
-      "llm_categories": [
-        "events"
-      ],
-      "llm_reason": "國際口琴節資訊，含演出、交流、比賽與音樂會，屬口琴公開活動更新。",
-      "text": "::축제 정보 센터 || 페스티벌\nScroll Top\n축제 정보 센터\n축제 정보\n맛집 정보\n숙박 정보\n관광지 정보\n특산물 정보\n축제 뉴스\n전체뉴스\n축제/관광\n기획특집\n인터뷰\n연재\n축제 리뷰\n전체리뷰\n축제 리뷰\n맛집 리뷰\n숙박 리뷰\n관광지 리뷰\n특산물 리뷰\n축제 커뮤니티\n축제 사진\n자유게시판\n이벤트\n축제달력\n축제순위\n축제 정보\n맛집 정보\n숙박 정보\n관광지 정보\n특산물 정보\n전체뉴스\n축제/관광\n기획특집\n인터뷰\n연재\n전체리뷰\n축제 리뷰\n맛집 리뷰\n숙박 리뷰\n관광지 리뷰\n특산물 리뷰\n축제 사진\n자유게시판\n이벤트\n추천검색어\n포도축제 전어축제 냉면맛집 야간관광 국가유산야행\n인기검색어\n주간 기준\n1 록페스티벌 2 대추축제 3 거리예술 4 다리축제 5 구절초 6 인삼축제 7 춤축제 8 GAF 9 국악축제 10 라틴 11 복숭아축제 12 영덕맛집\n축제 정보 센터\n축제 정보\n맛집 정보\n숙박 정보\n관광지 정보\n특산물 정보\n진행예정\n제6회 국제하모니카페스티벌\n기간\n2018-08-03(금) ~ 2018-08-05(일) / 3일간\n장소\n서울 중구 세종대로 110\n주최\n한국하모니카교육협회\n주관\nSIHF조직위원회\n문의전화\n02-848-5061\n공식사이트\nhttps://sihf.or.kr\n태그\nSIHF2018 하모니카축제 서울하모니카페스티벌 KHEA 한국하모니카교육협회\n등록일\n2018년 07월 18일 00시 21분\n0.0\n0\n7,436\n축제소개\nThe 6th Seoul Int\"l Harmonica Festival  제6회 서울국제하모니카페스티벌 The Seoul International Harmonica Festival seeks to foster international exchanges of harmonica music by inviting harmonica performances by world-class artists and discovering new talent. Since 2013, the Korea Harmonica Education Association, with the help of Seoul City Government, generous sponsors and harmonica fans worldwide, has hosted the festival to build lasting partnerships with the local and international communities. Hosted by    Korea Ha…",
-      "images": [],
-      "videos": [],
-      "source_image_url": "",
-      "image_url": "",
-      "image_width": null,
-      "image_height": null,
-      "source_avatar_url": "https://thefestival.co.kr/upfile/img/2018/07/hjs3000_1531840728.jpg",
-      "avatar_url": "/assets/source-avatars/3290814d7ba9b9a05a86.webp",
-      "source_initials": "PX",
-      "categories": [
-        "posts-videos",
-        "events",
-        "opportunities"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動",
-        "補助比賽"
-      ],
-      "key": "web_136:34f45ac7e5787623f4b62fb08cfc9181f9045240285d6c2f6d5d320405eee197"
     },
     {
       "title": "藍波口琴教室｜同學受到天狼星口琴樂團的吸引，也去買了超霸氣的新夥伴——Bass 口琴！今天第一次拿出來亮相，當然要給她最頂級的待遇！ 特別安排了兩位老師全程「重磅陪伴」，攜手合奏經典台語名曲《淡水暮色》。左小陳，右藍波，看的出來老師是被迫…",
@@ -73066,6 +73066,85 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "json": "/feeds/events.json",
       "items": [
         {
+          "title": "Project X｜::축제 정보 센터 || 페스티벌 Scroll Top 축제 정보 센터 축제 정보 맛집 정보 숙박 정보 관광지 정보 특산물 정보 축제 뉴스 전체뉴스 축제/관광 기획특집 인터뷰 연재 축제 리뷰 전체리…",
+          "headline": "::축제 정보 센터 || 페스티벌",
+          "display_title": "::축제 정보 센터 || 페스티벌",
+          "title_kind": "title",
+          "link": "https://thefestival.co.kr/info/festival/7338",
+          "source_id": "web_136",
+          "source": "Project X",
+          "source_system_name": "Project X",
+          "source_profile_url": "https://thefestival.co.kr/info/festival/7338",
+          "country": "國際",
+          "region": "國際",
+          "directory_entry_id": "watchlist-136",
+          "directory_entry_name": "Project X",
+          "account": "https://thefestival.co.kr/info/festival/7338",
+          "platform": "website",
+          "platform_label": "website",
+          "posted_at": "2026-09-21T21:30:43.722028+00:00",
+          "posted_at_local": "2026-09-22 05:30",
+          "like_count": null,
+          "comment_count": null,
+          "share_count": null,
+          "reaction_count": null,
+          "view_count": null,
+          "seen_at": "2026-09-21T21:34:11.333251+00:00",
+          "media_type": "webpage_update",
+          "story": false,
+          "story_provider": "",
+          "story_fetched_at": "",
+          "story_expires_at": "",
+          "source_feed_url": "",
+          "rsshub_guid": "",
+          "rsshub_title": "",
+          "instagram_user_id": "",
+          "matched_keywords": [
+            "口琴",
+            "公開更新",
+            "比賽",
+            "交流",
+            "音樂會"
+          ],
+          "keyword_matches": [
+            "harmonica"
+          ],
+          "llm_relevant": true,
+          "llm_confidence": 0.98,
+          "llm_labels": [
+            "口琴",
+            "公開更新",
+            "比賽",
+            "交流",
+            "音樂會"
+          ],
+          "llm_categories": [
+            "events"
+          ],
+          "llm_reason": "國際口琴節公告，含比賽、交流、音樂會與主辦資訊，屬口琴公開活動更新。",
+          "text": "::축제 정보 센터 || 페스티벌\nScroll Top\n축제 정보 센터\n축제 정보\n맛집 정보\n숙박 정보\n관광지 정보\n특산물 정보\n축제 뉴스\n전체뉴스\n축제/관광\n기획특집\n인터뷰\n연재\n축제 리뷰\n전체리뷰\n축제 리뷰\n맛집 리뷰\n숙박 리뷰\n관광지 리뷰\n특산물 리뷰\n축제 커뮤니티\n축제 사진\n자유게시판\n이벤트\n축제달력\n축제순위\n축제 정보\n맛집 정보\n숙박 정보\n관광지 정보\n특산물 정보\n전체뉴스\n축제/관광\n기획특집\n인터뷰\n연재\n전체리뷰\n축제 리뷰\n맛집 리뷰\n숙박 리뷰\n관광지 리뷰\n특산물 리뷰\n축제 사진\n자유게시판\n이벤트\n추천검색어\n포도축제 전어축제 냉면맛집 야간관광 국가유산야행\n인기검색어\n주간 기준\n1 대추축제 2 국악축제 3 다리축제 4 록페스티벌 5 인삼축제 6 춤축제 7 거리예술 8 구절초 9 김장축제 10 라틴 11 복숭아축제 12 가든페스타\n축제 정보 센터\n축제 정보\n맛집 정보\n숙박 정보\n관광지 정보\n특산물 정보\n진행예정\n제6회 국제하모니카페스티벌\n기간\n2018-08-03(금) ~ 2018-08-05(일) / 3일간\n장소\n서울 중구 세종대로 110\n주최\n한국하모니카교육협회\n주관\nSIHF조직위원회\n문의전화\n02-848-5061\n공식사이트\nhttps://sihf.or.kr\n태그\nSIHF2018 하모니카축제 서울하모니카페스티벌 KHEA 한국하모니카교육협회\n등록일\n2018년 07월 18일 00시 21분\n0.0\n0\n7,439\n축제소개\nThe 6th Seoul Int\"l Harmonica Festival  제6회 서울국제하모니카페스티벌 The Seoul International Harmonica Festival seeks to foster international exchanges of harmonica music by inviting harmonica performances by world-class artists and discovering new talent. Since 2013, the Korea Harmonica Education Association, with the help of Seoul City Government, generous sponsors and harmonica fans worldwide, has hosted the festival to build lasting partnerships with the local and international communities. Hosted by    Korea …",
+          "images": [],
+          "videos": [],
+          "source_image_url": "",
+          "image_url": "",
+          "image_width": null,
+          "image_height": null,
+          "source_avatar_url": "https://thefestival.co.kr/upfile/img/2018/07/hjs3000_1531840728.jpg",
+          "avatar_url": "/assets/source-avatars/3290814d7ba9b9a05a86.webp",
+          "source_initials": "PX",
+          "categories": [
+            "posts-videos",
+            "events",
+            "opportunities"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "公開活動",
+            "補助比賽"
+          ],
+          "key": "web_136:52bec5e24d9aab31d10c7810856f10062e4a4c2f0327544c74786e360f41b98c"
+        },
+        {
           "title": "Orion 口琴樂團｜TixFun 優先購買 輸入資訊無效 驗證碼 驗證碼錯誤 已售完！ 驗證 快速訂購 請填寫下述欄位即可完成加入購物車流程 代碼 代碼錯誤 座位將由系統自動配位。 驗證碼 驗證碼錯誤 加入購物車 首頁 所有活動 藝文好…",
           "headline": "TixFun",
           "display_title": "TixFun",
@@ -73748,85 +73827,6 @@ window.HARMONICA_OBSERVE_FEEDS = {
             "公開活動"
           ],
           "key": "x_minami_risa:https://twitter.com/minami_risa/status/2101966460390387722"
-        },
-        {
-          "title": "Project X｜::축제 정보 센터 || 페스티벌 Scroll Top 축제 정보 센터 축제 정보 맛집 정보 숙박 정보 관광지 정보 특산물 정보 축제 뉴스 전체뉴스 축제/관광 기획특집 인터뷰 연재 축제 리뷰 전체리…",
-          "headline": "::축제 정보 센터 || 페스티벌",
-          "display_title": "::축제 정보 센터 || 페스티벌",
-          "title_kind": "title",
-          "link": "https://thefestival.co.kr/info/festival/7338",
-          "source_id": "web_136",
-          "source": "Project X",
-          "source_system_name": "Project X",
-          "source_profile_url": "https://thefestival.co.kr/info/festival/7338",
-          "country": "國際",
-          "region": "國際",
-          "directory_entry_id": "watchlist-136",
-          "directory_entry_name": "Project X",
-          "account": "https://thefestival.co.kr/info/festival/7338",
-          "platform": "website",
-          "platform_label": "website",
-          "posted_at": "2026-09-21T09:15:34.945316+00:00",
-          "posted_at_local": "2026-09-21 17:15",
-          "like_count": null,
-          "comment_count": null,
-          "share_count": null,
-          "reaction_count": null,
-          "view_count": null,
-          "seen_at": "2026-09-21T09:16:43.667050+00:00",
-          "media_type": "webpage_update",
-          "story": false,
-          "story_provider": "",
-          "story_fetched_at": "",
-          "story_expires_at": "",
-          "source_feed_url": "",
-          "rsshub_guid": "",
-          "rsshub_title": "",
-          "instagram_user_id": "",
-          "matched_keywords": [
-            "口琴",
-            "公開更新",
-            "比賽",
-            "交流",
-            "音樂會"
-          ],
-          "keyword_matches": [
-            "harmonica"
-          ],
-          "llm_relevant": true,
-          "llm_confidence": 0.98,
-          "llm_labels": [
-            "口琴",
-            "公開更新",
-            "比賽",
-            "交流",
-            "音樂會"
-          ],
-          "llm_categories": [
-            "events"
-          ],
-          "llm_reason": "國際口琴節資訊，含演出、交流、比賽與音樂會，屬口琴公開活動更新。",
-          "text": "::축제 정보 센터 || 페스티벌\nScroll Top\n축제 정보 센터\n축제 정보\n맛집 정보\n숙박 정보\n관광지 정보\n특산물 정보\n축제 뉴스\n전체뉴스\n축제/관광\n기획특집\n인터뷰\n연재\n축제 리뷰\n전체리뷰\n축제 리뷰\n맛집 리뷰\n숙박 리뷰\n관광지 리뷰\n특산물 리뷰\n축제 커뮤니티\n축제 사진\n자유게시판\n이벤트\n축제달력\n축제순위\n축제 정보\n맛집 정보\n숙박 정보\n관광지 정보\n특산물 정보\n전체뉴스\n축제/관광\n기획특집\n인터뷰\n연재\n전체리뷰\n축제 리뷰\n맛집 리뷰\n숙박 리뷰\n관광지 리뷰\n특산물 리뷰\n축제 사진\n자유게시판\n이벤트\n추천검색어\n포도축제 전어축제 냉면맛집 야간관광 국가유산야행\n인기검색어\n주간 기준\n1 록페스티벌 2 대추축제 3 거리예술 4 다리축제 5 구절초 6 인삼축제 7 춤축제 8 GAF 9 국악축제 10 라틴 11 복숭아축제 12 영덕맛집\n축제 정보 센터\n축제 정보\n맛집 정보\n숙박 정보\n관광지 정보\n특산물 정보\n진행예정\n제6회 국제하모니카페스티벌\n기간\n2018-08-03(금) ~ 2018-08-05(일) / 3일간\n장소\n서울 중구 세종대로 110\n주최\n한국하모니카교육협회\n주관\nSIHF조직위원회\n문의전화\n02-848-5061\n공식사이트\nhttps://sihf.or.kr\n태그\nSIHF2018 하모니카축제 서울하모니카페스티벌 KHEA 한국하모니카교육협회\n등록일\n2018년 07월 18일 00시 21분\n0.0\n0\n7,436\n축제소개\nThe 6th Seoul Int\"l Harmonica Festival  제6회 서울국제하모니카페스티벌 The Seoul International Harmonica Festival seeks to foster international exchanges of harmonica music by inviting harmonica performances by world-class artists and discovering new talent. Since 2013, the Korea Harmonica Education Association, with the help of Seoul City Government, generous sponsors and harmonica fans worldwide, has hosted the festival to build lasting partnerships with the local and international communities. Hosted by    Korea Ha…",
-          "images": [],
-          "videos": [],
-          "source_image_url": "",
-          "image_url": "",
-          "image_width": null,
-          "image_height": null,
-          "source_avatar_url": "https://thefestival.co.kr/upfile/img/2018/07/hjs3000_1531840728.jpg",
-          "avatar_url": "/assets/source-avatars/3290814d7ba9b9a05a86.webp",
-          "source_initials": "PX",
-          "categories": [
-            "posts-videos",
-            "events",
-            "opportunities"
-          ],
-          "category_labels": [
-            "貼文影片",
-            "公開活動",
-            "補助比賽"
-          ],
-          "key": "web_136:34f45ac7e5787623f4b62fb08cfc9181f9045240285d6c2f6d5d320405eee197"
         },
         {
           "title": "就是吹口琴 陳鴻儀Henry’s Harmonica｜【就是吹口琴Just Play Harmonica 】｜陳美鳳 – 繁華攏是夢｜複音口琴Tremolo Harmonica 演奏版本(C) 繁華攏是夢 游鴻明 作曲 游鴻明 作詞 陳美…",
@@ -95728,6 +95728,85 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "json": "/feeds/posts-videos.json",
       "items": [
         {
+          "title": "Project X｜::축제 정보 센터 || 페스티벌 Scroll Top 축제 정보 센터 축제 정보 맛집 정보 숙박 정보 관광지 정보 특산물 정보 축제 뉴스 전체뉴스 축제/관광 기획특집 인터뷰 연재 축제 리뷰 전체리…",
+          "headline": "::축제 정보 센터 || 페스티벌",
+          "display_title": "::축제 정보 센터 || 페스티벌",
+          "title_kind": "title",
+          "link": "https://thefestival.co.kr/info/festival/7338",
+          "source_id": "web_136",
+          "source": "Project X",
+          "source_system_name": "Project X",
+          "source_profile_url": "https://thefestival.co.kr/info/festival/7338",
+          "country": "國際",
+          "region": "國際",
+          "directory_entry_id": "watchlist-136",
+          "directory_entry_name": "Project X",
+          "account": "https://thefestival.co.kr/info/festival/7338",
+          "platform": "website",
+          "platform_label": "website",
+          "posted_at": "2026-09-21T21:30:43.722028+00:00",
+          "posted_at_local": "2026-09-22 05:30",
+          "like_count": null,
+          "comment_count": null,
+          "share_count": null,
+          "reaction_count": null,
+          "view_count": null,
+          "seen_at": "2026-09-21T21:34:11.333251+00:00",
+          "media_type": "webpage_update",
+          "story": false,
+          "story_provider": "",
+          "story_fetched_at": "",
+          "story_expires_at": "",
+          "source_feed_url": "",
+          "rsshub_guid": "",
+          "rsshub_title": "",
+          "instagram_user_id": "",
+          "matched_keywords": [
+            "口琴",
+            "公開更新",
+            "比賽",
+            "交流",
+            "音樂會"
+          ],
+          "keyword_matches": [
+            "harmonica"
+          ],
+          "llm_relevant": true,
+          "llm_confidence": 0.98,
+          "llm_labels": [
+            "口琴",
+            "公開更新",
+            "比賽",
+            "交流",
+            "音樂會"
+          ],
+          "llm_categories": [
+            "events"
+          ],
+          "llm_reason": "國際口琴節公告，含比賽、交流、音樂會與主辦資訊，屬口琴公開活動更新。",
+          "text": "::축제 정보 센터 || 페스티벌\nScroll Top\n축제 정보 센터\n축제 정보\n맛집 정보\n숙박 정보\n관광지 정보\n특산물 정보\n축제 뉴스\n전체뉴스\n축제/관광\n기획특집\n인터뷰\n연재\n축제 리뷰\n전체리뷰\n축제 리뷰\n맛집 리뷰\n숙박 리뷰\n관광지 리뷰\n특산물 리뷰\n축제 커뮤니티\n축제 사진\n자유게시판\n이벤트\n축제달력\n축제순위\n축제 정보\n맛집 정보\n숙박 정보\n관광지 정보\n특산물 정보\n전체뉴스\n축제/관광\n기획특집\n인터뷰\n연재\n전체리뷰\n축제 리뷰\n맛집 리뷰\n숙박 리뷰\n관광지 리뷰\n특산물 리뷰\n축제 사진\n자유게시판\n이벤트\n추천검색어\n포도축제 전어축제 냉면맛집 야간관광 국가유산야행\n인기검색어\n주간 기준\n1 대추축제 2 국악축제 3 다리축제 4 록페스티벌 5 인삼축제 6 춤축제 7 거리예술 8 구절초 9 김장축제 10 라틴 11 복숭아축제 12 가든페스타\n축제 정보 센터\n축제 정보\n맛집 정보\n숙박 정보\n관광지 정보\n특산물 정보\n진행예정\n제6회 국제하모니카페스티벌\n기간\n2018-08-03(금) ~ 2018-08-05(일) / 3일간\n장소\n서울 중구 세종대로 110\n주최\n한국하모니카교육협회\n주관\nSIHF조직위원회\n문의전화\n02-848-5061\n공식사이트\nhttps://sihf.or.kr\n태그\nSIHF2018 하모니카축제 서울하모니카페스티벌 KHEA 한국하모니카교육협회\n등록일\n2018년 07월 18일 00시 21분\n0.0\n0\n7,439\n축제소개\nThe 6th Seoul Int\"l Harmonica Festival  제6회 서울국제하모니카페스티벌 The Seoul International Harmonica Festival seeks to foster international exchanges of harmonica music by inviting harmonica performances by world-class artists and discovering new talent. Since 2013, the Korea Harmonica Education Association, with the help of Seoul City Government, generous sponsors and harmonica fans worldwide, has hosted the festival to build lasting partnerships with the local and international communities. Hosted by    Korea …",
+          "images": [],
+          "videos": [],
+          "source_image_url": "",
+          "image_url": "",
+          "image_width": null,
+          "image_height": null,
+          "source_avatar_url": "https://thefestival.co.kr/upfile/img/2018/07/hjs3000_1531840728.jpg",
+          "avatar_url": "/assets/source-avatars/3290814d7ba9b9a05a86.webp",
+          "source_initials": "PX",
+          "categories": [
+            "posts-videos",
+            "events",
+            "opportunities"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "公開活動",
+            "補助比賽"
+          ],
+          "key": "web_136:52bec5e24d9aab31d10c7810856f10062e4a4c2f0327544c74786e360f41b98c"
+        },
+        {
           "title": "Orion 口琴樂團｜TixFun 優先購買 輸入資訊無效 驗證碼 驗證碼錯誤 已售完！ 驗證 快速訂購 請填寫下述欄位即可完成加入購物車流程 代碼 代碼錯誤 座位將由系統自動配位。 驗證碼 驗證碼錯誤 加入購物車 首頁 所有活動 藝文好…",
           "headline": "TixFun",
           "display_title": "TixFun",
@@ -96629,85 +96708,6 @@ window.HARMONICA_OBSERVE_FEEDS = {
             "公開活動"
           ],
           "key": "x_minami_risa:https://twitter.com/minami_risa/status/2101966460390387722"
-        },
-        {
-          "title": "Project X｜::축제 정보 센터 || 페스티벌 Scroll Top 축제 정보 센터 축제 정보 맛집 정보 숙박 정보 관광지 정보 특산물 정보 축제 뉴스 전체뉴스 축제/관광 기획특집 인터뷰 연재 축제 리뷰 전체리…",
-          "headline": "::축제 정보 센터 || 페스티벌",
-          "display_title": "::축제 정보 센터 || 페스티벌",
-          "title_kind": "title",
-          "link": "https://thefestival.co.kr/info/festival/7338",
-          "source_id": "web_136",
-          "source": "Project X",
-          "source_system_name": "Project X",
-          "source_profile_url": "https://thefestival.co.kr/info/festival/7338",
-          "country": "國際",
-          "region": "國際",
-          "directory_entry_id": "watchlist-136",
-          "directory_entry_name": "Project X",
-          "account": "https://thefestival.co.kr/info/festival/7338",
-          "platform": "website",
-          "platform_label": "website",
-          "posted_at": "2026-09-21T09:15:34.945316+00:00",
-          "posted_at_local": "2026-09-21 17:15",
-          "like_count": null,
-          "comment_count": null,
-          "share_count": null,
-          "reaction_count": null,
-          "view_count": null,
-          "seen_at": "2026-09-21T09:16:43.667050+00:00",
-          "media_type": "webpage_update",
-          "story": false,
-          "story_provider": "",
-          "story_fetched_at": "",
-          "story_expires_at": "",
-          "source_feed_url": "",
-          "rsshub_guid": "",
-          "rsshub_title": "",
-          "instagram_user_id": "",
-          "matched_keywords": [
-            "口琴",
-            "公開更新",
-            "比賽",
-            "交流",
-            "音樂會"
-          ],
-          "keyword_matches": [
-            "harmonica"
-          ],
-          "llm_relevant": true,
-          "llm_confidence": 0.98,
-          "llm_labels": [
-            "口琴",
-            "公開更新",
-            "比賽",
-            "交流",
-            "音樂會"
-          ],
-          "llm_categories": [
-            "events"
-          ],
-          "llm_reason": "國際口琴節資訊，含演出、交流、比賽與音樂會，屬口琴公開活動更新。",
-          "text": "::축제 정보 센터 || 페스티벌\nScroll Top\n축제 정보 센터\n축제 정보\n맛집 정보\n숙박 정보\n관광지 정보\n특산물 정보\n축제 뉴스\n전체뉴스\n축제/관광\n기획특집\n인터뷰\n연재\n축제 리뷰\n전체리뷰\n축제 리뷰\n맛집 리뷰\n숙박 리뷰\n관광지 리뷰\n특산물 리뷰\n축제 커뮤니티\n축제 사진\n자유게시판\n이벤트\n축제달력\n축제순위\n축제 정보\n맛집 정보\n숙박 정보\n관광지 정보\n특산물 정보\n전체뉴스\n축제/관광\n기획특집\n인터뷰\n연재\n전체리뷰\n축제 리뷰\n맛집 리뷰\n숙박 리뷰\n관광지 리뷰\n특산물 리뷰\n축제 사진\n자유게시판\n이벤트\n추천검색어\n포도축제 전어축제 냉면맛집 야간관광 국가유산야행\n인기검색어\n주간 기준\n1 록페스티벌 2 대추축제 3 거리예술 4 다리축제 5 구절초 6 인삼축제 7 춤축제 8 GAF 9 국악축제 10 라틴 11 복숭아축제 12 영덕맛집\n축제 정보 센터\n축제 정보\n맛집 정보\n숙박 정보\n관광지 정보\n특산물 정보\n진행예정\n제6회 국제하모니카페스티벌\n기간\n2018-08-03(금) ~ 2018-08-05(일) / 3일간\n장소\n서울 중구 세종대로 110\n주최\n한국하모니카교육협회\n주관\nSIHF조직위원회\n문의전화\n02-848-5061\n공식사이트\nhttps://sihf.or.kr\n태그\nSIHF2018 하모니카축제 서울하모니카페스티벌 KHEA 한국하모니카교육협회\n등록일\n2018년 07월 18일 00시 21분\n0.0\n0\n7,436\n축제소개\nThe 6th Seoul Int\"l Harmonica Festival  제6회 서울국제하모니카페스티벌 The Seoul International Harmonica Festival seeks to foster international exchanges of harmonica music by inviting harmonica performances by world-class artists and discovering new talent. Since 2013, the Korea Harmonica Education Association, with the help of Seoul City Government, generous sponsors and harmonica fans worldwide, has hosted the festival to build lasting partnerships with the local and international communities. Hosted by    Korea Ha…",
-          "images": [],
-          "videos": [],
-          "source_image_url": "",
-          "image_url": "",
-          "image_width": null,
-          "image_height": null,
-          "source_avatar_url": "https://thefestival.co.kr/upfile/img/2018/07/hjs3000_1531840728.jpg",
-          "avatar_url": "/assets/source-avatars/3290814d7ba9b9a05a86.webp",
-          "source_initials": "PX",
-          "categories": [
-            "posts-videos",
-            "events",
-            "opportunities"
-          ],
-          "category_labels": [
-            "貼文影片",
-            "公開活動",
-            "補助比賽"
-          ],
-          "key": "web_136:34f45ac7e5787623f4b62fb08cfc9181f9045240285d6c2f6d5d320405eee197"
         },
         {
           "title": "藍波口琴教室｜同學受到天狼星口琴樂團的吸引，也去買了超霸氣的新夥伴——Bass 口琴！今天第一次拿出來亮相，當然要給她最頂級的待遇！ 特別安排了兩位老師全程「重磅陪伴」，攜手合奏經典台語名曲《淡水暮色》。左小陳，右藍波，看的出來老師是被迫…",
@@ -172027,6 +172027,85 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "json": "/feeds/opportunities.json",
       "items": [
         {
+          "title": "Project X｜::축제 정보 센터 || 페스티벌 Scroll Top 축제 정보 센터 축제 정보 맛집 정보 숙박 정보 관광지 정보 특산물 정보 축제 뉴스 전체뉴스 축제/관광 기획특집 인터뷰 연재 축제 리뷰 전체리…",
+          "headline": "::축제 정보 센터 || 페스티벌",
+          "display_title": "::축제 정보 센터 || 페스티벌",
+          "title_kind": "title",
+          "link": "https://thefestival.co.kr/info/festival/7338",
+          "source_id": "web_136",
+          "source": "Project X",
+          "source_system_name": "Project X",
+          "source_profile_url": "https://thefestival.co.kr/info/festival/7338",
+          "country": "國際",
+          "region": "國際",
+          "directory_entry_id": "watchlist-136",
+          "directory_entry_name": "Project X",
+          "account": "https://thefestival.co.kr/info/festival/7338",
+          "platform": "website",
+          "platform_label": "website",
+          "posted_at": "2026-09-21T21:30:43.722028+00:00",
+          "posted_at_local": "2026-09-22 05:30",
+          "like_count": null,
+          "comment_count": null,
+          "share_count": null,
+          "reaction_count": null,
+          "view_count": null,
+          "seen_at": "2026-09-21T21:34:11.333251+00:00",
+          "media_type": "webpage_update",
+          "story": false,
+          "story_provider": "",
+          "story_fetched_at": "",
+          "story_expires_at": "",
+          "source_feed_url": "",
+          "rsshub_guid": "",
+          "rsshub_title": "",
+          "instagram_user_id": "",
+          "matched_keywords": [
+            "口琴",
+            "公開更新",
+            "比賽",
+            "交流",
+            "音樂會"
+          ],
+          "keyword_matches": [
+            "harmonica"
+          ],
+          "llm_relevant": true,
+          "llm_confidence": 0.98,
+          "llm_labels": [
+            "口琴",
+            "公開更新",
+            "比賽",
+            "交流",
+            "音樂會"
+          ],
+          "llm_categories": [
+            "events"
+          ],
+          "llm_reason": "國際口琴節公告，含比賽、交流、音樂會與主辦資訊，屬口琴公開活動更新。",
+          "text": "::축제 정보 센터 || 페스티벌\nScroll Top\n축제 정보 센터\n축제 정보\n맛집 정보\n숙박 정보\n관광지 정보\n특산물 정보\n축제 뉴스\n전체뉴스\n축제/관광\n기획특집\n인터뷰\n연재\n축제 리뷰\n전체리뷰\n축제 리뷰\n맛집 리뷰\n숙박 리뷰\n관광지 리뷰\n특산물 리뷰\n축제 커뮤니티\n축제 사진\n자유게시판\n이벤트\n축제달력\n축제순위\n축제 정보\n맛집 정보\n숙박 정보\n관광지 정보\n특산물 정보\n전체뉴스\n축제/관광\n기획특집\n인터뷰\n연재\n전체리뷰\n축제 리뷰\n맛집 리뷰\n숙박 리뷰\n관광지 리뷰\n특산물 리뷰\n축제 사진\n자유게시판\n이벤트\n추천검색어\n포도축제 전어축제 냉면맛집 야간관광 국가유산야행\n인기검색어\n주간 기준\n1 대추축제 2 국악축제 3 다리축제 4 록페스티벌 5 인삼축제 6 춤축제 7 거리예술 8 구절초 9 김장축제 10 라틴 11 복숭아축제 12 가든페스타\n축제 정보 센터\n축제 정보\n맛집 정보\n숙박 정보\n관광지 정보\n특산물 정보\n진행예정\n제6회 국제하모니카페스티벌\n기간\n2018-08-03(금) ~ 2018-08-05(일) / 3일간\n장소\n서울 중구 세종대로 110\n주최\n한국하모니카교육협회\n주관\nSIHF조직위원회\n문의전화\n02-848-5061\n공식사이트\nhttps://sihf.or.kr\n태그\nSIHF2018 하모니카축제 서울하모니카페스티벌 KHEA 한국하모니카교육협회\n등록일\n2018년 07월 18일 00시 21분\n0.0\n0\n7,439\n축제소개\nThe 6th Seoul Int\"l Harmonica Festival  제6회 서울국제하모니카페스티벌 The Seoul International Harmonica Festival seeks to foster international exchanges of harmonica music by inviting harmonica performances by world-class artists and discovering new talent. Since 2013, the Korea Harmonica Education Association, with the help of Seoul City Government, generous sponsors and harmonica fans worldwide, has hosted the festival to build lasting partnerships with the local and international communities. Hosted by    Korea …",
+          "images": [],
+          "videos": [],
+          "source_image_url": "",
+          "image_url": "",
+          "image_width": null,
+          "image_height": null,
+          "source_avatar_url": "https://thefestival.co.kr/upfile/img/2018/07/hjs3000_1531840728.jpg",
+          "avatar_url": "/assets/source-avatars/3290814d7ba9b9a05a86.webp",
+          "source_initials": "PX",
+          "categories": [
+            "posts-videos",
+            "events",
+            "opportunities"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "公開活動",
+            "補助比賽"
+          ],
+          "key": "web_136:52bec5e24d9aab31d10c7810856f10062e4a4c2f0327544c74786e360f41b98c"
+        },
+        {
           "title": "音和樂器PeaceTones｜#萬華社大 #龍韻口琴合奏班 115秋季班學習的第一首曲子是電視劇「逐玉」的插曲【一念】 這首曲子由指揮 #夏晨茹 老師改編；一共分為五個部別： 🔺半音階口琴部 🔺複音口琴部 🔺高音銅角口琴部 🔺低音口琴部 …",
           "headline": "#萬華社大 #龍韻口琴合奏班 115秋季班學習的第一首曲子是電視劇「逐玉」的插曲【一念】",
           "display_title": "",
@@ -172570,85 +172649,6 @@ window.HARMONICA_OBSERVE_FEEDS = {
             "補助比賽"
           ],
           "key": "web_167:c0003b17ef85f3d851c0462e49446f3ef207d64b853f93e8f4792252311492d0"
-        },
-        {
-          "title": "Project X｜::축제 정보 센터 || 페스티벌 Scroll Top 축제 정보 센터 축제 정보 맛집 정보 숙박 정보 관광지 정보 특산물 정보 축제 뉴스 전체뉴스 축제/관광 기획특집 인터뷰 연재 축제 리뷰 전체리…",
-          "headline": "::축제 정보 센터 || 페스티벌",
-          "display_title": "::축제 정보 센터 || 페스티벌",
-          "title_kind": "title",
-          "link": "https://thefestival.co.kr/info/festival/7338",
-          "source_id": "web_136",
-          "source": "Project X",
-          "source_system_name": "Project X",
-          "source_profile_url": "https://thefestival.co.kr/info/festival/7338",
-          "country": "國際",
-          "region": "國際",
-          "directory_entry_id": "watchlist-136",
-          "directory_entry_name": "Project X",
-          "account": "https://thefestival.co.kr/info/festival/7338",
-          "platform": "website",
-          "platform_label": "website",
-          "posted_at": "2026-09-21T09:15:34.945316+00:00",
-          "posted_at_local": "2026-09-21 17:15",
-          "like_count": null,
-          "comment_count": null,
-          "share_count": null,
-          "reaction_count": null,
-          "view_count": null,
-          "seen_at": "2026-09-21T09:16:43.667050+00:00",
-          "media_type": "webpage_update",
-          "story": false,
-          "story_provider": "",
-          "story_fetched_at": "",
-          "story_expires_at": "",
-          "source_feed_url": "",
-          "rsshub_guid": "",
-          "rsshub_title": "",
-          "instagram_user_id": "",
-          "matched_keywords": [
-            "口琴",
-            "公開更新",
-            "比賽",
-            "交流",
-            "音樂會"
-          ],
-          "keyword_matches": [
-            "harmonica"
-          ],
-          "llm_relevant": true,
-          "llm_confidence": 0.98,
-          "llm_labels": [
-            "口琴",
-            "公開更新",
-            "比賽",
-            "交流",
-            "音樂會"
-          ],
-          "llm_categories": [
-            "events"
-          ],
-          "llm_reason": "國際口琴節資訊，含演出、交流、比賽與音樂會，屬口琴公開活動更新。",
-          "text": "::축제 정보 센터 || 페스티벌\nScroll Top\n축제 정보 센터\n축제 정보\n맛집 정보\n숙박 정보\n관광지 정보\n특산물 정보\n축제 뉴스\n전체뉴스\n축제/관광\n기획특집\n인터뷰\n연재\n축제 리뷰\n전체리뷰\n축제 리뷰\n맛집 리뷰\n숙박 리뷰\n관광지 리뷰\n특산물 리뷰\n축제 커뮤니티\n축제 사진\n자유게시판\n이벤트\n축제달력\n축제순위\n축제 정보\n맛집 정보\n숙박 정보\n관광지 정보\n특산물 정보\n전체뉴스\n축제/관광\n기획특집\n인터뷰\n연재\n전체리뷰\n축제 리뷰\n맛집 리뷰\n숙박 리뷰\n관광지 리뷰\n특산물 리뷰\n축제 사진\n자유게시판\n이벤트\n추천검색어\n포도축제 전어축제 냉면맛집 야간관광 국가유산야행\n인기검색어\n주간 기준\n1 록페스티벌 2 대추축제 3 거리예술 4 다리축제 5 구절초 6 인삼축제 7 춤축제 8 GAF 9 국악축제 10 라틴 11 복숭아축제 12 영덕맛집\n축제 정보 센터\n축제 정보\n맛집 정보\n숙박 정보\n관광지 정보\n특산물 정보\n진행예정\n제6회 국제하모니카페스티벌\n기간\n2018-08-03(금) ~ 2018-08-05(일) / 3일간\n장소\n서울 중구 세종대로 110\n주최\n한국하모니카교육협회\n주관\nSIHF조직위원회\n문의전화\n02-848-5061\n공식사이트\nhttps://sihf.or.kr\n태그\nSIHF2018 하모니카축제 서울하모니카페스티벌 KHEA 한국하모니카교육협회\n등록일\n2018년 07월 18일 00시 21분\n0.0\n0\n7,436\n축제소개\nThe 6th Seoul Int\"l Harmonica Festival  제6회 서울국제하모니카페스티벌 The Seoul International Harmonica Festival seeks to foster international exchanges of harmonica music by inviting harmonica performances by world-class artists and discovering new talent. Since 2013, the Korea Harmonica Education Association, with the help of Seoul City Government, generous sponsors and harmonica fans worldwide, has hosted the festival to build lasting partnerships with the local and international communities. Hosted by    Korea Ha…",
-          "images": [],
-          "videos": [],
-          "source_image_url": "",
-          "image_url": "",
-          "image_width": null,
-          "image_height": null,
-          "source_avatar_url": "https://thefestival.co.kr/upfile/img/2018/07/hjs3000_1531840728.jpg",
-          "avatar_url": "/assets/source-avatars/3290814d7ba9b9a05a86.webp",
-          "source_initials": "PX",
-          "categories": [
-            "posts-videos",
-            "events",
-            "opportunities"
-          ],
-          "category_labels": [
-            "貼文影片",
-            "公開活動",
-            "補助比賽"
-          ],
-          "key": "web_136:34f45ac7e5787623f4b62fb08cfc9181f9045240285d6c2f6d5d320405eee197"
         },
         {
           "title": "藍波口琴教室｜同學受到天狼星口琴樂團的吸引，也去買了超霸氣的新夥伴——Bass 口琴！今天第一次拿出來亮相，當然要給她最頂級的待遇！ 特別安排了兩位老師全程「重磅陪伴」，攜手合奏經典台語名曲《淡水暮色》。左小陳，右藍波，看的出來老師是被迫…",

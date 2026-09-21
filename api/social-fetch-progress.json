@@ -1,9 +1,9 @@
 {
   "currentSource": {},
   "errors": 3,
-  "fetchedPosts": 2634,
-  "finishedAt": "2026-09-21T20:52:03.259721+00:00",
-  "heartbeatAt": "2026-09-21T20:52:03.259719+00:00",
+  "fetchedPosts": 2642,
+  "finishedAt": "2026-09-21T21:34:11.334346+00:00",
+  "heartbeatAt": "2026-09-21T21:34:11.334344+00:00",
   "instagram": {
     "attempted": 0,
     "deferred": 0,
@@ -30,10 +30,10 @@
   "message": "",
   "newRelevantPosts": 2,
   "phase": "complete",
-  "pid": 50155,
+  "pid": 75708,
   "processedSources": 795,
   "skippedOldPosts": 0,
-  "startedAt": "2026-09-21T20:43:07.261937+00:00",
+  "startedAt": "2026-09-21T21:24:58.717928+00:00",
   "status": "ok",
   "totalSources": 795,
   "version": 1
