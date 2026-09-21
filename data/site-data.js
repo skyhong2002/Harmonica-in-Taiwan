@@ -1410,7 +1410,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-19 23:44",
       "latestUpdateSource": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
       "latestUpdateUrl": "https://www.instagram.com/stories/aidennevelyn/3989728182504527314/",
-      "avatarUrl": "/assets/source-avatars/5cfd5acf4fbdd53199b7.webp",
+      "avatarUrl": "/assets/source-avatars/58e8bad4c2d4f442829e.webp",
       "sourceInitials": "ANE",
       "sourceTags": [
         "團體樂團",
@@ -6580,7 +6580,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-02 00:26",
       "latestUpdateSource": "黃冠誌",
       "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3976703112043327905/",
-      "avatarUrl": "/assets/source-avatars/e4f3392840609577a74c.webp",
+      "avatarUrl": "/assets/source-avatars/6e2cd333d912c993dc9a.webp",
       "sourceInitials": "黃冠",
       "sourceTags": [
         "演奏者",
