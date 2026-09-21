@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-21T20:28:43+08:00",
+  "generatedAt": "2026-09-21T21:14:25+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
     "status": "degraded",
     "label": "部分異常",
-    "summary": "核心 pipeline 有產出；需要注意：X / Twitter RSS、Threads / 其他 RSS。 Instagram 擷取、Facebook Apify 目前依排程或預算節流。"
+    "summary": "核心 pipeline 有產出；需要注意：Threads / 其他 RSS。 Instagram 擷取、Facebook Apify 目前依排程或預算節流。"
   },
   "metrics": {
-    "updates": 927,
+    "updates": 921,
     "updatesWindowDays": 30,
     "directoryEntries": 322,
     "watchSources": 794,
-    "currentErrors": 37,
-    "latestDataAt": "2026-09-21T20:28:21+08:00",
-    "latestSocialObservationAt": "2026-09-21T20:26:49+08:00"
+    "currentErrors": 7,
+    "latestDataAt": "2026-09-21T21:14:05+08:00",
+    "latestSocialObservationAt": "2026-09-21T21:12:40+08:00"
   },
   "watchSources": {
     "platforms": {
@@ -48,20 +48,20 @@
       {
         "platform": "threads",
         "sources": 28,
-        "currentErrors": 22,
+        "currentErrors": 6,
         "status": "degraded"
       },
       {
         "platform": "website",
         "sources": 89,
-        "currentErrors": 9,
+        "currentErrors": 1,
         "status": "degraded"
       },
       {
         "platform": "x",
         "sources": 13,
-        "currentErrors": 6,
-        "status": "degraded"
+        "currentErrors": 0,
+        "status": "ok"
       },
       {
         "platform": "youtube",
@@ -79,10 +79,10 @@
       "label": "正常",
       "summary": "定期 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-09-21 20:28:21",
+        "最新公開資料：2026-09-21 21:14:05",
         "pipeline.log 更新：2026-07-12 02:58:29",
         "pipeline.err.log 更新：2026-07-11 14:33:03",
-        "LaunchAgent：running，last exit None"
+        "LaunchAgent：running，last exit 0"
       ]
     },
     {
@@ -90,7 +90,7 @@
       "name": "公開 API",
       "status": "ok",
       "label": "正常",
-      "summary": "latest.json 有 927 筆更新，sources.json 有 322 筆公開目錄。",
+      "summary": "latest.json 有 921 筆更新，sources.json 有 322 筆公開目錄。",
       "details": [
         "更新視窗：30 天",
         "watch sources：794"
@@ -104,7 +104,7 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：37 ms"
+        "耗時：38 ms"
       ]
     },
     {
@@ -129,7 +129,7 @@
         "checkedSources24h": 11,
         "totalSources": 179,
         "activeStories": 0,
-        "nextRunAt": "2026-09-21T12:49:25.024606+00:00"
+        "nextRunAt": "2026-09-21T15:59:19.207060+00:00"
       },
       "profiles": {
         "status": "paused",
@@ -138,15 +138,15 @@
         "checkedSources24h": 0,
         "totalSources": 179,
         "activeStories": 0,
-        "nextRunAt": "2026-09-21T12:49:25.024606+00:00"
+        "nextRunAt": "2026-09-21T15:59:19.207060+00:00"
       }
     },
     {
       "id": "x-twitter",
       "name": "X / Twitter RSS",
-      "status": "degraded",
-      "label": "部分異常",
-      "summary": "13 個 X 來源；最新抓取批次目前 6 個錯誤。",
+      "status": "ok",
+      "label": "正常",
+      "summary": "13 個 X 來源；最新抓取批次目前 0 個錯誤。",
       "details": [
         "目前 route 依 RSSHub 設定抓取。",
         "若持續 503，通常要檢查 RSSHub 的 Twitter API 設定。"
@@ -175,7 +175,7 @@
       "label": "正常",
       "summary": "141 個 YouTube 來源；最近 run error_count=0。",
       "details": [
-        "最近完成：2026-09-21 20:11:12",
+        "最近完成：2026-09-21 20:59:39",
         "最近新增 inbox：0"
       ]
     },
@@ -184,7 +184,7 @@
       "name": "Threads / 其他 RSS",
       "status": "degraded",
       "label": "部分異常",
-      "summary": "28 個 Threads 來源；其他 RSS 最新抓取批次目前 31 個錯誤。",
+      "summary": "28 個 Threads 來源；其他 RSS 最新抓取批次目前 7 個錯誤。",
       "details": [
         "RSS 類型來源：41"
       ]
@@ -192,175 +192,71 @@
   ],
   "recentErrors": [
     {
-      "seenAt": "2026-09-21T20:26:49+08:00",
-      "sourceId": "threads_weiwuying_centerforthearts",
-      "sourceName": "衛武營國家藝術文化中心",
+      "seenAt": "2026-09-21T21:12:40+08:00",
+      "sourceId": "threads_usd_harmonica",
+      "sourceName": "Up Side Down",
       "platform": "threads",
       "sourceType": "rss",
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "error": "The read operation timed out"
     },
     {
-      "seenAt": "2026-09-21T20:26:49+08:00",
-      "sourceId": "threads_ntch_taipei",
-      "sourceName": "國家兩廳院",
+      "seenAt": "2026-09-21T21:12:40+08:00",
+      "sourceId": "threads_harmonica_wang",
+      "sourceName": "王心禾",
       "platform": "threads",
       "sourceType": "rss",
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "error": "The read operation timed out"
     },
     {
-      "seenAt": "2026-09-21T20:26:49+08:00",
-      "sourceId": "threads_nationaltaichungtheater",
-      "sourceName": "臺中國家歌劇院",
+      "seenAt": "2026-09-21T21:12:40+08:00",
+      "sourceId": "threads_yich",
+      "sourceName": "廖苡晴",
       "platform": "threads",
       "sourceType": "rss",
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "error": "The read operation timed out"
     },
     {
-      "seenAt": "2026-09-21T20:26:49+08:00",
-      "sourceId": "threads_yellowstone_music_shop",
-      "sourceName": "黃石樂器",
-      "platform": "threads",
-      "sourceType": "rss",
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
-    },
-    {
-      "seenAt": "2026-09-21T20:26:49+08:00",
-      "sourceId": "x_duovolce",
-      "sourceName": "Duo Volce Music Studio 誼聲音樂室",
-      "platform": "x",
-      "sourceType": "rss",
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
-    },
-    {
-      "seenAt": "2026-09-21T20:26:49+08:00",
+      "seenAt": "2026-09-21T21:12:40+08:00",
       "sourceId": "threads_attack_on_harmonica_ensemble",
       "sourceName": "進擊的口琴樂團",
       "platform": "threads",
       "sourceType": "rss",
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "error": "The read operation timed out"
     },
     {
-      "seenAt": "2026-09-21T20:26:49+08:00",
-      "sourceId": "threads_fanhsiaoyi",
-      "sourceName": "范曉怡",
-      "platform": "threads",
-      "sourceType": "rss",
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
-    },
-    {
-      "seenAt": "2026-09-21T20:26:49+08:00",
-      "sourceId": "threads_otistsao",
-      "sourceName": "曹小歐",
-      "platform": "threads",
-      "sourceType": "rss",
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
-    },
-    {
-      "seenAt": "2026-09-21T20:26:49+08:00",
+      "seenAt": "2026-09-21T21:12:40+08:00",
       "sourceId": "threads_pocketharmonic",
       "sourceName": "口袋琴房 Pocket Harmonic",
       "platform": "threads",
       "sourceType": "rss",
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "error": "The read operation timed out"
     },
     {
-      "seenAt": "2026-09-21T20:26:49+08:00",
-      "sourceId": "threads_yora",
-      "sourceName": "陳瑤容 Yora Chen",
+      "seenAt": "2026-09-21T21:12:40+08:00",
+      "sourceId": "threads_minnie_o6i8",
+      "sourceName": "蔡明勳",
       "platform": "threads",
       "sourceType": "rss",
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "error": "The read operation timed out"
     },
     {
-      "seenAt": "2026-09-21T20:26:49+08:00",
+      "seenAt": "2026-09-21T20:26:46+08:00",
       "sourceId": "web_312",
       "sourceName": "「天鵝自由呼吸」寧波口琴節",
       "platform": "website",
       "sourceType": "webpage_watch",
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
-    },
-    {
-      "seenAt": "2026-09-21T20:26:49+08:00",
-      "sourceId": "x_tombo_info",
-      "sourceName": "TOMBO祭アワード",
-      "platform": "x",
-      "sourceType": "rss",
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
-    },
-    {
-      "seenAt": "2026-09-21T19:44:41+08:00",
-      "sourceId": "web_131",
-      "sourceName": "Breathe with the Harmonica",
-      "platform": "website",
-      "sourceType": "webpage_watch",
-      "error": "連續失敗 2 次：<urlopen error [Errno 8] nodename nor servname provided, or not known>"
-    },
-    {
-      "seenAt": "2026-09-21T19:46:20+08:00",
-      "sourceId": "web_247",
-      "sourceName": "東方口琴博物館",
-      "platform": "website",
-      "sourceType": "webpage_watch",
-      "error": "連續失敗 2 次：<urlopen error [Errno 8] nodename nor servname provided, or not known>"
-    },
-    {
-      "seenAt": "2026-09-21T19:46:22+08:00",
-      "sourceId": "web_289",
-      "sourceName": "Tony Eyers",
-      "platform": "website",
-      "sourceType": "webpage_watch",
-      "error": "連續失敗 2 次：<urlopen error [Errno 8] nodename nor servname provided, or not known>"
-    },
-    {
-      "seenAt": "2026-09-21T19:46:24+08:00",
-      "sourceId": "web_313",
-      "sourceName": "第二屆海峽兩岸（蕉城）口琴文化週",
-      "platform": "website",
-      "sourceType": "webpage_watch",
-      "error": "連續失敗 2 次：<urlopen error [Errno 8] nodename nor servname provided, or not known>"
-    },
-    {
-      "seenAt": "2026-09-21T19:46:26+08:00",
-      "sourceId": "web_314",
-      "sourceName": "Rivet 口琴重奏",
-      "platform": "website",
-      "sourceType": "webpage_watch",
-      "error": "連續失敗 2 次：<urlopen error [Errno 8] nodename nor servname provided, or not known>"
-    },
-    {
-      "seenAt": "2026-09-21T19:46:27+08:00",
-      "sourceId": "web_316",
-      "sourceName": "太平國小口琴隊",
-      "platform": "website",
-      "sourceType": "webpage_watch",
-      "error": "連續失敗 2 次：<urlopen error [Errno 8] nodename nor servname provided, or not known>"
-    },
-    {
-      "seenAt": "2026-09-21T19:46:43+08:00",
-      "sourceId": "web_318",
-      "sourceName": "何東中學口琴隊",
-      "platform": "website",
-      "sourceType": "webpage_watch",
-      "error": "連續失敗 2 次：<urlopen error [Errno 8] nodename nor servname provided, or not known>"
-    },
-    {
-      "seenAt": "2026-09-21T19:46:50+08:00",
-      "sourceId": "web_323",
-      "sourceName": "日本ハーモニカまつり",
-      "platform": "website",
-      "sourceType": "webpage_watch",
-      "error": "連續失敗 2 次：<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "error": "連續失敗 61 次：<urlopen error [Errno 8] nodename nor servname provided, or not known>"
     }
   ],
   "runtime": {
     "pipeline": {
       "currentStep": "build status page",
-      "heartbeatAt": "2026-09-21T12:28:43.545104+00:00",
+      "heartbeatAt": "2026-09-21T13:14:25.221659+00:00",
       "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
       "maxPostAgeDays": 30,
       "message": "",
-      "pid": 1137,
-      "startedAt": "2026-09-21T12:09:55.318717+00:00",
+      "pid": 61439,
+      "startedAt": "2026-09-21T12:59:19.100505+00:00",
       "status": "running",
       "steps": [
         {
@@ -368,10 +264,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_social_sources.py"
           ],
-          "finishedAt": "2026-09-21T12:09:56.658089+00:00",
+          "finishedAt": "2026-09-21T12:59:19.167027+00:00",
           "name": "build social sources",
           "returnCode": 0,
-          "startedAt": "2026-09-21T12:09:55.375741+00:00",
+          "startedAt": "2026-09-21T12:59:19.102205+00:00",
           "status": "ok"
         },
         {
@@ -380,10 +276,10 @@
             "scripts/instagram_public_fetcher.py",
             "--pipeline-lock-held"
           ],
-          "finishedAt": "2026-09-21T12:10:19.808495+00:00",
+          "finishedAt": "2026-09-21T12:59:21.414888+00:00",
           "name": "fetch instagram public",
           "returnCode": 0,
-          "startedAt": "2026-09-21T12:09:56.661416+00:00",
+          "startedAt": "2026-09-21T12:59:19.167390+00:00",
           "status": "ok"
         },
         {
@@ -393,10 +289,10 @@
             "--max-post-age-days",
             "30"
           ],
-          "finishedAt": "2026-09-21T12:11:12.114829+00:00",
+          "finishedAt": "2026-09-21T12:59:39.108474+00:00",
           "name": "fetch youtube",
           "returnCode": 0,
-          "startedAt": "2026-09-21T12:10:19.809654+00:00",
+          "startedAt": "2026-09-21T12:59:21.417403+00:00",
           "status": "ok"
         },
         {
@@ -409,11 +305,11 @@
             "30",
             "--run"
           ],
-          "finishedAt": "2026-09-21T12:11:42.272320+00:00",
+          "finishedAt": "2026-09-21T12:59:40.152053+00:00",
           "name": "fetch facebook apify",
-          "returnCode": 1,
-          "startedAt": "2026-09-21T12:11:12.115687+00:00",
-          "status": "optional_failed"
+          "returnCode": 0,
+          "startedAt": "2026-09-21T12:59:39.108891+00:00",
+          "status": "ok"
         },
         {
           "command": [
@@ -424,10 +320,10 @@
             "--request-timeout",
             "10"
           ],
-          "finishedAt": "2026-09-21T12:26:49.620988+00:00",
+          "finishedAt": "2026-09-21T13:12:41.105411+00:00",
           "name": "watch social feeds",
           "returnCode": 0,
-          "startedAt": "2026-09-21T12:11:42.273255+00:00",
+          "startedAt": "2026-09-21T12:59:40.153525+00:00",
           "status": "ok"
         },
         {
@@ -435,10 +331,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_public_data.py"
           ],
-          "finishedAt": "2026-09-21T12:26:52.699507+00:00",
+          "finishedAt": "2026-09-21T13:12:43.770402+00:00",
           "name": "build public data",
           "returnCode": 0,
-          "startedAt": "2026-09-21T12:26:49.624668+00:00",
+          "startedAt": "2026-09-21T13:12:41.106935+00:00",
           "status": "ok"
         },
         {
@@ -447,10 +343,10 @@
             "scripts/backfill_public_source_pages.py",
             "--skip-fetch"
           ],
-          "finishedAt": "2026-09-21T12:26:58.991962+00:00",
+          "finishedAt": "2026-09-21T13:12:48.433974+00:00",
           "name": "backfill source pages",
           "returnCode": 0,
-          "startedAt": "2026-09-21T12:26:52.700419+00:00",
+          "startedAt": "2026-09-21T13:12:43.771142+00:00",
           "status": "ok"
         },
         {
@@ -458,10 +354,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_public_data.py"
           ],
-          "finishedAt": "2026-09-21T12:27:01.857558+00:00",
+          "finishedAt": "2026-09-21T13:12:51.097653+00:00",
           "name": "rebuild public data",
           "returnCode": 0,
-          "startedAt": "2026-09-21T12:26:58.994108+00:00",
+          "startedAt": "2026-09-21T13:12:48.434817+00:00",
           "status": "ok"
         },
         {
@@ -469,10 +365,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_score_publications.py"
           ],
-          "finishedAt": "2026-09-21T12:27:01.992430+00:00",
+          "finishedAt": "2026-09-21T13:12:51.235957+00:00",
           "name": "build score publications",
           "returnCode": 0,
-          "startedAt": "2026-09-21T12:27:01.858299+00:00",
+          "startedAt": "2026-09-21T13:12:51.098672+00:00",
           "status": "ok"
         },
         {
@@ -480,10 +376,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_score_sources.py"
           ],
-          "finishedAt": "2026-09-21T12:27:02.056895+00:00",
+          "finishedAt": "2026-09-21T13:12:51.264836+00:00",
           "name": "build score sources",
           "returnCode": 0,
-          "startedAt": "2026-09-21T12:27:01.993145+00:00",
+          "startedAt": "2026-09-21T13:12:51.236545+00:00",
           "status": "ok"
         },
         {
@@ -491,10 +387,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/generate_rss_feeds.py"
           ],
-          "finishedAt": "2026-09-21T12:28:22.857552+00:00",
+          "finishedAt": "2026-09-21T13:14:07.385902+00:00",
           "name": "generate rss feeds",
           "returnCode": 0,
-          "startedAt": "2026-09-21T12:27:02.058203+00:00",
+          "startedAt": "2026-09-21T13:12:51.265238+00:00",
           "status": "ok"
         },
         {
@@ -502,10 +398,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_public_calendar_events.py"
           ],
-          "finishedAt": "2026-09-21T12:28:23.537534+00:00",
+          "finishedAt": "2026-09-21T13:14:07.839176+00:00",
           "name": "build public calendar events",
           "returnCode": 0,
-          "startedAt": "2026-09-21T12:28:22.858196+00:00",
+          "startedAt": "2026-09-21T13:14:07.386370+00:00",
           "status": "ok"
         },
         {
@@ -513,10 +409,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/apply_submitted_events.py"
           ],
-          "finishedAt": "2026-09-21T12:28:23.615432+00:00",
+          "finishedAt": "2026-09-21T13:14:07.961352+00:00",
           "name": "apply submitted events",
           "returnCode": 0,
-          "startedAt": "2026-09-21T12:28:23.538631+00:00",
+          "startedAt": "2026-09-21T13:14:07.840014+00:00",
           "status": "ok"
         },
         {
@@ -524,10 +420,10 @@
             "/Users/skyhong/.hermes/harmonica-intake-venv/bin/python",
             "scripts/sync_google_calendar_events.py"
           ],
-          "finishedAt": "2026-09-21T12:28:43.543921+00:00",
+          "finishedAt": "2026-09-21T13:14:25.219048+00:00",
           "name": "sync google calendar",
           "returnCode": 0,
-          "startedAt": "2026-09-21T12:28:23.617532+00:00",
+          "startedAt": "2026-09-21T13:14:07.962171+00:00",
           "status": "ok"
         },
         {
@@ -538,7 +434,7 @@
           "finishedAt": "",
           "name": "build status page",
           "returnCode": null,
-          "startedAt": "2026-09-21T12:28:43.545094+00:00",
+          "startedAt": "2026-09-21T13:14:25.221639+00:00",
           "status": "running"
         }
       ],
@@ -546,10 +442,10 @@
     },
     "socialFetch": {
       "currentSource": {},
-      "errors": 29,
-      "fetchedPosts": 2428,
-      "finishedAt": "2026-09-21T12:26:49.521465+00:00",
-      "heartbeatAt": "2026-09-21T12:26:49.521460+00:00",
+      "errors": 6,
+      "fetchedPosts": 2598,
+      "finishedAt": "2026-09-21T13:12:40.961896+00:00",
+      "heartbeatAt": "2026-09-21T13:12:40.961894+00:00",
       "instagram": {
         "attempted": 0,
         "deferred": 0,
@@ -571,15 +467,15 @@
         "cached": 0,
         "enabled": true,
         "errors": 0,
-        "requests": 0
+        "requests": 2
       },
       "message": "",
-      "newRelevantPosts": 0,
+      "newRelevantPosts": 2,
       "phase": "complete",
-      "pid": 9936,
+      "pid": 62226,
       "processedSources": 795,
       "skippedOldPosts": 0,
-      "startedAt": "2026-09-21T12:11:42.365911+00:00",
+      "startedAt": "2026-09-21T12:59:40.230212+00:00",
       "status": "ok",
       "totalSources": 795,
       "version": 1
