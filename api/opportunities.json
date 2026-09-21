@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/opportunities.xml",
   "json": "https://harmonica.observe.tw/api/opportunities.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/opportunities.json",
-  "count": 87,
+  "count": 86,
   "items": [
     {
       "title": "口琴音樂賽事中心｜口琴音乐赛事中心 口琴音乐赛事中心 中文 EN 日语 Korean 江苏惠文乐器有限公司、江苏东方乐器有限公司、江苏惠文文化发展有限公司 切换语言 口琴音乐赛事中心 注册 / 登录 首页 活动列表 活动资讯 周边商城 学…",
@@ -6765,80 +6765,6 @@
         "補助比賽"
       ],
       "key": "fb_kcobaps:1698522728945833"
-    },
-    {
-      "title": "Evelyn Choong 鍾雪兒｜今晚將會與來自臺灣的大明老師一起暢聊 關於口琴比賽與評審觀點這檔事 歡迎大家來聽聽～",
-      "headline": "今晚將會與來自臺灣的大明老師一起暢聊",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.facebook.com/evelyn.choong.3/posts/pfbid032jyz5Cu2TcNxR4j7Kw2dC9UpVs9wUM4mjzHYCXX4GiLHVrEc2K8A4VUjDT144Pcpl",
-      "source_id": "fb_evelyn_choong_3",
-      "source": "Evelyn Choong 鍾雪兒",
-      "source_system_name": "Evelyn Choong 鍾雪兒",
-      "source_profile_url": "https://facebook.com/evelyn.choong.3",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "directory_entry_id": "watchlist-218",
-      "directory_entry_name": "Evelyn Choong 鍾雪兒",
-      "account": "evelyn.choong.3",
-      "platform": "facebook",
-      "platform_label": "Facebook",
-      "posted_at": "2026-08-22T00:08:19.000Z",
-      "posted_at_local": "2026-08-22 08:08",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-09-20T01:37:11.501892+00:00",
-      "media_type": "",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "比賽",
-        "公開更新"
-      ],
-      "keyword_matches": [
-        "口琴",
-        "比賽"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 0.96,
-      "llm_labels": [
-        "口琴",
-        "比賽",
-        "公開更新"
-      ],
-      "llm_categories": [
-        "posts-videos"
-      ],
-      "llm_reason": "內容明確談口琴比賽與評審觀點，屬口琴相關公開更新。",
-      "text": "今晚將會與來自臺灣的大明老師一起暢聊\n關於口琴比賽與評審觀點這檔事\n歡迎大家來聽聽～",
-      "images": [],
-      "videos": [],
-      "source_image_url": "",
-      "image_url": "",
-      "image_width": null,
-      "image_height": null,
-      "source_avatar_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/518144592_10161834339407634_172827625061225900_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2047x2048&ctp=s50x50&_nc_cat=102&ccb=1-7&_nc_sid=1d2534&_nc_ohc=EDoMzQWnRRIQ7kNvwGZjiJk&_nc_oc=AdrdfPo0Sz0UyEwboFqRQBKwwSXmaznoqYL7yy_5bgxejl9VDBCtyMrX8jy1XVfCdmSkdcDDrbSlSaveLp6vozQX&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=3xKW0AT76et8MEP5P7CQig&_nc_ss=73289&oh=00_AQKKLkenWm_76XvEPNs3OvEfaitMstJQuFNrnO1F2ag0oQ&oe=6AB5156C",
-      "avatar_url": "/assets/source-avatars/d7977f198779df6ecbc7.webp",
-      "source_initials": "EC",
-      "categories": [
-        "posts-videos",
-        "opportunities"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "補助比賽"
-      ],
-      "key": "fb_evelyn_choong_3:10163567919502634"
     }
   ]
 }
