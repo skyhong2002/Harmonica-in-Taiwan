@@ -2,6 +2,60 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-09-21",
   "entries": [
     {
+      "id": "watchlist-40",
+      "publicId": "40",
+      "name": "陳鴻儀",
+      "nameEn": "Henry Chen",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/基隆/宜蘭",
+      "cityOrFocus": "複音口琴演奏與編曲/多次全國學生音樂比賽與亞太口琴節評審/曾任基隆市口琴協會理事長/東光國中、仁愛國小、樂齡中心與社區大學口琴教學/《複音口琴教本》編著",
+      "structuredSummary": "複音口琴演奏與編曲/多次全國學生音樂比賽與亞太口琴節評審/曾任基隆市口琴協會理事長/東光國中、仁愛國小、樂齡中心與社區大學口琴教學/《複音口琴教本》編著 / 複音口琴/十孔口琴/半音階口琴/口琴重奏與合奏 / 演出人員/評審/教育者/教材作者/協會前理事長",
+      "summary": "臺灣的複音口琴、十孔口琴、半音階口琴與口琴重奏與合奏演出人員、評審與教育者，活動脈絡包含複音口琴演奏與編曲、多次全國學生音樂比賽與亞太口琴節評審與曾任基隆市口琴協會理事長。",
+      "keywords": "陳鴻儀 Henry Chen 就是吹口琴 複音口琴 教本 編曲 基隆 社區大學 東光國中 亞太口琴節 評審",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://kcu.twcu.org.tw/course/m_course_detail.php?u=f5fbc46e1198f1d957519223b6068dc8"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@HenrysHarmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "40-henry-chen",
+      "latestUpdateAt": "2026-09-21T00:00:06+00:00",
+      "latestUpdateLocal": "2026-09-21 08:00",
+      "latestUpdateSource": "陳鴻儀",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=9BAIaaAy-ms",
+      "avatarUrl": "/assets/source-avatars/11010264a3489f5a5679.webp",
+      "sourceInitials": "陳鴻",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "比賽",
+        "半音階",
+        "複音",
+        "十孔",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_henrysharmonica",
+          "name": "陳鴻儀",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@HenrysHarmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-58",
       "publicId": "58",
       "name": "南里沙",
@@ -740,6 +794,80 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-43",
+      "publicId": "43",
+      "name": "林裕豐",
+      "nameEn": "Yu-Feng Lin",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "胖擊口琴樂團/半音階/THMF 2026/WHF與SIHF重奏/教學",
+      "structuredSummary": "胖擊口琴樂團/半音階/THMF 2026/WHF與SIHF重奏/教學 / 半音階口琴/重奏 / 演出人員/教育者/重奏團員",
+      "summary": "臺灣的半音階口琴與重奏演出人員、教育者與重奏團員，活動脈絡包含胖擊口琴樂團、半音階與THMF 2026。",
+      "keywords": "林裕豐 口琴 胖擊 Punch THMF 2026 WHF SIHF 半音階 教學",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/course/yufeng/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yf__life/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@YFHarmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "43-yu-feng-lin",
+      "latestUpdateAt": "2026-09-20T14:31:59+00:00",
+      "latestUpdateLocal": "2026-09-20 22:31",
+      "latestUpdateSource": "林裕豐",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=l6Lc69MYCIo",
+      "avatarUrl": "/assets/source-avatars/3e57ec6b2722c7d0b510.webp",
+      "sourceInitials": "林裕",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "教學",
+        "半音階",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_yf_life",
+          "name": "林裕豐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yf__life",
+          "profileUrl": "https://www.instagram.com/yf__life/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_yf_life",
+          "name": "林裕豐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yf__life",
+          "profileUrl": "https://www.instagram.com/yf__life/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_yfharmonica",
+          "name": "林裕豐",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@YFHarmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-305",
       "publicId": "305",
       "name": "黃浚宇",
@@ -1189,60 +1317,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "_leafin_harmonicaensemble",
           "profileUrl": "https://www.instagram.com/_leafin_harmonicaensemble/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-40",
-      "publicId": "40",
-      "name": "陳鴻儀",
-      "nameEn": "Henry Chen",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣/基隆/宜蘭",
-      "cityOrFocus": "複音口琴演奏與編曲/多次全國學生音樂比賽與亞太口琴節評審/曾任基隆市口琴協會理事長/東光國中、仁愛國小、樂齡中心與社區大學口琴教學/《複音口琴教本》編著",
-      "structuredSummary": "複音口琴演奏與編曲/多次全國學生音樂比賽與亞太口琴節評審/曾任基隆市口琴協會理事長/東光國中、仁愛國小、樂齡中心與社區大學口琴教學/《複音口琴教本》編著 / 複音口琴/十孔口琴/半音階口琴/口琴重奏與合奏 / 演出人員/評審/教育者/教材作者/協會前理事長",
-      "summary": "臺灣的複音口琴、十孔口琴、半音階口琴與口琴重奏與合奏演出人員、評審與教育者，活動脈絡包含複音口琴演奏與編曲、多次全國學生音樂比賽與亞太口琴節評審與曾任基隆市口琴協會理事長。",
-      "keywords": "陳鴻儀 Henry Chen 就是吹口琴 複音口琴 教本 編曲 基隆 社區大學 東光國中 亞太口琴節 評審",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://kcu.twcu.org.tw/course/m_course_detail.php?u=f5fbc46e1198f1d957519223b6068dc8"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@HenrysHarmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "40-henry-chen",
-      "latestUpdateAt": "2026-09-20T00:00:06+00:00",
-      "latestUpdateLocal": "2026-09-20 08:00",
-      "latestUpdateSource": "陳鴻儀",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=2T858F4ZmGg",
-      "avatarUrl": "/assets/source-avatars/11010264a3489f5a5679.webp",
-      "sourceInitials": "陳鴻",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "比賽",
-        "半音階",
-        "複音",
-        "十孔",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "yt_henrysharmonica",
-          "name": "陳鴻儀",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@HenrysHarmonica",
           "feedUrl": ""
         }
       ]
@@ -6309,80 +6383,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "facebook_page_posts",
           "username": "",
           "profileUrl": "https://facebook.com/HarmonicaDrumRhapsody",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-43",
-      "publicId": "43",
-      "name": "林裕豐",
-      "nameEn": "Yu-Feng Lin",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "胖擊口琴樂團/半音階/THMF 2026/WHF與SIHF重奏/教學",
-      "structuredSummary": "胖擊口琴樂團/半音階/THMF 2026/WHF與SIHF重奏/教學 / 半音階口琴/重奏 / 演出人員/教育者/重奏團員",
-      "summary": "臺灣的半音階口琴與重奏演出人員、教育者與重奏團員，活動脈絡包含胖擊口琴樂團、半音階與THMF 2026。",
-      "keywords": "林裕豐 口琴 胖擊 Punch THMF 2026 WHF SIHF 半音階 教學",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/course/yufeng/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/yf__life/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@YFHarmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "43-yu-feng-lin",
-      "latestUpdateAt": "2026-09-01T18:29:24+00:00",
-      "latestUpdateLocal": "2026-09-02 02:29",
-      "latestUpdateSource": "林裕豐",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcwTsolk_6v/",
-      "avatarUrl": "/assets/source-avatars/3e57ec6b2722c7d0b510.webp",
-      "sourceInitials": "林裕",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "教學",
-        "半音階",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_yf_life",
-          "name": "林裕豐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "yf__life",
-          "profileUrl": "https://www.instagram.com/yf__life/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_yf_life",
-          "name": "林裕豐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "yf__life",
-          "profileUrl": "https://www.instagram.com/yf__life/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_yfharmonica",
-          "name": "林裕豐",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@YFHarmonica",
           "feedUrl": ""
         }
       ]

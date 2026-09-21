@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T04:37:48.639089Z",
+  "generatedAt": "2026-09-21T05:12:55.714905Z",
   "source": {
     "id": 40,
     "slug": "henry-chen",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/40-henry-chen/"
   },
   "items": [
+    {
+      "id": "post-386153e006a9a9216a9ef396",
+      "title": "【就是吹口琴Just Play Harmonica 】｜陳美鳳 – 繁華攏是夢｜複音口琴Tremolo Harmonica 演奏版本(C)",
+      "excerpt": "【就是吹口琴Just Play Harmonica 】｜陳美鳳 – 繁華攏是夢｜複音口琴Tremolo Harmonica 演奏版本(C) 繁華攏是夢 游鴻明 作曲 游鴻明 作詞 陳美鳳 原唱 複音口琴演奏版本《C調》",
+      "url": "https://www.youtube.com/watch?v=9BAIaaAy-ms",
+      "sourceName": "陳鴻儀",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-21T00:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a487f670a7336685d2da.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-93a840b23e211698d723a02d",
       "title": "【就是吹口琴Just Play Harmonica 】｜美國民謠 – 德州黃玫瑰《The Yellow Rose of Texas》｜複音口琴Tremolo Harmonica 演奏版本《C調》",
