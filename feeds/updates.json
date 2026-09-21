@@ -1509,6 +1509,77 @@
       "key": "web_21:9860471349363f8d3321a2fe051b586a7e39341ac93820bd6e8d1d116bc03844"
     },
     {
+      "title": "Antonio Serrano｜Instagram story @antonioserranoarmonica",
+      "headline": "Instagram story @antonioserranoarmonica",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/stories/antonioserranoarmonica/3990200938907839882/",
+      "source_id": "ig_story_antonioserranoarmonica",
+      "source": "Antonio Serrano",
+      "source_system_name": "Antonio Serrano",
+      "source_profile_url": "https://www.instagram.com/antonioserranoarmonica/",
+      "country": "西班牙",
+      "region": "西班牙",
+      "directory_entry_id": "watchlist-132",
+      "directory_entry_name": "Antonio Serrano",
+      "account": "antonioserranoarmonica",
+      "platform": "instagram",
+      "platform_label": "Instagram story",
+      "posted_at": "2026-09-20T07:23:51+00:00",
+      "posted_at_local": "2026-09-20 15:23",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-21T02:49:33.454618+00:00",
+      "media_type": "instagram_story",
+      "story": true,
+      "story_provider": "apify_stories",
+      "story_fetched_at": "2026-09-21T02:45:25.862531+00:00",
+      "story_expires_at": "2026-09-21T07:23:51+00:00",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "限時動態"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.86,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "限時動態"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "Antonio Serrano 的 Instagram 限時動態，屬口琴演奏者公開更新。",
+      "text": "Instagram story @antonioserranoarmonica",
+      "images": [
+        "/assets/feed-images/71edcef9ecdb6673636c.webp"
+      ],
+      "videos": [],
+      "source_image_url": "/assets/feed-images/71edcef9ecdb6673636c.webp",
+      "image_url": "/assets/feed-images/71edcef9ecdb6673636c.webp",
+      "image_width": 720,
+      "image_height": 1280,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/587356515_18543865708023728_6352937185019025789_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gF9y1S3aHiZEgbXpq_u99J_-RVU9s0AvQOxVRTXtOThxSnkJJr4RstHuf7iQvD9eFI&_nc_ohc=mqNQIFn1R9IQ7kNvwG2yd0J&_nc_gid=14TYKdsv516KeRfpnlF18Q&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af-9Yo7JIr36OeIvCs8y3ab74qbVkXayYeZxMS5pkCM5iw&oe=6A44A7C0&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/fabe8864384bb712d439.webp",
+      "source_initials": "AS",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_story_antonioserranoarmonica:3990200938907839882"
+    },
+    {
       "title": "南里沙 / Risa MINAMI｜YouTubeの登録者数ついに50000人🎉 歴代サムネを並べたら、思い出がぎっしり😂コロナ禍にひとりで始めた生配信が、気づけばここまで…！ 今夜22時は 【感謝... YouTubeの登録者数ついに5…",
       "headline": "YouTubeの登録者数ついに50000人🎉 歴代サムネを並べたら、思い出がぎっしり😂コロナ禍にひとりで始めた生配信が、気づけばここまで…！ 今夜22時は 【感謝...",
       "display_title": "",

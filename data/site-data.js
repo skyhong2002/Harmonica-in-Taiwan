@@ -980,6 +980,92 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-132",
+      "publicId": "132",
+      "name": "Antonio Serrano",
+      "nameEn": "Antonio Serrano",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "西班牙",
+      "region": "西班牙",
+      "cityOrFocus": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025",
+      "structuredSummary": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025 / 半音階/十孔 / 國際演出人員",
+      "summary": "西班牙的半音階與十孔國際演出人員，活動脈絡包含馬德里出生、古典藍調爵士流行與與Paco de Lucia合作。",
+      "keywords": "Antonio Serrano harmonica SIHF WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hohner.de/en/antonio-serrano"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/antonioserranoarmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/antonioserranoarmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@antonioserranoofficial"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "132-antonio-serrano",
+      "latestUpdateAt": "2026-09-20T07:23:51+00:00",
+      "latestUpdateLocal": "2026-09-20 15:23",
+      "latestUpdateSource": "Antonio Serrano",
+      "latestUpdateUrl": "https://www.instagram.com/stories/antonioserranoarmonica/3990200938907839882/",
+      "avatarUrl": "/assets/source-avatars/d287b9982650be4d78eb.webp",
+      "sourceInitials": "AS",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_antonioserranoarmonica",
+          "name": "Antonio Serrano",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/antonioserranoarmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_antonioserranoarmonica",
+          "name": "Antonio Serrano",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "antonioserranoarmonica",
+          "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_antonioserranoarmonica",
+          "name": "Antonio Serrano",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "antonioserranoarmonica",
+          "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_antonioserranoofficial",
+          "name": "Antonio Serrano",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@antonioserranoofficial",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-50",
       "publicId": "50",
       "name": "Aiden Soon",
@@ -10469,92 +10555,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCIyVeF24bW3bO1azA8K8tgg",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-132",
-      "publicId": "132",
-      "name": "Antonio Serrano",
-      "nameEn": "Antonio Serrano",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "西班牙",
-      "region": "西班牙",
-      "cityOrFocus": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025",
-      "structuredSummary": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025 / 半音階/十孔 / 國際演出人員",
-      "summary": "西班牙的半音階與十孔國際演出人員，活動脈絡包含馬德里出生、古典藍調爵士流行與與Paco de Lucia合作。",
-      "keywords": "Antonio Serrano harmonica SIHF WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hohner.de/en/antonio-serrano"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/antonioserranoarmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/antonioserranoarmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@antonioserranoofficial"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "132-antonio-serrano",
-      "latestUpdateAt": "2026-08-24T17:44:26+00:00",
-      "latestUpdateLocal": "2026-08-25 01:44",
-      "latestUpdateSource": "Antonio Serrano",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcboCVJRxZv/",
-      "avatarUrl": "/assets/source-avatars/d287b9982650be4d78eb.webp",
-      "sourceInitials": "AS",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_antonioserranoarmonica",
-          "name": "Antonio Serrano",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/antonioserranoarmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_antonioserranoarmonica",
-          "name": "Antonio Serrano",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "antonioserranoarmonica",
-          "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_antonioserranoarmonica",
-          "name": "Antonio Serrano",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "antonioserranoarmonica",
-          "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_antonioserranoofficial",
-          "name": "Antonio Serrano",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@antonioserranoofficial",
           "feedUrl": ""
         }
       ]
