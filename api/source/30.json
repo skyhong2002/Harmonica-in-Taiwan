@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T02:51:01.588964Z",
+  "generatedAt": "2026-09-21T03:27:02.048357Z",
   "source": {
     "id": 30,
     "slug": "30",
@@ -69,20 +69,6 @@
       "publishedAt": "2026-08-23T02:01:02Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/55ade96809dc2b0c16db.webp",
-        "width": 590,
-        "height": 589
-      }
-    },
-    {
-      "id": "post-e20b0c97351dabd5cc45d699",
-      "title": "台口攤位-音和樂器，很用心地把大家熟識的代言人、推薦人列印出來放在相應口琴旁邊，是一個逛攤位的小驚喜：）",
-      "excerpt": "台口攤位-音和樂器，很用心地把大家熟識的代言人、推薦人列印出來放在相應口琴旁邊，是一個逛攤位的小驚喜：） ACE 48 真的好用必須推！",
-      "url": "https://www.facebook.com/dming.tsai/posts/pfbid02m8WL9BisHQzDYdQJ8PCUaAsyaTKtPF8RoAtFJKnLSi8Y4HXtGa6Do4H2zAYuQBKKl",
-      "sourceName": "蔡明憲",
-      "platform": "Facebook",
-      "publishedAt": "2026-08-22T02:53:09Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/faa84c8915084cf7e476.webp",
         "width": 590,
         "height": 589
       }
