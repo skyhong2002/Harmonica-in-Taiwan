@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T15:20:19.439409Z",
+  "generatedAt": "2026-09-21T16:02:30.572248Z",
   "source": {
     "id": 30,
     "slug": "30",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/30/"
   },
   "items": [
+    {
+      "id": "post-43e2dfdf10c2c1672b83ee5e",
+      "title": "跟風發一個釜山。",
+      "excerpt": "跟風發一個釜山。 今早調整了兩把要交件給學生的口琴，配上我都ok的釜山行，瞬間把回憶拉到2024年暑假，跟Fresco的大家一起到汗如雨下的釜山玩樂。 期待下一次的一同旅行：）",
+      "url": "https://www.facebook.com/dming.tsai/posts/pfbid0vQvtojQsKZBiHacdbgTFtZHJyGYxLcjoKpmC3KFiibe9AfULiaVARtL4sasgJ2oNl",
+      "sourceName": "蔡明憲",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-19T12:49:02Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/f054bf08f32e1e4d285a.webp",
+        "width": 590,
+        "height": 586
+      }
+    },
     {
       "id": "post-261d888370e0d41acafc995a",
       "title": "最近改造了三把 Super64x，性能提升了非常多；改善原廠吹奏力道、氣密度、按鍵偏軟之類的小遺憾，完全提升到可以拿上台演出的口琴 🔥",

@@ -1,6 +1,6 @@
 {
   "site": "https://harmonica.observe.tw",
-  "generatedAt": "2026-09-21",
+  "generatedAt": "2026-09-22",
   "count": 322,
   "stats": {
     "totalEntries": 322,
@@ -1724,6 +1724,78 @@
       ]
     },
     {
+      "id": "watchlist-30",
+      "publicId": "30",
+      "name": "蔡明憲",
+      "nameEn": "Ming-Sian Cai",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出",
+      "structuredSummary": "天狼星/Laelaps/教學/硬體/演出 / 和弦/重奏 / 演出人員/教學者",
+      "summary": "臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。",
+      "keywords": "蔡明憲 口琴 DMing Studio",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://dming.co/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/dming.tsai/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/damingtsai/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "30",
+      "latestUpdateAt": "2026-09-19T12:49:02+00:00",
+      "latestUpdateLocal": "2026-09-19 20:49",
+      "latestUpdateSource": "蔡明憲",
+      "latestUpdateUrl": "https://www.facebook.com/dming.tsai/posts/pfbid0vQvtojQsKZBiHacdbgTFtZHJyGYxLcjoKpmC3KFiibe9AfULiaVARtL4sasgJ2oNl",
+      "avatarUrl": "/assets/source-avatars/ddd1f562b3747ddda862.webp",
+      "sourceInitials": "蔡明",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_dming_tsai",
+          "name": "蔡明憲",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/dming.tsai",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-46",
       "publicId": "46",
       "name": "廖苡晴",
@@ -1808,6 +1880,94 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@alysaliao",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-319",
+      "publicId": "319",
+      "name": "莊庭皓 Ivan Chong",
+      "nameEn": "Ivan Chong Ting-ho",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階口琴演奏與教學/Perfect Fourth成員/何東中學口琴隊指揮與多校口琴導師/2009世界口琴節成人二重奏冠軍/2014起擔任首爾、亞太與世界口琴節評審及嘉賓/口琴維修與Co-op Harmonica創辦",
+      "structuredSummary": "半音階口琴演奏與教學/Perfect Fourth成員/何東中學口琴隊指揮與多校口琴導師/2009世界口琴節成人二重奏冠軍/2014起擔任首爾、亞太與世界口琴節評審及嘉賓/口琴維修與Co-op Harmonica創辦 / 半音階口琴 / 國際演出人員/口琴教師/學校樂團指揮/評審/維修技師",
+      "summary": "香港的半音階口琴國際演出人員、口琴教師與學校樂團指揮，活動脈絡包含半音階口琴演奏與教學、Perfect Fourth成員與何東中學口琴隊指揮與多校口琴導師。",
+      "keywords": "莊庭皓 Ivan Chong Ting-ho Perfect Fourth Hotung Secondary School Harmonica Band WHF SIHF APHF Co-op Harmonica Hohner service technician 香港",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://ivanchong.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chongtingho"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chongtingho/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCNjS1XofiGjUCzKTYz7DOLw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "319-ivan-chong-ting-ho",
+      "latestUpdateAt": "2026-09-19T01:30:31+00:00",
+      "latestUpdateLocal": "2026-09-19 09:30",
+      "latestUpdateSource": "莊庭皓 Ivan Chong",
+      "latestUpdateUrl": "https://www.facebook.com/chongtingho/posts/pfbid0oDdy7La22BC3zHx4sCyWhRhCPxocg5T1HBHix9Z8kq3UFa515DzJVwMx5pfHScMYl",
+      "avatarUrl": "/assets/source-avatars/ivan-chong.jpg",
+      "sourceInitials": "IC",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "教學",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_chongtingho",
+          "name": "莊庭皓 Ivan Chong",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/chongtingho",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_chongtingho",
+          "name": "莊庭皓 Ivan Chong",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "chongtingho",
+          "profileUrl": "https://www.instagram.com/chongtingho/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_chongtingho",
+          "name": "莊庭皓 Ivan Chong",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "chongtingho",
+          "profileUrl": "https://www.instagram.com/chongtingho/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ucnjs1xofigjuczktyz7dolw",
+          "name": "莊庭皓 Ivan Chong",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCNjS1XofiGjUCzKTYz7DOLw",
           "feedUrl": ""
         }
       ]
@@ -3123,7 +3283,7 @@
       "latestUpdateLocal": "2026-09-17 14:51",
       "latestUpdateSource": "衛武營國家藝術文化中心",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=f38FWMPppEo",
-      "avatarUrl": "/assets/source-avatars/6fc093f7dda28354e12a.webp",
+      "avatarUrl": "/assets/source-avatars/ee2aa11e5c3989ca7ca5.webp",
       "sourceInitials": "衛武",
       "sourceTags": [
         "場館平台"
@@ -6284,78 +6444,6 @@
       ]
     },
     {
-      "id": "watchlist-30",
-      "publicId": "30",
-      "name": "蔡明憲",
-      "nameEn": "Ming-Sian Cai",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出",
-      "structuredSummary": "天狼星/Laelaps/教學/硬體/演出 / 和弦/重奏 / 演出人員/教學者",
-      "summary": "臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。",
-      "keywords": "蔡明憲 口琴 DMing Studio",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://dming.co/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/dming.tsai/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/damingtsai/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "30",
-      "latestUpdateAt": "2026-09-04T03:15:53+00:00",
-      "latestUpdateLocal": "2026-09-04 11:15",
-      "latestUpdateSource": "蔡明憲",
-      "latestUpdateUrl": "https://www.facebook.com/dming.tsai/posts/pfbid0NnCTwyJjMa3YjWbEwfuRXxEAPcCctRqtVd9DrXSvBZNZGDCqNU2AgSGpnV2KAk1yl",
-      "avatarUrl": "/assets/source-avatars/ddd1f562b3747ddda862.webp",
-      "sourceInitials": "蔡明",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_dming_tsai",
-          "name": "蔡明憲",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/dming.tsai",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-37",
       "publicId": "37",
       "name": "陳晟禕",
@@ -7895,94 +7983,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@FedericoLinari",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-319",
-      "publicId": "319",
-      "name": "莊庭皓 Ivan Chong",
-      "nameEn": "Ivan Chong Ting-ho",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階口琴演奏與教學/Perfect Fourth成員/何東中學口琴隊指揮與多校口琴導師/2009世界口琴節成人二重奏冠軍/2014起擔任首爾、亞太與世界口琴節評審及嘉賓/口琴維修與Co-op Harmonica創辦",
-      "structuredSummary": "半音階口琴演奏與教學/Perfect Fourth成員/何東中學口琴隊指揮與多校口琴導師/2009世界口琴節成人二重奏冠軍/2014起擔任首爾、亞太與世界口琴節評審及嘉賓/口琴維修與Co-op Harmonica創辦 / 半音階口琴 / 國際演出人員/口琴教師/學校樂團指揮/評審/維修技師",
-      "summary": "香港的半音階口琴國際演出人員、口琴教師與學校樂團指揮，活動脈絡包含半音階口琴演奏與教學、Perfect Fourth成員與何東中學口琴隊指揮與多校口琴導師。",
-      "keywords": "莊庭皓 Ivan Chong Ting-ho Perfect Fourth Hotung Secondary School Harmonica Band WHF SIHF APHF Co-op Harmonica Hohner service technician 香港",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://ivanchong.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/chongtingho"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/chongtingho/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCNjS1XofiGjUCzKTYz7DOLw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "319-ivan-chong-ting-ho",
-      "latestUpdateAt": "2026-08-31T23:37:56+00:00",
-      "latestUpdateLocal": "2026-09-01 07:37",
-      "latestUpdateSource": "莊庭皓 Ivan Chong",
-      "latestUpdateUrl": "https://www.facebook.com/chongtingho/posts/pfbid0DyXGP86MpzZUK7aZu6uAQsCWo85m9TWzYaEnF9bFjsLMKZmnXEhG2WBhXHg51ZYVl",
-      "avatarUrl": "/assets/source-avatars/ivan-chong.jpg",
-      "sourceInitials": "IC",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "教學",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_chongtingho",
-          "name": "莊庭皓 Ivan Chong",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/chongtingho",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_chongtingho",
-          "name": "莊庭皓 Ivan Chong",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "chongtingho",
-          "profileUrl": "https://www.instagram.com/chongtingho/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_chongtingho",
-          "name": "莊庭皓 Ivan Chong",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "chongtingho",
-          "profileUrl": "https://www.instagram.com/chongtingho/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_ucnjs1xofigjuczktyz7dolw",
-          "name": "莊庭皓 Ivan Chong",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCNjS1XofiGjUCzKTYz7DOLw",
           "feedUrl": ""
         }
       ]
