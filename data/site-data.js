@@ -1884,7 +1884,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-19 20:49",
       "latestUpdateSource": "蔡明憲",
       "latestUpdateUrl": "https://www.facebook.com/dming.tsai/posts/pfbid0vQvtojQsKZBiHacdbgTFtZHJyGYxLcjoKpmC3KFiibe9AfULiaVARtL4sasgJ2oNl",
-      "avatarUrl": "/assets/source-avatars/ddd1f562b3747ddda862.webp",
+      "avatarUrl": "/assets/source-avatars/bf2f349c5f4c1ca4392a.webp",
       "sourceInitials": "蔡明",
       "sourceTags": [
         "演奏者",
