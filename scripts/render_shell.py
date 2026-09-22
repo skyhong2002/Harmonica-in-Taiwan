@@ -18,6 +18,14 @@ WORDS = {
 }
 
 
+SCORE_GUIDE = {
+    'en': ('Find & buy music', 'Find books, sales announcements, music libraries and enquiry contacts.'),
+    'zh-Hant': ('找譜與購譜', '找一本譜集、查看販售公告，或到曲庫與團隊網站詢問樂譜。'),
+    'ja': ('楽譜の入手先', '楽譜集、販売案内、曲庫や問い合わせ先を探せます。'),
+    'ko': ('악보 찾기·구매', '악보집, 판매 공지, 곡목 자료실과 문의처를 찾아보세요.'),
+}
+
+
 def normalize_locale(value: str) -> str:
     value = str(value or '').replace('_', '-').lower()
     if value.startswith('zh'):
@@ -43,8 +51,11 @@ def render_document(template: str, path: str, catalog: dict, origin: str, locale
                      str(s.get('url') or '').rstrip('/').rsplit('/', 1)[-1] == route_id))), None)
     canonical_path = (source.get('url') or path) if source else path
     page = (source.get('name') or source.get('id') or words['source']) if source else words.get(route, words['home'])
-    title = page + ' · ' + words['brand']
     description = (source.get('summary') or words['description']) if source else words['description']
+    score_guide = path.rstrip('/') == '/scores/sources'
+    if score_guide:
+        page, description = SCORE_GUIDE[locale]
+    title = page + ' · ' + words['brand']
     canonical = origin.rstrip('/') + canonical_path
     canonical += '?' + urlencode({'lang': locale})
     document = re.sub(r'<html\b[^>]*>', '<html lang="' + locale + '">', template, count=1)
@@ -70,6 +81,10 @@ def render_document(template: str, path: str, catalog: dict, origin: str, locale
         content += '</ul><h2>' + e(words['latest']) + '</h2><ul>'
         content += ''.join('<li><a href="' + e(p['url']) + '">' + e(p['title']) + '</a></li>' for p in [p for p in catalog.get('posts', []) if p.get('sourceId') == source.get('id')][:12])
         content += '</ul>'
+    elif score_guide:
+        content += '<ul>' + ''.join('<li><a href="' + e(row.get('sourceUrl') or row.get('url')) + '">'
+            + e(row.get('title') or row.get('name')) + '</a> · ' + e(row.get('name')) + '</li>'
+            for row in catalog.get('scoreSources', [])[:24]) + '</ul>'
     else:
         content += '<ul>' + ''.join('<li><a href="' + e(s.get('url') or '/source/') + '?lang=' + locale + '">' + e(s.get('name') or s.get('id')) + '</a></li>' for s in catalog.get('sources', [])[:24]) + '</ul>'
     content += '<a href="/source/?lang=' + locale + '">' + e(words['all']) + '</a></section>'

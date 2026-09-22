@@ -17,6 +17,15 @@ class RenderShellTests(unittest.TestCase):
                             'links': [{'url': 'https://example.org/ensemble?a=1&b=2', 'label': 'Official website'}]}],
                 'posts': [{'sourceId': 'watchlist-42', 'title': 'Concert & workshop', 'url': 'https://example.org/concert'}]}
 
+    def test_score_guide_has_its_own_localized_title_and_score_links(self):
+        for locale, (title, _) in render_shell.SCORE_GUIDE.items():
+            catalog = self.catalog()
+            catalog['scoreSources'] = [{'title': 'Original book title', 'name': 'Provider', 'sourceUrl': 'https://example.org/book'}]
+            document = render_shell.render_document(TEMPLATE, '/scores/sources/', catalog, ORIGIN, locale)
+            self.assertIn(html.escape(title), document)
+            self.assertIn('Original book title', document)
+            self.assertIn('https://example.org/book', document)
+
     def test_four_locales_have_localized_metadata_and_alternate_links(self):
         for locale in render_shell.LOCALES:
             document = render_shell.render_document(TEMPLATE, '/source/', self.catalog(), ORIGIN, locale)

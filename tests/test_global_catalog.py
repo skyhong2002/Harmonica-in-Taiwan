@@ -38,13 +38,18 @@ class CatalogTests(unittest.TestCase):
                  'images': ['/assets/real.webp', 'javascript:bad'], 'videos': ['https://example.org/video.mp4']},
                 {'key': 'profile', 'link': 'https://example.org/profile', 'text': 'Unrelated profile'}]}))
             (root / 'score-sources.json').write_text(json.dumps({'scoreSources': [
-                {'id': 'yes', 'url': 'https://example.org/profile', 'evidenceUrl': 'https://example.org/post/1'},
+                {'id': 'yes', 'url': 'https://example.org/profile', 'evidenceUrl': 'https://example.org/post/1',
+                 'format': '紙本教材', 'purchaseMethod': '分類頁查詢', 'lastSeenAt': '2026-07-03', 'availability': '待確認'},
                 {'id': 'no', 'url': 'https://example.org/profile', 'evidenceUrl': 'https://example.org/profile'}]}))
             result = catalog.build_catalog(root)
             self.assertEqual(result['posts'][0]['images'], ['/assets/real.webp'])
             self.assertEqual(result['posts'][0]['videoUrl'], 'https://example.org/video.mp4')
             self.assertEqual(result['scoreSources'][0]['relatedPosts'][0]['text'], 'Original')
             self.assertEqual(result['scoreSources'][1]['relatedPosts'], [])
+            self.assertEqual(result['scoreSources'][0]['format'], '紙本教材')
+            self.assertEqual(result['scoreSources'][0]['purchaseMethod'], '分類頁查詢')
+            self.assertEqual(result['scoreSources'][0]['lastSeenAt'], '2026-07-03')
+            self.assertEqual(result['scoreSources'][0]['availability'], '待確認')
 
     def test_profile_urls_are_not_publication_evidence(self):
         for url in ['https://www.instagram.com/band/', 'https://facebook.com/band/',

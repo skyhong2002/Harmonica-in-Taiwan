@@ -274,6 +274,8 @@ def build_catalog(api_root: Path | str = API_ROOT, *, now: datetime | None = Non
         score_sources.append({
             'id': _id(row, 'id'), 'name': str(row.get('sourceName') or row.get('scoreTitle') or ''),
             'title': str(row.get('scoreTitle') or ''), 'url': public_url(row.get('url')),
+            **{key: str(row.get(key) or '') for key in ('format', 'instrumentation', 'purchaseMethod',
+                'rightsNote', 'sourceType', 'composer', 'arranger', 'price', 'availability', 'lastSeenAt')},
             'summary': ' · '.join(str(row.get(k) or '') for k in ('scoreTitle', 'instrumentation', 'purchaseMethod', 'rightsNote') if row.get(k)),
             'countryCode': country_code(row.get('country')), 'links': _links(row.get('links')),
             'sourceUrl': public_url(row.get('evidenceUrl')), 'count': 1,

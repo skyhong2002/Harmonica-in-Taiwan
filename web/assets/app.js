@@ -101,6 +101,7 @@ function readState() {
     division: p.get("division") || "",
     publisher: p.get("publisher") || "",
     scoreSort: p.get("scoreSort") || "year_desc",
+    scoreKind: ["books", "announcements", "contacts"].includes(p.get("scoreKind")) ? p.get("scoreKind") : "",
     sort: p.get("sort") || "name",
     descending: p.get("descending") === "1",
   };

@@ -49,6 +49,13 @@ const labels = {
     solo: '하모니카 독주', quartet: '하모니카 4중주', ensemble: '하모니카 합주',
   },
 };
+const guideCopy = {
+  'zh-Hant': {collections:'找譜與購譜', collectionRecords:'{count} 筆找譜資訊', collectionsNote:'本站提供外部來源連結。價格、庫存與使用授權請向提供者確認。', kind:'你想找什麼？', allKinds:'全部資訊', books:'譜集與教材', announcements:'販售公告', contacts:'曲庫與洽詢', booksHelp:'已有名稱的曲集或教材；部分連結會前往商店分類頁。', announcementsHelp:'樂譜販售資訊；是否仍可購買，請查看公告或詢問發布者。', contactsHelp:'曲庫、團隊網站與聯絡線索；不表示已有特定樂譜可取得。', provider:'提供者', how:'取得方式', record:'收錄紀錄與原文', recorded:'收錄日期', recordedPrice:'當時記錄的價格', recordedAvailability:'當時記錄的狀態', product:'查看商品頁', shop:'瀏覽商店', category:'瀏覽商店分類', readAnnouncement:'閱讀販售公告', library:'查看曲庫', profile:'前往粉專詢問', website:'前往來源網站', introduction:'查看作品介紹', searchGuide:'搜尋書名、提供者或口琴編制', sourcePage:'查看原始頁面'},
+  en: {collections:'Find & buy music', collectionRecords:'{count} music leads', collectionsNote:'Links open external sources. Confirm prices, stock and permissions with the provider.', kind:'What are you looking for?', allKinds:'All information', books:'Books & sheet music', announcements:'Sales announcements', contacts:'Libraries & enquiries', booksHelp:'Named books and collections; some links open a shop category rather than a product page.', announcementsHelp:'Published sales information. Check the announcement or ask the provider about availability.', contactsHelp:'Libraries, team websites and contact leads; these do not guarantee a particular score is available.', provider:'Provider', how:'How to obtain', record:'Recorded details & original text', recorded:'Date recorded', recordedPrice:'Price recorded then', recordedAvailability:'Status recorded then', product:'View product page', shop:'Browse shop', category:'Browse shop category', readAnnouncement:'Read sales announcement', library:'Open music library', profile:'Visit page to enquire', website:'Visit source website', introduction:'Read artist / work profile', searchGuide:'Search titles, providers or instrumentation', sourcePage:'View original page'},
+  ja: {collections:'楽譜の入手先', collectionRecords:'楽譜情報 {count} 件', collectionsNote:'リンク先は外部サイトです。価格・在庫・利用条件は提供元にご確認ください。', kind:'何を探しますか？', allKinds:'すべての情報', books:'楽譜集・教材', announcements:'販売案内', contacts:'曲庫・問い合わせ先', booksHelp:'名称のある楽譜集や教材。一部のリンクは商品ではなく店舗カテゴリに移動します。', announcementsHelp:'公開された販売情報です。現在の購入可否は案内や提供元をご確認ください。', contactsHelp:'曲庫や団体サイト、連絡先です。特定の楽譜が入手できるとは限りません。', provider:'提供元', how:'入手方法', record:'記録情報・原文', recorded:'記録日', recordedPrice:'記録時の価格', recordedAvailability:'記録時の状況', product:'商品ページを見る', shop:'店舗を見る', category:'店舗カテゴリを見る', readAnnouncement:'販売案内を読む', library:'曲庫を見る', profile:'公開ページで問い合わせる', website:'提供元サイトへ', introduction:'人物・作品紹介を読む', searchGuide:'書名・提供元・編成で検索', sourcePage:'元のページを見る'},
+  ko: {collections:'악보 찾기·구매', collectionRecords:'악보 정보 {count}건', collectionsNote:'외부 출처로 연결됩니다. 가격, 재고 및 이용 조건은 제공처에 확인하세요.', kind:'무엇을 찾으시나요?', allKinds:'모든 정보', books:'악보집·교재', announcements:'판매 공지', contacts:'자료실·문의처', booksHelp:'제목이 있는 악보집과 교재입니다. 일부 링크는 상품 대신 상점 분류로 연결됩니다.', announcementsHelp:'공개된 판매 정보입니다. 현재 구매 가능 여부는 공지나 제공처에서 확인하세요.', contactsHelp:'자료실, 단체 사이트와 문의 단서입니다. 특정 악보의 입수를 보장하지 않습니다.', provider:'제공처', how:'입수 방법', record:'수집 기록·원문', recorded:'기록 날짜', recordedPrice:'기록 당시 가격', recordedAvailability:'기록 당시 상태', product:'상품 페이지 보기', shop:'상점 둘러보기', category:'상점 분류 보기', readAnnouncement:'판매 공지 읽기', library:'곡목 자료실 보기', profile:'공개 페이지에서 문의', website:'출처 사이트 방문', introduction:'연주자·작품 소개 읽기', searchGuide:'제목, 제공처 또는 편성 검색', sourcePage:'원본 페이지 보기'},
+};
+for (const locale of Object.keys(labels)) Object.assign(labels[locale], guideCopy[locale]);
 export const scoreLabels = labels;
 const l = (key, values = {}) => (labels[getLocale()] || labels.en)[key].replace(/\{(\w+)\}/g, (_, name) => values[name] ?? '');
 const instrumentation = value => ({ '口琴獨奏': l('solo'), '口琴四重奏': l('quartet'), '口琴合奏': l('ensemble') })[value] || value;
@@ -139,9 +146,40 @@ function collectionMedia(row) {
     return `<section class="collection-post feed-content"><div class="collection-post-heading"><strong>${esc(l('announcement'))}</strong>${post.publishedAt ? `<time datetime="${esc(post.publishedAt)}">${esc(date(post.publishedAt))}</time>` : ''}</div>${gallery([post.image, ...(Array.isArray(post.images) ? post.images : [])], post.url, post.title || row.title)}${text ? `<p class="feed-text post-text${expanded ? ' is-expanded' : ''}">${esc(text)}</p>${expanded ? '' : `<button type="button" class="collection-expand" data-expand-post aria-expanded="false">${t('readMore')}</button>`}` : ''}${link(post.url, t('original'), 'collection-original-link')}</section>`;
   }).join('');
 }
-function collectionRow(row) {
-  return `<article class="score-row repertoire-row collection-row"><div class="score-icon">${icon('music')}</div><div class="score-main"><div class="score-row-meta">${esc(countryName(row.countryCode))}</div><h3>${esc(row.name || row.title)}</h3>${row.title && row.title !== row.name ? `<p class="collection-title">${esc(row.title)}</p>` : ''}${row.summary ? `<p class="collection-original">${esc(row.summary)}</p>` : ''}${collectionMedia(row)}<div class="score-row-links">${scoreEvidenceLinks(row)}${reportLink(row)}</div></div></article>`;
+export function collectionKind(row) {
+  if (/^紙本/.test(row.format || '')) return 'books';
+  if (['電子樂譜公告','樂譜販售公告','PDF／MP3 公告'].includes(row.format)) return 'announcements';
+  return 'contacts';
 }
+export function collectionAction(row) {
+  const urls = [...new Set([row.sourceUrl,row.url,...(row.links || []).map(item=>item.url)].map(safeUrl).filter(Boolean))];
+  const parsed = value => { try { return new URL(value, 'https://harmonica.observe.tw'); } catch { return null; } };
+  const product = urls.find(url => /\/product\/[^/]+/.test(parsed(url)?.pathname || ''));
+  if (product && collectionKind(row) === 'books') return {url:product,label:'product'};
+  const category = urls.find(url => /\/product-category\//.test(parsed(url)?.pathname || ''));
+  if (category) return {url:category,label:'category'};
+  if (row.format === '線上資料庫') return {url:safeUrl(row.url || row.sourceUrl),label:'library'};
+  if (collectionKind(row) === 'announcements') {
+    const post = urls.find(url => /\/(posts|photos|p|reel)\//.test(parsed(url)?.pathname || '') || ['story_fbid','fbid'].some(key=>parsed(url)?.searchParams.has(key)));
+    if (post) return {url:post,label:'readAnnouncement'};
+  }
+  const url = safeUrl(row.url) || urls[0] || '';
+  const host = parsed(url)?.hostname || '';
+  const label = row.format === '人物／作品介紹' ? 'introduction' : collectionKind(row) === 'books' || row.format === '商品分類' ? 'shop' : /(^|\.)facebook\.com$/.test(host) ? 'profile' : 'website';
+  return {url,label};
+}
+function collectionRow(row) {
+  const action = collectionAction(row);
+  const detail = (label,value) => value ? `<div><dt>${esc(label)}</dt><dd>${esc(value)}</dd></div>` : '';
+  const extra = [...new Set([row.sourceUrl,row.url,...(row.links || []).map(item=>item.url)].map(safeUrl).filter(url=>url && url !== action.url))];
+  return `<article class="score-row repertoire-row collection-row" data-collection-kind="${collectionKind(row)}"><div class="score-main"><h3 class="collection-title">${esc(row.title || row.name)}</h3><p class="collection-provider">${esc(l('provider'))}: ${esc(row.name || '')}</p><dl class="collection-facts">${detail(l('instrument'),row.instrumentation)}${detail(l('how'),row.purchaseMethod)}</dl>${collectionMedia(row)}<div class="score-row-links">${link(action.url, esc(l(action.label)), 'button button-outline collection-primary')}${reportLink(row)}</div><details class="collection-record"><summary>${esc(l('record'))}${row.lastSeenAt ? ` · ${esc(row.lastSeenAt)}` : ''}</summary><dl>${detail(l('recorded'),row.lastSeenAt)}${detail(t('composer'),row.composer)}${detail(t('arranger'),row.arranger)}${detail(l('recordedPrice'),row.price)}${detail(l('recordedAvailability'),row.availability)}</dl>${row.summary ? `<p class="collection-original">${esc(row.summary)}</p>` : ''}<div class="score-evidence">${extra.map(url=>link(url,esc(l('sourcePage')),'score-evidence-link')).join('')}</div></details></div></article>`;
+}
+function collectionControls(rows, state) {
+  const base = rows.filter(row=>match(row,{q:state.q,country:state.country}));
+  const countries = state.country || rows.some(row=>row.countryCode && row.countryCode!=='UNKNOWN');
+  return `<section class="filter-bar scores-filters collection-filters" aria-label="${t('filter')}"><label class="search-label"><span>${t('search')}</span><div class="search-wrap">${icon('search')}<input id="catalog-search" type="search" value="${esc(state.q || '')}" placeholder="${esc(l('searchGuide'))}" autocomplete="off"></div></label><label>${esc(l('kind'))}<select data-filter="scoreKind"><option value="">${esc(l('allKinds'))} (${number(base.length)})</option>${['books','announcements','contacts'].map(kind=>`<option value="${kind}" ${state.scoreKind===kind?'selected':''}>${esc(l(kind))} (${number(base.filter(row=>collectionKind(row)===kind).length)})</option>`).join('')}</select></label>${countries ? select('country',t('country'),t('allCountries'),rows,{q:state.q,country:state.country}) : ''}${state.q || state.country || state.scoreKind ? `<button class="clear-filter" data-action="reset">${esc(l('reset'))}</button>` : ''}</section>`;
+}
+
 function noResults(collections) {
   return `<div class="empty-state"><h2>${esc(l(collections ? 'noCollections' : 'noResults'))}</h2><p>${t('noResultsBody')}</p><button class="button button-outline" data-action="reset">${esc(l('reset'))}</button></div>`;
 }
@@ -155,6 +193,12 @@ export function scoresView(catalog, state = {}, limit = 24) {
 export function scoreSourcesView(catalog, state = {}, limit = 24) {
   const rows = catalog.scoreSources || [];
   const collator = new Intl.Collator(getLocale(), { numeric: true, sensitivity: 'base' });
-  const results = rows.filter(row => match(row, { q: state.q, country: state.country })).sort((a, b) => collator.compare(a.name || a.title || '', b.name || b.title || '') || collator.compare(a.title || '', b.title || ''));
-  return `${pageHeading('scoreSources', 'scoreSourcesBody')}${tabs('collections', state, catalog)}<p class="score-index-note">${icon('info')}<span>${esc(l('collectionsNote'))}</span></p>${controls(rows, state, true)}<div class="results-bar"><p role="status">${esc(l('collectionRecords', { count: number(results.length) }))}</p><span>${t('originalLanguage')}</span></div><div class="score-list score-source-list">${results.length ? results.slice(0, limit).map(collectionRow).join('') : noResults(true)}</div>${pagination(results.length, limit)}`;
+  const kinds = ['books','announcements','contacts'];
+  const results = rows.filter(row => match(row, { q: state.q, country: state.country }) && (!state.scoreKind || collectionKind(row) === state.scoreKind)).sort((a,b)=>kinds.indexOf(collectionKind(a))-kinds.indexOf(collectionKind(b)) || collator.compare(a.title || a.name || '',b.title || b.name || ''));
+  const visible = results.slice(0,limit);
+  const content = kinds.map(kind=>{
+    const group = visible.filter(row=>collectionKind(row)===kind);
+    return group.length ? `<div class="collection-group-heading"><h2>${esc(l(kind))} <span>${number(results.filter(row=>collectionKind(row)===kind).length)}</span></h2><p>${esc(l(kind+'Help'))}</p></div>${group.map(collectionRow).join('')}` : '';
+  }).join('');
+  return `${pageHeading('scoreSources', 'scoreSourcesBody')}${tabs('collections', state, catalog)}${collectionControls(rows,state)}<div class="results-bar"><p role="status">${esc(l('collectionRecords', { count: number(results.length) }))}</p></div><div class="score-list score-source-list">${results.length ? content : noResults(true)}</div>${pagination(results.length, limit)}<p class="score-index-note">${icon('info')}<span>${esc(l('collectionsNote'))}</span></p>`;
 }

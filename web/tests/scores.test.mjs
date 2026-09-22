@@ -70,7 +70,8 @@ test('four-language score views keep original text and collection titles, preser
   assert.ok(document.querySelector('.collection-title').textContent.includes('Original collection title'));
   assert.ok(document.querySelector('.collection-original').textContent.includes('<script>unsafe</script>'));
   assert.equal(document.querySelector('script'),null);
-  assert.equal(document.querySelectorAll('.score-evidence a').length,2);
+  assert.equal(document.querySelectorAll('.score-evidence a').length,1);
+  assert.ok(document.querySelector('.collection-primary'));
   assert.doesNotMatch(document.body.textContent,/\b(?:undefined|NaN)\b/);
  }
 });
@@ -123,4 +124,31 @@ test('collections show only supplied source media and linked original posts, wit
   assert.equal(document.querySelector('.collection-original-link').href, 'https://example.org/announcement');
   document.body.innerHTML = scoreSourcesView(catalog);
   assert.equal(document.querySelector('.collection-post,.collection-media'), null);
+});
+
+
+test('find-music guide separates named books, announcements and enquiry leads and labels real destinations', async () => {
+ const {collectionKind,collectionAction}=await import('../assets/scores.js');
+ const book={id:'book',name:'Shop',title:'Book title',format:'紙本教材',instrumentation:'半音階口琴',purchaseMethod:'分類頁查詢',url:'https://harmonica.tw/product-category/books/',sourceUrl:'https://harmonica.tw/product-category/books/'};
+ const contact={id:'contact',name:'Band',title:'Ask about scores',format:'社群入口',url:'https://facebook.com/band/'};
+ const announcement={id:'notice',name:'Band',title:'Sale notice',format:'樂譜販售公告',url:'https://facebook.com/band/'};
+ assert.equal(collectionKind(book),'books');
+ assert.equal(collectionKind(contact),'contacts');
+ assert.equal(collectionKind(announcement),'announcements');
+ assert.equal(collectionAction(book).label,'category');
+ assert.equal(collectionAction({...book,sourceUrl:'https://harmonica.tw/product/book/'}).label,'product');
+ assert.equal(collectionAction(announcement).label,'profile');
+ assert.equal(collectionAction({...announcement,sourceUrl:'https://facebook.com/band/posts/123/'}).label,'readAnnouncement');
+ for(const lang of ['zh-Hant','en','ja','ko']) {
+  setLocale(lang);
+  document.body.innerHTML=scoreSourcesView({scoreSources:[contact,book,announcement]},{});
+  assert.equal(document.querySelector('.collection-title').textContent,'Book title');
+  assert.equal(document.querySelectorAll('.collection-group-heading').length,3);
+  assert.equal(document.querySelector('[data-filter="country"]'),null);
+  assert.equal(document.querySelectorAll('[data-filter="scoreKind"] option').length,4);
+  assert.match(document.querySelector('.collection-facts').textContent,/分類頁查詢/);
+  document.body.innerHTML=scoreSourcesView({scoreSources:[contact,book,announcement]},{scoreKind:'contacts'});
+  assert.equal(document.querySelectorAll('.collection-row').length,1);
+  assert.equal(document.querySelector('.collection-title').textContent,'Ask about scores');
+ }
 });
