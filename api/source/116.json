@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T12:18:06.838119Z",
+  "generatedAt": "2026-09-22T12:53:19.215813Z",
   "source": {
     "id": 116,
     "slug": "trio-animato",
@@ -44,20 +44,6 @@
       "sourceName": "Trio Animato",
       "platform": "Facebook",
       "publishedAt": "2026-08-28T14:11:51Z"
-    },
-    {
-      "id": "post-496298570e6c9a9d18547190",
-      "title": "@animato1978 - Alte Kameraden - Mundharmonika",
-      "excerpt": "@animato1978 - Alte Kameraden - Mundharmonika Carl Teike - Alte Kameraden Marek Jaroszyński - chromatische Mundharmonika Piotr Bieliński - akkorde Mundharmonika Piotr Włodarczyk - bass Mundharmonika",
-      "url": "https://www.youtube.com/watch?v=_73h6A7_BfY",
-      "sourceName": "Trio Animato",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-23T12:35:45Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/f18c2d1e0fd3075be64a.webp",
-        "width": 640,
-        "height": 480
-      }
     }
   ]
 }
