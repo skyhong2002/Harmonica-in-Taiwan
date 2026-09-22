@@ -71,6 +71,116 @@
   },
   "entries": [
     {
+      "id": "watchlist-136",
+      "publicId": "136",
+      "name": "Project X",
+      "nameEn": "Project X",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體/合作企劃",
+      "country": "國際",
+      "region": "國際",
+      "cityOrFocus": "口琴合作企劃/跨團重奏/SIHF 2018",
+      "structuredSummary": "口琴合作企劃/跨團重奏/SIHF 2018 / 口琴 / 國際演出團體",
+      "summary": "國際的口琴國際演出團體，活動脈絡包含口琴合作企劃、跨團重奏與SIHF 2018。",
+      "keywords": "Project X harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://thefestival.co.kr/info/festival/7338"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "136-project-x",
+      "latestUpdateAt": "2026-09-22T09:53:27.798658+00:00",
+      "latestUpdateLocal": "2026-09-22 17:53",
+      "latestUpdateSource": "Project X",
+      "latestUpdateUrl": "https://thefestival.co.kr/info/festival/7338",
+      "avatarUrl": "/assets/source-avatars/d46567b33b1baf0d8f42.webp",
+      "sourceInitials": "PX",
+      "sourceTags": [
+        "團體樂團",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_136",
+          "name": "Project X",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://thefestival.co.kr/info/festival/7338",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_sihf_uv5mk",
+          "name": "Seoul International Harmonica Festival",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@SIHF-uv5mk",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-134",
+      "publicId": "134",
+      "name": "Crossover Harmonica Ensemble",
+      "nameEn": "Crossover Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "韓國跨界口琴重奏/國際交流/SIHF 2018",
+      "structuredSummary": "韓國跨界口琴重奏/國際交流/SIHF 2018 / 口琴重奏 / 國際演出團體",
+      "summary": "韓國的口琴重奏國際演出團體，活動脈絡包含韓國跨界口琴重奏、國際交流與SIHF 2018。",
+      "keywords": "Crossover Harmonica Ensemble Korea SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://thefestival.co.kr/info/festival/7338"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "134-crossover-harmonica-ensemble",
+      "latestUpdateAt": "2026-09-22T09:53:22.784669+00:00",
+      "latestUpdateLocal": "2026-09-22 17:53",
+      "latestUpdateSource": "Crossover Harmonica Ensemble",
+      "latestUpdateUrl": "https://thefestival.co.kr/info/festival/7338",
+      "avatarUrl": "/assets/source-avatars/d46567b33b1baf0d8f42.webp",
+      "sourceInitials": "CHE",
+      "sourceTags": [
+        "團體樂團",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_134",
+          "name": "Crossover Harmonica Ensemble",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://thefestival.co.kr/info/festival/7338",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_sihf_uv5mk",
+          "name": "Seoul International Harmonica Festival",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@SIHF-uv5mk",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-12",
       "publicId": "12",
       "name": "臺灣口琴樂團",
@@ -688,116 +798,6 @@
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "https://www.aphfhx.com/information/newsDetail/361363469090992128",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-136",
-      "publicId": "136",
-      "name": "Project X",
-      "nameEn": "Project X",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體/合作企劃",
-      "country": "國際",
-      "region": "國際",
-      "cityOrFocus": "口琴合作企劃/跨團重奏/SIHF 2018",
-      "structuredSummary": "口琴合作企劃/跨團重奏/SIHF 2018 / 口琴 / 國際演出團體",
-      "summary": "國際的口琴國際演出團體，活動脈絡包含口琴合作企劃、跨團重奏與SIHF 2018。",
-      "keywords": "Project X harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://thefestival.co.kr/info/festival/7338"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "136-project-x",
-      "latestUpdateAt": "2026-09-21T21:30:43.722028+00:00",
-      "latestUpdateLocal": "2026-09-22 05:30",
-      "latestUpdateSource": "Project X",
-      "latestUpdateUrl": "https://thefestival.co.kr/info/festival/7338",
-      "avatarUrl": "/assets/source-avatars/d46567b33b1baf0d8f42.webp",
-      "sourceInitials": "PX",
-      "sourceTags": [
-        "團體樂團",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_136",
-          "name": "Project X",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://thefestival.co.kr/info/festival/7338",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_sihf_uv5mk",
-          "name": "Seoul International Harmonica Festival",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@SIHF-uv5mk",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-134",
-      "publicId": "134",
-      "name": "Crossover Harmonica Ensemble",
-      "nameEn": "Crossover Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "韓國跨界口琴重奏/國際交流/SIHF 2018",
-      "structuredSummary": "韓國跨界口琴重奏/國際交流/SIHF 2018 / 口琴重奏 / 國際演出團體",
-      "summary": "韓國的口琴重奏國際演出團體，活動脈絡包含韓國跨界口琴重奏、國際交流與SIHF 2018。",
-      "keywords": "Crossover Harmonica Ensemble Korea SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://thefestival.co.kr/info/festival/7338"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "134-crossover-harmonica-ensemble",
-      "latestUpdateAt": "2026-09-21T21:30:40.532024+00:00",
-      "latestUpdateLocal": "2026-09-22 05:30",
-      "latestUpdateSource": "Crossover Harmonica Ensemble",
-      "latestUpdateUrl": "https://thefestival.co.kr/info/festival/7338",
-      "avatarUrl": "/assets/source-avatars/d46567b33b1baf0d8f42.webp",
-      "sourceInitials": "CHE",
-      "sourceTags": [
-        "團體樂團",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_134",
-          "name": "Crossover Harmonica Ensemble",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://thefestival.co.kr/info/festival/7338",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_sihf_uv5mk",
-          "name": "Seoul International Harmonica Festival",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@SIHF-uv5mk",
           "feedUrl": ""
         }
       ]
