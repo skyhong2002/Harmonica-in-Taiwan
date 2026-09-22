@@ -1,12 +1,32 @@
+# Current UI direction — 2026-09-23 final override
+
+**最新使用者要求：還原昨天以前原版口琴觀測站的視覺與版面。此節優先於下方所有竹梅移植說明。**
+
+- 全站恢復原版頂端導覽；桌面頂欄、手機頁面頂端三欄導覽選單，不再使用竹梅左側欄或固定底部導覽。
+- 首頁順序為 **有效限動內容預覽 → 既有 Google Calendar 官方 iframe → masonry 貼文卡片**；不加入大型行銷 hero 或手刻月曆。
+- 首頁與 `/post/` 的貼文全部隨整個頁面共同垂直捲動。響應式目標：>900px 三欄、641–900px 平板最多兩欄（可用寬度不足時單欄）、≤640px 單欄；不是可增刪或各自捲動的竹梅 deck。
+- 保留舊版米色底與綠色識別，以及繁中／英文／日文／韓文和全球資料。單一語言字標依序為「口琴觀測站」、「Harmonica Observatory」、「ハーモニカ観測所」、「하모니카 관측소」。介面語言與國家篩選獨立。
+- 既有搜尋、IME、追蹤、原文展開、原始來源、Google 日曆／ICS、Apify 貢獻、情境回報與瀏覽器歷史功能須保留；不共用竹梅服務、帳號或憑證。
+
+目前原版參考為此 repository 的 `site/index.html`、`site/assets/styles.css` 和 `site/assets/favicon-20260623.svg`。實作入口是 `web/assets/shell.js`、`legacy-layout.css`、`observatory-mark.svg`、`home.js`、`home.css`、`google-calendar.js`、`timeline.js` 和 `timeline.css`。Google 日曆 ID 取自公開 catalog 設定，不能帶入私人憑證；限動僅使用仍有效的 `catalog.stories`。
+
+原版實際瀏覽器參考截圖位於 `/tmp/harmonica-ui-acceptance/legacy-{desktop,mobile}-{top,stories,feed}.png`。最新完整驗收由 [原版版面還原驗收](../deploy/original-layout-acceptance-2026-09-23.md) 記錄；下方舊測試數字只證明各歷史快照，不代表現在版面已通過最新驗收。
+
+---
+
+## Historical Chumei migration notes — superseded visual direction
+
+以下內容保留為歷史來源對照。其中「最新」、「current」、「must match Chumei」、側欄、獨立捲動河道和實作順序，均是當時的指示，**不得覆蓋上方最終原版還原要求**。資料與安全契約仍可參考。
+
 > 最新視覺修正：使用者否決手刻月曆與大量框線，首頁改回既有 Google Calendar 官方嵌入；限動使用大型內容預覽，貼文圖片全寬保留比例。以下原生月曆描述均屬歷史方向。
 
 > 後續首頁例外：使用者明確要求保留原口琴站「限動 → 活動行事曆 → 河道」的首頁；`/post/` 才是竹梅式完整河道。四語 Logo 使用各自語言單一字標。這些最新決定優先於下方移植基準；完成紀錄見 [最新驗收](../deploy/acceptance-2026-09-23.md)。
 
 > 最新要求：品牌維持 Harmonica Observatory／口琴觀測站。使用者於本輪進一步指定保留舊版米色底與綠色 Logo；竹梅仍是結構、排版與操作的參考，配色以此最新指示為準。以下為移植前的交接基準；最新驗收請見 `deploy/ui-acceptance-2026-09-23.md`。既有 `atlas-language`、`atlas-following` 儲存鍵與 schemaVersion 保留相容，不作對外品牌。
 
-# Frontend handoff: match Chumei faithfully
+# Historical frontend handoff: match Chumei faithfully
 
-## Acceptance status
+## Historical acceptance status
 
 The current `web/` implementation is a verified functional baseline, **not the accepted visual design**. The user's latest instruction is to keep the interface as close as possible to their deliberately designed **Chumei Observatory** interface. The current cream/green editorial landing hero, globe illustration, statistics strip, horizontal navigation, and masonry-style cards are not that interface. Do not polish that visual direction further or claim UI parity.
 

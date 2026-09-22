@@ -1,8 +1,9 @@
 import { observatoryHome } from "./home.js";
+import { bindStories } from "./stories.js";
 import { bindGoogleCalendar } from "./google-calendar.js";
 import { scoresView, scoreSourcesView } from "./scores.js";
 import { navigation, footer, initializeShell, handleShellClick } from "./shell.js";
-import { riverView, bindRiver } from "./river.js";
+import { timelineView, bindTimeline } from "./timeline.js";
 import { t, getLocale, setLocale } from "./i18n.js";
 import {
   esc,
@@ -48,8 +49,9 @@ let catalog = null,
   limit = 24,
   renderVersion = 0,
   searchTimer,
-  riverCleanup,
-  calendarCleanup;
+  timelineCleanup,
+  calendarCleanup,
+  storiesCleanup;
 let following = new Set();
 try {
   following = new Set(
@@ -196,8 +198,8 @@ function body() {
     return `<div class="initial-loading" ${loadFailed ? "" : 'aria-busy="true"'}>${icon(loadFailed ? "info" : "globe")}<h1>${t(loadFailed ? "loadError" : "loading")}</h1>${loadFailed ? `<p>${t("loadErrorBody")}</p><button class="button button-primary" data-action="retry">${t("retry")}</button>` : '<div class="loading-dots"><i></i><i></i><i></i></div>'}</div>`;
   const key = routes[path()];
   const data = filtered();
-  if (key === "discover") return observatoryHome(catalog, state, following);
-  if (key === "posts") return riverView(catalog, state, following);
+  if (key === "discover") return observatoryHome(catalog, state, following, limit);
+  if (key === "posts") return pageHeading("posts", "latestBody") + timelineView(catalog, state, following, limit);
   if (key === "scores") return scoresView(catalog, state, limit);
   if (key === "scoreSources") return scoreSourcesView(catalog, state, limit);
   if (["sources", "events"].includes(key))
@@ -216,26 +218,26 @@ function body() {
 }
 function render({ focus = false } = {}) {
   clearTimeout(searchTimer);
-  riverCleanup?.();
+  timelineCleanup?.();
   calendarCleanup?.();
+  storiesCleanup?.();
   renderVersion++;
   setLocale(getLocale());
   const current = routes[path()] || "sources";
   const detail = sourceForPath();
   document.title = `${detail ? detail.name : t(current)} · ${t("brand")}`;
   updateMetadata();
-  const isRiver = ["/", "/post/"].includes(path());
-  const isFullFeed = path() === "/post/";
-  document.body.classList.toggle("feed-locked", isFullFeed);
+  const isTimeline = ["/", "/post/"].includes(path());
+  document.body.classList.remove("feed-locked");
   app.innerHTML =
     navigation(path(), routes) +
-    `<main id="main" class="main-container${isFullFeed ? " feed-main" : path() === "/" ? " home-main" : ""}" tabindex="-1">${body()}</main>` +
+    `<main id="main" class="main-container${path() === "/post/" ? " timeline-main" : path() === "/" ? " home-main" : ""}" tabindex="-1">${body()}</main>` +
     footer();
-  if (isRiver && catalog) riverCleanup = bindRiver(app, {
-    catalog, state, following,
-    onStateChange(patch) { Object.assign(state, patch); updateUrl(); },
-  });
-  if (path() === "/" && catalog) calendarCleanup = bindGoogleCalendar(app);
+  if (isTimeline && catalog) timelineCleanup = bindTimeline(app);
+  if (path() === "/" && catalog) {
+    calendarCleanup = bindGoogleCalendar(app);
+    storiesCleanup = bindStories(app, { catalog });
+  }
   if (focus) document.querySelector("#main")?.focus({ preventScroll: true });
 }
 
@@ -387,7 +389,7 @@ app.addEventListener("click", (event) => {
   const follow = event.target.closest("[data-follow]");
   if (follow) {
     const id = follow.dataset.follow;
-    const column = follow.closest("[data-river-column]")?.dataset.riverColumn;
+    const postId = follow.closest("[data-timeline-post]")?.dataset.timelinePost;
     const wasFocused = document.activeElement === follow;
     if (following.has(id)) following.delete(id);
     else following.add(id);
@@ -398,17 +400,19 @@ app.addEventListener("click", (event) => {
     render();
     window.scrollTo(0, scroll);
     if (wasFocused) [...app.querySelectorAll("[data-follow]")].find(node =>
-      node.dataset.follow === id && node.closest("[data-river-column]")?.dataset.riverColumn === column
+      node.dataset.follow === id && node.closest("[data-timeline-post]")?.dataset.timelinePost === postId
     )?.focus({ preventScroll: true });
     return;
   }
   const action = event.target.closest("[data-action]")?.dataset.action;
   if (action === "retry") load();
   if (action === "more") {
+    const wasFocused = document.activeElement === event.target.closest('[data-action="more"]');
     limit += 24;
     const scroll = window.scrollY;
     render();
     window.scrollTo(0, scroll);
+    if (wasFocused) (app.querySelector('[data-action="more"]') || app.querySelector('.feed-load-more-status'))?.focus({preventScroll:true});
   }
   if (action === "reset") {
     state = {

@@ -20,6 +20,11 @@ test('shell preserves preferences, exposes four languages and follows appearance
   assert.deepEqual([...document.querySelectorAll('#language-select option')].map(n=>n.value),['en','zh-Hant','ja','ko']);
   assert.equal(document.querySelector('.site-nav [aria-current="page"]').getAttribute('href'),'/source/');
   assert.equal(document.querySelector('a[href="/calendar/"]'),null);
+  assert.deepEqual([...document.querySelectorAll('.site-nav > a')].map(a=>a.getAttribute('href')),['/post/','/source/','/scores/','/status/','/submit/']);
+  assert.equal(document.querySelector('.brand').getAttribute('href'),'/');
+  assert.equal(document.querySelector('.mobile-header-action'),null);
+  assert.equal(document.querySelector('.legacy-site-header') !== null,true);
+  assert.equal(document.querySelector('.nav-more a[href="/events/"]') !== null,true);
   const click = (selector) => handleShellClick({target:document.querySelector(selector)});
   click('[data-shell-action="appearance"]');
   assert.equal(document.querySelector('[data-shell-panel="appearance"]').hidden,false);

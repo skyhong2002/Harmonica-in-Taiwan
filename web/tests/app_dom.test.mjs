@@ -498,25 +498,25 @@ test("application DOM journey across languages, routing, filters and community f
     assert.equal(window.document.activeElement, draft);
     assert.equal(new URLSearchParams(window.location.search).get("q"), null);
   });
-  await t.test("home composes stories, calendar and feed while posts remains a dedicated river", async () => {
-    click('.site-nav a[href="/"]');
-    assert.deepEqual([...$(".observatory-home").children].filter(node => node.tagName === "SECTION").map(node => node.className), ["home-stories", "home-calendar", "home-posts"]);
-    assert.equal(window.document.querySelectorAll(".story-strip").length, 1);
+  await t.test("home composes stories, Google calendar and a unified timeline while posts opens the same full timeline", async () => {
+    click('.brand');
+    assert.deepEqual([...$(".observatory-home").children].filter(node => node.tagName === "SECTION").map(node => node.classList[0]), ["home-stories", "home-calendar", "home-posts"]);
+    assert.equal(window.document.querySelectorAll(".ob-stories").length, 1);
     assert.ok($("[data-google-calendar-embed]"));
     assert.equal($(".calendar-grid"), null);
-    assert.ok($(".home-posts .feed-cols"));
+    assert.ok($(".home-posts .feed-river"));
     assert.equal(window.document.body.classList.contains("feed-locked"), false);
-    const feed = $(".home-posts .river");
+    const feed = $(".home-posts .observatory-timeline");
     click('[data-google-calendar-source]');
     assert.equal($("[data-google-calendar-embed]").hidden, true);
     click('[data-google-calendar-source]');
     assert.equal($("[data-google-calendar-embed]").hidden, false);
     assert.equal(new URL($("[data-google-calendar-embed]").src).hostname, "calendar.google.com");
-    assert.equal($(".home-posts .river"), feed, "calendar changes preserve the river DOM and independent scroll/filter state");
+    assert.equal($(".home-posts .observatory-timeline"), feed, "calendar changes preserve the timeline DOM and filtering");
     click('.site-nav a[href="/post/"]');
     assert.equal($("[data-google-calendar-embed]"), null);
-    assert.ok($(".feed-cols"));
-    assert.equal(window.document.body.classList.contains("feed-locked"), true);
+    assert.ok($(".feed-river"));
+    assert.equal(window.document.body.classList.contains("feed-locked"), false);
   });
   await t.test("contextual reporting survives locale changes and generic filters retain keyboard focus", async () => {
     click('.site-nav a[href="/source/"]');
