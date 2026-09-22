@@ -142,6 +142,105 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-5",
+      "publicId": "5",
+      "name": "胖擊口琴樂團",
+      "nameEn": "Punch Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴重奏/2016成立/五人編制/SIHF三重奏與重奏冠軍/2025 WHF三重奏與小合奏亞軍/THMF與SIHF 2026",
+      "structuredSummary": "口琴重奏/2016成立/五人編制/SIHF三重奏與重奏冠軍/2025 WHF三重奏與小合奏亞軍/THMF與SIHF 2026 / 半音階口琴/和弦口琴/倍低音口琴 / 國際演出團體/音樂教育推廣",
+      "summary": "臺灣的半音階口琴、和弦口琴與倍低音口琴國際演出團體與音樂教育推廣，活動脈絡包含口琴重奏、2016成立與五人編制。",
+      "keywords": "Punch Harmonica Ensemble 胖擊口琴樂團 THMF SIHF 2026 WHF 2025 黃冠誌 王衍華 林裕豐 王心禾 陳聰",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.taiwanharmonica.com/punch"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Punch.Harp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/punch.harp/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@punchharp"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@punch.harp"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "5-punch-harmonica-ensemble",
+      "latestUpdateAt": "2026-09-22T13:30:23+00:00",
+      "latestUpdateLocal": "2026-09-22 21:30",
+      "latestUpdateSource": "胖擊口琴樂團",
+      "latestUpdateUrl": "https://www.facebook.com/Punch.Harp/posts/pfbid09xG8totaLXjC12c7nAW9Fm91LxgvXzEwJEjkBQKXFPo33JzYNjw1NcgJcK62cu3jl",
+      "avatarUrl": "/assets/source-avatars/5502dc6edc42ae731231.webp",
+      "sourceInitials": "胖擊",
+      "sourceTags": [
+        "團體樂團",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Punch.Harp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "punch.harp",
+          "profileUrl": "https://www.instagram.com/punch.harp/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "punch.harp",
+          "profileUrl": "https://www.instagram.com/punch.harp/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "threads",
+          "type": "rss",
+          "username": "punch.harp",
+          "profileUrl": "https://www.threads.net/@punch.harp",
+          "feedUrl": "https://rss.observe.tw/threads/punch.harp"
+        },
+        {
+          "id": "yt_punchharp",
+          "name": "胖擊口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@punchharp",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-58",
       "publicId": "58",
       "name": "南里沙",
@@ -1209,6 +1308,90 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@lamberharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-197",
+      "publicId": "197",
+      "name": "清華大學口琴社",
+      "nameEn": "NTHU Harmonica Club",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
+      "cityOrFocus": "國立清華大學/學校社團/新竹",
+      "structuredSummary": "國立清華大學/學校社團/新竹 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
+      "keywords": "清華大學口琴社 NTHU Harmonica Club 口琴社",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://oz.nthu.edu.tw/~u9562333/harmonic/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/nthuharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nthu_harmonica_club/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC9jltWvJkMzNa3p-mbTIINQ"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "197-nthu-harmonica-club",
+      "latestUpdateAt": "2026-09-21T05:13:20+00:00",
+      "latestUpdateLocal": "2026-09-21 13:13",
+      "latestUpdateSource": "清華大學口琴社",
+      "latestUpdateUrl": "https://www.facebook.com/nthuharmonica/posts/pfbid027r46dZoWDehzr6Sq5iVgU5H6frdkbZ6RDmPZgCDikG7ce5DFTaxiZWvaKLGLLbGzl",
+      "avatarUrl": "/assets/source-avatars/d9189b06f007bad0f354.webp",
+      "sourceInitials": "清華",
+      "sourceTags": [
+        "學生社團",
+        "大專社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_nthuharmonica",
+          "name": "NTHU Harmonica Club",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nthu_harmonica_club",
+          "name": "NTHU Harmonica Club",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nthu_harmonica_club",
+          "profileUrl": "https://www.instagram.com/nthu_harmonica_club/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nthu_harmonica_club",
+          "name": "清華大學口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nthu_harmonica_club",
+          "profileUrl": "https://www.instagram.com/nthu_harmonica_club/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_uc9jltwvjkmzna3p_mbtiinq",
+          "name": "清華大學口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UC9jltWvJkMzNa3p-mbTIINQ",
           "feedUrl": ""
         }
       ]
@@ -5396,105 +5579,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-5",
-      "publicId": "5",
-      "name": "胖擊口琴樂團",
-      "nameEn": "Punch Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴重奏/2016成立/五人編制/SIHF三重奏與重奏冠軍/2025 WHF三重奏與小合奏亞軍/THMF與SIHF 2026",
-      "structuredSummary": "口琴重奏/2016成立/五人編制/SIHF三重奏與重奏冠軍/2025 WHF三重奏與小合奏亞軍/THMF與SIHF 2026 / 半音階口琴/和弦口琴/倍低音口琴 / 國際演出團體/音樂教育推廣",
-      "summary": "臺灣的半音階口琴、和弦口琴與倍低音口琴國際演出團體與音樂教育推廣，活動脈絡包含口琴重奏、2016成立與五人編制。",
-      "keywords": "Punch Harmonica Ensemble 胖擊口琴樂團 THMF SIHF 2026 WHF 2025 黃冠誌 王衍華 林裕豐 王心禾 陳聰",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.taiwanharmonica.com/punch"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Punch.Harp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/punch.harp/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@punchharp"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@punch.harp"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "5-punch-harmonica-ensemble",
-      "latestUpdateAt": "2026-09-09T14:00:45+00:00",
-      "latestUpdateLocal": "2026-09-09 22:00",
-      "latestUpdateSource": "胖擊口琴樂團",
-      "latestUpdateUrl": "https://www.facebook.com/reel/1829182328451221/",
-      "avatarUrl": "/assets/source-avatars/5502dc6edc42ae731231.webp",
-      "sourceInitials": "胖擊",
-      "sourceTags": [
-        "團體樂團",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Punch.Harp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "punch.harp",
-          "profileUrl": "https://www.instagram.com/punch.harp/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "punch.harp",
-          "profileUrl": "https://www.instagram.com/punch.harp/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "threads",
-          "type": "rss",
-          "username": "punch.harp",
-          "profileUrl": "https://www.threads.net/@punch.harp",
-          "feedUrl": "https://rss.observe.tw/threads/punch.harp"
-        },
-        {
-          "id": "yt_punchharp",
-          "name": "胖擊口琴樂團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@punchharp",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-158",
       "publicId": "158",
       "name": "Deak Harp",
@@ -5938,90 +6022,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-197",
-      "publicId": "197",
-      "name": "清華大學口琴社",
-      "nameEn": "NTHU Harmonica Club",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "臺灣",
-      "region": "臺灣/新竹",
-      "cityOrFocus": "國立清華大學/學校社團/新竹",
-      "structuredSummary": "國立清華大學/學校社團/新竹 / 口琴 / 學校社團",
-      "summary": "臺灣的口琴學校社團。",
-      "keywords": "清華大學口琴社 NTHU Harmonica Club 口琴社",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://oz.nthu.edu.tw/~u9562333/harmonic/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/nthuharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/nthu_harmonica_club/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UC9jltWvJkMzNa3p-mbTIINQ"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "197-nthu-harmonica-club",
-      "latestUpdateAt": "2026-09-06T05:03:59+00:00",
-      "latestUpdateLocal": "2026-09-06 13:03",
-      "latestUpdateSource": "清華大學口琴社",
-      "latestUpdateUrl": "https://www.facebook.com/nthuharmonica/posts/pfbid0m4v5bYGPRi95XjQ5ngJaQ39ZphNRMk2sfDG4C8ixkZGAnvn5Bx56WXX89sSoZLxRl",
-      "avatarUrl": "/assets/source-avatars/d9189b06f007bad0f354.webp",
-      "sourceInitials": "清華",
-      "sourceTags": [
-        "學生社團",
-        "大專社團"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_nthuharmonica",
-          "name": "NTHU Harmonica Club",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_nthu_harmonica_club",
-          "name": "NTHU Harmonica Club",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "nthu_harmonica_club",
-          "profileUrl": "https://www.instagram.com/nthu_harmonica_club/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_nthu_harmonica_club",
-          "name": "清華大學口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "nthu_harmonica_club",
-          "profileUrl": "https://www.instagram.com/nthu_harmonica_club/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_uc9jltwvjkmzna3p_mbtiinq",
-          "name": "清華大學口琴社",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UC9jltWvJkMzNa3p-mbTIINQ",
           "feedUrl": ""
         }
       ]
@@ -6756,7 +6756,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-09-02 00:26",
       "latestUpdateSource": "黃冠誌",
       "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3976703112043327905/",
-      "avatarUrl": "/assets/source-avatars/6e2cd333d912c993dc9a.webp",
+      "avatarUrl": "/assets/source-avatars/1c6e560eec687ecfbf6c.webp",
       "sourceInitials": "黃冠",
       "sourceTags": [
         "演奏者",

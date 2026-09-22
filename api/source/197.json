@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T15:13:58.390172Z",
+  "generatedAt": "2026-09-22T15:49:16.300706Z",
   "source": {
     "id": 197,
     "slug": "nthu-harmonica-club",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/197-nthu-harmonica-club/"
   },
   "items": [
+    {
+      "id": "post-a77a5e0bbb615edae772a6da",
+      "title": "【9/22 第二次社課】",
+      "excerpt": "【9/22 第二次社課】 ✨ 社課正式開始啦！✨ 各位新舊社員夥伴們，明天就是我們的第二次社課囉！ 這次的地點比較特別，請大家特別留意是在【交大活動中心】舉行！ 另外也提醒大家，明天前往時記得攜帶「社費」喔！ 期待明天晚上見到大家，一起來享受社課時光！ ⏰ 時間：9/22 (二) 19:00-22：00 📍 地點：交大活動中心 🎒 必帶物品：社費（舊生200新生300） 、愉快的心情❤️",
+      "url": "https://www.facebook.com/nthuharmonica/posts/pfbid027r46dZoWDehzr6Sq5iVgU5H6frdkbZ6RDmPZgCDikG7ce5DFTaxiZWvaKLGLLbGzl",
+      "sourceName": "清華大學口琴社",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-21T05:13:20Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/b8fa546d11016ec417a2.webp",
+        "width": 512,
+        "height": 640
+      }
+    },
     {
       "id": "post-efdb3aded2a82b7fd0171b6e",
       "title": "【9/10 社博】",

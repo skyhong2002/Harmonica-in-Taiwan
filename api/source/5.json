@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T15:13:58.390172Z",
+  "generatedAt": "2026-09-22T15:49:16.300706Z",
   "source": {
     "id": 5,
     "slug": "punch-harmonica-ensemble",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/5-punch-harmonica-ensemble/"
   },
   "items": [
+    {
+      "id": "post-297ab2af17d39373238c278f",
+      "title": "【演出回顧｜中央研究院】",
+      "excerpt": "【演出回顧｜中央研究院】 今年很榮幸能獲選參與中央研究院的演出，讓胖擊有機會把口琴的聲音帶得更遠，也與更多第一次接觸口琴重奏的觀眾見面。 這次演出對我們來說也是一次新的嘗試。因為場地設有投影幕，我們嘗試讓演出搭配投影背景，讓觀眾聆聽音樂的同時，能透過畫面對音樂延伸更多想像。 第一次來到這個充滿學術氛圍的場地演出，能夠用音樂陪伴大家在忙碌之餘稍作休息，也讓藝術成為生活中的一部分，對我們來說是一件很榮幸的事。 演出結束後，我們也收到了許多觀眾的回饋與建議。每一份留言我們都會好好閱讀，也會把這些聲音化為胖擊繼續前進的養分。 最後，要把最熱烈的掌聲獻給每一位來…",
+      "url": "https://www.facebook.com/Punch.Harp/posts/pfbid09xG8totaLXjC12c7nAW9Fm91LxgvXzEwJEjkBQKXFPo33JzYNjw1NcgJcK62cu3jl",
+      "sourceName": "胖擊口琴樂團",
+      "platform": "Facebook",
+      "publishedAt": "2026-09-22T13:30:23Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/acafea03dbf442e5271d.webp",
+        "width": 590,
+        "height": 393
+      }
+    },
     {
       "id": "post-1f296fd05593b555f2b97f68",
       "title": "【演出分享｜Sabre Dance 】",
