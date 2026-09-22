@@ -74,3 +74,18 @@ test('four-language score views keep original text and collection titles, preser
   assert.doesNotMatch(document.body.textContent,/\b(?:undefined|NaN)\b/);
  }
 });
+
+test('Taiwan ROC academic years show Gregorian context and sort chronologically alongside international years',async()=>{
+ const {academicYearLabel}=await import('../assets/scores.js');
+ for(const locale of ['en','ja','ko','zh-Hant']){
+  setLocale(locale);
+  assert.match(academicYearLabel(rows[0]),/^2026 \(.+115/);
+  assert.equal(academicYearLabel(rows[3]),'2025');
+  assert.equal(academicYearLabel({countryCode:'JP',year:'115'}),'115');
+  assert.equal(academicYearLabel({countryCode:'TW',year:'2026'}),'2026');
+  assert.deepEqual(filterScores(rows).map(row=>row.id),['a','d','c','b']);
+  document.body.innerHTML=scoresView(catalog,{},24);
+  assert.match(document.querySelector('[data-filter="year"] option[value="115"]').textContent,/2026/);
+  assert.match(document.querySelector('.score-row-meta').textContent,/2026/);
+ }
+});

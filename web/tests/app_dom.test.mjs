@@ -379,7 +379,7 @@ test("application DOM journey across languages, routing, filters and community f
       click("[data-withdraw]");
       $("#confirm-dialog").close("confirm");
       await until(
-        () => $("#toast").textContent === translate("rateLimited"),
+        () => $("#withdraw-message").textContent === translate("rateLimited"),
         "withdrawal error should be localized",
       );
       assert.ok($("[data-withdraw]"));
@@ -517,6 +517,32 @@ test("application DOM journey across languages, routing, filters and community f
     assert.equal($("[data-google-calendar-embed]"), null);
     assert.ok($(".feed-river"));
     assert.equal(window.document.body.classList.contains("feed-locked"), false);
+  });
+  await t.test("language changes preserve unsent form drafts without storing tokens", async () => {
+    click('.nav-resource-grid a[href="/contribute/"]');
+    await sleep(50);
+    $('#contribution-name').value = 'Draft contribution';
+    $('#contribution-token').value = 'mock-only-not-a-real-provider-token';
+    $('#contribution-budget').value = '2.50';
+    $('[name="consent"]').checked = true;
+    for (const locale of ['ja', 'ko', 'zh-Hant', 'en']) {
+      change('#language-select', locale);
+      assert.equal($('#contribution-name').value, 'Draft contribution');
+      assert.equal($('#contribution-token').value, 'mock-only-not-a-real-provider-token');
+      assert.equal($('#contribution-budget').value, '2.50');
+      assert.equal($('[name="consent"]').checked, true);
+      assert.ok(!JSON.stringify({...localStorage}).includes('mock-only-not-a-real-provider-token'));
+      assert.ok(!location.href.includes('mock-only-not-a-real-provider-token'));
+    }
+    click('.nav-resource-grid a[href="/submit/"]');
+    await sleep(50);
+    $('#submission-url').value = 'https://example.org/source';
+    $('#submission-note').value = 'Original 日本語 한국어';
+    $('#submission-country').value = 'JP';
+    change('#language-select', 'ko');
+    assert.equal($('#submission-url').value, 'https://example.org/source');
+    assert.equal($('#submission-note').value, 'Original 日本語 한국어');
+    assert.equal($('#submission-country').value, 'JP');
   });
   await t.test("More keeps language focus through locale changes and background status refresh", async () => {
     click('.nav-info-links a[href="/status/"]');

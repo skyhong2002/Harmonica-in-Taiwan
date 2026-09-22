@@ -1544,8 +1544,8 @@ def public_update_row(row: dict[str, Any]) -> dict[str, Any]:
         "account": row.get("account") or profile.get("account") or "",
         "platform": row.get("platform") or "",
         "platform_label": platform_label,
-        "posted_at": row.get("posted_at") or "",
-        "posted_at_local": local_date(str(row.get("posted_at") or "")),
+        "posted_at": "" if media_type == "webpage_update" or row.get("platform") == "website" else row.get("posted_at") or "",
+        "posted_at_local": "" if media_type == "webpage_update" or row.get("platform") == "website" else local_date(str(row.get("posted_at") or "")),
         "like_count": first_engagement_count(row, ("like_count", "likes", "likes_count", "likeCount", "likesCount")),
         "comment_count": first_engagement_count(row, ("comment_count", "comments", "comments_count", "commentCount", "commentsCount")),
         "share_count": first_engagement_count(row, ("share_count", "shares", "shares_count", "shareCount", "sharesCount")),
@@ -1590,13 +1590,15 @@ def add_update_item(channel: ET.Element, public_row: dict[str, Any]) -> None:
     add_text(item, "title", str(public_row["title"]))
     add_text(item, "link", str(public_row["link"]))
     add_text(item, "guid", str(public_row["key"]))
-    add_text(item, "pubDate", rss_time(str(public_row.get("posted_at") or public_row.get("seen_at") or ""), dt.datetime.now(dt.timezone.utc)))
+    if public_row.get("posted_at"):
+        add_text(item, "pubDate", rss_time(str(public_row["posted_at"]), dt.datetime.now(dt.timezone.utc)))
     description = "\n".join(
         part
         for part in [
             f"來源：{public_row.get('source')}",
             f"平台：{public_row.get('platform_label') or public_row.get('platform') or 'public'}",
-            f"時間：{public_row.get('posted_at') or '未標示'}",
+            f"發布時間：{public_row.get('posted_at') or '未標示'}",
+            f"網站頁面快照 · 觀測時間（非發布日期）：{public_row.get('seen_at') or '未標示'}" if public_row.get("media_type") == "webpage_update" or public_row.get("platform") == "website" else "",
             f"標籤：{', '.join(public_row.get('matched_keywords') or [])}" if public_row.get("matched_keywords") else "",
             "",
             str(public_row.get("text") or ""),

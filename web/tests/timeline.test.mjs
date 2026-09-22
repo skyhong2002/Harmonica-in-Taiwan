@@ -48,3 +48,16 @@ test('autoload starts only after manual load-more and always keeps a manual fall
 test('timeline controls and actions translate in four languages while original text stays unchanged',()=>{
  const window=setup();for(const locale of ['en','zh-Hant','ja','ko']){setLocale(locale);const html=timelineView(catalog,{country:'JP'},new Set());assert.ok(html.includes('日本の口琴'));assert.ok(html.includes('id="catalog-search"'));assert.ok(html.includes('data-filter="platform"'));assert.ok(html.includes('data-filter="kind"'));assert.ok(!html.includes('undefined'));assert.ok(!html.includes('data-river-column'));}window.close();
 });
+
+test('first-time following empty state gives a useful directory action in all locales',()=>{
+ const window=setup();for(const locale of ['en','zh-Hant','ja','ko']){setLocale(locale);document.querySelector('main').innerHTML=timelineView(catalog,{kind:'following'},new Set());const empty=document.querySelector('.empty-state');assert.ok(empty.querySelector('a[href="/source/"]'));assert.equal(empty.querySelector('a[href="/submit/"]'),null);assert.ok(!empty.textContent.includes('undefined'));}window.close();
+});
+
+test('historical posts show their year; linked events distinguish timezone and all-day civil dates',()=>{
+ const window=setup();setLocale('en');const p={...catalog.posts[0],publishedAt:'2018-09-23T01:00:00Z',eventIds:['timed','civil']};document.querySelector('main').innerHTML=timelineCard(p,catalog.sources,new Set(),[{id:'timed',start:'2026-09-24T02:30:00Z',timezone:'America/Los_Angeles',url:'https://example.com/event',title:'LA concert'},{id:'civil',start:'2026-09-24',allDay:true,timezone:'America/Los_Angeles',url:'https://example.com/all-day',title:'All day'}]);
+ assert.match(document.querySelector('.feed-latest-meta').textContent,/2018/);const linked=[...document.querySelectorAll('.timeline-event')];assert.match(linked[0].textContent,/Sep 23, 2026.*07:30 PM.*America\/Los_Angeles/);assert.match(linked[1].textContent,/Sep 24, 2026.*All.day/);window.close();
+});
+
+test('website snapshots stay available explicitly without masquerading as newly published posts',()=>{
+ const window=setup();setLocale('en');const snapshot={...catalog.posts[0],id:'snapshot',platform:'website',publishedAt:null,observedAt:'2026-09-23T12:00:00Z',contentKind:'website_snapshot'};const data={...catalog,posts:[snapshot,...catalog.posts]};assert.equal(timelinePosts(data,{}).some(p=>p.id==='snapshot'),false);assert.deepEqual(timelinePosts(data,{platform:'website'}).map(p=>p.id),['snapshot']);document.querySelector('main').innerHTML=timelineCard(snapshot,data.sources);assert.match(document.querySelector('.feed-latest-meta').textContent,/Observed, not published.*2026/);assert.match(document.querySelector('.timeline-meta').textContent,/Website snapshot/);assert.ok(document.querySelector('.feed-text').textContent.includes(snapshot.text));window.close();
+});

@@ -32,3 +32,6 @@
   .google-calendar-links { gap:6px 12px; }
   .google-calendar-frame iframe { min-height:620px; }
 }
+
+.google-calendar-context { margin:0 0 12px; color:var(--color-text-muted); font-size:.8rem; line-height:1.6; overflow-wrap:anywhere; }
+.google-calendar-context .text-link { font-size:inherit; }

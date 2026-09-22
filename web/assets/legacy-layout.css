@@ -143,3 +143,22 @@ html:lang(zh-Hant) .legacy-site-header .brand-name { font-size:1.2rem; }
   .nav-refresh .nav-theme-field .appear-seg button { gap:4px; padding-inline:3px; font-size:.78rem; }
   .nav-refresh .nav-theme-field .appear-seg button svg { flex-basis:16px; width:16px; height:16px; }
 }
+
+/* A recognizable language entry even when a shared URL uses an unfamiliar script. */
+.legacy-site-header.nav-refresh .nav-more > summary > svg { display:block; flex:0 0 18px; width:18px; height:18px; }
+.form-panel [aria-invalid="true"] { border-color:var(--color-danger-text); }
+.form-message:focus { outline:2px solid var(--color-text-brand); outline-offset:4px; }
+
+/* Reflow localized names and controls when readers enlarge text. */
+html .legacy-site-header .brand-name { white-space:normal; overflow-wrap:anywhere; }
+.legacy-site-header .nav-label { min-width:0; overflow-wrap:anywhere; }
+.nav-refresh .nav-theme-field .appear-seg button span { white-space:normal; overflow-wrap:anywhere; }
+.nav-refresh .nav-theme-field .appear-seg button { flex-wrap:wrap; }
+@media(max-width:640px) {
+  .legacy-site-header .brand { flex:0 1 auto; }
+  .legacy-site-header .nav-more summary.nav-item { flex-wrap:wrap; }
+}
+
+@media(max-width:640px) {
+  .legacy-site-header .site-nav { grid-template-columns:repeat(auto-fit,minmax(min(100%,max(calc((100% - 8px)/3),4rem)),1fr)); }
+}

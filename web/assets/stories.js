@@ -30,7 +30,7 @@ function storyCard(story, sources) {
     ? `<time datetime="${esc(story.publishedAt)}">${esc(date(story.publishedAt, { year: undefined, hour: '2-digit', minute: '2-digit' }))}</time>` : '';
   // Prefer the catalog's cached avatar to an expiring social-CDN address.
   const avatar = image(source?.avatar || story.avatar, '', '');
-  return `<article class="ob-story-card" data-story-id="${esc(story.id || story.url || '')}" data-story-expires="${esc(story.expiresAt)}"><div class="ob-story-thumb">${media}<span class="ob-story-fallback">${esc(word('missing'))}</span><span class="ob-story-rule" aria-hidden="true"></span><div class="ob-story-header"><span class="ob-story-avatar"><span aria-hidden="true">${esc(initials(name))}</span>${avatar}</span><div class="ob-story-identity"><strong title="${esc(name)}">${esc(name)}</strong>${published}</div></div><div class="ob-story-footer"><time datetime="${esc(story.expiresAt)}">${esc(word('expires'))} ${esc(date(story.expiresAt, { year: undefined, hour: '2-digit', minute: '2-digit' }))}</time>${link(story.url, esc(t('original')), 'ob-story-original')}</div></div></article>`;
+  return `<article class="ob-story-card" data-story-id="${esc(story.id || story.url || '')}" data-story-expires="${esc(story.expiresAt)}"><div class="ob-story-thumb">${media}<span class="ob-story-fallback" role="status" ${poster || video ? 'hidden' : ''}>${esc(word('missing'))}</span><span class="ob-story-rule" aria-hidden="true"></span><div class="ob-story-header"><span class="ob-story-avatar"><span aria-hidden="true">${esc(initials(name))}</span>${avatar}</span><div class="ob-story-identity"><strong title="${esc(name)}">${esc(name)}</strong>${published}</div></div><div class="ob-story-footer"><time datetime="${esc(story.expiresAt)}">${esc(word('expires'))} ${esc(date(story.expiresAt, { year: undefined, hour: '2-digit', minute: '2-digit' }))}</time>${link(story.url, esc(t('original')), 'ob-story-original')}</div></div></article>`;
 }
 
 export function storiesView(catalog) {
@@ -63,11 +63,19 @@ export function bindStories(root, { catalog } = {}) {
     strip.scrollLeft += (event.key === 'ArrowRight' ? 1 : -1) * ((strip.querySelector('.ob-story-card')?.getBoundingClientRect().width || 180) + 12);
   }
   function mediaError(event) {
-    if (event.target.matches('.ob-story-image')) event.target.closest('.ob-story-thumb')?.classList.add('ob-story-media-failed');
+    if (event.target.matches('.ob-story-image, .ob-story-image source')) {
+      const thumb = event.target.closest('.ob-story-thumb');
+      thumb?.classList.add('ob-story-media-failed');
+      const fallback = thumb?.querySelector('.ob-story-fallback');
+      if (fallback) fallback.hidden = false;
+    }
     if (event.target.matches('.ob-story-avatar img')) event.target.hidden = true;
   }
   root.addEventListener('keydown', keydown);
   root.addEventListener('error', mediaError, true);
+  for (const picture of root.querySelectorAll('img.ob-story-image, .ob-story-avatar img')) {
+    if (picture.complete && !picture.naturalWidth) mediaError({target:picture});
+  }
   expire();
   return () => { clearTimeout(timer); root.removeEventListener('keydown', keydown); root.removeEventListener('error', mediaError, true); };
 }

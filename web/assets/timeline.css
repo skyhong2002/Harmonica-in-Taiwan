@@ -53,3 +53,5 @@
 .observatory-timeline .home-feed-card-text-expanded .home-feed-body-no-title { grid-template-areas:"thumb" "excerpt" "toggle"; }
 .observatory-timeline .home-feed-card-text-expanded .home-feed-body-no-image.home-feed-body-no-title { grid-template-areas:"excerpt" "toggle"; }
 @media(max-width:640px) { .observatory-timeline .feed-river { grid-template-columns:minmax(0,1fr); }.observatory-timeline .feed-river-controls { padding:12px; }.observatory-timeline .home-feed-card { padding:14px; } }
+
+.observatory-timeline .feed-river > .empty-state { grid-column:1 / -1; }

@@ -60,6 +60,26 @@ class FakeService:
 
 
 class GoogleCalendarSyncTests(unittest.TestCase):
+    def test_patch_clears_incompatible_date_fields_in_both_directions(self):
+        timed = sync.event_patch_resource({'start':'2026-09-25T20:30:00+08:00', 'end':'2026-09-25T21:30:00+08:00', 'timezone':'Asia/Taipei'})
+        self.assertIsNone(timed['start']['date'])
+        self.assertIsNone(timed['end']['date'])
+        self.assertIn('dateTime', timed['start'])
+        civil = sync.event_patch_resource({'allDay':True,'start':'2026-09-25','end':'2026-09-26'})
+        self.assertEqual(civil['start']['date'], '2026-09-25')
+        self.assertIsNone(civil['start']['dateTime'])
+        self.assertIsNone(civil['end']['timeZone'])
+
+    def test_estimated_end_is_explicit_in_google_calendar_description(self):
+        event = {'id': 'fixture', 'start': '2026-09-25T20:30:00+08:00', 'end': '2026-09-25T22:30:00+08:00',
+                 'timezone': 'Asia/Taipei', 'details': 'Original announcement', 'endEstimated': True}
+        resource = sync.event_resource(event)
+        self.assertIn('End time not announced', resource['description'])
+        self.assertIn('Original announcement', resource['description'])
+        self.assertEqual(resource['source']['title'], 'Harmonica Observatory')
+        event['endEstimated'] = False
+        self.assertNotIn('End time not announced', sync.calendar_description(event))
+
     def test_default_lookback_covers_retained_past_events(self):
         self.assertEqual(sync.DEFAULT_HISTORY_DAYS, 365)
 

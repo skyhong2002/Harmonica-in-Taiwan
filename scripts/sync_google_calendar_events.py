@@ -99,6 +99,7 @@ def calendar_description(event: dict[str, Any]) -> str:
         part
         for part in [
             str(event.get("details") or "").strip(),
+            "結束時間未公告；日曆結束時間為估計。End time not announced; calendar end time is estimated." if event.get("endEstimated") else "",
             str(event.get("evidenceUrl") or "").strip(),
         ]
         if part
@@ -111,7 +112,7 @@ def event_resource(event: dict[str, Any]) -> dict[str, Any]:
         "summary": event.get("eventName") or event.get("title") or "公開口琴活動",
         "location": event.get("location") or "",
         "description": calendar_description(event),
-        "source": {"title": "臺灣口琴觀測站", "url": event.get("evidenceUrl") or "https://harmonica.observe.tw/"},
+        "source": {"title": "Harmonica Observatory", "url": event.get("evidenceUrl") or "https://harmonica.observe.tw/"},
         "extendedProperties": {
             "private": {
                 PRIVATE_MARKER_KEY: PRIVATE_MARKER_VALUE,
@@ -127,6 +128,17 @@ def event_resource(event: dict[str, Any]) -> dict[str, Any]:
         body["end"] = {"dateTime": event.get("end"), "timeZone": timezone}
     if event.get("evidenceUrl"):
         body["attachments"] = []
+    return body
+
+
+def event_patch_resource(event: dict[str, Any]) -> dict[str, Any]:
+    """Clear mutually exclusive date fields when changing event type via PATCH."""
+    body = event_resource(event)
+    for key in ('start', 'end'):
+        if event.get('allDay'):
+            body[key].update(dateTime=None, timeZone=None)
+        else:
+            body[key]['date'] = None
     return body
 
 
@@ -409,7 +421,7 @@ def sync_one_calendar(
             service.events().patch(
                 calendarId=calendar_id,
                 eventId=canonical["id"],
-                body=body,
+                body=event_patch_resource(event),
             ).execute()
             result["updated"] += 1
             for duplicate in existing_copies:

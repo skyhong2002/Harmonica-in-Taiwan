@@ -185,7 +185,7 @@ function listView(kind, data) {
       : kind === "sources"
         ? link("/submit/", t("submit") + icon("plus"), "button button-outline")
         : "";
-  return `${pageHeading(kind, bodyKey, extra)}${filterBar(state, catalog, kind)}<div class="results-bar"><p role="status">${t("results", { count: number(sorted.length) })}</p><span>${kind === "sources" && state.followed ? t("followHint") : t("originalLanguage")}</span></div>${kind === "sources" ? directoryHeader(state.sort, state.descending) : ""}<div class="${cls}">${sorted.length ? sorted.slice(0, limit).map(card).join("") : empty()}</div>${sorted.length > limit ? `<div class="pagination"><p>${t("showing", { shown: number(limit), total: number(sorted.length) })}</p><button class="button button-outline" data-action="more">${t("loadMore")}${icon("plus")}</button></div>` : ""}`;
+  return `${pageHeading(kind, bodyKey, extra)}${filterBar(state, catalog, kind, following)}<div class="results-bar"><p role="status">${t("results", { count: number(sorted.length) })}</p><span>${kind === "sources" && state.followed ? t("followHint") : t("originalLanguage")}</span></div>${kind === "sources" ? directoryHeader(state.sort, state.descending) : ""}<div class="${cls}">${sorted.length ? sorted.slice(0, limit).map(card).join("") : empty()}</div>${sorted.length > limit ? `<div class="pagination"><p>${t("showing", { shown: number(limit), total: number(sorted.length) })}</p><button class="button button-outline" data-action="more">${t("loadMore")}${icon("plus")}</button></div>` : ""}`;
 }
 function sourceForPath() {
   let slug;
@@ -458,11 +458,23 @@ app.addEventListener("click", (event) => {
 app.addEventListener("change", (event) => {
   const node = event.target;
   if (node.id === "language-select") {
+    if (app.querySelector('#contribution-form[data-submitting], #submission-form[data-submitting]')) { node.value = getLocale(); return; }
     const menuOpen = document.querySelector(".nav-more")?.open;
     const wasFocused = document.activeElement === node;
+    // Hold unsent values only for this synchronous render, never in browser storage.
+    const form = app.querySelector('#contribution-form, #submission-form');
+    const draft = form ? [...form.querySelectorAll('input[name], textarea[name], select[name]')].map(field => ({
+      name: field.name, value: field.value, checked: field.checked,
+    })) : [];
+    const formId = form?.id;
     setLocale(node.value);
     updateUrl();
     render();
+    const replacement = formId && document.getElementById(formId);
+    if (replacement) for (const field of replacement.querySelectorAll('input[name], textarea[name], select[name]')) {
+      const saved = draft.find(value => value.name === field.name);
+      if (saved) { field.value = saved.value; if (field.type === 'checkbox') field.checked = saved.checked; }
+    }
     if (menuOpen) document.querySelector(".nav-more").open = true;
     if (wasFocused) document.querySelector("#language-select")?.focus({ preventScroll: true });
     return;

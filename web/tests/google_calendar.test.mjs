@@ -59,3 +59,13 @@ test('missing public calendar configuration shows an honest fallback and keeps s
   assert.ok(!document.body.textContent.includes('undefined'));
   window.close();
 });
+
+test('opening Google Calendar preserves selected sources and offers an explicit local timezone and fallback',()=>{
+  const window=setup(),root=document.querySelector('main');setLocale('en');root.innerHTML=googleCalendarView({calendars});const cleanup=bindGoogleCalendar(root);
+  const open=root.querySelector('[data-google-calendar-open]'),frame=root.querySelector('iframe');
+  for(const control of root.querySelectorAll('[data-calendar-source]')){control.checked=control.dataset.calendarKey==='online';control.dispatchEvent(new window.Event('change',{bubbles:true}));}
+  assert.equal(open.href,frame.src);assert.deepEqual(new URL(open.href).searchParams.getAll('src'),[calendars[2].id]);
+  assert.match(root.querySelector('.google-calendar-context').textContent,/Times shown in/);assert.ok(root.querySelector('.google-calendar-context a[href="/events/"]'));
+  const online=root.querySelector('[data-calendar-key="online"]');online.checked=false;online.dispatchEvent(new window.Event('change',{bubbles:true}));assert.equal(open.hidden,true);assert.equal(open.hasAttribute('href'),false);
+  cleanup();window.close();
+});

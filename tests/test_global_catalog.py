@@ -16,6 +16,19 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(catalog.country_code(''), 'UNKNOWN')
         self.assertEqual(catalog.country_code('unverified'), 'UNKNOWN')
 
+    def test_website_observation_is_not_a_publication_date(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory)
+            rows = [{'key': 'web-old', 'platform': 'website', 'media_type': 'webpage_update',
+                     'posted_at': '2026-09-22T14:00:00Z', 'seen_at': '2026-09-22T14:01:00Z',
+                     'text': 'Original archived page text', 'link': 'https://example.org/2018/'}]
+            (path / 'latest.json').write_text(json.dumps({'updates': rows}))
+            post = catalog.build_catalog(path)['posts'][0]
+            self.assertIsNone(post['publishedAt'])
+            self.assertEqual(post['contentKind'], 'website_snapshot')
+            self.assertEqual(post['observedAt'], rows[0]['seen_at'])
+            self.assertEqual(post['text'], rows[0]['text'])
+
     def test_unsafe_links_are_not_exposed(self):
         for url in ['javascript:alert(1)', '//host/path', '/\\host', 'https://user:password@example.org', 'https://example.org\n/path']:
             self.assertEqual(catalog.public_url(url), '')

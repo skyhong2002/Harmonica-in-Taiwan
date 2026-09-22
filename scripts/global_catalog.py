@@ -163,6 +163,7 @@ def build_catalog(api_root: Path | str = API_ROOT, *, now: datetime | None = Non
         expiry = _timestamp(row.get('story_expires_at'))
         story_state = ('unknown' if expiry is None else 'active' if expiry > observed_at else 'expired') if is_story else None
         source = source_map.get(str(row.get('directory_entry_id') or '')) or monitor_map.get(str(row.get('source_id') or ''), {})
+        webpage = row.get('media_type') == 'webpage_update' or row.get('platform') == 'website'
         posts.append({
             'id': _id(row, 'key', 'id', 'link'),
             'title': str(row.get('display_title') or row.get('headline') or row.get('title') or ''),
@@ -171,7 +172,9 @@ def build_catalog(api_root: Path | str = API_ROOT, *, now: datetime | None = Non
             'sourceName': str(row.get('directory_entry_name') or row.get('source') or ''),
             'sourceUrl': source.get('url', ''), 'countryCode': country_code(row.get('country') or source.get('country')),
             'country': str(row.get('country') or source.get('country') or ''),
-            'platform': str(row.get('platform') or ''), 'publishedAt': row.get('posted_at'),
+            'platform': str(row.get('platform') or ''), 'publishedAt': None if webpage else row.get('posted_at'),
+            'contentKind': 'website_snapshot' if webpage else 'post',
+            'observedAt': row.get('seen_at') or row.get('fetched_at'),
             'image': public_url(row.get('image_url')), 'avatar': public_url(row.get('source_avatar_url') or row.get('avatar_url')),
             'isStory': is_story, 'expiresAt': row.get('story_expires_at'), 'storyState': story_state,
             'sourceAvailable': bool(public_url(row.get('link') or row.get('url'))) and (not is_story or story_state == 'active'),
@@ -193,6 +196,7 @@ def build_catalog(api_root: Path | str = API_ROOT, *, now: datetime | None = Non
             events.append({
                 'id': eid, 'title': str(row.get('title') or row.get('eventName') or ''),
                 'start': row.get('start'), 'end': row.get('end'), 'allDay': bool(row.get('allDay')),
+                'endEstimated': bool(row.get('endEstimated')),
                 'timezone': str(row.get('timezone') or snapshots[name].get('timezone') or 'UTC'),
                 'location': str(row.get('location') or row.get('venue') or ''),
                 'countryCode': 'ONLINE' if online else country_code(country), 'country': str(country),

@@ -68,12 +68,12 @@ class SocialFeedWatchdogWebpageTests(unittest.TestCase):
         )
         with mock.patch.object(watchdog.urllib.request, "urlopen", return_value=response):
             posts = watchdog.fetch_webpage(self.source)
+        self.assertEqual(posts[0]["posted_at"], "")
 
         self.assertEqual(len(posts), 1)
         self.assertEqual(posts[0]["media_type"], "webpage_update")
         self.assertIn("秋季音樂會", posts[0]["text"])
         self.assertNotIn("unstable", posts[0]["text"])
-        self.assertEqual(posts[0]["posted_at"], "Wed, 19 Aug 2026 10:00:00 GMT")
         self.assertTrue(posts[0]["include_without_keywords"])
 
     def test_webpage_schedule_baselines_once_then_waits(self):

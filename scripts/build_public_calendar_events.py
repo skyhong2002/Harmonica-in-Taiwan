@@ -69,6 +69,9 @@ PLACE_COUNTRIES = {
     "大阪": "日本",
     "和歌山": "日本",
     "名古屋": "日本",
+    "橫濱": "日本",
+    "横浜": "日本",
+    "Yokohama": "日本",
     "Japan": "日本",
     "Tokyo": "日本",
     "Osaka": "日本",
@@ -126,7 +129,7 @@ EVENT_TERMS = [
 
 DATE_RANGE_RE = re.compile(
     r"(?P<left>(?:\d{2,4}[./-])?\d{1,2}\s*(?:[./-]|月)\s*\d{1,2}\s*(?:日)?)"
-    r"\s*(?:→|~|〜|–|-|至|到)\s*"
+    r"\s*(?:→|~|～|〜|–|-|至|到)\s*"
     r"(?P<right>(?:\d{2,4}[./-])?\d{1,2}\s*(?:[./-]|月)\s*\d{1,2}\s*(?:日)?)"
 )
 FULL_DATE_RE = re.compile(r"(?P<year>\d{2,4})\s*(?:年|[./-])\s*(?P<month>\d{1,2})\s*(?:月|[./-])\s*(?P<day>\d{1,2})\s*(?:日)?")
@@ -556,12 +559,67 @@ def extract_time(text: str) -> str:
     return f"{hour:02d}:{minute:02d}"
 
 
+def explicit_time_range(text: str) -> tuple[str, str] | None:
+    """Recognize an announced range, not two unrelated clock times."""
+    match = re.search(
+        r"(?<![\d:：])(?P<h1>[01]?\d|2[0-3])[:：](?P<m1>[0-5]\d)\s*"
+        r"(?P<p1>[ap]\.?m\.?)?\s*(?:～|〜|~|–|—|-|至|到|to)\s*"
+        r"(?P<h2>[01]?\d|2[0-3])[:：](?P<m2>[0-5]\d)(?!\d)\s*(?P<p2>[ap]\.?m\.?)?",
+        text, re.IGNORECASE,
+    )
+    if not match:
+        return None
+    prefix = re.search(r"(上午|早上|下午|晚上|午後|午前|오후|오전)\s*$", text[:match.start()])
+    inferred = ('pm' if prefix[1] in {'下午', '晚上', '午後', '오후'} else 'am') if prefix else ''
+    periods = [match['p1'] or match['p2'] or inferred, match['p2'] or match['p1'] or inferred]
+    result = []
+    for index, period in enumerate(periods, 1):
+        hour = int(match[f'h{index}'])
+        if period and 1 <= hour <= 12:
+            hour = hour % 12 + (12 if period.lower().startswith('p') else 0)
+        result.append(f"{hour:02d}:{match[f'm{index}']}")
+    if not match['p1'] and match['p2'] and not inferred and int(match['h1']) <= 12 and int(match['h2']) <= 12:
+        start_minutes = int(result[0][:2]) * 60 + int(result[0][3:])
+        end_minutes = int(result[1][:2]) * 60 + int(result[1][3:])
+        if (end_minutes - start_minutes) % (24 * 60) > 12 * 60:
+            result[0] = f"{(int(result[0][:2]) + 12) % 24:02d}:{result[0][3:]}"
+    return result[0], result[1]
+
+
+def explicit_daily_candidates(text: str, posted_at: dt.datetime | None) -> list[tuple[dt.date, dt.date, str]]:
+    """Expand only an explicit daily schedule with one bounded date range."""
+    date_lines = [line for line in text.splitlines() if re.search(r"(?:【日期】|^\s*(?:日期|日程|Dates?)\s*[:：])", line, re.IGNORECASE)]
+    time_lines = [line for line in text.splitlines() if re.search(r"(?:【時間】|^\s*(?:時間|时间|Time)\s*[:：])", line, re.IGNORECASE)]
+    if len(date_lines) != 1 or len(time_lines) != 1:
+        return []
+    schedule_time = time_lines[0]
+    if not re.search(r"每天|每晚|每日|毎日|매일|\bdaily\b|\bevery (?:day|evening|night)\b", schedule_time, re.IGNORECASE):
+        return []
+    if re.search(r"早餐|午餐|晚餐|住宿|營業|营业|breakfast|lunch|dinner|accommodation|opening hours", schedule_time, re.IGNORECASE):
+        return []
+    if not explicit_time_range(schedule_time) or len(TIME_RE.findall(schedule_time)) != 2:
+        return []
+    other_lines = "\n".join(line for line in text.splitlines() if line not in date_lines + time_lines)
+    if FULL_DATE_RE.search(other_lines) or MONTH_DAY_RE.search(other_lines) or TIME_RE.search(other_lines):
+        return []
+    normalized = re.sub(r"[（(](?:[一二三四五六日天月火水木金土]|(?:星期|週)[一二三四五六日天]|Mon|Tue|Wed|Thu|Fri|Sat|Sun)[）)]", "", date_lines[0], flags=re.IGNORECASE)
+    ranges = list(DATE_RANGE_RE.finditer(normalized))
+    if len(ranges) != 1:
+        return []
+    start = parse_loose_date(ranges[0]['left'], posted_at)
+    end = parse_loose_date(ranges[0]['right'], posted_at)
+    if not start or not end or not 0 <= (end - start).days <= 14:
+        return []
+    return [(start + dt.timedelta(days=i), start + dt.timedelta(days=i), text)
+            for i in range((end - start).days + 1)]
+
+
 def clean_location(value: str) -> str:
     return re.sub(
         r"^(?:地點|地点|場地|會場|会場|場所|上課地點|活動地點|📍)\s*[｜|:：]?\s*",
         "",
         re.sub(r"\s+", " ", value),
-    ).strip(" ｜|:：")
+    ).strip(" ｜|:：【】[]")
 
 
 def extract_location(text: str) -> str:
@@ -740,9 +798,16 @@ def normalize_llm_calendar_review(value: dict[str, Any]) -> dict[str, Any]:
         confidence_value = max(0.0, min(1.0, float(confidence)))
     except (TypeError, ValueError):
         confidence_value = 0.0
-    place_text = f"{venue} {city} {details} {reason}"
-    mode = classify_event_mode(country, f"{event_name} {place_text}", requested_mode)
-    timezone = valid_timezone(value.get("timezone")) or infer_timezone(country)
+    # Venue/city describe the event location; a rationale such as "not Taiwan"
+    # or an overseas performer's biography is not positive location evidence.
+    location_country = infer_country(city)
+    if location_country and requested_mode != ONLINE:
+        country = location_country
+        mode = classify_event_mode(country, f"{venue} {city}")
+        timezone = infer_timezone(country) or valid_timezone(value.get("timezone"))
+    else:
+        mode = classify_event_mode(country, f"{event_name} {venue} {city} {details}", requested_mode)
+        timezone = valid_timezone(value.get("timezone")) or infer_timezone(country)
     if mode == TAIWAN_PHYSICAL:
         country = "臺灣"
         timezone = TIMEZONE
@@ -1267,7 +1332,12 @@ def extract_events(
                 used_overrides.add(override_url)
                 seen_links_dates.add((link, start_date.isoformat()))
             continue
-        candidates = date_candidates(text, posted_at)
+        daily_candidates = explicit_daily_candidates(str(item.get("text") or ""), posted_at)
+        if not daily_candidates and re.search(r"每天|每晚|每日|毎日|매일|\bdaily\b|\bevery (?:day|evening|night)\b", text, re.IGNORECASE) and DATE_RANGE_RE.search(text):
+            # A daily service or multiple competing schedules cannot safely be
+            # promoted to a continuous or recurring performance by proximity.
+            continue
+        candidates = daily_candidates or date_candidates(text, posted_at)
         for start_date, end_date, context in candidates:
             if start_date < min_date or start_date > max_date:
                 continue
@@ -1282,8 +1352,9 @@ def extract_events(
             if identity in seen_event_identity:
                 continue
             seen_event_identity.add(identity)
-            time_text = extract_time(context)
-            if title_date_conflicts(title, start_date):
+            time_range = explicit_time_range(context)
+            time_text = time_range[0] if time_range else extract_time(context)
+            if not daily_candidates and title_date_conflicts(title, start_date):
                 continue
             start = f"{start_date.isoformat()}T{time_text}:00+08:00" if time_text else start_date.isoformat()
             end = end_date.isoformat()
@@ -1298,7 +1369,7 @@ def extract_events(
             if not location and len(candidates) == 1:
                 location = extract_location(text)
             review: dict[str, Any] | None = None
-            if llm_token:
+            if llm_token or cache.get("items"):
                 try:
                     review = review_candidate_with_llm(
                         item,
@@ -1317,6 +1388,8 @@ def extract_events(
                     print(f"calendar LLM review failed for {link}: {exc}", file=sys.stderr)
             if review is None:
                 review = fallback_calendar_review(item, title, location, text)
+                if review and daily_candidates:
+                    review["details"] = str(item.get("text") or "")
             if is_explicit_tour_schedule(item, context):
                 # A listed date/city pair is authoritative; LLM review must not
                 # merge it with the first city in a multi-stop tour caption.
@@ -1336,10 +1409,14 @@ def extract_events(
                 # guest performance is not enough to identify a public event.
                 continue
             country = str(review.get("country") or "").strip()
+            location_country = infer_country(city)
+            if location_country and review_mode != ONLINE:
+                country = location_country
+                review["timezone"] = infer_timezone(country) or review.get("timezone")
             mode = classify_event_mode(
                 country,
-                f"{event_name} {venue} {city} {details}",
-                str(review.get("eventMode") or ""),
+                f"{venue} {city}" if location_country and review_mode != ONLINE else f"{event_name} {venue} {city} {details}",
+                "" if location_country and review_mode != ONLINE else str(review.get("eventMode") or ""),
             )
             if not mode:
                 continue
@@ -1354,7 +1431,7 @@ def extract_events(
                 country = "臺灣"
                 timezone = TIMEZONE
             elif mode == OVERSEAS_PHYSICAL:
-                location_country = infer_country(f"{venue} {city}") or infer_country(details)
+                location_country = infer_country(city)
                 if location_country:
                     country = location_country
                     timezone = infer_timezone(location_country) or timezone
@@ -1369,7 +1446,11 @@ def extract_events(
             if time_text:
                 start_dt = dt.datetime.combine(start_date, dt.time.fromisoformat(time_text), event_zone)
                 end_dt = start_dt + dt.timedelta(hours=2)
-                if end_date > start_date:
+                if time_range:
+                    end_dt = dt.datetime.combine(end_date, dt.time.fromisoformat(time_range[1]), event_zone)
+                    if end_dt <= start_dt:
+                        end_dt += dt.timedelta(days=1)
+                elif end_date > start_date:
                     end_dt = dt.datetime.combine(end_date, dt.time(23, 59), event_zone)
                 start = start_dt.isoformat()
                 end = end_dt.isoformat()
@@ -1386,6 +1467,7 @@ def extract_events(
                     "platform": item.get("platform") or "",
                     "start": start,
                     "end": end,
+                    "endEstimated": bool(time_text) and not bool(time_range),
                     "allDay": not bool(time_text),
                     "calendarType": mode,
                     "timezone": timezone,
@@ -1444,6 +1526,7 @@ def calendar_description(event: dict[str, Any]) -> str:
         part
         for part in [
             str(event.get("details") or "").strip(),
+            "結束時間未公告；日曆結束時間為估計。End time not announced; calendar end time is estimated." if event.get("endEstimated") else "",
             str(event.get("evidenceUrl") or "").strip(),
         ]
         if part

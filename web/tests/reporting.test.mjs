@@ -75,3 +75,82 @@ test('submission form prefills escaped context once and background refresh prese
   assert.equal(document.querySelector('#submission-country').value,'');
   window.close();
 });
+
+test('form errors identify and focus the affected field; success persists and owns focus',async()=>{
+  const window=browser();
+  setLocale('en');
+  const {contributeView,handleForm,refreshCommunity}=await import('../assets/community.js');
+  const originalFetch=globalThis.fetch, originalFormData=globalThis.FormData;
+  globalThis.FormData=window.FormData;
+  let fail=true, posts=0, release;
+  globalThis.fetch=async(path,options={})=>{
+    if(options.method==='POST') {
+      posts++;
+      if(release) await new Promise(resolve=>release=resolve);
+      return {ok:!fail,json:async()=>fail?{code:'invalid_token'}:{}};
+    }
+    return {ok:true,json:async()=>path.includes('session')?{csrfToken:'mock',contributions:[],submissions:[]}:{}};
+  };
+  try {
+    await refreshCommunity();
+    const render=()=>document.querySelector('main').innerHTML=contributeView();
+    render();
+    document.body.insertAdjacentHTML('afterbegin','<select id="language-select"><option>English</option></select>');
+    let form=document.querySelector('form');
+    form.elements.name.value='My shared quota';form.elements.token.value='mock-credential-not-real';form.elements.budgetUsd.value='1';form.elements.consent.checked=true;
+    await handleForm(form,render);
+    assert.equal(document.activeElement,form.elements.token);
+    assert.equal(form.elements.token.getAttribute('aria-invalid'),'true');
+    assert.match(form.elements.token.getAttribute('aria-describedby'),/token-hint form-message/);
+    assert.equal(form.elements.token.value,'');
+    assert.equal(form.elements.name.value,'My shared quota');
+    assert.ok(document.querySelector('#form-message').textContent.includes('verify'));
+    fail=false;release=true;
+    form.elements.token.value='mock-credential-not-real';
+    const pending=handleForm(form,render);
+    assert.equal(form.getAttribute('aria-busy'),'true');
+    assert.equal(document.querySelector('#language-select').disabled,true);
+    syncCommunityUi();
+    assert.equal(form.querySelector('[type=submit]').disabled,true);
+    await handleForm(form,render);
+    assert.equal(posts,2,'repeated activation cannot submit a pending form twice');
+    release();await pending;
+    assert.equal(document.activeElement.id,'form-message');
+    assert.match(document.activeElement.textContent,/contribution is active/);
+    syncCommunityUi();
+    assert.match(document.querySelector('#form-message').textContent,/contribution is active/);
+    assert.equal(form.getAttribute('aria-busy'),null);
+    assert.equal(document.querySelector('#language-select').disabled,false);
+  } finally {globalThis.fetch=originalFetch;globalThis.FormData=originalFormData;window.close();}
+});
+
+test('withdrawal dialog names the contribution and supports cancel, completion, and repeat protection',async()=>{
+  const window=browser();setLocale('en');
+  const {contributeView,refreshCommunity,withdraw}=await import('../assets/community.js');
+  const originalFetch=globalThis.fetch;
+  let withdrawn=false,deletes=0;
+  globalThis.fetch=async(path,options={})=>{
+    if(options.method==='DELETE'){deletes++;withdrawn=true;return{ok:true,json:async()=>({})};}
+    return{ok:true,json:async()=>path.includes('session')?{csrfToken:'mock',contributions:[{id:'one',name:'Japan contribution <safe>',status:withdrawn?'revoked':'active',budgetUsd:1}],submissions:[]}:{}};
+  };
+  try {
+    await refreshCommunity();
+    const render=()=>document.querySelector('main').innerHTML=contributeView();render();
+    document.body.insertAdjacentHTML('beforeend','<dialog id="confirm-dialog"></dialog>');
+    const dialog=document.querySelector('dialog');
+    dialog.showModal=()=>{dialog.open=true};
+    const close=value=>{dialog.returnValue=value;dialog.open=false;dialog.dispatchEvent(new window.Event('close'));};
+    let pending=withdraw('one',render);
+    assert.equal(dialog.getAttribute('aria-labelledby'),'withdraw-dialog-title');
+    assert.match(document.querySelector('#withdraw-dialog-title').textContent,/Japan contribution <safe>/);
+    assert.equal(document.querySelector('safe'),null);
+    close('cancel');await pending;assert.equal(deletes,0);
+    pending=withdraw('one',render);
+    await withdraw('one',render);
+    close('confirm');await pending;
+    assert.equal(deletes,1);
+    assert.equal(document.activeElement.id,'withdraw-message');
+    assert.match(document.activeElement.textContent,/withdrawn/);
+    assert.equal(document.querySelector('[data-withdraw]'),null);
+  } finally {globalThis.fetch=originalFetch;window.close();}
+});

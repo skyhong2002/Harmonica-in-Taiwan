@@ -1806,7 +1806,9 @@ def fetch_webpage(source: dict[str, Any]) -> list[dict[str, Any]]:
         summary = f"{title}（{content_type.split(';', 1)[0]}）"
 
     digest = hashlib.sha256(fingerprint_payload).hexdigest()
-    posted_at = last_modified or utc_iso(dt.datetime.now(dt.timezone.utc))
+    # A page fingerprint records an observation, not an article publication.
+    # Neither HTTP Last-Modified nor the fetch time establishes a publication date.
+    posted_at = ""
     return [
         normalize_post(
             source,

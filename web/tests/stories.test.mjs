@@ -75,3 +75,7 @@ test('expiry removes only expired cards, keeps live playback nodes, and preserve
   assert.equal(data.posts.length, 1); assert.equal(data.stories.length, 2);
   cleanup(); dom.window.close();
 });
+
+test('preview failure is announced only after a media error including video source failures',()=>{
+ setLocale('en');const data={...catalog,stories:[{...story,videoUrl:'https://example.org/video.mp4'}]};const dom=new JSDOM(`<main>${storiesView(data)}</main>`);const root=dom.window.document.querySelector('main');const status=root.querySelector('.ob-story-fallback');assert.equal(status.hidden,true);const cleanup=bindStories(root,{catalog:data});assert.equal(status.hidden,true);root.querySelector('video source').dispatchEvent(new dom.window.Event('error'));assert.equal(status.hidden,false);assert.equal(status.getAttribute('role'),'status');assert.ok(root.querySelector('.ob-story-original'));cleanup();dom.window.close();
+});

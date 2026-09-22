@@ -26,6 +26,8 @@ test('shell preserves preferences, exposes four languages and follows appearance
   assert.equal(document.querySelector('.legacy-site-header') !== null,true);
   assert.equal(document.querySelector('.nav-more a[href="/contribute/"]') !== null,true);
   assert.equal(document.querySelector('.nav-more a[href="/status/"]') !== null,true);
+  assert.ok(document.querySelector('.nav-more summary svg'));
+  assert.match(document.querySelector('.nav-more summary').getAttribute('aria-label'),/English \/ 繁體中文 \/ 日本語 \/ 한국어/);
   const click = (selector) => handleShellClick({target:document.querySelector(selector)});
   assert.equal(document.querySelector('[data-shell-panel="appearance"]'),null);
   assert.equal(document.querySelectorAll('.nav-theme-field [data-theme-choice]').length,3);
