@@ -1,5 +1,5 @@
 import { getLocale } from './i18n.js';
-import { link, esc, icon, date } from './utils.js';
+import { link, esc, icon, timestamp } from './utils.js';
 import { storiesView } from './stories.js';
 import { timelineView } from './timeline.js';
 import { googleCalendarView } from './google-calendar.js';
@@ -13,7 +13,7 @@ export function observatoryHome(catalog, state, following, limit = 24) {
   const w = labels[getLocale()] || labels.en;
   const params = new URLSearchParams({lang:getLocale()});
   for (const key of ['q','country','platform','type','kind','followed']) if (state[key]) params.set(key,state[key]===true?'1':state[key]);
-  const updated = catalog.generatedAt ? `<time class="home-updated" datetime="${esc(catalog.generatedAt)}">${esc(date(catalog.generatedAt,{hour:'2-digit',minute:'2-digit'}))}</time>` : '';
+  const updated = catalog.generatedAt ? `<span class="home-updated">${timestamp(catalog.generatedAt)}</span>` : '';
   return `<div class="observatory-home"><h1 class="sr-only">${esc(w.home)}</h1>
     <section class="home-stories home-band" aria-labelledby="home-stories-title"><div class="home-section-inner"><header class="home-section-heading"><h2 id="home-stories-title">${esc(w.stories)}</h2>${updated}</header>${storiesView(catalog)}</div></section>
     <section class="home-calendar home-band" aria-labelledby="home-calendar-title"><div class="home-section-inner"><header class="home-section-heading"><h2 id="home-calendar-title">${esc(w.calendar)}</h2><div>${link('/events/',esc(w.events),'text-link')}${link('/feeds/',esc(w.subscriptions),'text-link')}</div></header>${googleCalendarView(catalog)}</div></section>

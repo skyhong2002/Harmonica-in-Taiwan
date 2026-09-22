@@ -37,7 +37,7 @@ test('rich cards visibly preserve original post text and usable image, source, f
 test('time zones, unknown ends, and archived events remain truthful', () => {
   const window = setup(); const timed = { ...event, allDay: false, start: '2026-09-23T01:00:00Z', end: '2026-09-23T03:00:00Z', endEstimated: true };
   document.querySelector('main').innerHTML = richEventCard(timed, catalog); const text = document.querySelector('.rich-event-time').textContent;
-  assert.match(text, /Sep 22, 2026.*06:00 PM.*End time not announced/); assert.doesNotMatch(text, /08:00 PM/);
+  assert.match(text, /Sep 22(?:, 2026)?.*18:00.*End time not announced/); assert.doesNotMatch(text, /20:00/);
   const rows = [{ ...event, id: 'old', start: '2000-01-01', end: '2000-01-02' }, event, { ...event, id: 'next', countryCode: 'TW', start: '2099-09-26', end: '2099-09-27' }];
   assert.deepEqual(eventRows({ events: rows }, {}).map(e => e.id), ['event1', 'next']);
   assert.deepEqual(eventRows({ events: rows }, { period: 'past' }).map(e => e.id), ['old']);

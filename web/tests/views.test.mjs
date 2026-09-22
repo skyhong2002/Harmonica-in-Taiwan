@@ -83,9 +83,9 @@ test('multi-day event cards display inclusive civil date ranges across time zone
  const {eventDateLabel}=await import('../assets/views.js');
  setLocale('en');
  for(const timezone of ['Asia/Tokyo','Asia/Seoul','America/Los_Angeles','America/New_York']){
-  assert.equal(eventDateLabel({start:'2026-03-07',end:'2026-03-10',allDay:true,timezone}),'Mar 7, 2026 – Mar 9, 2026');
-  assert.equal(eventDateLabel({start:'2026-03-07',end:'2026-03-08',allDay:true,timezone}),'Mar 7, 2026');
-  assert.equal(eventDateLabel({start:'2026-03-07',end:'invalid',allDay:true,timezone}),'Mar 7, 2026');
+  assert.equal(eventDateLabel({start:'2026-03-07',end:'2026-03-10',allDay:true,timezone},{now:Date.parse('2026-09-23T00:00:00Z')}),'Mar 7 – Mar 9');
+  assert.equal(eventDateLabel({start:'2026-03-07',end:'2026-03-08',allDay:true,timezone},{now:Date.parse('2026-09-23T00:00:00Z')}),'Mar 7');
+  assert.equal(eventDateLabel({start:'2026-03-07',end:'invalid',allDay:true,timezone},{now:Date.parse('2026-09-23T00:00:00Z')}),'Mar 7');
  }
 });
 
@@ -108,9 +108,9 @@ test('event cards show announced end times and label estimated calendar placehol
  for(const [locale,label] of [['en','End time not announced'],['ja','終了時刻は未発表'],['ko','종료 시각 미발표'],['zh-Hant','結束時間未公告']]){
   setLocale(locale);
   document.body.innerHTML=eventCard({...event,endEstimated:false});
-  assert.match(document.querySelector('.event-time').textContent,/ – /);
+  assert.match(document.querySelector('.event-time').textContent,/–/);
   document.body.innerHTML=eventCard({...event,endEstimated:true});
   assert.match(document.querySelector('.event-time').textContent,new RegExp(label));
-  assert.doesNotMatch(document.querySelector('.event-time').textContent,/ – /);
+  assert.doesNotMatch(document.querySelector('.event-time').textContent,/–/);
  }
 });

@@ -1,5 +1,5 @@
 import { t, getLocale, locales } from './i18n.js';
-import { esc, safeUrl, image, link, initials, date } from './utils.js';
+import { esc, safeUrl, image, link, initials, timestamp } from './utils.js';
 
 const words = {
   empty: ['No active stories have been retrieved yet', '尚未取得有效限動', '有効なストーリーはまだ取得できていません', '아직 유효한 스토리를 가져오지 못했습니다'],
@@ -27,10 +27,10 @@ function storyCard(story, sources) {
     ? `<video class="ob-story-image" controls playsinline preload="none" ${poster ? `poster="${esc(poster)}"` : ''} aria-label="${esc(label)}"><source src="${esc(video)}"></video>`
     : link(story.url, picture, 'ob-story-media-link', `aria-label="${esc(name + ' · ' + t('original'))}"`);
   const published = Number.isFinite(Date.parse(story.publishedAt))
-    ? `<time datetime="${esc(story.publishedAt)}">${esc(date(story.publishedAt, { year: undefined, hour: '2-digit', minute: '2-digit' }))}</time>` : '';
+    ? timestamp(story.publishedAt) : '';
   // Prefer the catalog's cached avatar to an expiring social-CDN address.
   const avatar = image(source?.avatar || story.avatar, '', '');
-  return `<article class="ob-story-card" data-story-id="${esc(story.id || story.url || '')}" data-story-expires="${esc(story.expiresAt)}"><div class="ob-story-thumb">${media}<span class="ob-story-fallback" role="status" ${poster || video ? 'hidden' : ''}>${esc(word('missing'))}</span><span class="ob-story-rule" aria-hidden="true"></span><div class="ob-story-header"><span class="ob-story-avatar"><span aria-hidden="true">${esc(initials(name))}</span>${avatar}</span><div class="ob-story-identity"><strong title="${esc(name)}">${esc(name)}</strong>${published}</div></div><div class="ob-story-footer"><time datetime="${esc(story.expiresAt)}">${esc(word('expires'))} ${esc(date(story.expiresAt, { year: undefined, hour: '2-digit', minute: '2-digit' }))}</time>${link(story.url, esc(t('original')), 'ob-story-original')}</div></div></article>`;
+  return `<article class="ob-story-card" data-story-id="${esc(story.id || story.url || '')}" data-story-expires="${esc(story.expiresAt)}"><div class="ob-story-thumb">${media}<span class="ob-story-fallback" role="status" ${poster || video ? 'hidden' : ''}>${esc(word('missing'))}</span><span class="ob-story-rule" aria-hidden="true"></span><div class="ob-story-header"><span class="ob-story-avatar"><span aria-hidden="true">${esc(initials(name))}</span>${avatar}</span><div class="ob-story-identity"><strong title="${esc(name)}">${esc(name)}</strong>${published}</div></div><div class="ob-story-footer"><span>${esc(word('expires'))} ${timestamp(story.expiresAt)}</span>${link(story.url, esc(t('original')), 'ob-story-original')}</div></div></article>`;
 }
 
 export function storiesView(catalog) {

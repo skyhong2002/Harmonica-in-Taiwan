@@ -115,6 +115,66 @@ export function date(value, options = {}) {
     }).format(d);
   }
 }
+function parsedDate(value) {
+  if (value === null || value === undefined || value === '') return null;
+  const civil = civilDate(value);
+  if (typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) && !civil) return null;
+  const parsed = new Date(civil ? civil + 'T00:00:00Z' : typeof value === 'number' && value < 1e12 ? value * 1000 : value);
+  return Number.isFinite(+parsed) ? parsed : null;
+}
+function displayZone(timeZone) {
+  try { return new Intl.DateTimeFormat('en', {timeZone}).resolvedOptions().timeZone; }
+  catch { return 'UTC'; }
+}
+function clockTime(value, timeZone) {
+  return new Intl.DateTimeFormat(getLocale(), {hour:'2-digit',minute:'2-digit',hourCycle:'h23',timeZone:displayZone(timeZone)}).format(parsedDate(value));
+}
+function offsetAt(value, timeZone) {
+  return new Intl.DateTimeFormat('en', {timeZone:displayZone(timeZone),timeZoneName:'shortOffset'}).formatToParts(parsedDate(value)).find(part=>part.type==='timeZoneName')?.value || '';
+}
+export function shortDate(value, {timeZone, now = Date.now(), includeYear} = {}) {
+  const parsed = parsedDate(value);
+  if (!parsed) return t('dateUnknown');
+  const zone = displayZone(timeZone);
+  const valueYear = (civilDate(value) || localCivilDate(+parsed,zone)).slice(0,4);
+  const sameYear = valueYear === localCivilDate(+parsedDate(now),zone).slice(0,4);
+  return date(value, {timeZone:zone,year:(includeYear ?? !sameYear) ? 'numeric' : undefined});
+}
+export function shortDateTime(value, options = {}) {
+  if (!parsedDate(value)) return t('dateUnknown');
+  const label = shortDate(value,options);
+  return civilDate(value) ? label : `${label} · ${clockTime(value,options.timeZone)}`;
+}
+export function timestamp(value, {dateOnly = false, ...options} = {}) {
+  const parsed = parsedDate(value);
+  if (!parsed) return `<span>${esc(t('dateUnknown'))}</span>`;
+  const label = (dateOnly ? shortDate : shortDateTime)(value,options);
+  const full = date(value, {timeZone:displayZone(options.timeZone),...(civilDate(value) ? {} : {hour:'2-digit',minute:'2-digit',hourCycle:'h23',timeZoneName:'short'})});
+  return `<time datetime="${esc(civilDate(value) || parsed.toISOString())}" title="${esc(full)}" aria-label="${esc(full)}">${esc(label)}</time>`;
+}
+export function shortEventDate(event, {now = Date.now()} = {}) {
+  const options = {timeZone:event.timezone || 'UTC',now};
+  const start = parsedDate(event.start), end = parsedDate(event.end);
+  if (!start) return t('dateUnknown');
+  if (event.allDay) {
+    if (civilDate(event.start) && civilDate(event.end) && end > start) {
+      const inclusive = new Date(+end - 86400000).toISOString().slice(0,10);
+      if (inclusive > event.start) {
+        const includeYear = inclusive.slice(0,4) !== event.start.slice(0,4) ? true : undefined;
+        return `${shortDate(event.start,{...options,includeYear})} – ${shortDate(inclusive,{...options,includeYear})}`;
+      }
+    }
+    return shortDate(event.start,options);
+  }
+  if (!end || event.endEstimated || end <= start) return shortDateTime(event.start,options);
+  const startDay = localCivilDate(+start,options.timeZone), endDay = localCivilDate(+end,options.timeZone);
+  const startOffset = offsetAt(start,options.timeZone), endOffset = offsetAt(end,options.timeZone);
+  const changedOffset = startOffset !== endOffset;
+  if (startDay === endDay) return `${shortDate(event.start,options)} · ${clockTime(start,options.timeZone)}${changedOffset ? ' '+startOffset : ''}–${clockTime(end,options.timeZone)}${changedOffset ? ' '+endOffset : ''}`;
+  const includeYear = startDay.slice(0,4) !== endDay.slice(0,4) ? true : undefined;
+  return `${shortDateTime(event.start,{...options,includeYear})}${changedOffset ? ' '+startOffset : ''} – ${shortDateTime(event.end,{...options,includeYear})}${changedOffset ? ' '+endOffset : ''}`;
+}
+
 export const number = (value) =>
   new Intl.NumberFormat(getLocale()).format(Number(value) || 0);
 export const money = (value) =>

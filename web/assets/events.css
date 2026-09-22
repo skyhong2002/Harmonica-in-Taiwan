@@ -18,11 +18,15 @@
 .event-reference { min-width: 0; }
 .event-reference + .event-reference { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--line); }
 .event-reference-label { font-size: .76rem; color: var(--muted); font-weight: 500; margin: 0 0 9px; }
-.event-author { display: flex; flex-wrap: wrap; align-items: center; gap: 3px 10px; margin-bottom: 8px; }
-.event-author-link { display: inline-flex; align-items: center; gap: 8px; min-width: 0; font-size: .84rem; }
-.event-author-link strong { overflow-wrap: anywhere; }
-.event-author .avatar { width: 28px; height: 28px; flex-shrink: 0; font-size: .65rem; }
-.event-author > span { font-size: .72rem; color: var(--muted); }
+.event-author { min-width: 0; margin-bottom: 13px; }
+.event-author-link { display: flex; align-items: center; gap: 12px; min-width: 0; color: var(--ink); }
+.event-author .avatar { width: 56px; height: 56px; flex: 0 0 56px; font-size: 1rem; }
+.event-author-identity { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+.event-author-identity strong { font-size: .96rem; line-height: 1.4; overflow-wrap: anywhere; }
+.event-author-meta { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 6px; font-size: .76rem; line-height: 1.4; color: var(--muted); }
+.event-author-meta time { white-space: nowrap; }
+.event-author-link > .external { flex-shrink: 0; }
+.rich-event-header > .event-author { padding-bottom: 13px; margin-bottom: 12px; border-bottom: 1px solid var(--line); }
 .event-reference .feed-text { white-space: pre-wrap; overflow-wrap: anywhere; margin: 0; font-size: .88rem; line-height: 1.65; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; }
 .event-reference .feed-text.is-expanded { display: block; -webkit-line-clamp: unset; }
 .event-reference .feed-expand { margin-top: 5px; }
@@ -39,6 +43,9 @@
   .rich-event-header { padding: 16px 15px 11px; }
   .rich-event-copy { padding: 13px 15px 10px; }
   .event-poster { max-height: 460px; }
+  .event-author .avatar { width: 48px; height: 48px; flex-basis: 48px; }
+  .event-author-link { gap: 10px; }
+  .event-author-identity strong { font-size: .92rem; }
 }
 .event-gallery { margin: 10px 14px 0; font-size: .8rem; }
 .event-gallery summary { cursor: pointer; color: var(--green); padding: 6px 0; }
