@@ -47,8 +47,8 @@ const rows = {
   brand: [
     "Harmonica Observatory",
     "口琴觀測站",
-    "Harmonica Observatory",
-    "Harmonica Observatory",
+    "ハーモニカ観測所",
+    "하모니카 관측소",
   ],
   tagline: [
     "A world connected by harmonica.",
@@ -56,7 +56,7 @@ const rows = {
     "ハーモニカで、世界とつながる。",
     "하모니카로 이어지는 세계.",
   ],
-  discover: ["Discover", "探索", "見つける", "발견"],
+  discover: ["Home", "首頁", "ホーム", "홈"],
   events: ["Events", "活動", "イベント", "행사"],
   posts: ["Updates", "動態", "最新情報", "소식"],
   sources: ["Directory", "來源名錄", "ディレクトリ", "단체·연주자"],
@@ -726,8 +726,8 @@ const rows = {
   aboutBody: [
     "Harmonica Observatory connects public updates, events, people, and music collections. It grows from Harmonica in Taiwan, with a community contribution model inspired by Chumei Observatory.",
     "口琴觀測站串連公開動態、活動、演奏者與樂譜資源。從臺灣口琴資料庫出發，採用竹梅活動觀測站的社群貢獻模式，逐步連結世界。",
-    "Harmonica Observatoryは、公開投稿、イベント、演奏家、楽譜をつなぎます。台湾のハーモニカ情報を基に、竹梅活動観測站のコミュニティ協力モデルを取り入れています。",
-    "Harmonica Observatory는 공개 소식, 행사, 연주자, 악보를 연결합니다. 대만 하모니카 자료에서 출발해 Chumei 관측소의 커뮤니티 기여 방식을 도입했습니다.",
+    "ハーモニカ観測所は、公開投稿、イベント、演奏家、楽譜をつなぎます。台湾のハーモニカ情報を基に、竹梅活動観測站のコミュニティ協力モデルを取り入れています。",
+    "하모니카 관측소는 공개 소식, 행사, 연주자, 악보를 연결합니다. 대만 하모니카 자료에서 출발해 Chumei 관측소의 커뮤니티 기여 방식을 도입했습니다.",
   ],
   faq: [
     "Frequently asked questions",
@@ -856,7 +856,7 @@ const rows = {
     "ページが見つかりません",
     "페이지를 찾을 수 없어요",
   ],
-  home: ["Return to discovery", "回到探索", "探索に戻る", "탐색으로 돌아가기"],
+  home: ["Return home", "回到首頁", "ホームに戻る", "홈으로 돌아가기"],
   paused: ["Paused", "已暫停", "一時停止", "일시 중지"],
   collectionSchedule: [
     "Collection schedule",

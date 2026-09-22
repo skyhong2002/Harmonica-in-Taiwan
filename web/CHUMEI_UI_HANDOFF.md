@@ -1,3 +1,5 @@
+> 後續首頁例外：使用者明確要求保留原口琴站「限動 → 活動行事曆 → 河道」的首頁；`/post/` 才是竹梅式完整河道。四語 Logo 使用各自語言單一字標。這些最新決定優先於下方移植基準；完成紀錄見 [最新驗收](../deploy/acceptance-2026-09-23.md)。
+
 > 最新要求：品牌維持 Harmonica Observatory／口琴觀測站。使用者於本輪進一步指定保留舊版米色底與綠色 Logo；竹梅仍是結構、排版與操作的參考，配色以此最新指示為準。以下為移植前的交接基準；最新驗收請見 `deploy/ui-acceptance-2026-09-23.md`。既有 `atlas-language`、`atlas-following` 儲存鍵與 schemaVersion 保留相容，不作對外品牌。
 
 # Frontend handoff: match Chumei faithfully

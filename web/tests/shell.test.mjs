@@ -11,7 +11,7 @@ test('shell preserves preferences, exposes four languages and follows appearance
   localStorage.setItem('atlas-following','["source-1"]');
   localStorage.setItem('atlas-language','ja');
   localStorage.setItem('atlas-theme','dark');
-  const {navigation,initializeShell,handleShellClick} = await import('../assets/shell.js');
+  const {navigation,footer,initializeShell,handleShellClick} = await import('../assets/shell.js');
   const {setLocale} = await import('../assets/i18n.js');
   initializeShell();
   assert.equal(document.documentElement.dataset.theme,'dark');
@@ -36,7 +36,12 @@ test('shell preserves preferences, exposes four languages and follows appearance
   for (const locale of ['en','zh-Hant','ja','ko']) {
     setLocale(locale);
     document.body.innerHTML=navigation('/',routes);
-    assert.match(document.querySelector('.brand').textContent,/Harmonica Observatory/);
+    const brand = {en:'Harmonica Observatory','zh-Hant':'口琴觀測站',ja:'ハーモニカ観測所',ko:'하모니카 관측소'}[locale];
+    assert.equal(document.querySelector('.brand').textContent,brand);
+    assert.equal(document.querySelector('.brand').getAttribute('aria-label'),brand);
+    assert.equal(document.querySelector('.brand small'),null);
+    assert.ok(footer().includes('© ' + new Date().getFullYear() + ' ' + brand));
+    if (locale !== 'zh-Hant') assert.ok(!footer().includes('口琴觀測站'));
     assert.doesNotMatch(document.body.textContent,/Atlas|undefined/);
     assert.equal(document.querySelector('#language-select').value,locale);
   }

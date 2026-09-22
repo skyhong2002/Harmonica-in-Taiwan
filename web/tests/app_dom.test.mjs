@@ -497,6 +497,35 @@ test("application DOM journey across languages, routing, filters and community f
     assert.equal(window.document.activeElement, draft);
     assert.equal(new URLSearchParams(window.location.search).get("q"), null);
   });
+  await t.test("home composes stories, calendar and feed while posts remains a dedicated river", async () => {
+    click('.site-nav a[href="/"]');
+    assert.deepEqual([...$(".observatory-home").children].filter(node => node.tagName === "SECTION").map(node => node.className), ["home-stories", "home-calendar", "home-posts"]);
+    assert.equal(window.document.querySelectorAll(".story-strip").length, 1);
+    assert.ok($("[data-calendar]"));
+    assert.ok($(".home-posts .feed-cols"));
+    assert.equal(window.document.body.classList.contains("feed-locked"), false);
+    const feed = $(".home-posts .river");
+    click('[data-calendar-move="1"]');
+    assert.match(new URLSearchParams(window.location.search).get("month"), /^\d{4}-\d{2}$/);
+    assert.equal($(".home-posts .river"), feed, "calendar changes preserve the river DOM and independent scroll/filter state");
+    click('.site-nav a[href="/post/"]');
+    assert.equal($("[data-calendar]"), null);
+    assert.ok($(".feed-cols"));
+    assert.equal(window.document.body.classList.contains("feed-locked"), true);
+  });
+  await t.test("contextual reporting survives locale changes and generic filters retain keyboard focus", async () => {
+    click('.site-nav a[href="/source/"]');
+    const country = $('[data-filter="country"]');
+    country.focus();
+    change('[data-filter="country"]', 'JP');
+    assert.equal(window.document.activeElement, $('[data-filter="country"]'));
+    click('.context-report-link');
+    assert.equal($("#submission-url").value, "http://localhost:8330/source/tokyo/");
+    change('#language-select', 'ja');
+    assert.equal($("#submission-url").value, "http://localhost:8330/source/tokyo/");
+    assert.equal(new URLSearchParams(window.location.search).get('reportCountry'), 'JP');
+    assert.ok($("#submission-note").value.includes('東京口琴團'));
+  });
   assert.deepEqual(errors, [], "DOM must not emit unhandled runtime errors");
   assert.ok(
     calls.every((c) => c.path.startsWith("/api/v1/")),

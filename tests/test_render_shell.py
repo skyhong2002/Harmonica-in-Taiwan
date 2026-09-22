@@ -27,6 +27,20 @@ class RenderShellTests(unittest.TestCase):
             self.assertNotIn('content="old"', document)
             self.assertIn('rel="canonical" href="' + ORIGIN + '/source/?lang=' + locale + '"', document)
 
+    def test_brand_is_localized_consistently_in_page_and_open_graph_titles(self):
+        brands = {'en': 'Harmonica Observatory', 'zh-Hant': '口琴觀測站',
+                  'ja': 'ハーモニカ観測所', 'ko': '하모니카 관측소'}
+        for locale, brand in brands.items():
+            with self.subTest(locale=locale):
+                document = render_shell.render_document(TEMPLATE, '/', self.catalog(), ORIGIN, locale)
+                title = render_shell.WORDS[locale]['home'] + ' · ' + brand
+                self.assertIn('<title>' + title + '</title>', document)
+                self.assertIn('<meta property="og:title" content="' + title + '">', document)
+                self.assertIn('<meta property="og:site_name" content="' + brand + '">', document)
+                for other in brands.values():
+                    if other != brand:
+                        self.assertNotIn(other, document)
+
     def test_known_source_retains_original_content_without_javascript(self):
         document = render_shell.render_document(TEMPLATE, '/source/tokyo-42/', self.catalog(), ORIGIN, 'ja')
         self.assertIn('<h1>Tokyo ensemble</h1>', document)
@@ -59,7 +73,7 @@ class RenderShellTests(unittest.TestCase):
     def test_unrecognized_locale_falls_back_to_english(self):
         document = render_shell.render_document(TEMPLATE, '/', self.catalog(), ORIGIN, 'fr-CA')
         self.assertIn('<html lang="en">', document)
-        self.assertIn('<h1>Discover</h1>', document)
+        self.assertIn('<h1>Home</h1>', document)
 
 
 if __name__ == '__main__':

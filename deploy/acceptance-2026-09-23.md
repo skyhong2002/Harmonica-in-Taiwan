@@ -1,6 +1,37 @@
-> 歷史驗收：此文件記錄前輪基礎功能／部署。新版介面與最終米色／綠色配色的驗收見 [ui-acceptance-2026-09-23.md](ui-acceptance-2026-09-23.md)。
-
 # Harmonica Observatory acceptance — 2026-09-23
+
+## Latest feature follow-up — verified
+
+The following implementation supersedes the earlier UI checkpoints below. The deployment and test counts in the historical sections remain evidence of those earlier snapshots. This follow-up was verified together against localhost and the existing public HTTPS runtime on 2026-09-23.
+
+- **One localized wordmark per interface language:** English `Harmonica Observatory`, Traditional Chinese `口琴觀測站`, Japanese `ハーモニカ観測所`, Korean `하모니카 관측소`. Navigation branding, the footer, browser titles, SSR SEO and OG use the selected name without an additional Chinese or English wordmark subtitle. Public source names, bios and posts remain in their original language.
+- **Distinct homepage and full feed:** `/` restores the original composition of active stories, an interactive native event calendar, then an embedded multicolumn post feed. The homepage scrolls as a page. `/post/` remains the dedicated full feed, with independently scrolling desktop columns and a horizontally scrolling deck; mobile has a readable single feed. The original cream `#f6f4ed` background and green `#244c3e` identity remain, while layout and controls follow Chumei.
+- **Functional native calendar:** month/year selection, previous/next month, today, day selection and agenda, keyboard date navigation, and a country/region facet independent of UI language and post filters. Dates retain event-local timezone semantics, including civil all-day dates, exclusive end dates and DST handling. An empty day or month is shown honestly.
+- **Scores with provenance and facets:** competition repertoire and publisher/collection views retain original titles and notes. Search, country, academic year, instrumentation, division, publisher and sorting use actual catalog fields and counts. Original evidence and publishing/enquiry links remain distinct and deduplicated. A repertoire index entry does not promise a downloadable full score.
+- **Contextual reporting:** source rows/profiles, posts, events and scores link to `/submit/` with public URL, name and known country context. The form prefills these values safely, accepts legacy report-link parameters, converts local source links to absolute public URLs and leaves unknown countries unset. Reports enter the existing review queue; public records are not changed automatically. Existing session, CSRF, token handling and draft-preserving background refresh behavior remain in place.
+
+The native calendar reads the site's public snapshot. It does **not** add an external Calendar synchronization service, cross-device OAuth, push notifications or a dedicated `/calendar/` route. Existing event lists and ICS subscriptions remain available. No fake login or inactive navigation control is introduced.
+
+Earlier Chumei-layout and cream/green evidence is preserved in [ui-acceptance-2026-09-23.md](ui-acceptance-2026-09-23.md). Its earlier statement that Japanese/Korean use the English brand and its earlier feature/test snapshot are superseded by this follow-up.
+
+## Follow-up acceptance results
+
+- Python: **225 tests passed**; Node/DOM: **54 tests passed**. New coverage includes localized branding, calendar event-local days/DST/exclusive ends, home versus full-feed composition, contextual reporting, score facets/evidence, source-aware event following and mobile column control synchronization.
+- Public HTTPS: **92 read-only checks passed**, using normal TLS validation; routes, four-language SSR metadata, new assets, JSON/RSS/ICS, session cookie properties, true 404s and legacy redirects checked.
+- Public Chromium: **112 route/locale/viewport checks passed** (14 routes including both source-detail URL forms × 4 languages × desktop/mobile), with no JavaScript errors, CSP violations, failed assets, console errors or horizontal document overflow.
+- Homepage interaction matrix: **24 combinations passed** (1440×900, 850×900, 390×844 × four languages × light/dark). Verified month/day/today controls, country independence from the river, history restoration, desktop independent column scrolling and mobile single-feed behavior. Desktop embedded deck measured 760 px tall; the page itself scrolls normally.
+- Scores: 16 desktop/mobile locale/view combinations plus keyboard, filtering, sorting, reload, tab/history, language and contextual-report navigation passed. Filters use live data counts, not fixture numbers.
+- Contribution forms were tested with intercepted mock mutations only: error, success, cancellation, withdrawal and background-refresh draft/focus preservation all passed. No real token or public submission was sent.
+- Public outputs, source coverage, legacy redirects and sitemap SEO validators passed; **400 sitemap URLs checked, zero errors** at this snapshot.
+- The existing web LaunchAgent was restarted for localized SSR changes; Caddy and other sites were unchanged. No paid ingestion, external Calendar write or GitHub Pages publication was invoked for this follow-up.
+
+Local evidence: `state/ui-acceptance-2026-09-23/followup/` contains the current HTTP/browser reports, test logs and selected screenshots (ignored runtime artifacts, not committed). The public snapshot during acceptance contained 322 sources, 788 posts, 19 events, 797 repertoire rows, 39 score-source collections and 0 active stories. These values are observations only; the UI derives counts from the catalog.
+
+Known limits: dates reflect supplied public records, so a source lacking structured time can remain an all-day entry even when prose mentions a time. Scores are a provenance index rather than a promise of full-score files. Account ownership remains the original browser cookie; OAuth/push and external calendar synchronization were not added. The homepage calendar and all controls introduced in this follow-up are functional.
+
+## Historical deployment and baseline evidence
+
+The remaining sections preserve the previous deployment and validation checkpoints. Their counts, data snapshots and pending-review statements are historical, not the current feature follow-up's final status.
 
 ## Runtime and deployment
 
@@ -113,7 +144,7 @@ curl --fail https://harmonica.observe.tw/api/pipeline-runtime.json
 - `build_local.py` now passes explicit offline flags. Missing legacy HTML artifacts are seeded without replacing existing outputs. External calendar synchronization is marked `not_configured`; local JSON/ICS still builds normally.
 - No real actor runs or new contributor tokens were used in tests. No Chumei database, identity, credentials or running service was modified.
 
-The public proxy and restored scheduler configuration are verified. Browser visual results will be appended after the separate visual acceptance review.
+The public proxy and restored scheduler configuration were verified at this checkpoint. Browser visual review was still pending at that point; later review is recorded in the subsequent checkpoint and the linked UI acceptance document.
 
 ## Rollback
 
@@ -138,11 +169,11 @@ launchctl bootout gui/$(id -u)/tw.observe.harmonica.web
 
 Keep `state/community/community.sqlite3` together with `state/community/encryption.key` when backing up or rolling back. These files contain the durable contribution authorization and accounting state; a code rollback should not replace them with an empty database.
 
-## Final browser and UI handoff checkpoint
+## Historical browser and UI handoff checkpoint
 
 - Final checks: 224 Python tests and 26 Node/DOM tests passed; sitemap validation checked 396 URLs with zero errors. Offline local build and public-output validators passed.
 - Real public-browser checks covered all 12 primary routes at 390×844, plus 1440×900 desktop and four-language examples. No horizontal document overflow in inspected routes. Country selection survives language changes; follows, source detail links/title/canonical, and enabled session forms were verified. Screenshots were saved by the collaborative browser tool.
 - Mocked DOM tests cover contribution success/error/withdraw/cancel, source submissions, CSRF request contracts, IME and delayed session refresh preserving draft values and focus. They do not use actual contributed tokens or paid actors.
 - The user explicitly approved Playwright after Computer Use could not obtain native windows. The purpose-built collaborative preview browser was subsequently discovered and successfully used against the public site.
-- **The latest user direction requires UI fidelity to Chumei's deliberately designed interface. The current cream/green editorial visual design is NOT accepted as final.** Chumei was opened in a real browser and audited: desktop navigation rail, mobile bottom navigation, active stories and independently scrolling feed columns. Further style changes stopped so the next agent can implement a faithful structural adaptation rather than cosmetic overrides.
+- **At this historical handoff, the editorial hero/globe layout was not accepted; the user required Chumei's deliberately designed structure.** Chumei was opened in a real browser and audited: desktop navigation rail, mobile bottom navigation, active stories and independently scrolling feed columns. That handoff called for a faithful structural adaptation. The later user instruction retained the old cream/green palette; the latest implementation is described above and does not restore the rejected hero/globe layout.
 - Full continuation prompt: [next-agent-prompt-2026-09-23.md](next-agent-prompt-2026-09-23.md). Exact UI mapping: [CHUMEI_UI_HANDOFF.md](../web/CHUMEI_UI_HANDOFF.md).

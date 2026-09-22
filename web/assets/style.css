@@ -301,3 +301,14 @@ dialog { border:1px solid var(--color-border-subtle); border-radius:var(--radius
 .nav-more-menu .appear-open span { margin-right:auto; }
 @media (min-width:1080px) { html:lang(zh-Hant) .brand-name { font-size:1.35rem; } }
 @media (max-width:699px) { html:lang(zh-Hant) .brand-name { font-size:1.45rem; font-weight:700; } }
+/* Each locale presents one wordmark, sized to retain the compact navigation. */
+.brand-name { white-space:nowrap; }
+@media (min-width:1080px) {
+  html:lang(en) .brand-name { font-size:.92rem; }
+  html:lang(ja) .brand-name { font-size:1.12rem; }
+  html:lang(ko) .brand-name { font-size:1.12rem; }
+}
+@media (max-width:699px) {
+  html:lang(ja) .brand-name,html:lang(ko) .brand-name { font-size:1.1rem; }
+}
+@media (max-width:359px) { html:lang(en) .brand-name { font-size:.88rem; } }

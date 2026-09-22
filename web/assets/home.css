@@ -1,0 +1,21 @@
+/* The Observatory's original stories → calendar → post flow within the shared shell. */
+.observatory-home { padding-top:16px; }
+.observatory-home h2 { font-size:1.1rem; line-height:1.4; }
+.home-section-heading { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:10px 20px; margin:0 0 14px; }
+.home-section-heading > div { display:flex; gap:8px 18px; flex-wrap:wrap; }
+.home-stories { margin-bottom:20px; }
+.home-stories .story-strip { min-height:64px; border-bottom:1px solid var(--color-border-subtle); }
+.home-calendar { margin-bottom:28px; }
+.home-posts { min-width:0; }
+@media(min-width:700px) {
+  .home-posts .river-deck-wrap { height:min(760px,85dvh); min-height:480px; }
+  .home-posts .feed-cols { justify-content:start; }
+}
+@media(max-width:699px) {
+  .observatory-home { padding-top:8px; }
+  .home-section-heading { align-items:start; }
+  .home-section-heading .text-link { font-size:.78rem; }
+  .home-stories { margin-bottom:18px; }
+}
+
+.home-calendar .calendar-heading { display:none; }

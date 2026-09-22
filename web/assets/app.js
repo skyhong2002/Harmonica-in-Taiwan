@@ -1,3 +1,6 @@
+import { observatoryHome } from "./home.js";
+import { bindCalendar } from "./calendar.js";
+import { scoresView, scoreSourcesView } from "./scores.js";
 import { navigation, footer, initializeShell, handleShellClick } from "./shell.js";
 import { riverView, bindRiver } from "./river.js";
 import { t, getLocale, setLocale } from "./i18n.js";
@@ -45,7 +48,8 @@ let catalog = null,
   limit = 24,
   renderVersion = 0,
   searchTimer,
-  riverCleanup;
+  riverCleanup,
+  calendarCleanup;
 let following = new Set();
 try {
   following = new Set(
@@ -76,6 +80,9 @@ function path() {
 function readState() {
   const p = new URLSearchParams(location.search);
   return {
+    reportUrl: p.get("reportUrl") || p.get("url") || p.get("source") || "",
+    reportName: p.get("reportName") || p.get("name") || "",
+    reportCountry: p.get("reportCountry") || p.get("countryCode") || "",
     q: p.get("q") || "",
     country: p.get("country") || "",
     platform: p.get("platform") || "",
@@ -86,6 +93,13 @@ function readState() {
       : "upcoming",
     followed: p.get("followed") === "1",
     year: p.get("year") || "",
+    instrument: p.get("instrument") || "",
+    division: p.get("division") || "",
+    publisher: p.get("publisher") || "",
+    scoreSort: p.get("scoreSort") || "year_desc",
+    month: p.get("month") || "",
+    day: p.get("day") || "",
+    calendarCountry: p.get("calendarCountry") || "",
     sort: p.get("sort") || "name",
     descending: p.get("descending") === "1",
   };
@@ -95,7 +109,7 @@ function updateUrl() {
   const params = new URLSearchParams();
   params.set("lang", getLocale());
   for (const [k, v] of Object.entries(state))
-    if (v && !(k === "period" && v === "upcoming"))
+    if (v && !(k === "period" && v === "upcoming") && !(k === "sort" && v === "name") && !(k === "scoreSort" && v === "year_desc"))
       params.set(k, v === true ? "1" : v);
   history.replaceState({}, "", location.pathname + "?" + params);
 }
@@ -174,13 +188,22 @@ function listView(kind, data) {
         : "";
   return `${pageHeading(kind, bodyKey, extra)}${filterBar(state, catalog, kind)}<div class="results-bar"><p role="status">${t("results", { count: number(sorted.length) })}</p><span>${kind === "sources" && state.followed ? t("followHint") : t("originalLanguage")}</span></div>${kind === "sources" ? directoryHeader(state.sort, state.descending) : ""}<div class="${cls}">${sorted.length ? sorted.slice(0, limit).map(card).join("") : empty()}</div>${sorted.length > limit ? `<div class="pagination"><p>${t("showing", { shown: number(limit), total: number(sorted.length) })}</p><button class="button button-outline" data-action="more">${t("loadMore")}${icon("plus")}</button></div>` : ""}`;
 }
+function sourceForPath() {
+  let slug;
+  try { slug = decodeURIComponent(path().split("/").filter(Boolean).at(-1)); } catch { return null; }
+  if (!path().startsWith("/source/") && !path().startsWith("/post/source/")) return null;
+  return catalog?.sources.find(source => source.id === slug || source.publicId === slug || source.url === path() || source.url?.split("/").filter(Boolean).at(-1) === slug);
+}
 function body() {
   if (!catalog)
     return `<div class="initial-loading" ${loadFailed ? "" : 'aria-busy="true"'}>${icon(loadFailed ? "info" : "globe")}<h1>${t(loadFailed ? "loadError" : "loading")}</h1>${loadFailed ? `<p>${t("loadErrorBody")}</p><button class="button button-primary" data-action="retry">${t("retry")}</button>` : '<div class="loading-dots"><i></i><i></i><i></i></div>'}</div>`;
   const key = routes[path()];
   const data = filtered();
-  if (key === "discover" || key === "posts") return riverView(catalog, state, following);
-  if (["sources", "posts", "events", "scores", "scoreSources"].includes(key))
+  if (key === "discover") return observatoryHome(catalog, state, following);
+  if (key === "posts") return riverView(catalog, state, following);
+  if (key === "scores") return scoresView(catalog, state, limit);
+  if (key === "scoreSources") return scoreSourcesView(catalog, state, limit);
+  if (["sources", "events"].includes(key))
     return listView(key, data[key]);
   if (key === "feeds") return feedsView(catalog);
   if (key === "about") return aboutView();
@@ -189,19 +212,7 @@ function body() {
   if (key === "contribute") return contributeView();
   if (key === "submit") return submitView(catalog);
   if (path().startsWith("/source/") || path().startsWith("/post/source/")) {
-    let slug;
-    try {
-      slug = decodeURIComponent(path().split("/").filter(Boolean).at(-1));
-    } catch {
-      slug = "";
-    }
-    const source = catalog.sources.find(
-      (s) =>
-        s.id === slug ||
-        s.publicId === slug ||
-        s.url === path() ||
-        s.url?.split("/").filter(Boolean).at(-1) === slug,
-    );
+    const source = sourceForPath();
     return sourceDetail(source, catalog, following, limit);
   }
   return `${pageHeading("notFound", "countryNote")}${link("/", t("home"), "button button-primary")}`;
@@ -209,24 +220,26 @@ function body() {
 function render({ focus = false } = {}) {
   clearTimeout(searchTimer);
   riverCleanup?.();
+  calendarCleanup?.();
   renderVersion++;
   setLocale(getLocale());
   const current = routes[path()] || "sources";
-  const detail = catalog?.sources.find(
-    (source) =>
-      source.url === path() ||
-      source.id === path().split("/").filter(Boolean).at(-1),
-  );
+  const detail = sourceForPath();
   document.title = `${detail ? detail.name : t(current)} · ${t("brand")}`;
   updateMetadata();
   const isRiver = ["/", "/post/"].includes(path());
-  document.body.classList.toggle("feed-locked", isRiver);
+  const isFullFeed = path() === "/post/";
+  document.body.classList.toggle("feed-locked", isFullFeed);
   app.innerHTML =
     navigation(path(), routes) +
-    `<main id="main" class="main-container${isRiver ? " feed-main" : ""}" tabindex="-1">${body()}</main>` +
+    `<main id="main" class="main-container${isFullFeed ? " feed-main" : path() === "/" ? " home-main" : ""}" tabindex="-1">${body()}</main>` +
     footer();
   if (isRiver && catalog) riverCleanup = bindRiver(app, {
     catalog, state, following,
+    onStateChange(patch) { Object.assign(state, patch); updateUrl(); },
+  });
+  if (path() === "/" && catalog) calendarCleanup = bindCalendar(app, {
+    catalog, state,
     onStateChange(patch) { Object.assign(state, patch); updateUrl(); },
   });
   if (focus) document.querySelector("#main")?.focus({ preventScroll: true });
@@ -446,11 +459,14 @@ app.addEventListener("change", (event) => {
     return;
   }
   if (node.dataset.filter) {
+    const filterName = node.dataset.filter;
+    const wasFocused = document.activeElement === node;
     state[node.dataset.filter] =
       node.type === "checkbox" ? node.checked : node.value;
     limit = 24;
     updateUrl();
     render();
+    if (wasFocused) [...app.querySelectorAll("[data-filter]")].find(control => control.dataset.filter === filterName)?.focus({ preventScroll: true });
   }
 });
 app.addEventListener("input", (event) => {

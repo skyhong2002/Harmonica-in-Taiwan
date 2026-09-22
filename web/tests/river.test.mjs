@@ -104,3 +104,64 @@ test('four locales translate column controls and empty active stories honestly',
   }
   window.close();
 });
+
+test('event facets resolve explicit source IDs and exact linked-post URLs without guessing names',()=>{
+  const future=(id,extra={})=>({id,title:'日本の口琴',start:'2099-01-01',end:'2099-01-02',allDay:true,timezone:'Asia/Tokyo',...extra});
+  const data={...catalog,events:[
+    future('post-url',{url:catalog.posts[1].url}),
+    future('source-url',{sourceUrl:catalog.posts[0].url}),
+    future('explicit-id',{sourceId:'jp'}),
+    future('venue-country',{url:catalog.posts[1].url,countryCode:'TW'}),
+    future('same-name-only',{url:'https://unrelated.example/event'}),
+    future('two-linked-sources',{url:catalog.posts[1].url,sourceUrl:catalog.posts[0].url}),
+  ]};
+  const ids=(facets={},following=new Set(['jp']))=>filterColumn(data,{...newColumn('events'),...facets},following).map(e=>e.id);
+  assert.deepEqual(ids({followed:true}),['post-url','explicit-id','venue-country','two-linked-sources']);
+  assert.deepEqual(ids({kind:'following',type:'artist',country:'JP'}),['post-url','explicit-id','two-linked-sources']);
+  assert.deepEqual(ids({followed:true,type:'ensemble',country:'TW'},new Set(['tw'])),['source-url','two-linked-sources']);
+  assert.deepEqual(ids({followed:true,type:'ensemble'},new Set(['jp'])),[], 'type and following must match the same explicit source');
+  assert.deepEqual(ids({followed:true,country:'TW'}),['venue-country'], 'event country is the venue country when provided');
+  assert.equal(ids().length,6, 'unresolved sources remain visible when no source facets are selected');
+  assert.ok(!ids({followed:true}).includes('same-name-only'),'matching source display names cannot establish ownership');
+});
+
+test('removing the first post column synchronizes mobile facets, results and URL callbacks',()=>{
+  const window=dom(),root=document.querySelector('main'),patches=[];
+  localStorage.setItem(COLUMN_KEY,JSON.stringify([
+    newColumn(),
+    {...newColumn(),q:'Original',country:'TW',platform:'youtube',type:'ensemble',kind:'following'},
+    newColumn('events'),
+  ]));
+  root.innerHTML=riverView(catalog,{country:'JP'},new Set(['jp']));
+  const cleanup=bindRiver(root,{catalog,following:new Set(['jp']),onStateChange:patch=>patches.push(patch)});
+  assert.equal(root.querySelector('.river-mobile [data-river-field="country"]').value,'JP');
+  root.querySelector('.feed-cols [data-river-remove]').click();
+  const mobile=root.querySelector('.river-mobile');
+  for(const [key,value] of Object.entries({q:'Original',country:'TW',platform:'youtube',type:'ensemble'})) {
+    assert.equal(mobile.querySelector(`[data-river-field="${key}"]`).value,value);
+    assert.equal(patches.at(-1)[key],value);
+  }
+  const followed=mobile.querySelector('[data-river-field="followed"]');
+  assert.equal(followed.checked,true, 'legacy following kind remains reflected in checkbox');
+  assert.equal(mobile.querySelectorAll('.post-card').length,0);
+  followed.checked=false;followed.dispatchEvent(new window.Event('change',{bubbles:true}));
+  assert.equal(mobile.querySelectorAll('.post-card').length,16);
+  assert.equal(patches.at(-1).kind,'');
+  assert.equal(root.querySelector('.feed-cols [data-river-field="followed"]').checked,false);
+  cleanup();window.close();
+});
+
+test('embedded river can omit its story strip while the standalone exported strip keeps active-only semantics',async()=>{
+  const window=dom();
+  const {storyStrip}=await import('../assets/river.js');
+  assert.ok(storyStrip(catalog).includes('https://example.com/story'));
+  assert.ok(!storyStrip(catalog).includes('2000-01-01'));
+  const root=document.querySelector('main');
+  root.innerHTML=riverView(catalog,{},new Set(),{stories:false});
+  assert.equal(root.querySelectorAll('.story-strip').length,0);
+  assert.equal(root.querySelectorAll('.river').length,1);
+  const cleanup=bindRiver(root,{catalog});
+  root.querySelector('[data-river-add="events"]').click();
+  assert.equal(root.querySelectorAll('.feed-cols .feed-col').length,4);
+  cleanup();window.close();
+});

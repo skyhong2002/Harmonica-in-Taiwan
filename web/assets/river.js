@@ -44,17 +44,34 @@ export function activeStories(catalog, now = Date.now()) {
 }
 export function filterColumn(catalog, col, following = new Set()) {
   const sources = new Map((catalog.sources || []).map(s => [s.id, s]));
-  const rows = col.mode === 'events' ? (catalog.events || []).filter(e => !pastEvent(e)) : catalog.posts || [];
+  const eventMode = col.mode === 'events';
+  const sourcesByPostUrl = new Map();
+  if (eventMode) for (const post of catalog.posts || []) {
+    if (!post.url || !post.sourceId) continue;
+    if (!sourcesByPostUrl.has(post.url)) sourcesByPostUrl.set(post.url, new Set());
+    sourcesByPostUrl.get(post.url).add(post.sourceId);
+  }
+  const rows = eventMode ? (catalog.events || []).filter(e => !pastEvent(e)) : catalog.posts || [];
   return rows.filter(row => {
-    const source = sources.get(row.sourceId);
-    return (!col.country || row.countryCode === col.country) &&
+    const ids = new Set(row.sourceId ? [row.sourceId] : []);
+    if (eventMode) for (const url of [row.url, row.sourceUrl]) {
+      for (const id of sourcesByPostUrl.get(url) || []) ids.add(id);
+    }
+    // Event location remains authoritative; source country fills only absent metadata.
+    const matchesSource = [...ids].some(id => {
+      const source = sources.get(id);
+      return (!col.type || source?.type === col.type) &&
+        (!(col.followed || col.kind === 'following') || following.has(id)) &&
+        (!col.country || row.countryCode || source?.countryCode === col.country);
+    });
+    const needsSource = col.type || col.followed || col.kind === 'following' || (col.country && !row.countryCode);
+    return (!col.country || !row.countryCode || row.countryCode === col.country) &&
       (!col.platform || row.platform === col.platform) &&
-      (!col.type || source?.type === col.type) &&
-      (!(col.followed || col.kind === 'following') || following.has(row.sourceId)) &&
+      (!needsSource || matchesSource) &&
       (col.kind !== 'stories' || row.isStory) && textMatch(row, col.q);
   });
 }
-function storyStrip(catalog) {
+export function storyStrip(catalog) {
   const stories = activeStories(catalog);
   return `<section class="story-strip" aria-label="${esc(t('stories'))}">${stories.length ? stories.map(p => {
     const s = catalog.sources.find(s => s.id === p.sourceId);
@@ -81,14 +98,14 @@ function addMenu() {
 const snapshots = new WeakMap();
 const scrollSnapshots = new Map();
 // URL facets seed the first column; each additional column retains its own facets.
-export function riverView(catalog, state = {}, following = new Set()) {
+export function riverView(catalog, state = {}, following = new Set(), options = {}) {
   const columns = loadColumns();
   const first = columns.find(c => c.mode === 'posts');
   if (first) for (const key of fields) first[key] = state[key] ?? (key === 'followed' ? false : '');
   const mobile = { ...newColumn(), ...Object.fromEntries(fields.map(k => [k, state[k] ?? (k === 'followed' ? false : '')])) };
   const snapshot = { columns, mobile };
   snapshots.set(catalog, snapshot);
-  return `<section class="river" aria-label="${esc(r('feed'))}">${storyStrip(catalog)}<div class="river-deck-wrap"><div class="feed-cols" style="--ncols:${columns.length}">${columns.map((col, i) => column(col, i, catalog, following)).join('')}${columns.length < MAX_COLUMNS ? addMenu() : ''}</div><button type="button" class="deck-nav deck-prev" data-river-nav="-1" aria-label="${r('previous')}">${icon('chevron')}</button><button type="button" class="deck-nav deck-next" data-river-nav="1" aria-label="${r('next')}">${icon('chevron')}</button></div>${column(mobile, 'mobile', catalog, following, true)}</section>`;
+  return `<section class="river" aria-label="${esc(r('feed'))}">${options.stories === false ? '' : storyStrip(catalog)}<div class="river-deck-wrap"><div class="feed-cols" style="--ncols:${columns.length}">${columns.map((col, i) => column(col, i, catalog, following)).join('')}${columns.length < MAX_COLUMNS ? addMenu() : ''}</div><button type="button" class="deck-nav deck-prev" data-river-nav="-1" aria-label="${r('previous')}">${icon('chevron')}</button><button type="button" class="deck-nav deck-next" data-river-nav="1" aria-label="${r('next')}">${icon('chevron')}</button></div>${column(mobile, 'mobile', catalog, following, true)}</section>`;
 }
 
 export function bindRiver(root, { catalog, following = new Set(), onStateChange = () => {} } = {}) {
@@ -136,6 +153,13 @@ export function bindRiver(root, { catalog, following = new Set(), onStateChange 
     node.querySelector('.col-picker').classList.toggle('fon', filtered);
     node.querySelector('.caret').innerHTML = (filtered ? r('filtered') : t('filter')) + icon('chevron');
   }
+  function syncControls(node, col) {
+    node.querySelectorAll('[data-river-field]').forEach(field => {
+      const key = field.dataset.riverField;
+      if (field.type === 'checkbox') field.checked = key === 'followed' ? !!(col.followed || col.kind === 'following') : !!col[key];
+      else field.value = col[key];
+    });
+  }
   function change(input) {
     const node = nodeColumn(input);
     if (!node) return;
@@ -151,7 +175,7 @@ export function bindRiver(root, { catalog, following = new Set(), onStateChange 
       const otherNode = river.querySelector(`[data-river-column="${node.dataset.riverColumn === 'mobile' ? firstIndex() : 'mobile'}"]`);
       if (otherNode) {
         refresh(otherNode, other);
-        otherNode.querySelectorAll('[data-river-field]').forEach(field => { if (field.type === 'checkbox') field.checked = !!other[field.dataset.riverField]; else field.value = other[field.dataset.riverField]; });
+        syncControls(otherNode, other);
       }
       onStateChange(statePatch(col));
     }
@@ -186,7 +210,13 @@ export function bindRiver(root, { catalog, following = new Set(), onStateChange 
       if (!deck.querySelector('.deck-add')) deck.insertAdjacentHTML('beforeend', addMenu());
       saveColumns(columns); updateCount();
       const first = columns[firstIndex()];
-      if (first) { Object.assign(mobile, statePatch(first)); onStateChange(statePatch(first)); refresh(river.querySelector('.river-mobile'), mobile); }
+      if (first) {
+        Object.assign(mobile, statePatch(first));
+        onStateChange(statePatch(first));
+        const mobileNode = river.querySelector('.river-mobile');
+        refresh(mobileNode, mobile);
+        syncControls(mobileNode, mobile);
+      }
       deck.querySelector('.col-picker summary')?.focus();
     }
     if (button.dataset.riverAdd && columns.length < MAX_COLUMNS) {

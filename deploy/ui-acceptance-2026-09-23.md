@@ -1,3 +1,5 @@
+> 後續使用者要求與實作已更新：四語各自使用單一在地語言字標；首頁保留原站「限動 → 原生活動行事曆 → 貼文河道」，與 `/post/` 的完整河道分開。米色底、綠色識別維持。最新功能與驗收見 [acceptance-2026-09-23.md](acceptance-2026-09-23.md)。以下保留前一個版本的驗收紀錄。
+
 # Harmonica Observatory UI acceptance — 2026-09-23
 
 ## Latest requirements and result
