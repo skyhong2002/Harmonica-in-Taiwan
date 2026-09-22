@@ -2,10 +2,11 @@
 
 **最新使用者要求：還原昨天以前原版口琴觀測站的視覺與版面。此節優先於下方所有竹梅移植說明。**
 
+- 頂部導覽後續重做為首頁、動態、活動、來源名錄、樂譜；「更多」將參與／訂閱、語言／外觀、狀態／關於／隱私分組，語言和三種外觀直接在同一層操作。
 - 全站恢復原版頂端導覽；桌面頂欄、手機頁面頂端三欄導覽選單，不再使用竹梅左側欄或固定底部導覽。
 - 首頁順序為 **有效限動內容預覽 → 既有 Google Calendar 官方 iframe → masonry 貼文卡片**；不加入大型行銷 hero 或手刻月曆。
 - 首頁與 `/post/` 的貼文全部隨整個頁面共同垂直捲動。響應式目標：>900px 三欄、641–900px 平板最多兩欄（可用寬度不足時單欄）、≤640px 單欄；不是可增刪或各自捲動的竹梅 deck。
-- 保留舊版米色底與綠色識別，以及繁中／英文／日文／韓文和全球資料。單一語言字標依序為「口琴觀測站」、「Harmonica Observatory」、「ハーモニカ観測所」、「하모니카 관측소」。介面語言與國家篩選獨立。
+- 保留舊版米色底與綠色識別，以及繁中／英文／日文／韓文和全球資料。主語言字標依序為「口琴觀測站」、「Harmonica Observatory」、「ハーモニカ観測所」、「하모니카 관측소」。後續使用者要求加入英文識別：非英文版主標下顯示 HARMONICA OBSERVATORY，英文版不重複。介面語言與國家篩選獨立。
 - 既有搜尋、IME、追蹤、原文展開、原始來源、Google 日曆／ICS、Apify 貢獻、情境回報與瀏覽器歷史功能須保留；不共用竹梅服務、帳號或憑證。
 
 目前原版參考為此 repository 的 `site/index.html`、`site/assets/styles.css` 和 `site/assets/favicon-20260623.svg`。實作入口是 `web/assets/shell.js`、`legacy-layout.css`、`observatory-mark.svg`、`home.js`、`home.css`、`google-calendar.js`、`timeline.js` 和 `timeline.css`。Google 日曆 ID 取自公開 catalog 設定，不能帶入私人憑證；限動僅使用仍有效的 `catalog.stories`。

@@ -217,6 +217,11 @@ function body() {
   return `${pageHeading("notFound", "countryNote")}${link("/", t("home"), "button button-primary")}`;
 }
 function render({ focus = false } = {}) {
+  const previousMenu = app.querySelector('.nav-more[open]');
+  const menuControls = 'summary, a, button, select';
+  const menuFocus = !focus && previousMenu?.contains(document.activeElement)
+    ? [...previousMenu.querySelectorAll(menuControls)].indexOf(document.activeElement) : -1;
+  const menuScroll = previousMenu?.querySelector('.nav-more-menu')?.scrollTop || 0;
   clearTimeout(searchTimer);
   timelineCleanup?.();
   calendarCleanup?.();
@@ -237,6 +242,12 @@ function render({ focus = false } = {}) {
   if (path() === "/" && catalog) {
     calendarCleanup = bindGoogleCalendar(app);
     storiesCleanup = bindStories(app, { catalog });
+  }
+  if (menuFocus >= 0) {
+    const menu = app.querySelector('.nav-more');
+    menu.open = true;
+    menu.querySelectorAll(menuControls)[menuFocus]?.focus({ preventScroll: true });
+    menu.querySelector('.nav-more-menu').scrollTop = menuScroll;
   }
   if (focus) document.querySelector("#main")?.focus({ preventScroll: true });
 }

@@ -518,6 +518,21 @@ test("application DOM journey across languages, routing, filters and community f
     assert.ok($(".feed-river"));
     assert.equal(window.document.body.classList.contains("feed-locked"), false);
   });
+  await t.test("More keeps language focus through locale changes and background status refresh", async () => {
+    click('.nav-info-links a[href="/status/"]');
+    await sleep(60);
+    $(".nav-more").open = true;
+    $("#language-select").focus();
+    change('#language-select', 'ko');
+    assert.equal($(".nav-more").open, true);
+    assert.equal(window.document.activeElement, $("#language-select"));
+    const previousSelect = $("#language-select");
+    window.document.dispatchEvent(new window.Event('visibilitychange'));
+    await until(() => $("#language-select") !== previousSelect, 'status refresh renders new content');
+    assert.equal($(".nav-more").open, true);
+    assert.equal(window.document.activeElement, $("#language-select"));
+    assert.equal($("#language-select").value, 'ko');
+  });
   await t.test("contextual reporting survives locale changes and generic filters retain keyboard focus", async () => {
     click('.site-nav a[href="/source/"]');
     const country = $('[data-filter="country"]');

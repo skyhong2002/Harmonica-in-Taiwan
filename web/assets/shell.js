@@ -9,6 +9,8 @@ const labels = {
   system: ['System', '系統', 'システム', '시스템'],
   back: ['Back', '返回', '戻る', '뒤로'],
   home: ['Home', '首頁', 'ホーム', '홈'],
+  participate: ['Community & resources', '參與與訂閱', '参加・リソース', '참여 및 자료'],
+  preferences: ['Preferences', '瀏覽設定', '閲覧設定', '보기 설정'],
 };
 const text = (key) => labels[key][Math.max(0, locales.indexOf(getLocale()))];
 const themeKey = 'observatory-appearance';
@@ -33,6 +35,9 @@ function applyTheme(value, persist = false) {
 }
 const glyph = (name) => {
   const paths = {
+    light: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/>',
+    dark: '<path d="M20.5 13A8.5 8.5 0 0 1 11 3.5 8.5 8.5 0 1 0 20.5 13Z"/>',
+    system: '<rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8m-4-4v4"/>',
     home: '<path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1Z"/>',
     posts: '<rect x="4" y="3" width="16" height="18" rx="3"/><path d="M8 8h8M8 12h8M8 16h5"/>',
     sources: '<circle cx="9" cy="8" r="3"/><path d="M3 21v-3a6 6 0 0 1 12 0v3M16 5a3 3 0 0 1 0 6m2 4a5 5 0 0 1 3 5"/>',
@@ -51,10 +56,27 @@ function navLink(url, key, current, extra = '') {
   return `<a href="${url}" class="nav-item ${extra}" title="${esc(label)}" ${active(url, current) ? 'aria-current="page"' : ''}>${glyph(navIcons[key])}<span class="nav-label">${label}</span></a>`;
 }
 export function navigation(current = location.pathname, routes = {}) {
-  const primary = [['/post/', 'posts'], ['/source/', 'sources'], ['/scores/', 'scores'], ['/status/', 'status'], ['/submit/', 'submit']];
-  const extras = Object.entries(routes).filter(([url]) => url !== '/' && !primary.some(([p]) => p === url));
+  const primary = [['/', 'discover'], ['/post/', 'posts'], ['/events/', 'events'], ['/source/', 'sources'], ['/scores/', 'scores']];
+  const resources = [['/contribute/', 'contribute'], ['/submit/', 'submit'], ['/feeds/', 'feeds'], ['/scores/sources/', 'scoreSources']];
+  const info = [['/status/', 'status'], ['/about/', 'about'], ['/privacy/', 'privacy']];
   const brand = t('brand');
-  return `<a class="skip-link" href="#main">${t('skip')}</a><header class="site-header legacy-site-header"><a class="brand" href="/" aria-label="${esc(brand)}"><span class="brand-mark"><img src="/web/assets/observatory-mark.svg" width="34" height="34" alt="" aria-hidden="true"></span><span class="brand-name">${esc(brand)}</span></a><nav class="site-nav" aria-label="${t('navigation')}">${primary.map(([url, key]) => navLink(url, key, current)).join('')}<details class="nav-more"><summary class="nav-item" title="${text('more')}">${glyph('menu')}<span class="nav-label">${text('more')}</span></summary><div class="nav-more-menu"><div data-shell-panel="main">${extras.map(([url, key]) => `<a href="${url}" ${active(url,current) ? 'aria-current="page"' : ''}>${glyph(navIcons[key])}<span>${t(key)}</span></a>`).join('')}<button class="appear-open" data-shell-action="appearance">${glyph('palette')}<span>${text('appearance')}</span>${glyph('chevron')}</button><label class="language-picker" for="language-select">${t('language')}<select id="language-select">${locales.map((locale) => `<option value="${locale}" ${locale === getLocale() ? 'selected' : ''}>${languageNames[locale]}</option>`).join('')}</select></label></div><div data-shell-panel="appearance" hidden><div class="appear-head"><button class="appear-back" data-shell-action="back" aria-label="${text('back')}">←</button><strong>${text('appearance')}</strong></div><div class="appear-seg">${['light', 'dark', 'system'].map((theme) => `<button data-theme-choice="${theme}" aria-pressed="${theme === storedTheme()}">${text(theme)}</button>`).join('')}</div></div></div></details></nav></header>`;
+  const english = getLocale() !== 'en';
+  const brandLabel = english ? brand + ' · Harmonica Observatory' : brand;
+  const menuLink = ([url,key], withIcon = true) => `<a href="${url}" ${current === url ? 'aria-current="page"' : ''}>${withIcon ? glyph(navIcons[key]) : ''}<span>${t(key)}</span></a>`;
+  return `<a class="skip-link" href="#main">${t('skip')}</a><header class="site-header legacy-site-header nav-refresh">
+    <a class="brand" href="/" aria-label="${esc(brandLabel)}"><span class="brand-mark"><img src="/web/assets/observatory-mark.svg" width="34" height="34" alt="" aria-hidden="true"></span><span class="brand-wordmark"><span class="brand-name">${esc(brand)}</span>${english ? '<span class="brand-english" lang="en">HARMONICA OBSERVATORY</span>' : ''}</span></a>
+    <nav class="site-nav" aria-label="${t('navigation')}">${primary.map(([url,key])=>navLink(url,key,current)).join('')}
+      <details class="nav-more"><summary class="nav-item" aria-controls="nav-more-content" aria-expanded="false"><span class="nav-label">${text('more')}</span></summary>
+        <div class="nav-more-menu" id="nav-more-content">
+          <section class="nav-menu-section" aria-labelledby="nav-resource-title"><h2 class="nav-section-title" id="nav-resource-title">${text('participate')}</h2><div class="nav-resource-grid">${resources.map(entry=>menuLink(entry)).join('')}</div></section>
+          <section class="nav-preferences" aria-labelledby="nav-preferences-title"><h2 class="nav-section-title" id="nav-preferences-title">${text('preferences')}</h2>
+            <div class="nav-language-row"><label for="language-select">${t('language')}</label><select id="language-select">${locales.map(locale=>`<option value="${locale}" ${locale===getLocale()?'selected':''}>${languageNames[locale]}</option>`).join('')}</select></div>
+            <fieldset class="nav-theme-field"><legend>${text('appearance')}</legend><div class="appear-seg">${['light','dark','system'].map(theme=>`<button type="button" data-theme-choice="${theme}" aria-pressed="${theme===storedTheme()}">${glyph(theme)}<span>${text(theme)}</span></button>`).join('')}</div></fieldset>
+          </section>
+          <footer class="nav-info-links">${info.map(entry=>menuLink(entry,false)).join('')}</footer>
+        </div>
+      </details>
+    </nav></header>`;
 }
 export function footer() {
   return `<footer class="site-footer"><div class="footer-links">${[['/about/', 'about'], ['/privacy/', 'privacy'], ['/status/', 'status'], ['/feeds/', 'feeds'], ['/submit/', 'submit'], ['/scores/sources/', 'scoreSources']].map(([url, key]) => link(url, t(key))).join('')}</div><div class="footer-bottom"><span>© ${new Date().getFullYear()} ${esc(t('brand'))}</span>${link('https://github.com/skyhong2002/chumei', t('credit'))}${link('/api/v1/catalog', t('dataLink'))}</div></footer>`;
@@ -87,23 +109,27 @@ export function initializeShell() {
     const more = document.querySelector('.nav-more[open]');
     if (more && !more.contains(event.target)) more.open = false;
   });
+  const sizeMenu = () => {
+    const menu = document.querySelector('.nav-more[open] .nav-more-menu');
+    if (menu) menu.style.setProperty('--nav-menu-space', Math.max(120, (window.visualViewport?.height || window.innerHeight) - menu.getBoundingClientRect().top - 16) + 'px');
+  };
   document.addEventListener('toggle', (event) => {
-    if (event.target.matches?.('.nav-more') && !event.target.open) {
-      event.target.querySelector('[data-shell-panel="main"]').hidden = false;
-      event.target.querySelector('[data-shell-panel="appearance"]').hidden = true;
-    }
+    if (!event.target.matches?.('.nav-more')) return;
+    event.target.querySelector('summary')?.setAttribute('aria-expanded', String(event.target.open));
+    if (event.target.open) sizeMenu();
   }, true);
+  document.addEventListener('focusin', event => {
+    const more = document.querySelector('.nav-more[open]');
+    if (more && !more.contains(event.target)) more.open = false;
+  });
+  window.addEventListener('resize', sizeMenu);
+  window.visualViewport?.addEventListener('resize', sizeMenu);
 }
 export function handleShellClick(event) {
   const theme = event.target.closest('[data-theme-choice]');
   if (theme) { applyTheme(theme.dataset.themeChoice, true); return true; }
   const action = event.target.closest('[data-shell-action]')?.dataset.shellAction;
   if (!action) return false;
-  if (action === 'appearance' || action === 'back') {
-    document.querySelector('[data-shell-panel="main"]').hidden = action === 'appearance';
-    document.querySelector('[data-shell-panel="appearance"]').hidden = action !== 'appearance';
-    return true;
-  }
   if (!focusPageControl(action)) {
     location.href = '/post/?lang=' + encodeURIComponent(getLocale()) + '&focus=' + action;
   }
