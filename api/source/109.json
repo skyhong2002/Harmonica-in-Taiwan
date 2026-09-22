@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T05:09:55.273417Z",
+  "generatedAt": "2026-09-22T05:53:55.460807Z",
   "source": {
     "id": 109,
     "slug": "boris-plotnikov",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/109-boris-plotnikov/"
   },
   "items": [
+    {
+      "id": "post-c22a38749178b1edd83918e1",
+      "title": "Евгений Маргулис - Посмотри, как я живу (памяти Анатолия Крупнова)",
+      "excerpt": "Евгений Маргулис - Посмотри, как я живу (памяти Анатолия Крупнова) Очень классное видео получилось с квартирника, песня Алексей Романов, поет (и играет на гитаре/басу) Евгений Маргулис. На гитаре Михаил Клягин, на трубе Александр Дитковский, на ударных Илья Липатов. Мне кажется…",
+      "url": "https://www.youtube.com/watch?v=uqITdnmI4pw",
+      "sourceName": "Boris Plotnikov",
+      "platform": "YouTube",
+      "publishedAt": "2026-09-21T10:53:16Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1ebf50cf0fe282ae7f1d.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-043fdf88e3c9af5405f18d74",
       "title": "Друзья! Поздравляю всех с началом учебного года!",
