@@ -1,9 +1,9 @@
 window.publicCalendarEvents = {
   "version": 2,
-  "generatedAt": "2026-09-22T23:49:18+08:00",
+  "generatedAt": "2026-09-23T00:24:03+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 11,
+  "count": 10,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -15,7 +15,7 @@ window.publicCalendarEvents = {
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 23,
+      "cached": 22,
       "errors": 0
     }
   },
@@ -130,42 +130,6 @@ window.publicCalendarEvents = {
         "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-6/736921370_1546041260866287_3590465714306944280_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x500&ctp=s1200x500&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Snb5y5-ibAwQ7kNvwFpj7pO&_nc_oc=AdonLbu3ItPejPFxit3hf_Y3N2YaDYUcvRU3h74D4v0ryLmRV_GMt9PLGF4j3UIowkg&_nc_zt=23&_nc_ht=scontent-atl3-3.xx&_nc_gid=GyYaZsWIBdifSFV3V4iExw&_nc_ss=72289&oh=00_AQD9YvoYz2mvfVWCZjYlmjkTowhPfKdnRznmfoho_DVtpA&oe=6A4DA8CB"
       ],
       "image_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-6/736921370_1546041260866287_3590465714306944280_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x500&ctp=s1200x500&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Snb5y5-ibAwQ7kNvwFpj7pO&_nc_oc=AdonLbu3ItPejPFxit3hf_Y3N2YaDYUcvRU3h74D4v0ryLmRV_GMt9PLGF4j3UIowkg&_nc_zt=23&_nc_ht=scontent-atl3-3.xx&_nc_gid=GyYaZsWIBdifSFV3V4iExw&_nc_ss=72289&oh=00_AQD9YvoYz2mvfVWCZjYlmjkTowhPfKdnRznmfoho_DVtpA&oe=6A4DA8CB"
-    },
-    {
-      "id": "96e415d45dce4236",
-      "title": "口琴音樂會＿風城show琴",
-      "eventName": "口琴音樂會＿風城show琴",
-      "source": "吹出好心琴 + Ou Frog +",
-      "platform": "youtube",
-      "start": "2026-09-20",
-      "end": "2026-09-21",
-      "allDay": true,
-      "calendarType": "taiwan_physical",
-      "timezone": "Asia/Taipei",
-      "location": "臺北 雅痞書店",
-      "venue": "雅痞書店",
-      "city": "臺北",
-      "details": "主辦／演出者：吹出好心琴 + Ou Frog。狂響口琴樂團將於 9/20（日）午後在臺北雅痞書店演出，主題為「探戈與島嶼之歌」。貼文另提到演出曲目 Ausencia Infinita（無盡的思念）與演出人員。",
-      "evidenceUrl": "https://www.youtube.com/watch?v=2l3zyQ7QnfY",
-      "confidence": 0.95,
-      "calendarReview": {
-        "include": true,
-        "country": "臺灣",
-        "eventMode": "taiwan_physical",
-        "timezone": "Asia/Taipei",
-        "candidateDateMatches": true,
-        "eventName": "口琴音樂會＿風城show琴",
-        "venue": "雅痞書店",
-        "city": "臺北",
-        "details": "主辦／演出者：吹出好心琴 + Ou Frog。狂響口琴樂團將於 9/20（日）午後在臺北雅痞書店演出，主題為「探戈與島嶼之歌」。貼文另提到演出曲目 Ausencia Infinita（無盡的思念）與演出人員。",
-        "reason": "貼文明確寫出 9/20（日）午後、地點在臺北雅痞書店，屬臺灣實體口琴活動，日期與候選一致。",
-        "confidence": 0.95
-      },
-      "postedAt": "2026-09-17 12:00",
-      "images": [
-        "https://i.ytimg.com/vi_webp/2l3zyQ7QnfY/maxresdefault.webp"
-      ],
-      "image_url": "/assets/feed-images/77de565a7dddcac2b842.webp"
     },
     {
       "id": "80272f1fa43c54c9",
