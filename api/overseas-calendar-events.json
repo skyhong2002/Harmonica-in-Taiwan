@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-22T18:33:40+08:00",
+  "generatedAt": "2026-09-22T19:08:13+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "overseas_physical",
-  "count": 9,
+  "count": 8,
   "source": "/api/events.json",
   "ics": "/feeds/overseas-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -15,7 +15,7 @@
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 25,
+      "cached": 24,
       "errors": 0
     }
   },
@@ -309,45 +309,6 @@
       "postedAt": "2026-09-16 09:21",
       "images": [],
       "image_url": ""
-    },
-    {
-      "id": "1a5c0f6d80abd9f4",
-      "title": "春季大型音樂會",
-      "eventName": "春季大型音樂會",
-      "source": "Judy’s Harmonica Ensemble 茱蒂口琴樂團",
-      "platform": "instagram",
-      "start": "2027-04-23T13:00:00+09:00",
-      "end": "2027-04-23T15:00:00+09:00",
-      "allDay": false,
-      "calendarType": "overseas_physical",
-      "timezone": "Asia/Tokyo",
-      "location": "東京都渋谷区代々木神園町 國立奧林匹克紀念青少年綜合中心",
-      "venue": "國立奧林匹克紀念青少年綜合中心",
-      "city": "東京都渋谷区代々木神園町",
-      "details": "主辦／演出者：茱蒂口琴樂團 Judy's Harmonica Ensemble。2027 年 4 月 23 日 13:00–14:40 舉行，為 2027 日本口琴節第一天的節目之一。樂團將登台演出，並與日本口琴演奏家稻川有德合作；單日參加費 18,000 日圓，含午餐及紀念派對。",
-      "evidenceUrl": "https://www.instagram.com/p/DcYSVsQlPVN/",
-      "confidence": 0.97,
-      "calendarReview": {
-        "include": true,
-        "country": "日本",
-        "eventMode": "overseas_physical",
-        "timezone": "Asia/Tokyo",
-        "candidateDateMatches": true,
-        "eventName": "春季大型音樂會",
-        "venue": "國立奧林匹克紀念青少年綜合中心",
-        "city": "東京都渋谷区代々木神園町",
-        "details": "主辦／演出者：茱蒂口琴樂團 Judy's Harmonica Ensemble。2027 年 4 月 23 日 13:00–14:40 舉行，為 2027 日本口琴節第一天的節目之一。樂團將登台演出，並與日本口琴演奏家稻川有德合作；單日參加費 18,000 日圓，含午餐及紀念派對。",
-        "reason": "候選日期與貼文中的活動日期一致，且為在日本東京舉辦的實體口琴活動，符合收錄範圍。",
-        "confidence": 0.97
-      },
-      "postedAt": "2026-08-23 18:52",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/778986062_18022165922880937_6605692275307794028_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=Mzk3MDAwMzU2NzQ4MDc0NDgzMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTI0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=7u7WW-1qHRMQ7kNvwEeRimi&_nc_oc=Adrte7THaNlxpivwlN6Ais7OtqgZQv7DMddjybqBUEt2tl1SPN1D5p0TXeDtbxfkPso&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=yn3YB5mgydDxYtMtD2JpSA&_nc_ss=7a22e&oh=00_AQHhvyV5Dym0GHyteQrJBFTW_wCQHU6i3mUftK3VWYlWFw&oe=6A91164D",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/779017833_18022165955880937_177769599187650263_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=Mzk3MDAwMzU2ODgyMjk2NDU4NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTI0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=nWgoUFlZZSAQ7kNvwG2pTKk&_nc_oc=Adoug8EKPUqgaNHsQaN1W1C_-F0OdygP_dR9CpSVOjbYQJRFChKVVbAZGgj_PGiKDXk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=yn3YB5mgydDxYtMtD2JpSA&_nc_ss=7a22e&oh=00_AQF3RQ3D8zS9U2d_bGvQEkluV5XEtG1ingoLmqq_Ruipyg&oe=6A9128CC",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/779180132_18022165937880937_7261010391773916872_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=Mzk3MDAwMzU2OTk1NTM1NzI3OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTI0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=6oOnsE7M_2oQ7kNvwHOjEsl&_nc_oc=AdrBI0MA0nbwB5ASwMF-VPRtY6YQ-qGGpKi9OIjPg6byAtzrEe6LyTEYIBNkiHIVYbU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=yn3YB5mgydDxYtMtD2JpSA&_nc_ss=7a22e&oh=00_AQGx0lJV3gpF3ZHZe8iZFH4hlJMicjohOibb7E-xbTleKw&oe=6A90F3D5",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/780127544_18022165913880937_6166092046461999781_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=Mzk3MDAwMzU3MDY4NTEyOTQ5NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTI0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=-Z6w5VBjTU8Q7kNvwGDYhtJ&_nc_oc=AdoOCXOhQTM4cWtoyHOHtcUIiB6KVjWFAF3FimHnq3oGyIM6T7c9SCZBOdwT8d1HYJ0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=yn3YB5mgydDxYtMtD2JpSA&_nc_ss=7a22e&oh=00_AQHs2N9PSjCBHwIFM0RecNsovSW0WU-yuu1tI3vKrRxU6Q&oe=6A911E15"
-      ],
-      "image_url": "/assets/feed-images/e37323748f9ae72a43cc.webp"
     }
   ]
 }
