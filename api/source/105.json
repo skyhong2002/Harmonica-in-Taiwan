@@ -1,26 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T12:53:19.215813Z",
+  "generatedAt": "2026-09-22T13:28:19.009777Z",
   "source": {
     "id": 105,
     "slug": "stay-drunk-harmonica-ensemble",
     "name": "Stay Drunk 口琴樂團",
     "pageUrl": "https://harmonica.observe.tw/source/105-stay-drunk-harmonica-ensemble/"
   },
-  "items": [
-    {
-      "id": "post-73780d1c82e3d6eaaeb05252",
-      "title": "Formula 1 Theme | Stay Drunk",
-      "excerpt": "Formula 1 Theme | Stay Drunk 2026 臺中一中口琴社校友音樂會 演出團體：Stay Drunk 口琴樂團 曲目：Formula 1 Theme （編曲：Stay Drunk） 演出人員：張有璿、郭書蘋、白柏毅、黃庭晧、簡紹安 instagram: staydrunk_h.e ------------------------------------------------------------------------------------------------------------------- Performing…",
-      "url": "https://www.youtube.com/watch?v=8Ini7LuGv40",
-      "sourceName": "Stay Drunk 口琴樂團",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-23T13:00:06Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/3067ee93f937712a559f.webp",
-        "width": 800,
-        "height": 450
-      }
-    }
-  ]
+  "items": []
 }
