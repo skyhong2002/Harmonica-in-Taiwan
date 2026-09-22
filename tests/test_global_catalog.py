@@ -51,6 +51,35 @@ class CatalogTests(unittest.TestCase):
             self.assertEqual(result['scoreSources'][0]['lastSeenAt'], '2026-07-03')
             self.assertEqual(result['scoreSources'][0]['availability'], '待確認')
 
+    def test_reviewed_score_covers_keep_provenance_and_reject_stale_or_mismatched_evidence(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            rows = [{'id': 'book', 'scoreTitle': 'Book', 'sourceName': 'Shop', 'url': 'https://example.org/',
+                     'evidenceUrl': 'https://example.org/category'},
+                    {'id': 'notice', 'scoreTitle': 'Notice', 'sourceName': 'Band', 'url': 'https://facebook.com/band/',
+                     'evidenceUrl': 'https://facebook.com/band/photos/123/',
+                     'images': ['https://example.org/unrelated.jpg'],
+                     'links': [{'label': 'bad', 'url': 'https://facebook.com/band/photos/123/'}]}]
+            (root / 'score-sources.json').write_text(json.dumps({'scoreSources': rows}))
+            media = root / 'media.json'
+            media.write_text(json.dumps({'sources': {
+                'book': {'title': 'Book', 'sourceName': 'Shop', 'imageUrl': 'https://example.org/cover.jpg',
+                         'sourcePage': 'https://example.org/product/book', 'localImage': '/assets/feed-images/missing-cover.webp'},
+                'notice': {'title': 'Notice', 'sourceName': 'Band', 'evidenceStatus': 'mismatch',
+                           'invalidEvidenceUrl': rows[1]['evidenceUrl'], 'replacementSourceUrl': rows[1]['url']}}}))
+            with patch.object(catalog, 'SCORE_MEDIA', media):
+                result = catalog.build_catalog(root)['scoreSources']
+                self.assertEqual(result[0]['images'], ['https://example.org/cover.jpg'])
+                self.assertEqual(result[0]['imageSourceUrl'], 'https://example.org/product/book')
+                self.assertEqual(result[1]['id'], 'notice')
+                self.assertEqual(result[1]['referenceStatus'], 'unverified')
+                self.assertEqual(result[1]['sourceUrl'], rows[1]['url'])
+                self.assertEqual(result[1]['images'], [])
+                self.assertEqual(result[1]['links'], [])
+                rows[0]['scoreTitle'] = 'Different book'
+                (root / 'score-sources.json').write_text(json.dumps({'scoreSources': rows}))
+                self.assertEqual(catalog.build_catalog(root)['scoreSources'][0]['images'], [])
+
     def test_profile_urls_are_not_publication_evidence(self):
         for url in ['https://www.instagram.com/band/', 'https://facebook.com/band/',
                     'https://x.com/band', 'https://youtube.com/@band', 'https://threads.net/@band']:

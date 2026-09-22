@@ -152,3 +152,19 @@ test('find-music guide separates named books, announcements and enquiry leads an
   assert.equal(document.querySelector('.collection-title').textContent,'Ask about scores');
  }
 });
+
+
+test('reviewed covers open their actual source and unverified announcements become enquiries', async () => {
+ const {collectionAction,collectionKind}=await import('../assets/scores.js');
+ const book={name:'Shop',title:'Book',format:'紙本教材',images:['/assets/feed-images/real-cover.webp'],imageSourceUrl:'https://example.org/product/book',url:'https://example.org/category'};
+ assert.deepEqual(collectionAction(book),{url:book.imageSourceUrl,label:'product'});
+ const notice={name:'Band',title:'Notice',format:'樂譜販售公告',referenceStatus:'unverified',url:'https://facebook.com/band/'};
+ assert.equal(collectionKind(notice),'contacts');
+ for(const lang of ['en','zh-Hant','ja','ko']) {
+  setLocale(lang);
+  document.body.innerHTML=scoreSourcesView({scoreSources:[book,notice]});
+  assert.equal(document.querySelector('.collection-cover a').href,book.imageSourceUrl);
+  assert.ok(document.querySelector('.collection-reference-note').textContent.length>10);
+  assert.doesNotMatch(document.body.textContent,/undefined/);
+ }
+});

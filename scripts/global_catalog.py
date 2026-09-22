@@ -18,6 +18,7 @@ from urllib.parse import urlsplit, parse_qs
 ROOT = Path(__file__).resolve().parents[1]
 API_ROOT = ROOT / 'site' / 'api'
 NAME_TRANSLATIONS = ROOT / 'data' / 'sources' / 'source-name-translations.json'
+SCORE_MEDIA = ROOT / 'data' / 'sources' / 'score-source-media.json'
 COUNTRY_CODES = {
     '臺灣': 'TW', '台灣': 'TW', 'Taiwan': 'TW', '中國': 'CN', '中国': 'CN', 'China': 'CN',
     '香港': 'HK', 'Hong Kong': 'HK', '澳門': 'MO', '日本': 'JP', 'Japan': 'JP',
@@ -82,11 +83,12 @@ def snapshot_version(api_root: Path = API_ROOT) -> tuple:
             result.append((name, st.st_mtime_ns, st.st_size))
         except OSError:
             result.append((name, 0, 0))
-    try:
-        st = NAME_TRANSLATIONS.stat()
-        result.append(('source-name-translations', st.st_mtime_ns, st.st_size))
-    except OSError:
-        pass
+    for resource in (NAME_TRANSLATIONS, SCORE_MEDIA):
+        try:
+            st = resource.stat()
+            result.append((resource.name, st.st_mtime_ns, st.st_size))
+        except OSError:
+            pass
     # Refresh time-sensitive story and stale-status classifications once/minute.
     result.append(('time_bucket', int(time.time() // 60), 0))
     return tuple(result)
@@ -270,18 +272,33 @@ def build_catalog(api_root: Path | str = API_ROOT, *, now: datetime | None = Non
             'links': _links(row.get('links')), 'notes': str(row.get('performanceNote') or row.get('notes') or ''),
         })
     score_sources = []
+    score_media = _dict(read_snapshot(SCORE_MEDIA.name, SCORE_MEDIA.parent).get('sources'))
     for row in _rows(snapshots['score-sources.json'], 'scoreSources'):
+        media = _dict(score_media.get(_id(row, 'id')))
+        if media.get('title') != row.get('scoreTitle') or media.get('sourceName') != row.get('sourceName'):
+            media = {}
+        cached = str(media.get('localImage') or '')
+        # Checked-in provenance survives offline builds; optional local thumbnails are runtime cache.
+        local_cover = cached if re.fullmatch(r'/assets/feed-images/[a-zA-Z0-9_-]+\.webp', cached) and (ROOT / 'site' / cached.lstrip('/')).is_file() else ''
+        cover = local_cover or public_url(media.get('imageUrl'), local=False)
+        evidence_url = public_url(row.get('evidenceUrl'))
+        mismatched = media.get('evidenceStatus') == 'mismatch' and media.get('invalidEvidenceUrl') == evidence_url
+        if mismatched:
+            evidence_url = public_url(media.get('replacementSourceUrl'), local=False) or public_url(row.get('url'))
+        links = [item for item in _links(row.get('links')) if not mismatched or item['url'] != media.get('invalidEvidenceUrl')]
         score_sources.append({
             'id': _id(row, 'id'), 'name': str(row.get('sourceName') or row.get('scoreTitle') or ''),
             'title': str(row.get('scoreTitle') or ''), 'url': public_url(row.get('url')),
             **{key: str(row.get(key) or '') for key in ('format', 'instrumentation', 'purchaseMethod',
                 'rightsNote', 'sourceType', 'composer', 'arranger', 'price', 'availability', 'lastSeenAt')},
             'summary': ' · '.join(str(row.get(k) or '') for k in ('scoreTitle', 'instrumentation', 'purchaseMethod', 'rightsNote') if row.get(k)),
-            'countryCode': country_code(row.get('country')), 'links': _links(row.get('links')),
-            'sourceUrl': public_url(row.get('evidenceUrl')), 'count': 1,
-            'images': _media_urls(row.get('images')),
+            'countryCode': country_code(row.get('country')), 'links': links,
+            'sourceUrl': evidence_url, 'count': 1,
+            'referenceStatus': 'unverified' if mismatched else '',
+            'images': [] if mismatched else list(dict.fromkeys(([cover] if cover else []) + _media_urls(row.get('images')))),
+            'imageSourceUrl': public_url(media.get('sourcePage'), local=False),
             # Exact evidence only: the publisher profile is not proof of a score announcement.
-            'relatedPosts': [post for post in posts if post['url'] and post['url'] == _evidence_url(row.get('evidenceUrl'))
+            'relatedPosts': [post for post in posts if post['url'] and post['url'] == _evidence_url(evidence_url)
                              and post['url'] != public_url(row.get('url'))],
         })
     counts = Counter(s['countryCode'] for s in sources)

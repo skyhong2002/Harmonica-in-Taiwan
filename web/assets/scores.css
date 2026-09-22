@@ -126,3 +126,15 @@
   .collection-facts > div,.collection-record dl > div { grid-template-columns:7.5em minmax(0,1fr); }
   .collection-record summary { min-height:40px; }
 }
+
+.score-source-list .collection-row.collection-illustrated { display:grid; grid-template-columns:160px minmax(0,1fr); gap:18px; }
+.collection-cover { min-width:0; }
+.collection-cover .collection-media { display:block; margin:0; }
+.collection-cover .collection-media-link { background:transparent; }
+.collection-cover .collection-media-link img { max-height:250px; object-fit:contain; object-position:top; }
+.collection-illustrated .collection-facts > div { display:block; }
+.collection-illustrated .collection-facts dt { font-size:.72rem; margin-bottom:1px; }
+@media(max-width:1079px) {
+  .score-source-list .collection-row.collection-illustrated { grid-template-columns:120px minmax(0,1fr); gap:14px; }
+}
+.collection-reference-note { color:var(--color-text-secondary); font-size:.8rem; margin:0 0 10px; line-height:1.6; }
