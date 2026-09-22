@@ -51,6 +51,22 @@ class CatalogTests(unittest.TestCase):
             self.assertNotIn('NEVER-EXPOSE', json.dumps(result))
             self.assertEqual(result['status']['services'][0]['status'], 'paused')
 
+    def test_calendar_embed_metadata_is_allowlisted_and_tracks_snapshot_changes(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory)
+            before = catalog.snapshot_version(path)
+            rows = [
+                {'calendarId': 'public@group.calendar.google.com', 'calendarKey': 'taiwan', 'status': 'ok', 'credentials': 'PRIVATE'},
+                {'calendarId': 'bad@example.org', 'calendarKey': 'overseas'},
+                {'calendarId': 'public@group.calendar.google.com', 'calendarKey': 'online'},
+                {'calendarId': 'another@group.calendar.google.com', 'calendarKey': 'untrusted'},
+            ]
+            (path / 'public-calendar-sync.json').write_text(json.dumps({'calendars': rows, 'generatedAt': '2026-09-23T00:00:00Z', 'lockFile': 'PRIVATE'}))
+            result = catalog.build_catalog(path)
+            self.assertEqual(result['calendars'], [{'id': 'public@group.calendar.google.com', 'key': 'taiwan', 'status': 'ok', 'updatedAt': '2026-09-23T00:00:00Z'}])
+            self.assertNotIn('PRIVATE', json.dumps(result))
+            self.assertNotEqual(before, catalog.snapshot_version(path))
+
     def test_synthetic_source_backfills_never_become_posts(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory)

@@ -87,11 +87,12 @@ def daily_budget(state, limits, monthly_cap, now):
 
 def story_plan(available, targets, delivered_today):
     results = max(0, min(10, 40 - delivered_today))
-    targets = min(10, targets)
-    # Prefer scanning the requested batch, reducing results before targets.
+    targets = min(10, targets, results)
+    # Reserve at least one result per target. Otherwise a one-result run can
+    # spend most of its allowance granting accounts it never actually reaches.
     while targets > 0:
         count = min(results, math.floor((available - 0.005 - targets * 0.002 + 1e-9) / 0.0025))
-        if count > 0:
+        if count >= targets:
             return targets, count, round(0.005 + targets * 0.002 + count * 0.0025, 6)
         targets -= 1
     return 0, 0, 0.0
@@ -112,7 +113,12 @@ def select_due(sources, state, kind, now, limit, wanted=()):
     rows = [s for s in sources if s.get("provider") == kind and s.get("enabled", True)]
     if wanted:
         rows = [s for s in rows if s["username"] in wanted]
-    rows = [s for s in rows if float(entries.get(s["id"], {}).get("next_due_at", 0)) <= now]
+    if not wanted:
+        rows = [s for s in rows if float(entries.get(s["id"], {}).get("next_due_at", 0)) <= now
+                or (kind == "apify_stories" and entries.get(s["id"], {}).get("status") in {"ok", "unconfirmed"}
+                    and float(entries.get(s["id"], {}).get("interval_hours") or 0) > 12
+                    and entries.get(s["id"], {}).get("last_attempt_at")
+                    and float(entries[s["id"]]["last_attempt_at"]) + 12 * 3600 <= now)]
     def priority(source):
         entry = entries.get(source["id"], {})
         # Rotate never-scanned accounts before revisiting them. Within that group,
@@ -120,6 +126,20 @@ def select_due(sources, state, kind, now, limit, wanted=()):
         last = float(entry.get("last_attempt_at") or 0)
         history = state.get("history", {}).get(source["username"], [])
         return (bool(last), cadence(history, now), last, source["username"])
+    if kind == "apify_stories" and not wanted:
+        # Alternate exploration and refresh within the same paid batch. A large
+        # never-scanned backlog must not defer every previously active account
+        # until that backlog has been exhausted weeks later.
+        new = sorted((s for s in rows if not entries.get(s["id"], {}).get("last_success_at")), key=priority)
+        known = sorted((s for s in rows if entries.get(s["id"], {}).get("last_success_at")),
+                       key=lambda s: float(entries[s["id"]].get("last_attempt_at") or 0))
+        ordered = []
+        while new or known:
+            if known:
+                ordered.append(known.pop(0))
+            if new:
+                ordered.append(new.pop(0))
+        return ordered[:limit]
     return sorted(rows, key=priority)[:limit]
 
 
@@ -131,7 +151,9 @@ def record_source(state, source, posts, now, *, error="", backend=""):
         return
     interval = cadence(posts or state.get("history", {}).get(source["username"], []), now)
     if source.get("provider") == "apify_stories":
-        interval = min(168, interval)
+        # Stories expire after 24 hours; a weekly successful-empty cadence can
+        # miss every later story. Budget allocation still determines actual runs.
+        interval = 12
         # Keep already-cached, unexpired Stories when the actor result cap truncates.
         merged = {p["key"]: p for p in entry.get("posts", []) if timestamp(p.get("story_expires_at")) > now}
         merged.update({p["key"]: p for p in posts})
@@ -289,13 +311,15 @@ def run_actor(state, token, actor, body, max_results, budget, now, save):
 
 def collect_stories(state, sources, token, limits, cap, now, save, wanted):
     section = state.setdefault("story", {})
-    if float(section.get("next_run_at") or 0) > now:
+    if not wanted and float(section.get("next_run_at") or 0) > now:
         return
     selected = select_due(sources, state, "apify_stories", now, 10, wanted)
     if not selected:
         section.update(status="ok", reason="no_sources_due")
         return
-    section.update(checked_at=iso(now), next_run_at=now + 3 * 3600)
+    section.update(checked_at=iso(now))
+    if not wanted:
+        section["next_run_at"] = now + 3 * 3600
     today = iso(now)[:10]
     delivered = sum(int(r.get("delivered", r.get("reserved_results", 0))) for r in state.get("runs", [])
                     if r.get("actor") == STORY_ACTOR and r.get("at", "").startswith(today))
@@ -312,6 +336,13 @@ def collect_stories(state, sources, token, limits, cap, now, save, wanted):
     selected = selected[:targets]
     items, outcome = run_actor(state, token, STORY_ACTOR, {"usernames": [s["username"] for s in selected],
                                   "maxResults": results}, results, budget, now, save)
+    ingest_story_results(state, selected, items, outcome, results, now, save)
+
+
+def ingest_story_results(state, selected, items, outcome, results, now, save):
+    """Import one verified story actor outcome; never launch or retry an actor."""
+    section = state.setdefault("story", {})
+    section["checked_at"] = iso(now)
     if outcome.get("outcome") == "denied":
         reason = outcome.get("reason") or "provider_denied"
         retry = (math.floor(now / 86400) + 1) * 86400 if reason == "user_daily_exhausted" else now + 3600
@@ -322,7 +353,7 @@ def collect_stories(state, sources, token, limits, cap, now, save, wanted):
     granted = outcome["granted_targets"]
     if not 0 <= granted <= len(selected):
         raise RuntimeError("Story actor returned invalid scan count")
-    failed = set(outcome.get("failed_targets") or [])
+    failed = {str(username).casefold() for username in (outcome.get("failed_targets") or [])}
     confirmed = selected[:granted]
     if len(items) >= results:
         # granted_targets is permission, not evidence of a scan. The actor can
@@ -333,7 +364,7 @@ def collect_stories(state, sources, token, limits, cap, now, save, wanted):
     success = media_errors = 0
     for source in confirmed:
         username = source["username"]
-        if username in failed:
+        if username.casefold() in failed:
             record_source(state, source, [], now, error="Story provider: " + str((outcome.get("failed_target_reasons") or {}).get(username, {})), backend="apify_stories")
             continue
         posts = []
@@ -409,13 +440,15 @@ def collect_profiles(state, sources, token, limits, cap, now, save, wanted):
 def collect_profiles_pool(state, sources, token, limits, cap, now, save, wanted):
     """Apify is primary; direct public requests require an explicit opt-in."""
     section = state.setdefault("profile", {})
-    if float(section.get("next_run_at") or 0) > now:
+    if not wanted and float(section.get("next_run_at") or 0) > now:
         return
     selected = select_due(sources, state, "instagram_public", now, 5, wanted)
     if not selected:
         section.update(status="ok", reason="no_sources_due")
         return
-    section.update(checked_at=iso(now), next_run_at=now + 3 * 3600, scanned=0, successful=0)
+    section.update(checked_at=iso(now), scanned=0, successful=0)
+    if not wanted:
+        section["next_run_at"] = now + 3 * 3600
     available = apify_pool.available_budget("instagram", now=now)
     count = min(len(selected), max(0, math.floor((available + 1e-9) / 0.006)))
     success = 0
@@ -461,7 +494,7 @@ def collect_profiles_pool(state, sources, token, limits, cap, now, save, wanted)
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--accounts", default="")
+    parser.add_argument("--accounts", default="", help="Check only these usernames now, bypassing polling delay but retaining all budget limits")
     parser.add_argument("--kind", choices=("all", "story", "profile"), default="all")
     parser.add_argument("--pipeline-lock-held", action="store_true")
     args = parser.parse_args()
@@ -493,7 +526,9 @@ def main():
             try:
                 collector(state, sources, token, limits, cap, now, save, wanted)
             except (OSError, ValueError, RuntimeError) as exc:
-                state.setdefault(kind, {}).update(status="degraded", reason=str(exc)[:240], checked_at=iso(now), next_run_at=now + 3 * 3600)
+                state.setdefault(kind, {}).update(status="degraded", reason=str(exc)[:240], checked_at=iso(now))
+                if not wanted:
+                    state[kind]["next_run_at"] = now + 3 * 3600
             save()
             print(json.dumps({kind: state.get(kind, {})}, ensure_ascii=False))
             state["quota"]["pool"] = apify_pool.pool_status(now=time.time())

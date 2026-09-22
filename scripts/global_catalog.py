@@ -35,7 +35,7 @@ COUNTRY_CODES = {
 }
 SNAPSHOTS = ('sources.json', 'latest.json', 'scores.json', 'score-sources.json',
              'public-calendar-events.json', 'overseas-calendar-events.json',
-             'online-calendar-events.json', 'status.json')
+             'online-calendar-events.json', 'status.json', 'public-calendar-sync.json')
 
 
 def country_code(value: object) -> str:
@@ -269,12 +269,26 @@ def build_catalog(api_root: Path | str = API_ROOT, *, now: datetime | None = Non
     status['lastKnownOverall'] = status['overall']
     if snapshot_state != 'current':
         status['overall'] = 'unknown'
+    calendar_sync = snapshots['public-calendar-sync.json']
+    calendars = []
+    seen_calendars = set()
+    for row in _rows(calendar_sync, 'calendars'):
+        identifier = str(row.get('calendarId') or '')
+        key = row.get('calendarKey')
+        if (key not in {'taiwan', 'overseas', 'online'}
+                or not re.fullmatch(r'[A-Za-z0-9_.+-]+@group\.calendar\.google\.com', identifier)
+                or identifier in seen_calendars):
+            continue
+        seen_calendars.add(identifier)
+        calendars.append({'id': identifier, 'key': key,
+                          'status': row.get('status') if row.get('status') in {'ok', 'error', 'skipped'} else 'unknown',
+                          'updatedAt': calendar_sync.get('generatedAt')})
     generated = latest.get('generatedAt') or source_data.get('generatedAt')
     return {
         'schemaVersion': 'harmonica-atlas/v1', 'generatedAt': generated, 'evaluatedAt': now.isoformat(),
         'locales': ['zh-Hant', 'en', 'ja', 'ko'],
         'sources': sources, 'posts': posts, 'stories': [post for post in posts if post['storyState'] == 'active'],
-        'events': events, 'scores': scores,
+        'events': events, 'calendars': calendars, 'scores': scores,
         'scoreSources': score_sources, 'countries': countries, 'feeds': feeds,
         'stats': {'sources': len(sources), 'posts': len(posts), 'events': len(events),
                   'scores': len(scores), 'countries': sum(c not in ('WORLD', 'ONLINE', 'UNKNOWN') for c in counts),

@@ -110,6 +110,7 @@ test("application DOM journey across languages, routing, filters and community f
       },
     ],
     stories: [],
+    calendars: [{id:"test@group.calendar.google.com",key:"taiwan",status:"ok"}],
     events: [],
     scores: [],
     scoreSources: [],
@@ -501,15 +502,19 @@ test("application DOM journey across languages, routing, filters and community f
     click('.site-nav a[href="/"]');
     assert.deepEqual([...$(".observatory-home").children].filter(node => node.tagName === "SECTION").map(node => node.className), ["home-stories", "home-calendar", "home-posts"]);
     assert.equal(window.document.querySelectorAll(".story-strip").length, 1);
-    assert.ok($("[data-calendar]"));
+    assert.ok($("[data-google-calendar-embed]"));
+    assert.equal($(".calendar-grid"), null);
     assert.ok($(".home-posts .feed-cols"));
     assert.equal(window.document.body.classList.contains("feed-locked"), false);
     const feed = $(".home-posts .river");
-    click('[data-calendar-move="1"]');
-    assert.match(new URLSearchParams(window.location.search).get("month"), /^\d{4}-\d{2}$/);
+    click('[data-google-calendar-source]');
+    assert.equal($("[data-google-calendar-embed]").hidden, true);
+    click('[data-google-calendar-source]');
+    assert.equal($("[data-google-calendar-embed]").hidden, false);
+    assert.equal(new URL($("[data-google-calendar-embed]").src).hostname, "calendar.google.com");
     assert.equal($(".home-posts .river"), feed, "calendar changes preserve the river DOM and independent scroll/filter state");
     click('.site-nav a[href="/post/"]');
-    assert.equal($("[data-calendar]"), null);
+    assert.equal($("[data-google-calendar-embed]"), null);
     assert.ok($(".feed-cols"));
     assert.equal(window.document.body.classList.contains("feed-locked"), true);
   });

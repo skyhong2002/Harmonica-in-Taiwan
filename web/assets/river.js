@@ -1,5 +1,5 @@
 import { t, getLocale, locales, countryName } from './i18n.js';
-import { esc, icon, link, avatar, number, textMatch, platformName, sourceType, pastEvent } from './utils.js';
+import { esc, icon, link, number, textMatch, platformName, sourceType, pastEvent, image, safeUrl, date } from './utils.js';
 import { postCard, eventCard } from './views.js';
 
 // Keep this storage namespace compatible with preferences from the previous UI.
@@ -13,6 +13,12 @@ const words = {
   previous: ['Previous column', '上一條河道', '前のカラム', '이전 열'],
   next: ['Next column', '下一條河道', '次のカラム', '다음 열'],
   noStories: ['No active stories right now', '目前沒有有效限時動態', '現在公開中のストーリーはありません', '현재 공개 중인 스토리가 없습니다'],
+  preview: ['Story preview', '限動預覽', 'ストーリープレビュー', '스토리 미리보기'],
+  video: ['Video story', '影片限動', '動画ストーリー', '동영상 스토리'],
+  unavailablePreview: ['Preview unavailable', '預覽目前無法載入', 'プレビューを読み込めません', '미리보기를 불러올 수 없습니다'],
+  noPreview: ['No preview provided', '來源未提供預覽', 'プレビューは提供されていません', '제공된 미리보기가 없습니다'],
+  expires: ['Expires', '有效至', '公開期限', '만료'],
+  expiryUnknown: ['Expiry time unavailable', '未提供到期時間', '公開期限は不明です', '만료 시간 정보 없음'],
   archived: ['Story archive', '限動封存', 'ストーリーアーカイブ', '스토리 보관함'],
   feed: ['Feed', '河道', 'フィード', '피드'],
   all: ['All updates', '全部動態', 'すべての投稿', '모든 소식'],
@@ -73,10 +79,15 @@ export function filterColumn(catalog, col, following = new Set()) {
 }
 export function storyStrip(catalog) {
   const stories = activeStories(catalog);
-  return `<section class="story-strip" aria-label="${esc(t('stories'))}">${stories.length ? stories.map(p => {
-    const s = catalog.sources.find(s => s.id === p.sourceId);
-    return link(p.url, `<span class="story-ring">${avatar({ ...s, ...p, name: p.sourceName || s?.name })}</span><span class="story-name">${esc(p.sourceName || s?.name || t('source'))}</span>`, 'story-item');
-  }).join('') : `<span class="story-empty-dot" aria-hidden="true"></span><p class="story-empty">${r('noStories')}</p>`}</section>`;
+  return `<section class="story-strip${stories.length ? ' has-stories' : ''}" aria-label="${esc(t('stories'))}">${stories.length ? stories.map(p => {
+    const source = (catalog.sources || []).find(s => s.id === p.sourceId);
+    const name = p.sourceName || source?.name || t('source');
+    const preview = image(p.image, 'story-preview', `${name} · ${r('preview')}`);
+    const video = safeUrl(p.videoUrl);
+    const media = video ? `<video class="story-preview story-video" controls playsinline preload="none" ${safeUrl(p.image) ? `poster="${esc(safeUrl(p.image))}"` : ''} aria-label="${esc(name + ' · ' + r('video'))}"><source src="${esc(video)}">${esc(r('video'))}</video>` : link(p.url, `${preview}<span class="story-preview-missing">${icon('layers')}<span>${esc(r(preview ? 'unavailablePreview' : 'noPreview'))}</span></span>`, 'story-media-link', `aria-label="${esc(name + ' · ' + t('original'))}"`);
+    const expiry = p.expiresAt && Number.isFinite(Date.parse(p.expiresAt)) ? `<time datetime="${esc(p.expiresAt)}">${esc(r('expires'))} ${esc(date(p.expiresAt, { year: undefined, hour: '2-digit', minute: '2-digit' }))}</time>` : `<span>${esc(r('expiryUnknown'))}</span>`;
+    return `<article class="story-item" data-story-id="${esc(p.id || p.url || '')}"><div class="story-media">${media}</div><div class="story-caption"><strong class="story-name" title="${esc(name)}">${esc(name)}</strong><div class="story-expiry">${expiry}</div>${link(p.url, esc(t('original')), 'story-original')}</div></article>`;
+  }).join('') : `<p class="story-empty">${r('noStories')}</p>`}</section>`;
 }
 function title(col) { return col.mode === 'events' ? t('upcoming') : col.followed || col.kind === 'following' ? t('following') : col.country ? countryName(col.country) : r('worldwide'); }
 function options(rows, value) { return rows.map(([key, label]) => `<option value="${esc(key)}" ${key === value ? 'selected' : ''}>${esc(label)}</option>`).join(''); }
@@ -261,7 +272,30 @@ export function bindRiver(root, { catalog, following = new Set(), onStateChange 
   const listeners = [[river,'input',onInput], [river,'change',onChange], [river,'click',onClick], [river,'compositionstart',onCompositionStart], [river,'compositionend',onCompositionEnd], [river,'keydown',escape], [deck,'scroll',updateCount], [deck,'wheel',wheel,{passive:false}], [deck,'touchstart',touchStart,{passive:true}], [deck,'touchmove',touchMove,{passive:false}], [deck,'touchend',touchEnd,{passive:true}], [deck,'touchcancel',touchEnd,{passive:true}], [window,'resize',updateCount]];
   for (const [node, type, handler, options] of listeners) node.addEventListener(type,handler,options);
   updateCount();
+  // Remove tiles at their real expiry even when a page is left open. Never
+  // rebuild live video previews on a polling interval or include archived posts.
+  let storyExpiryTimer;
+  function scheduleStoryExpiry() {
+    clearTimeout(storyExpiryTimer);
+    const expiries = activeStories(catalog).map(p => Date.parse(p.expiresAt)).filter(Number.isFinite);
+    if (!expiries.length) return;
+    const delay = Math.min(Math.max(Math.min(...expiries) - Date.now() + 25, 25), 2147483647);
+    storyExpiryTimer = setTimeout(() => {
+      for (const strip of root.querySelectorAll('.story-strip')) {
+        const left = strip.scrollLeft;
+        const replacement = document.createElement('div');
+        replacement.innerHTML = storyStrip(catalog);
+        const updated = replacement.firstElementChild;
+        strip.replaceWith(updated);
+        updated.scrollLeft = left;
+      }
+      scheduleStoryExpiry();
+      updateCount();
+    }, delay);
+  }
+  scheduleStoryExpiry();
   return () => {
+    clearTimeout(storyExpiryTimer);
     scrollSnapshots.set(scrollKey, { left: deck.scrollLeft, columns: Object.fromEntries([...river.querySelectorAll('[data-river-column]')].map(node => [node.dataset.riverColumn, { top: node.scrollTop, shown: shown.get(node) || PAGE_SIZE, filters: JSON.stringify(model(node)) }])) });
     for (const timer of timers.values()) clearTimeout(timer); for (const [node,type,handler,options] of listeners) node.removeEventListener(type,handler,options); };
 }

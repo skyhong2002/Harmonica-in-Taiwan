@@ -1,3 +1,5 @@
+> 最新修正：使用者否決手刻月曆，已恢復 Google Calendar 官方嵌入、放大限動／貼文圖片並修復竹韻限動匯入。[最新驗收](media-home-acceptance-2026-09-23.md) 優先於以下原生月曆版本的歷史紀錄。
+
 # Harmonica Observatory acceptance — 2026-09-23
 
 ## Latest feature follow-up — verified

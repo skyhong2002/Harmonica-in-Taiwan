@@ -266,7 +266,7 @@ class ApifyPoolTests(unittest.TestCase):
         self.assertLessEqual(facebook.estimate_max_charge_usd(5, count), facebook_budget)
         self.assertEqual(int(instagram_budget // .006), 4)
         targets, results, budget = instagram.story_plan(instagram_budget, 179, 0)
-        self.assertEqual((targets, results), (10, 1))
+        self.assertEqual((targets, results), (5, 5))
         self.assertLessEqual(budget, instagram_budget)
         self.assertEqual(facebook.run_cost({"usage_total_usd": .001, "reserved_usd": .056}), .056)
 

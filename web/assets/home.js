@@ -1,7 +1,7 @@
 import { getLocale } from './i18n.js';
 import { link, esc, icon } from './utils.js';
 import { riverView, storyStrip } from './river.js';
-import { calendarView } from './calendar.js';
+import { googleCalendarView } from './google-calendar.js';
 const labels = {
   en: { home: 'Home', stories: 'Stories from the past 24 hours', calendar: 'Harmonica event calendar', feed: 'Latest public posts', full: 'Open the full feed', events: 'Browse event list', subscriptions: 'Calendar subscriptions' },
   'zh-Hant': { home: '首頁', stories: '近 24 小時限動', calendar: '公開口琴活動行事曆', feed: '最新公開貼文', full: '開啟完整動態河道', events: '瀏覽活動清單', subscriptions: '訂閱行事曆' },
@@ -12,5 +12,5 @@ export function observatoryHome(catalog, state, following) {
   const w = labels[getLocale()] || labels.en;
   const params = new URLSearchParams({lang:getLocale()});
   for (const key of ['q','country','platform','type','kind','followed']) if (state[key]) params.set(key,state[key]===true?'1':state[key]);
-  return `<div class="observatory-home"><h1 class="sr-only">${esc(w.home)}</h1><section class="home-stories" aria-labelledby="home-stories-title"><h2 id="home-stories-title">${esc(w.stories)}</h2>${storyStrip(catalog)}</section><section class="home-calendar" aria-labelledby="home-calendar-title"><header class="home-section-heading"><h2 id="home-calendar-title">${esc(w.calendar)}</h2><div>${link('/events/',esc(w.events),'text-link')}${link('/feeds/',esc(w.subscriptions),'text-link')}</div></header>${calendarView(catalog,state)}</section><section class="home-posts" aria-labelledby="home-posts-title"><header class="home-section-heading"><h2 id="home-posts-title">${esc(w.feed)}</h2>${link('/post/?'+params,esc(w.full)+icon('arrow'),'text-link')}</header>${riverView(catalog,state,following,{stories:false})}</section></div>`;
+  return `<div class="observatory-home"><h1 class="sr-only">${esc(w.home)}</h1><section class="home-stories" aria-labelledby="home-stories-title"><h2 id="home-stories-title">${esc(w.stories)}</h2>${storyStrip(catalog)}</section><section class="home-calendar" aria-labelledby="home-calendar-title"><header class="home-section-heading"><h2 id="home-calendar-title">${esc(w.calendar)}</h2><div>${link('/events/',esc(w.events),'text-link')}${link('/feeds/',esc(w.subscriptions),'text-link')}</div></header>${googleCalendarView(catalog)}</section><section class="home-posts" aria-labelledby="home-posts-title"><header class="home-section-heading"><h2 id="home-posts-title">${esc(w.feed)}</h2>${link('/post/?'+params,esc(w.full)+icon('arrow'),'text-link')}</header>${riverView(catalog,state,following,{stories:false})}</section></div>`;
 }

@@ -1,5 +1,5 @@
 import { observatoryHome } from "./home.js";
-import { bindCalendar } from "./calendar.js";
+import { bindGoogleCalendar } from "./google-calendar.js";
 import { scoresView, scoreSourcesView } from "./scores.js";
 import { navigation, footer, initializeShell, handleShellClick } from "./shell.js";
 import { riverView, bindRiver } from "./river.js";
@@ -97,9 +97,6 @@ function readState() {
     division: p.get("division") || "",
     publisher: p.get("publisher") || "",
     scoreSort: p.get("scoreSort") || "year_desc",
-    month: p.get("month") || "",
-    day: p.get("day") || "",
-    calendarCountry: p.get("calendarCountry") || "",
     sort: p.get("sort") || "name",
     descending: p.get("descending") === "1",
   };
@@ -238,10 +235,7 @@ function render({ focus = false } = {}) {
     catalog, state, following,
     onStateChange(patch) { Object.assign(state, patch); updateUrl(); },
   });
-  if (path() === "/" && catalog) calendarCleanup = bindCalendar(app, {
-    catalog, state,
-    onStateChange(patch) { Object.assign(state, patch); updateUrl(); },
-  });
+  if (path() === "/" && catalog) calendarCleanup = bindGoogleCalendar(app);
   if (focus) document.querySelector("#main")?.focus({ preventScroll: true });
 }
 

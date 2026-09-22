@@ -144,3 +144,27 @@ secret-safe metadata, and reservation-before-POST without a paid actor run.
 Official API references: [account limits](https://docs.apify.com/api/v2/users-me-limits-get),
 [actor start options](https://docs.apify.com/api/client/js/reference/interface/ActorStartOptions),
 [subscription and spending limits](https://docs.apify.com/account/subscriptions).
+
+## Story collection and publication follow-up (2026-09-23)
+
+Stories now become eligible for another check after 12 hours, including older
+successful/unconfirmed records with a longer polling interval. Eligibility does
+not guarantee a run: the unchanged provider, daily, monthly and reservation
+limits still control actual coverage. Due selection interleaves previously
+checked accounts and exploration; batches reserve at least one result slot per
+target. A run stopped by its result cap never marks an unobserved account as
+successfully checked.
+
+An explicit `--kind story --accounts <username>` targets only that account and
+bypasses polling delays, while retaining all pool limits. `ingest_story_results`
+can import a previously verified completed actor result without starting a new
+actor. Actor success alone is not proof of public website publication: cached
+source posts must flow through the selected-source `social_feed_watchdog.py`
+bridge, then `build_public_data.py` and `generate_rss_feeds.py --offline`. Hold the
+normal pipeline lock across this publication sequence. The watchdog reads the
+Apify story cache for such a source; disable LLM tagging for this bounded replay.
+
+The NYCU recovery reused a completed run with two still-valid public stories,
+downloaded only its existing result/media, and retained the original expiry
+instants. No new actor or higher spending cap was needed. Cached video content
+is displayed as a preview frame with a link to the original Instagram story.

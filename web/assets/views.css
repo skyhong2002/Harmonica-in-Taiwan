@@ -30,7 +30,7 @@
 .feed-text.post-text { margin: 3px 0 0; font-size: .95rem; line-height: 1.6; white-space: pre-line; overflow-wrap: anywhere; display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical; overflow: hidden; color: var(--color-text-primary); }
 .feed-text.is-expanded { display: block; -webkit-line-clamp: unset; overflow: visible; }
 .feed-expand { display: block; padding: 5px 0; min-height: 32px; color: var(--color-text-muted); border: 0; background: none; font-size: .82rem; cursor: pointer; }
-.post-image.feed-img { display: block; margin-top: 10px; width: auto; max-width: 100%; height: auto; max-height: 380px; border-radius: var(--radius-md); object-fit: cover; border: 1px solid var(--color-border-subtle); }
+.post-image.feed-img { display: block; margin: 12px 0 0 -48px; width: calc(100% + 48px); max-width: calc(100% + 48px); height: auto; max-height: none; border-radius: 4px; object-fit: contain; border: 0; }
 .feed-evs { margin-top: 10px; display: flex; flex-direction: column; gap: 8px; }
 .feed-ev { display: flex; gap: 10px; align-items: baseline; min-width: 0; padding: 10px 14px; border: 1px solid var(--color-border-subtle); border-radius: var(--radius-md); color: var(--color-text-primary); font-size: .88rem; font-weight: 600; }
 .feed-ev-date { flex-shrink: 0; color: var(--color-text-secondary); font-size: .82rem; }
@@ -142,7 +142,7 @@
   .results-bar { align-items: start; flex-direction: column; gap: 2px; }
   .results-bar > p { margin: 0; }
   .post-card.feed-post { padding: 14px 0 8px; gap: 0 10px; }
-  .post-image.feed-img { max-height: 300px; }
+  .post-image.feed-img { margin-left: -46px; width: calc(100% + 46px); max-width: calc(100% + 46px); max-height: none; }
   .feed-action { padding: 0 8px; font-size: .76rem; }
   .feed-card { flex-wrap: wrap; gap: 8px; }
   .feed-card h2 { flex-basis: calc(100% - 46px); }

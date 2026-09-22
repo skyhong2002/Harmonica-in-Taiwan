@@ -1,3 +1,4 @@
+import copy
 import datetime as dt
 import sys
 import unittest
@@ -28,7 +29,7 @@ class InstagramPublicTests(unittest.TestCase):
 
     def test_story_cap_and_tiny_budget(self):
         self.assertEqual(collector.story_plan(.05, 100, 0), (10, 10, .05))
-        self.assertEqual(collector.story_plan(.05, 10, 39), (10, 1, .0275))
+        self.assertEqual(collector.story_plan(.05, 10, 39), (1, 1, .0095))
         self.assertEqual(collector.story_plan(.009, 10, 0), (0, 0, 0))
         self.assertEqual(collector.story_plan(.5, 10, 40), (0, 0, 0))
 
@@ -128,6 +129,66 @@ class InstagramPublicTests(unittest.TestCase):
         self.assertEqual(result["stories"]["status"], "degraded")
         self.assertEqual(result["stories"]["checkedSources24h"], 0)
         self.assertEqual(result["stories"]["totalSources"], 1)
+
+    def test_small_budget_allocates_at_least_one_result_per_target(self):
+        targets, results, budget = collector.story_plan(.029629, 10, 0)
+        self.assertEqual((targets, results), (5, 5))
+        self.assertLessEqual(budget, .029629)
+        self.assertEqual(collector.story_plan(.05, 10, 39), (1, 1, .0095))
+
+    def test_explicit_target_bypasses_delays_but_not_scope_or_pool_budget(self):
+        other = {**self.source, "id": "ig_story_other", "username": "other"}
+        original = {"next_due_at": self.now + 99999, "last_attempt_at": self.now - 100}
+        state = {"_use_pool": True, "story": {"next_run_at": self.now + 9000},
+                 "sources": {self.source["id"]: copy.deepcopy(original), other["id"]: copy.deepcopy(original)}}
+        with mock.patch.object(collector.apify_pool, "available_budget", return_value=.0095), mock.patch.object(
+                collector, "run_actor", return_value=([], {"outcome": "ok", "granted_targets": 1})) as actor:
+            collector.collect_stories(state, [self.source, other], "", {}, 0, self.now, lambda: None, {"test"})
+        self.assertEqual(actor.call_args.args[3]["usernames"], ["test"])
+        self.assertEqual(actor.call_args.args[5], .0095)
+        self.assertEqual(state["sources"][other["id"]], original)
+        self.assertEqual(state["story"]["next_run_at"], self.now + 9000)
+        self.assertEqual(state["sources"][self.source["id"]]["interval_hours"], 12)
+        with mock.patch.object(collector.apify_pool, "available_budget", return_value=0), mock.patch.object(collector, "run_actor") as actor:
+            collector.collect_stories(state, [self.source], "", {}, 0, self.now + 10, lambda: None, {"test"})
+        actor.assert_not_called()
+        self.assertEqual(state["story"]["reason"], "credit_budget")
+
+    def test_scheduled_collection_retains_global_delay(self):
+        state = {"story": {"next_run_at": self.now + 100}}
+        with mock.patch.object(collector, "run_actor") as actor:
+            collector.collect_stories(state, [self.source], "secret", self.limits, 5, self.now, lambda: None, set())
+        actor.assert_not_called()
+
+    def test_legacy_weekly_story_checks_become_due_without_losing_error_backoff(self):
+        state = {"sources": {self.source["id"]: {"status": "ok", "interval_hours": 168,
+                 "next_due_at": self.now + 6 * 86400, "last_attempt_at": self.now - 86400}}}
+        self.assertEqual(collector.select_due([self.source], state, "apify_stories", self.now, 10), [self.source])
+        state["sources"][self.source["id"]]["status"] = "error"
+        self.assertEqual(collector.select_due([self.source], state, "apify_stories", self.now, 10), [])
+
+    def test_story_queue_balances_known_refresh_with_unscanned_sources(self):
+        fresh = [{**self.source, "id": f"new{i}", "username": f"new{i}"} for i in range(12)]
+        state = {"sources": {self.source["id"]: {"status": "ok", "next_due_at": 0,
+                 "last_success_at": collector.iso(self.now - 86400), "last_attempt_at": self.now - 86400}}}
+        selected = collector.select_due(fresh + [self.source], state, "apify_stories", self.now, 5)
+        self.assertEqual(selected[0], self.source)
+        self.assertEqual(len(selected), 5)
+        self.assertEqual(len([s for s in selected if s["id"].startswith("new")]), 4)
+
+    def test_completed_run_import_caches_media_without_starting_an_actor(self):
+        state = {"sources": {"other": {"next_due_at": 123}}, "runs": [{"id": "verified", "status": "SUCCEEDED"}]}
+        item = {"username": "test", "story_pk": "123", "taken_at": collector.iso(self.now - 60),
+                "expiring_at": collector.iso(self.now + 80000)}
+        with mock.patch.object(collector, "cache_story_media", return_value="/assets/feed-images/story.webp"), mock.patch.object(collector, "run_actor") as actor:
+            collector.ingest_story_results(state, [self.source], [item], {"outcome": "ok", "granted_targets": 1}, 5, self.now, lambda: None)
+            collector.ingest_story_results(state, [self.source], [item], {"outcome": "ok", "granted_targets": 1}, 5, self.now, lambda: None)
+        actor.assert_not_called()
+        self.assertEqual(len(state["sources"][self.source["id"]]["posts"]), 1)
+        self.assertEqual(state["sources"][self.source["id"]]["posts"][0]["image_url"], "/assets/feed-images/story.webp")
+        self.assertEqual(state["sources"]["other"], {"next_due_at": 123})
+        self.assertEqual(len(state["runs"]), 1)
+
 
     def test_existing_id_is_preserved_for_profile_dedup(self):
         posts = collector.normalize_profile(self.source, {"latestPosts": [{"id": "123", "shortCode": "ABC", "timestamp": collector.iso(self.now), "isPinned": True}]})

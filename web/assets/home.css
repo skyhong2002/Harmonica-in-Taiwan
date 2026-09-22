@@ -18,4 +18,28 @@
   .home-stories { margin-bottom:18px; }
 }
 
-.home-calendar .calendar-heading { display:none; }
+
+
+/* Restore the original public Google agenda, compact and without a card frame. */
+.home-calendar { margin-bottom:22px; }
+.home-calendar .home-section-heading { margin-bottom:8px; }
+.google-calendar-toolbar { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:6px 18px; margin-bottom:8px; }
+.google-calendar-filters,.google-calendar-links { display:flex; flex-wrap:wrap; align-items:center; gap:6px 14px; }
+.google-calendar-filters label { display:inline-flex; align-items:center; gap:5px; font-size:.78rem; cursor:pointer; }
+.google-calendar-filters input { width:14px; height:14px; margin:0; }
+.google-calendar-dot { width:7px; height:7px; border-radius:50%; flex:none; }
+.calendar-dot-taiwan { background:#0B8043; }.calendar-dot-overseas { background:#3F51B5; }.calendar-dot-online { background:#D81B60; }
+.google-calendar-links .text-link { font-size:.73rem; }
+.google-calendar-frame { line-height:0; }
+.google-calendar-frame iframe { display:block; width:100%; height:360px; border:0; color-scheme:light; }
+.google-calendar-empty { padding:18px 0; color:var(--color-text-muted); font-size:.84rem; line-height:1.7; }
+.home-posts .feed-col { border:0; border-radius:0; background:transparent; }
+.home-posts .feed-col-head { border:0; }
+.home-posts .feed-cols { gap:20px; }
+@media(max-width:699px) {
+  .google-calendar-toolbar { align-items:start; gap:8px; }
+  .google-calendar-filters { gap:6px 12px; }
+  .google-calendar-links { gap:4px 12px; }
+  .google-calendar-links .text-link { font-size:.7rem; }
+  .google-calendar-frame iframe { height:360px; }
+}

@@ -165,3 +165,50 @@ test('embedded river can omit its story strip while the standalone exported stri
   assert.equal(root.querySelectorAll('.feed-cols .feed-col').length,4);
   cleanup();window.close();
 });
+
+test('active stories expose actual image/video previews, source labels, expiry and original links in all four locales',async()=>{
+  const window=dom();
+  const {storyStrip}=await import('../assets/river.js');
+  const base={sourceId:'jp',sourceName:'原始 <b>來源</b>',storyState:'active',expiresAt:'2099-01-01T00:00:00Z',sourceAvailable:true,url:'https://example.com/actual-story'};
+  const data={...catalog,stories:[
+    {...base,id:'image',image:'https://example.com/actual-preview.jpg'},
+    {...base,id:'video',videoUrl:'https://example.com/actual-video.mp4',image:'https://example.com/actual-poster.jpg'},
+    {...base,id:'missing',image:'javascript:alert(1)',videoUrl:'javascript:alert(2)'},
+    {...base,id:'expired',storyState:'expired',image:'https://example.com/expired.jpg'},
+    {...base,id:'unavailable',sourceAvailable:false,image:'https://example.com/unavailable.jpg'},
+    {...base,id:'invalid-expiry',expiresAt:'not-a-date'},
+  ]};
+  for(const locale of ['en','zh-Hant','ja','ko']){
+    setLocale(locale);document.querySelector('main').innerHTML=storyStrip(data);
+    const root=document.querySelector('main');
+    assert.equal(root.querySelectorAll('.story-item').length,3);
+    assert.equal(root.querySelector('[data-story-id="image"] img').getAttribute('src'),'https://example.com/actual-preview.jpg');
+    const video=root.querySelector('video');
+    assert.equal(video.getAttribute('poster'),'https://example.com/actual-poster.jpg');
+    assert.equal(video.querySelector('source').getAttribute('src'),'https://example.com/actual-video.mp4');
+    assert.equal(video.hasAttribute('controls'),true);assert.equal(video.hasAttribute('autoplay'),false);
+    assert.equal(root.querySelectorAll('.story-expiry time').length,3);
+    assert.equal(root.querySelectorAll('.story-original[href="https://example.com/actual-story"]').length,3);
+    assert.ok(root.querySelector('.story-name').textContent.includes('<b>來源</b>'));
+    assert.equal(root.querySelector('b'),null);
+    assert.equal(root.querySelector('[data-story-id="missing"] img'),null);
+    assert.ok(root.querySelector('[data-story-id="missing"] .story-preview-missing'));
+    assert.equal(root.querySelector('[data-story-id="expired"]'),null);
+  }
+  window.close();
+});
+
+test('active story tile disappears at actual expiry while its archive remains in post data',async()=>{
+  const window=dom(),root=document.querySelector('main');
+  const {storyStrip}=await import('../assets/river.js');
+  setLocale('en');
+  const data={...catalog,stories:[{...catalog.stories[0],expiresAt:new Date(Date.now()+150).toISOString()}]};
+  root.innerHTML=`<div class="home-stories">${storyStrip(data)}</div>${riverView(data,{},new Set(),{stories:false})}`;
+  const cleanup=bindRiver(root,{catalog:data});
+  assert.equal(root.querySelectorAll('.story-item').length,1);
+  await new Promise(resolve=>setTimeout(resolve,230));
+  assert.equal(root.querySelectorAll('.story-item').length,0);
+  assert.ok(root.querySelector('.story-empty').textContent.includes('No active stories'));
+  assert.equal(data.posts.find(p=>p.isStory).storyState,'expired');
+  cleanup();window.close();
+});
