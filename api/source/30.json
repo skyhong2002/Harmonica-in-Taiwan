@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T01:44:34.826912Z",
+  "generatedAt": "2026-09-22T02:25:57.336603Z",
   "source": {
     "id": 30,
     "slug": "30",
@@ -72,20 +72,6 @@
       "sourceName": "蔡明憲",
       "platform": "Facebook",
       "publishedAt": "2026-08-24T01:54:31Z"
-    },
-    {
-      "id": "post-112f38313a3b94f8b80f74be",
-      "title": "晚上音樂會後的零食大會是我最喜歡的環節，可以一次補足出國才能體驗到的各種美食，以及看大家驚訝的表情。",
-      "excerpt": "晚上音樂會後的零食大會是我最喜歡的環節，可以一次補足出國才能體驗到的各種美食，以及看大家驚訝的表情。 忙碌整天，卸下工作身份，好好地聊天，感謝各位一整天的辛勞：）",
-      "url": "https://www.facebook.com/dming.tsai/posts/pfbid0UEnRuWXx9nZXsV6i3qXPSv2HViyq87Hp1xmupXhMju1FEbz84mYKXSaRx57EAFsNl",
-      "sourceName": "蔡明憲",
-      "platform": "Facebook",
-      "publishedAt": "2026-08-23T02:01:02Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/55ade96809dc2b0c16db.webp",
-        "width": 590,
-        "height": 589
-      }
     }
   ]
 }
