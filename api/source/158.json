@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T01:03:24.468860Z",
+  "generatedAt": "2026-09-22T01:44:34.826912Z",
   "source": {
     "id": 158,
     "slug": "deak-harp",
@@ -57,20 +57,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/b39365fe3bf333cee4e9.webp",
         "width": 800,
         "height": 450
-      }
-    },
-    {
-      "id": "post-9c75160e279507392d700ee9",
-      "title": "Deak Harp",
-      "excerpt": "",
-      "url": "https://www.instagram.com/p/DcXU1OsDaZS/",
-      "sourceName": "Deak Harp",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-23T01:38:36Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/07a4b22765f0613b75eb.webp",
-        "width": 504,
-        "height": 896
       }
     }
   ]
