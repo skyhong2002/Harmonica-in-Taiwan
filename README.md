@@ -1,196 +1,128 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="site/assets/logo-github-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="site/assets/logo.svg">
-    <img src="site/assets/logo.svg" alt="臺灣口琴觀測站 Logo" width="360">
-  </picture>
-</p>
+# Harmonica Observatory · 口琴觀測站
 
-# 臺灣口琴觀測站
+跨國口琴活動、公開貼文、演奏者、樂團、社團、教學與樂譜來源索引。由原「臺灣口琴觀測站」擴充，使用竹梅活動觀測站 [skyhong2002/chumei](https://github.com/skyhong2002/chumei) 的公開資料瀏覽、社群 Apify 貢獻及額度管理模式，並保留既有來源網址、資料與 RSS。
 
-`harmonica.observe.tw` 是一個獨立的臺灣口琴公開資訊索引站。它整理公開可查的口琴活動、社團、樂團、演奏者、教學單位、場館、補助與比賽資訊，並把整理後的資料輸出成靜態網站、JSON API 與 RSS。
+介面提供 **繁體中文、English、日本語、한국어**。介面語言與國家篩選獨立；公開貼文、名稱和來源簡介保留原文與原始連結，不偽造翻譯或活動日期。
 
-## 目前輸出
+## 本機啟動
 
-- 網站首頁：`https://harmonica.observe.tw/`
-- 公開貼文：`https://harmonica.observe.tw/post/`
-- 公開來源：`https://harmonica.observe.tw/source/`
-- 比賽指定曲：`https://harmonica.observe.tw/scores/`
-- 口琴譜源：`https://harmonica.observe.tw/scores/sources/`
-- 資料回報：`https://harmonica.observe.tw/submit/`
-- RSS 分類入口：`https://harmonica.observe.tw/feeds/`
-- 公開 API：`https://harmonica.observe.tw/api/*.json`
+```bash
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python scripts/build_local.py
+.venv/bin/python scripts/serve.py --host 127.0.0.1 --port 8330
+```
 
-首頁與 `/post/` 的「最新」河道由公開社群、YouTube、RSS/RSSHub 與整理後的候選更新資料產生；公開來源索引則由 `data/sources/` 下的公開 CSV 加上自動產生的標籤與更新狀態組成。
+開啟 **http://localhost:8330/**。已有建置資料的機器可直接啟動 `serve.py`。
 
-## 專案結構
+`build_local.py` 不抓新資料、不啟動付費 actor、不呼叫 AI，也不 push；它由本機 CSV 與既有抓取快照建立網站資料。全新 clone 沒有私人 runtime 快照時，先提供 CSV 來源目錄與樂譜索引，後續由 pipeline 蒐集貼文。
+
+macOS 常駐服務：
+
+```bash
+.venv/bin/python scripts/install_local_service.py --install \
+  --public-origin https://harmonica.observe.tw
+```
+
+完整的 Caddy、DNS、HTTPS、備份、排程與復原方式見 [本機部署](deploy/local-hosting.md)。DNS 由維護者切換；應用程式不修改 DNS。
+
+## 功能
+
+介面沿用竹梅活動觀測站的結構與操作，配色依使用者最新指示保留舊版米色底與綠色識別。桌面提供可增刪、各自篩選及獨立捲動的多欄河道；手機為單一河道、頂欄與固定底部導覽。外觀可選淺色、深色或跟隨系統。
+
+- 全球來源目錄、關鍵字搜尋與國家篩選；來源詳細頁沿用穩定 permalink。
+- 公開貼文與限時動態，保留原文及原始來源按鈕。
+- 有明確日期的活動、歷史活動與線上活動，保留活動原始時區。
+- 比賽指定曲、出版／購譜線索；不提供未授權樂譜檔。
+- RSS／ICS 與無登入公開 JSON API。
+- Apify 額度貢獻：驗證、加密保存、累計美元上限、撤回、即時容量估算。
+- 公開連結回報與本機審核佇列。
+- 真實資料更新時間與各平台狀態，缺資料或額度未驗證時不捏造數值。
+
+目前貢獻管理以原瀏覽器的安全 cookie 識別，非跨裝置 OAuth 帳號。清除 cookie 後，需在 Apify 撤銷原 token。容量與更新頻率是基於額度的估算，並非送達保證。
+
+## 架構
 
 ```text
-.
-├── data/
-│   ├── sources/                 # 人工維護的公開來源 CSV
-│   └── feeds/                   # 本機 runtime feed inbox、候選更新與快取（不進 git）
-├── scripts/                     # 資料建置、社群抓取、RSS/API 產生工具
-├── site/                        # 本機靜態站輸出根目錄；main 只追蹤手寫/source assets
-│   ├── api/                     # 產生出的公開 JSON API（不進 git）
-│   ├── assets/                  # CSS、JS、logo、favicon；feed 圖片與頭貼快取不進 git
-│   ├── data/                    # 前端讀取的 JS data bundle（不進 git）
-│   ├── directory/               # 舊公開來源路徑轉址（產生輸出，不進 main）
-│   ├── post/                    # 公開貼文河道（產生輸出，不進 main）
-│   ├── source/                  # 公開來源索引、來源詳情與 facet 頁（產生輸出，不進 main）
-│   ├── feeds/                   # RSS、分類頁與分類 JSON（不進 git）
-│   ├── score-sources/           # 舊口琴譜源路徑轉址（產生輸出，不進 main）
-│   ├── scores/                  # 學生音樂比賽指定曲索引頁；sources/ 為口琴譜源索引頁（產生輸出，不進 main）
-│   └── submit/                  # 資料回報頁（產生輸出，不進 main）
-├── state/                       # 本機執行狀態與分類快取（不進 git）
-├── .github/ISSUE_TEMPLATE/      # 公開資料回報 issue form
-└── README.md
+web/                       四語介面、共用元件、各頁視圖與語系
+scripts/global_catalog.py  將現有資料轉成一致的全球公開模型
+scripts/serve.py           本機 HTTP 路由、公開 API、同源與 CSRF 控制
+scripts/community.py       加密 Apify token、貢獻預算、瀏覽器身份與回報
+scripts/apify_pool.py      跨抓取程序的額度、原子預留與帳號輪替
+scripts/llm_backend.py     本機 Codex 結構化分類與呼叫上限
+data/sources/              可追蹤的公開 CSV，穩定 public_id 為來源識別
+site/                      產生的 JSON、RSS、ICS、舊網址頁面及快取圖片
+state/                     私有 SQLite、密鑰、額度與分類快取（不進 Git）
+data/feeds/                本機抓取 inbox 與候選貼文（不進 Git）
 ```
 
-重要檔案：
+HTTP 請求只讀快照；不會因訪客切換語言啟動 Codex 或 Apify。抓取程序與 web 服務分離，第三方暫時失敗時，仍可瀏覽已有資料。
 
-- `data/sources/harmonica-source-watchlist-public.csv`：公開來源主清單，包含演奏者、團體、教學、場館、活動平台等。
-- `data/sources/harmonica-clubs-public.csv`：公開學生社團資料。
-- `data/sources/harmonica-score-publications.csv`：全國學生音樂比賽口琴指定曲與出版、購譜線索，含官方歷年指定曲目 XLS 與近年 PDF 補充線索。
-- `data/sources/harmonica-score-sources.csv`：指定曲以外的口琴譜源 metadata、購買／洽詢方式與公開佐證連結；不收錄譜檔或曲譜內容。
-- `data/sources/harmonica-public-calendars.csv`：臺灣實體、國外實體與線上活動三個公開 Google Calendar 的 metadata。
-- `data/sources/harmonica-public-calendar-overrides.csv`：公開貼文抽取不足時的日曆事件人工校正；只記 metadata、公開佐證連結與活動資訊。
-- `scripts/build_public_calendar_events.py`：使用 `gpt-5.4-mini` 與規則驗證，從公開貼文抽出活動日期、場地與時區，分流為臺灣實體、國外實體與線上活動 JSON/ICS。
-- `scripts/sync_google_calendar_events.py`：用本機 `.env` / Hermes Google Workspace OAuth 設定同步三類事件到各自的公開 Google Calendar。
-- `scripts/instagram_public_fetcher.py`：參照 Chumei，限動走 Apify、貼文走免登入公開端點及受預算保護的 Apify 備援；分開排程，不依賴維護者 IG 登入。費用上限、狀態與操作見 [Instagram 抓取說明](deploy/instagram-public-ingestion.md)。
-- `scripts/instaloader_story_fetcher.py`：舊版登入型工具，保留作診斷，正式排程已不使用。
+### 資料與網址
 
-舊版 Instaloader 診斷工具的環境設定（正式排程不需要）：
+- `data/sources/harmonica-source-watchlist-public.csv`：公開來源主清單。
+- `data/sources/harmonica-clubs-public.csv`：學生社團。
+- `data/sources/harmonica-score-publications.csv`：指定曲與官方佐證。
+- `data/sources/harmonica-score-sources.csv`：出版／購譜線索。
+- `data/sources/harmonica-public-calendar-overrides.csv`：有公開佐證的活動校正。
+- `data/sources/source-url-aliases.csv`：既有來源 URL 別名。
+
+`public_id` 不因排序或新插入資料而重編。`country` 是主所屬國家／地區，`region` 為較細地理資訊；未知地區不可默認為臺灣。新增來源應依 `.agents/AGENTS.md` 取得官方頭像、公開自介並驗證輸出。
+
+### 抓取與 Apify
+
+Facebook、Instagram 貼文與限時動態共用 Harmonica 自己的 Apify 池。YouTube、網站、RSS／RSSHub 仍使用原本的公開管道，不會因介面重構而停用。預算可用量、actor 每次上限與跨程序預留共同約束支出；未確認的結果保留預留，不能藉重試超支。
 
 ```bash
-python3 -m venv ~/.config/harmonica/instaloader-venv
-~/.config/harmonica/instaloader-venv/bin/python -m pip install -r requirements-instaloader.txt
-~/.config/harmonica/instaloader-venv/bin/python scripts/bootstrap_instaloader_session.py \
-  --login-user YOUR_INSTAGRAM_USERNAME \
-  --load-cookies Chrome
+# 唯讀更新額度，不會啟動 actor
+.venv/bin/python scripts/apify_pool.py --refresh
+
+# 正式抓取／建置（可能消耗設定的 Apify／Codex 額度）
+.venv/bin/python scripts/run_pipeline.py
 ```
 
-在一般 Terminal 執行時，macOS 可能會要求允許讀取 `Chrome Safe Storage`；授權後只會把 Instagram 登入狀態轉成權限為 `0600` 的本機 Instaloader session，不會輸出 Cookie。若不使用瀏覽器登入，可省略 `--load-cookies Chrome`，改由 Instaloader 互動式登入。
+見 [Apify 額度池](deploy/apify-pool.md) 與 [Instagram 抓取細節](deploy/instagram-public-ingestion.md)。新本機部署不需 `--publish-pages`；[舊 Pages 流程](deploy/github-pages.md) 保留作回退參考。
 
-最後一行會在終端機中向 Instagram 登入並建立權限為 `0600` 的 `~/.config/harmonica/instaloader-session`；不要將 session 檔加入 Git。這只供手動診斷使用，正式 pipeline 不讀取此 session。若 venv 或 session 放在其他位置，可分別設定 `HARMONICA_INSTALOADER_PYTHON`、`HARMONICA_INSTALOADER_SESSION`。
-- `data/feeds/social_sources.json`：由 CSV 轉出的公開社群監看來源設定。
-- `data/feeds/social_feed_inbox.jsonl`：YouTube / Facebook 抓取工具正規化後的公開貼文 inbox。
-- `data/feeds/social_candidates.jsonl`：watchdog 篩選後的公開候選更新。
-- `site/assets/styles.css`、`site/assets/app.js` 與品牌圖檔：網站前端 source assets，保留在 `main`。
-- `site/data/site-data.js`：前端資料索引使用的產生資料包，不保留在 `main`。
-- `site/api/*.json`：給外部工具或 Bamboo Hermes 讀取的公開 API，不保留在 `main`。
-- `site/feeds/*.xml` 與 `site/feeds/*.json`：公開 RSS 與對應 JSON，不保留在 `main`。
+### 使用現有 Codex 額度
 
-## 建置與發佈
+預設採 `HARMONICA_LLM_PROVIDER=codex`，使用維護者已登入的本機 CLI 整理資料。先於 Terminal 完成 `codex login`。採只讀、停用 shell／apps／網頁工具的結構化推論，預設所有程序共用每小時 12 次上限，結果沿用既有分類快取。
 
-這個 repo 的 `main` source of truth 是 `data/sources/*.csv`、`scripts/` 與網站 source assets。抓取狀態、LLM/cache、公開 API、RSS、前端 data bundle、SEO HTML、sitemap、feed 圖片與頭貼都是執行 pipeline 後產生的 publish output，預設不納入 `main`。
+- 四語 UI 是固定語系檔，沒有訪客端 AI 翻譯費用。
+- `HARMONICA_LLM_PROVIDER=disabled` 可完全停用新推論。
+- 額度或登入不可用時保留快取，不自動改用付費 API。
+- 只有明確指定 `HARMONICA_LLM_PROVIDER=openai` 才使用原 API key 與其獨立計費。
 
-完整靜態網站發布內容由 `gh-pages` 分支保存。本機對應 worktree 通常是：
-
-```bash
-/Users/skyhong/Documents/Harmonica-in-Taiwan-gh-pages
-```
-
-本機或發佈機器要產生完整靜態站台時，執行：
-
-```bash
-python3 scripts/run_pipeline.py
-```
-
-`run_pipeline.py` 會依序重建監看來源、抓取公開更新、產生 `site/data`、`site/api`、`site/feeds`、`site/status`、SEO HTML 與圖片快取，最後執行：
-
-```bash
-python3 scripts/validate_public_outputs.py
-```
-
-驗證會檢查 generated JSON/JS 是否可解析、`status.json` 的公開目錄與監看來源數是否和 `sources.json` 一致，以及所有公開輸出引用的 feed 圖片/來源頭貼是否存在。驗證失敗時不要發佈該次輸出。
-
-要發布正式站時使用：
-
-```bash
-python3 scripts/run_pipeline.py --publish-pages
-```
-
-或在已產生 `site/` 後執行：
-
-```bash
-python3 scripts/publish_github_pages.py
-```
-
-這會把 generated `site/` 快照複製到 `gh-pages` worktree 並推送發布分支；不要把 generated HTML/API/RSS 產物 commit 回 `main`。
-
-SEO 舊網址轉址由 `data/sources/source-url-aliases.csv` 維護。Pipeline 會執行 `scripts/generate_cloudflare_redirects.py`，產生 `site/redirects/cloudflare-bulk-redirects.csv` 給 Cloudflare Bulk Redirects 匯入；這些 edge artifacts 屬於 publish output，不進 `main`。
-
-公開來源 CSV 維護規則：
-
-- `public_id` 是公開來源頁的穩定 ID，會決定 `/source/<id>-<slug>/` 的 canonical URL；不要因為 CSV 排序或插入列而重編既有 ID。
-- 每一筆會輸出的來源都要填 `country`，放主所屬國家或地區，例如 `臺灣`、`日本`、`香港`。
-- `region` 保留較細的地理或交流脈絡，例如 `臺灣/新竹`、`日本`、`香港/國際`。
-- 公開 tag 必須是一格一個元素；不要把 `演出/音樂會`、`半音階、複音` 或 `教學 + 維修` 這類複合 tag 放成單一 tag。建置流程會自動拆分並在輸出前驗證。
-
-## 資料怎麼蒐集與整理
-
-觀測站以公開資料為主。資料來源大致分成三類：
-
-- 人工整理的公開來源清單：包含學校社團、演奏者、樂團、教學單位、場館、活動平台與公開社群入口。
-- 公開社群與影音更新：包含 Facebook 公開頁面、Instagram、YouTube 頻道，以及透過 RSSHub 轉出的少量 X/Threads 公開來源。
-- 公開活動與機會資訊：包含演出、講座、工作坊、成發、徵件、比賽、補助與報名資訊。
-
-資料整理流程會先把公開來源統一成目錄項目，再把近期公開更新整理成首頁河道、分類 RSS 與 JSON API。社群更新會依照來源、平台、時間、關鍵字與語意標籤分類，讓同一批資料可以同時服務網站瀏覽、RSS 訂閱與外部工具讀取。
-
-站上顯示的資訊不是完整名冊，也不是官方認證資料庫；它更接近一個公開訊號索引。如果你發現社團、演奏者、活動或公開來源有缺漏、錯誤或失效連結，歡迎發 GitHub issue 回報。回報時最有幫助的是官方網站、公開社群頁、公開貼文、活動頁或其他公開來源。
-
-## 公開 RSS
-
-主要 RSS：
-
-- `https://harmonica.observe.tw/feeds/updates.xml`：公開更新總河道。
-- `https://harmonica.observe.tw/feeds/events.xml`：公開口琴活動線索。
-- `https://harmonica.observe.tw/feeds/public-calendar.ics`：臺灣口琴實體活動的可訂閱 ICS。
-- `https://harmonica.observe.tw/feeds/overseas-calendar.ics`：國外口琴實體活動的可訂閱 ICS。
-- `https://harmonica.observe.tw/feeds/online-calendar.ics`：線上口琴活動的可訂閱 ICS。
-- `https://harmonica.observe.tw/feeds/posts-videos.xml`：口琴相關貼文與影片發布。
-- `https://harmonica.observe.tw/feeds/student-clubs.xml`：口琴學生社團動態。
-- `https://harmonica.observe.tw/feeds/opportunities.xml`：補助、徵件、甄選、比賽與報名資訊。
-- `https://harmonica.observe.tw/feeds/sources.xml`：公開來源索引。
-
-對應 JSON 也會產生在 `site/feeds/*.json`。
+不會向訪客提供 Codex 登入憑證或任意推論入口。官方機制見 [Codex non-interactive mode](https://learn.chatgpt.com/docs/non-interactive-mode)。
 
 ## 公開 API
 
-外部工具與 Bamboo Hermes 應優先讀公開 JSON API，不要直接抓網站 HTML：
+| 路徑 | 用途 |
+| --- | --- |
+| `/api/v1/health` | 本機服務健康 |
+| `/api/v1/catalog` | 完整全球資料快照 |
+| `/api/v1/sources` | 來源目錄 |
+| `/api/v1/posts` | 原文貼文 |
+| `/api/v1/events` | 日期與時區明確的活動 |
+| `/api/v1/scores` | 指定曲 |
+| `/api/v1/community` | 社群授權容量與抓取頻率估算 |
 
-- `https://harmonica.observe.tw/api/latest.json`
-- `https://harmonica.observe.tw/api/catalog.json`
-- `https://harmonica.observe.tw/api/events.json`
-- `https://harmonica.observe.tw/api/public-calendar-events.json`
-- `https://harmonica.observe.tw/api/overseas-calendar-events.json`
-- `https://harmonica.observe.tw/api/online-calendar-events.json`
-- `https://harmonica.observe.tw/api/public-calendar-sync.json`
-- `https://harmonica.observe.tw/api/posts-videos.json`
-- `https://harmonica.observe.tw/api/student-clubs.json`
-- `https://harmonica.observe.tw/api/opportunities.json`
-- `https://harmonica.observe.tw/api/sources.json`
-- `https://harmonica.observe.tw/api/source/<public_id>.json`：單一公開來源的輕量貼文 feed，例如竹韻為 `/api/source/198.json`。
-- `https://harmonica.observe.tw/api/scores.json`
-- `https://harmonica.observe.tw/api/score-sources.json`
+清單 API 支援 `q`、`country`（如 `JP`、`KR`）、`limit`（1–200）、`offset`。既有 `/api/sources.json`、`latest.json`、`scores.json` 等依然可讀。所有公開資料只含公開資訊及允許的彙整狀態，不輸出 token。
 
-若遠端用 `curl` 驗證 API 時遇到 403，可以加類瀏覽器 User-Agent：
+RSS／ICS 維持 `/feeds/updates.xml`、`events.xml`、`posts-videos.xml`、`sources.xml`、`student-clubs.xml`、`opportunities.xml`、`public-calendar.ics`、`overseas-calendar.ics`、`online-calendar.ics`。
+
+## 驗證
 
 ```bash
-curl -A 'Mozilla/5.0' https://harmonica.observe.tw/api/sources.json
+.venv/bin/python -m unittest discover -s tests
+npm --prefix web ci --ignore-scripts
+npm --prefix web test
+.venv/bin/python scripts/validate_public_outputs.py
+.venv/bin/python scripts/check_source_coverage.py
+.venv/bin/python scripts/validate_legacy_redirects.py
 ```
 
-## 資料回報
+只 commit 原始碼、語系、公開來源 CSV 與部署說明；`site/api`、生成 HTML、抓取快照、圖片快取、token、SQLite、密鑰與 logs 不進 Git。
 
-公開新增、修正、失效連結與來源更新應從網站回報頁開始。回報頁直接嵌入由陽明交大竹韻口琴社帳號維護的 Google 表單，不需要 GitHub 帳號：
+MIT License · Sky Hong。Chumei 的 MIT 授權模式與實作是本次重構的參考基礎；這個服務不共用其登入、資料庫、密鑰或其他帳號額度。
 
-```text
-https://harmonica.observe.tw/submit/
-```
-
-請只填公開可查資料，不要放私人電話、私人信箱、未公開群組連結、會員資料或憑證。表單題目與發布設定由 `scripts/configure_submission_form.py` 維護；OAuth token 留在本機 Hermes profile，不進 repo。
-
-## License
-
-MIT. See `LICENSE`.
+本輪已完成品牌修正與竹梅介面移植；測試、真實瀏覽器驗收及限制見 [UI 驗收紀錄](deploy/ui-acceptance-2026-09-23.md)。[UI 接手說明](web/CHUMEI_UI_HANDOFF.md) 與 [前輪交接 prompt](deploy/next-agent-prompt-2026-09-23.md) 保留為歷史參考。

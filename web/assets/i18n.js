@@ -1,0 +1,968 @@
+const rows = {
+  reviewing: ["Under review", "審核中", "確認中", "검토 중"],
+  details: ["Details", "詳細資訊", "詳細", "상세 정보"],
+  sourceType_venue: [
+    "Venue / platform",
+    "場館／平台",
+    "会場・プラットフォーム",
+    "공연장·플랫폼",
+  ],
+  sourceType_equipment: [
+    "Instruments & equipment",
+    "樂器與器材",
+    "楽器・機材",
+    "악기·장비",
+  ],
+  sourceType_event: [
+    "Events & competitions",
+    "活動與比賽",
+    "イベント・コンクール",
+    "행사·대회",
+  ],
+  alreadyRegistered: [
+    "This token is already registered. Manage it from the browser you used to contribute.",
+    "此權杖已經註冊，請使用原本貢獻的瀏覽器管理。",
+    "このトークンは登録済みです。提供時のブラウザで管理してください。",
+    "이미 등록된 토큰입니다. 기여할 때 사용한 브라우저에서 관리하세요.",
+  ],
+  accountLimit: [
+    "This browser already manages the maximum of five active contributions.",
+    "此瀏覽器已達五筆有效貢獻的上限。",
+    "このブラウザは有効な提供枠の上限5件に達しています。",
+    "이 브라우저의 활성 기여는 최대 5개까지 등록할 수 있어요.",
+  ],
+  duplicateSubmission: [
+    "This URL is already waiting for review.",
+    "此網址已在待審核清單中。",
+    "このURLはすでに確認待ちです。",
+    "이미 검토 대기 중인 URL입니다.",
+  ],
+  providerUnavailable: [
+    "Apify verification is temporarily unavailable. Please try again later.",
+    "目前暫時無法向 Apify 驗證，請稍後重試。",
+    "Apifyの確認サービスを利用できません。しばらくしてから再試行してください。",
+    "일시적으로 Apify 검증을 사용할 수 없어요. 잠시 후 다시 시도하세요.",
+  ],
+
+  brand: [
+    "Harmonica Observatory",
+    "口琴觀測站",
+    "Harmonica Observatory",
+    "Harmonica Observatory",
+  ],
+  tagline: [
+    "A world connected by harmonica.",
+    "讓口琴，連結世界。",
+    "ハーモニカで、世界とつながる。",
+    "하모니카로 이어지는 세계.",
+  ],
+  discover: ["Discover", "探索", "見つける", "발견"],
+  events: ["Events", "活動", "イベント", "행사"],
+  posts: ["Updates", "動態", "最新情報", "소식"],
+  sources: ["Directory", "來源名錄", "ディレクトリ", "단체·연주자"],
+  scores: ["Sheet music", "樂譜", "楽譜", "악보"],
+  scoreSources: [
+    "Music collections",
+    "樂譜來源",
+    "楽譜コレクション",
+    "악보 모음",
+  ],
+  feeds: ["Subscriptions", "訂閱", "購読", "구독"],
+  status: ["System status", "系統狀態", "稼働状況", "시스템 상태"],
+  contribute: ["Keep it growing", "貢獻資源", "運営を支える", "함께 운영하기"],
+  submit: ["Add a source", "提供來源", "情報を提供", "출처 제보"],
+  about: [
+    "About & FAQ",
+    "關於與常見問題",
+    "このサイト・FAQ",
+    "소개·자주 묻는 질문",
+  ],
+  privacy: ["Privacy", "隱私說明", "プライバシー", "개인정보 안내"],
+  language: ["Language", "介面語言", "表示言語", "표시 언어"],
+  navigation: [
+    "Main navigation",
+    "主要導覽",
+    "メインナビゲーション",
+    "주요 탐색",
+  ],
+  skip: ["Skip to content", "跳至主要內容", "本文へ移動", "본문으로 이동"],
+  menu: ["Open menu", "開啟選單", "メニューを開く", "메뉴 열기"],
+  close: ["Close", "關閉", "閉じる", "닫기"],
+  world: [
+    "Around the world",
+    "世界各地",
+    "世界のハーモニカ",
+    "세계의 하모니카",
+  ],
+  heroTitle: [
+    "Small instrument.\nEndless connections.",
+    "小小口琴，\n無限連結。",
+    "小さな楽器。\n広がる世界。",
+    "작은 악기,\n끝없는 연결.",
+  ],
+  heroBody: [
+    "Meet the people, hear the stories, and find your next performance. An open observatory for the global harmonica community.",
+    "從演奏者的日常，到下一場相遇的音樂會。一起探索世界各地的口琴社群。",
+    "演奏家の日常から、次に訪れるコンサートまで。世界のハーモニカコミュニティを一緒に探しましょう。",
+    "연주자의 일상부터 다음 공연까지. 세계 곳곳의 하모니카 커뮤니티를 함께 만나보세요.",
+  ],
+  explore: [
+    "Explore the directory",
+    "探索口琴名錄",
+    "ディレクトリを見る",
+    "단체·연주자 탐색",
+  ],
+  findEvent: [
+    "Find your next event",
+    "尋找下一場活動",
+    "イベントを探す",
+    "다가오는 행사 찾기",
+  ],
+  liveArchive: [
+    "An open, living archive",
+    "持續累積的開放資料庫",
+    "みんなで育てるアーカイブ",
+    "함께 쌓아가는 기록",
+  ],
+  countriesCount: [
+    "Countries & regions",
+    "國家與地區",
+    "国・地域",
+    "국가·지역",
+  ],
+  sourcesCount: [
+    "People & organizations",
+    "演奏者與組織",
+    "演奏家・団体",
+    "연주자·단체",
+  ],
+  postsCount: ["Public updates", "公開動態", "公開投稿", "공개 소식"],
+  scoresCount: ["Music entries", "樂譜資料", "楽譜データ", "악보 자료"],
+  latest: [
+    "From the community",
+    "社群裡的新鮮事",
+    "コミュニティの今",
+    "커뮤니티의 새 소식",
+  ],
+  latestBody: [
+    "Original voices from harmonica players and organizations.",
+    "來自口琴演奏者與組織的原始分享。",
+    "ハーモニカ奏者や団体から届いた、ありのままの声。",
+    "하모니카 연주자와 단체가 직접 전하는 이야기.",
+  ],
+  viewAll: ["View all", "查看全部", "すべて見る", "전체 보기"],
+  upNext: [
+    "On the horizon",
+    "下一場相遇",
+    "これからのイベント",
+    "다가오는 만남",
+  ],
+  upNextBody: [
+    "Concerts, competitions, workshops, and more.",
+    "音樂會、比賽、工作坊，以及更多可能。",
+    "コンサート、コンクール、ワークショップなど。",
+    "공연, 대회, 워크숍 등 다양한 행사.",
+  ],
+  directoryBody: [
+    "Find players, ensembles, makers, and communities across borders.",
+    "跨越國界，認識演奏者、樂團、製琴者與口琴社群。",
+    "国境を越えて、演奏家、楽団、メーカー、コミュニティを探す。",
+    "국경을 넘어 연주자, 앙상블, 제작사와 커뮤니티를 찾아보세요.",
+  ],
+  eventsBody: [
+    "Discover events in their original time zones. Always check the organizer’s announcement before making plans.",
+    "以活動當地時區呈現。安排行程前，請以主辦單位的最新公告為準。",
+    "イベント開催地の時間帯で表示しています。参加前に主催者の最新情報をご確認ください。",
+    "행사 현지 시간대로 표시됩니다. 일정을 정하기 전 주최자의 최신 공지를 확인하세요.",
+  ],
+  scoresBody: [
+    "Discover published music and competition repertoire. Follow each source for availability and usage rights.",
+    "探索出版樂譜與比賽選曲。取得方式與使用授權，請參考原始來源。",
+    "出版楽譜やコンクールの課題曲を探す。入手方法と利用条件は提供元をご確認ください。",
+    "출판 악보와 대회 지정곡을 찾아보세요. 이용 방법과 권리는 원 출처에서 확인하세요.",
+  ],
+  scoreSourcesBody: [
+    "Libraries, publishers, and collections to continue your musical journey.",
+    "從圖書館、出版者與樂譜收藏，延續你的音樂旅程。",
+    "図書館、出版社、楽譜集から、音楽の旅を続けましょう。",
+    "도서관, 출판사, 악보 컬렉션에서 음악 여행을 이어가세요.",
+  ],
+  country: ["Country / region", "國家／地區", "国・地域", "국가·지역"],
+  allCountries: [
+    "All countries & regions",
+    "所有國家與地區",
+    "すべての国・地域",
+    "모든 국가·지역",
+  ],
+  international: ["International", "國際", "国際", "국제"],
+  online: ["Online", "線上", "オンライン", "온라인"],
+  unknownCountry: ["Not specified", "尚未標示", "未指定", "미지정"],
+  search: ["Search", "搜尋", "検索", "검색"],
+  searchPlaceholder: [
+    "Search names, topics, places…",
+    "搜尋名稱、主題、地點…",
+    "名前、話題、場所を検索…",
+    "이름, 주제, 장소 검색…",
+  ],
+  all: ["All", "全部", "すべて", "전체"],
+  filter: ["Filter", "篩選", "絞り込み", "필터"],
+  reset: ["Clear filters", "清除篩選", "絞り込みを解除", "필터 초기화"],
+  results: ["{count} results", "共 {count} 筆", "{count} 件", "{count}개 결과"],
+  noResults: [
+    "Nothing here just yet.",
+    "這裡還沒有符合的資料。",
+    "条件に合う情報はまだありません。",
+    "아직 해당하는 정보가 없어요.",
+  ],
+  noResultsBody: [
+    "Try another search or country. You can also help by adding a public source.",
+    "試試其他關鍵字或國家，也歡迎提供公開來源。",
+    "別のキーワードや国をお試しください。公開情報の提供も歓迎します。",
+    "다른 검색어나 국가를 선택해 보세요. 공개 출처를 제보해 주셔도 좋아요.",
+  ],
+  loadMore: ["Show more", "顯示更多", "もっと見る", "더 보기"],
+  loading: [
+    "Loading the observatory…",
+    "正在讀取觀測站…",
+    "観測所を読み込み中…",
+    "관측소를 불러오는 중…",
+  ],
+  loadError: [
+    "We couldn’t load the observatory.",
+    "目前無法讀取資料。",
+    "データを読み込めませんでした。",
+    "정보를 불러오지 못했어요.",
+  ],
+  loadErrorBody: [
+    "Your filters are saved in the address. Please try again in a moment.",
+    "篩選條件已保留在網址中，請稍後再試。",
+    "絞り込み条件はURLに保存されています。しばらくしてから再試行してください。",
+    "필터는 주소에 저장되어 있어요. 잠시 후 다시 시도해 주세요.",
+  ],
+  retry: ["Try again", "重新載入", "再試行", "다시 시도"],
+  source: ["Source", "來源", "提供元", "출처"],
+  original: ["Original source", "原始來源", "原文を見る", "원문 보기"],
+  readMore: [
+    "Read the full text",
+    "展開完整原文",
+    "全文を読む",
+    "원문 전체 보기",
+  ],
+  readLess: ["Show less", "收合原文", "閉じる", "접기"],
+  originalLanguage: [
+    "Original content is kept in its original language.",
+    "內容保留來源原文，介面語言不會改變國家篩選。",
+    "投稿は原文のまま掲載。表示言語と国の絞り込みは別々に設定できます。",
+    "콘텐츠는 원문으로 표시됩니다. 표시 언어와 국가 필터는 별도로 설정됩니다.",
+  ],
+  updated: [
+    "Updated {date}",
+    "更新於 {date}",
+    "更新：{date}",
+    "업데이트 {date}",
+  ],
+  dateUnknown: ["Date unavailable", "日期待確認", "日付未確認", "날짜 미확인"],
+  platform: ["Platform", "平台", "プラットフォーム", "플랫폼"],
+  allPlatforms: [
+    "All platforms",
+    "所有平台",
+    "すべてのプラットフォーム",
+    "모든 플랫폼",
+  ],
+  story: ["Story", "限時動態", "ストーリー", "스토리"],
+  storyExpired: [
+    "Story may have expired",
+    "限時動態可能已到期",
+    "公開終了の可能性あり",
+    "스토리가 만료되었을 수 있어요",
+  ],
+  postKind: ["Content", "內容", "コンテンツ", "콘텐츠"],
+  allPosts: ["All updates", "所有動態", "すべての投稿", "모든 소식"],
+  stories: ["Stories", "限時動態", "ストーリー", "스토리"],
+  following: ["Following", "已追蹤", "フォロー中", "팔로잉"],
+  follow: ["Follow", "追蹤", "フォロー", "팔로우"],
+  unfollow: ["Unfollow", "取消追蹤", "フォロー解除", "팔로우 해제"],
+  followHint: [
+    "Your followed sources are saved in this browser.",
+    "追蹤清單儲存在此瀏覽器。",
+    "フォローした提供元はこのブラウザに保存されます。",
+    "팔로우한 출처는 이 브라우저에 저장됩니다.",
+  ],
+  type: ["Type", "類型", "種類", "유형"],
+  allTypes: ["All types", "所有類型", "すべての種類", "모든 유형"],
+  upcoming: ["Upcoming", "即將舉行", "開催予定", "예정"],
+  past: ["Past events", "過往活動", "過去のイベント", "지난 행사"],
+  allEvents: ["All dates", "全部日期", "すべての日程", "모든 날짜"],
+  eventPeriod: ["Event dates", "活動日期", "開催日", "행사 날짜"],
+  localTime: [
+    "Event local time",
+    "活動當地時間",
+    "開催地の時刻",
+    "행사 현지 시간",
+  ],
+  allDay: ["All day", "全天", "終日", "종일"],
+  locationUnknown: [
+    "Location to be confirmed",
+    "地點待確認",
+    "場所未確認",
+    "장소 미정",
+  ],
+  eventDetails: ["Event details", "活動詳情", "イベント詳細", "행사 상세"],
+  back: ["Back", "返回", "戻る", "뒤로"],
+  backDirectory: [
+    "Back to directory",
+    "回到來源名錄",
+    "ディレクトリに戻る",
+    "목록으로 돌아가기",
+  ],
+  officialLinks: ["Official links", "官方連結", "公式リンク", "공식 링크"],
+  sourceUpdates: [
+    "Updates from this source",
+    "此來源的動態",
+    "この提供元の投稿",
+    "이 출처의 소식",
+  ],
+  sourceMissing: [
+    "This source is not in the current catalog.",
+    "目前名錄中找不到此來源。",
+    "現在のディレクトリにこの提供元はありません。",
+    "현재 목록에서 이 출처를 찾을 수 없어요.",
+  ],
+  bio: ["About this source", "關於此來源", "提供元について", "출처 소개"],
+  noBio: [
+    "Explore the official links to learn more.",
+    "請透過官方連結了解更多。",
+    "詳しくは公式リンクをご覧ください。",
+    "자세한 내용은 공식 링크를 확인하세요.",
+  ],
+  instrument: ["Instrumentation", "編制", "編成", "편성"],
+  composer: ["Composer", "作曲", "作曲", "작곡"],
+  arranger: ["Arranger", "編曲", "編曲", "편곡"],
+  year: ["Year", "年份", "年度", "연도"],
+  allYears: ["All years", "所有年份", "すべての年度", "모든 연도"],
+  publication: ["Publication", "出版／出處", "出版・提供元", "출판·출처"],
+  musicNote: [
+    "Explore music collections",
+    "探索樂譜來源",
+    "楽譜コレクションを見る",
+    "악보 모음 둘러보기",
+  ],
+  countryNote: [
+    "The directory is global. Coverage grows through verified public sources.",
+    "名錄面向世界，收錄範圍隨已驗證的公開來源逐步擴展。",
+    "公開情報を確認しながら、世界各地の掲載範囲を広げています。",
+    "검증된 공개 출처를 통해 세계 곳곳으로 정보를 넓혀갑니다.",
+  ],
+  communityTitle: [
+    "Built by curiosity.\nSustained by community.",
+    "因為好奇而相遇，\n因為分享而持續。",
+    "好奇心でつながり、\nみんなで育てる。",
+    "호기심으로 만나고,\n함께 오래 이어가요.",
+  ],
+  communityBody: [
+    "Share a source or contribute Apify capacity to help keep public updates flowing.",
+    "提供新的公開來源，或分享 Apify 額度，讓社群的新鮮事持續流動。",
+    "公開情報を提供したり、Apifyの利用枠を共有したりして、更新を支えられます。",
+    "공개 출처를 제보하거나 Apify 용량을 나눠 소식이 계속 이어지도록 도와주세요.",
+  ],
+  feedBody: [
+    "Bring the observatory to your own reader or calendar. These feeds contain public source information.",
+    "把觀測站帶到你的閱讀器或行事曆。訂閱內容均來自公開來源。",
+    "お使いのリーダーやカレンダーで公開情報を購読できます。",
+    "사용 중인 리더나 캘린더에서 공개 소식을 구독하세요.",
+  ],
+  copy: ["Copy link", "複製連結", "リンクをコピー", "링크 복사"],
+  copied: ["Link copied", "連結已複製", "コピーしました", "링크를 복사했어요"],
+  copyFailed: [
+    "Could not copy. Open the feed and copy its address.",
+    "無法複製，請開啟訂閱並複製網址。",
+    "コピーできませんでした。フィードを開いてURLをコピーしてください。",
+    "복사하지 못했어요. 피드를 열어 주소를 복사해 주세요.",
+  ],
+  openFeed: ["Open feed", "開啟訂閱", "フィードを開く", "피드 열기"],
+  feed_updates: ["Latest updates", "最新更新", "最新の更新", "최신 업데이트"],
+  feed_events: ["Events feed", "活動訂閱", "イベントフィード", "행사 피드"],
+  feed_posts: [
+    "Community posts",
+    "社群貼文",
+    "コミュニティの投稿",
+    "커뮤니티 게시물",
+  ],
+  feed_sources: [
+    "Directory updates",
+    "名錄更新",
+    "ディレクトリの更新",
+    "목록 업데이트",
+  ],
+  feed_opportunities: [
+    "Opportunities",
+    "徵選與機會",
+    "募集・機会",
+    "모집·기회",
+  ],
+  feed_clubs: [
+    "Clubs & ensembles",
+    "社團與樂團",
+    "クラブ・楽団",
+    "동아리·앙상블",
+  ],
+  feed_taiwanCalendar: [
+    "Taiwan calendar",
+    "臺灣活動行事曆",
+    "台湾のカレンダー",
+    "대만 행사 캘린더",
+  ],
+  feed_worldCalendar: [
+    "World calendar",
+    "國際活動行事曆",
+    "世界のカレンダー",
+    "세계 행사 캘린더",
+  ],
+  feed_onlineCalendar: [
+    "Online calendar",
+    "線上活動行事曆",
+    "オンラインのカレンダー",
+    "온라인 행사 캘린더",
+  ],
+  feed_json: [
+    "Open JSON catalog",
+    "公開 JSON 資料",
+    "公開JSONデータ",
+    "공개 JSON 데이터",
+  ],
+  statusBody: [
+    "A transparent view of the latest collected data and collection capacity.",
+    "公開呈現資料更新與抓取資源的目前狀況。",
+    "データの更新状況と収集能力を公開しています。",
+    "데이터 갱신과 수집 용량의 현재 상태를 공개합니다.",
+  ],
+  snapshot: [
+    "Latest data snapshot",
+    "最近資料快照",
+    "最新のデータスナップショット",
+    "최신 데이터 스냅샷",
+  ],
+  provider: ["Collection provider", "抓取服務", "収集サービス", "수집 서비스"],
+  healthy: ["Operational", "正常", "稼働中", "정상"],
+  degraded: ["Needs attention", "需要留意", "要確認", "확인 필요"],
+  unavailable: ["Not available", "尚無資料", "情報なし", "정보 없음"],
+  disabled: ["Not enabled", "尚未啟用", "未有効", "비활성"],
+  service: ["Service", "服務", "サービス", "서비스"],
+  observed: ["Observed items", "觀測筆數", "収集件数", "수집 건수"],
+  errors: ["Errors", "錯誤數", "エラー数", "오류 수"],
+  snapshotNote: [
+    "This is the published snapshot, not a guarantee that every source has refreshed recently.",
+    "此處顯示已發布的資料快照，不代表每個來源都已在最近重新抓取。",
+    "公開済みデータの状態です。すべての提供元が直近に更新されたことを保証するものではありません。",
+    "게시된 데이터 스냅샷입니다. 모든 출처가 최근에 다시 수집되었다는 뜻은 아닙니다.",
+  ],
+  capacity: [
+    "Collection capacity",
+    "整體抓取資源",
+    "収集の利用枠",
+    "전체 수집 용량",
+  ],
+  activeAccounts: [
+    "Verified usable accounts",
+    "已驗證可用帳號",
+    "確認済みの利用可能アカウント",
+    "검증된 사용 가능 계정",
+  ],
+  remainingBudget: [
+    "Available collection budget",
+    "可用抓取預算",
+    "利用可能な収集予算",
+    "사용 가능한 수집 예산",
+  ],
+  remainingAccount: [
+    "Remaining account quota",
+    "帳號剩餘額度",
+    "アカウントの残り利用枠",
+    "계정 잔여 할당량",
+  ],
+  quotaNote: [
+    "Account quota and the budget shared with this site are different. Actual usage is charged by Apify.",
+    "帳號額度與你同意本站使用的共享預算不同；實際費用由 Apify 計算。",
+    "アカウントの利用枠と、このサイトに共有する予算は別です。実際の料金はApifyが計算します。",
+    "계정 할당량과 이 사이트에 공유한 예산은 다릅니다. 실제 사용 요금은 Apify가 계산합니다.",
+  ],
+  estimatedCycle: [
+    "Estimated collection cycle",
+    "預估抓取週期",
+    "推定収集周期",
+    "예상 수집 주기",
+  ],
+  estimateUnknown: [
+    "No reliable estimate yet",
+    "目前無可靠估計",
+    "信頼できる推定値はまだありません",
+    "아직 신뢰할 수 있는 추정치가 없어요",
+  ],
+  estimateDays: [
+    "About {days} days",
+    "約 {days} 天",
+    "約 {days} 日",
+    "약 {days}일",
+  ],
+  estimateNote: [
+    "Estimates depend on available budget, source count, and recent costs; they are not a refresh guarantee.",
+    "估計受可用預算、來源數與近期成本影響，並非更新頻率保證。",
+    "推定値は予算、提供元数、直近の費用によって変動し、更新頻度を保証しません。",
+    "추정치는 예산, 출처 수, 최근 비용에 따라 달라지며 갱신 빈도를 보장하지 않습니다.",
+  ],
+  contributeBody: [
+    "Share a limited Apify budget to collect public harmonica information. You stay in control of your contribution.",
+    "分享有限的 Apify 預算，協助蒐集公開口琴資訊。你隨時掌握自己的貢獻。",
+    "予算を決めてApifyの利用枠を共有し、公開情報の収集を支えられます。提供内容は自分で管理できます。",
+    "Apify 예산을 정해 공개 하모니카 정보 수집을 도와주세요. 기여 내역은 직접 관리할 수 있어요.",
+  ],
+  newContribution: [
+    "Contribute Apify capacity",
+    "貢獻 Apify 額度",
+    "Apifyの利用枠を提供",
+    "Apify 용량 기여",
+  ],
+  contributionName: ["Display name", "顯示名稱", "表示名", "표시 이름"],
+  namePlaceholder: [
+    "Your name or a nickname",
+    "你的名字或暱稱",
+    "名前・ニックネーム",
+    "이름 또는 닉네임",
+  ],
+  apiToken: [
+    "Apify API token",
+    "Apify API 權杖",
+    "Apify APIトークン",
+    "Apify API 토큰",
+  ],
+  tokenHint: [
+    "Use a dedicated token. It is sent securely to this server and never stored in your browser.",
+    "建議使用專用權杖；權杖送至本站伺服器，不儲存在瀏覽器。",
+    "専用トークンを推奨します。サーバーに送信され、ブラウザには保存されません。",
+    "전용 토큰을 권장합니다. 토큰은 서버로 전송되며 브라우저에는 저장되지 않습니다.",
+  ],
+  tokenLink: [
+    "Manage tokens in Apify",
+    "前往 Apify 管理權杖",
+    "Apifyでトークンを管理",
+    "Apify에서 토큰 관리",
+  ],
+  budget: [
+    "Maximum shared budget (USD)",
+    "共享預算上限（美元）",
+    "共有予算の上限（米ドル）",
+    "공유 예산 상한 (USD)",
+  ],
+  budgetHint: [
+    "Choose $0.01–$100. This is a total budget for this contribution, not a daily allowance.",
+    "設定 US$0.01–100。這是此筆貢獻的總預算，不是每日額度。",
+    "0.01～100米ドルで設定。この提供分の総予算であり、1日あたりの枠ではありません。",
+    "0.01~100달러로 설정하세요. 일일 한도가 아닌 이 기여의 총예산입니다.",
+  ],
+  consent: [
+    "I authorize this site to use this token for public-source collection up to my shared budget. I understand Apify usage may incur charges.",
+    "我同意本站在上述共享預算內使用此權杖抓取公開來源，並了解 Apify 使用可能產生費用。",
+    "設定した予算の範囲で、このトークンを公開情報の収集に使うことに同意します。Apifyの利用で料金が発生する場合があることを理解しています。",
+    "공유 예산 내에서 공개 출처 수집에 이 토큰을 사용하는 데 동의하며, Apify 사용료가 발생할 수 있음을 이해합니다.",
+  ],
+  contributionSubmit: [
+    "Verify & contribute",
+    "驗證並貢獻",
+    "確認して提供",
+    "검증 후 기여",
+  ],
+  busy: ["Processing…", "處理中…", "処理中…", "처리 중…"],
+  contributionSuccess: [
+    "Your contribution is active. Thank you for helping the community.",
+    "貢獻已建立，謝謝你支持口琴社群。",
+    "提供枠を登録しました。コミュニティへのご協力ありがとうございます。",
+    "기여가 등록되었어요. 커뮤니티를 도와주셔서 감사합니다.",
+  ],
+  myContributions: [
+    "Your contributions",
+    "我的貢獻",
+    "自分の提供枠",
+    "내 기여",
+  ],
+  ownershipHint: [
+    "Managed by this browser’s private session. Keep this browser data to retain withdrawal access. You can always revoke your token directly in Apify.",
+    "透過此瀏覽器的私人工作階段管理。請保留瀏覽器資料以便撤回；你也隨時可以直接在 Apify 撤銷權杖。",
+    "このブラウザの非公開セッションで管理します。撤回するにはブラウザのデータを保持してください。Apifyでトークンを直接無効化することもできます。",
+    "이 브라우저의 비공개 세션으로 관리됩니다. 철회하려면 브라우저 데이터를 유지하세요. Apify에서 직접 토큰을 해지할 수도 있습니다.",
+  ],
+  noContributions: [
+    "You haven’t shared a contribution from this browser yet.",
+    "此瀏覽器尚未建立貢獻。",
+    "このブラウザからの提供はまだありません。",
+    "이 브라우저에서 등록한 기여가 아직 없어요.",
+  ],
+  withdraw: ["Withdraw", "撤回貢獻", "提供を撤回", "기여 철회"],
+  withdrawConfirm: [
+    "Withdraw this contribution? Collection will stop using this token for new work.",
+    "要撤回此筆貢獻嗎？本站將停止使用此權杖開始新的抓取工作。",
+    "提供を撤回しますか？このトークンで新しい収集処理を開始しなくなります。",
+    "이 기여를 철회할까요? 이 토큰을 사용하는 새 수집 작업이 중단됩니다.",
+  ],
+  withdrawSuccess: [
+    "Contribution withdrawn.",
+    "貢獻已撤回。",
+    "提供を撤回しました。",
+    "기여를 철회했어요.",
+  ],
+  spent: ["Used", "已使用", "使用済み", "사용량"],
+  reserved: [
+    "Reserved for running jobs",
+    "執行中工作已保留",
+    "実行中の処理に確保",
+    "진행 중 작업 예약분",
+  ],
+  budgetRemaining: ["Budget remaining", "預算餘額", "予算残額", "예산 잔액"],
+  before: ["Before", "變更前", "変更前", "변경 전"],
+  after: ["After", "變更後", "変更後", "변경 후"],
+  impact: [
+    "Effect on collection estimates",
+    "對抓取預估的影響",
+    "収集予測への影響",
+    "수집 추정치 변화",
+  ],
+  cancel: ["Cancel", "取消", "キャンセル", "취소"],
+  submitBody: [
+    "Know a harmonica player, ensemble, event, or music collection we should include? Share a public link for review.",
+    "認識值得收錄的口琴演奏者、樂團、活動或樂譜來源嗎？提供公開連結，協助我們查證與收錄。",
+    "掲載してほしい演奏家、楽団、イベント、楽譜集はありますか？確認できる公開リンクをお送りください。",
+    "소개할 연주자, 앙상블, 행사, 악보 모음이 있나요? 검토할 수 있는 공개 링크를 보내주세요.",
+  ],
+  publicUrl: [
+    "Public source URL",
+    "公開來源網址",
+    "公開情報のURL",
+    "공개 출처 URL",
+  ],
+  note: ["Additional context", "補充說明", "補足情報", "추가 설명"],
+  notePlaceholder: [
+    "What is this source? Include any details that help us verify it.",
+    "這是什麼來源？歡迎補充有助於查證的資訊。",
+    "どのような情報ですか？確認に役立つ内容をご記入ください。",
+    "어떤 출처인가요? 검증에 도움이 되는 정보를 적어주세요.",
+  ],
+  submitAction: [
+    "Send for review",
+    "送出審核",
+    "確認依頼を送信",
+    "검토 요청 보내기",
+  ],
+  submitSuccess: [
+    "Received. Your source is awaiting review; it is not published automatically.",
+    "已收到。來源將進入待審核清單，不會自動公開。",
+    "受け付けました。内容を確認後に掲載するため、自動では公開されません。",
+    "접수되었어요. 검토 후 게시되며 자동으로 공개되지는 않습니다.",
+  ],
+  mySubmissions: [
+    "Your submissions",
+    "我的提供紀錄",
+    "自分の提供情報",
+    "내 제보",
+  ],
+  noSubmissions: [
+    "No submissions from this browser yet.",
+    "此瀏覽器尚無提供紀錄。",
+    "このブラウザからの提供情報はまだありません。",
+    "이 브라우저에서 보낸 제보가 아직 없어요.",
+  ],
+  pending: ["Awaiting review", "待審核", "確認待ち", "검토 대기"],
+  approved: ["Accepted", "已收錄", "掲載済み", "승인"],
+  rejected: ["Not accepted", "未收錄", "未掲載", "미승인"],
+  withdrawn: ["Withdrawn", "已撤回", "撤回済み", "철회됨"],
+  active: ["Active", "有效", "有効", "활성"],
+  exhausted: ["Budget used up", "預算已用完", "予算を消化", "예산 소진"],
+  invalid: [
+    "Needs verification",
+    "需要重新驗證",
+    "再確認が必要",
+    "재검증 필요",
+  ],
+  sessionError: [
+    "Your browser session could not be loaded. Please refresh before submitting.",
+    "無法讀取瀏覽器工作階段，請重新整理後再送出。",
+    "ブラウザのセッションを読み込めませんでした。再読み込みしてから送信してください。",
+    "브라우저 세션을 불러오지 못했어요. 새로고침 후 제출해 주세요.",
+  ],
+  requestError: [
+    "The request could not be completed. Please try again.",
+    "無法完成要求，請稍後再試。",
+    "処理を完了できませんでした。再試行してください。",
+    "요청을 완료하지 못했어요. 다시 시도해 주세요.",
+  ],
+  httpsRequired: [
+    "Contributions require HTTPS or localhost. Open the secure website to continue.",
+    "貢獻功能需要 HTTPS 或 localhost，請開啟安全網址後繼續。",
+    "提供にはHTTPSまたはlocalhostが必要です。安全なURLで開いてください。",
+    "기여 기능은 HTTPS 또는 localhost에서만 사용할 수 있어요. 보안 주소로 접속해 주세요.",
+  ],
+  invalidToken: [
+    "Apify could not verify this token. Check its value and permissions.",
+    "Apify 無法驗證此權杖，請確認內容與權限。",
+    "Apifyでトークンを確認できませんでした。値と権限をご確認ください。",
+    "Apify에서 토큰을 검증하지 못했어요. 값과 권한을 확인하세요.",
+  ],
+  rateLimited: [
+    "Too many requests. Please wait a little before trying again.",
+    "要求次數過多，請稍後再試。",
+    "リクエストが多すぎます。しばらくしてから再試行してください。",
+    "요청이 너무 많아요. 잠시 후 다시 시도해 주세요.",
+  ],
+  invalidInput: [
+    "Please check the form fields and try again.",
+    "請確認表單內容後重試。",
+    "入力内容を確認して再試行してください。",
+    "입력 내용을 확인하고 다시 시도해 주세요.",
+  ],
+  aboutTitle: [
+    "A shared observatory for a small instrument with a big world.",
+    "為小小口琴，\n記錄大大的世界。",
+    "小さな楽器の、大きな世界を記録する。",
+    "작은 악기가 만드는 큰 세계의 기록.",
+  ],
+  aboutBody: [
+    "Harmonica Observatory connects public updates, events, people, and music collections. It grows from Harmonica in Taiwan, with a community contribution model inspired by Chumei Observatory.",
+    "口琴觀測站串連公開動態、活動、演奏者與樂譜資源。從臺灣口琴資料庫出發，採用竹梅活動觀測站的社群貢獻模式，逐步連結世界。",
+    "Harmonica Observatoryは、公開投稿、イベント、演奏家、楽譜をつなぎます。台湾のハーモニカ情報を基に、竹梅活動観測站のコミュニティ協力モデルを取り入れています。",
+    "Harmonica Observatory는 공개 소식, 행사, 연주자, 악보를 연결합니다. 대만 하모니카 자료에서 출발해 Chumei 관측소의 커뮤니티 기여 방식을 도입했습니다.",
+  ],
+  faq: [
+    "Frequently asked questions",
+    "常見問題",
+    "よくある質問",
+    "자주 묻는 질문",
+  ],
+  faqLangQ: [
+    "Does changing the language change what I see?",
+    "切換語言會改變看到的國家嗎？",
+    "表示言語を変えると、表示される国も変わりますか？",
+    "언어를 바꾸면 표시되는 국가도 바뀌나요?",
+  ],
+  faqLangA: [
+    "No. Interface language and country filters are independent. Source names, posts, and event descriptions remain in their original language.",
+    "不會。介面語言與國家篩選分開設定，來源名稱、貼文與活動敘述保留原文。",
+    "いいえ。表示言語と国の絞り込みは別の設定です。提供元の名前、投稿、イベント説明は原文を保持します。",
+    "아니요. 표시 언어와 국가 필터는 별도 설정입니다. 출처 이름, 게시물, 행사 설명은 원문으로 유지됩니다.",
+  ],
+  faqCostQ: [
+    "Do I need to pay to browse?",
+    "瀏覽需要付費嗎？",
+    "閲覧は有料ですか？",
+    "이용하려면 결제해야 하나요?",
+  ],
+  faqCostA: [
+    "No. Browsing is free. Apify contributions are optional and require your explicit consent and a budget limit.",
+    "不需要，瀏覽免費。Apify 貢獻完全自願，需要明確同意並設定預算上限。",
+    "閲覧は無料です。Apifyの利用枠の提供は任意で、明確な同意と予算上限の設定が必要です。",
+    "열람은 무료입니다. Apify 기여는 선택 사항이며 명시적 동의와 예산 상한 설정이 필요합니다.",
+  ],
+  faqDataQ: [
+    "Where does the information come from?",
+    "資訊從哪裡來？",
+    "情報はどこから取得していますか？",
+    "정보는 어디에서 가져오나요?",
+  ],
+  faqDataA: [
+    "From public sources and reviewed submissions. Social collection uses Apify. Every item links back to its source; check the organizer for final event details.",
+    "來自公開來源與經查證的投稿，社群抓取使用 Apify。每筆資料保留來源連結；活動細節請以主辦單位為準。",
+    "公開情報と確認済みの情報提供から収集しています。SNSの収集にはApifyを使用。各項目から原文に移動でき、イベントの詳細は主催者にご確認ください。",
+    "공개 출처와 검토된 제보에서 수집합니다. 소셜 정보 수집에는 Apify를 사용합니다. 각 항목은 원 출처로 연결되며 행사 세부 사항은 주최자에게 확인하세요.",
+  ],
+  faqWithdrawQ: [
+    "Can I withdraw a contribution?",
+    "可以撤回貢獻嗎？",
+    "提供を撤回できますか？",
+    "기여를 철회할 수 있나요?",
+  ],
+  faqWithdrawA: [
+    "Yes, from the same browser session used to contribute. Withdrawal prevents new work using your token. Existing Apify runs may finish and incurred charges are not reversed. You may also revoke the token in Apify.",
+    "可以，在原本提供貢獻的瀏覽器中撤回。撤回後不再用此權杖開始新工作，已執行中的 Apify 工作可能繼續，已產生的費用不會退回。你也可直接在 Apify 撤銷權杖。",
+    "提供したときと同じブラウザから撤回できます。新しい処理は停止しますが、実行中のApify処理は完了する場合があり、発生済みの料金は戻りません。Apifyでトークンを無効化することもできます。",
+    "기여한 브라우저에서 철회할 수 있습니다. 새 작업은 중단되지만 진행 중인 Apify 작업은 완료될 수 있으며 발생한 요금은 취소되지 않습니다. Apify에서 토큰을 직접 해지할 수도 있습니다.",
+  ],
+  faqCoverageQ: [
+    "Why are some countries missing?",
+    "為什麼有些國家沒有資料？",
+    "情報のない国があるのはなぜですか？",
+    "일부 국가에는 정보가 없는 이유가 뭔가요?",
+  ],
+  faqCoverageA: [
+    "Coverage reflects verified sources, not the size of a country’s harmonica scene. Help us improve it by submitting a public source.",
+    "目前範圍反映已查證的來源，不代表當地口琴活動的多寡。歡迎提供公開來源來補足。",
+    "掲載範囲は確認済みの情報源によるもので、その国の活動規模を表してはいません。公開情報の提供にご協力ください。",
+    "현재 범위는 검증된 출처를 반영하며 그 나라의 하모니카 활동 규모를 뜻하지는 않습니다. 공개 출처를 제보해 주세요.",
+  ],
+  privacyBody: [
+    "We collect only what is needed to operate this public-source directory and voluntary contribution service.",
+    "我們僅收集維持公開名錄與自願貢獻服務所需的資訊。",
+    "公開ディレクトリと任意の利用枠提供サービスの運営に必要な情報のみを扱います。",
+    "공개 목록과 자발적 기여 서비스를 운영하는 데 필요한 정보만 수집합니다.",
+  ],
+  privacyBrowserTitle: [
+    "In your browser",
+    "儲存在瀏覽器",
+    "ブラウザに保存する情報",
+    "브라우저 저장 정보",
+  ],
+  privacyBrowser: [
+    "Language and followed sources are stored locally. A private session cookie links your submissions and contributions to this browser. Clearing browser data may remove your ability to manage them.",
+    "語言與追蹤來源儲存在本機。私人工作階段 Cookie 用於連結此瀏覽器的投稿與貢獻；清除瀏覽器資料可能導致無法管理既有紀錄。",
+    "表示言語とフォロー情報をローカルに保存します。非公開セッションCookieで、このブラウザからの投稿と提供枠を管理します。ブラウザのデータを消去すると管理できなくなる場合があります。",
+    "언어와 팔로우 목록은 로컬에 저장됩니다. 비공개 세션 쿠키로 이 브라우저의 제보와 기여를 연결합니다. 브라우저 데이터를 지우면 기존 내역을 관리할 수 없게 될 수 있습니다.",
+  ],
+  privacyServerTitle: [
+    "On the server",
+    "儲存在伺服器",
+    "サーバーで扱う情報",
+    "서버 저장 정보",
+  ],
+  privacyServer: [
+    "Submitted URLs, notes, and contribution metadata are stored by this site. Apify tokens are encrypted at rest and are not returned in public responses. Tokens are used with Apify only for authorized collection and verification.",
+    "本站儲存投稿網址、說明與貢獻紀錄。Apify 權杖加密保存，不會出現在公開回應；僅用於授權的 Apify 抓取與驗證。",
+    "提供されたURL、補足、利用枠の記録を保存します。Apifyトークンは保存時に暗号化され、公開レスポンスには含まれません。承認された収集と確認にのみ使用します。",
+    "제보 URL, 설명, 기여 메타데이터를 저장합니다. Apify 토큰은 암호화해 저장하며 공개 응답에 포함하지 않습니다. 승인된 수집과 검증에만 사용합니다.",
+  ],
+  privacyExternalTitle: [
+    "Original sources & external media",
+    "原始來源與外部媒體",
+    "外部サイトとメディア",
+    "원 출처·외부 미디어",
+  ],
+  privacyExternal: [
+    "Original websites and externally hosted images follow their own privacy policies. Visiting them may disclose your IP address to their operators. Source content remains owned by its respective creators.",
+    "原始網站與外部圖片適用各自的隱私政策，瀏覽時可能向對方揭露 IP 位址。原始內容的權利仍屬原創作者。",
+    "外部サイトや画像には各運営者のプライバシーポリシーが適用され、アクセス時にIPアドレスが伝わる場合があります。元のコンテンツの権利は作者に帰属します。",
+    "외부 사이트와 이미지에는 각 운영자의 개인정보 정책이 적용되며 IP 주소가 전달될 수 있습니다. 원본 콘텐츠의 권리는 각 창작자에게 있습니다.",
+  ],
+  footerNote: [
+    "Independent, open, and made for the harmonica community.",
+    "獨立、開放，為口琴社群而存在。",
+    "独立した、ハーモニカコミュニティのための場所。",
+    "하모니카 커뮤니티를 위한 독립적이고 열린 공간.",
+  ],
+  dataLink: ["Open data", "開放資料", "公開データ", "공개 데이터"],
+  credit: [
+    "Inspired by Chumei Observatory",
+    "以竹梅活動觀測站為基礎",
+    "竹梅活動観測站を参考に制作",
+    "Chumei 관측소를 바탕으로 제작",
+  ],
+  notFound: [
+    "Page not found",
+    "找不到頁面",
+    "ページが見つかりません",
+    "페이지를 찾을 수 없어요",
+  ],
+  home: ["Return to discovery", "回到探索", "探索に戻る", "탐색으로 돌아가기"],
+  paused: ["Paused", "已暫停", "一時停止", "일시 중지"],
+  collectionSchedule: [
+    "Collection schedule",
+    "抓取排程",
+    "収集スケジュール",
+    "수집 일정",
+  ],
+  noCapacity: [
+    "No available collection budget",
+    "目前沒有可用抓取預算",
+    "利用できる収集予算がありません",
+    "사용 가능한 수집 예산이 없어요",
+  ],
+  cadenceLive: ["Collection estimate", "抓取估計", "収集の推定", "수집 추정치"],
+  confirmation: ["Confirm withdrawal", "確認撤回", "撤回を確認", "철회 확인"],
+  moreLinks: ["More links", "更多連結", "その他のリンク", "더 많은 링크"],
+  showing: [
+    "Showing {shown} of {total}",
+    "顯示 {shown}／{total} 筆",
+    "{total} 件中 {shown} 件表示",
+    "{total}개 중 {shown}개 표시",
+  ],
+  newWindow: [
+    "Opens in a new tab",
+    "在新分頁開啟",
+    "新しいタブで開く",
+    "새 탭에서 열기",
+  ],
+  sourceType_artist: ["Artist", "演奏者", "演奏家", "연주자"],
+  sourceType_ensemble: ["Ensemble", "樂團", "楽団", "앙상블"],
+  sourceType_club: ["Club", "社團", "クラブ", "동아리"],
+  sourceType_organization: ["Organization", "組織", "団体", "단체"],
+  sourceType_brand: [
+    "Maker / brand",
+    "製琴者／品牌",
+    "メーカー・ブランド",
+    "제작사·브랜드",
+  ],
+  sourceType_teacher: ["Teacher", "教師", "講師", "강사"],
+  sourceType_festival: ["Festival", "音樂節", "音楽祭", "음악제"],
+  sourceType_other: ["Other", "其他", "その他", "기타"],
+};
+export const locales = ["en", "zh-Hant", "ja", "ko"];
+export const languageNames = {
+  en: "English",
+  "zh-Hant": "繁體中文",
+  ja: "日本語",
+  ko: "한국어",
+};
+export const messages = Object.fromEntries(
+  locales.map((locale, index) => [
+    locale,
+    Object.fromEntries(
+      Object.entries(rows).map(([key, values]) => [key, values[index]]),
+    ),
+  ]),
+);
+export function normalizeLocale(value) {
+  const code = String(value || "").toLowerCase();
+  if (code.startsWith("zh")) return "zh-Hant";
+  if (code.startsWith("ja")) return "ja";
+  if (code.startsWith("ko")) return "ko";
+  if (code.startsWith("en")) return "en";
+  return null;
+}
+export function detectLocale() {
+  const query = new URLSearchParams(location.search).get("lang");
+  let saved;
+  try {
+    saved = localStorage.getItem("atlas-language");
+  } catch {}
+  return (
+    normalizeLocale(query) ||
+    normalizeLocale(saved) ||
+    (navigator.languages || [navigator.language])
+      .map(normalizeLocale)
+      .find(Boolean) ||
+    "en"
+  );
+}
+let activeLocale = typeof location === "undefined" ? "en" : detectLocale();
+export const getLocale = () => activeLocale;
+export function setLocale(value) {
+  activeLocale = normalizeLocale(value) || "en";
+  try {
+    localStorage.setItem("atlas-language", activeLocale);
+  } catch {}
+  document.documentElement.lang = activeLocale;
+}
+export function t(key, values = {}) {
+  return (messages[activeLocale][key] || messages.en[key] || key).replace(
+    /\{(\w+)\}/g,
+    (_, name) => String(values[name] ?? ""),
+  );
+}
+export function countryName(code, fallback = "") {
+  if (code === "WORLD") return t("international");
+  if (code === "ONLINE") return t("online");
+  if (!code || code === "UNKNOWN") return t("unknownCountry");
+  try {
+    return (
+      new Intl.DisplayNames([activeLocale], { type: "region" }).of(code) ||
+      fallback ||
+      code
+    );
+  } catch {
+    return fallback || code;
+  }
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f6f4ed" />
+    <meta
+      name="description"
+      content="Discover harmonica communities, public updates, events, and sheet music across the world. Available in English, Traditional Chinese, Japanese, and Korean."
+    />
+    <title>Harmonica Observatory</title>
+    <link rel="icon" type="image/svg+xml" href="/web/assets/favicon.svg" />
+    <link rel="stylesheet" href="/web/assets/style.css" />
+    <link rel="stylesheet" href="/web/assets/river.css" />
+    <link rel="stylesheet" href="/web/assets/views.css" />
+    <script type="module" src="/web/assets/app.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <!--SERVER_CONTENT-->
+      <main class="initial-loading" aria-busy="true">
+        <span class="loading-mark" aria-hidden="true">▥</span>
+        <p>Harmonica Observatory · 口琴觀測站</p>
+        <p>Loading · 載入中 · 読み込み中 · 불러오는 중</p>
+      </main>
+    </div>
+    <noscript
+      ><main class="initial-loading">
+        <h1>Harmonica Observatory</h1>
+        <p>
+          Please enable JavaScript to use the interactive observatory. / 請啟用
+          JavaScript。 / JavaScriptを有効にしてください。 / JavaScript를
+          활성화해 주세요.
+        </p>
+        <p>
+          <a href="/source/">Browse the directory / 瀏覽來源名錄</a> ·
+          <a href="/api/v1/catalog">Open JSON catalog</a>
+        </p>
+      </main></noscript
+    >
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <dialog id="confirm-dialog"></dialog>
+  </body>
+</html>

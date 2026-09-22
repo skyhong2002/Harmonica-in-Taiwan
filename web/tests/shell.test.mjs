@@ -1,0 +1,60 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { JSDOM } from 'jsdom';
+
+test('shell preserves preferences, exposes four languages and follows appearance changes', async () => {
+  const dom = new JSDOM('<html><head><meta name="theme-color"></head><body><main id="main"></main></body></html>', {url:'https://harmonica.observe.tw/?lang=en'});
+  const {window} = dom;
+  for (const key of ['window','document','location','navigator','localStorage']) Object.defineProperty(globalThis,key,{configurable:true,value:key==='window'?window:window[key]});
+  let dark = false, listener;
+  window.matchMedia = () => ({get matches(){return dark;},addEventListener(type, callback){listener=callback;}});
+  localStorage.setItem('atlas-following','["source-1"]');
+  localStorage.setItem('atlas-language','ja');
+  localStorage.setItem('atlas-theme','dark');
+  const {navigation,initializeShell,handleShellClick} = await import('../assets/shell.js');
+  const {setLocale} = await import('../assets/i18n.js');
+  initializeShell();
+  assert.equal(document.documentElement.dataset.theme,'dark');
+  const routes = {'/':'discover','/post/':'posts','/events/':'events','/source/':'sources','/scores/':'scores','/contribute/':'contribute','/privacy/':'privacy'};
+  document.body.innerHTML=navigation('/source/',routes)+'<main id="main"></main>';
+  assert.deepEqual([...document.querySelectorAll('#language-select option')].map(n=>n.value),['en','zh-Hant','ja','ko']);
+  assert.equal(document.querySelector('.site-nav [aria-current="page"]').getAttribute('href'),'/source/');
+  assert.equal(document.querySelector('a[href="/calendar/"]'),null);
+  const click = (selector) => handleShellClick({target:document.querySelector(selector)});
+  click('[data-shell-action="appearance"]');
+  assert.equal(document.querySelector('[data-shell-panel="appearance"]').hidden,false);
+  click('[data-theme-choice="light"]');
+  assert.equal(localStorage.getItem('observatory-appearance'),'light');
+  assert.equal(document.documentElement.dataset.theme,'light');
+  click('[data-theme-choice="system"]');
+  dark=true;listener();
+  assert.equal(document.documentElement.dataset.theme,'dark');
+  dark=false;listener();
+  assert.equal(document.documentElement.dataset.theme,'light');
+  assert.equal(localStorage.getItem('atlas-following'),'["source-1"]');
+  assert.equal(localStorage.getItem('atlas-language'),'ja');
+  for (const locale of ['en','zh-Hant','ja','ko']) {
+    setLocale(locale);
+    document.body.innerHTML=navigation('/',routes);
+    assert.match(document.querySelector('.brand').textContent,/Harmonica Observatory/);
+    assert.doesNotMatch(document.body.textContent,/Atlas|undefined/);
+    assert.equal(document.querySelector('#language-select').value,locale);
+  }
+  dom.window.close();
+});
+
+test('search navigation waits for the river before focusing its visible mobile input', async () => {
+  const dom = new JSDOM('<html><body><div id="app"><main id="main"></main></div></body></html>', {url:'https://harmonica.observe.tw/post/?lang=en&focus=search'});
+  const {window} = dom;
+  for (const key of ['window','document','location','navigator','localStorage']) Object.defineProperty(globalThis,key,{configurable:true,value:key==='window'?window:window[key]});
+  window.matchMedia = (query) => ({matches:query.includes('max-width'),addEventListener(){}});
+  const {initializeShell} = await import('../assets/shell.js?focus-test');
+  initializeShell();
+  document.querySelector('#main').innerHTML='<section class="river-mobile"><details class="col-picker"><summary>Filters</summary><input data-river-field="q"></details></section>';
+  await new Promise(resolve=>setTimeout(resolve,0));
+  assert.equal(document.activeElement.dataset.riverField,'q');
+  assert.equal(document.querySelector('.col-picker').open,true);
+  assert.equal(new URL(location.href).searchParams.get('focus'),null);
+  assert.equal(new URL(location.href).searchParams.get('lang'),'en');
+  dom.window.close();
+});
