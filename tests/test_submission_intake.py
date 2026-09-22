@@ -1,6 +1,7 @@
 import csv
 import datetime as dt
 import json
+import os
 import sys
 import tempfile
 import unittest
@@ -36,7 +37,7 @@ def proposal(decision: str, *, confidence: float = 0.95) -> dict:
         "confidence": confidence,
         "reason": "test",
         "target_public_id": "",
-        "source_patch": {},
+        "source_patch": {"country": "TW"},
         "event": {
             "event_name": "",
             "start": "",
@@ -185,6 +186,36 @@ class DedupeAndProposalTests(unittest.TestCase):
         self.assertEqual(reviewed["decision"], "add_source")
         self.assertTrue(auto_merge)
 
+    def test_source_without_country_is_not_assumed_taiwan(self):
+        value = proposal("add_source")
+        value["source_patch"] = {"name": "Global ensemble"}
+        reviewed, automatic = intake.enforce_proposal(value, {
+            intake.REPORT_TYPE: "新增來源或社團", intake.TARGET_NAME: "Global ensemble",
+            intake.PUBLIC_CONFIRMATION: "confirmed",
+        }, [public_evidence("https://example.org/ensemble")], [])
+        self.assertEqual(reviewed["decision"], "needs_review")
+        self.assertIn("missing_source_country", reviewed["risk_flags"])
+        self.assertFalse(automatic)
+
+    @mock.patch.dict(os.environ, {"HARMONICA_INTAKE_AI_COMMAND": ""})
+    @mock.patch("submission_intake.llm_backend.codex_chat")
+    @mock.patch("submission_intake.subprocess.run")
+    def test_ai_review_defaults_to_existing_codex_entitlement(self, run, codex):
+        codex.return_value = json.dumps({"choices": [{"message": {"content": json.dumps(proposal("reject"))}}]})
+        result = intake.run_ai_review("response", {}, [], [])
+        self.assertEqual(result["decision"], "reject")
+        codex.assert_called_once()
+        run.assert_not_called()
+        self.assertIn("worldwide", codex.call_args.args[0]["messages"][0]["content"])
+
+    @mock.patch.dict(os.environ, {"HARMONICA_INTAKE_AI_COMMAND": ""})
+    @mock.patch("submission_intake.llm_backend.codex_chat", side_effect=RuntimeError("quota exhausted"))
+    @mock.patch("submission_intake.subprocess.run")
+    def test_codex_quota_failure_has_no_paid_fallback(self, run, codex):
+        with self.assertRaisesRegex(intake.IntakeError, "retained for review"):
+            intake.run_ai_review("response", {}, [], [])
+        run.assert_not_called()
+
     def test_normalize_proposal_does_not_treat_string_false_as_true(self):
         raw = proposal("add_event")
         raw["event"] = {
@@ -235,7 +266,7 @@ class ApplySourceTests(unittest.TestCase):
 
     def test_add_assigns_next_public_id_and_update_keeps_stable_id(self):
         add = proposal("add_source")
-        add["source_patch"] = {"name": "新口琴樂團", "type": "團體"}
+        add["source_patch"] = {"name": "新口琴樂團", "type": "團體", "country": "JP"}
         result = intake.apply_source_change(
             self.root,
             "response-add",
@@ -259,6 +290,15 @@ class ApplySourceTests(unittest.TestCase):
         self.assertEqual(result["verification_key"], "重奏與公開演出")
         rows = intake.load_source_rows(self.root)
         self.assertEqual(intake.row_by_public_id(rows, "8")["focus"], "重奏與公開演出")
+
+    def test_add_without_country_stops_before_writing(self):
+        add = proposal("add_source")
+        add["source_patch"] = {"name": "Unknown location"}
+        before = (self.root / intake.SOURCE_CSV).read_bytes()
+        with self.assertRaisesRegex(intake.NeedsReview, "country"):
+            intake.apply_source_change(self.root, "missing", {intake.TARGET_NAME: "Unknown location"},
+                                       add, [public_evidence("https://example.org/new")])
+        self.assertEqual((self.root / intake.SOURCE_CSV).read_bytes(), before)
 
     def test_conflicting_existing_platform_url_requires_review(self):
         update = proposal("update_source")
@@ -299,6 +339,9 @@ class ApplyEventTests(unittest.TestCase):
                 "venue": "新竹市文化局演藝廳",
                 "city": "新竹市",
                 "details": "公開活動",
+                "country": "TW",
+                "timezone": "Asia/Taipei",
+                "event_mode": "physical",
             }
             evidence = [public_evidence("https://events.example.org/harmonica-2026")]
             first = intake.apply_event_change(root, "response-event", value, evidence)
@@ -309,6 +352,63 @@ class ApplyEventTests(unittest.TestCase):
                 newline="", encoding="utf-8-sig"
             ) as handle:
                 self.assertEqual(len(list(csv.DictReader(handle))), 1)
+
+
+class GlobalEventTests(unittest.TestCase):
+    def test_explicit_country_zone_and_mode_are_required(self):
+        full = {"country": "JP", "timezone": "Asia/Tokyo", "event_mode": "physical"}
+        self.assertEqual(intake.event_context(full), ("JP", "Asia/Tokyo", "overseas_physical"))
+        for field in full:
+            incomplete = {key: value for key, value in full.items() if key != field}
+            with self.assertRaises(intake.NeedsReview):
+                intake.event_context(incomplete)
+        with self.assertRaises(intake.NeedsReview):
+            intake.event_context({**full, "event_mode": "taiwan_physical"})
+        with self.assertRaises(intake.NeedsReview):
+            intake.event_context({**full, "timezone": "Asia/Invented"})
+        self.assertEqual(intake.event_context({"country": "WORLD", "timezone": "UTC", "event_mode": "online"})[2], "online")
+
+    def test_preserve_source_timezone_and_reject_offset_mismatch(self):
+        tokyo = intake.parse_event_time("2026-10-01T20:00:00+09:00", all_day=False, timezone="Asia/Tokyo")
+        self.assertEqual(tokyo.isoformat(), "2026-10-01T20:00:00+09:00")
+        self.assertEqual(str(tokyo.tzinfo), "Asia/Tokyo")
+        with self.assertRaisesRegex(intake.NeedsReview, "offset"):
+            intake.parse_event_time("2026-10-01T20:00:00+08:00", all_day=False, timezone="Asia/Tokyo")
+        with self.assertRaisesRegex(intake.NeedsReview, "offset"):
+            intake.parse_event_time("2026-03-08T02:30:00-05:00", all_day=False, timezone="America/New_York")
+        with self.assertRaisesRegex(intake.NeedsReview, "offset"):
+            intake.parse_event_time("2026-10-01T20:00:00", all_day=False, timezone="Asia/Tokyo")
+        self.assertEqual(intake.parse_event_time("2026-10-01", all_day=True).isoformat(), "2026-10-01")
+        with self.assertRaises(intake.NeedsReview):
+            intake.parse_event_time("2026-10-01T20:00:00Z", all_day=True)
+
+    def test_global_event_roundtrip_and_legacy_csv_migration(self):
+        from apply_submitted_events import load_submitted_events
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            path = root / intake.SUBMITTED_EVENTS_CSV
+            path.parent.mkdir(parents=True)
+            old_fields = [field for field in intake.EVENT_FIELDS if field not in {"country", "timezone", "event_mode"}]
+            with path.open('w', newline='', encoding='utf-8-sig') as handle:
+                writer = csv.DictWriter(handle, fieldnames=old_fields)
+                writer.writeheader()
+                writer.writerow({"submission_id": "old", "evidence_url": "https://example.org/old", "event_name": "Historical Taiwan", "start": "2026-08-01", "end": "2026-08-01", "all_day": "true", "venue": "Taipei"})
+            start = (dt.datetime.now(intake.ZoneInfo("Asia/Tokyo")) + dt.timedelta(days=10)).replace(microsecond=0)
+            value = proposal("add_event")
+            value["event"] = {"event_name": "Tokyo concert", "start": start.isoformat(),
+                "end": (start + dt.timedelta(hours=2)).isoformat(), "all_day": False,
+                "venue": "Tokyo concert hall", "country": "JP", "timezone": "Asia/Tokyo", "event_mode": "physical"}
+            result = intake.apply_event_change(root, "japan", value, [public_evidence("https://example.org/japan")])
+            self.assertIn("overseas-calendar-events.json", result["verification_url"])
+            events = load_submitted_events(path)
+            self.assertEqual(len(events), 2)
+            old, new = events
+            self.assertEqual(old["country"], "TW")
+            self.assertEqual(old["calendarType"], "taiwan_physical")
+            self.assertEqual(old["end"], "2026-08-02")
+            self.assertEqual(new["timezone"], "Asia/Tokyo")
+            self.assertEqual(new["calendarType"], "overseas_physical")
+            self.assertEqual(new["start"], start.isoformat())
 
 
 if __name__ == "__main__":

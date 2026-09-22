@@ -17,6 +17,8 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
+import apify_pool
+
 
 PROJECT_ROOT = Path(os.environ.get("HARMONICA_OBSERVE_HOME", Path(__file__).resolve().parents[1])).expanduser()
 DEFAULT_CONFIG = PROJECT_ROOT / "data" / "feeds" / "social_sources.json"
@@ -42,13 +44,6 @@ GENERIC_FACEBOOK_NAMES = {
     "people",
 }
 
-KEYCHAIN_CANDIDATES = [
-    (
-        os.environ.get("HARMONICA_APIFY_KEYCHAIN_SERVICE", "harmonica-observe-apify"),
-        os.environ.get("HARMONICA_APIFY_KEYCHAIN_ACCOUNT", "harmonica"),
-    ),
-    ("bamboo-apify", "bamboo"),
-]
 
 PRIORITY_SOURCE_IDS = [
     "fb_ntubluesound",
@@ -124,29 +119,9 @@ def append_errors(path: Path, errors: list[dict[str, Any]]) -> None:
 
 
 def read_token() -> tuple[str, str]:
-    for key in ("HARMONICA_APIFY_API_TOKEN", "BAMBOO_APIFY_API_TOKEN", "APIFY_TOKEN", "APIFY_API_TOKEN"):
-        value = os.environ.get(key)
-        if value:
-            return value.strip(), f"env:{key}"
-
-    seen_pairs: set[tuple[str, str]] = set()
-    for service, account in KEYCHAIN_CANDIDATES:
-        if not service or not account or (service, account) in seen_pairs:
-            continue
-        seen_pairs.add((service, account))
-        try:
-            result = subprocess.run(
-                ["security", "find-generic-password", "-s", service, "-a", account, "-w"],
-                capture_output=True,
-                text=True,
-                timeout=10,
-                check=False,
-            )
-        except (OSError, subprocess.SubprocessError):
-            continue
-        if result.returncode == 0 and result.stdout.strip():
-            return result.stdout.strip(), f"keychain:{service}/{account}"
-    return "", ""
+    """Legacy internal helper; only credentials authorized for this project."""
+    accounts = apify_pool.token_accounts()
+    return (accounts[0]["token"], "harmonica_pool") if accounts else ("", "")
 
 
 def actor_api_id(actor_id: str) -> str:
@@ -163,20 +138,21 @@ def apify_request(
     timeout: int = 60,
 ) -> Any:
     params = dict(query or {})
-    params["token"] = token
     url = APIFY_BASE + path + "?" + urllib.parse.urlencode(params)
     data = None
-    headers = {"Accept": "application/json", "User-Agent": "HarmonicaObserveApifyFetcher/1.0"}
+    headers = {"Accept": "application/json", "User-Agent": "HarmonicaObserveApifyFetcher/1.0",
+               "Authorization": "Bearer " + token}
     if body is not None:
         data = json.dumps(body, ensure_ascii=False).encode("utf-8")
         headers["Content-Type"] = "application/json"
     req = urllib.request.Request(url, data=data, headers=headers, method=method)
     try:
-        with urllib.request.urlopen(req, timeout=timeout) as response:
+        with apify_pool.open_request(req, timeout=timeout) as response:
             raw = response.read().decode("utf-8")
     except urllib.error.HTTPError as exc:
-        detail = exc.read().decode("utf-8", errors="replace")[:1200]
-        raise RuntimeError(f"Apify HTTP {exc.code}: {detail}") from exc
+        raise RuntimeError(f"Apify HTTP {exc.code}") from None
+    except urllib.error.URLError:
+        raise RuntimeError("Apify network request failed") from None
     return json.loads(raw) if raw else {}
 
 
@@ -279,7 +255,7 @@ def source_run_stats(ledger: dict[str, Any]) -> dict[str, dict[str, Any]]:
             item["attempt_count"] += 1
             if item.get("last_attempted_at") is None or finished > item["last_attempted_at"]:
                 item["last_attempted_at"] = finished
-            if status == "SUCCEEDED":
+            if status == "SUCCEEDED" and sid in row.get("confirmed_source_ids", row.get("source_ids") or []):
                 item["success_count"] += 1
                 if item.get("last_successful_at") is None or finished > item["last_successful_at"]:
                     item["last_successful_at"] = finished
@@ -416,7 +392,7 @@ def apify_input(sources: list[dict[str, Any]], results_limit: int, days_back: in
 
 
 def estimate_max_charge_usd(results_limit: int, source_count: int) -> float:
-    return round(0.006 + 0.005 * max(results_limit, source_count, 1), 4)
+    return round(0.006 + 0.005 * max(results_limit, 1) * max(source_count, 1), 4)
 
 
 def max_sources_for_budget(budget_usd: float, results_limit: int, hard_max_sources: int) -> int:
@@ -505,15 +481,11 @@ def fetch_user_limits(token: str) -> dict[str, Any]:
 
 
 def run_cost(row: dict[str, Any]) -> float:
-    for key in ("usage_total_usd", "platform_usage_total_usd", "remote_usage_delta_usd", "charged_usd"):
-        value = row.get(key)
-        if isinstance(value, (int, float)) and value > 0:
-            return float(value)
-    for key in ("reserved_usd", "max_total_charge_usd"):
-        value = row.get(key)
-        if isinstance(value, (int, float)) and value > 0:
-            return float(value)
-    return 0.0
+    # Preliminary event billing can lag; never restore a local daily allowance
+    # below the full charge cap already authorized for the remote actor.
+    amounts = [row.get(key) for key in ("usage_total_usd", "platform_usage_total_usd", "remote_usage_delta_usd",
+                                       "charged_usd", "reserved_usd", "max_total_charge_usd")]
+    return max((float(value) for value in amounts if isinstance(value, (int, float)) and value > 0), default=0.0)
 
 
 def budget_window_cost(ledger: dict[str, Any], since: dt.datetime) -> float:
@@ -1031,6 +1003,7 @@ def run_actor(
     timeout_secs: int,
     poll_secs: float,
     include_video_transcript: bool,
+    reservation_id: str | None = None,
 ) -> tuple[dict[str, Any], list[dict[str, Any]]]:
     actor_id = actor_api_id(FACEBOOK_POSTS_ACTOR)
     body = apify_input(sources, results_limit, days_back, include_video_transcript)
@@ -1052,7 +1025,10 @@ def run_actor(
     ).get("data", {})
     run_id = run_data.get("id")
     if not run_id:
-        raise RuntimeError(f"Apify did not return a run id: {run_data}")
+        raise RuntimeError("Apify did not return a run id; budget remains reserved")
+
+    if reservation_id:
+        apify_pool.record_run_started(reservation_id, run_id)
 
     deadline = time.monotonic() + timeout_secs + 45
     while run_data.get("status") not in TERMINAL_STATUSES:
@@ -1089,6 +1065,8 @@ def usage_total_usd(run_data: dict[str, Any]) -> float | None:
 
 
 def main() -> int:
+    from run_pipeline import load_dotenv
+    load_dotenv(PROJECT_ROOT / ".env")
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", type=Path, default=DEFAULT_CONFIG)
     parser.add_argument("--inbox", type=Path, default=DEFAULT_INBOX)
@@ -1155,41 +1133,42 @@ def main() -> int:
 
     all_sources = load_facebook_sources(args.config, args.source_id)
     ledger = load_json(args.ledger, {"runs": [], "next_source_index": 0})
-    token, token_source = read_token()
-    remote_limits: dict[str, Any] = {}
+    # Read-only quota refresh; all billable requests require a later atomic pool
+    # reservation. Owner caps are per account, so community capacity adds usable
+    # collection capacity rather than hitting the old global owner ledger cap.
+    os.environ["HARMONICA_APIFY_MONTHLY_BUDGET_USD"] = str(args.monthly_budget_usd)
+    pool = apify_pool.pool_status(refresh=args.run or args.check)
+    token, token_source = "", "harmonica_pool"
+    remote_limits = {}
     remote_budget_fetch_error = ""
-    if token:
-        try:
-            remote_limits = fetch_user_limits(token)
-        except Exception as exc:
-            if args.run:
-                raise
-            remote_budget_fetch_error = str(exc)
-
-    use_auto_budget_pacing = args.auto_budget_pacing and bool(remote_limits) and not args.full_refresh and not args.source_id
-    pacing_status = budget_pacing_plan(
-        remote_limits,
-        source_count=len(all_sources),
-        results_limit=args.results_limit,
-        configured_max_sources=args.max_sources_per_run,
-        configured_min_sources=args.min_sources_per_run,
-        monthly_budget_usd=args.monthly_budget_usd,
-        daily_budget_usd=args.daily_budget_usd,
-        max_run_budget_usd=args.max_run_budget_usd,
-        pacing_multiplier=args.budget_pacing_multiplier,
-        auto_budget_pacing=use_auto_budget_pacing,
-    )
-    if remote_budget_fetch_error:
-        pacing_status["remote_budget_check_error"] = remote_budget_fetch_error
+    available = pool["platforms"]["facebook"]["maxRunBudgetUsd"]
+    run_budget = min(available, args.max_run_budget_usd) if args.max_run_budget_usd > 0 else available
+    if args.daily_budget_usd > 0:
+        day_start = local_day_start_utc(dt.datetime.now(dt.timezone.utc))
+        run_budget = min(run_budget, max(0.0, args.daily_budget_usd - budget_window_cost(ledger, day_start)))
+    if args.max_total_charge_usd > 0:
+        run_budget = min(run_budget, args.max_total_charge_usd)
+    use_auto_budget_pacing = True
+    pacing_status = {
+        "budget_pacing_mode": "community_pool",
+        "planned_run_budget_usd": round(run_budget, 6),
+        "planned_max_sources_per_run": max_sources_for_budget(run_budget, args.results_limit,
+            min(args.max_sources_per_run or len(all_sources), len(all_sources))),
+        "planned_min_sources_per_run": 0,
+        "pool": pool,
+    }
 
     if args.full_refresh or args.source_id:
-        max_sources = 0
+        max_sources = int(pacing_status.get("planned_max_sources_per_run") or 0)
     elif use_auto_budget_pacing:
         max_sources = int(pacing_status.get("planned_max_sources_per_run") or 0)
     else:
         max_sources = args.max_sources_per_run if args.max_sources_per_run > 0 else len(all_sources)
     min_sources = int(pacing_status.get("planned_min_sources_per_run") if use_auto_budget_pacing else args.min_sources_per_run)
     selection_status: dict[str, Any] = {"selection_mode": args.selection_mode}
+    if args.run and max_sources <= 0:
+        print(json.dumps({"ok": True, "skipped": True, "skip_reason": "pool_budget_pacing_wait", **pacing_status}))
+        return 0
     if args.full_refresh:
         sources, start_index = select_sources(all_sources, ledger, max_sources)
         selection_status["selection_mode"] = "full-refresh"
@@ -1235,45 +1214,11 @@ def main() -> int:
         return 0
     max_items = args.max_items if args.max_items > 0 else max(args.results_limit * max(len(sources), 1), max(len(sources), 1))
     estimated_actor_price_usd = estimate_max_charge_usd(args.results_limit, len(sources)) if sources else 0.0
-    reserve = args.max_total_charge_usd if args.max_total_charge_usd > 0 else estimated_actor_price_usd
-    budget_status: dict[str, Any]
-    try:
-        budget_status = enforce_budget(ledger, reserve, args.daily_budget_usd, args.monthly_budget_usd)
-    except Exception as exc:
-        if args.run:
-            raise
-        budget_status = {"budget_guard_blocked": True, "budget_guard_error": str(exc)}
-    remote_budget_status: dict[str, Any] = {}
-    if token and remote_limits:
-        try:
-            remote_budget_status = enforce_remote_monthly_budget(remote_limits, reserve, args.monthly_budget_usd)
-        except Exception as exc:
-            if args.run:
-                raise
-            remote_budget_status = {"remote_budget_check_error": str(exc)}
-    elif remote_budget_fetch_error:
-        remote_budget_status = {"remote_budget_check_error": remote_budget_fetch_error}
-    cap_candidates = []
-    if args.max_total_charge_usd > 0:
-        cap_candidates.append(args.max_total_charge_usd)
-    else:
-        planned_run_budget = pacing_status.get("planned_run_budget_usd")
-        if sources and isinstance(planned_run_budget, (int, float)) and planned_run_budget > 0:
-            cap_candidates.append(float(planned_run_budget))
-        if args.daily_budget_usd > 0:
-            cap_candidates.append(float(budget_status.get("daily_remaining_usd") or 0.0))
-    if args.monthly_budget_usd > 0:
-        cap_candidates.append(float(budget_status.get("monthly_remaining_usd") or 0.0))
-    remote_remaining = remote_budget_status.get("remote_monthly_remaining_usd")
-    if isinstance(remote_remaining, (int, float)) and remote_remaining > 0:
-        cap_candidates.append(float(remote_remaining))
-    actor_spend_cap_usd = round(min(cap_candidates), 4) if sources and cap_candidates else None
-    if actor_spend_cap_usd is not None and actor_spend_cap_usd <= 0:
-        if args.run:
-            raise RuntimeError("Budget guard blocked run: no Apify spend remains for the active budget window.")
-        budget_status.setdefault("budget_guard_blocked", True)
-        budget_status.setdefault("budget_guard_error", "Budget guard blocked run: no Apify spend remains for the active budget window.")
-        actor_spend_cap_usd = None
+    actor_spend_cap_usd = round(min(run_budget, estimated_actor_price_usd), 4) if sources and run_budget > 0 else None
+    reserve = actor_spend_cap_usd or 0.0
+    budget_status = {"monthly_remaining_usd": pool.get("remainingUsd"),
+                     "daily_remaining_usd": available, "owner_monthly_cap_usd": args.monthly_budget_usd}
+    remote_budget_status = {"remote_monthly_remaining_usd": pool.get("remainingUsd")}
 
     plan = {
         "actor": FACEBOOK_POSTS_ACTOR,
@@ -1294,7 +1239,7 @@ def main() -> int:
         "force": args.force,
         "ledger": str(args.ledger),
         "inbox": str(args.inbox),
-        "has_token": bool(token),
+        "has_token": pool["accountCount"] > 0,
         "token_source": token_source,
         "auto_budget_pacing": args.auto_budget_pacing,
         **pacing_status,
@@ -1308,8 +1253,8 @@ def main() -> int:
         print(json.dumps({"dry_run": not args.run, **plan}, ensure_ascii=False, indent=2))
         return 0
 
-    if not token:
-        raise SystemExit("Missing Apify token. Set HARMONICA_APIFY_API_TOKEN or store one in Keychain.")
+    if not actor_spend_cap_usd:
+        raise SystemExit("Apify pool has no verified budget available for this run.")
     if not sources:
         raise SystemExit("No enabled facebook_page_posts sources selected.")
     if args.results_limit < 1 or args.results_limit > 20:
@@ -1319,7 +1264,10 @@ def main() -> int:
 
     started_at = dt.datetime.now(dt.timezone.utc).isoformat()
     errors: list[dict[str, Any]] = []
-    remote_before = fetch_user_limits(token)
+    remote_before = {}
+    apify_pool.verify_actor_cap(FACEBOOK_POSTS_ACTOR, actor_spend_cap_usd)
+    reservation = apify_pool.reserve_run("facebook", actor_spend_cap_usd, source_count=len(sources))
+    token = reservation["token"]
     try:
         run_data, items = run_actor(
             token,
@@ -1332,11 +1280,17 @@ def main() -> int:
             timeout_secs=args.timeout_secs,
             poll_secs=args.poll_secs,
             include_video_transcript=args.include_video_transcript,
+            reservation_id=reservation["id"],
         )
+        apify_pool.finish_run(reservation["id"], status=run_data.get("status"),
+                              actual_cost_usd=usage_total_usd(run_data), actor_run_id=run_data.get("id"))
+        if run_data.get("status") != "SUCCEEDED":
+            raise RuntimeError("Apify Facebook run did not succeed")
         actor_error_items = [item for item in items if is_actor_error_item(item)]
         post_items = [item for item in items if not is_actor_error_item(item)]
         rows = [normalize_item(item, sources) for item in post_items]
         rows = [row for row in rows if row.get("url") or row.get("text")]
+        confirmed_source_ids = sorted({row["source_id"] for row in rows if row.get("source_id")})
         rows, dropped_old, dropped_undated = local_recent_filter(
             rows,
             args.local_max_post_age_days,
@@ -1346,7 +1300,7 @@ def main() -> int:
         if not args.no_write:
             append_jsonl(args.inbox, new_rows)
     except Exception as exc:
-        errors.append({"source_id": "apify_facebook_posts", "source_type": "apify", "error": str(exc)})
+        errors.append({"source_id": "apify_facebook_posts", "source_type": "apify", "error": str(exc).replace(token, "[redacted]")})
         append_errors(args.errors, errors)
         run_data = {"id": "", "status": "LOCAL_ERROR"}
         items = []
@@ -1355,11 +1309,9 @@ def main() -> int:
         dropped_old = 0
         dropped_undated = 0
         new_rows = []
+        confirmed_source_ids = []
 
-    try:
-        remote_after = fetch_user_limits(token)
-    except Exception:
-        remote_after = {}
+    remote_after = {}
     platform_usage = usage_total_usd(run_data)
     remote_delta = None
     if remote_after:
@@ -1372,7 +1324,7 @@ def main() -> int:
         for value in (remote_delta, platform_usage)
         if isinstance(value, (int, float)) and value > 0
     ]
-    charged = max(charge_candidates) if charge_candidates else 0.0
+    charged = max(charge_candidates) if charge_candidates else None
     if all_sources:
         ledger["next_source_index"] = (start_index + len(sources)) % len(all_sources)
     record = {
@@ -1382,6 +1334,8 @@ def main() -> int:
         "run_id": run_data.get("id"),
         "status": run_data.get("status"),
         "source_ids": [source.get("id") for source in sources],
+        "confirmed_source_ids": confirmed_source_ids,
+        "pool_reservation_id": reservation["id"],
         "results_limit": args.results_limit,
         "days_back": args.days_back,
         "local_max_post_age_days": args.local_max_post_age_days,

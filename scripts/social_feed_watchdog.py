@@ -25,6 +25,8 @@ from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
 
+import llm_backend
+
 import public_tags
 
 
@@ -2017,6 +2019,11 @@ def merge_tags(primary: list[Any], fallback: list[Any], *, limit: int = 8) -> li
 
 
 def read_llm_token(service: str, account: str) -> tuple[str, str]:
+    import llm_backend
+    if llm_backend.provider() == "disabled":
+        return "", "disabled"
+    if llm_backend.provider() == "codex":
+        return "codex-cli-session", "codex-cli"
     for key in ("HARMONICA_LLM_API_KEY", "HARMONICA_OPENAI_API_KEY", "OPENAI_API_KEY"):
         value = os.environ.get(key)
         if value:
@@ -2125,6 +2132,14 @@ def chat_response_text(response: dict[str, Any]) -> str:
 
 
 def curl_json(url: str, token: str, body: dict[str, Any], timeout: int) -> str:
+    import llm_backend
+    selected_provider = llm_backend.provider()
+    if selected_provider == "disabled":
+        raise RuntimeError("LLM inference is disabled")
+    if selected_provider == "codex":
+        return llm_backend.codex_chat(body, timeout)
+    if token == "codex-cli-session":
+        raise RuntimeError("Explicit OpenAI API mode requires an API key")
     body_path = ""
     try:
         with tempfile.NamedTemporaryFile("w", encoding="utf-8", delete=False) as handle:
@@ -2186,14 +2201,14 @@ def llm_prompt(post: dict[str, Any], keyword_matches: list[str]) -> list[dict[st
         {
             "role": "system",
             "content": (
-                "你是臺灣口琴觀測站的社群貼文分類器。"
+                "你是全球口琴觀測站的多語社群貼文分類器。"
                 "只根據公開貼文文字、來源與 URL 判斷。只回傳 JSON，不要 Markdown。"
             ),
         },
         {
             "role": "user",
             "content": (
-                "判斷這篇公開貼文是否值得收進臺灣口琴公開更新。"
+                "判斷這篇公開貼文是否值得收進全球口琴公開更新。不論國家或語言，相關的公開口琴資訊都可收錄。"
                 "只要是口琴演出、音樂會、成發、課程、招生、社博、迎新、交流、"
                 "比賽、報名、甄選、補助、指定曲、口琴影片、限時動態、口琴社團或口琴演奏者公開更新，就算相關。"
                 "如果只是一般音樂、班多鈕/手風琴、一般藝文活動，或來源名稱含 harmonica 但貼文內容無關，請標成不相關。"
@@ -2240,7 +2255,8 @@ def classify_with_llm(
     normalized = normalize_llm_result(parsed)
     return {
         **normalized,
-        "llm_model": model,
+        "llm_model": llm_backend.resolved_model(response_json, model),
+        "llm_provider": llm_backend.provider(),
         "llm_tagged_at": dt.datetime.now(dt.timezone.utc).isoformat(),
     }
 
@@ -2267,13 +2283,7 @@ def cached_llm_classification(
         return cached
 
     stats["requests"] = int(stats.get("requests") or 0) + 1
-    attempts = max(1, int(os.environ.get("HARMONICA_LLM_RETRIES", "3") or "3"))
-    fallback_models = [
-        item.strip()
-        for item in os.environ.get("HARMONICA_LLM_FALLBACK_MODELS", "").split(",")
-        if item.strip()
-    ]
-    models = unique_limited([model, *fallback_models])
+    attempts, models = llm_backend.retry_policy(model)
     last_error: Exception | None = None
     result: dict[str, Any] | None = None
     for candidate_model in models:
@@ -2411,7 +2421,7 @@ def main() -> int:
     parser.add_argument("--no-llm-tags", dest="llm_tags", action="store_false")
     parser.add_argument("--llm-cache", type=Path, default=DEFAULT_LLM_CACHE)
     parser.add_argument("--llm-base-url", default=os.environ.get("HARMONICA_LLM_BASE_URL", OPENAI_BASE_URL))
-    parser.add_argument("--llm-model", default=os.environ.get("HARMONICA_LLM_MODEL", DEFAULT_LLM_MODEL))
+    parser.add_argument("--llm-model", default=__import__("llm_backend").model_name())
     parser.add_argument("--llm-timeout", type=int, default=int(os.environ.get("HARMONICA_LLM_TIMEOUT", "45")))
     parser.add_argument(
         "--llm-confidence-threshold",
@@ -2474,8 +2484,9 @@ def main() -> int:
                     "facebook_sources": sum(1 for source in sources if source.get("type") == "facebook_page_posts"),
                     "has_meta_token": bool(token),
                     "llm_tags_requested": bool(args.llm_tags),
-                    "llm_base_url": args.llm_base_url,
-                    "llm_model": args.llm_model,
+                    "llm_base_url": llm_backend.runtime_metadata(args.llm_model, args.llm_base_url)["base_url"],
+                    "llm_model": llm_backend.runtime_metadata(args.llm_model, args.llm_base_url)["model"],
+                    "llm_provider": llm_backend.provider(),
                     "llm_cache": str(args.llm_cache),
                     "llm_keychain_service": args.llm_keychain_service,
                     "llm_keychain_account": args.llm_keychain_account,
@@ -2542,8 +2553,7 @@ def main() -> int:
     llm_stats: dict[str, Any] = {
         "requested": bool(args.llm_tags),
         "enabled": llm_should_tag,
-        "model": args.llm_model,
-        "base_url": args.llm_base_url,
+        **llm_backend.runtime_metadata(args.llm_model, args.llm_base_url),
         "token_source": llm_token_source,
         "cached": 0,
         "requests": 0,
@@ -2551,7 +2561,7 @@ def main() -> int:
         "cache_changed": False,
     }
     if args.llm_tags and not llm_token:
-        llm_stats["disabled_reason"] = "missing_api_key"
+        llm_stats["disabled_reason"] = "provider_disabled" if llm_backend.provider() == "disabled" else "missing_api_key"
     elif args.llm_tags and args.baseline:
         llm_stats["disabled_reason"] = "baseline"
     elif args.llm_tags and first_run and not args.emit_initial:

@@ -13,6 +13,8 @@ import urllib.error
 from pathlib import Path
 from typing import Any
 
+import llm_backend
+
 import build_public_data
 import social_feed_watchdog as watchdog
 
@@ -129,7 +131,7 @@ def prompt_for_entry(entry: dict[str, object]) -> list[dict[str, str]]:
         {
             "role": "system",
             "content": (
-                "你是臺灣口琴觀測站的公開來源索引分類器。"
+                "你是全球口琴觀測站的公開來源索引分類器。"
                 "任務是替人、演奏者、學生社團、樂團、教學來源、活動平台等來源本身貼 tag。"
                 "只根據提供的公開欄位判斷，不要臆測私人資料。只回傳 JSON，不要 Markdown。"
             ),
@@ -174,7 +176,8 @@ def classify_entry(
     response_json = json.loads(response_body)
     response_text = watchdog.chat_response_text(response_json)
     parsed = watchdog.extract_json_object(response_text)
-    return normalize_result(parsed, entry, model)
+    return {**normalize_result(parsed, entry, llm_backend.resolved_model(response_json, model)),
+            "llm_provider": llm_backend.provider()}
 
 
 def cached_classify(
@@ -194,13 +197,7 @@ def cached_classify(
         stats["cached"] = int(stats.get("cached") or 0) + 1
         return items[cache_key]
 
-    attempts = max(1, int(os.environ.get("HARMONICA_LLM_RETRIES", "3") or "3"))
-    fallback_models = [
-        item.strip()
-        for item in os.environ.get("HARMONICA_LLM_FALLBACK_MODELS", "").split(",")
-        if item.strip()
-    ]
-    models = watchdog.unique_limited([model, *fallback_models])
+    attempts, models = llm_backend.retry_policy(model)
     last_error: Exception | None = None
     result: dict[str, Any] | None = None
     for candidate_model in models:
@@ -237,7 +234,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--llm-base-url", default=os.environ.get("HARMONICA_LLM_BASE_URL", watchdog.OPENAI_BASE_URL))
-    parser.add_argument("--llm-model", default=os.environ.get("HARMONICA_LLM_MODEL", watchdog.DEFAULT_LLM_MODEL))
+    parser.add_argument("--llm-model", default=__import__("llm_backend").model_name())
     parser.add_argument("--llm-timeout", type=int, default=int(os.environ.get("HARMONICA_LLM_TIMEOUT", "45")))
     parser.add_argument("--llm-keychain-service", default=os.environ.get("HARMONICA_LLM_KEYCHAIN_SERVICE", watchdog.DEFAULT_LLM_KEYCHAIN_SERVICE))
     parser.add_argument("--llm-keychain-account", default=os.environ.get("HARMONICA_LLM_KEYCHAIN_ACCOUNT", watchdog.DEFAULT_LLM_KEYCHAIN_ACCOUNT))
@@ -250,13 +247,12 @@ def main() -> int:
 
     token, token_source = watchdog.read_llm_token(args.llm_keychain_service, args.llm_keychain_account)
     if not token:
-        raise SystemExit("Missing OpenAI API key. Set HARMONICA_LLM_API_KEY in .env or store one in Keychain.")
+        raise SystemExit("LLM provider is disabled." if llm_backend.provider() == "disabled" else "Missing OpenAI API key. Set HARMONICA_LLM_API_KEY in .env or store one in Keychain.")
 
     cache = load_cache(args.output)
     entries = build_public_data.build_entries()
     stats: dict[str, Any] = {
-        "model": args.llm_model,
-        "base_url": args.llm_base_url,
+        **llm_backend.runtime_metadata(args.llm_model, args.llm_base_url),
         "token_source": token_source,
         "cached": 0,
         "requests": 0,

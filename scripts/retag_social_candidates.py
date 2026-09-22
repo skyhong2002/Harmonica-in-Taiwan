@@ -12,6 +12,8 @@ import urllib.error
 from pathlib import Path
 from typing import Any
 
+import llm_backend
+
 import social_feed_watchdog as watchdog
 
 
@@ -106,7 +108,7 @@ def main() -> int:
     parser.add_argument("--output", type=Path)
     parser.add_argument("--llm-cache", type=Path, default=DEFAULT_LLM_CACHE)
     parser.add_argument("--llm-base-url", default=os.environ.get("HARMONICA_LLM_BASE_URL", watchdog.OPENAI_BASE_URL))
-    parser.add_argument("--llm-model", default=os.environ.get("HARMONICA_LLM_MODEL", watchdog.DEFAULT_LLM_MODEL))
+    parser.add_argument("--llm-model", default=llm_backend.model_name())
     parser.add_argument("--llm-timeout", type=int, default=int(os.environ.get("HARMONICA_LLM_TIMEOUT", "45")))
     parser.add_argument(
         "--llm-confidence-threshold",
@@ -132,15 +134,14 @@ def main() -> int:
 
     token, token_source = watchdog.read_llm_token(args.llm_keychain_service, args.llm_keychain_account)
     if not token:
-        raise SystemExit("Missing OpenAI API key. Set HARMONICA_LLM_API_KEY in .env or store one in Keychain.")
+        raise SystemExit("LLM provider is disabled." if llm_backend.provider() == "disabled" else "Missing OpenAI API key. Set HARMONICA_LLM_API_KEY in .env or store one in Keychain.")
 
     config = watchdog.load_json(args.config, {"keywords": []})
     keywords = config.get("keywords") or []
     rows = read_jsonl(args.candidates)
     cache = watchdog.load_json(args.llm_cache, {"version": 1, "items": {}})
     stats: dict[str, Any] = {
-        "model": args.llm_model,
-        "base_url": args.llm_base_url,
+        **llm_backend.runtime_metadata(args.llm_model, args.llm_base_url),
         "token_source": token_source,
         "cached": 0,
         "requests": 0,

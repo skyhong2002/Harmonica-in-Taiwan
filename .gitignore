@@ -35,3 +35,9 @@ site/redirects/
 site/status/
 site/assets/feed-images/
 site/assets/source-avatars/
+
+# Generated compatibility shells for the local multilingual application.
+site/events/
+site/contribute/
+site/about/
+site/privacy/

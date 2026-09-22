@@ -1,6 +1,6 @@
+# The app serves both multilingual pages and the compatible legacy API/feed URLs.
+# Run serve.py on 127.0.0.1:8330 with HARMONICA_PUBLIC_ORIGIN set below.
 harmonica.observe.tw {
 	encode zstd gzip
-	root * "/Users/skyhong/Documents/Harmonica-in-Taiwan/site"
-	try_files {path} {path}/ /index.html
-	file_server
+	reverse_proxy 127.0.0.1:8330
 }

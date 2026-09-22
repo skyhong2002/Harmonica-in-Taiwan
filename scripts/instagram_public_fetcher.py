@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Account-independent Instagram collectors, adapted from skyhong2002/chumei.
 
-Stories use intropix/instagram-stories-scraper; profiles try the logged-out
-endpoint first. Only this project's configured Apify credential is used.
-The pipeline lock serializes these collectors with the Facebook collector.
+Stories and profiles use the isolated Harmonica Apify contribution pool.
+The logged-out endpoint is an explicit optional fallback. Shared reservations
+protect contributed authorization across concurrent collectors.
 """
 from __future__ import annotations
 
@@ -23,7 +23,8 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-from apify_facebook_fetcher import read_token, load_json, save_json
+from apify_facebook_fetcher import load_json, save_json
+import apify_pool
 from run_pipeline import PROJECT_ROOT, load_dotenv, acquire_lock, release_lock
 
 STATE = PROJECT_ROOT / "state/instagram_public.json"
@@ -58,7 +59,7 @@ def api(method, path, token, *, body=None, query=None):
         data = json.dumps(body).encode()
         headers["Content-Type"] = "application/json"
     try:
-        with urllib.request.urlopen(urllib.request.Request(url, data, headers, method=method), timeout=35) as response:
+        with apify_pool.open_request(urllib.request.Request(url, data, headers, method=method), timeout=35) as response:
             return json.load(response)
     except urllib.error.HTTPError as exc:
         raise RuntimeError(f"Apify HTTP {exc.code} ({path.split('/')[1]})") from None
@@ -237,8 +238,17 @@ def normalize_profile(source, item):
 def run_actor(state, token, actor, body, max_results, budget, now, save):
     # Reserve and persist BEFORE the billable POST. Unknown outcomes never trigger
     # blind paid retries, and a crash cannot silently restore the spend allowance.
+    reservation = None
+    if state.get("_use_pool"):
+        apify_pool.verify_actor_cap(actor, budget)
+        reservation = apify_pool.reserve_run(
+            "instagram_stories" if actor == STORY_ACTOR else "instagram", budget,
+            source_count=len(body.get("usernames", [])), result_count=max_results if actor == STORY_ACTOR else 0)
+        token = reservation["token"]
     receipt = {"at": iso(now), "actor": actor, "reserved_usd": budget,
                "reserved_results": max_results, "status": "starting"}
+    if reservation:
+        receipt["pool_reservation_id"] = reservation["id"]
     state.setdefault("runs", []).append(receipt)
     save()
     run = api("POST", "/acts/" + actor.replace("/", "~") + "/runs", token, body=body,
@@ -247,6 +257,8 @@ def run_actor(state, token, actor, body, max_results, budget, now, save):
     if not run.get("id"):
         raise RuntimeError("Apify run id missing; budget remains reserved")
     receipt.update(id=run["id"], status=run.get("status"))
+    if reservation:
+        apify_pool.record_run_started(reservation["id"], run["id"])
     save()
     deadline = time.monotonic() + 345
     while run.get("status") not in {"SUCCEEDED", "FAILED", "TIMED-OUT", "ABORTED"}:
@@ -258,13 +270,16 @@ def run_actor(state, token, actor, body, max_results, budget, now, save):
     if isinstance(run.get("usageTotalUsd"), (float, int)):
         receipt["cost_usd"] = run["usageTotalUsd"]
     save()
+    if reservation:
+        apify_pool.finish_run(reservation["id"], status=run.get("status"),
+                              actual_cost_usd=run.get("usageTotalUsd"), actor_run_id=run.get("id"))
     if run.get("status") != "SUCCEEDED":
         raise RuntimeError(f"Apify run ended with {run.get('status')}")
     items = api("GET", f"/datasets/{run['defaultDatasetId']}/items", token,
                 query={"format": "json", "clean": "true", "limit": max_results})
     outcome = api("GET", f"/key-value-stores/{run['defaultKeyValueStoreId']}/records/OUTPUT", token) if actor == STORY_ACTOR else {}
     receipt["delivered"] = max(len(items), int(outcome.get("delivered") or 0))
-    if outcome.get("outcome") == "denied":
+    if outcome.get("outcome") == "denied" and not reservation:
         # The actor explicitly confirms that a denied run scraped nothing and
         # incurred no event charge; do not invent spend on this retry path.
         receipt.update(reserved_usd=0.0, cost_usd=0.0, reserved_results=0)
@@ -284,7 +299,11 @@ def collect_stories(state, sources, token, limits, cap, now, save, wanted):
     today = iso(now)[:10]
     delivered = sum(int(r.get("delivered", r.get("reserved_results", 0))) for r in state.get("runs", [])
                     if r.get("actor") == STORY_ACTOR and r.get("at", "").startswith(today))
-    available = daily_budget(state, limits, cap, now) if token and limits else 0
+    if state.get("_use_pool"):
+        available = apify_pool.available_budget("instagram_stories", now=now)
+        delivered = 0  # Per-account result allowance is atomically enforced by the pool.
+    else:
+        available = daily_budget(state, limits, cap, now) if token and limits else 0
     targets, results, budget = story_plan(available, len(selected), delivered)
     section.update(available_usd=round(available, 6), daily_results=delivered)
     if not targets:
@@ -386,6 +405,60 @@ def collect_profiles(state, sources, token, limits, cap, now, save, wanted):
     save()
 
 
+
+def collect_profiles_pool(state, sources, token, limits, cap, now, save, wanted):
+    """Apify is primary; direct public requests require an explicit opt-in."""
+    section = state.setdefault("profile", {})
+    if float(section.get("next_run_at") or 0) > now:
+        return
+    selected = select_due(sources, state, "instagram_public", now, 5, wanted)
+    if not selected:
+        section.update(status="ok", reason="no_sources_due")
+        return
+    section.update(checked_at=iso(now), next_run_at=now + 3 * 3600, scanned=0, successful=0)
+    available = apify_pool.available_budget("instagram", now=now)
+    count = min(len(selected), max(0, math.floor((available + 1e-9) / 0.006)))
+    success = 0
+    attempted = set()
+    if count:
+        batch = selected[:count]
+        items, _ = run_actor(state, "", PROFILE_ACTOR,
+                             {"usernames": [s["username"] for s in batch], "includeAboutSection": False},
+                             count, round(count * 0.006, 6), now, save)
+        found = {str(item.get("username", "")).casefold(): item for item in items if isinstance(item, dict)}
+        for source in batch:
+            attempted.add(source["id"])
+            item = found.get(source["username"].casefold())
+            try:
+                if not item:
+                    raise ValueError("Apify profile result unavailable")
+                posts = normalize_profile(source, item)
+                record_source(state, source, posts, now, backend="apify_public")
+                success += 1
+            except ValueError as exc:
+                record_source(state, source, [], now, error=str(exc), backend="apify_public")
+    allow_direct = os.environ.get("HARMONICA_INSTAGRAM_PUBLIC_FALLBACK", "0") == "1"
+    if allow_direct and float(section.get("direct_cooldown_until") or 0) <= now:
+        for source in selected:
+            if source["id"] in attempted:
+                continue
+            try:
+                posts = fetch_public_profile(source)
+                record_source(state, source, posts, now, backend="instagram_public")
+                success += 1
+                attempted.add(source["id"])
+            except (OSError, ValueError) as exc:
+                section["direct_cooldown_until"] = now + 86400
+                section["direct_error"] = f"Public Instagram unavailable ({getattr(exc, 'code', type(exc).__name__)})"
+                break
+    section.update(status="ok" if success == len(selected) else "paused" if not attempted else "degraded",
+                   scanned=len(attempted), successful=success, available_usd=available,
+                   reason="" if success == len(selected) else "pool_budget_pacing" if not count else "partial_scan",
+                   primary_backend="apify", direct_fallback_enabled=allow_direct)
+    if success:
+        section["last_success_at"] = iso(now)
+    save()
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--accounts", default="")
@@ -404,23 +477,17 @@ def main():
             if post.get("platform") == "instagram":
                 state["history"].setdefault(post.get("account", ""), []).append(post)
         sources = load_json(CONFIG, {}).get("sources", [])
-        token, _ = read_token()
-        limits = {}
-        try:
-            if token:
-                limits = api("GET", "/users/me/limits", token).get("data", {})
-        except RuntimeError as exc:
-            state["quota_error"] = str(exc)
-        else:
-            state.pop("quota_error", None)
-        cap = float(os.environ.get("HARMONICA_APIFY_MONTHLY_BUDGET_USD", "4"))
-        state["quota"] = {"remaining_usd": remaining_credit(limits, cap), "monthly_cap_usd": cap,
-                          "cycle_end": limits.get("monthlyUsageCycle", {}).get("endAt"), "checked_at": iso(now)}
+        state["_use_pool"] = True
+        token, limits, cap = "", {}, 0
+        quota = apify_pool.pool_status(refresh=True, now=now)
+        state["quota"] = {"remaining_usd": quota.get("remainingUsd"), "monthly_cap_usd": None,
+                          "checked_at": iso(now), "pool": quota}
+        state.pop("quota_error", None)
         def save():
             state["updated_at"] = iso()
-            save_json(STATE, {k: v for k, v in state.items() if k != "history"})
+            save_json(STATE, {k: v for k, v in state.items() if k not in {"history", "_use_pool"}})
         wanted = {s.strip().lstrip("@").lower() for s in args.accounts.split(",") if s.strip()}
-        for kind, collector in (("story", collect_stories), ("profile", collect_profiles)):
+        for kind, collector in (("story", collect_stories), ("profile", collect_profiles_pool)):
             if args.kind not in ("all", kind):
                 continue
             try:
@@ -429,13 +496,9 @@ def main():
                 state.setdefault(kind, {}).update(status="degraded", reason=str(exc)[:240], checked_at=iso(now), next_run_at=now + 3 * 3600)
             save()
             print(json.dumps({kind: state.get(kind, {})}, ensure_ascii=False))
-            if token and kind == "story":
-                try:
-                    limits = api("GET", "/users/me/limits", token).get("data", {})
-                    state["quota"]["remaining_usd"] = remaining_credit(limits, cap)
-                except RuntimeError:
-                    limits = {}  # Never spend against an unverified shared balance.
-                save()
+            state["quota"]["pool"] = apify_pool.pool_status(now=time.time())
+            state["quota"]["remaining_usd"] = state["quota"]["pool"].get("remainingUsd")
+            save()
         return 0
     finally:
         if not args.pipeline_lock_held:

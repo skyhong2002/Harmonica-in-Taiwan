@@ -1,0 +1,146 @@
+# Apify collection and contributed capacity
+
+The collector integration adapts Chumei's pooled quota, conservative pacing and
+contribution model, with an independent Harmonica database, key and run ledger.
+It never reads the Chumei or Bamboo project's credentials, database or state.
+
+## Providers
+
+| Content | Default provider | Fallback |
+| --- | --- | --- |
+| Facebook public posts | `apify/facebook-posts-scraper` | None |
+| Instagram public profiles/posts | `apify/instagram-profile-scraper` | Logged-out Instagram only when `HARMONICA_INSTAGRAM_PUBLIC_FALLBACK=1` |
+| Instagram stories | `intropix/instagram-stories-scraper` | None |
+| Threads / RSS sources | Existing RSSHub/RSS adapters | Existing configured public fallbacks |
+| YouTube | Existing public YouTube adapter | Existing configured behavior |
+
+This does not claim that every upstream is Apify. Existing source identifiers,
+feed inbox shapes, story expiry, cached assets and archive deduplication remain
+compatible. Only public content is collected; private Instagram profiles are
+rejected.
+
+## Credentials and storage
+
+Use the project's `.venv/bin/python` for the service **and all collectors**;
+community tokens require the `cryptography` dependency in `requirements.txt`.
+
+Owner credentials are `HARMONICA_APIFY_API_TOKEN`, `APIFY_TOKEN`,
+`APIFY_API_TOKEN`, or `APIFY_TOKEN_*` from this project's environment. Duplicate
+tokens are deduplicated. When no environment credential exists, the existing
+`harmonica-observe-apify` / `harmonica` Keychain entry can be used on macOS.
+`HARMONICA_APIFY_USE_KEYCHAIN=0` disables that fallback. No Bamboo credential
+fallback is retained. Credentials once registered as contributions never fall
+back to owner authorization after exhaustion or revocation, even if an identical
+token remains in the owner environment.
+
+Community contributions use `scripts/community.py` and the local service API.
+Each contributor explicitly authorizes a **cumulative lifetime budget**, not an
+automatically renewed monthly budget. Tokens are encrypted in
+`state/community/community.sqlite3` with a separate local key. The browser can
+revoke its own contribution; revocation stops new reservations immediately.
+Already authorized remote runs may finish. Never put tokens in public source
+files, URL parameters, log messages, generated pages or Git.
+
+`state/apify_pool.json` is a private, mode-0600 accounting file containing hashed
+credential/provider identifiers and sanitized reservations, never tokens. Its
+adjacent lock serializes all collector decisions. Both files stay outside the
+served `site/` root. A corrupt ledger pauses collection instead of silently
+resetting spending limits. Preserve the ledger when moving the service.
+
+Multiple API tokens for the same Apify user are recognized through a hashed
+provider account ID. They share provider headroom and daily usage; they do not
+multiply the account's capacity. For conservative public planning only the
+largest remaining authorization for that provider is counted at a time.
+
+## Spending policy
+
+1. GET `/v2/users/me/limits` and `/v2/users/me` verifies quota and account identity.
+   A quota must have a valid current cycle and be at most one hour old before a
+   new reservation. Missing, stale, failed or unverified quota cannot fund a run.
+2. The owner monthly cap defaults to `HARMONICA_APIFY_MONTHLY_BUDGET_USD=4`, per
+   provider account, including provider-wide reported monthly usage. Community
+   contributions retain their explicit lifetime caps. The old global Facebook
+   owner-only cap does not erase capacity added by contributors.
+3. US$0.02 per provider account remains protected. Available capacity is spread
+   across remaining cycle days, with 50% for Facebook, 25% for Instagram posts
+   and 25% for stories. Unused daily portions are not borrowed by another
+   platform. This avoids one collector consuming another's entire allowance.
+4. Under one file lock, the pool rechecks quota, shared reservations, daily
+   allowance, and the contributor's atomic SQLite authorization. It reserves
+   the full request charge cap **before** making any billable POST.
+5. Before reservation, a read-only actor metadata query confirms current
+   `PAY_PER_EVENT` pricing and that the planned cap meets its minimum. An unknown
+   pricing model pauses collection. Every paid actor request supplies `maxTotalChargeUsd`, a finite timeout and
+   `restartOnError=false`. Selection rotates eligible credentials. An ambiguous
+   POST is never retried using another token.
+6. Apify event billing can lag the terminal result. The complete run charge cap
+   remains charged against local authorization even if preliminary reported
+   usage is smaller. Reported cost is separate telemetry. Outstanding runs and
+   runs completed less than 24 hours before a verified quota snapshot also
+   reduce provider headroom.
+7. Story result reservations enforce at most 10 results/run and 40 results/day
+   per provider account, across all credentials. Unknown outcomes retain their
+   result allowance and spending reservation.
+
+Apify's `maxMonthlyUsageUsd` is an account **spending limit**, not proof of free
+prepaid credit. This service does not purchase a plan or raise a provider limit,
+but an authorized run can charge the contributor's Apify account up to the
+specified run cap. The UI must describe remaining *authorized capacity*, not
+promise that all collection is free. Set the account's own Apify billing limit
+as appropriate before contributing a token.
+
+The conservative policy can underuse authorized funds. There is deliberately no
+automatic release for a timed-out or ambiguous run. An operator must first
+verify the provider's final billing and execution outcome before any manual
+ledger correction; deleting the state file to resume collection is unsafe.
+
+## Status and validation
+
+Read cached, sanitized aggregate status without launching actors:
+
+```sh
+.venv/bin/python scripts/apify_pool.py
+```
+
+Refresh read-only provider metadata and print the aggregate (still no actors):
+
+```sh
+.venv/bin/python scripts/apify_pool.py --refresh
+```
+
+Collector commands `scripts/apify_facebook_fetcher.py --run` and
+`scripts/instagram_public_fetcher.py` can spend authorized funds and should run
+only through the configured pipeline after quota review.
+
+`pool_status()`/`public_status()` returns only aggregate counts/capacity and
+per-platform available daily budgets. Unknown capacity is `null`, never an
+invented zero or reset. `crawl_schedule_snapshot()` calculates a current
+per-platform estimate from verified capacity and enabled sources; registration
+quota is usable immediately and revocation removes it immediately.
+
+The estimated days are a planning model, not a delivery promise. They use
+conservative complete-batch costs (not a fetched vendor price quote), actual
+source counts, and a maximum of eight collector batches/day. Facebook reserves
+five posts per source, including a startup allowance; Instagram profiles reserve
+US$0.006 each; the story model assumes one result per source. Contributions below
+a minimum viable daily batch add no estimated collection capacity. The modeled
+minimum budgets are US$0.031 for Facebook, US$0.006 for an Instagram profile and
+US$0.0095 for a story source; runtime actor minimums are checked separately. Existing adaptive source
+cadence, provider outages, batch minimum charges and a disabled/slower scheduler
+can reduce achieved collection frequency. The API exposes these assumptions and
+`schedulerVerified: false`; last successful observations remain separate data.
+
+Focused offline checks:
+
+```sh
+.venv/bin/python -m unittest discover -s tests -p 'test_apify_pool.py'
+.venv/bin/python -m unittest discover -s tests -p 'test_instagram_public_fetcher.py'
+```
+
+They exercise concurrent reservations, unknown and stale quota, account
+identity deduplication, contributor revocation, lagging billing, story limits,
+secret-safe metadata, and reservation-before-POST without a paid actor run.
+
+Official API references: [account limits](https://docs.apify.com/api/v2/users-me-limits-get),
+[actor start options](https://docs.apify.com/api/client/js/reference/interface/ActorStartOptions),
+[subscription and spending limits](https://docs.apify.com/account/subscriptions).

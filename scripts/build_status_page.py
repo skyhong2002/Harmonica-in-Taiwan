@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import collections
+import argparse
 import datetime as dt
 import email.utils
 import html
@@ -523,6 +524,7 @@ def public_instagram_component(state: dict[str, Any], sources: list[dict[str, An
         "user_daily_exhausted": "供應商今日免費筆數已用完",
         "free_capacity_exhausted": "供應商免費容量暫滿，一小時後重試",
         "public_unavailable_credit_reserve": "公開貼文端點受限，Apify 保留額度不足以補抓",
+        "pool_budget_pacing": "Apify 社群池依授權額度分配，等待下次可用預算",
         "no_sources_due": "依排程等待下一批來源",
         "partial_scan": "部分來源或圖片抓取失敗",
     }
@@ -550,8 +552,18 @@ def public_instagram_component(state: dict[str, Any], sources: list[dict[str, An
         if reason:
             details.append(f"{title}狀態：{reason}。")
     quota = state.get("quota", {})
-    details.append(f"可用月額度 US${float(quota.get('remaining_usd') or 0):.3f}；設定上限 US${float(quota.get('monthly_cap_usd') or 0):g}；每日按剩餘天數分配，與 Facebook 共用。")
-    details.append(f"額度週期結束：{time_label(parse_time(quota.get('cycle_end')))}；限動每批最多 10 個來源、10 筆，每日最多 40 筆。")
+    pool = quota.get("pool")
+    if isinstance(pool, dict):
+        remaining = pool.get("remainingUsd")
+        capacity = f"US${float(remaining):.3f}" if isinstance(remaining, (int, float)) else "尚未驗證"
+        details.append(f"Apify 社群池可用授權額度 {capacity}；{pool.get('verifiedAccountCount', 0)} 個已驗證帳戶，{pool.get('unknownAccountCount', 0)} 個額度待確認。")
+        details.append("依帳戶剩餘天數分配 Facebook 50%、Instagram 貼文 25%、限動 25%；完整執行上限先行保留，未確認費用不回補。")
+        details.append("限動每批最多 10 個來源、10 筆；每個 Apify 帳戶每日最多 40 筆。")
+    else:
+        remaining = quota.get('remaining_usd')
+        capacity = f"US${float(remaining):.3f}" if isinstance(remaining, (int, float)) else "尚未驗證"
+        details.append(f"可用月額度 {capacity}；每日按剩餘天數分配，與 Facebook 共用。")
+        details.append(f"額度週期結束：{time_label(parse_time(quota.get('cycle_end')))}；限動每批最多 10 個來源、10 筆，每帳戶每日最多 40 筆。")
     if state.get("quota_error"):
         details.append(f"額度檢查：{state['quota_error']}")
     statuses = [r["status"] for r in sections.values()]
@@ -562,7 +574,7 @@ def public_instagram_component(state: dict[str, Any], sources: list[dict[str, An
     return result
 
 
-def build_status() -> dict[str, Any]:
+def build_status(*, offline: bool = False) -> dict[str, Any]:
     now = dt.datetime.now(dt.timezone.utc)
     sources = enabled_watch_sources()
     source_by_id = {str(source.get("id")): source for source in sources if source.get("id")}
@@ -628,9 +640,14 @@ def build_status() -> dict[str, Any]:
     current_error_platforms = collections.Counter(row["platform"] for row in annotated_current_errors)
     current_error_types = collections.Counter(row["sourceType"] for row in annotated_current_errors)
 
-    launch_agent = launch_agent_status()
-    rsshub_probe = probe_url("http://127.0.0.1:1200/")
-    apify = apify_check()
+    if offline:
+        launch_agent = {"available": False, "status": "unknown", "summary": "Offline build: live service not checked."}
+        rsshub_probe = {"ok": False, "statusCode": None, "elapsedMs": 0, "error": "Offline build: endpoint not probed."}
+        apify = {"ok": False, "error": "Offline build: provider quota not checked."}
+    else:
+        launch_agent = launch_agent_status()
+        rsshub_probe = probe_url("http://127.0.0.1:1200/")
+        apify = apify_check()
 
     watch_platforms = source_counts(sources, "platform")
     watch_types = source_counts(sources, "type")
@@ -899,6 +916,19 @@ def build_status() -> dict[str, Any]:
             "socialFetch": social_progress,
         },
     }
+    if offline:
+        status["probeMode"] = "offline"
+        status["crawlFrequency"] = {"available": False, "estimate": True, "platforms": {}, "reason": "offline_build"}
+        for item in status["components"]:
+            if item["id"] in {"rsshub", "facebook-apify"}:
+                item.update(status="unknown", label=STATUS_LABELS["unknown"],
+                                 summary="Offline build: live availability and provider quota were not checked.", details=[])
+        return status
+    try:
+        from apify_pool import crawl_schedule_snapshot
+        status["crawlFrequency"] = crawl_schedule_snapshot(now=now.timestamp(), sources=sources)
+    except (OSError, RuntimeError, ValueError):
+        status["crawlFrequency"] = {"available": False, "estimate": True, "platforms": {}}
     return status
 
 
@@ -1135,7 +1165,10 @@ def render_status_page(status: dict[str, Any]) -> str:
 
 
 def main() -> int:
-    status = build_status()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--offline", action="store_true", help="Build cached status without network, credentials or live service probes.")
+    args = parser.parse_args()
+    status = build_status(offline=args.offline)
     STATUS_JSON_OUT.parent.mkdir(parents=True, exist_ok=True)
     STATUS_JSON_OUT.write_text(json.dumps(status, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     STATUS_PAGE_OUT.parent.mkdir(parents=True, exist_ok=True)

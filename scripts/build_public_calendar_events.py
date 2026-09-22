@@ -13,6 +13,8 @@ import os
 import sys
 from pathlib import Path
 from typing import Any
+
+import llm_backend
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 import social_feed_watchdog as watchdog
@@ -781,7 +783,7 @@ def llm_calendar_prompt(item: dict[str, Any], start: str, end: str, context: str
         {
             "role": "system",
             "content": (
-                "你是臺灣口琴觀測站的公開活動日曆審核器。"
+                "你是全球口琴觀測站的公開活動日曆審核器。"
                 "只根據公開貼文文字判斷，收錄公開口琴活動；"
                 "收錄範圍是：臺灣實體活動、臺灣以外的國外實體活動，以及國內外有明確時間的線上直播/線上講座/線上音樂會。"
                 "三種 eventMode 必須互斥；有直播或線上報名資訊的實體活動仍依實際舉辦地點分類。"
@@ -1525,7 +1527,7 @@ def main() -> int:
     parser.add_argument("--no-llm", action="store_true")
     parser.add_argument("--llm-cache", type=Path, default=DEFAULT_LLM_CACHE)
     parser.add_argument("--llm-base-url", default=os.environ.get("HARMONICA_LLM_BASE_URL", watchdog.OPENAI_BASE_URL))
-    parser.add_argument("--llm-model", default=os.environ.get("HARMONICA_LLM_MODEL", watchdog.DEFAULT_LLM_MODEL))
+    parser.add_argument("--llm-model", default=__import__("llm_backend").model_name())
     parser.add_argument("--llm-timeout", type=int, default=int(os.environ.get("HARMONICA_LLM_TIMEOUT", "45")))
     parser.add_argument("--llm-keychain-service", default=os.environ.get("HARMONICA_LLM_KEYCHAIN_SERVICE", watchdog.DEFAULT_LLM_KEYCHAIN_SERVICE))
     parser.add_argument("--llm-keychain-account", default=os.environ.get("HARMONICA_LLM_KEYCHAIN_ACCOUNT", watchdog.DEFAULT_LLM_KEYCHAIN_ACCOUNT))
@@ -1565,7 +1567,8 @@ def main() -> int:
     llm_metadata = {
         "enabled": bool(llm_token),
         "tokenSource": llm_token_source,
-        "model": args.llm_model if llm_token else "",
+        "model": llm_backend.runtime_metadata(args.llm_model, args.llm_base_url)["model"] if llm_token else "",
+        "provider": llm_backend.provider(),
         "stats": llm_cache.get("stats") or {},
     }
     events_by_mode = {

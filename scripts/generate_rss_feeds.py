@@ -25,6 +25,8 @@ import report_links
 import site_chrome
 
 
+OFFLINE = False
+
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 SITE_ROOT = PROJECT_ROOT / "site"
 SITE_DATA = SITE_ROOT / "data" / "site-data.js"
@@ -95,9 +97,9 @@ GENERIC_SOURCE_NAMES = {
 FEED_CATEGORIES = [
     {
         "id": "events",
-        "title": "臺灣口琴觀測站：口琴公開活動",
+        "title": "Harmonica Observatory · 口琴觀測站：口琴公開活動",
         "short_title": "公開活動",
-        "description": "國內口琴公開活動，以及國內外有明確時間的線上口琴直播、講座與音樂會。",
+        "description": "世界各地的公開口琴活動，以及有明確時間的線上口琴直播、講座與音樂會。",
         "page_title": "口琴公開活動",
         "page_intro": "國內口琴演出、成發、音樂會、講座、工作坊、音樂節，以及國內外有明確時間的線上口琴直播、講座與音樂會。",
         "rss_path": "feeds/events.xml",
@@ -106,10 +108,10 @@ FEED_CATEGORIES = [
     },
     {
         "id": "posts-videos",
-        "title": "臺灣口琴觀測站：口琴貼文與影片發布",
+        "title": "Harmonica Observatory · 口琴觀測站：口琴貼文與影片發布",
         "short_title": "貼文影片",
-        "description": "全臺灣公開口琴相關社群貼文、影片發布與公開更新。",
-        "page_title": "全臺灣口琴相關貼文與影片發布",
+        "description": "世界各地的公開口琴社群貼文、影片發布與公開更新。",
+        "page_title": "世界口琴貼文與影片發布",
         "page_intro": "公開社群貼文、YouTube 或影片發布、活動倒數、花絮、演奏內容與其他口琴圈公開更新。",
         "rss_path": "feeds/posts-videos.xml",
         "json_path": "feeds/posts-videos.json",
@@ -117,7 +119,7 @@ FEED_CATEGORIES = [
     },
     {
         "id": "student-clubs",
-        "title": "臺灣口琴觀測站：口琴學生社團動態",
+        "title": "Harmonica Observatory · 口琴觀測站：口琴學生社團動態",
         "short_title": "學生社團",
         "description": "全臺灣大專與高中職口琴社團公開動態。",
         "page_title": "全臺灣口琴學生社團動態",
@@ -128,7 +130,7 @@ FEED_CATEGORIES = [
     },
     {
         "id": "opportunities",
-        "title": "臺灣口琴觀測站：補助與比賽資訊",
+        "title": "Harmonica Observatory · 口琴觀測站：補助與比賽資訊",
         "short_title": "補助比賽",
         "description": "口琴社團需要知道的補助、徵件、甄選、比賽、報名與截止資訊。",
         "page_title": "口琴社團需要知道的補助與比賽資訊",
@@ -474,6 +476,8 @@ def cache_remote_image(url: str, image_dir: Path, public_prefix: str, max_bytes:
             return f"{public_prefix}/{webp_path.name}"
         return f"{public_prefix}/{existing_path.name}"
 
+    if OFFLINE:
+        return ""
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "HarmonicaObserveImageCache/1.0"})
         with urllib.request.urlopen(req, timeout=20) as response:
@@ -762,7 +766,7 @@ def fetch_html_profile(source: dict[str, Any]) -> dict[str, str]:
         "profile_url": profile_url,
         "avatar_source_url": "",
     }
-    if not profile_url:
+    if not profile_url or OFFLINE:
         return profile
 
     try:
@@ -798,6 +802,8 @@ def fetch_html_profile(source: dict[str, Any]) -> dict[str, str]:
 
 
 def fetch_source_profile(source: dict[str, Any]) -> dict[str, str]:
+    if OFFLINE:
+        return source_profile_from_config(str(source.get("id") or ""), source)
     if source.get("type") in {"youtube_ytdlp", "facebook_page_posts"}:
         return fetch_html_profile(source)
 
@@ -1784,7 +1790,7 @@ def generate_updates(
     persist_source_profiles(SOURCE_PROFILE_BY_ID)
     write_update_rss(
         UPDATES_OUT,
-        "臺灣口琴觀測站：公開更新",
+        "Harmonica Observatory · 口琴觀測站：公開更新",
         "公開口琴活動、貼文與資訊候選更新。",
         f"{PUBLIC_BASE_URL}/feeds/",
         public_rows,
@@ -2853,7 +2859,7 @@ def generate_sources(limit: int) -> int:
     entries = all_entries[:limit] if limit and limit > 0 else all_entries
     now = dt.datetime.now(dt.timezone.utc)
     rss = build_channel(
-        "臺灣口琴觀測站：來源索引",
+        "Harmonica Observatory · 口琴觀測站：來源索引",
         "公開口琴社團、團體、演奏者、教學與場館的來源索引。",
         f"{PUBLIC_BASE_URL}/#directory",
     )
@@ -2906,7 +2912,9 @@ def generate_sources(limit: int) -> int:
 
 
 def main() -> int:
+    global OFFLINE
     parser = argparse.ArgumentParser()
+    parser.add_argument("--offline", action="store_true", help="Use cached profile/media data only; never fetch remote resources.")
     parser.add_argument("--updates-days", type=int, default=DEFAULT_UPDATE_WINDOW_DAYS)
     parser.add_argument("--updates-limit", type=int, default=0)
     parser.add_argument("--sources-limit", type=int, default=0)
@@ -2924,6 +2932,7 @@ def main() -> int:
         help="Cache an explicitly verified avatar URL for a configured source; repeat as needed.",
     )
     args = parser.parse_args()
+    OFFLINE = args.offline
 
     avatar_source_overrides: dict[str, str] = {}
     for value in args.profile_avatar_source:
