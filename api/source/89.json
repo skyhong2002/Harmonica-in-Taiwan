@@ -1,26 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T03:07:36.058809Z",
+  "generatedAt": "2026-09-22T03:47:56.332176Z",
   "source": {
     "id": 89,
     "slug": "baba-harmonica-studio",
     "name": "巴巴口琴坊",
     "pageUrl": "https://harmonica.observe.tw/source/89-baba-harmonica-studio/"
   },
-  "items": [
-    {
-      "id": "post-0ebff4b6db235d00a96b02b8",
-      "title": "因為口琴，我們相遇。 因為音樂，我們成為朋友。 這十年裡的陪伴，我們有著數不清的故事。",
-      "excerpt": "因為口琴，我們相遇。 因為音樂，我們成為朋友。 這十年裡的陪伴，我們有著數不清的故事。 《拾光琴緣》不只是十週年音樂會，也是屬於我們這十年的回憶。 這一次，來聽聽我們的 【快問快答】 —— 從「第一次認識彼此」開始，聊聊那些因為口琴而發生的故事。🎶",
-      "url": "https://www.instagram.com/p/DcXheDNyZKn/",
-      "sourceName": "巴巴口琴坊",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-23T03:32:18Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/4299ba5ed52a5995d28d.webp",
-        "width": 800,
-        "height": 1416
-      }
-    }
-  ]
+  "items": []
 }
