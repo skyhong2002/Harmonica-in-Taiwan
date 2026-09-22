@@ -1,6 +1,7 @@
 import { observatoryHome } from "./home.js";
 import { bindStories } from "./stories.js";
 import { bindGoogleCalendar } from "./google-calendar.js";
+import { eventsView, bindEvents } from "./events.js";
 import { scoresView, scoreSourcesView } from "./scores.js";
 import { navigation, footer, initializeShell, handleShellClick } from "./shell.js";
 import { timelineView, bindTimeline } from "./timeline.js";
@@ -51,7 +52,8 @@ let catalog = null,
   searchTimer,
   timelineCleanup,
   calendarCleanup,
-  storiesCleanup;
+  storiesCleanup,
+  eventsCleanup;
 let following = new Set();
 try {
   following = new Set(
@@ -202,7 +204,8 @@ function body() {
   if (key === "posts") return pageHeading("posts", "latestBody") + timelineView(catalog, state, following, limit);
   if (key === "scores") return scoresView(catalog, state, limit);
   if (key === "scoreSources") return scoreSourcesView(catalog, state, limit);
-  if (["sources", "events"].includes(key))
+  if (key === "events") return eventsView(catalog, state, following, limit);
+  if (key === "sources")
     return listView(key, data[key]);
   if (key === "feeds") return feedsView(catalog);
   if (key === "about") return aboutView();
@@ -226,6 +229,7 @@ function render({ focus = false } = {}) {
   timelineCleanup?.();
   calendarCleanup?.();
   storiesCleanup?.();
+  eventsCleanup?.();
   renderVersion++;
   setLocale(getLocale());
   const current = routes[path()] || "sources";
@@ -239,6 +243,7 @@ function render({ focus = false } = {}) {
     `<main id="main" class="main-container${path() === "/post/" ? " timeline-main" : path() === "/" ? " home-main" : ""}" tabindex="-1">${body()}</main>` +
     footer();
   if (isTimeline && catalog) timelineCleanup = bindTimeline(app);
+  if (path() === "/events/" && catalog) eventsCleanup = bindEvents(app);
   if (path() === "/" && catalog) {
     calendarCleanup = bindGoogleCalendar(app);
     storiesCleanup = bindStories(app, { catalog });
@@ -401,6 +406,8 @@ app.addEventListener("click", (event) => {
   if (follow) {
     const id = follow.dataset.follow;
     const postId = follow.closest("[data-timeline-post]")?.dataset.timelinePost;
+    const eventId = follow.closest("[data-event-id]")?.dataset.eventId;
+    const eventPost = follow.closest("[data-event-post]")?.dataset.eventPost;
     const wasFocused = document.activeElement === follow;
     if (following.has(id)) following.delete(id);
     else following.add(id);
@@ -412,6 +419,8 @@ app.addEventListener("click", (event) => {
     window.scrollTo(0, scroll);
     if (wasFocused) [...app.querySelectorAll("[data-follow]")].find(node =>
       node.dataset.follow === id && node.closest("[data-timeline-post]")?.dataset.timelinePost === postId
+      && node.closest("[data-event-id]")?.dataset.eventId === eventId
+      && node.closest("[data-event-post]")?.dataset.eventPost === eventPost
     )?.focus({ preventScroll: true });
     return;
   }

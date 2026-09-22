@@ -199,3 +199,48 @@
 }
 
 @media (max-width: 699px) { .event-date strong { font-size: 1.125rem; } }
+
+/* Multilingual identities remain readable, including their original spelling. */
+.source-translation-note { margin: 12px 0 8px; color: var(--color-text-secondary); font-size: .75rem; line-height: 1.6; }
+.source-card.src-row, .src-head { grid-template-columns: minmax(220px, 2.5fr) minmax(65px, .6fr) minmax(145px, 1.4fr) minmax(110px, 1fr) 42px 75px 100px; }
+.source-card.src-row { align-items: start; padding-block: 13px; }
+.src-c-name a { align-items: start; }
+.src-name { overflow: visible; text-overflow: clip; white-space: normal; flex: 1; overflow-wrap: anywhere; }
+.source-names, .source-types { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.source-name-line, .source-type-line { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 6px; min-width: 0; font-weight: 400; font-size: .76rem; line-height: 1.45; color: var(--color-text-secondary); }
+.source-name-line.is-primary { font-size: .9rem; font-weight: 600; color: var(--color-text-primary); }
+.source-language-label { font-size: .61rem; font-weight: 500; color: var(--color-text-muted); white-space: normal; overflow-wrap: anywhere; }
+.source-name-value { overflow-wrap: anywhere; min-width: 0; }
+.source-type-line { font-size: .73rem; }
+.source-type-line.is-primary { color: var(--color-text-primary); }
+.src-c-chips { display: block; }
+.source-profile .source-names { gap: 6px; }
+.source-profile .source-name-line { font-size: .87rem; }
+.source-profile .source-translation-note { font-size: .73rem; }
+.profile-types { border-block: 1px solid var(--color-border-subtle); margin-block: 12px; padding-block: 10px; }
+.profile-types .source-types { flex-direction: row; flex-wrap: wrap; gap: 6px 18px; }
+@media (min-width: 700px) and (max-width: 1250px) {
+  .source-card.src-row, .src-head { grid-template-columns: minmax(175px, 2fr) minmax(55px, .55fr) minmax(120px, 1.2fr) minmax(70px, .8fr) 35px 65px 44px; }
+  .src-head > :nth-child(3) { display: block; }
+}
+@media (max-width: 899px) and (min-width: 700px) {
+  .source-card.src-row, .src-head { grid-template-columns: minmax(175px, 2fr) 55px minmax(110px, 1.1fr) minmax(65px, .7fr) 35px 44px; }
+  .src-upd, .src-head > :nth-child(6) { display: none; }
+}
+@media (max-width: 699px) {
+  .source-card.src-row { grid-template-columns: minmax(0, 1fr) 36px 55px; grid-template-areas: "name name follow" "types types types" "links count updated"; gap: 8px; padding-block: 15px; }
+  .src-c-name { overflow: visible; }
+  .src-c-name a { flex-wrap: wrap; }
+  .src-c-name .src-name { flex: 1; }
+  .src-c-chips { grid-area: types; padding-left: 34px; }
+  .src-c-chips .source-types { flex-direction: row; flex-wrap: wrap; gap: 4px 12px; }
+  .src-country-mobile { margin-left: 34px; }
+  .src-c-follow { justify-self: end; }
+  .src-count { align-self: center; }
+  .src-upd { align-self: center; font-size: .65rem; }
+  .source-name-line.is-primary { font-size: .85rem; }
+  .source-name-line { font-size: .75rem; }
+  .source-profile { grid-template-columns: 44px minmax(0, 1fr); gap: 12px; }
+  .source-profile .profile-avatar .avatar { width: 44px; height: 44px; }
+  .source-profile h1 { overflow-wrap: anywhere; }
+}

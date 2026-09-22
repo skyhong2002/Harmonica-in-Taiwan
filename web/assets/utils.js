@@ -173,6 +173,8 @@ export function textMatch(row, query) {
   const haystack = [
     row.name,
     row.nameEn,
+    ...Object.values(row.names || {}),
+    ...(row.aliases || []),
     row.title,
     row.text,
     row.summary,

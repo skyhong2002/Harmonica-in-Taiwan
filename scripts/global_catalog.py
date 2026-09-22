@@ -13,10 +13,11 @@ import time
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import urlsplit, parse_qs
 
 ROOT = Path(__file__).resolve().parents[1]
 API_ROOT = ROOT / 'site' / 'api'
+NAME_TRANSLATIONS = ROOT / 'data' / 'sources' / 'source-name-translations.json'
 COUNTRY_CODES = {
     '臺灣': 'TW', '台灣': 'TW', 'Taiwan': 'TW', '中國': 'CN', '中国': 'CN', 'China': 'CN',
     '香港': 'HK', 'Hong Kong': 'HK', '澳門': 'MO', '日本': 'JP', 'Japan': 'JP',
@@ -81,6 +82,11 @@ def snapshot_version(api_root: Path = API_ROOT) -> tuple:
             result.append((name, st.st_mtime_ns, st.st_size))
         except OSError:
             result.append((name, 0, 0))
+    try:
+        st = NAME_TRANSLATIONS.stat()
+        result.append(('source-name-translations', st.st_mtime_ns, st.st_size))
+    except OSError:
+        pass
     # Refresh time-sensitive story and stale-status classifications once/minute.
     result.append(('time_bucket', int(time.time() // 60), 0))
     return tuple(result)
@@ -120,6 +126,34 @@ def _links(rows: object) -> list[dict]:
             for row in rows if isinstance(row, dict) and public_url(row.get('url'))]
 
 
+def _media_urls(values: object) -> list[str]:
+    return list(dict.fromkeys(public_url(v) for v in _list(values) if isinstance(v, str) and public_url(v)))
+
+
+def _evidence_url(value: object) -> str:
+    """Exclude social profiles: matching an author is not a publication relationship."""
+    url = public_url(value)
+    if not url:
+        return ''
+    parts = urlsplit(url)
+    host = re.sub(r'^(www|m|mobile)\.', '', parts.hostname or '')
+    path = parts.path.rstrip('/')
+    query = parse_qs(parts.query)
+    if host == 'instagram.com':
+        valid = re.search(r'^/(p|reel|reels|tv)/[^/]+', path)
+    elif host in {'twitter.com', 'x.com'}:
+        valid = re.search(r'^/[^/]+/status/\d+', path)
+    elif host == 'facebook.com':
+        valid = re.search(r'/(posts|videos|reel|photos)/.+', path) or query.get('story_fbid') or query.get('fbid') or (path == '/watch' and query.get('v'))
+    elif host in {'threads.net', 'threads.com'}:
+        valid = re.search(r'^/@[^/]+/post/[^/]+', path)
+    elif host in {'youtube.com', 'youtu.be'}:
+        valid = (path and host == 'youtu.be') or (path == '/watch' and query.get('v')) or re.search(r'^/(shorts|embed)/[^/]+', path)
+    else:
+        valid = bool(path)
+    return url if valid else ''
+
+
 def _id(row: dict, *fields: str) -> str:
     for key in fields:
         if row.get(key):
@@ -133,6 +167,7 @@ def build_catalog(api_root: Path | str = API_ROOT, *, now: datetime | None = Non
     api_root = Path(api_root)
     snapshots = {name: read_snapshot(name, api_root) for name in SNAPSHOTS}
     source_data = snapshots['sources.json']
+    translations = read_snapshot(NAME_TRANSLATIONS.name, NAME_TRANSLATIONS.parent).get('sources', {})
     sources = []
     monitor_map = {}
     for row in _rows(source_data, 'entries'):
@@ -149,6 +184,20 @@ def build_catalog(api_root: Path | str = API_ROOT, *, now: datetime | None = Non
             'updatedAt': row.get('latestUpdateAt'),
             'searchText': ' '.join(str(row.get(k) or '') for k in ('name', 'nameEn', 'keywords', 'region', 'summary')),
         }
+        translated = _dict(_dict(translations).get(sid))
+        # Invalidate reference translations when the recorded source identity changes.
+        if translated.get('sourceName') != source['name'] or translated.get('sourceNameEn') != source['nameEn']:
+            translated = {}
+        names = {language: str(value) for language, value in _dict(translated.get('names')).items()
+                 if language in {'zh-Hant', 'en', 'ja', 'ko'} and isinstance(value, str) and value.strip()}
+        names.setdefault('zh-Hant', source['name'])
+        if source['nameEn']:
+            names.setdefault('en', source['nameEn'])
+        names['original'] = source['name']
+        source.update(names=names, namesMeta={language: {'kind': 'reference'} for language in names if language != 'original'},
+                      originalType=str(row.get('originalType') or row.get('type') or ''),
+                      aliases=[str(value) for value in _list(row.get('aliases')) if isinstance(value, str)])
+        source['searchText'] += ' ' + ' '.join(names.values()) + ' ' + ' '.join(source['aliases'])
         sources.append(source)
         for monitor in _list(row.get('monitorSources')):
             if isinstance(monitor, dict):
@@ -176,6 +225,8 @@ def build_catalog(api_root: Path | str = API_ROOT, *, now: datetime | None = Non
             'contentKind': 'website_snapshot' if webpage else 'post',
             'observedAt': row.get('seen_at') or row.get('fetched_at'),
             'image': public_url(row.get('image_url')), 'avatar': public_url(row.get('source_avatar_url') or row.get('avatar_url')),
+            'images': _media_urls(row.get('images')), 'videos': _media_urls(row.get('videos')),
+            'videoUrl': public_url(row.get('video_url')) or next(iter(_media_urls(row.get('videos'))), ''),
             'isStory': is_story, 'expiresAt': row.get('story_expires_at'), 'storyState': story_state,
             'sourceAvailable': bool(public_url(row.get('link') or row.get('url'))) and (not is_story or story_state == 'active'),
             'tags': [str(t) for t in _list(row.get('categories'))],
@@ -202,7 +253,8 @@ def build_catalog(api_root: Path | str = API_ROOT, *, now: datetime | None = Non
                 'countryCode': 'ONLINE' if online else country_code(country), 'country': str(country),
                 'url': source_url, 'sourceUrl': source_url, 'sourceName': str(row.get('sourceName') or row.get('source') or ''),
                 'description': str(row.get('details') or row.get('description') or ''),
-                'image': public_url(row.get('image_url')), 'online': online,
+                'image': public_url(row.get('image_url')), 'images': _media_urls(row.get('images')),
+                'videoUrl': public_url(row.get('video_url')) or next(iter(_media_urls(row.get('videos'))), ''), 'online': online,
             })
     events.sort(key=lambda e: str(e.get('start') or ''))
     scores = []
@@ -225,6 +277,10 @@ def build_catalog(api_root: Path | str = API_ROOT, *, now: datetime | None = Non
             'summary': ' · '.join(str(row.get(k) or '') for k in ('scoreTitle', 'instrumentation', 'purchaseMethod', 'rightsNote') if row.get(k)),
             'countryCode': country_code(row.get('country')), 'links': _links(row.get('links')),
             'sourceUrl': public_url(row.get('evidenceUrl')), 'count': 1,
+            'images': _media_urls(row.get('images')),
+            # Exact evidence only: the publisher profile is not proof of a score announcement.
+            'relatedPosts': [post for post in posts if post['url'] and post['url'] == _evidence_url(row.get('evidenceUrl'))
+                             and post['url'] != public_url(row.get('url'))],
         })
     counts = Counter(s['countryCode'] for s in sources)
     labels = {s['countryCode']: s['country'] for s in sources}

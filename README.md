@@ -72,6 +72,7 @@ HTTP 請求只讀快照；不會因訪客切換語言啟動 Codex 或 Apify。�
 - `data/sources/harmonica-score-sources.csv`：出版／購譜線索。
 - `data/sources/harmonica-public-calendar-overrides.csv`：有公開佐證的活動校正。
 - `data/sources/source-url-aliases.csv`：既有來源 URL 別名。
+- `data/sources/source-name-translations.json`：經審閱的四語參考譯名，保留收錄原名及來源；不是官方名稱聲明。
 
 `public_id` 不因排序或新插入資料而重編。`country` 是主所屬國家／地區，`region` 為較細地理資訊；未知地區不可默認為臺灣。新增來源應依 `.agents/AGENTS.md` 取得官方頭像、公開自介並驗證輸出。
 
@@ -134,3 +135,5 @@ MIT License · Sky Hong。Chumei 的 MIT 授權模式與實作是本次重構的
 品牌、原版頂端導覽、限動／Google Calendar 首頁、整頁三欄貼文、樂譜篩選與情境回報已實作。本次整合通過 232 項 Python、65 項前端測試、91 項正式 HTTPS 檢查及真實桌面／平板／手機驗收；詳見 [原版版面還原驗收](deploy/original-layout-acceptance-2026-09-23.md)。較早的 [圖片與限動修正](deploy/media-home-acceptance-2026-09-23.md)、[竹梅 UI 驗收](deploy/ui-acceptance-2026-09-23.md) 及 [前輪交接 prompt](deploy/next-agent-prompt-2026-09-23.md) 僅記錄歷史快照；最新介面方向見 [UI 接手說明](web/CHUMEI_UI_HANDOFF.md)。
 
 最新跨國使用與啟發式評估由三個平行代理完成，18 個確認問題已修正，包含日期／時區、篩選、跨語操作、表單與無障礙；完整 249 項 Python、80 項前端測試通過。詳見 [評估與 issue 對照](deploy/heuristic-evaluation-2026-09-23.md)。
+
+活動頁現已呈現可驗證的原始貼文、海報與影片；樂譜改為桌面全寬密集表格，名錄並列收錄原名及多語參考譯名。實作、資料限制及測試見 [密度與多語名錄驗收](deploy/density-multilingual-acceptance-2026-09-23.md)。

@@ -3,6 +3,7 @@ from datetime import datetime, timezone
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
@@ -10,6 +11,50 @@ import global_catalog as catalog
 
 
 class CatalogTests(unittest.TestCase):
+    def test_reference_names_keep_original_and_invalidate_stale_identity(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            names = root / 'translations.json'
+            names.write_text(json.dumps({'sources': {'a': {'sourceName': '原名', 'sourceNameEn': 'Name',
+                'names': {'zh-Hant': '中文譯名', 'en': 'English Name', 'ja': '日本語名', 'ko': '한국어 이름'}}}}))
+            source = {'id': 'a', 'name': '原名', 'nameEn': 'Name', 'type': 'artist', 'originalType': '演奏者'}
+            (root / 'sources.json').write_text(json.dumps({'entries': [source]}))
+            with patch.object(catalog, 'NAME_TRANSLATIONS', names):
+                result = catalog.build_catalog(root)['sources'][0]
+                self.assertEqual(result['names']['original'], '原名')
+                self.assertEqual(result['names']['ko'], '한국어 이름')
+                self.assertIn('日本語名', result['searchText'])
+                self.assertEqual(result['originalType'], '演奏者')
+                self.assertEqual(result['namesMeta']['ko']['kind'], 'reference')
+                source['name'] = 'Changed identity'
+                (root / 'sources.json').write_text(json.dumps({'entries': [source]}))
+                self.assertNotIn('ko', catalog.build_catalog(root)['sources'][0]['names'])
+
+    def test_media_and_score_references_use_safe_exact_evidence(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'latest.json').write_text(json.dumps({'updates': [
+                {'key': 'post', 'link': 'https://example.org/post/1', 'text': 'Original',
+                 'images': ['/assets/real.webp', 'javascript:bad'], 'videos': ['https://example.org/video.mp4']},
+                {'key': 'profile', 'link': 'https://example.org/profile', 'text': 'Unrelated profile'}]}))
+            (root / 'score-sources.json').write_text(json.dumps({'scoreSources': [
+                {'id': 'yes', 'url': 'https://example.org/profile', 'evidenceUrl': 'https://example.org/post/1'},
+                {'id': 'no', 'url': 'https://example.org/profile', 'evidenceUrl': 'https://example.org/profile'}]}))
+            result = catalog.build_catalog(root)
+            self.assertEqual(result['posts'][0]['images'], ['/assets/real.webp'])
+            self.assertEqual(result['posts'][0]['videoUrl'], 'https://example.org/video.mp4')
+            self.assertEqual(result['scoreSources'][0]['relatedPosts'][0]['text'], 'Original')
+            self.assertEqual(result['scoreSources'][1]['relatedPosts'], [])
+
+    def test_profile_urls_are_not_publication_evidence(self):
+        for url in ['https://www.instagram.com/band/', 'https://facebook.com/band/',
+                    'https://x.com/band', 'https://youtube.com/@band', 'https://threads.net/@band']:
+            self.assertEqual(catalog._evidence_url(url), '')
+        for url in ['https://facebook.com/band/photos/post/123/', 'https://facebook.com/photo.php?fbid=123',
+                    'https://instagram.com/p/abc/', 'https://youtube.com/watch?v=abc',
+                    'https://example.org/music/score.pdf']:
+            self.assertEqual(catalog._evidence_url(url), url)
+
     def test_geography_never_defaults_unknown_to_taiwan(self):
         self.assertEqual(catalog.country_code('韓國'), 'KR')
         self.assertEqual(catalog.country_code('jp'), 'JP')

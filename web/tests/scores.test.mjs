@@ -89,3 +89,38 @@ test('Taiwan ROC academic years show Gregorian context and sort chronologically 
   assert.match(document.querySelector('.score-row-meta').textContent,/2026/);
  }
 });
+
+test('repertoire table keeps comparison fields and actionable evidence in separate labelled columns', () => {
+  setLocale('en');
+  document.body.innerHTML = scoresView(catalog, {}, 24);
+  const table = document.querySelector('table.score-table');
+  assert.equal(table.querySelectorAll('thead th[scope="col"]').length, 4);
+  assert.match(table.querySelector('caption').textContent, /Competition repertoire/);
+  const row = table.querySelector('tbody tr');
+  assert.equal(row.children.length, 4);
+  assert.match(row.querySelector('.score-main').textContent, /Alpha <b>原曲<\/b>/);
+  assert.match(row.querySelector('.score-context').textContent, /2026.*Harmonica solo.*國中/);
+  assert.match(row.querySelector('.score-publisher').textContent, /Publisher One/);
+  assert.equal(row.querySelectorAll('.score-actions .score-evidence a').length, 2);
+  assert.ok(row.querySelector('.score-actions .context-report-link'));
+  assert.equal(document.querySelectorAll('tbody tr').length, rows.length);
+});
+
+test('collections show only supplied source media and linked original posts, without unsafe or duplicated media', () => {
+  setLocale('en');
+  const collection = { ...catalog.scoreSources[0], images: ['/assets/poster.webp', 'javascript:alert(1)'], relatedPosts: [
+    { url: 'https://example.org/announcement', image: '/assets/poster.webp', text: '原文 <script>unsafe</script>\n' + 'Full announcement. '.repeat(30), publishedAt: '2026-09-23T01:00:00Z' },
+    { url: 'https://example.org/announcement', image: '/assets/duplicate.webp', text: 'duplicate' },
+    { url: 'javascript:alert(1)', image: '/assets/unsafe.webp', text: 'unsafe linked post' },
+  ] };
+  document.body.innerHTML = scoreSourcesView({ scoreSources: [collection] });
+  assert.equal(document.querySelectorAll('.collection-media img').length, 1);
+  assert.equal(document.querySelector('.collection-media img').getAttribute('src'), '/assets/poster.webp');
+  assert.equal(document.querySelectorAll('.collection-post').length, 1);
+  assert.match(document.querySelector('.collection-post .feed-text').textContent, /<script>unsafe<\/script>/);
+  assert.equal(document.querySelector('script'), null);
+  assert.equal(document.querySelector('[data-expand-post]').getAttribute('aria-expanded'), 'false');
+  assert.equal(document.querySelector('.collection-original-link').href, 'https://example.org/announcement');
+  document.body.innerHTML = scoreSourcesView(catalog);
+  assert.equal(document.querySelector('.collection-post,.collection-media'), null);
+});
