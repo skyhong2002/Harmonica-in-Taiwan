@@ -202,6 +202,11 @@ export const initials = (name) =>
 export function avatar(source) {
   return `<span class="avatar"><span aria-hidden="true">${esc(initials(source.name || source.sourceName))}</span>${image(source.avatar, "", "")}</span>`;
 }
+export function postDisplayText(post, value) {
+  const text = String(value || '');
+  const generated = post.isStory && post.platform === 'instagram' && /^Instagram story (@[A-Za-z0-9_.]+)$/.exec(text);
+  return generated && getLocale() !== 'en' ? `Instagram ${t('story')} ${generated[1]}` : text;
+}
 export function empty() {
   return `<div class="empty-state">${icon("search")}<h2>${t("noResults")}</h2><p>${t("noResultsBody")}</p><button class="button button-outline" data-action="reset">${t("reset")}</button> ${link("/submit/", t("submit"), "text-link")}</div>`;
 }
@@ -238,6 +243,9 @@ export function textMatch(row, query) {
     row.title,
     row.text,
     row.summary,
+    ...Object.values(row.summaries || {}),
+    ...Object.values(row.descriptions || {}),
+    ...Object.values(row.tagsLocalized || {}).flat(),
     row.searchText,
     row.sourceName,
     row.location,

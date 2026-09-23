@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 API_ROOT = ROOT / 'site' / 'api'
 NAME_TRANSLATIONS = ROOT / 'data' / 'sources' / 'source-name-translations.json'
 DESCRIPTION_TRANSLATIONS = ROOT / 'data' / 'sources' / 'source-description-translations.json'
+EVENT_TRANSLATIONS = ROOT / 'data' / 'sources' / 'event-description-translations.json'
 SCORE_MEDIA = ROOT / 'data' / 'sources' / 'score-source-media.json'
 COUNTRY_CODES = {
     '臺灣': 'TW', '台灣': 'TW', 'Taiwan': 'TW', '中國': 'CN', '中国': 'CN', 'China': 'CN',
@@ -84,7 +85,7 @@ def snapshot_version(api_root: Path = API_ROOT) -> tuple:
             result.append((name, st.st_mtime_ns, st.st_size))
         except OSError:
             result.append((name, 0, 0))
-    for resource in (NAME_TRANSLATIONS, DESCRIPTION_TRANSLATIONS, SCORE_MEDIA):
+    for resource in (NAME_TRANSLATIONS, DESCRIPTION_TRANSLATIONS, EVENT_TRANSLATIONS, SCORE_MEDIA):
         try:
             st = resource.stat()
             result.append((resource.name, st.st_mtime_ns, st.st_size))
@@ -282,6 +283,21 @@ def build_catalog(api_root: Path | str = API_ROOT, *, now: datetime | None = Non
                 'videoUrl': public_url(row.get('video_url')) or next(iter(_media_urls(row.get('videos'))), ''), 'online': online,
             })
     events.sort(key=lambda e: str(e.get('start') or ''))
+    event_translations = _dict(read_snapshot(EVENT_TRANSLATIONS.name, EVENT_TRANSLATIONS.parent).get('events'))
+    for event in events:
+        translated = _dict(event_translations.get(event['id']))
+        if (translated.get('title') != event['title']
+                or translated.get('sourceUrl') != event['sourceUrl']
+                or translated.get('sourceDescription') != event['description']):
+            translated = {}
+        descriptions = {language: value for language, value in _dict(translated.get('descriptions')).items()
+                        if language in {'zh-Hant', 'en', 'ja', 'ko'} and isinstance(value, str) and value.strip()}
+        original_language = translated.get('descriptionLanguage', '')
+        if original_language not in {'zh-Hant', 'en', 'ja', 'ko'}:
+            original_language = ''
+        if original_language:
+            descriptions[original_language] = event['description']
+        event.update(descriptions=descriptions, descriptionLanguage=original_language)
     scores = []
     for row in _rows(snapshots['scores.json'], 'scores'):
         scores.append({

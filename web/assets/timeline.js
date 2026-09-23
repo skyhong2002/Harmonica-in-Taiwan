@@ -1,5 +1,5 @@
 import { t, getLocale, countryName } from './i18n.js';
-import { esc, link, icon, timestamp, shortEventDate, number, avatar, sourceHref, safeUrl, textMatch, platformName, empty } from './utils.js';
+import { esc, link, icon, timestamp, shortEventDate, number, avatar, sourceHref, safeUrl, textMatch, platformName, empty, postDisplayText } from './utils.js';
 import { filterBar } from './views.js';
 import { reportLink } from './reporting.js';
 import { sourceDisplayName } from './source-names.js';
@@ -28,8 +28,8 @@ function archivedStory(p) {
 export function timelineCard(p, sources = [], following = new Set(), events = [], index = 0) {
   const source = sources.find(s=>s.id === p.sourceId);
   const name = source ? sourceDisplayName(source) : p.sourceName || t('source');
-  const text = p.text || '';
-  const title = p.title && p.title !== text && !text.startsWith(p.title) ? p.title : '';
+  const text = postDisplayText(p, p.text);
+  const title = p.title && p.title !== p.text && !(p.text || '').startsWith(p.title) ? postDisplayText(p, p.title) : '';
   const expandable = text.length > 180 || text.split('\n').length > 6;
   const hasImage = !!safeUrl(p.image), followed = !!source && following.has(source.id);
   const linkedEvents = events.filter(e=>(p.eventIds || []).includes(e.id) || p.url && (e.url === p.url || e.sourceUrl === p.url));

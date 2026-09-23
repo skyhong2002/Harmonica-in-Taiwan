@@ -11,6 +11,29 @@ import global_catalog as catalog
 
 
 class CatalogTests(unittest.TestCase):
+    def test_event_translations_are_bound_to_exact_record_and_preserve_original(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            manifest = root / 'events-translated.json'
+            event = {'id': 'concert', 'title': '演出', 'start': '2026-10-01',
+                     'sourceUrl': 'https://example.org/concert', 'description': '活動說明'}
+            translation = {'title': '演出', 'sourceUrl': event['sourceUrl'], 'sourceDescription': '活動說明',
+                           'descriptionLanguage': 'zh-Hant', 'descriptions': {'en': 'Concert details', 'zh-Hant': 'Do not overwrite', 'fr': 'Unsupported'}}
+            manifest.write_text(json.dumps({'events': {'concert': translation}}))
+            snapshot = root / 'public-calendar-events.json'
+            snapshot.write_text(json.dumps({'events': [event]}))
+            with patch.object(catalog, 'EVENT_TRANSLATIONS', manifest):
+                result = catalog.build_catalog(root)['events'][0]
+                self.assertEqual(result['description'], '活動說明')
+                self.assertEqual(result['descriptions'], {'en': 'Concert details', 'zh-Hant': '活動說明'})
+                for key in ('title', 'sourceUrl', 'description'):
+                    with self.subTest(key=key):
+                        changed = dict(event, **{key: 'https://example.org/changed' if key == 'sourceUrl' else 'changed'})
+                        snapshot.write_text(json.dumps({'events': [changed]}))
+                        result = catalog.build_catalog(root)['events'][0]
+                        self.assertEqual(result['descriptions'], {})
+                        self.assertEqual(result['descriptionLanguage'], '')
+
     def test_biography_translations_keep_original_and_reject_stale_content(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

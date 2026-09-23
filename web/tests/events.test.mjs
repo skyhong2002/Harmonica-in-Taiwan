@@ -4,11 +4,31 @@ import { JSDOM } from 'jsdom';
 import { referenceKey, relatedEventPosts, eventRows, richEventCard, eventsView, bindEvents } from '../assets/events.js';
 import { togglePostExpansion } from '../assets/views.js';
 import { setLocale } from '../assets/i18n.js';
+import { textMatch } from '../assets/utils.js';
 const source = { id: 'source1', name: '原始名稱 / Original name', countryCode: 'JP', url: '/source/original/', avatar: '/avatar.webp' };
 const post = { id: 'post1', url: 'https://www.instagram.com/p/abc/?igsh=tracking', sourceId: 'source1', sourceName: source.name, text: '原始發文 <script>bad()</script>\n' + 'Original post content '.repeat(50), image: '/cached.webp', platform: 'instagram', publishedAt: '2026-09-01T12:00:00Z' };
 const event = { id: 'event1', title: 'Original concert', url: 'https://instagram.com/reel/abc/', sourceUrl: post.url, start: '2099-09-23', end: '2099-09-25', allDay: true, timezone: 'America/Los_Angeles', countryCode: 'JP', location: 'Original Hall', image: '/poster.webp', description: 'Structured description' };
 const catalog = { sources: [source], events: [event], posts: [post], countries: [{ code: 'JP' }, { code: 'TW' }] };
 function setup() { const window = new JSDOM('<main></main>', { url: 'https://example.com', pretendToBeVisual: true }).window; globalThis.window = window; globalThis.document = window.document; globalThis.localStorage = window.localStorage; globalThis.location = window.location; setLocale('en'); return window; }
+
+test('event explanations follow locale while original posts and descriptions remain accessible', () => {
+  const window = setup();
+  const translated = {...event, description: '原始活動說明 <b>文字</b>', descriptionLanguage: 'zh-Hant',
+    descriptions: {'zh-Hant': '原始活動說明 <b>文字</b>', en: 'English explanation <b>text</b>', ja: '日本語の説明', ko: '한국어 설명'}};
+  for (const locale of ['zh-Hant','en','ja','ko']) {
+    setLocale(locale);
+    document.querySelector('main').innerHTML = richEventCard(translated, catalog);
+    assert.equal(document.querySelector('.source-summary').textContent, translated.descriptions[locale]);
+    assert.equal(document.querySelector('.feed-text').textContent, post.text);
+    assert.equal(document.querySelector('.event-description b'), null);
+    const original = document.querySelector('.source-summary-original');
+    if (locale === 'zh-Hant') assert.equal(original, null);
+    else { assert.equal(original.open, false); assert.equal(original.querySelector('p').textContent, translated.description); }
+  }
+  assert.equal(textMatch(translated, 'English explanation'), true);
+  assert.equal(textMatch(translated, '한국어'), true);
+  window.close();
+});
 
 test('event references match canonical post IDs and explicit links, never merely the same author', () => {
   assert.equal(referenceKey('https://x.com/name/status/123?s=20'), referenceKey('https://twitter.com/other/status/123'));

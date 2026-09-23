@@ -62,7 +62,14 @@
 .src-c-follow svg { width: 17px; height: 17px; flex-shrink: 0; }
 .src-c-follow[aria-pressed="true"] { border-color: var(--color-bell-on); color: var(--color-bell-on); background: var(--color-bell-on-surface); }
 .src-th-follow { text-align: center; }
-.org-page { max-width: var(--layout-reading, 720px); margin-inline: auto; }
+.org-page { width: 100%; min-width: 0; margin-inline: auto; }
+.org-page > .back-link, .org-page > .source-profile { max-width: var(--layout-reading, 720px); margin-inline: auto; }
+/* Source updates share the page scrollbar and keep each complete post together. */
+.org-page .source-updates-grid { width: 100%; max-width: none; columns: 1; column-gap: 24px; }
+.source-updates-grid > .post-card.feed-post { break-inside: avoid; margin-bottom: 18px; }
+.source-updates-grid > .empty-state { column-span: all; }
+@media (min-width: 700px) { .org-page .source-updates-grid { columns: 2; } }
+@media (min-width: 1080px) { .org-page .source-updates-grid { columns: 3; } }
 .back-link { margin: 4px 0 20px; }
 .source-profile { display: grid; grid-template-columns: 84px minmax(0, 1fr); align-items: start; gap: 18px; margin-bottom: 24px; padding: 0 0 20px; border-bottom: 1px solid var(--color-border-subtle); }
 .source-profile .profile-avatar .avatar { width: 84px; height: 84px; font-size: 1.6rem; }

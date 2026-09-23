@@ -26,6 +26,45 @@ SCORE_GUIDE = {
 }
 ORIGINAL_DESCRIPTION = {'en': 'Original description', 'zh-Hant': '原文說明',
                         'ja': '紹介文の原文', 'ko': '소개 원문'}
+WEBSITE_LABEL = {'en': 'Website', 'zh-Hant': '網站', 'ja': 'ウェブサイト', 'ko': '웹사이트'}
+STORY_LABEL = {'en': 'Instagram story', 'zh-Hant': 'Instagram 限時動態',
+               'ja': 'Instagram ストーリー', 'ko': 'Instagram 스토리'}
+
+# Locale order follows LOCALES. Keep the no-JavaScript source view consistent
+# with the browser's country-only facet, without translating proper place names.
+COUNTRY_NAMES = {
+    'AR': ('阿根廷', 'Argentina', 'アルゼンチン', '아르헨티나'),
+    'AU': ('澳洲', 'Australia', 'オーストラリア', '오스트레일리아'),
+    'BR': ('巴西', 'Brazil', 'ブラジル', '브라질'),
+    'CH': ('瑞士', 'Switzerland', 'スイス', '스위스'),
+    'CN': ('中國', 'China', '中国', '중국'),
+    'CZ': ('捷克', 'Czechia', 'チェコ', '체코'),
+    'DE': ('德國', 'Germany', 'ドイツ', '독일'),
+    'DK': ('丹麥', 'Denmark', 'デンマーク', '덴마크'),
+    'ES': ('西班牙', 'Spain', 'スペイン', '스페인'),
+    'FR': ('法國', 'France', 'フランス', '프랑스'),
+    'GB': ('英國', 'United Kingdom', 'イギリス', '영국'),
+    'HK': ('香港', 'Hong Kong', '香港', '홍콩'),
+    'ID': ('印尼', 'Indonesia', 'インドネシア', '인도네시아'),
+    'IL': ('以色列', 'Israel', 'イスラエル', '이스라엘'),
+    'JP': ('日本', 'Japan', '日本', '일본'),
+    'KR': ('韓國', 'South Korea', '韓国', '대한민국'),
+    'MX': ('墨西哥', 'Mexico', 'メキシコ', '멕시코'),
+    'MY': ('馬來西亞', 'Malaysia', 'マレーシア', '말레이시아'),
+    'NL': ('荷蘭', 'Netherlands', 'オランダ', '네덜란드'),
+    'NO': ('挪威', 'Norway', 'ノルウェー', '노르웨이'),
+    'NZ': ('紐西蘭', 'New Zealand', 'ニュージーランド', '뉴질랜드'),
+    'PH': ('菲律賓', 'Philippines', 'フィリピン', '필리핀'),
+    'PL': ('波蘭', 'Poland', 'ポーランド', '폴란드'),
+    'RU': ('俄羅斯', 'Russia', 'ロシア', '러시아'),
+    'SE': ('瑞典', 'Sweden', 'スウェーデン', '스웨덴'),
+    'SG': ('新加坡', 'Singapore', 'シンガポール', '싱가포르'),
+    'TW': ('臺灣', 'Taiwan', '台湾', '대만'),
+    'US': ('美國', 'United States', 'アメリカ合衆国', '미국'),
+    'WORLD': ('國際', 'International', '国際', '국제'),
+    'ONLINE': ('線上', 'Online', 'オンライン', '온라인'),
+    'UNKNOWN': ('尚未標示', 'Not specified', '未指定', '미지정'),
+}
 
 
 def normalize_locale(value: str) -> str:
@@ -46,6 +85,26 @@ def source_name(source: dict, locale: str) -> str:
     names = source.get('names') if isinstance(source.get('names'), dict) else {}
     return str(names.get(locale) or (source.get('nameEn') if locale == 'en' else '')
                or source.get('name') or source.get('id') or WORDS[locale]['source'])
+
+
+def source_country(source: dict, locale: str) -> str:
+    code = str(source.get('countryCode') or 'UNKNOWN').upper()
+    names = COUNTRY_NAMES.get(code)
+    return names[LOCALES.index(locale)] if names else str(source.get('country') or code)
+
+
+def source_link_label(link: dict, locale: str) -> str:
+    label = str(link.get('label') or link.get('url') or '')
+    return WEBSITE_LABEL[locale] if label == '網站' else label
+
+
+def post_title(post: dict, locale: str) -> str:
+    title = str(post.get('title') or '')
+    if post.get('isStory') and post.get('platform') == 'instagram':
+        generated = re.fullmatch(r'Instagram story (@[A-Za-z0-9_.]+)', title)
+        if generated:
+            return STORY_LABEL[locale] + ' ' + generated.group(1)
+    return title
 
 
 def render_document(template: str, path: str, catalog: dict, origin: str, locale: str = 'en') -> str:
@@ -90,10 +149,10 @@ def render_document(template: str, path: str, catalog: dict, origin: str, locale
             original_language = source.get('summaryLanguage')
             language = ' lang="' + e(original_language) + '"' if original_language in LOCALES else ''
             content += '<details class="source-original-summary"><summary>' + e(ORIGINAL_DESCRIPTION[locale]) + '</summary><p' + language + '>' + e(source['summary']) + '</p></details>'
-        content += '<p>' + e(source.get('country')) + ' · ' + e(source.get('region')) + '</p><h2>' + e(words['original']) + '</h2><ul>'
-        content += ''.join('<li><a href="' + e(link['url']) + '" rel="noreferrer">' + e(link.get('label') or link['url']) + '</a></li>' for link in source.get('links', []))
+        content += '<p>' + e(source_country(source, locale)) + '</p><h2>' + e(words['original']) + '</h2><ul>'
+        content += ''.join('<li><a href="' + e(link['url']) + '" rel="noreferrer">' + e(source_link_label(link, locale)) + '</a></li>' for link in source.get('links', []))
         content += '</ul><h2>' + e(words['latest']) + '</h2><ul>'
-        content += ''.join('<li><a href="' + e(p['url']) + '">' + e(p['title']) + '</a></li>' for p in [p for p in catalog.get('posts', []) if p.get('sourceId') == source.get('id')][:12])
+        content += ''.join('<li><a href="' + e(p['url']) + '">' + e(post_title(p, locale)) + '</a></li>' for p in [p for p in catalog.get('posts', []) if p.get('sourceId') == source.get('id')][:12])
         content += '</ul>'
     elif score_guide:
         content += '<ul>' + ''.join('<li><a href="' + e(row.get('sourceUrl') or row.get('url')) + '">'
