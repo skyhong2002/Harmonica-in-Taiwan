@@ -18,6 +18,7 @@ from urllib.parse import urlsplit, parse_qs
 ROOT = Path(__file__).resolve().parents[1]
 API_ROOT = ROOT / 'site' / 'api'
 NAME_TRANSLATIONS = ROOT / 'data' / 'sources' / 'source-name-translations.json'
+DESCRIPTION_TRANSLATIONS = ROOT / 'data' / 'sources' / 'source-description-translations.json'
 SCORE_MEDIA = ROOT / 'data' / 'sources' / 'score-source-media.json'
 COUNTRY_CODES = {
     '臺灣': 'TW', '台灣': 'TW', 'Taiwan': 'TW', '中國': 'CN', '中国': 'CN', 'China': 'CN',
@@ -83,7 +84,7 @@ def snapshot_version(api_root: Path = API_ROOT) -> tuple:
             result.append((name, st.st_mtime_ns, st.st_size))
         except OSError:
             result.append((name, 0, 0))
-    for resource in (NAME_TRANSLATIONS, SCORE_MEDIA):
+    for resource in (NAME_TRANSLATIONS, DESCRIPTION_TRANSLATIONS, SCORE_MEDIA):
         try:
             st = resource.stat()
             result.append((resource.name, st.st_mtime_ns, st.st_size))
@@ -170,6 +171,7 @@ def build_catalog(api_root: Path | str = API_ROOT, *, now: datetime | None = Non
     snapshots = {name: read_snapshot(name, api_root) for name in SNAPSHOTS}
     source_data = snapshots['sources.json']
     translations = read_snapshot(NAME_TRANSLATIONS.name, NAME_TRANSLATIONS.parent).get('sources', {})
+    descriptions = read_snapshot(DESCRIPTION_TRANSLATIONS.name, DESCRIPTION_TRANSLATIONS.parent).get('sources', {})
     sources = []
     monitor_map = {}
     for row in _rows(source_data, 'entries'):
@@ -199,7 +201,28 @@ def build_catalog(api_root: Path | str = API_ROOT, *, now: datetime | None = Non
         source.update(names=names, namesMeta={language: {'kind': 'reference'} for language in names if language != 'original'},
                       originalType=str(row.get('originalType') or row.get('type') or ''),
                       aliases=[str(value) for value in _list(row.get('aliases')) if isinstance(value, str)])
+        description = _dict(_dict(descriptions).get(sid))
+        # Translations describe a specific recorded biography, never a newer revision.
+        if (description.get('sourceName') != source['name']
+                or description.get('sourceNameEn') != source['nameEn']
+                or description.get('sourceSummary') != source['summary']):
+            description = {}
+        summaries = {language: value for language, value in _dict(description.get('summaries')).items()
+                     if language in {'zh-Hant', 'en', 'ja', 'ko'} and isinstance(value, str) and value.strip()}
+        summary_language = description.get('summaryLanguage', '')
+        if summary_language not in {'zh-Hant', 'en', 'ja', 'ko'}:
+            summary_language = ''
+        if summary_language and source['summary']:
+            summaries[summary_language] = source['summary']
+        tags_localized = {}
+        if description.get('sourceTags') == source['tags']:
+            tags_localized = {language: values for language, values in _dict(description.get('tags')).items()
+                              if language in {'zh-Hant', 'en', 'ja', 'ko'} and isinstance(values, list)
+                              and len(values) == len(source['tags'])
+                              and all(isinstance(value, str) and value.strip() for value in values)}
+        source.update(summaries=summaries, summaryLanguage=summary_language, tagsLocalized=tags_localized)
         source['searchText'] += ' ' + ' '.join(names.values()) + ' ' + ' '.join(source['aliases'])
+        source['searchText'] += ' ' + ' '.join(summaries.values()) + ' ' + ' '.join(tag for tags in tags_localized.values() for tag in tags)
         sources.append(source)
         for monitor in _list(row.get('monitorSources')):
             if isinstance(monitor, dict):

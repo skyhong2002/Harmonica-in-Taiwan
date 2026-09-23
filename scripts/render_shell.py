@@ -24,6 +24,8 @@ SCORE_GUIDE = {
     'ja': ('楽譜の入手先', '楽譜集、販売案内、曲庫や問い合わせ先を探せます。'),
     'ko': ('악보 찾기·구매', '악보집, 판매 공지, 곡목 자료실과 문의처를 찾아보세요.'),
 }
+ORIGINAL_DESCRIPTION = {'en': 'Original description', 'zh-Hant': '原文說明',
+                        'ja': '紹介文の原文', 'ko': '소개 원문'}
 
 
 def normalize_locale(value: str) -> str:
@@ -40,6 +42,12 @@ def e(value: object) -> str:
     return html.escape(str(value or ''), quote=True)
 
 
+def source_name(source: dict, locale: str) -> str:
+    names = source.get('names') if isinstance(source.get('names'), dict) else {}
+    return str(names.get(locale) or (source.get('nameEn') if locale == 'en' else '')
+               or source.get('name') or source.get('id') or WORDS[locale]['source'])
+
+
 def render_document(template: str, path: str, catalog: dict, origin: str, locale: str = 'en') -> str:
     locale = normalize_locale(locale)
     words = WORDS[locale]
@@ -50,8 +58,10 @@ def render_document(template: str, path: str, catalog: dict, origin: str, locale
                     (str(s.get('id')) == route_id or
                      str(s.get('url') or '').rstrip('/').rsplit('/', 1)[-1] == route_id))), None)
     canonical_path = (source.get('url') or path) if source else path
-    page = (source.get('name') or source.get('id') or words['source']) if source else words.get(route, words['home'])
-    description = (source.get('summary') or words['description']) if source else words['description']
+    page = source_name(source, locale) if source else words.get(route, words['home'])
+    summaries = source.get('summaries', {}) if source else {}
+    localized_summary = summaries.get(locale) if isinstance(summaries, dict) else ''
+    description = (localized_summary or source.get('summary') or words['description']) if source else words['description']
     score_guide = path.rstrip('/') == '/scores/sources'
     if score_guide:
         page, description = SCORE_GUIDE[locale]
@@ -76,6 +86,10 @@ def render_document(template: str, path: str, catalog: dict, origin: str, locale
                      for slug in ('events', 'post', 'source', 'scores', 'feeds', 'contribute'))
     content = '<section class="server-content" aria-label="' + e(page) + '"><nav>' + nav + '</nav><h1>' + e(page) + '</h1><p>' + e(description) + '</p>'
     if source:
+        if localized_summary and source.get('summary') and localized_summary != source['summary']:
+            original_language = source.get('summaryLanguage')
+            language = ' lang="' + e(original_language) + '"' if original_language in LOCALES else ''
+            content += '<details class="source-original-summary"><summary>' + e(ORIGINAL_DESCRIPTION[locale]) + '</summary><p' + language + '>' + e(source['summary']) + '</p></details>'
         content += '<p>' + e(source.get('country')) + ' · ' + e(source.get('region')) + '</p><h2>' + e(words['original']) + '</h2><ul>'
         content += ''.join('<li><a href="' + e(link['url']) + '" rel="noreferrer">' + e(link.get('label') or link['url']) + '</a></li>' for link in source.get('links', []))
         content += '</ul><h2>' + e(words['latest']) + '</h2><ul>'
@@ -86,7 +100,7 @@ def render_document(template: str, path: str, catalog: dict, origin: str, locale
             + e(row.get('title') or row.get('name')) + '</a> · ' + e(row.get('name')) + '</li>'
             for row in catalog.get('scoreSources', [])[:24]) + '</ul>'
     else:
-        content += '<ul>' + ''.join('<li><a href="' + e(s.get('url') or '/source/') + '?lang=' + locale + '">' + e(s.get('name') or s.get('id')) + '</a></li>' for s in catalog.get('sources', [])[:24]) + '</ul>'
+        content += '<ul>' + ''.join('<li><a href="' + e(s.get('url') or '/source/') + '?lang=' + locale + '">' + e(source_name(s, locale)) + '</a></li>' for s in catalog.get('sources', [])[:24]) + '</ul>'
     content += '<a href="/source/?lang=' + locale + '">' + e(words['all']) + '</a></section>'
     if '<!--SERVER_CONTENT-->' in document:
         document = document.replace('<!--SERVER_CONTENT-->', content)

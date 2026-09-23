@@ -11,6 +11,55 @@ import global_catalog as catalog
 
 
 class CatalogTests(unittest.TestCase):
+    def test_biography_translations_keep_original_and_reject_stale_content(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            manifest = root / 'descriptions.json'
+            source = {'id': 'a', 'name': '原名', 'nameEn': 'Name', 'summary': '原文說明', 'sourceTags': ['演奏者']}
+            translation = {'sourceName': '原名', 'sourceNameEn': 'Name', 'sourceSummary': '原文說明',
+                           'summaryLanguage': 'zh-Hant', 'sourceTags': ['演奏者'],
+                           'summaries': {'en': 'Biography <literal>', 'zh-Hant': 'Do not replace original', 'fr': 'Unsupported'},
+                           'tags': {'en': ['Performer'], 'ja': ['演奏家'], 'ko': [''], 'fr': ['Unsupported']}}
+            manifest.write_text(json.dumps({'sources': {'a': translation}}))
+            def write_source():
+                (root / 'sources.json').write_text(json.dumps({'entries': [source]}))
+            write_source()
+            with patch.object(catalog, 'DESCRIPTION_TRANSLATIONS', manifest):
+                result = catalog.build_catalog(root)['sources'][0]
+                self.assertEqual(result['summary'], '原文說明')
+                self.assertEqual(result['tags'], ['演奏者'])
+                self.assertEqual(result['summaries'], {'en': 'Biography <literal>', 'zh-Hant': '原文說明'})
+                self.assertEqual(result['summaryLanguage'], 'zh-Hant')
+                self.assertEqual(result['tagsLocalized'], {'en': ['Performer'], 'ja': ['演奏家']})
+                self.assertIn('Biography <literal>', result['searchText'])
+                source['sourceTags'].append('教育')
+                write_source()
+                self.assertEqual(catalog.build_catalog(root)['sources'][0]['tagsLocalized'], {})
+                for field in ('name', 'nameEn', 'summary'):
+                    with self.subTest(field=field):
+                        original = source[field]
+                        source[field] = 'Changed content'
+                        write_source()
+                        result = catalog.build_catalog(root)['sources'][0]
+                        self.assertEqual(result['summaries'], {})
+                        self.assertEqual(result['summaryLanguage'], '')
+                        self.assertEqual(result['tagsLocalized'], {})
+                        source[field] = original
+
+    def test_biography_manifest_invalidates_cache_and_missing_translation_is_safe(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            manifest = root / 'descriptions.json'
+            (root / 'sources.json').write_text(json.dumps({'entries': [{'id': 'a', 'name': 'Artist', 'summary': 'Original'}]}))
+            with patch.object(catalog, 'DESCRIPTION_TRANSLATIONS', manifest), patch.object(catalog.time, 'time', return_value=1000):
+                before = catalog.snapshot_version(root)
+                manifest.write_text('{')
+                self.assertNotEqual(before, catalog.snapshot_version(root))
+                source = catalog.build_catalog(root)['sources'][0]
+                self.assertEqual(source['summary'], 'Original')
+                self.assertEqual(source['summaries'], {})
+                self.assertEqual(source['tagsLocalized'], {})
+
     def test_reference_names_keep_original_and_invalidate_stale_identity(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

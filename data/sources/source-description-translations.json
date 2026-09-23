@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "sources": {
+    "watchlist-65": {
+      "sourceName": "Jong-seong Park 朴鍾聲",
+      "sourceNameEn": "Jong-seong Park",
+      "sourceSummary": "韓國的半音階口琴與複音口琴國際演出人員、HOHNER古典藝人與編曲者與管弦樂企劃主持，活動脈絡包含半音階與複音獨奏、2002 APHF金牌與2008 APHF三冠。",
+      "summaryLanguage": "zh-Hant",
+      "summaries": {
+        "zh-Hant": "韓國的半音階口琴與複音口琴國際演出人員、HOHNER古典藝人與編曲者與管弦樂企劃主持，活動脈絡包含半音階與複音獨奏、2002 APHF金牌與2008 APHF三冠。",
+        "en": "South Korean performer of chromatic and tremolo harmonica, HOHNER classical artist, arranger and orchestral project leader. His work includes solo performances on both instruments, a gold medal at the 2002 Asia Pacific Harmonica Festival (APHF) and three titles at the 2008 APHF.",
+        "ja": "韓国のクロマチックおよび複音ハーモニカ奏者。国際的に演奏活動を行い、HOHNERのクラシックアーティスト、編曲家、オーケストラ企画の主宰者としても活動。両楽器の独奏を手がけ、2002年のアジア太平洋ハーモニカフェスティバル（APHF）で金賞、2008年のAPHFで三冠を獲得。",
+        "ko": "크로매틱 및 트레몰로 하모니카로 국제 무대에서 활동하는 한국의 연주자. HOHNER 클래식 아티스트이자 편곡가이며 오케스트라 프로젝트를 이끈다. 두 악기의 독주 활동과 함께 2002년 아시아·태평양 하모니카 페스티벌(APHF) 금메달, 2008년 APHF 3관왕 경력이 있다."
+      },
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "複音",
+        "國際交流"
+      ],
+      "tags": {
+        "zh-Hant": [
+          "演奏者",
+          "半音階",
+          "複音",
+          "國際交流"
+        ],
+        "en": [
+          "Performer",
+          "Chromatic harmonica",
+          "Tremolo harmonica",
+          "International exchange"
+        ],
+        "ja": [
+          "演奏家",
+          "クロマチックハーモニカ",
+          "複音ハーモニカ",
+          "国際交流"
+        ],
+        "ko": [
+          "연주자",
+          "크로매틱 하모니카",
+          "트레몰로 하모니카",
+          "국제 교류"
+        ]
+      }
+    }
+  }
+}

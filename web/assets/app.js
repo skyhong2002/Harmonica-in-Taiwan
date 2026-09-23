@@ -1,3 +1,4 @@
+import { sourceDisplayName, sourceSummaryText } from "./source-names.js";
 import { observatoryHome } from "./home.js";
 import { bindStories } from "./stories.js";
 import { bindGoogleCalendar } from "./google-calendar.js";
@@ -238,7 +239,7 @@ function render({ focus = false } = {}) {
   setLocale(getLocale());
   const current = routes[path()] || "sources";
   const detail = sourceForPath();
-  document.title = `${detail ? detail.name : t(current)} · ${t("brand")}`;
+  document.title = `${detail ? sourceDisplayName(detail) : t(current)} · ${t("brand")}`;
   updateMetadata();
   const isTimeline = ["/", "/post/"].includes(path());
   document.body.classList.remove("feed-locked");
@@ -271,6 +272,8 @@ function render({ focus = false } = {}) {
 }
 
 function updateMetadata() {
+  const source = sourceForPath();
+  const descriptionText = source && sourceSummaryText(source) || t("aboutBody");
   const canonical = document.querySelector('link[rel="canonical"]');
   const base = canonical ? new URL(canonical.href).origin : location.origin;
   const href = base + path() + "?lang=" + getLocale();
@@ -282,13 +285,13 @@ function updateMetadata() {
     ["og:title", document.title],
     ["og:site_name", t("brand")],
     ["og:url", href],
-    ["og:description", t("aboutBody")],
+    ["og:description", descriptionText],
   ]) {
     const node = document.querySelector(`meta[property="${property}"]`);
     if (node) node.content = value;
   }
   const description = document.querySelector('meta[name="description"]');
-  if (description) description.content = t("aboutBody");
+  if (description) description.content = descriptionText;
 }
 let refreshingCommunity = false;
 async function refreshVisibleCommunity() {

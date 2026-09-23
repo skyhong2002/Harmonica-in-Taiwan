@@ -75,6 +75,7 @@ HTTP 請求只讀快照；不會因訪客切換語言啟動 Codex 或 Apify。�
 - `data/sources/harmonica-public-calendar-overrides.csv`：有公開佐證的活動校正。
 - `data/sources/source-url-aliases.csv`：既有來源 URL 別名。
 - `data/sources/source-name-translations.json`：經審閱的四語參考譯名，保留收錄原名及來源；不是官方名稱聲明。
+- `data/sources/source-description-translations.json`：來源簡介及標籤譯文，目前補齊 Jong-seong Park 的四語版本。須與收錄身份及原簡介完全匹配才使用；其他來源尚無譯文時保留原文。詳頁、SSR與SEO跟隨介面語言，原文可展開查看，不因訪客瀏覽呼叫翻譯服務。
 - `data/sources/score-source-media.json`：逐筆核對的書籍封面、公告圖片及原始頁面。明確執行 `.venv/bin/python scripts/cache_score_source_images.py` 可重建本機預覽；不隨訪客請求或離線建置抓圖。
 
 `public_id` 不因排序或新插入資料而重編。`country` 是主所屬國家／地區，`region` 為較細地理資訊；未知地區不可默認為臺灣。新增來源應依 `.agents/AGENTS.md` 取得官方頭像、公開自介並驗證輸出。

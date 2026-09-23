@@ -5,7 +5,7 @@ const dom = new JSDOM('<html><body></body></html>', {url:'http://localhost/'});
 globalThis.document=dom.window.document;
 globalThis.localStorage=dom.window.localStorage;
 const {setLocale}=await import('../assets/i18n.js');
-const {sourceNameRows,sourceNamesMarkup,sourceNameText,sourceTypesMarkup,sourceAlternativesMarkup}=await import('../assets/source-names.js');
+const {sourceNameRows,sourceNamesMarkup,sourceNameText,sourceTypesMarkup,sourceAlternativesMarkup,sourceSummaryText,sourceTags}=await import('../assets/source-names.js');
 const {sourceCard,sourceDetail,sortSources,directoryHeader,pageHeading}=await import('../assets/views.js');
 const source={id:'example',name:'原始名',nameEn:'Original Name',type:'學校社團',names:{original:'原始名','zh-Hant':'中文名',en:'English Name',ja:'日本語名',ko:'한국어 이름'},summary:'Original biography',links:[]};
 
@@ -68,4 +68,48 @@ test('a heading without descriptive copy does not render an empty paragraph',()=
  setLocale('en');document.body.innerHTML=pageHeading('posts',null);
  assert.equal(document.querySelector('h1').textContent,'Updates');assert.equal(document.querySelector('p'),null);
  document.body.innerHTML=pageHeading('sources','directoryBody');assert.ok(document.querySelector('p').textContent);
+});
+
+
+test('profile biographies and tags follow the selected language while the original remains collapsed',()=>{
+ const translated={...source,summary:'原始說明\n保留換行',summaryLanguage:'zh-Hant',summaries:{'zh-Hant':'原始說明\n保留換行',en:'English biography',ja:'日本語の紹介',ko:'한국어 소개'},tags:['半音階','原始標籤'],tagsLocalized:{en:['Chromatic'],ja:['クロマチック'],ko:['크로매틱']}};
+ for(const [locale,label] of [['en','View original'],['ja','原文を見る'],['ko','원문 보기'],['zh-Hant','查看原文']]){
+  setLocale(locale);document.body.innerHTML=sourceDetail(translated,{sources:[translated],posts:[]},new Set());
+  const biography=document.querySelector('.source-summary');
+  assert.equal(biography.textContent,translated.summaries[locale]);
+  assert.equal(biography.lang,locale);
+  assert.equal(sourceSummaryText(translated),translated.summaries[locale]);
+  const details=document.querySelector('.source-summary-original');
+  if(locale==='zh-Hant') assert.equal(details,null);
+  else {
+   assert.equal(details.open,false);assert.equal(details.querySelector('summary').textContent,label);
+   assert.equal(details.querySelector('p').textContent,translated.summary);assert.equal(details.querySelector('p').lang,'zh-Hant');
+   details.open=true;assert.equal(details.open,true);
+  }
+  assert.deepEqual([...document.querySelectorAll('.profile-tags .tag')].map(el=>el.textContent),[translated.tagsLocalized[locale]?.[0] || '半音階','原始標籤']);
+ }
+});
+
+test('missing and blank biography translations fall back to the original without a redundant disclosure',()=>{
+ setLocale('en');
+ for(const summaries of [undefined,{}, {en:''},{en:'  '},{en:43},{ja:'日本語'}]){
+  const input={...source,summary:'  Exact original\ntext  ',summaries};
+  assert.equal(sourceSummaryText(input),input.summary);
+  document.body.innerHTML=sourceDetail(input,{sources:[input],posts:[]},new Set());
+  assert.equal(document.querySelector('.source-summary').textContent,input.summary);
+  assert.equal(document.querySelector('.source-summary-original'),null);
+ }
+ assert.equal(sourceSummaryText({}),'');
+ assert.deepEqual(sourceTags({tags:['a','b'],tagsLocalized:{en:['',null]}}),['a','b']);
+ assert.deepEqual(sourceTags({tags:'invalid',tagsLocalized:{en:['a']}}),[]);
+});
+
+test('translated biographies, original biographies and tags render as literal text',()=>{
+ setLocale('en');
+ const input={...source,summary:'<img src=x onerror=alert(1)>\nOriginal & text',summaries:{en:'<script>alert(2)</script> & translation'},summaryLanguage:'zh-Hant',tags:['原文'],tagsLocalized:{en:['<svg onload=alert(3)>']}};
+ document.body.innerHTML=sourceDetail(input,{sources:[input],posts:[]},new Set());
+ assert.equal(document.querySelector('.source-summary').textContent,input.summaries.en);
+ assert.equal(document.querySelector('.source-summary-original p').textContent,input.summary);
+ assert.equal(document.querySelector('.profile-tags .tag').textContent,input.tagsLocalized.en[0]);
+ assert.equal(document.querySelector('.source-biography script, .source-biography img, .profile-tags svg'),null);
 });

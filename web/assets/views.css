@@ -280,3 +280,7 @@
   .src-c-name > .source-alternatives { margin-left: 72px; }
   .src-country-mobile { margin-top: 5px; }
 }
+
+.source-biography p { white-space: pre-wrap; overflow-wrap: anywhere; }
+.source-summary-original > summary { color: var(--color-text-secondary); font-size: .78rem; cursor: pointer; padding-block: 4px; }
+.source-summary-original > p { color: var(--color-text-secondary); font-size: .86rem; }

@@ -17,6 +17,32 @@ class RenderShellTests(unittest.TestCase):
                             'links': [{'url': 'https://example.org/ensemble?a=1&b=2', 'label': 'Official website'}]}],
                 'posts': [{'sourceId': 'watchlist-42', 'title': 'Concert & workshop', 'url': 'https://example.org/concert'}]}
 
+    def test_localized_biography_and_metadata_keep_original_in_closed_details(self):
+        catalog = self.catalog('原名')
+        source = catalog['sources'][0]
+        source.update(summary='原文 <script>literal</script>', summaryLanguage='zh-Hant',
+                      names={'en': 'Localized <name>', 'ja': '日本語名', 'ko': '한국어 이름'},
+                      summaries={'en': 'Biography <em>text</em>', 'zh-Hant': '原文 <script>literal</script>',
+                                 'ja': '日本語の紹介', 'ko': '한국어 소개'})
+        for locale in ('en', 'ja', 'ko'):
+            with self.subTest(locale=locale):
+                document = render_shell.render_document(TEMPLATE, source['url'], catalog, ORIGIN, locale)
+                summary = html.escape(source['summaries'][locale], quote=True)
+                self.assertIn('<h1>' + html.escape(source['names'][locale]) + '</h1>', document)
+                self.assertIn('<meta name="description" content="' + summary + '">', document)
+                self.assertIn('<meta property="og:description" content="' + summary + '">', document)
+                self.assertIn('<p>' + summary + '</p>', document)
+                self.assertIn('<details class="source-original-summary"><summary>', document)
+                self.assertIn('<p lang="zh-Hant">原文 &lt;script&gt;literal&lt;/script&gt;</p>', document)
+                self.assertNotIn('<script>', document)
+                self.assertNotIn('<em>', document)
+        original = render_shell.render_document(TEMPLATE, source['url'], catalog, ORIGIN, 'zh-Hant')
+        self.assertNotIn('<details', original)
+        source['summaries'] = {}
+        fallback = render_shell.render_document(TEMPLATE, source['url'], catalog, ORIGIN, 'en')
+        self.assertIn('<p>原文 &lt;script&gt;literal&lt;/script&gt;</p>', fallback)
+        self.assertNotIn('<details', fallback)
+
     def test_score_guide_has_its_own_localized_title_and_score_links(self):
         for locale, (title, _) in render_shell.SCORE_GUIDE.items():
             catalog = self.catalog()
