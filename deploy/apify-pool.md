@@ -168,3 +168,21 @@ The NYCU recovery reused a completed run with two still-valid public stories,
 downloaded only its existing result/media, and retained the original expiry
 instants. No new actor or higher spending cap was needed. Cached video content
 is displayed as a preview frame with a link to the original Instagram story.
+
+## Live homepage updates (2026-09-23, #27)
+
+The homepage now reads the existing public catalog once per visible minute,
+on returning to the foreground or navigating back home, and via “Refresh
+stories”. This only reads already-collected data; it never launches an actor or
+changes the independent provider budgets. Story cards are reconciled without
+replacing retained media, the calendar, feed, focused inputs, or form drafts.
+Failed refreshes preserve the last available cards; original expiry still
+removes ended stories. The displayed “Last retrieved” time comes from active
+stories' `observedAt`, not the catalog rebuild timestamp.
+
+The Chumei reference caches story media locally, as this project already does.
+Its current `STORY_DISPLAY_HOURS=48` extends the presentation window from the
+publication time. Harmonica retains the provider's actual expiry instead;
+Chumei's larger visible count must not be read as proof of more currently active
+24-hour stories. No Chumei session, data store, school filters, or budget settings
+are shared.

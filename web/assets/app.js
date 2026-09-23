@@ -54,6 +54,7 @@ let catalog = null,
   calendarCleanup,
   storiesCleanup,
   eventsCleanup;
+let previousRenderedPath = null;
 let following = new Set();
 try {
   following = new Set(
@@ -221,6 +222,8 @@ function body() {
   return `${pageHeading("notFound", "countryNote")}${link("/", t("home"), "button button-primary")}`;
 }
 function render({ focus = false } = {}) {
+  const refreshStoriesOnMount = path() === "/" && previousRenderedPath !== null && previousRenderedPath !== "/";
+  previousRenderedPath = path();
   const previousMenu = app.querySelector('.nav-more[open]');
   const menuControls = 'summary, a, button, select';
   const menuFocus = !focus && previousMenu?.contains(document.activeElement)
@@ -247,7 +250,16 @@ function render({ focus = false } = {}) {
   if (path() === "/events/" && catalog) eventsCleanup = bindEvents(app);
   if (path() === "/" && catalog) {
     calendarCleanup = bindGoogleCalendar(app);
-    storiesCleanup = bindStories(app, { catalog });
+    storiesCleanup = bindStories(app, {
+      catalog,
+      refreshOnMount: refreshStoriesOnMount,
+      refreshCatalog: async ({ signal }) => {
+        const response = await fetch("/api/v1/catalog", { signal, cache: "no-store", headers: { Accept: "application/json" } });
+        if (!response.ok) throw new Error("catalog");
+        return response.json();
+      },
+      onRefresh: next => { catalog.stories = next.stories; },
+    });
   }
   if (menuFocus >= 0) {
     const menu = app.querySelector('.nav-more');
