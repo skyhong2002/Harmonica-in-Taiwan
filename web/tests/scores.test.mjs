@@ -100,7 +100,7 @@ test('repertoire table keeps comparison fields and actionable evidence in separa
   const row = table.querySelector('tbody tr');
   assert.equal(row.children.length, 4);
   assert.match(row.querySelector('.score-main').textContent, /Alpha <b>原曲<\/b>/);
-  assert.match(row.querySelector('.score-context').textContent, /2026.*Harmonica solo.*國中/);
+  assert.match(row.querySelector('.score-context').textContent, /2026.*Harmonica solo.*Junior high/);
   assert.match(row.querySelector('.score-publisher').textContent, /Publisher One/);
   assert.equal(row.querySelectorAll('.score-actions .score-evidence a').length, 2);
   assert.ok(row.querySelector('.score-actions .context-report-link'));
@@ -167,4 +167,25 @@ test('reviewed covers open their actual source and unverified announcements beco
   assert.ok(document.querySelector('.collection-reference-note').textContent.length>10);
   assert.doesNotMatch(document.body.textContent,/undefined/);
  }
+});
+
+
+test('score facets show only the interface language while source filter values and original records survive', async () => {
+ const {instrumentation,divisionLabel}=await import('../assets/scores.js');
+ const expected={en:['Chromatic harmonica','Junior high ensemble'],ja:['クロマチックハーモニカ','中学校団体'],ko:['크로매틱 하모니카','중학교 단체']};
+ for(const [locale,[instrument,division]] of Object.entries(expected)) {
+  setLocale(locale);
+  assert.equal(instrumentation('半音階口琴'),instrument);
+  assert.equal(divisionLabel('國中團體組'),division);
+  document.body.innerHTML=scoresView(catalog,{});
+  const option=document.querySelector('[data-filter="division"] option[value="國中"]');
+  assert.ok(option); assert.ok(!option.textContent.includes('國中'));
+  assert.equal(document.querySelector('.score-guide').open,false);
+  assert.equal(document.querySelector('.results-bar').textContent.includes(scoreLabels[locale].yearNote),false);
+  document.body.innerHTML=scoreSourcesView({scoreSources:[{...catalog.scoreSources[0],instrumentation:'半音階口琴',purchaseMethod:'Facebook 粉專洽詢'}]});
+  assert.match(document.querySelector('.collection-facts').textContent,new RegExp(instrument));
+  assert.ok(!document.querySelector('.collection-facts').textContent.includes('粉專洽詢'));
+  assert.ok(document.querySelector('.collection-original').textContent.includes('原始說明'));
+ }
+ setLocale('zh-Hant');assert.equal(divisionLabel('國中團體組'),'國中團體組');
 });

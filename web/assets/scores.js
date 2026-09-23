@@ -5,7 +5,7 @@ import { reportLink } from './reporting.js';
 
 const labels = {
   'zh-Hant': {
-    announcement: '來源公告原文', media: '樂譜封面／來源圖片', work: '曲目與作者', context: '學年度・編制・組別', actions: '佐證與連結', repertoire: '比賽指定曲', collections: '出版者與譜集', browse: '樂譜瀏覽',
+    guide: '樂譜說明', announcement: '來源公告原文', media: '樂譜封面／來源圖片', work: '曲目與作者', context: '學年度・編制・組別', actions: '佐證與連結', repertoire: '比賽指定曲', collections: '出版者與譜集', browse: '樂譜瀏覽',
     indexNote: '這是比賽指定曲與出版線索索引，不代表每筆都有可下載的完整樂譜。請由原始佐證核對曲目，再向出版者或來源洽詢取得方式。',
     collectionsNote: '公開出版公告、譜集與洽詢入口。保留來源原文；實際取得方式與授權以原始來源為準。',
     academicYear: '學年度', yearNote: '臺灣學年度以西元起始年顯示，括號保留來源的民國年。', rocYear: '民國 {year}',
@@ -16,7 +16,7 @@ const labels = {
     solo: '口琴獨奏', quartet: '口琴四重奏', ensemble: '口琴合奏',
   },
   en: {
-    announcement: 'Original announcement', media: 'Cover / source image', work: 'Work & credits', context: 'Year · instrumentation · division', actions: 'Evidence & links', repertoire: 'Competition repertoire', collections: 'Publishers & collections', browse: 'Browse scores',
+    guide: 'About this index', announcement: 'Original announcement', media: 'Cover / source image', work: 'Work & credits', context: 'Year · instrumentation · division', actions: 'Evidence & links', repertoire: 'Competition repertoire', collections: 'Publishers & collections', browse: 'Browse scores',
     indexNote: 'This is an index of competition repertoire and publishing leads. Entries do not necessarily include a downloadable full score. Check the original evidence, then contact the publisher or source for availability.',
     collectionsNote: 'Public publishing announcements, collections and enquiry links. Original descriptions are preserved; availability and permissions are determined by each source.',
     academicYear: 'Academic year', yearNote: 'Taiwan academic years show the Gregorian starting year, followed by the original ROC year.', rocYear: 'ROC {year}',
@@ -27,7 +27,7 @@ const labels = {
     solo: 'Harmonica solo', quartet: 'Harmonica quartet', ensemble: 'Harmonica ensemble',
   },
   ja: {
-    announcement: '公開案内の原文', media: '表紙・出典の画像', work: '曲目・作者', context: '学年度・編成・部門', actions: '原資料・リンク', repertoire: 'コンクール課題曲', collections: '出版社・楽譜集', browse: '楽譜を探す',
+    guide: '楽譜について', announcement: '公開案内の原文', media: '表紙・出典の画像', work: '曲目・作者', context: '学年度・編成・部門', actions: '原資料・リンク', repertoire: 'コンクール課題曲', collections: '出版社・楽譜集', browse: '楽譜を探す',
     indexNote: 'コンクール課題曲と出版情報の索引です。すべての項目にダウンロード可能な楽譜があるわけではありません。原資料で曲目を確認し、入手方法は出版社・情報源にお問い合わせください。',
     collectionsNote: '公開の出版案内、楽譜集、お問い合わせ先です。説明は原文を保持し、入手条件・利用許諾は各情報源に従います。',
     academicYear: '学年度', yearNote: '台湾の学年度は開始年を西暦で表示し、原資料の民国年を括弧内に併記しています。', rocYear: '民国{year}年',
@@ -38,7 +38,7 @@ const labels = {
     solo: 'ハーモニカ独奏', quartet: 'ハーモニカ四重奏', ensemble: 'ハーモニカ合奏',
   },
   ko: {
-    announcement: '공개 공지 원문', media: '표지·출처 이미지', work: '곡목·제작진', context: '학년도·편성·부문', actions: '근거·링크', repertoire: '콩쿠르 지정곡', collections: '출판사·악보집', browse: '악보 찾기',
+    guide: '악보 안내', announcement: '공개 공지 원문', media: '표지·출처 이미지', work: '곡목·제작진', context: '학년도·편성·부문', actions: '근거·링크', repertoire: '콩쿠르 지정곡', collections: '출판사·악보집', browse: '악보 찾기',
     indexNote: '콩쿠르 지정곡과 출판 정보의 목록입니다. 모든 항목에 내려받을 수 있는 전체 악보가 있는 것은 아닙니다. 원본 근거에서 곡목을 확인한 후 출판사나 출처에 입수 방법을 문의하세요.',
     collectionsNote: '공개 출판 공지, 악보집 및 문의처입니다. 설명은 원문을 유지하며 입수 조건과 이용 허가는 각 출처를 따릅니다.',
     academicYear: '학년도', yearNote: '대만 학년도는 시작하는 서기 연도를 표시하며, 출처의 민국년을 괄호 안에 함께 표시합니다.', rocYear: '민국 {year}년',
@@ -58,7 +58,65 @@ const guideCopy = {
 for (const locale of Object.keys(labels)) Object.assign(labels[locale], guideCopy[locale]);
 export const scoreLabels = labels;
 const l = (key, values = {}) => (labels[getLocale()] || labels.en)[key].replace(/\{(\w+)\}/g, (_, name) => values[name] ?? '');
-const instrumentation = value => ({ '口琴獨奏': l('solo'), '口琴四重奏': l('quartet'), '口琴合奏': l('ensemble') })[value] || value;
+// Controlled catalogue facets follow the interface language. Original titles,
+// names and notes remain untouched; select values retain their stable source keys.
+const facetWords = {
+  '口琴': ['Harmonica', 'ハーモニカ', '하모니카'],
+  '口琴獨奏': ['Harmonica solo', 'ハーモニカ独奏', '하모니카 독주'],
+  '口琴四重奏': ['Harmonica quartet', 'ハーモニカ四重奏', '하모니카 4중주'],
+  '口琴五重奏': ['Harmonica quintet', 'ハーモニカ五重奏', '하모니카 5중주'],
+  '口琴合奏': ['Harmonica ensemble', 'ハーモニカ合奏', '하모니카 합주'],
+  '口琴大合奏': ['Harmonica orchestra', 'ハーモニカ大合奏', '하모니카 대합주'],
+  '口琴重奏': ['Harmonica chamber ensemble', 'ハーモニカ重奏', '하모니카 중주'],
+  '複音口琴': ['Tremolo harmonica', '複音ハーモニカ', '트레몰로 하모니카'],
+  '半音階口琴': ['Chromatic harmonica', 'クロマチックハーモニカ', '크로매틱 하모니카'],
+  '十孔口琴': ['Diatonic harmonica', '10穴ハーモニカ', '다이아토닉 하모니카'],
+  '低音口琴': ['Bass harmonica', 'バスハーモニカ', '베이스 하모니카'],
+  '複音口琴獨奏': ['Tremolo harmonica solo', '複音ハーモニカ独奏', '트레몰로 하모니카 독주'],
+  '半音階口琴獨奏': ['Chromatic harmonica solo', 'クロマチックハーモニカ独奏', '크로매틱 하모니카 독주'],
+  '三部半音階口琴(16孔)': ['3 chromatic harmonicas (16 holes)', 'クロマチックハーモニカ3パート（16穴）', '크로매틱 하모니카 3파트 (16홀)'],
+  '和弦口琴': ['Chord harmonica', 'コードハーモニカ', '코드 하모니카'],
+  '倍低音口琴(39音)': ['Bass harmonica (39 notes)', 'バスハーモニカ（39音）', '베이스 하모니카 (39음)'],
+  '複音': ['Tremolo', '複音', '트레몰로'], '半音階': ['Chromatic', 'クロマチック', '크로매틱'],
+  '十孔': ['Diatonic', '10穴', '다이아토닉'], '獨奏': ['Solo', '独奏', '독주'],
+  '小合奏': ['Small ensemble', '小編成合奏', '소규모 합주'], '大合奏': ['Orchestra', '大合奏', '대합주'],
+  '合奏': ['Ensemble', '合奏', '합주'], '四重奏': ['Quartet', '四重奏', '4중주'], '重奏': ['Chamber ensemble', '重奏', '중주'],
+  '國中': ['Junior high', '中学校', '중학교'], '國中小': ['Elementary / junior high', '小・中学校', '초·중학교'],
+  '國小': ['Elementary school', '小学校', '초등학교'], '高中': ['Senior high', '高校', '고등학교'],
+  '高中職': ['Senior high / vocational', '高校・職業高校', '고등학교·직업학교'], '大專': ['College', '大学・短大', '대학'],
+  '社會': ['Open', '一般', '일반'], 'Open': ['Open', '一般', '일반'],
+  '國中團體組': ['Junior high ensemble', '中学校団体', '중학교 단체'],
+  '國小團體組': ['Elementary ensemble', '小学校団体', '초등학교 단체'],
+  '高中職團體組': ['Senior high / vocational ensemble', '高校・職業高校団体', '고등학교·직업학교 단체'],
+  '大專團體組': ['College ensemble', '大学・短大団体', '대학 단체'],
+  '兒童': ['Children', '児童', '어린이'], '少年': ['Junior', 'ジュニア', '주니어'],
+  '青少年': ['Youth', '青少年', '청소년'], '成人': ['Adult', '成人', '성인'],
+  '決賽': ['Final', '決勝', '결선'], '複賽': ['Semifinal', '準決勝', '준결선'],
+};
+const facet = value => getLocale() === 'zh-Hant' ? value : facetWords[value]?.[['en','ja','ko'].indexOf(getLocale())] || value;
+export const instrumentation = value => String(value || '').split('、').map(facet).join(getLocale() === 'zh-Hant' || getLocale() === 'ja' ? '、' : ', ');
+export function divisionLabel(value = '') {
+  if (getLocale() === 'zh-Hant') return value;
+  const staged = value.match(/^(.+)（(決賽|複賽)）$/);
+  if (staged) return `${facet(staged[1])} · ${facet(staged[2])}`;
+  const base = value.replace(/組$/, '');
+  return facetWords[value] ? facet(value) : facetWords[base] ? facet(base) : value;
+}
+const purchaseWords = {
+  'Facebook 粉專公告洽詢':['Enquire about the Facebook announcement','Facebookの案内について問い合わせ','Facebook 공지에 관해 문의'],
+  'Facebook 粉專或商品頁追蹤':['Check the Facebook page or product page','Facebookまたは商品ページで確認','Facebook 또는 상품 페이지 확인'],
+  'Facebook 粉專洽詢':['Enquire on Facebook','Facebookで問い合わせ','Facebook에서 문의'],
+  'Facebook 粉專追蹤':['Check the Facebook page','Facebookページで確認','Facebook 페이지 확인'],
+  'Google Site 查詢':['Browse the Google Site','Googleサイトで確認','Google 사이트 확인'],
+  'Shopee 賣場購買':['Visit the Shopee shop','Shopee店舗で購入','Shopee 상점에서 구매'],
+  '以公開介紹回溯譜集與洽詢入口':['Find collections and contacts in the artist profile','人物紹介から楽譜集・連絡先を探す','연주자 소개에서 악보집·문의처 찾기'],
+  '依公開貼文洽詢或購買':['Follow the post to enquire or buy','公開投稿から問い合わせ・購入','공개 게시물에서 문의·구매'],
+  '公開曲庫頁查詢':['Search the public music library','公開曲庫で検索','공개 곡목 자료실 검색'],
+  '官網聯絡資訊洽詢':['Use the website contact details','公式サイトの連絡先に問い合わせ','공식 사이트 연락처로 문의'],
+  '黃石樂器商品分類頁查詢':['Browse the retailer’s book category','販売店の書籍カテゴリで確認','판매점의 도서 분류 확인'],
+  '黃石樂器商品頁線上購買':['Order on the retailer’s product page','販売店の商品ページで購入','판매점 상품 페이지에서 구매'],
+};
+const purchaseMethod = value => getLocale() === 'zh-Hant' ? value : purchaseWords[value]?.[['en','ja','ko'].indexOf(getLocale())] || value;
 export function academicYearNumber(row) {
   const year = Number(row.year) || 0;
   return row.countryCode === 'TW' && year > 0 && year < 1000 ? year + 1911 : year;
@@ -107,7 +165,7 @@ function tabs(active, state, catalog) {
   return `<nav class="score-tabs" aria-label="${esc(l('browse'))}">${[['repertoire', '/scores/', catalog.scores?.length || 0], ['collections', '/scores/sources/', catalog.scoreSources?.length || 0]].map(([key, href, count]) => link(href + '?' + query.toString(), `${esc(l(key))}<span>${number(count)}</span>`, `score-tab ${key === active ? 'is-active' : ''}`, key === active ? 'aria-current="page"' : '')).join('')}</nav>`;
 }
 function select(key, label, allLabel, rows, state) {
-  const valueLabel = value => key === 'country' ? countryName(value) : key === 'instrument' ? instrumentation(value) : key === 'year' ? academicYearLabel(rows.find(row => String(row.year) === value) || { year: value }) : value;
+  const valueLabel = value => key === 'country' ? countryName(value) : key === 'instrument' ? instrumentation(value) : key === 'division' ? divisionLabel(value) : key === 'year' ? academicYearLabel(rows.find(row => String(row.year) === value) || { year: value }) : value;
   return `<label>${esc(label)}<select data-filter="${key}"><option value="">${esc(allLabel)}</option>${scoreFacets(rows, state, key).map(({ value, count }) => `<option value="${esc(value)}" ${String(state[key] || '') === value ? 'selected' : ''}>${esc(valueLabel(value))} (${number(count)})</option>`).join('')}</select></label>`;
 }
 function controls(rows, state, collections = false) {
@@ -125,7 +183,7 @@ export function scoreEvidenceLinks(row) {
   return `<div class="score-evidence">${links.join('')}</div>`;
 }
 function repertoireRow(row) {
-  return `<tr class="score-row repertoire-row"><td class="score-main"><h3>${esc(row.title)}</h3>${row.composer || row.arranger ? `<p class="score-credits">${row.composer ? `<span>${t('composer')}: ${esc(row.composer)}</span>` : ''}${row.arranger ? `<span>${t('arranger')}: ${esc(row.arranger)}</span>` : ''}</p>` : ''}${row.notes ? `<details class="score-notes"><summary>${esc(l('notes'))}</summary><p>${esc(row.notes)}</p></details>` : ''}</td><td class="score-context"><div class="score-row-meta"><span class="score-year">${esc(academicYearLabel(row))}</span><span>${esc(instrumentation(row.instrument || ''))}</span><span>${esc(row.division || '')}</span>${row.countryCode && row.countryCode !== 'UNKNOWN' ? `<span class="score-country">${esc(countryName(row.countryCode))}</span>` : ''}</div></td><td class="score-publisher"><span class="score-mobile-label">${esc(l('publisher'))}</span>${esc(row.sourceName || '—')}</td><td class="score-actions"><div class="score-row-links">${scoreEvidenceLinks(row)}${reportLink(row, row.sourceUrl || row.url)}</div></td></tr>`;
+  return `<tr class="score-row repertoire-row"><td class="score-main"><h3>${esc(row.title)}</h3>${row.composer || row.arranger ? `<p class="score-credits">${row.composer ? `<span>${t('composer')}: ${esc(row.composer)}</span>` : ''}${row.arranger ? `<span>${t('arranger')}: ${esc(row.arranger)}</span>` : ''}</p>` : ''}${row.notes ? `<details class="score-notes"><summary>${esc(l('notes'))}</summary><p>${esc(row.notes)}</p></details>` : ''}</td><td class="score-context"><div class="score-row-meta"><span class="score-year">${esc(academicYearLabel(row))}</span><span>${esc(instrumentation(row.instrument || ''))}</span><span>${esc(divisionLabel(row.division || ''))}</span>${row.countryCode && row.countryCode !== 'UNKNOWN' ? `<span class="score-country">${esc(countryName(row.countryCode))}</span>` : ''}</div></td><td class="score-publisher"><span class="score-mobile-label">${esc(l('publisher'))}</span>${esc(row.sourceName || '—')}</td><td class="score-actions"><div class="score-row-links">${scoreEvidenceLinks(row)}${reportLink(row, row.sourceUrl || row.url)}</div></td></tr>`;
 }
 function repertoireTable(rows) {
   return `<table class="score-table"><caption class="sr-only">${esc(l('repertoire'))}</caption><thead><tr><th scope="col">${esc(l('work'))}</th><th scope="col">${esc(l('context'))}</th><th scope="col">${esc(l('publisher'))}</th><th scope="col">${esc(l('actions'))}</th></tr></thead><tbody>${rows.map(repertoireRow).join('')}</tbody></table>`;
@@ -175,7 +233,7 @@ function collectionRow(row) {
   const media = collectionMedia(row);
   const detail = (label,value) => value ? `<div><dt>${esc(label)}</dt><dd>${esc(value)}</dd></div>` : '';
   const extra = [...new Set([row.imageSourceUrl,row.sourceUrl,row.url,...(row.links || []).map(item=>item.url)].map(safeUrl).filter(url=>url && url !== action.url))];
-  return `<article class="score-row repertoire-row collection-row${cover ? ' collection-illustrated' : ''}" data-collection-kind="${collectionKind(row)}">${cover ? `<div class="collection-cover">${media}</div>` : ''}<div class="score-main"><h3 class="collection-title">${esc(row.title || row.name)}</h3><p class="collection-provider">${esc(l('provider'))}: ${esc(row.name || '')}</p>${row.referenceStatus === 'unverified' ? `<p class="collection-reference-note">${esc(l('unverified'))}</p>` : ''}<dl class="collection-facts">${detail(l('instrument'),row.instrumentation)}${detail(l('how'),row.purchaseMethod)}</dl>${cover ? '' : media}<div class="score-row-links">${link(action.url, esc(l(action.label)), 'button button-outline collection-primary')}${reportLink(row)}</div><details class="collection-record"><summary>${esc(l('record'))}${row.lastSeenAt ? ` · ${esc(row.lastSeenAt)}` : ''}</summary><dl>${detail(l('recorded'),row.lastSeenAt)}${detail(t('composer'),row.composer)}${detail(t('arranger'),row.arranger)}${detail(l('recordedPrice'),row.price)}${detail(l('recordedAvailability'),row.availability)}</dl>${row.summary ? `<p class="collection-original">${esc(row.summary)}</p>` : ''}<div class="score-evidence">${extra.map(url=>link(url,esc(l('sourcePage')),'score-evidence-link')).join('')}</div></details></div></article>`;
+  return `<article class="score-row repertoire-row collection-row${cover ? ' collection-illustrated' : ''}" data-collection-kind="${collectionKind(row)}">${cover ? `<div class="collection-cover">${media}</div>` : ''}<div class="score-main"><h3 class="collection-title">${esc(row.title || row.name)}</h3><p class="collection-provider">${esc(l('provider'))}: ${esc(row.name || '')}</p>${row.referenceStatus === 'unverified' ? `<p class="collection-reference-note">${esc(l('unverified'))}</p>` : ''}<dl class="collection-facts">${detail(l('instrument'),instrumentation(row.instrumentation))}${detail(l('how'),purchaseMethod(row.purchaseMethod))}</dl>${cover ? '' : media}<div class="score-row-links">${link(action.url, esc(l(action.label)), 'button button-outline collection-primary')}${reportLink(row)}</div><details class="collection-record"><summary>${esc(l('record'))}${row.lastSeenAt ? ` · ${esc(row.lastSeenAt)}` : ''}</summary><dl>${detail(l('recorded'),row.lastSeenAt)}${detail(t('composer'),row.composer)}${detail(t('arranger'),row.arranger)}${detail(l('recordedPrice'),row.price)}${detail(l('recordedAvailability'),row.availability)}</dl>${row.summary ? `<p class="collection-original">${esc(row.summary)}</p>` : ''}<div class="score-evidence">${extra.map(url=>link(url,esc(l('sourcePage')),'score-evidence-link')).join('')}</div></details></div></article>`;
 }
 function collectionControls(rows, state) {
   const base = rows.filter(row=>match(row,{q:state.q,country:state.country}));
@@ -191,7 +249,7 @@ function pagination(length, limit) {
 }
 export function scoresView(catalog, state = {}, limit = 24) {
   const rows = catalog.scores || [], results = filterScores(rows, state);
-  return `${pageHeading('scores', 'scoresBody')}${tabs('repertoire', state, catalog)}<p class="score-index-note">${icon('info')}<span>${esc(l('indexNote'))}</span></p>${controls(rows, state)}<div class="results-bar"><p role="status">${esc(l('records', { count: number(results.length) }))}</p><span>${esc(l('yearNote'))}</span></div><div class="score-list">${results.length ? repertoireTable(results.slice(0, limit)) : noResults(false)}</div>${pagination(results.length, limit)}`;
+  return `${pageHeading('scores', 'scoresBody')}${tabs('repertoire', state, catalog)}${controls(rows, state)}<div class="results-bar"><p role="status">${esc(l('records', { count: number(results.length) }))}</p></div><div class="score-list">${results.length ? repertoireTable(results.slice(0, limit)) : noResults(false)}</div>${pagination(results.length, limit)}<details class="score-guide"><summary>${esc(l('guide'))}</summary><p>${esc(l('indexNote'))}</p><p>${esc(l('yearNote'))}</p></details>`;
 }
 export function scoreSourcesView(catalog, state = {}, limit = 24) {
   const rows = catalog.scoreSources || [];

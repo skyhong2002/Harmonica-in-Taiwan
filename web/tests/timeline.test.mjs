@@ -61,3 +61,13 @@ test('historical posts show their year; linked events distinguish timezone and a
 test('website snapshots stay available explicitly without masquerading as newly published posts',()=>{
  const window=setup();setLocale('en');const snapshot={...catalog.posts[0],id:'snapshot',platform:'website',publishedAt:null,observedAt:'2026-09-23T12:00:00Z',contentKind:'website_snapshot'};const data={...catalog,posts:[snapshot,...catalog.posts]};assert.equal(timelinePosts(data,{}).some(p=>p.id==='snapshot'),false);assert.deepEqual(timelinePosts(data,{platform:'website'}).map(p=>p.id),['snapshot']);document.querySelector('main').innerHTML=timelineCard(snapshot,data.sources);assert.match(document.querySelector('.feed-latest-meta').textContent,/Observed, not published/);assert.match(document.querySelector('.feed-latest-meta time').title,/2026/);assert.match(document.querySelector('.timeline-meta').textContent,/Website snapshot/);assert.ok(document.querySelector('.feed-text').textContent.includes(snapshot.text));window.close();
 });
+
+
+test('feed summary is concise and linked authors use one interface-language name',()=>{
+ const window=setup();setLocale('en');const data={...catalog,sources:catalog.sources.map(source=>({...source,names:{en:'English author',original:source.name}}))};
+ document.querySelector('main').innerHTML=timelineView(data,{});
+ assert.equal(document.querySelector('.feed-river-summary').children.length,1);
+ assert.equal(document.querySelector('.source-name-link').textContent,'English author');
+ assert.ok(document.querySelector('.feed-text').textContent.includes('完整原文'));
+ window.close();
+});

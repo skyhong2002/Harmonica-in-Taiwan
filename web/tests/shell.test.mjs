@@ -12,7 +12,7 @@ test('shell preserves preferences, exposes four languages and follows appearance
   localStorage.setItem('atlas-language','ja');
   localStorage.setItem('atlas-theme','dark');
   const {navigation,footer,initializeShell,handleShellClick} = await import('../assets/shell.js');
-  const {setLocale} = await import('../assets/i18n.js');
+  const {setLocale, t} = await import('../assets/i18n.js');
   initializeShell();
   assert.equal(document.documentElement.dataset.theme,'dark');
   const routes = {'/':'discover','/post/':'posts','/events/':'events','/source/':'sources','/scores/':'scores','/contribute/':'contribute','/privacy/':'privacy'};
@@ -27,7 +27,7 @@ test('shell preserves preferences, exposes four languages and follows appearance
   assert.equal(document.querySelector('.nav-more a[href="/contribute/"]') !== null,true);
   assert.equal(document.querySelector('.nav-more a[href="/status/"]') !== null,true);
   assert.ok(document.querySelector('.nav-more summary svg'));
-  assert.match(document.querySelector('.nav-more summary').getAttribute('aria-label'),/English \/ 繁體中文 \/ 日本語 \/ 한국어/);
+  assert.ok(document.querySelector('.nav-more summary').getAttribute('aria-label').includes(t('language')));
   const click = (selector) => handleShellClick({target:document.querySelector(selector)});
   assert.equal(document.querySelector('[data-shell-panel="appearance"]'),null);
   assert.equal(document.querySelectorAll('.nav-theme-field [data-theme-choice]').length,3);

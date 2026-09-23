@@ -2,6 +2,7 @@ import { t, getLocale, countryName } from './i18n.js';
 import { esc, link, icon, timestamp, shortEventDate, number, avatar, sourceHref, safeUrl, textMatch, platformName, empty } from './utils.js';
 import { filterBar } from './views.js';
 import { reportLink } from './reporting.js';
+import { sourceDisplayName } from './source-names.js';
 
 const labels = {
   en: {share:'Share', original:'Open source', local:'Post times use your device timezone', snapshot:'Website snapshot', observed:'Observed, not published', snapshots:'Website page snapshots appear when you select Web.', noFollowing:'Your followed feed is empty', startFollowing:'Follow sources in the directory to see their posts here. Following is saved in this browser.'},
@@ -26,7 +27,7 @@ function archivedStory(p) {
 }
 export function timelineCard(p, sources = [], following = new Set(), events = [], index = 0) {
   const source = sources.find(s=>s.id === p.sourceId);
-  const name = p.sourceName || source?.name || t('source');
+  const name = source ? sourceDisplayName(source) : p.sourceName || t('source');
   const text = p.text || '';
   const title = p.title && p.title !== text && !text.startsWith(p.title) ? p.title : '';
   const expandable = text.length > 180 || text.split('\n').length > 6;
@@ -41,7 +42,7 @@ export function timelineView(catalog,state = {},following = new Set(),limit = 24
   const posts = timelinePosts(catalog,state,following),shown=Math.min(posts.length,Math.max(1,limit));
   const noFollowing = (state.followed || state.kind === 'following') && !following.size;
   const emptyFeed = noFollowing ? `<div class="empty-state">${icon('heart')}<h2>${esc(words().noFollowing)}</h2><p>${esc(words().startFollowing)}</p>${link('/source/',esc(t('sources')),'button button-outline')}</div>` : empty();
-  return `<section class="observatory-timeline" data-timeline><div class="feed-river-controls"><div class="feed-river-summary"><strong role="status">${t('results',{count:number(posts.length)})}</strong><span>${t('originalLanguage')} ${esc(words().local)}. ${esc(words().snapshots)}</span></div>${filterBar(state,catalog,'posts',following)}</div><div class="feed-river" data-timeline-grid>${posts.length ? posts.slice(0,shown).map((p,i)=>timelineCard(p,catalog.sources,following,catalog.events,i)).join('') : emptyFeed}</div><div class="feed-load-more-wrap" ${posts.length > shown ? 'data-timeline-more' : ''}><span class="feed-load-more-status" tabindex="-1">${t('showing',{shown:number(shown),total:number(posts.length)})}</span>${posts.length > shown ? `<button type="button" class="feed-load-more-button" data-action="more">${t('loadMore')}</button>` : ''}</div></section>`;
+  return `<section class="observatory-timeline" data-timeline><div class="feed-river-controls"><div class="feed-river-summary"><strong role="status">${t('results',{count:number(posts.length)})}</strong></div>${filterBar(state,catalog,'posts',following)}</div><div class="feed-river" data-timeline-grid>${posts.length ? posts.slice(0,shown).map((p,i)=>timelineCard(p,catalog.sources,following,catalog.events,i)).join('') : emptyFeed}</div><div class="feed-load-more-wrap" ${posts.length > shown ? 'data-timeline-more' : ''}><span class="feed-load-more-status" tabindex="-1">${t('showing',{shown:number(shown),total:number(posts.length)})}</span>${posts.length > shown ? `<button type="button" class="feed-load-more-button" data-action="more">${t('loadMore')}</button>` : ''}</div></section>`;
 }
 
 let autoLoadEnabled = false;

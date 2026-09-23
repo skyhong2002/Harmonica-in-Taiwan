@@ -122,3 +122,16 @@ test('failed videos remove dead controls and retain their poster with a four-lan
   }
   window.close();
 });
+
+
+test('event cards omit repeated declarations without hiding snapshot status, timezone or original links',()=>{
+ const window=setup();document.querySelector('main').innerHTML=eventsView(catalog,{});
+ assert.equal(document.querySelector('.results-bar').children.length,1);
+ assert.equal(document.querySelector('.event-reference-label'),null);
+ assert.ok(document.querySelector('.event-reference-actions a[href]'));
+ assert.match(document.querySelector('.rich-event-zone').textContent,/America\/Los_Angeles/);
+ document.querySelector('main').innerHTML=richEventCard({...event,url:post.url,sourceUrl:post.url},{...catalog,posts:[{...post,contentKind:'website_snapshot',publishedAt:null}]});
+ assert.match(document.querySelector('.event-reference-label').textContent,/website/i);
+ assert.equal(document.querySelector('.rich-event-actions a[href="'+post.url+'"]'),null);
+ window.close();
+});

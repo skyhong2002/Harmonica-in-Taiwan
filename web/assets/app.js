@@ -189,7 +189,7 @@ function listView(kind, data) {
       : kind === "sources"
         ? link("/submit/", t("submit") + icon("plus"), "button button-outline")
         : "";
-  return `${pageHeading(kind, bodyKey, extra)}${filterBar(state, catalog, kind, following)}<div class="results-bar"><p role="status">${t("results", { count: number(sorted.length) })}</p><span>${kind === "sources" && state.followed ? t("followHint") : t("originalLanguage")}</span></div>${kind === "sources" ? directoryHeader(state.sort, state.descending) : ""}<div class="${cls}">${sorted.length ? sorted.slice(0, limit).map(card).join("") : empty()}</div>${sorted.length > limit ? `<div class="pagination"><p>${t("showing", { shown: number(limit), total: number(sorted.length) })}</p><button class="button button-outline" data-action="more">${t("loadMore")}${icon("plus")}</button></div>` : ""}`;
+  return `${pageHeading(kind, bodyKey, extra)}${filterBar(state, catalog, kind, following)}<div class="results-bar"><p role="status">${t("results", { count: number(sorted.length) })}</p>${kind === "sources" && state.followed ? `<span>${t("followHint")}</span>` : ""}</div>${kind === "sources" ? directoryHeader(state.sort, state.descending) : ""}<div class="${cls}">${sorted.length ? sorted.slice(0, limit).map(card).join("") : empty()}</div>${sorted.length > limit ? `<div class="pagination"><p>${t("showing", { shown: number(limit), total: number(sorted.length) })}</p><button class="button button-outline" data-action="more">${t("loadMore")}${icon("plus")}</button></div>` : ""}`;
 }
 function sourceForPath() {
   let slug;
@@ -203,7 +203,7 @@ function body() {
   const key = routes[path()];
   const data = filtered();
   if (key === "discover") return observatoryHome(catalog, state, following, limit);
-  if (key === "posts") return pageHeading("posts", "latestBody") + timelineView(catalog, state, following, limit);
+  if (key === "posts") return pageHeading("posts", null) + timelineView(catalog, state, following, limit);
   if (key === "scores") return scoresView(catalog, state, limit);
   if (key === "scoreSources") return scoreSourcesView(catalog, state, limit);
   if (key === "events") return eventsView(catalog, state, following, limit);

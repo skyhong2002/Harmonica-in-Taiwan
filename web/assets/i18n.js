@@ -1,4 +1,7 @@
 const rows = {
+  website: ["Website", "網站", "ウェブサイト", "웹사이트"],
+  manualSource: ["Manual entry", "人工收錄", "手動登録", "수동 등록"],
+  instagramStories: ["Instagram stories", "Instagram 限動", "Instagram ストーリー", "Instagram 스토리"],
   reviewing: ["Under review", "審核中", "確認中", "검토 중"],
   details: ["Details", "詳細資訊", "詳細", "상세 정보"],
   sourceType_venue: [
@@ -164,16 +167,16 @@ const rows = {
     "공연, 대회, 워크숍 등 다양한 행사.",
   ],
   directoryBody: [
-    "Find players, ensembles, makers, and communities across borders.",
-    "跨越國界，認識演奏者、樂團、製琴者與口琴社群。",
-    "国境を越えて、演奏家、楽団、メーカー、コミュニティを探す。",
-    "국경을 넘어 연주자, 앙상블, 제작사와 커뮤니티를 찾아보세요.",
+    "Players, ensembles and harmonica makers.",
+    "認識演奏者、樂團與口琴品牌。",
+    "演奏家・楽団・ハーモニカメーカーを探す。",
+    "연주자, 앙상블과 하모니카 제작사를 찾아보세요.",
   ],
   eventsBody: [
-    "Discover events in their original time zones. Always check the organizer’s announcement before making plans.",
-    "以活動當地時區呈現。安排行程前，請以主辦單位的最新公告為準。",
-    "イベント開催地の時間帯で表示しています。参加前に主催者の最新情報をご確認ください。",
-    "행사 현지 시간대로 표시됩니다. 일정을 정하기 전 주최자의 최신 공지를 확인하세요.",
+    "Concerts, competitions and workshops.",
+    "音樂會、比賽與工作坊。",
+    "コンサート・コンクール・ワークショップ。",
+    "공연, 대회와 워크숍.",
   ],
   scoresBody: [
     "Discover published music and competition repertoire. Follow each source for availability and usage rights.",

@@ -138,3 +138,6 @@
   .score-source-list .collection-row.collection-illustrated { grid-template-columns:120px minmax(0,1fr); gap:14px; }
 }
 .collection-reference-note { color:var(--color-text-secondary); font-size:.8rem; margin:0 0 10px; line-height:1.6; }
+.score-guide { margin:18px 0; color:var(--color-text-secondary); font-size:.8rem; line-height:1.7; }
+.score-guide summary { cursor:pointer; width:fit-content; min-height:36px; padding-block:6px; }
+.score-guide p { margin:6px 0; max-width:75ch; }

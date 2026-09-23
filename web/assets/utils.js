@@ -262,15 +262,17 @@ export const platformName = (platform) =>
   ({
     facebook: "Facebook",
     instagram: "Instagram",
-    instagram_stories: "Instagram Stories",
+    instagram_stories: t("instagramStories"),
     threads: "Threads",
+    x: "X",
+    twitter: "X",
     youtube: "YouTube",
     rss: "RSS",
     rsshub: "RSSHub",
-    website: "Web",
+    website: t("website"),
     apify: "Apify",
     mixed: "Apify · RSS · YouTube",
-    manual: "Manual",
+    manual: t("manualSource"),
   })[String(platform).toLowerCase()] || String(platform || "");
 const typeMap = {
   演奏家: "artist",

@@ -252,3 +252,31 @@
 }
 /* An older activity date must keep its year, including on narrow screens. */
 .src-upd { white-space: normal; overflow: visible; text-overflow: clip; max-width: none; line-height: 1.45; }
+
+/* Keep the familiar identity visible; additional translations are optional. */
+.src-c-name { position: relative; min-height: 72px; }
+.source-card.src-row .src-c-name h3 { margin-left: 86px; }
+.src-c-name a { display: block; }
+.src-c-name .avatar { position: absolute; top: 0; left: 0; }
+.source-alternatives { margin: 5px 0 0; font-weight: 400; }
+.src-c-name > .source-alternatives { margin-left: 86px; }
+.source-alternatives > summary { padding-block: 4px; min-height: 28px; cursor: pointer; color: var(--color-text-secondary); font-size: .73rem; line-height: 1.4; overflow-wrap: anywhere; }
+.source-alternatives > summary:hover { color: var(--color-text-primary); }
+.source-alternatives-content { padding: 5px 0 8px; }
+.source-alternatives-content h4 { margin: 8px 0 5px; color: var(--color-text-secondary); font: 600 .73rem/1.4 var(--font-sans); }
+.source-alternative-names, .source-alternative-types { display: flex; flex-direction: column; gap: 6px; }
+.source-alternatives .source-name-line.is-primary { font-size: .76rem; font-weight: 400; }
+.source-alternatives .source-translation-note { margin: 10px 0 0; font-size: .7rem; }
+.profile-types { border: 0; margin-block: 8px; padding: 0; }
+.source-profile > div > .source-alternatives { margin-block: 8px 12px; }
+@media (min-width: 700px) and (max-width: 1250px) {
+  .src-c-name { min-height: 64px; }
+  .source-card.src-row .src-c-name h3 { margin-left: 76px; }
+  .src-c-name > .source-alternatives { margin-left: 76px; }
+}
+@media (max-width: 699px) {
+  .src-c-name { min-height: 60px; }
+  .source-card.src-row .src-c-name h3 { margin-left: 72px; }
+  .src-c-name > .source-alternatives { margin-left: 72px; }
+  .src-country-mobile { margin-top: 5px; }
+}
