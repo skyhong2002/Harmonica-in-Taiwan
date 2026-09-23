@@ -264,7 +264,13 @@ def main() -> int:
 
         if not args.skip_watch:
             if not args.skip_instagram:
-                run([PYTHON, "scripts/instagram_public_fetcher.py", "--pipeline-lock-held"],
+                run([PYTHON, "scripts/instagram_public_fetcher.py", "--kind", "story", "--pipeline-lock-held"],
+                    optional=True, step="fetch instagram stories", status_hook=mark_step)
+                # Stories expire quickly: publish their existing cache before
+                # unrelated collectors or the full watchdog can delay the feed.
+                run([PYTHON, "scripts/publish_story_cache.py", "--pipeline-lock-held"],
+                    optional=True, step="publish cached instagram stories", status_hook=mark_step)
+                run([PYTHON, "scripts/instagram_public_fetcher.py", "--kind", "profile", "--pipeline-lock-held"],
                     optional=True, step="fetch instagram public", status_hook=mark_step)
             if not args.skip_youtube:
                 youtube_args = [

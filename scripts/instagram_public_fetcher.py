@@ -127,16 +127,23 @@ def select_due(sources, state, kind, now, limit, wanted=()):
         history = state.get("history", {}).get(source["username"], [])
         return (bool(last), cadence(history, now), last, source["username"])
     if kind == "apify_stories" and not wanted:
-        # Alternate exploration and refresh within the same paid batch. A large
-        # never-scanned backlog must not defer every previously active account
-        # until that backlog has been exhausted weeks later.
+        # Prefer known active publishers, while retaining one exploration slot
+        # per four choices. Old successful-empty accounts must not outrank
+        # recently active sources merely because their last scan is older.
         new = sorted((s for s in rows if not entries.get(s["id"], {}).get("last_success_at")), key=priority)
-        known = sorted((s for s in rows if entries.get(s["id"], {}).get("last_success_at")),
-                       key=lambda s: float(entries[s["id"]].get("last_attempt_at") or 0))
+        def known_priority(source):
+            entry = entries[source["id"]]
+            activity = state.get("history", {}).get(source["username"], []) + entry.get("posts", [])
+            return (cadence(activity, now), float(entry.get("last_attempt_at") or 0), source["username"])
+        known = sorted((s for s in rows if entries.get(s["id"], {}).get("last_success_at")), key=known_priority)
         ordered = []
+        # A tiny one-target budget still explores during one of four 3h slots.
+        if new and int(now // (3 * 3600)) % 4 == 3:
+            ordered.append(new.pop(0))
         while new or known:
-            if known:
-                ordered.append(known.pop(0))
+            for _ in range(3):
+                if known:
+                    ordered.append(known.pop(0))
             if new:
                 ordered.append(new.pop(0))
         return ordered[:limit]
@@ -301,42 +308,74 @@ def run_actor(state, token, actor, body, max_results, budget, now, save):
                 query={"format": "json", "clean": "true", "limit": max_results})
     outcome = api("GET", f"/key-value-stores/{run['defaultKeyValueStoreId']}/records/OUTPUT", token) if actor == STORY_ACTOR else {}
     receipt["delivered"] = max(len(items), int(outcome.get("delivered") or 0))
-    if outcome.get("outcome") == "denied" and not reservation:
-        # The actor explicitly confirms that a denied run scraped nothing and
-        # incurred no event charge; do not invent spend on this retry path.
-        receipt.update(reserved_usd=0.0, cost_usd=0.0, reserved_results=0)
+    # A denied/free-tier OUTPUT can still incur actor-start or delayed charges.
+    # Keep the full persisted cap even when usageTotalUsd is initially zero.
     save()
     return items, outcome
+
+
+def pool_story_plan(options, target_count):
+    """Plan against one account's money AND remaining daily result slots."""
+    plans = [story_plan(float(option.get("maxRunBudgetUsd") or 0), target_count,
+                        40 - max(0, min(40, int(option.get("resultsLeft") or 0))))
+             for option in options]
+    return max(plans, key=lambda plan: (plan[0], plan[1], -plan[2]), default=(0, 0, 0.0))
+
+
+def paced_story_runs(options):
+    """Spread currently affordable complete batches over eight daily slots."""
+    runs = 0
+    for option in options:
+        credit = max(0.0, float(option.get("maxRunBudgetUsd") or 0))
+        results = max(0, min(40, int(option.get("resultsLeft") or 0)))
+        if credit + 1e-9 >= .0095 and results:
+            runs += min(math.ceil(results / 10), max(1, math.floor((credit + 1e-9) / .05)))
+    return max(1, min(8, math.ceil(runs / 8)))
 
 
 def collect_stories(state, sources, token, limits, cap, now, save, wanted):
     section = state.setdefault("story", {})
     if not wanted and float(section.get("next_run_at") or 0) > now:
         return
-    selected = select_due(sources, state, "apify_stories", now, 10, wanted)
-    if not selected:
-        section.update(status="ok", reason="no_sources_due")
-        return
-    section.update(checked_at=iso(now))
-    if not wanted:
-        section["next_run_at"] = now + 3 * 3600
-    today = iso(now)[:10]
-    delivered = sum(int(r.get("delivered", r.get("reserved_results", 0))) for r in state.get("runs", [])
-                    if r.get("actor") == STORY_ACTOR and r.get("at", "").startswith(today))
-    if state.get("_use_pool"):
-        available = apify_pool.available_budget("instagram_stories", now=now)
-        delivered = 0  # Per-account result allowance is atomically enforced by the pool.
-    else:
-        available = daily_budget(state, limits, cap, now) if token and limits else 0
-    targets, results, budget = story_plan(available, len(selected), delivered)
-    section.update(available_usd=round(available, 6), daily_results=delivered)
-    if not targets:
-        section.update(status="paused", reason="daily_result_limit" if delivered >= 40 else "credit_budget", scanned=0)
-        return
-    selected = selected[:targets]
-    items, outcome = run_actor(state, token, STORY_ACTOR, {"usernames": [s["username"] for s in selected],
-                                  "maxResults": results}, results, budget, now, save)
-    ingest_story_results(state, selected, items, outcome, results, now, save)
+    options = apify_pool.story_run_options(now=now) if state.get("_use_pool") else []
+    max_runs = paced_story_runs(options) if state.get("_use_pool") and not wanted else 1
+    attempted = set()
+    for index in range(max_runs):
+        selected = select_due([s for s in sources if s["id"] not in attempted], state,
+                              "apify_stories", now, 10, wanted)
+        if not selected:
+            if not index:
+                section.update(status="ok", reason="no_sources_due")
+            break
+        section.update(checked_at=iso(now))
+        if not wanted:
+            section["next_run_at"] = now + 3 * 3600
+        today = iso(now)[:10]
+        delivered = sum(int(r.get("delivered", r.get("reserved_results", 0))) for r in state.get("runs", [])
+                        if r.get("actor") == STORY_ACTOR and r.get("at", "").startswith(today))
+        if state.get("_use_pool"):
+            # Re-read after each successful run; never combine one account's
+            # monetary capacity with a different account's result allowance.
+            if index:
+                options = apify_pool.story_run_options(now=now)
+            targets, results, budget = pool_story_plan(options, len(selected))
+            available = max((float(o.get("maxRunBudgetUsd") or 0) for o in options), default=0.0)
+        else:
+            available = daily_budget(state, limits, cap, now) if token and limits else 0
+            targets, results, budget = story_plan(available, len(selected), delivered)
+        section.update(available_usd=round(available, 6), daily_results=delivered)
+        if not targets:
+            if not index:
+                section.update(status="paused", reason="daily_result_limit" if not state.get("_use_pool") and delivered >= 40 else "credit_budget", scanned=0)
+            break
+        selected = selected[:targets]
+        # Unknown or failed outcomes propagate without another paid attempt.
+        items, outcome = run_actor(state, token, STORY_ACTOR, {"usernames": [s["username"] for s in selected],
+                                      "maxResults": results}, results, budget, now, save)
+        ingest_story_results(state, selected, items, outcome, results, now, save)
+        attempted.update(s["id"] for s in selected)
+        if outcome.get("outcome") == "denied":
+            break  # A free-tier refusal does not prove this run was free.
 
 
 def ingest_story_results(state, selected, items, outcome, results, now, save):

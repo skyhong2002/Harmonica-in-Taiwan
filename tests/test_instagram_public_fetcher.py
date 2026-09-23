@@ -141,7 +141,7 @@ class InstagramPublicTests(unittest.TestCase):
         original = {"next_due_at": self.now + 99999, "last_attempt_at": self.now - 100}
         state = {"_use_pool": True, "story": {"next_run_at": self.now + 9000},
                  "sources": {self.source["id"]: copy.deepcopy(original), other["id"]: copy.deepcopy(original)}}
-        with mock.patch.object(collector.apify_pool, "available_budget", return_value=.0095), mock.patch.object(
+        with mock.patch.object(collector.apify_pool, "story_run_options", return_value=[{"maxRunBudgetUsd": .0095, "resultsLeft": 40}]), mock.patch.object(
                 collector, "run_actor", return_value=([], {"outcome": "ok", "granted_targets": 1})) as actor:
             collector.collect_stories(state, [self.source, other], "", {}, 0, self.now, lambda: None, {"test"})
         self.assertEqual(actor.call_args.args[3]["usernames"], ["test"])
@@ -149,7 +149,7 @@ class InstagramPublicTests(unittest.TestCase):
         self.assertEqual(state["sources"][other["id"]], original)
         self.assertEqual(state["story"]["next_run_at"], self.now + 9000)
         self.assertEqual(state["sources"][self.source["id"]]["interval_hours"], 12)
-        with mock.patch.object(collector.apify_pool, "available_budget", return_value=0), mock.patch.object(collector, "run_actor") as actor:
+        with mock.patch.object(collector.apify_pool, "story_run_options", return_value=[]), mock.patch.object(collector, "run_actor") as actor:
             collector.collect_stories(state, [self.source], "", {}, 0, self.now + 10, lambda: None, {"test"})
         actor.assert_not_called()
         self.assertEqual(state["story"]["reason"], "credit_budget")
@@ -175,6 +175,71 @@ class InstagramPublicTests(unittest.TestCase):
         self.assertEqual(selected[0], self.source)
         self.assertEqual(len(selected), 5)
         self.assertEqual(len([s for s in selected if s["id"].startswith("new")]), 4)
+
+    def test_known_active_sources_outrank_older_inactive_checks_with_exploration(self):
+        sources = [{**self.source, "id": f"s{i}", "username": f"s{i}"} for i in range(8)]
+        state = {"sources": {s["id"]: {"last_success_at": collector.iso(self.now - 86400),
+                 "last_attempt_at": self.now - (8-i)*86400, "next_due_at": 0}
+                 for i, s in enumerate(sources[:6])},
+                 "history": {"s5": [{"posted_at": collector.iso(self.now - 3600)}],
+                             "s4": [{"posted_at": collector.iso(self.now - 7200)}]}}
+        selected = collector.select_due(sources, state, "apify_stories", self.now, 4)
+        self.assertEqual([s["id"] for s in selected[:2]], ["s4", "s5"])
+        self.assertIn(selected[3]["id"], ["s6", "s7"])
+        exploratory_slot = self.now + 9*3600
+        self.assertIn(collector.select_due(sources, state, "apify_stories", exploratory_slot, 1)[0]["id"], ["s6", "s7"])
+
+    def test_pool_story_plan_does_not_mix_account_money_and_result_slots(self):
+        options = [{"maxRunBudgetUsd": .05, "resultsLeft": 1},
+                   {"maxRunBudgetUsd": .009, "resultsLeft": 40}]
+        self.assertEqual(collector.pool_story_plan(options, 10), (1, 1, .0095))
+        state = {"_use_pool": True}
+        with mock.patch.object(collector.apify_pool, "story_run_options", return_value=options), mock.patch.object(
+                collector, "run_actor", return_value=([], {"outcome": "ok", "granted_targets": 1})) as actor:
+            collector.collect_stories(state, [self.source], "", {}, 0, self.now, lambda: None, set())
+        self.assertEqual(actor.call_args.args[4:6], (1, .0095))
+
+    def test_multi_account_capacity_runs_bounded_distinct_batches_and_rechecks_pool(self):
+        options = [{"maxRunBudgetUsd": .2, "resultsLeft": 40} for _ in range(4)]
+        sources = [{**self.source, "id": f"s{i}", "username": f"s{i:02}"} for i in range(25)]
+        state = {"_use_pool": True}
+        with mock.patch.object(collector.apify_pool, "story_run_options", return_value=options) as pool, mock.patch.object(
+                collector, "run_actor", return_value=([], {"outcome": "ok", "granted_targets": 10})) as actor:
+            collector.collect_stories(state, sources, "", {}, 0, self.now, lambda: None, set())
+        self.assertEqual(actor.call_count, 2)
+        self.assertEqual(pool.call_count, 2)
+        usernames = [name for call in actor.call_args_list for name in call.args[3]["usernames"]]
+        self.assertEqual(len(usernames), len(set(usernames)))
+        self.assertEqual(collector.paced_story_runs(options*100), 8)
+        # Revocation/capacity loss before the second batch never borrows old quota.
+        with mock.patch.object(collector.apify_pool, "story_run_options", side_effect=[options, []]), mock.patch.object(
+                collector, "run_actor", return_value=([], {"outcome": "ok", "granted_targets": 10})) as actor:
+            collector.collect_stories({"_use_pool": True}, sources, "", {}, 0, self.now, lambda: None, set())
+        self.assertEqual(actor.call_count, 1)
+
+    def test_multi_run_unknown_or_denied_outcome_does_not_retry(self):
+        options = [{"maxRunBudgetUsd": .2, "resultsLeft": 40} for _ in range(4)]
+        with mock.patch.object(collector.apify_pool, "story_run_options", return_value=options), mock.patch.object(
+                collector, "run_actor", side_effect=RuntimeError("Unknown provider outcome")) as actor:
+            with self.assertRaises(RuntimeError):
+                collector.collect_stories({"_use_pool": True}, [self.source], "", {}, 0, self.now, lambda: None, set())
+        self.assertEqual(actor.call_count, 1)
+        with mock.patch.object(collector.apify_pool, "story_run_options", return_value=options), mock.patch.object(
+                collector, "run_actor", return_value=([], {"outcome": "denied", "reason": "free_capacity_exhausted"})) as actor:
+            collector.collect_stories({"_use_pool": True}, [self.source], "", {}, 0, self.now, lambda: None, set())
+        self.assertEqual(actor.call_count, 1)
+
+    def test_free_tier_denial_keeps_reserved_cap_when_billing_reports_zero(self):
+        state = {}
+        responses = [{"data": {"id": "verified-run", "status": "SUCCEEDED", "usageTotalUsd": 0,
+                              "defaultDatasetId": "dataset", "defaultKeyValueStoreId": "output"}},
+                     [], {"outcome": "denied", "reason": "free_capacity_exhausted"}]
+        with mock.patch.object(collector, "api", side_effect=responses):
+            collector.run_actor(state, "test-token", collector.STORY_ACTOR, {"usernames": ["test"]},
+                                1, .0095, self.now, lambda: None)
+        self.assertEqual(state["runs"][0]["reserved_usd"], .0095)
+        self.assertEqual(state["runs"][0]["reserved_results"], 1)
+        self.assertEqual(state["runs"][0]["cost_usd"], 0)
 
     def test_completed_run_import_caches_media_without_starting_an_actor(self):
         state = {"sources": {"other": {"next_due_at": 123}}, "runs": [{"id": "verified", "status": "SUCCEEDED"}]}

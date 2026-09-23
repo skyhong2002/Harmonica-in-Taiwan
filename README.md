@@ -64,6 +64,8 @@ data/feeds/                本機抓取 inbox 與候選貼文（不進 Git）
 
 HTTP 請求只讀快照；不會因訪客切換語言啟動 Codex 或 Apify。抓取程序與 web 服務分離，第三方暫時失敗時，仍可瀏覽已有資料。
 
+限動抓取參考竹梅的活躍來源優先與分批配速；每批以同一 Apify 帳號的金額／結果容量規劃，維持既有預算與原子預留。抓取後立即執行 `scripts/publish_story_cache.py`，經定向整理與離線 RSS／JSON 發布，不等待個人頁、YouTube、Facebook 或整輪貼文整理。詳見 [Apify 抓取與額度契約](deploy/apify-pool.md)。
+
 ### 資料與網址
 
 - `data/sources/harmonica-source-watchlist-public.csv`：公開來源主清單。

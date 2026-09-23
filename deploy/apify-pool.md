@@ -186,3 +186,49 @@ publication time. Harmonica retains the provider's actual expiry instead;
 Chumei's larger visible count must not be read as proof of more currently active
 24-hour stories. No Chumei session, data store, school filters, or budget settings
 are shared.
+
+
+## Collector scheduling and immediate publication (2026-09-23, #28)
+
+This follows the user's clarification that the requested Chumei comparison
+concerns collection, not just homepage refresh. Both installed pipelines use
+`intropix/instagram-stories-scraper`; Chumei's old cookie/Instaloader collector
+is not its current scheduled path. Harmonica retains its own tokens and pool.
+
+- Previously checked story accounts now rank by recent public/cached activity
+  before the age of the last attempt. Roughly one exploration slot per four
+  choices keeps new sources discoverable; the global country-independent list
+  and twelve-hour eligibility remain.
+- `story_run_options()` pairs each distinct provider account's remaining
+  authorization with its remaining daily result slots. Aliases do not multiply
+  capacity. The planner never combines one account's dollars with another's
+  result slots; `reserve_run()` still rechecks atomically, including revocation.
+- Available complete batches are spread across eight daily collector slots,
+  capped at eight runs per invocation. Capacity is reread between successful
+  runs, and a source is attempted only once per invocation. Explicit accounts
+  remain one bounded run. Denied or unknown outcomes stop the invocation;
+  account-specific denial rotation is not yet implemented.
+- Pipeline order is now story collection → `publish_story_cache.py` → profile
+  collection → other collectors. The publisher holds the native pipeline lock,
+  selects only enabled sources with unexpired cache entries missing publicly,
+  uses the selected-source watchdog with no LLM tags, then generates RSS/JSON
+  offline. No new cache means no subprocesses/rebuild. Existing-source updates
+  do not require build_public_data or calendar writes.
+- The publisher repairs valid pending keys that were marked seen without a
+  candidate after baseline/interruption, using a temporary seen copy. Unrelated
+  seen state is preserved; unreadable existing seen files fail closed.
+
+A single bounded production check requested five accounts including NYCU,
+reserved at most US$0.0275, and confirmed three stories. One new Aiden Soon
+story was published immediately; the two NYCU stories were still active.
+Collection through publication took about 34 seconds. This is an acceptance
+snapshot, not a guaranteed batch yield or coverage frequency.
+
+**Billing correction:** the earlier NYCU run initially reported US$0; a later
+read returned US$0.012 with charged events. Another initially-zero run later
+reported US$0.005 for actor start. `OUTPUT.reason=free` identifies the provider
+tier and does not prove zero cost. Both pooled and legacy paths retain the full
+run cap even for denied/initially-zero outcomes. Unknown results never restore
+budget. Owner US$4/month, daily shares and contributor cumulative authorization
+are unchanged. The observed current one-account pool cannot guarantee daily
+coverage of all 179 configured story sources.

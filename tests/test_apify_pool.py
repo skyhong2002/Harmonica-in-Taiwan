@@ -82,6 +82,42 @@ class ApifyPoolTests(unittest.TestCase):
         self.assertEqual(pool._read()["runs"][0]["reportedCostUsd"], .001)
         self.assertEqual(pool._read()["runs"][0]["reservedUsd"], .2)
 
+    def test_story_options_pair_credit_and_slots_and_reserve_rechecks(self):
+        with pool._locked() as state:
+            state["runs"].append({"id": "earlier", "account": "owner-key", "billingAccount": "provider-id-hash",
+                                  "platform": "instagram_stories", "at": self.now, "reservedUsd": .02,
+                                  "reservedResults": 37, "status": "UNKNOWN"})
+        options = pool.story_run_options(now=self.now)
+        self.assertEqual(len(options), 1)
+        self.assertEqual(options[0]["resultsLeft"], 3)
+        self.assertAlmostEqual(options[0]["maxRunBudgetUsd"], .23)
+        # The three remaining slots can fund a real smaller run; ten cannot.
+        with self.assertRaises(RuntimeError):
+            pool.reserve_run("instagram_stories", .05, result_count=10, now=self.now)
+        pool.reserve_run("instagram_stories", .0185, source_count=3, result_count=3, now=self.now)
+        self.assertEqual(pool.story_run_options(now=self.now), [])
+        with self.assertRaises(RuntimeError):
+            pool.reserve_run("instagram_stories", .0095, result_count=1, now=self.now)
+
+    def test_story_options_do_not_mix_accounts_or_duplicate_aliases(self):
+        self.accounts.extend([
+            {**self.account, "key": "alias", "token": "alias-secret"},
+            {**self.account, "key": "second", "token": "second-secret", "budgetUsd": .08},
+        ])
+        with pool._locked() as state:
+            state["accounts"]["alias"] = {"quota": self.quota}
+            state["accounts"]["second"] = {"quota": {**self.quota, "accountId": "second-provider"}}
+            state["runs"].append({"id": "past", "account": "owner-key", "billingAccount": "provider-id-hash",
+                                  "platform": "instagram_stories", "at": self.now, "reservedUsd": .02,
+                                  "reservedResults": 39, "status": "UNKNOWN"})
+        options = pool.story_run_options(now=self.now)
+        self.assertEqual(options, [{"maxRunBudgetUsd": .02, "resultsLeft": 40},
+                                   {"maxRunBudgetUsd": .23, "resultsLeft": 1}])
+        serialized = json.dumps(options)
+        for secret in ["owner-key", "alias", "second-provider", "secret"]:
+            self.assertNotIn(secret, serialized)
+        self.assertEqual(pool.story_run_options(now=self.now + 3601), [])
+
     def test_corrupt_ledger_never_resets_capacity(self):
         self.path.write_text("not-json")
         with self.assertRaisesRegex(RuntimeError, "unreadable"):

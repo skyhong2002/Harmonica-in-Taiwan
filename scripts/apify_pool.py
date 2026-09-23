@@ -307,6 +307,33 @@ def available_budget(platform, *, refresh=False, now=None):
     return status["platforms"].get(platform, {}).get("maxRunBudgetUsd", 0.0)
 
 
+def story_run_options(*, now=None):
+    """Pair each distinct account's dollars and result allowance for planning.
+
+    Never combine one account's money with another account's result slots.
+    These are only hints: reserve_run rechecks authorization atomically before
+    any actor POST. Unknown/failed runs continue to consume their full reserve.
+    No credential or provider identity leaves this helper.
+    """
+    now = time.time() if now is None else now
+    state, accounts = _read(), token_accounts()
+    providers = {}
+    for account in accounts:
+        row = _account_view(account, state, now, accounts)
+        budget = row["budgets"]["instagram_stories"]
+        if not row["available"] or row["storyResultsLeft"] <= 0 or budget + 1e-9 < MIN_RUN_BUDGET["instagram_stories"]:
+            continue
+        # Aliases of the same provider share result counters. Keep the greatest
+        # still-authorized credential's capacity, never add their credit twice.
+        previous = providers.get(row["billingAccount"])
+        if previous is None or budget > previous["maxRunBudgetUsd"]:
+            providers[row["billingAccount"]] = {
+                "maxRunBudgetUsd": math.floor((budget + 1e-12) * 1_000_000) / 1_000_000,
+                "resultsLeft": row["storyResultsLeft"],
+            }
+    return sorted(providers.values(), key=lambda row: (row["resultsLeft"], row["maxRunBudgetUsd"]), reverse=True)
+
+
 def reserve_run(platform, max_cost_usd, *, source_count=0, result_count=0, refresh=False, now=None):
     """Atomically authorize one bounded POST. Returned token is internal only."""
     now = time.time() if now is None else now
