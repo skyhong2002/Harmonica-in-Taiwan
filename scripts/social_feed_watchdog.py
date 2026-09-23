@@ -150,7 +150,7 @@ THREADS_RELAY_DEFAULT_VARIABLES = THREADS_RELAY_TRUE_VARIABLES | {
     "__relay_internal__pv__BarcelonaShouldShowFediverseM075Featuresrelayprovider",
 }
 OPENAI_BASE_URL = "https://api.openai.com/v1"
-DEFAULT_LLM_MODEL = "gpt-5.4-mini"
+DEFAULT_LLM_MODEL = llm_backend.DEFAULT_API_MODEL
 DEFAULT_LLM_KEYCHAIN_SERVICE = "harmonica-openai"
 DEFAULT_LLM_KEYCHAIN_ACCOUNT = "harmonica"
 LLM_CATEGORIES = {"events", "posts-videos", "student-clubs", "opportunities"}
@@ -2142,6 +2142,7 @@ def curl_json(url: str, token: str, body: dict[str, Any], timeout: int) -> str:
         return llm_backend.codex_chat(body, timeout)
     if token == "codex-cli-session":
         raise RuntimeError("Explicit OpenAI API mode requires an API key")
+    body = llm_backend.compatible_chat_body(body)
     body_path = ""
     try:
         with tempfile.NamedTemporaryFile("w", encoding="utf-8", delete=False) as handle:

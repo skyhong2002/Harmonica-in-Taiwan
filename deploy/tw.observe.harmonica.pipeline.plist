@@ -15,12 +15,16 @@
 
     <key>EnvironmentVariables</key>
     <dict>
+      <key>HARMONICA_CODEX_MODEL</key>
+      <string>gpt-6-sol</string>
+      <key>HARMONICA_LLM_MODEL</key>
+      <string>gpt-6-luna</string>
       <key>HARMONICA_OBSERVE_HOME</key>
       <string>/Users/skyhong/Documents/Harmonica-in-Taiwan</string>
     </dict>
 
     <key>RunAtLoad</key>
-    <true/>
+    <false/>
 
     <key>StartInterval</key>
     <integer>1800</integer>

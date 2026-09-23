@@ -18,6 +18,41 @@ class CodexBackendTests(unittest.TestCase):
             self.assertEqual(watchdog.read_llm_token('unused', 'unused'), ('codex-cli-session', 'codex-cli'))
             run.assert_not_called()
 
+    def test_default_models_are_explicit_gpt6_and_allow_operator_overrides(self):
+        with mock.patch.dict(os.environ, {}, clear=True):
+            self.assertEqual(llm_backend.provider(), 'codex')
+            self.assertEqual(llm_backend.model_name(), 'gpt-6-sol')
+            self.assertEqual(watchdog.DEFAULT_LLM_MODEL, 'gpt-6-luna')
+        for selected, variable, fallback in (
+            ('codex', 'HARMONICA_CODEX_MODEL', 'gpt-6-sol'),
+            ('openai', 'HARMONICA_LLM_MODEL', 'gpt-6-luna'),
+        ):
+            for configured, expected in (('', fallback), ('   ', fallback), ('gpt-6-astra', 'gpt-6-astra')):
+                with self.subTest(provider=selected, configured=configured), mock.patch.dict(
+                    os.environ, {'HARMONICA_LLM_PROVIDER': selected, variable: configured}, clear=True
+                ):
+                    self.assertEqual(llm_backend.model_name(), expected)
+
+    def test_codex_command_pins_default_or_configured_model_and_reports_it(self):
+        for configured, expected in (('', 'gpt-6-sol'), ('gpt-6-astra', 'gpt-6-astra')):
+            with self.subTest(configured=configured), tempfile.TemporaryDirectory() as directory:
+                environment = {'HARMONICA_STATE_DIR': directory, 'HARMONICA_CODEX_MODEL': configured}
+                def run(args, **kwargs):
+                    self.assertEqual(args.count('--model'), 1)
+                    self.assertEqual(args[args.index('--model') + 1], expected)
+                    self.assertIn('--ignore-user-config', args)
+                    self.assertIn('features.shell_tool=false', args)
+                    Path(args[args.index('--output-last-message') + 1]).write_text('{"json":"{}"}')
+                    return mock.Mock(returncode=0)
+                with mock.patch.dict(os.environ, environment, clear=True), \
+                     mock.patch.object(llm_backend, 'codex_binary', return_value=sys.executable), \
+                     mock.patch.object(llm_backend.subprocess, 'run', side_effect=run):
+                    result = json.loads(llm_backend.codex_chat({'model': 'gpt-6-luna', 'messages': []}))
+                self.assertEqual(result['model'], expected)
+                usage = json.loads((Path(directory) / 'codex/usage.json').read_text())
+                self.assertEqual(usage['limit'], 12)
+                self.assertEqual(usage['calls'], 1)
+
     def test_disabled_never_gets_token(self):
         with mock.patch.dict(os.environ, {'HARMONICA_LLM_PROVIDER': 'disabled', 'OPENAI_API_KEY': 'do-not-use'}, clear=True):
             self.assertEqual(watchdog.read_llm_token('', ''), ('', 'disabled'))
@@ -158,6 +193,51 @@ class ClassifierProvenanceTests(unittest.TestCase):
                              {"provider": "codex", "model": "chosen-cli-model", "base_url": "codex-cli"})
         with mock.patch.dict(os.environ, {"HARMONICA_LLM_PROVIDER": "disabled"}):
             self.assertEqual(llm_backend.runtime_metadata("old-model", "unused"), {"provider": "disabled", "model": "", "base_url": ""})
+
+
+class ChatRequestCompatibilityTests(unittest.TestCase):
+    def test_gpt6_sampling_compatibility_preserves_reasoning_and_input(self):
+        for model in ('gpt-6-astra', 'gpt-6-sol', 'gpt-6-luna'):
+            for effort in (None, 'low', 'medium', 'high', 'none'):
+                with self.subTest(model=model, effort=effort):
+                    body = {'model': model, 'messages': [], 'temperature': 0, 'top_p': 1,
+                            'logprobs': False, 'top_logprobs': 2, 'max_completion_tokens': 500,
+                            'response_format': {'type': 'json_object'}}
+                    if effort is not None:
+                        body['reasoning_effort'] = effort
+                    original = json.loads(json.dumps(body))
+                    prepared = llm_backend.compatible_chat_body(body)
+                    self.assertEqual(body, original)
+                    self.assertEqual(prepared.get('reasoning_effort'), effort)
+                    self.assertEqual(prepared['messages'], body['messages'])
+                    self.assertEqual(prepared['response_format'], body['response_format'])
+                    self.assertEqual(prepared['max_completion_tokens'], 500)
+                    for key in ('temperature', 'top_p', 'top_logprobs', 'logprobs'):
+                        self.assertEqual(key in prepared, effort == 'none')
+
+    def test_unrelated_operator_model_keeps_its_request_parameters(self):
+        body = {'model': 'operator-model', 'messages': [], 'temperature': 0, 'top_p': 1, 'logprobs': False}
+        self.assertEqual(llm_backend.compatible_chat_body(body), body)
+
+    def test_explicit_api_mode_serializes_compatible_body_without_mutating_caller(self):
+        body = {'model': 'gpt-6-luna', 'messages': [{'role': 'user', 'content': 'Classify harmonica'}],
+                'temperature': 0, 'reasoning_effort': 'low', 'response_format': {'type': 'json_object'}}
+        sent = []
+        def run(args, **kwargs):
+            data_line = next(line for line in kwargs['input'].splitlines() if line.startswith('data-binary = "@'))
+            payload_path = data_line[len('data-binary = "@'):-1]
+            sent.append(json.loads(Path(payload_path).read_text()))
+            return mock.Mock(returncode=0, stdout='{}')
+        with mock.patch.dict(os.environ, {'HARMONICA_LLM_PROVIDER': 'openai'}, clear=True), \
+             mock.patch.object(watchdog.subprocess, 'run', side_effect=run), \
+             mock.patch.object(llm_backend, 'codex_chat') as cli:
+            self.assertEqual(watchdog.curl_json('https://api.openai.com/v1/chat/completions', 'test-key', body, 10), '{}')
+            cli.assert_not_called()
+        self.assertEqual(len(sent), 1)
+        self.assertNotIn('temperature', sent[0])
+        self.assertEqual(sent[0]['reasoning_effort'], 'low')
+        self.assertEqual(sent[0]['messages'], body['messages'])
+        self.assertEqual(body['temperature'], 0)
 
 
 if __name__ == '__main__':
