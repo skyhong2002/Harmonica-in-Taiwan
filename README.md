@@ -1,10 +1,41 @@
 # Harmonica Observatory · 口琴觀測站
 
-> **目前介面方向（2026-09-23 最後指示，優先於所有舊交接文件）：**還原昨天以前原版口琴觀測站的版面：頂端導覽、有效限動、Google Calendar 官方嵌入，再接三欄 masonry 貼文。首頁與 `/post/` 都隨整個頁面共同垂直捲動；響應式目標為桌面三欄、641–900px 平板最多兩欄（可用寬度不足時單欄）、≤640px 單欄。保留米色底、綠色 Logo、四語介面與全球資料功能，不再採用竹梅的左側導覽、手機固定底部導覽或各欄獨立捲動。下方描述及驗收以此方向為準；舊版竹梅移植紀錄只作歷史參考。
+**從一個地方，探索世界各地的口琴活動、演奏者與樂譜資源。**
 
-跨國口琴活動、公開貼文、演奏者、樂團、社團、教學與樂譜來源索引。由原「臺灣口琴觀測站」擴充，使用竹梅活動觀測站 [skyhong2002/chumei](https://github.com/skyhong2002/chumei) 的公開資料瀏覽、社群 Apify 貢獻及額度管理模式，並保留既有來源網址、資料與 RSS。
+口琴資訊散落在不同社群平台、網站與語言之間。口琴觀測站整理公開活動、貼文、演奏者、樂團、社團、教學與樂譜來源，讓演奏者、教師、學生與愛好者更容易找到資訊，並回到原始來源深入了解。
 
-介面提供 **繁體中文、English、日本語、한국어**。網站主字標依介面語言顯示 **口琴觀測站**、**Harmonica Observatory**、**ハーモニカ観測所**、**하모니카 관측소**。依使用者後續要求，繁中／日文／韓文版在主字標下搭配 **HARMONICA OBSERVATORY** 英文副標，英文版不重複顯示。瀏覽器標題、SEO 與 OG 品牌同步本地化。介面語言與國家篩選獨立；公開貼文、名稱和來源簡介保留原文與原始連結，不偽造翻譯或活動日期。
+Discover harmonica events, artists, ensembles, clubs and score resources around the world, with links to the original sources.
+
+**[開啟口琴觀測站](https://harmonica.observe.tw/)** · [瀏覽活動](https://harmonica.observe.tw/events/) · [探索來源](https://harmonica.observe.tw/source/) · [尋找樂譜](https://harmonica.observe.tw/scores/)
+
+介面提供 **繁體中文、English、日本語、한국어**。你可以用習慣的介面語言，搜尋不同國家與地區的內容；語言選擇與國家篩選彼此獨立。
+
+## 可以找到什麼？
+
+| 想做的事 | 從這裡開始 |
+| --- | --- |
+| 找演出、比賽、課程與線上活動 | [活動](https://harmonica.observe.tw/events/)：查看日期、地點與原始公告；首頁也提供 Google Calendar 行事曆。 |
+| 追蹤口琴圈的公開動態 | [貼文](https://harmonica.observe.tw/post/)：搜尋公開貼文，查看原文、圖片、影片與來源連結；首頁另有有效限時動態預覽。 |
+| 認識演奏者、樂團、社團與教學單位 | [來源名錄](https://harmonica.observe.tw/source/)：依關鍵字、國家與地區探索收錄來源。 |
+| 找比賽指定曲、出版者與譜集 | [樂譜](https://harmonica.observe.tw/scores/)與[出版來源](https://harmonica.observe.tw/scores/sources/)：依學年度、編制、組別等條件查找，連回公告或出版／洽詢入口。 |
+| 訂閱後續更新 | [訂閱](https://harmonica.observe.tw/feeds/)：使用 RSS 或 ICS，將動態與活動加入自己的閱讀器或行事曆。 |
+
+## 資料與使用方式
+
+- **保留原始來源。** 貼文保留原文與原始連結；來源名稱及簡介提供參考譯文，並保留收錄原名與原文供對照。
+- **依實際資料呈現。** 活動保留原始時區；可在[狀態頁](https://harmonica.observe.tw/status/)查看資料更新時間與平台狀態。收錄範圍與更新速度依來源可用性而異。
+- **樂譜以索引為主。** 收錄指定曲資訊、官方佐證與出版線索，不代表每筆都有完整樂譜可下載，也不提供未授權檔案。
+- **限動有展示期限。** 快取依原始發布時間展示 48 小時，卡片標示「展示至」；Instagram 原文可能較早到期。頁面每分鐘及返回分頁時自動更新。
+
+## 一起補充口琴資源
+
+知道尚未收錄的演奏者、團體、活動或樂譜來源，或發現資料需要修正？歡迎透過[投稿與回報](https://harmonica.observe.tw/submit/)提供公開網址及說明。各內容頁也有回報入口，可帶入已知資料；投稿經審核後才會更新公開內容。
+
+想協助持續更新社群資訊，可透過 [Apify 額度貢獻](https://harmonica.observe.tw/contribute/)設定累計金額上限，並隨時撤回授權。頁面會顯示容量與更新頻率估算，實際更新仍取決於來源與抓取結果。
+
+貢獻與投稿可透過 Google 登入綁定帳號並跨裝置管理；登入時會移轉此瀏覽器尚未綁定的紀錄。未登入仍可使用原瀏覽器的安全 cookie 管理；未綁定前清除 cookie 後，需在 Apify 撤銷原 token。Google 登入不要求 Google Calendar 權限。
+
+開發者也可以協助改善程式、介面翻譯或公開來源資料。以下提供本機啟動方式、資料結構與驗證指令；新增來源請先閱讀[來源收錄規範](.agents/AGENTS.md)，部署以[本機部署文件](deploy/local-hosting.md)為準。
 
 ## 本機啟動
 
@@ -27,25 +58,6 @@ macOS 常駐服務：
 ```
 
 完整的 Caddy、DNS、HTTPS、備份、排程與復原方式見 [本機部署](deploy/local-hosting.md)。DNS 由維護者切換；應用程式不修改 DNS。
-
-## 功能
-
-介面恢復原版口琴觀測站的頂端導覽與貼文卡片排版，保留米色底與綠色識別。桌面使用三欄 masonry 貼文，窄螢幕減為兩欄或單欄，全部隨頁面共同垂直捲動；手機導覽位於頁面頂端。外觀可選淺色、深色或跟隨系統。
-
-首頁 `/` 恢復原站的組合順序：**大型限動預覽 → Google Calendar 官方嵌入 → masonry 貼文**，整頁可向下瀏覽。`/post/` 是提供搜尋與篩選的完整動態頁，採相同卡片與整頁捲動方式。兩者不鎖定視窗，也不建立各欄獨立捲動的 deck；不加入大型行銷 hero。
-
-- 全球來源目錄、關鍵字搜尋與國家篩選；來源詳細頁沿用穩定 permalink。
-- 公開貼文與限時動態，保留原文及原始來源按鈕。限動直接顯示內容預覽；貼文圖片依河道寬度展開，完整保留海報比例，不以小縮圖或厚重外框搶走焦點。
-- 有明確日期的活動、歷史活動與線上活動，保留活動原始時區。首頁沿用原版 Google Calendar 議程嵌入，可切換臺灣、海外與線上活動日曆，並提供 Google 原頁和各 ICS 訂閱連結；介面語言與瀏覽器時區獨立。活動清單與 ICS 仍保留 civil date、exclusive 結束日與當地時區語意。
-- 樂譜分為比賽指定曲與出版者／譜集索引，支援搜尋、國家、學年度、編制、組別、出版來源與排序，篩選數量依實際資料計算。原始佐證與出版／洽詢入口分開保留；索引不代表每筆有可下載的完整樂譜，也不提供未授權檔案。
-- RSS／ICS 與無登入公開 JSON API。
-- Apify 額度貢獻：驗證、加密保存、累計美元上限、撤回、即時容量估算。
-- 貼文、活動、來源與樂譜可從情境回報連結進入 `/submit/`，預填公開網址、名稱與已知國家；未知國家不預設臺灣。舊回報網址參數仍相容，回報只進本機待審核佇列，不會立即修改公開資料。
-- 真實資料更新時間與各平台狀態，缺資料或額度未驗證時不捏造數值。
-
-首頁使用 Google 官方 iframe；公開日曆 ID 由既有同步快照的白名單欄位提供，不公開憑證或本機路徑。這台主機已有三個 Google 公開日曆正常同步；本次恢復嵌入沿用既有設定。沒有新增獨立 `/calendar/` 路由、OAuth 登入或推播。
-
-目前貢獻管理以原瀏覽器的安全 cookie 識別，非跨裝置 OAuth 帳號。清除 cookie 後，需在 Apify 撤銷原 token。容量與更新頻率是基於額度的估算，並非送達保證。
 
 ## 架構
 
@@ -78,7 +90,7 @@ HTTP 請求只讀快照；不會因訪客切換語言啟動 Codex 或 Apify。�
 - `data/sources/source-description-translations.json`：全部來源簡介及標籤的四語譯文；`event-description-translations.json` 保存活動整理說明譯文。譯文須與原始紀錄完全匹配才使用；詳頁、SSR與SEO跟隨介面語言，原文可展開查看。以 `scripts/validate_description_translations.py` 檢查新資料是否缺譯文，不因訪客瀏覽呼叫翻譯服務。
 - `data/sources/score-source-media.json`：逐筆核對的書籍封面、公告圖片及原始頁面。明確執行 `.venv/bin/python scripts/cache_score_source_images.py` 可重建本機預覽；不隨訪客請求或離線建置抓圖。
 
-`public_id` 不因排序或新插入資料而重編。`country` 是主所屬國家／地區，`region` 為較細地理資訊；未知地區不可默認為臺灣。新增來源應依 `.agents/AGENTS.md` 取得官方頭像、公開自介並驗證輸出。
+`public_id` 不因排序或新插入資料而重編。`country` 是主所屬國家／地區，`region` 為較細地理資訊；未知地區不預設國家。新增來源應依 `.agents/AGENTS.md` 取得官方頭像、公開自介並驗證輸出。
 
 ### 抓取與 Apify
 
@@ -134,10 +146,13 @@ npm --prefix web test
 
 只 commit 原始碼、語系、公開來源 CSV 與部署說明；`site/api`、生成 HTML、抓取快照、圖片快取、token、SQLite、密鑰與 logs 不進 Git。
 
-MIT License · Sky Hong。Chumei 的 MIT 授權模式與實作是本次重構的參考基礎；這個服務不共用其登入、資料庫、密鑰或其他帳號額度。
+## 維護文件
 
-品牌、原版頂端導覽、限動／Google Calendar 首頁、整頁三欄貼文、樂譜篩選與情境回報已實作。本次整合通過 232 項 Python、65 項前端測試、91 項正式 HTTPS 檢查及真實桌面／平板／手機驗收；詳見 [原版版面還原驗收](deploy/original-layout-acceptance-2026-09-23.md)。較早的 [圖片與限動修正](deploy/media-home-acceptance-2026-09-23.md)、[竹梅 UI 驗收](deploy/ui-acceptance-2026-09-23.md) 及 [前輪交接 prompt](deploy/next-agent-prompt-2026-09-23.md) 僅記錄歷史快照；最新介面方向見 [UI 接手說明](web/CHUMEI_UI_HANDOFF.md)。
+- [介面與互動規範](web/CHUMEI_UI_HANDOFF.md)：目前版面要求與歷史設計紀錄。
+- [版面驗收](deploy/original-layout-acceptance-2026-09-23.md)、[使用體驗評估](deploy/heuristic-evaluation-2026-09-23.md)、[多語名錄與資訊密度](deploy/density-multilingual-acceptance-2026-09-23.md)：各次變更的驗收紀錄，測試數字僅代表當時版本。
 
-最新跨國使用與啟發式評估由三個平行代理完成，18 個確認問題已修正，包含日期／時區、篩選、跨語操作、表單與無障礙；完整 249 項 Python、80 項前端測試通過。詳見 [評估與 issue 對照](deploy/heuristic-evaluation-2026-09-23.md)。
+## 授權與致謝
 
-活動頁現已呈現可驗證的原始貼文、海報與影片；樂譜改為桌面全寬密集表格。依最新資訊精簡要求，名錄預設只顯示介面語言名稱及不同的收錄原名，其他譯名與分類收合；操作與固定分類跟隨介面語言，原文與原始連結保留。重複的資料處理說明移除，樂譜索引說明可按需展開。實作、資料限制及測試見 [密度與多語名錄驗收](deploy/density-multilingual-acceptance-2026-09-23.md)。
+MIT License · Sky Hong。
+
+公開資料瀏覽與 Apify 額度貢獻機制參考 [竹梅活動觀測站（Chumei）](https://github.com/skyhong2002/chumei) 的 MIT 授權實作。口琴觀測站獨立管理資料、登入與服務憑證。
