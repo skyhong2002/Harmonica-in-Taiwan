@@ -72,7 +72,7 @@ Proxy status: DNS only during initial GitHub Pages verification
 TTL: Auto
 ```
 
-Do not point this subdomain to `skyhong2002.github.io/Harmonica-in-Taiwan` or
+Do not point this subdomain to `skyhong2002.github.io/harmonica-observatory` or
 to the old machine IP. GitHub Pages expects the CNAME target to exclude the
 repository name.
 

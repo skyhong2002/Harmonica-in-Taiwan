@@ -10,13 +10,13 @@
 
 | Issue | 嚴重度／準則 | 可重現問題 | 修正 |
 | --- | --- | --- | --- |
-| [#3](https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/3) | 2／系統狀態可見、一致性 | `/events/?lang=ja` 國家選單日本顯示來源數 21，當時只有 3 活動。 | 各頁依實際資料類型、搜尋、平台、類別、追蹤與日期篩選計算；不因介面語言改國家。國家按當地名稱排序。 |
-| [#4](https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/4) | 2／符合使用者語言 | 日文與韓文名錄／詳頁「網站」仍是中文。手機國家只有 CN、KR 縮寫。 | 只將通用網站操作本地化，保留來源名稱及自訂連結標題；手機使用本地國名。 |
-| [#5](https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/5) | 2／識別優於記憶 | 樂譜年度只列 115、114，非臺灣訪客無法直接理解年份。 | 臺灣民國年加 1911 為西元起始年，例如 115 → 2026（民國 115）；原始 query 值保留。其他國家及已是西元的年份不轉換；跨國排序比較轉換後年份。沒有推論完整學期起訖日期。 |
-| [#12](https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/12) | 2／狀態可見 | 過往活動 The Power of Melody 是 9/6–9/9，但卡片只列 9/6 全天。 | 全天 exclusive end 減一個 civil day，呈現完整日期範圍，單日不重複。Tokyo、Seoul、Taipei、美洲 DST 測試不偏一天。 |
-| [#13](https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/13) | 1／使用者控制 | 僅切換過往活動後沒有清除篩選按鈕。 | 日期篩選也顯示 reset；重設回到 upcoming。 |
-| [#6](https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/6) | 3／真實世界對應、防止錯誤 | 橫濱 Christmas Concert 標為臺灣／Asia/Taipei、15:00+08。 | 明確 venue/city 優先；分類不再把理由「不是臺灣活動」的臺灣字樣當作肯定地點。舊快取唯讀重新正規化後產生日本／Asia/Tokyo、15:00+09。未知地點不補臺灣。 |
-| [#19](https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/19) | 3／真實世界對應 | 武陵來源原文「09/25（五）～09/28（一）」「每晚 20:30～21:30」，卻只出兩個端點活動且 9/28 結束時間為22:30。 | 明確每日、具標籤的日期／時間區塊、唯一短日期範圍與公告時間才展開四場；四晚均20:30–21:30。處理全形～、週幾括號、跨午夜與 AM/PM／東亞時段。若來源未公告 end，保留日曆占位並公開 endEstimated，介面明示未公告，ICS／Google 說明標示估計。 |
+| [#3](https://github.com/skyhong2002/harmonica-observatory/issues/3) | 2／系統狀態可見、一致性 | `/events/?lang=ja` 國家選單日本顯示來源數 21，當時只有 3 活動。 | 各頁依實際資料類型、搜尋、平台、類別、追蹤與日期篩選計算；不因介面語言改國家。國家按當地名稱排序。 |
+| [#4](https://github.com/skyhong2002/harmonica-observatory/issues/4) | 2／符合使用者語言 | 日文與韓文名錄／詳頁「網站」仍是中文。手機國家只有 CN、KR 縮寫。 | 只將通用網站操作本地化，保留來源名稱及自訂連結標題；手機使用本地國名。 |
+| [#5](https://github.com/skyhong2002/harmonica-observatory/issues/5) | 2／識別優於記憶 | 樂譜年度只列 115、114，非臺灣訪客無法直接理解年份。 | 臺灣民國年加 1911 為西元起始年，例如 115 → 2026（民國 115）；原始 query 值保留。其他國家及已是西元的年份不轉換；跨國排序比較轉換後年份。沒有推論完整學期起訖日期。 |
+| [#12](https://github.com/skyhong2002/harmonica-observatory/issues/12) | 2／狀態可見 | 過往活動 The Power of Melody 是 9/6–9/9，但卡片只列 9/6 全天。 | 全天 exclusive end 減一個 civil day，呈現完整日期範圍，單日不重複。Tokyo、Seoul、Taipei、美洲 DST 測試不偏一天。 |
+| [#13](https://github.com/skyhong2002/harmonica-observatory/issues/13) | 1／使用者控制 | 僅切換過往活動後沒有清除篩選按鈕。 | 日期篩選也顯示 reset；重設回到 upcoming。 |
+| [#6](https://github.com/skyhong2002/harmonica-observatory/issues/6) | 3／真實世界對應、防止錯誤 | 橫濱 Christmas Concert 標為臺灣／Asia/Taipei、15:00+08。 | 明確 venue/city 優先；分類不再把理由「不是臺灣活動」的臺灣字樣當作肯定地點。舊快取唯讀重新正規化後產生日本／Asia/Tokyo、15:00+09。未知地點不補臺灣。 |
+| [#19](https://github.com/skyhong2002/harmonica-observatory/issues/19) | 3／真實世界對應 | 武陵來源原文「09/25（五）～09/28（一）」「每晚 20:30～21:30」，卻只出兩個端點活動且 9/28 結束時間為22:30。 | 明確每日、具標籤的日期／時間區塊、唯一短日期範圍與公告時間才展開四場；四晚均20:30–21:30。處理全形～、週幾括號、跨午夜與 AM/PM／東亞時段。若來源未公告 end，保留日曆占位並公開 endEstimated，介面明示未公告，ICS／Google 說明標示估計。 |
 
 另與 root、全球河道 agent 協作網站快照來源辨識：來源詳頁保留原文，但標明「網站頁面快照」與觀測時間，不把抓取日稱為貼文發布日；預設河道國家數排除此類快照，明確選網站平台時仍可查閱。
 

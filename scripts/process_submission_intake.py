@@ -50,7 +50,7 @@ DEFAULT_LOCK = PROJECT_ROOT / "state" / "submission-intake.lock"
 WORKTREE_ROOT = PROJECT_ROOT / "state" / "submission-worktrees"
 PIPELINE_LOCK = PROJECT_ROOT / "state" / "run_pipeline.lock"
 PIPELINE_LABEL = "tw.observe.harmonica.pipeline"
-REPOSITORY = "skyhong2002/Harmonica-in-Taiwan"
+REPOSITORY = "skyhong2002/harmonica-observatory"
 
 
 def run(

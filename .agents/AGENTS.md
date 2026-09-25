@@ -1,4 +1,4 @@
-# Harmonica in Taiwan - Workspace Rules
+# Harmonica Observatory - Workspace Rules
 
 Whenever adding a new entry to the public watchlist (`data/sources/harmonica-source-watchlist-public.csv`):
 

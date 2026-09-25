@@ -14,25 +14,25 @@
 
 | Issue | 嚴重度 | 問題 | 狀態 |
 | --- | --- | --- | --- |
-| [#3](https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/3) | S2 | 國家篩選數量與目前瀏覽內容不符 | 已修正並驗收 |
-| [#4](https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/4) | S2 | 日文與韓文版的來源操作殘留中文「網站」 | 已修正並驗收 |
-| [#5](https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/5) | S2 | 民國樂譜年度對國際訪客缺乏西元對照 | 已修正並驗收 |
-| [#6](https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/6) | S3 | 日本橫濱活動被歸為臺灣及臺北時區 | 已修正並驗收 |
-| [#7](https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/7) | S2 | Google 日曆外開連結沒有保留已選日曆 | 已修正並驗收 |
-| [#8](https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/8) | S2 | 動態舊年份與連結活動時間資訊不足 | 已修正並驗收 |
-| [#9](https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/9) | S2 | 追蹤河道空白時未引導追蹤來源 | 已修正並驗收 |
-| [#10](https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/10) | S2 | 限動媒體載入失敗時缺乏可靠替代回饋 | 已修正並驗收 |
-| [#11](https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/11) | S3 | 網站抓取時間被當作貼文發布時間且整頁導覽進入最新動態 | 已修正並驗收 |
-| [#12](https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/12) | S2 | 多日活動未顯示結束日，容易誤判行程 | 已修正並驗收 |
-| [#13](https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/13) | S1 | 只篩選過往活動時沒有清除篩選入口 | 已修正並驗收 |
-| [#14](https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/14) | S3 | 表單回應遺失焦點且缺乏可辨識的持續結果 | 已修正並驗收 |
-| [#15](https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/15) | S2 | 撤回確認沒有可及名稱與具體紀錄且缺少防重送 | 已修正並驗收 |
-| [#16](https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/16) | S2 | 外國訪客難以發現藏在本地語言更多選單內的語言切換 | 已修正並驗收 |
-| [#17](https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/17) | S3 | 切換介面語言會清除貢獻或提供來源表單草稿 | 已修正並驗收 |
-| [#18](https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/18) | S2 | 放大文字時英日文 Logo 與導覽遭截斷 | 已修正並驗收 |
-| [#19](https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/19) | S3 | 明確一小時的活動被加成兩小時，連續四晚日期也遺漏 | 已修正並驗收 |
+| [#3](https://github.com/skyhong2002/harmonica-observatory/issues/3) | S2 | 國家篩選數量與目前瀏覽內容不符 | 已修正並驗收 |
+| [#4](https://github.com/skyhong2002/harmonica-observatory/issues/4) | S2 | 日文與韓文版的來源操作殘留中文「網站」 | 已修正並驗收 |
+| [#5](https://github.com/skyhong2002/harmonica-observatory/issues/5) | S2 | 民國樂譜年度對國際訪客缺乏西元對照 | 已修正並驗收 |
+| [#6](https://github.com/skyhong2002/harmonica-observatory/issues/6) | S3 | 日本橫濱活動被歸為臺灣及臺北時區 | 已修正並驗收 |
+| [#7](https://github.com/skyhong2002/harmonica-observatory/issues/7) | S2 | Google 日曆外開連結沒有保留已選日曆 | 已修正並驗收 |
+| [#8](https://github.com/skyhong2002/harmonica-observatory/issues/8) | S2 | 動態舊年份與連結活動時間資訊不足 | 已修正並驗收 |
+| [#9](https://github.com/skyhong2002/harmonica-observatory/issues/9) | S2 | 追蹤河道空白時未引導追蹤來源 | 已修正並驗收 |
+| [#10](https://github.com/skyhong2002/harmonica-observatory/issues/10) | S2 | 限動媒體載入失敗時缺乏可靠替代回饋 | 已修正並驗收 |
+| [#11](https://github.com/skyhong2002/harmonica-observatory/issues/11) | S3 | 網站抓取時間被當作貼文發布時間且整頁導覽進入最新動態 | 已修正並驗收 |
+| [#12](https://github.com/skyhong2002/harmonica-observatory/issues/12) | S2 | 多日活動未顯示結束日，容易誤判行程 | 已修正並驗收 |
+| [#13](https://github.com/skyhong2002/harmonica-observatory/issues/13) | S1 | 只篩選過往活動時沒有清除篩選入口 | 已修正並驗收 |
+| [#14](https://github.com/skyhong2002/harmonica-observatory/issues/14) | S3 | 表單回應遺失焦點且缺乏可辨識的持續結果 | 已修正並驗收 |
+| [#15](https://github.com/skyhong2002/harmonica-observatory/issues/15) | S2 | 撤回確認沒有可及名稱與具體紀錄且缺少防重送 | 已修正並驗收 |
+| [#16](https://github.com/skyhong2002/harmonica-observatory/issues/16) | S2 | 外國訪客難以發現藏在本地語言更多選單內的語言切換 | 已修正並驗收 |
+| [#17](https://github.com/skyhong2002/harmonica-observatory/issues/17) | S3 | 切換介面語言會清除貢獻或提供來源表單草稿 | 已修正並驗收 |
+| [#18](https://github.com/skyhong2002/harmonica-observatory/issues/18) | S2 | 放大文字時英日文 Logo 與導覽遭截斷 | 已修正並驗收 |
+| [#19](https://github.com/skyhong2002/harmonica-observatory/issues/19) | S3 | 明確一小時的活動被加成兩小時，連續四晚日期也遺漏 | 已修正並驗收 |
 
-| [#20](https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/20) | S3 | 全天改為定時活動時 Google 日曆同步失敗 | 已修正並驗收 |
+| [#20](https://github.com/skyhong2002/harmonica-observatory/issues/20) | S3 | 全天改為定時活動時 Google 日曆同步失敗 | 已修正並驗收 |
 
 ## 修正細節與證據
 

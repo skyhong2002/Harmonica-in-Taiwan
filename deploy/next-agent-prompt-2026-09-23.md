@@ -12,7 +12,7 @@
 
 ## 工作位置及必讀檔案
 
-- 目標 repo：`/Users/skyhong/Documents/Harmonica-in-Taiwan`，GitHub `skyhong2002/Harmonica-in-Taiwan`，branch `main`。
+- 目標 repo：`/Users/skyhong/Documents/Harmonica-in-Taiwan`，GitHub `skyhong2002/harmonica-observatory`，branch `main`。
 - 參考 repo：`/Users/skyhong/Projects/chumei`，GitHub `skyhong2002/chumei`。只讀參考，不改動竹梅的服務、資料、憑證或帳號。
 - 正式目標：`https://harmonica.observe.tw/`。
 - 本機目標：`http://localhost:8330/`，服務實際綁定 `127.0.0.1:8330`。

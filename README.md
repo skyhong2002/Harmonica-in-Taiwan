@@ -6,7 +6,7 @@
 
 Discover harmonica events, artists, ensembles, clubs and score resources around the world, with links to the original sources.
 
-**[開啟口琴觀測站](https://harmonica.observe.tw/)** · [瀏覽活動](https://harmonica.observe.tw/events/) · [探索來源](https://harmonica.observe.tw/source/) · [尋找樂譜](https://harmonica.observe.tw/scores/)
+**[開啟口琴觀測站](https://harmonica.observe.tw/)** · [GitHub](https://github.com/skyhong2002/harmonica-observatory) · [瀏覽活動](https://harmonica.observe.tw/events/) · [探索來源](https://harmonica.observe.tw/source/) · [尋找樂譜](https://harmonica.observe.tw/scores/)
 
 介面提供 **繁體中文、English、日本語、한국어**。你可以用習慣的介面語言，搜尋不同國家與地區的內容；語言選擇與國家篩選彼此獨立。
 
